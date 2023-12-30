@@ -1,0 +1,15 @@
+ubiquitous 到处存在的
+surveillance 监督，监视
+bottleneck 瓶颈
+paradigm 范例
+explicit 明确的，清晰的
+adversely 不利地
+leverage 利用，杠杆
+preliminary 初步的，预备的
+elaborate 详尽的
+fusion 融合
+Concatenation 级联
+annotation 注解，评注
+contrastive 对比的
+augmented 增强的，扩张的
+instance 场合，例子

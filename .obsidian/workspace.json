@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "9f653fe1d84d236b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9c39c45ba5a9d7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a55bb0d0daa54c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/2023-preprocessing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30893bcf7e84f3c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paperwords/2023-preprocessing-w.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f1065e6e5e09393",
+    "type": "split",
+    "children": [
+      {
+        "id": "035c69471c9e1850",
+        "type": "tabs",
+        "dimension": 73.6842105263158,
+        "children": [
+          {
+            "id": "85cc9493daeac8f1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d17cd7ae1e3bb0b7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ddd5c0671d1ce879",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "d14deeddadd8e89d",
+        "type": "tabs",
+        "dimension": 26.315789473684212,
+        "children": [
+          {
+            "id": "64dbf49a27a48b89",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 202.5
+  },
+  "right": {
+    "id": "f8efb7f1388c37a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "958c969b08156d0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8474cbb6d23a62e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0cabbd7a9c94fee5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Paperwords/2023-preprocessing-w.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "1de2cec3698ffe1b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Paperwords/2023-preprocessing-w.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1ee4b7f02f2a406f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Paperwords/2023-preprocessing-w.md"
+              }
+            }
+          },
+          {
+            "id": "76eddf6fddd8ee15",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "319182edb37e53c9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ff7369599ba655b",
+            "type": "leaf",
+            "state": {
+              "type": "zotero-annotation-view",
+              "state": {
+                "file": "Paperwords/2023-preprocessing-w.md",
+                "itemId": -1,
+                "attachmentId": -1,
+                "follow": "ob-note"
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 510.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-file-cleaner:清理文件": false,
+      "cmdr:ZotLit: Refresh Zotero data": false,
+      "cmdr:ZotLit: Open quick switcher for literature notes": false,
+      "cmdr:ZotLit: Open Zotero annotation view in side panel": false
+    }
+  },
+  "active": "30893bcf7e84f3c2",
+  "lastOpenFiles": [
+    "LiteratureNotes/2023-preprocessing.md",
+    "Attachments/Pasted image 20231229190115.png",
+    "Attachments/Pasted image 20231229185544.png",
+    "Attachments/Pasted image 20231229181914.png",
+    "Attachments/Pasted image 20231229175458.png",
+    "Attachments/Pasted image 20231229150153.png",
+    "Paperwords/2023-preprocessing-w.md",
+    "Attachments/Pasted image 20231229144240.png",
+    "Attachments/Pasted image 20231229143957.png",
+    "Paperwords/gutierrez-barragan2023-learneda-w.md",
+    "Sundry/vim.md",
+    "Attachments/Pasted image 20231228103421.png",
+    "Sundry/neovim配置.md",
+    "Sundry/C++.md",
+    "Notecards/VAE.md",
+    "Sundry/Powershell中激活conda环境.md",
+    "diary/2023-12-16.md",
+    "Attachments/Pasted image 20231220104254.png",
+    "diary/2023-12-17.md",
+    "diary/2023-12-15.md",
+    "Notecards/ANS及其实现技巧.md",
+    "Notecards/Transformer.md",
+    "Notecards/STE.md",
+    "Notecards/RNN.md",
+    "Notecards/PSNR与SSIM.md",
+    "Notecards/Normalization.md",
+    "Notecards/I Frame and P Frame.md",
+    "Notecards/Gumbel Softmax.md",
+    "Notecards/DM.md",
+    "Notecards/无符号整数除法计算的优化.md",
+    "Notecards/熵.md",
+    "Notecards/矩阵微分.md",
+    "Notecards/光流.md",
+    "Notecards/哥伦布编码.md",
+    "Attachments/Pasted image 20231210140730.png",
+    "未命名",
+    "Pytorch",
+    "未命名.canvas",
+    "Paperwords",
+    "未命名 1.canvas",
+    "LiteratureNotes",
+    "ZtTemplates",
+    "Attachments/monaco.ttf",
+    "monaco.ttf",
+    "Excalidraw",
+    "未命名 3",
+    "未命名 2"
+  ]
+}

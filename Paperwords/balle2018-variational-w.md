@@ -1,0 +1,15 @@
+virtually 实际上，几乎
+underlying 潜在的
+instance 例子
+feasible 可行的
+homogeneous 同质的
+formalism 形式主义
+encapsulate 装入胶囊，封进内部；压缩，概括
+perceptual 感知的
+warping 翘曲
+substitute 替代
+tilde 波浪线
+intractable 难以驾驭的
+univariate 单变量
+stark 明显的，鲜明的
+textured 有织纹的，质地不平的

@@ -1,0 +1,10 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "comference": "text",
+    "authors": "multitext",
+    "conference": "text"
+  }
+}

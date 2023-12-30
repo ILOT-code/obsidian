@@ -1,0 +1,10 @@
+disseminate 散播
+plethora 过量
+subpar 不够标准的
+discrepancy 差异
+mitigate 减轻，缓和
+akin 同族的，同类的，近似的
+deploy 部署
+premise 前提
+mutually 互相地
+necessitate 迫使

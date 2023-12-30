@@ -1,0 +1,12 @@
+substantially 大大地，实质上
+elaborate 详尽的，复杂的
+modalities 形式，样式
+modality-agnostic 模态不可知论者
+datum 资料，数据
+discrepancy 差异
+stochastic 随机的
+intractable 难以驾驭的
+crude 粗糙的，天然的
+trivial 不重要的，琐碎的
+permuting 排序
+perturbs 扰动

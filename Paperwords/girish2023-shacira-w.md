@@ -1,0 +1,13 @@
+task-agnostic 任务无关的
+post-hoc 事后
+modality 形式，样式
+inherent 固有的
+inherit 继承
+anneal 退火，煅烧
+gigapixel 十亿像素
+trivial 平凡的，繁琐的
+geometry 几何，几何学
+scalability 扩展性，可伸缩性
+alleviate 缓解
+notational 记号，注释，表示
+proxy 代理

@@ -1,0 +1,22 @@
+milestones 里程碑
+rule out 排除
+customarily 通常
+finite 有限的
+depict 描绘
+fixed 固定的
+affine 仿射
+interpretation 解释
+empirical 经验主义的
+histograms 直方图
+alphabet 字母表
+finite 有限的
+compound 复合
+mutual 相互的
+symmetry 对称性
+anticipate 预期，预料
+dictate 命令，支配
+equiprobable 等概率的
+collapse 坍塌，崩溃
+cumulative 累积的
+atypical 非典型的
+recursion 循环
