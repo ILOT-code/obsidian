@@ -4,7 +4,7 @@
   "interfaceFontFamily": "",
   "monospaceFontFamily": "JetBrains Mono",
   "theme": "moonstone",
-  "baseFontSize": 11,
+  "baseFontSize": 12,
   "enabledCssSnippets": [
     "Roundcheckbxes",
     "table",
