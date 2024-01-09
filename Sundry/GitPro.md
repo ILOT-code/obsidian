@@ -99,7 +99,7 @@ git add dirname   对文件夹下的文件递归执行git add
 
 精简状态输出：
 ```console
-$ git status -s
+git status -s
  M README
 MM Rakefile
 A  lib/git.rb
@@ -277,6 +277,7 @@ $ git rebase --onto master server client
 ```
 
 以上命令的意思是：“取出 `client` 分支，找出它从 `server` 分支分歧之后的补丁，然后把这些补丁在 `master` 分支上重放一遍，让 `client` 看起来像直接基于 `master` 修改一样”。
+
 
 
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "051d829a7f424436",
+        "id": "1c0ccba44b43d8e9",
         "type": "tabs",
         "children": [
           {
-            "id": "cb167c662ce2035e",
+            "id": "848f2ec7584f6819",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -27,7 +27,7 @@
       {
         "id": "035c69471c9e1850",
         "type": "tabs",
-        "dimension": 73.6842105263158,
+        "dimension": 58.33333333333334,
         "children": [
           {
             "id": "85cc9493daeac8f1",
@@ -67,7 +67,7 @@
       {
         "id": "d14deeddadd8e89d",
         "type": "tabs",
-        "dimension": 26.315789473684212,
+        "dimension": 41.66666666666666,
         "children": [
           {
             "id": "64dbf49a27a48b89",
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 200
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -159,18 +159,18 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "itemId": 379,
-                "attachmentId": 381,
+                "itemId": 389,
+                "attachmentId": 390,
                 "follow": "zt-reader"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 510.5,
+    "width": 393.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -187,47 +187,47 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "cb167c662ce2035e",
+  "active": "848f2ec7584f6819",
   "lastOpenFiles": [
-    "Notecards/ANS及其实现技巧.md",
-    "Notecards/矩阵微分.md",
-    "LiteratureNotes/marpe2003-contextbased.md",
-    "Sundry/Numpy.md",
     "Sundry/GitPro.md",
-    "Sundry/Latex.md",
+    "未命名.md",
+    "Notecards/Transformer.md",
+    "Notecards/ANS及其实现技巧.md",
+    "LiteratureNotes/ladune2023-coolchic.md",
+    "LiteratureNotes/2023-preprocessing.md",
+    "diary/2023-12-17.md",
+    "balle2018-variational.md",
+    "LiteratureNotes/flamich2022-fast.md",
+    "LiteratureNotes/girish2023-shacira.md",
+    "LiteratureNotes/guo2023-compression.md",
+    "LiteratureNotes/liu2023-learned.md",
+    "LiteratureNotes/marpe2003-contextbased.md",
+    "LiteratureNotes/muller2022-instant.md",
+    "LiteratureNotes/yang2023-lossy.md",
+    "LiteratureNotes/tang2023-scene.md",
     "LiteratureNotes/sneyers2016-flif.md",
+    "LiteratureNotes/salimans2022-progressive.md",
+    "Attachments/Pasted image 20240107170225.png",
+    "Attachments/Pasted image 20240107165636.png",
+    "Attachments/Pasted image 20240107164822.png",
+    "Attachments/Pasted image 20240107163930.png",
+    "Attachments/Pasted image 20240107163755.png",
+    "Attachments/Pasted image 20240107161642.png",
+    "Attachments/Pasted image 20240107155105.png",
+    "Attachments/Pasted image 20240107140632.png",
+    "Sundry/shell.md",
     "Sundry/vim.md",
+    "Notecards/VAE.md",
+    "Paperwords/ladune2023-coolchic-w.md",
+    "Notecards/矩阵微分.md",
+    "Sundry/Numpy.md",
+    "Sundry/Latex.md",
     "Paperwords/gutierrez-barragan2023-learneda-w.md",
-    "Sundry/neovim配置.md",
     "Attachments/Pasted image 20240104150700.png",
     "Attachments/Pasted image 20240104132616.png",
-    "Attachments/Pasted image 20240104131053.png",
-    "Attachments/Pasted image 20240104123159.png",
-    "Attachments/Pasted image 20240104120358.png",
-    "Attachments/Pasted image 20240104115242.png",
-    "Attachments/Pasted image 20240103200412.png",
-    "Attachments/Pasted image 20240103200045.png",
-    "Attachments/Pasted image 20240103191928.png",
-    "Paperwords/marpe2003-contextbased-w.md",
-    "Paperwords/wu1997-contextbased-w.md",
-    "Paperwords/未命名.md",
-    "LiteratureNotes/2023-preprocessing.md",
-    "Paperwords/yang2023-tinc-w.md",
-    "Attachments/Pasted image 20231231125116.png",
-    "Paperwords/sneyers2016-flif-w.md",
-    "Paperwords/2023-preprocessing-w.md",
-    "Sundry/C++.md",
-    "Notecards/VAE.md",
-    "Sundry/Powershell中激活conda环境.md",
-    "diary/2023-12-16.md",
-    "diary/2023-12-17.md",
-    "diary/2023-12-15.md",
-    "Notecards/Transformer.md",
-    "Notecards/STE.md",
-    "Notecards/RNN.md",
     "未命名",
     "Pytorch",
     "未命名.canvas",

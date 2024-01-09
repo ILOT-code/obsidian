@@ -4,7 +4,7 @@
   "interfaceFontFamily": "",
   "monospaceFontFamily": "JetBrains Mono",
   "theme": "moonstone",
-  "baseFontSize": 12,
+  "baseFontSize": 13,
   "enabledCssSnippets": [
     "Roundcheckbxes",
     "table",
@@ -12,5 +12,7 @@
     "img-centering",
     "22",
     "betterlink"
-  ]
+  ],
+  "translucency": false,
+  "nativeMenus": false
 }

@@ -16,8 +16,9 @@
   "better-word-count",
   "hidden-folder-obsidian",
   "quick-latex",
-  "obsidian-hover-editor",
   "obsidian-excalidraw-plugin",
   "zotlit",
-  "easy-typing-obsidian"
+  "easy-typing-obsidian",
+  "obsidian-hover-editor",
+  "obsidian-git"
 ]
