@@ -4,19 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f63906155c44bc74",
+        "id": "422ccdecfc13397f",
         "type": "tabs",
         "children": [
           {
-            "id": "c8670603c3dc8844",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "d9ab603d39a016dd",
+            "id": "8a97258f98b11b13",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,8 +168,8 @@
               "type": "zotero-annotation-view",
               "state": {
                 "file": "Sundry/vim.md",
-                "itemId": 389,
-                "attachmentId": 390,
+                "itemId": -1,
+                "attachmentId": -1,
                 "follow": "zt-reader"
               }
             }
@@ -199,16 +190,16 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "obsidian-file-cleaner:清理文件": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-file-cleaner:清理文件": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "d9ab603d39a016dd",
+  "active": "8a97258f98b11b13",
   "lastOpenFiles": [
     "Sundry/vim.md",
     "未命名.md",

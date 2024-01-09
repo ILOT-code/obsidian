@@ -1,5 +1,5 @@
 {
-  "aestheticStyle": "default",
+  "aestheticStyle": "glass",
   "positionStyle": "top",
   "menuCommands": [
     {
@@ -214,7 +214,7 @@
   "cMenuWidth": 502,
   "cMenuFontColor": "#1f497d",
   "cMenuBackgroundColor": "#affad1",
-  "autohide": false,
+  "autohide": true,
   "custom_bg1": "#FFB78B8C",
   "custom_bg2": "#CDF4698C",
   "custom_bg3": "#A0CCF68C",
