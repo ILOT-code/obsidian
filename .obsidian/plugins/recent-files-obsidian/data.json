@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "GitPro",
-      "path": "Sundry/GitPro.md"
+      "basename": "vim",
+      "path": "Sundry/vim.md"
     },
     {
       "basename": "未命名",
       "path": "未命名.md"
+    },
+    {
+      "basename": "GitPro",
+      "path": "Sundry/GitPro.md"
     },
     {
       "basename": "Transformer",
@@ -71,10 +75,6 @@
     {
       "basename": "shell",
       "path": "Sundry/shell.md"
-    },
-    {
-      "basename": "vim",
-      "path": "Sundry/vim.md"
     },
     {
       "basename": "VAE",
