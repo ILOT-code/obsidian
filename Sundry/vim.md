@@ -436,7 +436,7 @@ x, y, d, p 分别对应剪切复制删除粘贴，vim 中有很多寄存器，�
 	- `<leader>fc`：为当前会话改变主题
 	- `<leader>fn`：新建文件
 	- `<leader>fg`：查看当前文件夹中，被 git 追踪的文件
-	- `goto`：列出当前文件的函数类等
+	- `gto`：列出当前文件的函数类等
 - Vanilla vim operations：
 	- `jk`：插入模式退出到正常模式
 	- `<S-Tab>`: 折叠当前块
