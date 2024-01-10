@@ -11,8 +11,12 @@
             "id": "6da7c6ee4a051494",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Paperwords/alakuijala2019-jpeg-w.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 215.5
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -108,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Paperwords/alakuijala2019-jpeg-w.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Paperwords/alakuijala2019-jpeg-w.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Paperwords/alakuijala2019-jpeg-w.md"
+              }
             }
           },
           {
@@ -159,8 +167,9 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "itemId": -1,
-                "attachmentId": -1,
+                "file": "Paperwords/alakuijala2019-jpeg-w.md",
+                "itemId": 395,
+                "attachmentId": 396,
                 "follow": "zt-reader"
               }
             }
@@ -192,6 +201,7 @@
   },
   "active": "6da7c6ee4a051494",
   "lastOpenFiles": [
+    "Paperwords/alakuijala2019-jpeg-w.md",
     "Sundry/vim.md",
     "未命名.md",
     "Sundry/GitPro.md",
@@ -225,7 +235,6 @@
     "Notecards/矩阵微分.md",
     "Sundry/Numpy.md",
     "Sundry/Latex.md",
-    "Paperwords/gutierrez-barragan2023-learneda-w.md",
     "Attachments/Pasted image 20240104150700.png",
     "Attachments/Pasted image 20240104132616.png",
     "未命名",
