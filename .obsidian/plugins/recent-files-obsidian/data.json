@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "DM",
+      "path": "Notecards/DM.md"
+    },
+    {
+      "basename": "RNN",
+      "path": "Notecards/RNN.md"
+    },
+    {
+      "basename": "PSNR与SSIM",
+      "path": "Notecards/PSNR与SSIM.md"
+    },
+    {
+      "basename": "多元高斯分布",
+      "path": "Math/多元高斯分布.md"
+    },
+    {
       "basename": "alakuijala2019-jpeg-w",
       "path": "Paperwords/alakuijala2019-jpeg-w.md"
     },

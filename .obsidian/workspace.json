@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paperwords/alakuijala2019-jpeg-w.md",
+                "file": "Notecards/DM.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paperwords/alakuijala2019-jpeg-w.md",
+                "file": "Notecards/DM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Paperwords/alakuijala2019-jpeg-w.md",
+                "file": "Notecards/DM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Paperwords/alakuijala2019-jpeg-w.md"
+                "file": "Notecards/DM.md"
               }
             }
           },
@@ -167,7 +167,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Paperwords/alakuijala2019-jpeg-w.md",
+                "file": "Notecards/DM.md",
                 "itemId": 395,
                 "attachmentId": 396,
                 "follow": "zt-reader"
@@ -195,14 +195,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "cmdr:ZotLit: Open Zotero annotation view in side panel": false
     }
   },
   "active": "4913d75e1687cb16",
   "lastOpenFiles": [
-    "Notecards/ANS及其实现技巧.md",
+    "Notecards/RNN.md",
+    "Notecards/PSNR与SSIM.md",
+    "Math/多元高斯分布.md",
+    "Math/积分变换.md",
+    "Math/雅可比行列式.md",
     "Paperwords/alakuijala2019-jpeg-w.md",
+    "Notecards/ANS及其实现技巧.md",
     "Sundry/vim.md",
     "未命名.md",
     "Sundry/GitPro.md",
@@ -230,11 +234,6 @@
     "Attachments/Pasted image 20240107155105.png",
     "Attachments/Pasted image 20240107140632.png",
     "Sundry/shell.md",
-    "Notecards/VAE.md",
-    "Paperwords/ladune2023-coolchic-w.md",
-    "Notecards/矩阵微分.md",
-    "Sundry/Numpy.md",
-    "Sundry/Latex.md",
     "Attachments/Pasted image 20240104150700.png",
     "Attachments/Pasted image 20240104132616.png",
     "未命名",
