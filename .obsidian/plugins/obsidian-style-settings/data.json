@@ -21,9 +21,10 @@
   "blue-topaz-theme@@accent-em@@light": "#303F9F",
   "blue-topaz-theme@@strong-em-color-1@@light": "#D32F2F",
   "blue-topaz-theme@@strong-em-color-2@@light": "#D32F2F",
-  "blue-topaz-theme@@mjx-inline-math-color@@light": "#536DFE",
-  "blue-topaz-theme@@mjx-math-color@@light": "#536DFE",
+  "blue-topaz-theme@@mjx-inline-math-color@@light": "#521CA5",
+  "blue-topaz-theme@@mjx-math-color@@light": "#8231DB",
   "blue-topaz-theme@@text-selection@@light": "#C6F49B",
   "blue-topaz-theme@@clutter-free-headings": true,
-  "blue-topaz-theme@@funny-header-anim": true
+  "blue-topaz-theme@@funny-header-anim": true,
+  "blue-topaz-theme@@font-family-change-to-default": false
 }
