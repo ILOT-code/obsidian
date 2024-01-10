@@ -4,3 +4,4 @@ heterogeneous 非均匀的，异质的
 homogeneous  异质的
 propagation 传播
 bidimensional 二维的
+induction 归纳法
