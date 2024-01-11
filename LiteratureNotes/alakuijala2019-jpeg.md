@@ -41,7 +41,7 @@ JPEG-XL 支持可变的 DCT 变换，不同于 JPEG 的固定 8\*8.
 
 IDENTITY transform：这被应用在块中某些像素和周围像素有非常不同的值的情况。和上面的小的变换类似，对于 4 \*4 的块，同样是在 8\*8 的区域上进行。但不同点是，每个子区域并不是使用 DCT 变换：它的直流部分是计算平均值，然后其它部分是计算和 (1,1)位置的差。之所以不取（0，0）位置是因为作者认为 (1,1)能更好的表示这个块的情况。
 
-AFV transfoem：
+AFV transfoem：这个和前两个类似，不同的是，对于每个 4\*4 的子区域，采用不同的 transformer
 
 
 对于其他的块比较大的情况，比如 8\*16 16\*16，有一个问题是，对于这些大的区域，只有一个直流分量。为此，对于 $X \times Y$ 的区域，会计算 $\frac{X}{8}\times \frac{Y}{8}$ 个“伪直流分量”，它们大致等于那个子 8\*8 区域的平均值。
@@ -50,8 +50,8 @@ AFV transfoem：
 
 JPEG-XL 使用 [[ANS及其实现技巧|ANS]] 来进行编码。
 JPEG XL 在单个 ANS 流中对从多个不同概率分布中提取的符号进行编码。JPEG-XL 使用两种方法来提高压缩效率：
-1. 把相似的分布聚类，
-2. 可变精度编码：为了减少不同符号的数量，JPEG-XL 使用这样的整数编码策略：
+1. 把相似的分布聚类，为整个簇编码单个直方图。
+2. 可变精度编码：为了减少不同符号的数量，JPEG-XL 使用这样的整数编码策略：values below 16 are encoded as symbols directly, while any other value is encoded with a symbol that allows to recover the highest 2 bits set; other bits are stored uncompressed.
 
 
 ### Color correlation
