@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "neovim配置",
+      "path": "Sundry/neovim配置.md"
+    },
+    {
+      "basename": "GitPro",
+      "path": "Sundry/GitPro.md"
+    },
+    {
       "basename": "DM",
       "path": "Notecards/DM.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "未命名",
       "path": "未命名.md"
-    },
-    {
-      "basename": "GitPro",
-      "path": "Sundry/GitPro.md"
     },
     {
       "basename": "Transformer",
