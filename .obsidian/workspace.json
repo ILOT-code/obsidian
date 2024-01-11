@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sundry/neovim配置.md",
+                "file": "LiteratureNotes/alakuijala2019-jpeg.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sundry/neovim配置.md",
+                "file": "LiteratureNotes/alakuijala2019-jpeg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sundry/neovim配置.md",
+                "file": "LiteratureNotes/alakuijala2019-jpeg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sundry/neovim配置.md"
+                "file": "LiteratureNotes/alakuijala2019-jpeg.md"
               }
             }
           },
@@ -167,7 +167,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Sundry/neovim配置.md",
+                "file": "LiteratureNotes/alakuijala2019-jpeg.md",
                 "itemId": 395,
                 "attachmentId": 396,
                 "follow": "zt-reader"
@@ -201,8 +201,9 @@
   },
   "active": "4913d75e1687cb16",
   "lastOpenFiles": [
-    "Sundry/GitPro.md",
     "Sundry/neovim配置.md",
+    "LiteratureNotes/alakuijala2019-jpeg.md",
+    "Sundry/GitPro.md",
     "Notecards/DM.md",
     "Notecards/RNN.md",
     "Notecards/PSNR与SSIM.md",
@@ -226,7 +227,6 @@
     "LiteratureNotes/muller2022-instant.md",
     "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/tang2023-scene.md",
-    "LiteratureNotes/sneyers2016-flif.md",
     "Attachments/Pasted image 20240107170225.png",
     "Attachments/Pasted image 20240107165636.png",
     "Attachments/Pasted image 20240107164822.png",
