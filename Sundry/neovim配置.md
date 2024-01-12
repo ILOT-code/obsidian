@@ -3,7 +3,14 @@
 [Prerequisites · ayamir/nvimdots Wiki · GitHub](https://github.com/ayamir/nvimdots/wiki/Prerequisites#optional-packages)
 安装好前置环境。
 
-需要注意：`sudo apt install yarn` 这个是有问题的，可以使用 npm 来安装 yarn：（来自[Installation | Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)）
+安装最新的 npm 和 nodejs:
+```
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+```
+
+
+需要注意：`sudo apt install yarn` 这个是有问题的，会安装错可以使用 npm 来安装 yarn：（来自 [Installation | Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)）
 ```
 npm install --global yarn
 ```
