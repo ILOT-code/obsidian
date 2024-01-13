@@ -12,7 +12,7 @@ sudo apt-get install -y nodejs
 
 需要注意：`sudo apt install yarn` 这个是有问题的，会安装错可以使用 npm 来安装 yarn：（来自 [Installation | Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)）
 ```
-npm install --global yarn
+sudo npm install --global yarn
 ```
 
 另外，使用 `yarn global add tree-sitter-cli` 安装时，遇到了网络问题，把梯子关了就好了，不知道为什么。
