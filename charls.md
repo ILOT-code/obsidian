@@ -1,5 +1,4 @@
 
-`jpegls_pc_parameters = charls_jpegls_pc_parameters`
 
 ```c++
 struct coding_parameters final
@@ -40,10 +39,12 @@ enum class interleave_mode
     sample = impl::CHARLS_INTERLEAVE_MODE_SAMPLE,
 };
 ```
-scan_codec.h
 
-```cpp
-template<typename Traits>
-bool precomputed_quantization_lut_available(const Traits& traits, const int32_t threshold1, const int32_t threshold2, const int32_t threshold3) noexcept
-```
+## scan_ codec.h
 
+定义了 `J` 表，还有计算量化表的函数。
+定义了编码器的基类：`scan_codec`
+
+## context_regular_mode.h
+
+定义了 regular 模式下的上下文模型。
