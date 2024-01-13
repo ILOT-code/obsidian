@@ -28,6 +28,18 @@ struct charls_frame_info CHARLS_FINAL
     int32_t component_count;
 };
 ```
+
+```c++
+enum class interleave_mode
+{
+    /// The data is encoded and stored as component for component: RRRGGGBBB.
+    none = impl::CHARLS_INTERLEAVE_MODE_NONE,
+    /// The interleave mode is by line. A full line of each component is encoded before moving to the next line.
+    line = impl::CHARLS_INTERLEAVE_MODE_LINE,
+    /// The data is encoded and stored by sample. For RGB color images this is the format like RGBRGBRGB.
+    sample = impl::CHARLS_INTERLEAVE_MODE_SAMPLE,
+};
+```
 scan_codec.h
 
 ```cpp
