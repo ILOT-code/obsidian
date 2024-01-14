@@ -9,9 +9,9 @@ authors:
   - Félix Henry
   - Gordon Clare
   - Thomas Leguay
-conference: xxx
+conference: ICCV2023
 citekey: ladune2023-coolchic
-tags: []
+tags:
 ---
 # COOL-CHIC: Coordinate-based Low Complexity Hierarchical Image Codec
 

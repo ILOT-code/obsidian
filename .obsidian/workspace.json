@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/2023-preprocessing.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/2023-preprocessing.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/2023-preprocessing.md"
+                "file": "LiteratureNotes/ladune2023-coolchic.md"
               }
             }
           },
@@ -181,9 +180,9 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/2023-preprocessing.md",
-                "itemId": 376,
-                "attachmentId": 377,
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
+                "itemId": 389,
+                "attachmentId": 390,
                 "follow": "zt-reader"
               }
             }
@@ -213,8 +212,9 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "bc01a0e339bcae4c",
+  "active": "32f137b9905f7c47",
   "lastOpenFiles": [
+    "LiteratureNotes/2023-preprocessing.md",
     "LiteratureNotes/ladune2023-coolchic.md",
     "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/marpe2003-contextbased.md",
@@ -236,7 +236,6 @@
     "Sundry/vim.md",
     "未命名.md",
     "Notecards/Transformer.md",
-    "LiteratureNotes/2023-preprocessing.md",
     "diary/2023-12-17.md",
     "balle2018-variational.md",
     "LiteratureNotes/flamich2022-fast.md",
