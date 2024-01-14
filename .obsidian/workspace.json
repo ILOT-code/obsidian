@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md",
+                "file": "LiteratureNotes/2023-preprocessing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md",
+                "file": "LiteratureNotes/2023-preprocessing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md"
+                "file": "LiteratureNotes/2023-preprocessing.md"
               }
             }
           },
@@ -180,7 +181,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md",
+                "file": "LiteratureNotes/2023-preprocessing.md",
                 "itemId": 389,
                 "attachmentId": 390,
                 "follow": "zt-reader"
@@ -212,10 +213,11 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "32f137b9905f7c47",
+  "active": "bc01a0e339bcae4c",
   "lastOpenFiles": [
-    "LiteratureNotes/2023-preprocessing.md",
     "LiteratureNotes/ladune2023-coolchic.md",
+    "LiteratureNotes/2023-preprocessing.md",
+    "dupont2021-coin.md",
     "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/muller2022-instant.md",
@@ -239,7 +241,6 @@
     "diary/2023-12-17.md",
     "balle2018-variational.md",
     "LiteratureNotes/flamich2022-fast.md",
-    "LiteratureNotes/girish2023-shacira.md",
     "Attachments/Pasted image 20240107170225.png",
     "Attachments/Pasted image 20240107165636.png",
     "Attachments/Pasted image 20240107164822.png",
