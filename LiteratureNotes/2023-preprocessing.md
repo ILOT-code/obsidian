@@ -83,13 +83,15 @@ $$
 
 ### proxy network
 
-使用 Minnen’s approach (Minnen et al., 2018) 作为代理网络。它使用 Rate-Distortion （$\begin{aligned}R+\lambda_pD\end{aligned}$）来进行训练。
+使用 Minnen’s approach (Minnen et al., 2018) 作为代理网络。它使用 Rate-Distortion （$\begin{aligned}R+\lambda_pD\end{aligned}$）来进行训练。它的重建质量由 $\lambda_p$ 决定。
 为了保证该网络能够很好地近似 BPG，对它作预训练，找到合适的 $\lambda_p$ ，其重建结果和 BPG 近似。
 
 之后，对该网络进行微调：
 $$
 \mathcal{L}_p=R_p+\lambda_pD_p=R_p+\lambda_pd(\hat{X},\hat{Y})
 $$
+前一项表示代理网络的比特率，后一项表示 BPG 重建的图像与代理网络重建图像的距离。
+
 使得 BPG 的重建图像和代理网络的重建图像接近。
 
 **训练过程**
