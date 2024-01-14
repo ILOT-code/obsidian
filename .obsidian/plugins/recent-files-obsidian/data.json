@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-preprocessing",
+      "path": "LiteratureNotes/2023-preprocessing.md"
+    },
+    {
+      "basename": "ladune2023-coolchic",
+      "path": "LiteratureNotes/ladune2023-coolchic.md"
+    },
+    {
+      "basename": "liu2023-learned",
+      "path": "LiteratureNotes/liu2023-learned.md"
+    },
+    {
+      "basename": "marpe2003-contextbased",
+      "path": "LiteratureNotes/marpe2003-contextbased.md"
+    },
+    {
+      "basename": "muller2022-instant",
+      "path": "LiteratureNotes/muller2022-instant.md"
+    },
+    {
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
+    },
+    {
+      "basename": "yang2023-tinc",
+      "path": "LiteratureNotes/yang2023-tinc.md"
+    },
+    {
       "basename": "charls",
       "path": "charls.md"
     },
@@ -49,14 +77,6 @@
       "path": "Notecards/Transformer.md"
     },
     {
-      "basename": "ladune2023-coolchic",
-      "path": "LiteratureNotes/ladune2023-coolchic.md"
-    },
-    {
-      "basename": "2023-preprocessing",
-      "path": "LiteratureNotes/2023-preprocessing.md"
-    },
-    {
       "basename": "2023-12-17",
       "path": "diary/2023-12-17.md"
     },
@@ -71,22 +91,6 @@
     {
       "basename": "guo2023-compression",
       "path": "LiteratureNotes/guo2023-compression.md"
-    },
-    {
-      "basename": "liu2023-learned",
-      "path": "LiteratureNotes/liu2023-learned.md"
-    },
-    {
-      "basename": "marpe2003-contextbased",
-      "path": "LiteratureNotes/marpe2003-contextbased.md"
-    },
-    {
-      "basename": "muller2022-instant",
-      "path": "LiteratureNotes/muller2022-instant.md"
-    },
-    {
-      "basename": "yang2023-lossy",
-      "path": "LiteratureNotes/yang2023-lossy.md"
     },
     {
       "basename": "tang2023-scene",
@@ -175,10 +179,6 @@
     {
       "basename": "girish2023-shacira-w",
       "path": "Paperwords/girish2023-shacira-w.md"
-    },
-    {
-      "basename": "yang2023-tinc",
-      "path": "LiteratureNotes/yang2023-tinc.md"
     }
   ],
   "omittedPaths": [],

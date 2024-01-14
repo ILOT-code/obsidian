@@ -3,10 +3,10 @@ zotero-key: XDUTFEJU
 zt-attachments:
   - "377"
 title: Preprocessing Enhanced Image Compression for Machine Vision
-authors: []
-conference: xxx
+authors: 
+conference: ICLR2024 under double-blind review
 citekey: 2023-preprocessing
-tags: []
+tags:
 ---
 # Preprocessing Enhanced Image Compression for Machine Vision
 
@@ -34,7 +34,7 @@ tags: []
 
 
 ## Introduction
-JPEG、BPG等都是为了人眼视觉系统来涉及的，在PSNR等指标上表现很好。但利用此方法压缩的图片未必能迎合下游视觉任务的需要。
+JPEG、BPG 等都是为了人眼视觉系统来设计的，在 PSNR 等指标上表现很好。但利用此方法压缩的图片未必能迎合下游视觉任务的需要。
 
 提出了一个预处理模块neural preprocessing (NPP)来过滤原始图像的信息。此外，所提出的神经预处理模块是量化自适应的，可以集成到具有不同压缩比的传统编解码器中
 ![[Pasted image 20231229144240.png]]
