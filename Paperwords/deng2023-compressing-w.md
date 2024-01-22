@@ -3,6 +3,8 @@ literature 文献，文学
 prevalent 流行的，普遍的
 vanilla 普通的，香草
 sculptor 雕刻家
+topological 拓扑的
+usable 可用的
 intrinsic 内在的，固有的
 criterion 标准，准则
 compromise 妥协，折衷
