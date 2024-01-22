@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/2023-preprocessing.md",
+                "file": "Paperwords/deng2023-compressing-w.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5,
-    "collapsed": true
+    "width": 215.5
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/2023-preprocessing.md",
+                "file": "Paperwords/deng2023-compressing-w.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/2023-preprocessing.md",
+                "file": "Paperwords/deng2023-compressing-w.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/2023-preprocessing.md"
+                "file": "Paperwords/deng2023-compressing-w.md"
               }
             }
           },
@@ -181,9 +180,9 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/2023-preprocessing.md",
-                "itemId": 376,
-                "attachmentId": 377,
+                "file": "Paperwords/deng2023-compressing-w.md",
+                "itemId": 419,
+                "attachmentId": 420,
                 "follow": "zt-reader"
               }
             }
@@ -215,8 +214,9 @@
   },
   "active": "bc01a0e339bcae4c",
   "lastOpenFiles": [
-    "LiteratureNotes/ladune2023-coolchic.md",
     "LiteratureNotes/2023-preprocessing.md",
+    "Paperwords/deng2023-compressing-w.md",
+    "LiteratureNotes/ladune2023-coolchic.md",
     "dupont2021-coin.md",
     "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/marpe2003-contextbased.md",
@@ -240,7 +240,6 @@
     "Notecards/Transformer.md",
     "diary/2023-12-17.md",
     "balle2018-variational.md",
-    "LiteratureNotes/flamich2022-fast.md",
     "Attachments/Pasted image 20240107170225.png",
     "Attachments/Pasted image 20240107165636.png",
     "Attachments/Pasted image 20240107164822.png",
