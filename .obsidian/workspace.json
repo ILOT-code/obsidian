@@ -182,8 +182,8 @@
               "type": "zotero-annotation-view",
               "state": {
                 "file": "LiteratureNotes/2023-preprocessing.md",
-                "itemId": 389,
-                "attachmentId": 390,
+                "itemId": 376,
+                "attachmentId": 377,
                 "follow": "zt-reader"
               }
             }
@@ -210,7 +210,7 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
   "active": "bc01a0e339bcae4c",
