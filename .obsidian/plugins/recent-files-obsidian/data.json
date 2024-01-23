@@ -1,92 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "deng2023-compressing-w",
-      "path": "Paperwords/deng2023-compressing-w.md"
-    },
-    {
-      "basename": "2023-preprocessing",
-      "path": "LiteratureNotes/2023-preprocessing.md"
-    },
-    {
-      "basename": "ladune2023-coolchic",
-      "path": "LiteratureNotes/ladune2023-coolchic.md"
-    },
-    {
-      "basename": "dupont2021-coin",
-      "path": "dupont2021-coin.md"
-    },
-    {
-      "basename": "liu2023-learned",
-      "path": "LiteratureNotes/liu2023-learned.md"
-    },
-    {
-      "basename": "marpe2003-contextbased",
-      "path": "LiteratureNotes/marpe2003-contextbased.md"
-    },
-    {
-      "basename": "muller2022-instant",
-      "path": "LiteratureNotes/muller2022-instant.md"
-    },
-    {
-      "basename": "yang2023-lossy",
-      "path": "LiteratureNotes/yang2023-lossy.md"
-    },
-    {
-      "basename": "yang2023-tinc",
-      "path": "LiteratureNotes/yang2023-tinc.md"
-    },
-    {
-      "basename": "charls",
-      "path": "charls.md"
-    },
-    {
       "basename": "neovim配置",
       "path": "Sundry/neovim配置.md"
     },
     {
-      "basename": "alakuijala2019-jpeg",
-      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
-    },
-    {
-      "basename": "GitPro",
-      "path": "Sundry/GitPro.md"
-    },
-    {
-      "basename": "DM",
-      "path": "Notecards/DM.md"
-    },
-    {
-      "basename": "RNN",
-      "path": "Notecards/RNN.md"
-    },
-    {
-      "basename": "PSNR与SSIM",
-      "path": "Notecards/PSNR与SSIM.md"
-    },
-    {
-      "basename": "多元高斯分布",
-      "path": "Math/多元高斯分布.md"
-    },
-    {
-      "basename": "alakuijala2019-jpeg-w",
-      "path": "Paperwords/alakuijala2019-jpeg-w.md"
-    },
-    {
       "basename": "vim",
       "path": "Sundry/vim.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.md"
-    },
-    {
-      "basename": "Transformer",
-      "path": "Notecards/Transformer.md"
-    },
-    {
-      "basename": "2023-12-17",
-      "path": "diary/2023-12-17.md"
     },
     {
       "basename": "flamich2022-fast",
@@ -97,96 +17,52 @@
       "path": "LiteratureNotes/girish2023-shacira.md"
     },
     {
-      "basename": "guo2023-compression",
-      "path": "LiteratureNotes/guo2023-compression.md"
+      "basename": "liu2023-learned",
+      "path": "LiteratureNotes/liu2023-learned.md"
+    },
+    {
+      "basename": "muller2022-instant",
+      "path": "LiteratureNotes/muller2022-instant.md"
     },
     {
       "basename": "tang2023-scene",
       "path": "LiteratureNotes/tang2023-scene.md"
     },
     {
-      "basename": "sneyers2016-flif",
-      "path": "LiteratureNotes/sneyers2016-flif.md"
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
     },
     {
-      "basename": "salimans2022-progressive",
-      "path": "LiteratureNotes/salimans2022-progressive.md"
+      "basename": "yang2023-tinc",
+      "path": "LiteratureNotes/yang2023-tinc.md"
     },
     {
-      "basename": "shell",
-      "path": "Sundry/shell.md"
+      "basename": "2023-preprocessing",
+      "path": "LiteratureNotes/2023-preprocessing.md"
     },
     {
-      "basename": "VAE",
-      "path": "Notecards/VAE.md"
+      "basename": "ladune2023-coolchic",
+      "path": "LiteratureNotes/ladune2023-coolchic.md"
     },
     {
-      "basename": "ladune2023-coolchic-w",
-      "path": "Paperwords/ladune2023-coolchic-w.md"
+      "basename": "guo2023-compression",
+      "path": "LiteratureNotes/guo2023-compression.md"
     },
     {
-      "basename": "矩阵微分",
-      "path": "Notecards/矩阵微分.md"
-    },
-    {
-      "basename": "Numpy",
-      "path": "Sundry/Numpy.md"
-    },
-    {
-      "basename": "Latex",
-      "path": "Sundry/Latex.md"
-    },
-    {
-      "basename": "marpe2003-contextbased-w",
-      "path": "Paperwords/marpe2003-contextbased-w.md"
-    },
-    {
-      "basename": "yang2023-tinc-w",
-      "path": "Paperwords/yang2023-tinc-w.md"
-    },
-    {
-      "basename": "sneyers2016-flif-w",
-      "path": "Paperwords/sneyers2016-flif-w.md"
-    },
-    {
-      "basename": "2023-preprocessing-w",
-      "path": "Paperwords/2023-preprocessing-w.md"
-    },
-    {
-      "basename": "C++",
-      "path": "Sundry/C++.md"
-    },
-    {
-      "basename": "2023-11-11",
-      "path": "diary/2023-11-11.md"
-    },
-    {
-      "basename": "2023-11-13",
-      "path": "diary/2023-11-13.md"
-    },
-    {
-      "basename": "2023-11-15",
-      "path": "diary/2023-11-15.md"
-    },
-    {
-      "basename": "zt-cite2.eta",
-      "path": "ZtTemplates/zt-cite2.eta.md"
-    },
-    {
-      "basename": "zt-cite.eta",
-      "path": "ZtTemplates/zt-cite.eta.md"
+      "basename": "未命名",
+      "path": "未命名.md"
     },
     {
       "basename": "zt-note.eta",
       "path": "ZtTemplates/zt-note.eta.md"
     },
     {
-      "basename": "muller2022-instanta-w",
-      "path": "Paperwords/muller2022-instanta-w.md"
+      "basename": "zt-annot.eta",
+      "path": "ZtTemplates/zt-annot.eta.md"
     },
     {
-      "basename": "girish2023-shacira-w",
-      "path": "Paperwords/girish2023-shacira-w.md"
+      "basename": "zt-field.eta",
+      "path": "ZtTemplates/zt-field.eta.md"
     }
   ],
   "omittedPaths": [],

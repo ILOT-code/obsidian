@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0b09af41b01083a0",
+        "id": "466d7a5a75fd00dd",
         "type": "tabs",
         "children": [
           {
-            "id": "32f137b9905f7c47",
+            "id": "e82623e9edde0d0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc01a0e339bcae4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paperwords/deng2023-compressing-w.md",
+                "file": "Sundry/neovim配置.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paperwords/deng2023-compressing-w.md",
+                "file": "Sundry/neovim配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Paperwords/deng2023-compressing-w.md",
+                "file": "Sundry/neovim配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Paperwords/deng2023-compressing-w.md"
+                "file": "Sundry/neovim配置.md"
               }
             }
           },
@@ -178,17 +165,25 @@
             "id": "3ff7369599ba655b",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b20da65bc9b5453d",
+            "type": "leaf",
+            "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Paperwords/deng2023-compressing-w.md",
-                "itemId": 419,
-                "attachmentId": 420,
-                "follow": "zt-reader"
+                "file": "Sundry/neovim配置.md",
+                "itemId": 5,
+                "attachmentId": 6,
+                "follow": null
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -203,43 +198,42 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-file-cleaner:清理文件": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "obsidian-file-cleaner:清理文件": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "bc01a0e339bcae4c",
+  "active": "85cc9493daeac8f1",
   "lastOpenFiles": [
-    "LiteratureNotes/2023-preprocessing.md",
-    "Paperwords/deng2023-compressing-w.md",
-    "LiteratureNotes/ladune2023-coolchic.md",
-    "dupont2021-coin.md",
+    "Sundry/vim.md",
+    "LiteratureNotes/flamich2022-fast.md",
+    "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/liu2023-learned.md",
-    "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/muller2022-instant.md",
+    "LiteratureNotes/tang2023-scene.md",
     "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/yang2023-tinc.md",
-    "charls.md",
-    "Sundry/neovim配置.md",
-    "LiteratureNotes/alakuijala2019-jpeg.md",
-    "Sundry/GitPro.md",
-    "Notecards/DM.md",
-    "Notecards/RNN.md",
-    "Notecards/PSNR与SSIM.md",
-    "Math/多元高斯分布.md",
-    "Math/积分变换.md",
-    "Math/雅可比行列式.md",
-    "Paperwords/alakuijala2019-jpeg-w.md",
-    "Notecards/ANS及其实现技巧.md",
-    "Sundry/vim.md",
+    "LiteratureNotes/wang2023-decouplingandaggregating.md",
+    "LiteratureNotes/xu2023-cxtrack.md",
+    "LiteratureNotes/2023-preprocessing.md",
+    "LiteratureNotes/wangDecouplingandAggregatingImageExposure2023.md",
+    "LiteratureNotes/xuCXTrackImproving3D2023.md",
+    "LiteratureNotes/ciGFPoseLearning3D2023.md",
+    "LiteratureNotes/ladune2023-coolchic.md",
+    "LiteratureNotes/guo2023-compression.md",
     "未命名.md",
-    "Notecards/Transformer.md",
-    "diary/2023-12-17.md",
-    "balle2018-variational.md",
+    "ZtTemplates/zt-note.eta.md",
+    "ZtTemplates/zt-annot.eta.md",
+    "ZtTemplates/zt-field.eta.md",
+    "LiteratureNotes/ali2023-efficient.md",
+    "ZtTemplates/zt-cite2.eta.md",
+    "ZtTemplates/zt-cite.eta.md",
+    "ZtTemplates/zt-annots.eta.md",
+    "ZtTemplates/zt-colored.eta.md",
+    "dupont2021-coin.md",
     "Attachments/Pasted image 20240107170225.png",
     "Attachments/Pasted image 20240107165636.png",
     "Attachments/Pasted image 20240107164822.png",
