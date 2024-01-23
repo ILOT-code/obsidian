@@ -8,7 +8,7 @@
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 ```
-
+另外，在wsl中,ssh容易出现端口占用问题，参考[port443](https://www.jianshu.com/p/c3aac5024877)解决
 
 需要注意：`sudo apt install yarn` 这个是有问题的，会安装错可以使用 npm 来安装 yarn：（来自 [Installation | Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)）
 ```
