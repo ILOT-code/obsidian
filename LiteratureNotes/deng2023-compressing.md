@@ -56,3 +56,11 @@ $$\begin{gathered}
 \end{gathered}$$
 
 ### Reinclude
+
+对于前面的研究，作者分析认为：这样的削减参数的方法，从始至终都是将全部的参数单独的进行考虑，没有对它们的依赖进行考虑，并且不管怎样，重要性估计的方法也不精确；这样会造成参数削减地过快，从而导致性能的下降。为此，作者提出了 reinclude 的操作。
+
+假设经过 remove 后，得到了参数的集合 $\mathcal{W},\overline{\mathcal{W}}$，分别对应着留下来的参数和将被置 0 的参数。作者采用下面的策略将 $\overline{\mathcal{W}}$ 中的某些元素重新放回去：
+$$
+\begin{aligned}&\left|\frac{\partial\mathcal{L}}{\partial w_i}\right|\geq\mathcal{Q}_{\left|\frac{\partial\mathcal{L}}{\partial w}\right|,w\in\mathcal{W}}(\delta)\\&\quad ~~~~~~~~~~\wedge\quad ~~~~~~~~~~~~~~~~~~~~\Rightarrow w_i\in\mathcal{W}\\&\exists w_j\in\mathcal{W}|w_j\in\Omega(w_i),\end{aligned}
+$$
+首先，在评价指标上，
