@@ -79,4 +79,3 @@ settings["gui_config"] = {
 
 }
 ```
-

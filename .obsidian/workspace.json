@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "466d7a5a75fd00dd",
+        "id": "e43d49be9c52fec5",
         "type": "tabs",
         "children": [
           {
-            "id": "e82623e9edde0d0f",
+            "id": "b9ea23f0ae82d898",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -176,8 +176,8 @@
               "type": "zotero-annotation-view",
               "state": {
                 "file": "Sundry/neovim配置.md",
-                "itemId": 5,
-                "attachmentId": 6,
+                "itemId": -1,
+                "attachmentId": -1,
                 "follow": null
               }
             }
@@ -206,8 +206,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "85cc9493daeac8f1",
+  "active": "b9ea23f0ae82d898",
   "lastOpenFiles": [
+    "Sundry/neovim配置.md",
     "Sundry/vim.md",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/girish2023-shacira.md",
@@ -233,7 +234,6 @@
     "ZtTemplates/zt-cite.eta.md",
     "ZtTemplates/zt-annots.eta.md",
     "ZtTemplates/zt-colored.eta.md",
-    "dupont2021-coin.md",
     "Attachments/Pasted image 20240107170225.png",
     "Attachments/Pasted image 20240107165636.png",
     "Attachments/Pasted image 20240107164822.png",
