@@ -25,6 +25,8 @@ tags: []
 
 ## Methods
 
+### Importance
+
 本文提出的方法以迭代的方式，不断删除一些不那么重要的参数，因此，评判什么样的参数是重要的就很重要。作者回顾了该方向的研究发展历程，并最后提出了自己的方法。
 
 首先，出现的最简单也具有广阔应用的减去参数的方法：
@@ -44,4 +46,13 @@ $$
 $$
 \Delta\mathcal{L}(w_i)\approx\frac{\partial\mathcal{L}}{\partial w_i}w_i,
 $$
-是损失函数 $\mathcal{L}$ 关于 $w_i$ 泰勒展开的一阶项。
+是损失函数 $\mathcal{L}$ 关于 $w_i$ 泰勒展开的一阶项。这样就能综合考虑两者的影响。
+
+在一个网络中，参数的性质往往随着层的不同而不同。但是，上面的方法并未考虑到参数的层的影响，将它们放在一起来考虑。可以将度量的测度根据层来进行归一化：
+$$\begin{gathered}
+\begin{aligned}\Delta\hat{\mathcal{L}}(w_i)&=\frac{\frac{\partial\mathcal{L}}{\partial w_i}w_i}{\max\left|\frac{\partial\mathcal{L}}{\partial w_j}w_j\right|},w_j\text{ in same layer as }w_i.\end{aligned} \\
+\\
+\left.w_i=\left\{\begin{array}{ll}w_i&if|\mathcal{L}(w_i)|>\mathcal{Q}_{|\Delta\hat{\mathcal{L}}(w)|}(\gamma)\\0&otherwise.\end{array}\right.\right. 
+\end{gathered}$$
+
+### Reinclude
