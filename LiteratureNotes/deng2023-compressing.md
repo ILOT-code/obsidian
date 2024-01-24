@@ -45,17 +45,3 @@ $$
 \Delta\mathcal{L}(w_i)\approx\frac{\partial\mathcal{L}}{\partial w_i}w_i,
 $$
 是损失函数 $\mathcal{L}$ 关于 $w_i$ 泰勒展开的一阶项。
-s 山东省 dsdsdsxc
-
-可是是的，那不久意味着，如果 sd, ：“”: ''22 是的，是的。，
-
-“是的”
-```
-
-山东省
-但是是的，有没有人，看地方但是爱上 dsd, sds. 是的山东省
-
-有人，看地方但是爱上 dsd, sds. 是的山东省
-是的
-是的
-有人，看地方但是爱上 dsd, sds. 是的山东省
