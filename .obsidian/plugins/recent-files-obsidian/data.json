@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "deng2023-compressing",
+      "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
+      "basename": "deng2023-compressing-w",
+      "path": "Paperwords/deng2023-compressing-w.md"
+    },
+    {
+      "basename": "flamich2022-fast",
+      "path": "LiteratureNotes/flamich2022-fast.md"
+    },
+    {
+      "basename": "Drawguo2023-compression",
+      "path": "Excalidraw/Drawguo2023-compression.md"
+    },
+    {
+      "basename": "zt-note.eta",
+      "path": "ZtTemplates/zt-note.eta.md"
+    },
+    {
       "basename": "neovim配置",
       "path": "Sundry/neovim配置.md"
     },
     {
       "basename": "vim",
       "path": "Sundry/vim.md"
-    },
-    {
-      "basename": "flamich2022-fast",
-      "path": "LiteratureNotes/flamich2022-fast.md"
     },
     {
       "basename": "girish2023-shacira",
@@ -51,10 +67,6 @@
     {
       "basename": "未命名",
       "path": "未命名.md"
-    },
-    {
-      "basename": "zt-note.eta",
-      "path": "ZtTemplates/zt-note.eta.md"
     },
     {
       "basename": "zt-annot.eta",
