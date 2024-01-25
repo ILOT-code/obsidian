@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5,
-    "collapsed": true
+    "width": 393.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,11 +202,15 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "cba41bcaf8a9c07b",
+  "active": "85cc9493daeac8f1",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20240124193418.png",
+    "Attachments/Pasted image 20240124192813.png",
+    "Attachments/Pasted image 20240124192542.png",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/deng2023-compressing.md",
     "Paperwords/deng2023-compressing-w.md",
@@ -233,7 +236,6 @@
     "ZtTemplates/zt-annot.eta.md",
     "ZtTemplates/zt-field.eta.md",
     "LiteratureNotes/ali2023-efficient.md",
-    "ZtTemplates/zt-cite2.eta.md",
     "Attachments/Pasted image 20240107170225.png",
     "Attachments/Pasted image 20240107165636.png",
     "Attachments/Pasted image 20240107164822.png",
@@ -242,8 +244,6 @@
     "Attachments/Pasted image 20240107161642.png",
     "Attachments/Pasted image 20240107155105.png",
     "Attachments/Pasted image 20240107140632.png",
-    "Attachments/Pasted image 20240104150700.png",
-    "Attachments/Pasted image 20240104132616.png",
     "未命名",
     "Pytorch",
     "未命名.canvas",

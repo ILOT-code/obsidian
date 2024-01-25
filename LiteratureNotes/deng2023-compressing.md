@@ -61,6 +61,23 @@ $$\begin{gathered}
 
 假设经过 remove 后，得到了参数的集合 $\mathcal{W},\overline{\mathcal{W}}$，分别对应着留下来的参数和将被置 0 的参数。作者采用下面的策略将 $\overline{\mathcal{W}}$ 中的某些元素重新放回去：
 $$
-\begin{aligned}&\left|\frac{\partial\mathcal{L}}{\partial w_i}\right|\geq\mathcal{Q}_{\left|\frac{\partial\mathcal{L}}{\partial w}\right|,w\in\mathcal{W}}(\delta)\\&\quad ~~~~~~~~~~\wedge\quad ~~~~~~~~~~~~~~~~~~~~\Rightarrow w_i\in\mathcal{W}\\&\exists w_j\in\mathcal{W}|w_j\in\Omega(w_i),\end{aligned}
+\begin{aligned}
+&\left|\frac{\partial\mathcal{L}}{\partial w_i}\right|\geq\mathcal{Q}_{\left|\frac{\partial\mathcal{L}}{\partial w}\right|,w\in\mathcal{W}}(\delta)\\&\quad ~~~~~~~~~~\wedge\quad ~~~~~~~~~~~~~~~~~~~~\Rightarrow w_i\in\mathcal{W}\\&\exists w_j\in\mathcal{W}|w_j\in\Omega(w_i),\\
+\\
+&\Omega(w_{i})\text{is the subset of parameters that are neighbors of} w_i
+\end{aligned}
 $$
-首先，在评价指标上，
+首先，在评价指标上，作者只使用梯度作为指标。另外，作者加入了一个先验：在 EVG-NeRFs 中，可以利用参数的网格结构，渲染对象本身是 3D 中的流型，因此可以假设网格也是紧凑和稀疏的。第二行的那个式子就是由此而来。
+
+![[Pasted image 20240124192542.png|500]]
+
+### Overview
+
+在 reinclude 阶段，$\mathcal{W}$ 会迭代地变化。下面就是整个算法的流程。
+
+![[Pasted image 20240124192813.png]]
+
+
+
+首先，在训练集上微调一遍该模型，将得到的参数根据上面的算法进行一次压缩，在验证集上测试性能。如果压缩后性能依旧满足需求，就可以继续重复此过程。
+![[Pasted image 20240124193418.png]]
