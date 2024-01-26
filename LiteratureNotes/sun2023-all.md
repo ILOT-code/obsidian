@@ -64,4 +64,6 @@ $\mathbf{P}\in\mathcal{P},\mathbf{P}\in\mathbb{R}^{n\times n},\mathbf{P}\mathbf{
 $$\mathbf{r}_A=f\left(\mathbf{X},\mathbf{A}\right)$$
 可以通过如下运算得到绝对排列：$\mathbf{r}\in \mathbb{R}^n$
 $$\mathbf{r}=\text{ sgn }\left(\mathbf{r}_A\mathbf{1}^\top-\mathbf{1}\mathbf{r}_A^\top\right)\mathbf{1}$$
-这种操作无法传播梯度，需要进行松弛。
+需要将 $\mathbf{r}$ 转化成一个排列矩阵 $\mathbf{P}$，另外上面这种操作无法传播梯度，需要进行松弛。
+
+由定义可知，排列矩阵 $\mathbf{P}$ 的位置 $(\mathbf{r}_i,i)$ 上的元素是 $1$，其它位置是 $0$.
