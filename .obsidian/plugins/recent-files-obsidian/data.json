@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "sun2023-all-w",
+      "path": "Paperwords/sun2023-all-w.md"
+    },
+    {
+      "basename": "sun2023-all",
+      "path": "LiteratureNotes/sun2023-all.md"
+    },
+    {
+      "basename": "zt-note.eta",
+      "path": "ZtTemplates/zt-note.eta.md"
+    },
+    {
       "basename": "2024-01-25",
       "path": "diary/2024-01-25.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "Drawguo2023-compression",
       "path": "Excalidraw/Drawguo2023-compression.md"
-    },
-    {
-      "basename": "zt-note.eta",
-      "path": "ZtTemplates/zt-note.eta.md"
     },
     {
       "basename": "neovim配置",
