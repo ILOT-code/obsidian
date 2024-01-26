@@ -42,7 +42,26 @@ tags: []
 1. 正则化（排序生成）：作者将图的正则化问题看成一个对结点的排列问题（也就是将输入节点按照正确顺序排序）。
 2. 对角线卷积。
 
+下图展示了一个总体的框架，首先使用学习到的排列矩阵对点进行排序，然后进行对角卷积，同时非对角线上的特征使用别的层进行学习。
+
+![[Pasted image 20240126154126.png]]
 
 
+## Regularization on Graphs
+
+**符号定义**
+
+图： $\mathcal{G}\quad=\quad(\mathcal{V},\mathcal{E})$，$\mathcal{V}=\{v_1,v_2,\cdots,v_n\}$ 表示节点集，$\mathcal{E}$ 表示边集
+每一个节点都由一个长度 $d$ 的特征向量，总体由： $\mathbf{X}\in\mathbb{R}^{n\times d}$ 表示
+邻接矩阵： $\mathbf{A}\in\mathbb{R}^{n\times n}$，对角度矩阵： $\mathbf{D}\in\mathbb{R}^{n\times n}$，$\mathbf{D}_{i,i}=\sum_j\mathbf{A}_{i,j}.$
+排列矩阵的集合：$\mathcal{P}$,   $\left|\mathcal{P}\right|=n!$，
+$\mathbf{P}\in\mathcal{P},\mathbf{P}\in\mathbb{R}^{n\times n},\mathbf{P}\mathbf{1}=\mathbf{1}^\top\mathbf{P}=\mathbf{1},\mathbf{P}_{i, j}\in\{0,1\}$，$\mathbf{P_{i.j}=1}$ 意味着将原来的 $j$ 号节点移到 $i$.
 
 
+**位置回归**
+
+假设得到了一个由网络得出的预估的排列：$\mathbf{r}_A\in\mathbb{R}^n$
+$$\mathbf{r}_A=f\left(\mathbf{X},\mathbf{A}\right)$$
+可以通过如下运算得到绝对排列：$\mathbf{r}\in \mathbb{R}^n$
+$$\mathbf{r}=\text{ sgn }\left(\mathbf{r}_A\mathbf{1}^\top-\mathbf{1}\mathbf{r}_A^\top\right)\mathbf{1}$$
+这种操作无法传播梯度，需要进行松弛。
