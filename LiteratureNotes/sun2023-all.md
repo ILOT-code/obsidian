@@ -64,6 +64,14 @@ $\mathbf{P}\in\mathcal{P},\mathbf{P}\in\mathbb{R}^{n\times n},\mathbf{P}\mathbf{
 $$\mathbf{r}_A=f\left(\mathbf{X},\mathbf{A}\right)$$
 可以通过如下运算得到绝对排列：$\mathbf{r}\in \mathbb{R}^n$
 $$\mathbf{r}=\text{ sgn }\left(\mathbf{r}_A\mathbf{1}^\top-\mathbf{1}\mathbf{r}_A^\top\right)\mathbf{1}$$
-需要将 $\mathbf{r}$ 转化成一个排列矩阵 $\mathbf{P}$，另外上面这种操作无法传播梯度，需要进行松弛。
+$sgn$ 操作无法传播梯度，使用 $sigmod$ 进行松弛。
 
-由定义可知，排列矩阵 $\mathbf{P}$ 的位置 $(\mathbf{r}_i,i)$ 上的元素是 $1$，其它位置是 $0$.
+现在需要将 $\mathbf{r}$ 转化成一个排列矩阵 $\mathbf{P}$，由定义可知，排列矩阵 $\mathbf{P}$ 的位置 $(\mathbf{r}_i,i)$ 上的元素是 $1$，其它位置是 $0$，因此这种生成一定不可微，作者采取了一种松弛生成的手段：
+$$
+\begin{aligned}
+\hat{\mathbf{P}}&=\exp\left\{-\tau\left[\left(\mathbf{m}\mathbf{1}^\top-\mathbf{1}\mathbf{r}^\top+n\right)\quad(\mathrm{mod~}n)\right]\right\}\\
+\mathbf{b}&\in \mathbb{R}^{n}, \mathbf{m}_i=i
+\end{aligned}
+$$
+这样的生成会使全部 $(\mathbf{r}_i,i)$ 上的元素是 $1$，其它位置是小于 $1$ 的正数。容易得到 $\begin{aligned}\lim_{\tau\to+\infty}\hat{\mathbf{P}}=\mathbf{P},\mathbf{P}\in\mathcal{P}.\end{aligned}$，
+
