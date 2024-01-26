@@ -151,3 +151,13 @@ $$\begin{aligned}\mathbf{H}^{(l)}&=\sigma\left(\mathcal{K}\left(\mathbf{E}^{(l-1
 **Network Architecture**
 
 
+下图分别展示了对于两种任务的结构。它们很像，都是 $L_1$ 层单位步长的卷积，和 $L_2$ 层步长和核的大小一样的卷积，最后是一层单位步长的卷积，
+![[Pasted image 20240126192949.png]]
+
+其中，作者还加入了虚线，这表示加上一个平均池化，前面的更新式子可以重新表示为：
+$$\begin{aligned}
+\mathbf{H}^{(l)}=& \begin{aligned}\sigma\left(\mathcal{K}\left(\mathbf{E}^{(l-1)},\mathbf{H}^{(l-1)},k^{(l)},s^{(l)}\right)\right)\end{aligned}  \\
+&+\text{ AvgPool }\left(\mathbf{H}^{(l-1)},k^{(l)},s^{(l)}\right).
+\end{aligned}$$
+
+
