@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2024-01-25.md",
+                "file": "Sundry/shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2024-01-25.md",
+                "file": "Sundry/shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2024-01-25.md",
+                "file": "Sundry/shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2024-01-25.md"
+                "file": "Sundry/shell.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "diary/2024-01-25.md",
+                "file": "Sundry/shell.md",
                 "itemId": 10,
                 "attachmentId": 11,
                 "follow": null
@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 393.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,13 +203,14 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "cba41bcaf8a9c07b",
+  "active": "85cc9493daeac8f1",
   "lastOpenFiles": [
-    "LiteratureNotes/deng2023-compressing.md",
     "diary/2024-01-25.md",
+    "LiteratureNotes/deng2023-compressing.md",
     "Attachments/Pasted image 20240124193418.png",
     "Attachments/Pasted image 20240124192813.png",
     "Attachments/Pasted image 20240124192542.png",
