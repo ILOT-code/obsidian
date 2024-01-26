@@ -108,3 +108,46 @@ f(\mathbf{PX},\mathbf{PAP^{T})}&= \mathbf{P}f(\mathbf{X},\mathbf{A})\\
 $$
 
 ## Compressed Convolution Network
+
+**Permutation Generation**
+
+用下面的式子来生成 $\mathbf{r_A}$, 其中 $\tilde{A}$ 是拉普拉斯操作，指数 $t$ 调整其平滑程度。
+$$
+\begin{align*}
+\mathbf{r}_A=\tilde{\mathbf{A}}^{t} MLP(\mathbf{X})\\\\
+\tilde{\mathbf{A}}=\mathbf{D}^{-\frac12}\mathbf{A}\mathbf{D}^{-\frac12}
+\end{align*}
+$$
+
+MLP 操作可以看成是矩阵乘法加上激活函数，容易得到 $MLP(\mathbf{PX})=\mathbf{X}MLP(\mathbf{X})$, 进一步地，可以证明此操作满足 $f(\mathbf{X},\mathbf{A})=f(\mathbf{PX},\mathbf{PAP^T})$.
+
+然后根据前文的方法，得到排列矩阵和 $\hat{\mathbf{X}},\hat{\mathbf{A}}$ .
+
+**Diagonal Convolution**
+
+排列操作可以看成是一种映射，将拓扑结构映射到欧几里得空间，排列之后，无论边的连接情况如何，相邻点都可以是“邻居”，具有类似的结构。接着将 CNN 的操作拓展过来。
+
+矩阵 $\hat{\mathbf{A}}$ 可以看成是图的拓扑特征矩阵，使用对角卷积来进行操作：
+$$\mathcal{K}_i^{str}\left(\hat{\mathbf{A}},k\right)=\sum_{p=0}^{k-1}\sum_{q=0}^{k-1}\mathbf{w}_{p,q}\hat{\mathbf{A}}_{i+p,i+q},$$
+
+进一步地，为了引入节点特征，可以拓展上面的式子：
+$$\mathcal{K}_i\left(\hat{\mathbf{A}},\hat{\mathbf{X}},k\right)=\sum_{p=0}^{k-1}\left(\sum_{q=0}^{k-1}\mathbf{w}_{p,q}\hat{\mathbf{A}}_{i+p,i+q}+\sum_{t=0}^{d-1}\mathbf{v}_{p,t}\hat{\mathbf{X}}_{i+p,t}\right)$$
+
+对角卷积也能具有步长，上面的这个式子能够保证两部分生成的矩阵有相同的行数。最后，可以概括写成：
+$$\begin{aligned}\mathbf{S}&=\mathcal{K}\left(\hat{\mathbf{A}},\hat{\mathbf{X}},k,s\right),\\\mathbf{S}_j&=\mathcal{K}_i\left(\hat{\mathbf{A}},\hat{\mathbf{X}},k\right),\mathrm{~}i=sj.\end{aligned}$$
+
+在一次卷积过程后，得到了一个向量，和 CNN 一样，可以引入多个卷积核，来生成新的矩阵。
+
+**Compressed Convolution Layer**
+
+本文提出的网络是深度的，具有结构层次。$\hat{\mathbf{A}}$ 矩阵包含了图的拓扑特征 (边的特征)，$\hat{\mathbf{X}}$ 包含了节点特征，作者提出的多层架构就是在不停地更新这两张矩阵。
+
+令 $\mathbf{H}^{(0)}=\hat{\mathbf{X}},\mathbf{E}^{(0)}=\hat{\mathbf{A}}$, 对于前者，直接使用前面的对角卷积更新，而对于后者，我们注重其表示的结构特征。对于 $\mathbf{E}$ 而言，其对角线上的元素是不重要的，而那些非对角线上的元素才真正表达了它的结构特征，这些元素才是需要关注的。因此，作者对它们采用了别的更新策略。
+$$\begin{aligned}\mathbf{H}^{(l)}&=\sigma\left(\mathcal{K}\left(\mathbf{E}^{(l-1)},\mathbf{H}^{(l-1)},k^{(l)},s^{(l)}\right)\right),\\\\\mathbf{E}^{(l)}&=\begin{cases}\text{Tri}\left(\mathbf{E}^{(l-1)},k^{(l)}\right),&\mathrm{if~}s^{(l)}=1;\\\text{MaxPool}\left(\mathbf{E}^{(l-1)},k^{(l)},s^{(l)}\right),&\mathrm{otherwise}.&\end{cases}\end{aligned}$$
+其中 $\text{Tri}\left(\mathbf{E}^{(l-1)},k^{(l)}\right)$ 表示将主对角线上面和下面的 $k^{(l)}$ 条对角线排除后，将剩下的两个三角形矩阵拼接在一起得到的矩阵。
+
+更新后，$\mathbf{E}^{(l)}\in\mathbb{R}^{n^{(l)}\times n^{(l)}}，\mathbf{H}^{(l)}\in\mathbb{R}^{n^{(l)}\times c^{(l)}}$，其中 $c^{(k)}$ 表示卷积核的数量。
+
+**Network Architecture**
+
+

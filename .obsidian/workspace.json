@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5,
-    "collapsed": true
+    "width": 215.5
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -217,17 +216,18 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "e69efd448e3dd0ab",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20240126170043.png",
-    "Attachments/Pasted image 20240126154126.png",
+    "diary/2024-01-25.md",
     "Paperwords/sun2023-all-w.md",
     "LiteratureNotes/sun2023-all.md",
+    "Attachments/Pasted image 20240126170043.png",
+    "Attachments/Pasted image 20240126154126.png",
     "ZtTemplates/zt-note.eta.md",
-    "diary/2024-01-25.md",
     "Sundry/shell.md",
     "LiteratureNotes/deng2023-compressing.md",
     "Attachments/Pasted image 20240124193418.png",
@@ -257,7 +257,6 @@
     "Attachments/Pasted image 20240107164822.png",
     "Attachments/Pasted image 20240107163930.png",
     "Attachments/Pasted image 20240107163755.png",
-    "Attachments/Pasted image 20240107161642.png",
     "未命名",
     "Pytorch",
     "未命名.canvas",
