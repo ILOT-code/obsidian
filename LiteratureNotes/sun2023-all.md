@@ -57,6 +57,8 @@ tags: []
 排列矩阵的集合：$\mathcal{P}$,   $\left|\mathcal{P}\right|=n!$，
 $\mathbf{P}\in\mathcal{P},\mathbf{P}\in\mathbb{R}^{n\times n},\mathbf{P}\mathbf{1}=\mathbf{1}^\top\mathbf{P}=\mathbf{1},\mathbf{P}_{i, j}\in\{0,1\}$，$\mathbf{P_{i.j}=1}$ 意味着将原来的 $j$ 号节点移到 $i$.
 
+假设我们有一个排列矩阵 $\mathbf{P}$，那么节点的特征矩阵就变成了 $\mathbf{P}\mathbf{X}$, 邻接矩阵变成了 $\mathbf{PXP^T}$ .
+还有一条性质是 $\mathbf{PP^T}=\mathbf{I}$
 
 **位置回归**
 
@@ -75,3 +77,34 @@ $$
 $$
 这样的生成会使全部 $(\mathbf{r}_i,i)$ 上的元素是 $1$，其它位置是小于 $1$ 的正数。容易得到 $\begin{aligned}\lim_{\tau\to+\infty}\hat{\mathbf{P}}=\mathbf{P},\mathbf{P}\in\mathcal{P}.\end{aligned}$，
 
+另外，需要证明排列无关性：
+![[Pasted image 20240126170043.png]]
+
+假设原始排列下，结点特征矩阵和邻接矩阵是 $\mathbf{X} ,\mathbf{A}$, 那么生成 $\mathbf{r}_A=f\left(\mathbf{X},\mathbf{A}\right)$，再生成 $\mathbf{r}=\text{ sgn }\left(\mathbf{r}_A\mathbf{1}^\top-\mathbf{1}\mathbf{r}_A^\top\right)\mathbf{1}$，最后生成近似的排列矩阵 $\hat{\mathbf{P}}=\exp\left\{-\tau\left[\left(\mathbf{m}\mathbf{1}^\top-\mathbf{1}\mathbf{r}^\top+n\right)\quad(\mathrm{mod~}n)\right]\right\}$, 那么最后得到 $\hat{\mathbf{X}}=\hat{\mathbf{P}\mathbf{X}},\textit{and }\hat{\mathbf{A}}=\hat{\mathbf{P}\mathbf{A}}\hat{\mathbf{P}}^\top$
+
+上面这个定理的意识是，如果对于原来的结点进行重新的排序，那么最后生成的 $\hat{\mathbf{X}} and \hat{\mathbf{A}}$ 依旧是不变的，这就满足了引言部分提出的一个重要性质：排列无关性。
+
+设我们以排列矩阵 $\mathbf{P}$ 对原始节点进行重新排列，那么结点特征矩阵就变成了 $\mathbf{PX}$，邻接矩阵变成了 $\mathbf{PAP^T}$, 那么：
+$$
+\begin{aligned}
+f(\mathbf{PX},\mathbf{PAP^{T})}&= \mathbf{P}f(\mathbf{X},\mathbf{A})\\
+&=\mathbf{Pr_A}\\
+\text{继续生成绝对排序}\\
+&\operatorname{sgn}\left(\mathbf{Pr}_A\mathbf{1}^\top-\mathbf{1r}_A^\top\mathbf{P}^\top\right)\mathbf{1} \\
+&= \operatorname{sgn}\left(\mathbf{Pr}_A\mathbf{1}^\top\mathbf{P}^\top-\mathbf{P1r}_A^\top\mathbf{P}^\top\right)\mathbf{1}  \\
+&= \mathbf{P}\text{sgn}\left(\mathbf{r}_A\mathbf{1}^\top-\mathbf{1}\mathbf{r}_A^\top\right)\mathbf{P}^\top\mathbf{1}  \\
+&= \mathbf{P}\text{sgn}\left(\mathbf{r}_A\mathbf{1}^\top-\mathbf{1}\mathbf{r}_A^\top\right)\mathbf{1}  \\
+&= \mathbf{Pr}\\
+\text{再生成排列矩阵}\\
+&\exp\left\{-\tau\left[\left(\mathbf{m}\mathbf{1}^\top-\mathbf{1}\mathbf{r}^\top\mathbf{P}^\top+n\right)\quad(\mathrm{mod~}n)\right]\right\} \\
+&= \exp\left\{-\tau\left[\left(\mathbf{m}\mathbf{1}^\top\mathbf{P}^\top-1\mathbf{r}^\top\mathbf{P}^\top+n\right)\quad(\mathrm{mod~}n)\right]\right\}  \\
+&= \exp\left\{-\tau\left[\left(\mathbf{m}\mathbf{1}^\top-\mathbf{1}\mathbf{r}^\top+n\right)\quad(\mathrm{mod~}n)\right]\right\}\mathbf{P}^\top   \\
+&= \hat{\mathbf{P}}\mathbf{P}^\top  \\
+\text{最后得到两个矩阵}\\
+&\hat{\mathbf{X}^{1}}=\hat{\mathbf{P}}\mathbf{P}^T{(\mathbf{P}\mathbf{X})=\hat{\mathbf{P}}\mathbf{X}}= \hat{\mathbf{X}}\\
+&\hat{\mathbf{A}^{1}} = \hat{\mathbf{P}}\mathbf{P}^T(\mathbf{P}\mathbf{A}\mathbf{P}^T)\mathbf{P}\hat{\mathbf{P}}^\top=\mathbf{\hat{P}}\mathbf{A}\hat{\mathbf{P}}^{T}=\hat{\mathbf{A}}\\
+\text{得证}
+\end{aligned}
+$$
+
+## Compressed Convolution Network
