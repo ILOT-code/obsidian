@@ -19,10 +19,6 @@ tags: []
 >[!abstract]
 >
 
-## Comments
-
-
-
 ## Methods
 
 ### Importance
@@ -81,3 +77,9 @@ $$
 
 首先，在训练集上微调一遍该模型，将得到的参数根据上面的算法进行一次压缩，在验证集上测试性能。如果压缩后性能依旧满足需求，就可以继续重复此过程。
 ![[Pasted image 20240124193418.png]]
+
+
+## Results
+
+下图在 GVGO、TensoRF、Plenoxels 三种
+![[Pasted image 20240127133943.png]]
