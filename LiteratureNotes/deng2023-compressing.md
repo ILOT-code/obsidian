@@ -81,5 +81,7 @@ $$
 
 ## Results
 
-下图在 GVGO、TensoRF、Plenoxels 三种
+下图在 GVGO、TensoRF、Plenoxels 三种方法上使用 ReNerf 方法。第一行是 baseline，对应着不使用 ReNerf 的结果，LOW 对应着低压缩性，对应着在验证集上得到最好的 PSNR ，HIGH 对应着高压缩性，对应着达到性能临界点时的情况。
 ![[Pasted image 20240127133943.png]]
+
+总体上看，ReNerf 都能很好的进行压缩，而没有太大
