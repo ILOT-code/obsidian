@@ -161,3 +161,10 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
+## Experiments
+
+在图分类任务的结果：除了 MUTAG 数据集，其它数据集上均表现最好
+![[Pasted image 20240127130752.png]]
+
+在节点分类任务的结果：总体上表现很好
+![[Pasted image 20240127130706.png]]
