@@ -12,4 +12,13 @@
 -- How many lines of scrollback you want to retain per tab
 config.scrollback_lines = 3500
 ```
-`Ctrl-Shift-`
+`Ctrl-Shift-K` 清空 scrollback，默认情况下，当前屏幕内容不会变，但无法向前滚动了，相当于只保留了当前一页。将其改为清空全部，见：[ClearScrollback - Wez's Terminal Emulator](https://wezfurlong.org/wezterm/config/lua/keyassignment/ClearScrollback.html)
+
+开启滚动条
+```
+-- Enable the scrollbar.
+-- It will occupy the right window padding space.
+-- If right padding is set to 0 then it will be increased
+-- to a single cell width
+config.enable_scroll_bar = true
+```
