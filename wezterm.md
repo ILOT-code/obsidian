@@ -12,3 +12,4 @@
 -- How many lines of scrollback you want to retain per tab
 config.scrollback_lines = 3500
 ```
+`Ctrl-Shift-`
