@@ -29,4 +29,5 @@ config.enable_scroll_bar = true
 
 ## Copy Mode
 
-`Ctrl-Shift-X` 进入复制模式，`v` 进入选择，`Shift-V` 进入行选择模式
+`Ctrl-Shift-X` 进入复制模式，`v` 进入选择，`Shift-V` 进入行选择模式，选择完毕后进行复制。按 `y` 可以复制内容并退出该模式。
+此模式下和 vim 的 normal 模式类似，支持很多移到指令。
