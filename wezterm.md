@@ -7,5 +7,8 @@
 `Ctrl-Shift-Alt-%` and `Ctrl-Shift-Alt-"` 水平和垂直分割窗口，`Ctrl-Shift-ArrowKey` 在窗口间移动
 
 ## Scrollback
+
 ```
+-- How many lines of scrollback you want to retain per tab
+config.scrollback_lines = 3500
 ```
