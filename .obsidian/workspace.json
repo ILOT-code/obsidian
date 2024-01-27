@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md"
+                "file": "Sundry/vim.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/vim.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -222,6 +222,7 @@
   },
   "active": "e69efd448e3dd0ab",
   "lastOpenFiles": [
+    "LiteratureNotes/deng2023-compressing.md",
     "Attachments/Pasted image 20240127135020.png",
     "Attachments/Pasted image 20240127133943.png",
     "LiteratureNotes/sun2023-all.md",
@@ -234,7 +235,6 @@
     "Attachments/Pasted image 20240126154126.png",
     "ZtTemplates/zt-note.eta.md",
     "Sundry/shell.md",
-    "LiteratureNotes/deng2023-compressing.md",
     "Attachments/Pasted image 20240124193418.png",
     "Attachments/Pasted image 20240124192813.png",
     "Attachments/Pasted image 20240124192542.png",
@@ -257,7 +257,6 @@
     "LiteratureNotes/ciGFPoseLearning3D2023.md",
     "LiteratureNotes/ladune2023-coolchic.md",
     "LiteratureNotes/guo2023-compression.md",
-    "Attachments/Pasted image 20240107170225.png",
     "未命名",
     "Pytorch",
     "未命名.canvas",

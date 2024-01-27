@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vim",
+      "path": "Sundry/vim.md"
+    },
+    {
       "basename": "deng2023-compressing",
       "path": "LiteratureNotes/deng2023-compressing.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "neovim配置",
       "path": "Sundry/neovim配置.md"
-    },
-    {
-      "basename": "vim",
-      "path": "Sundry/vim.md"
     },
     {
       "basename": "girish2023-shacira",
