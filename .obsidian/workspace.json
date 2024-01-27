@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md",
+                "file": "LiteratureNotes/deng2023-compressing.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md",
+                "file": "LiteratureNotes/deng2023-compressing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md",
+                "file": "LiteratureNotes/deng2023-compressing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md"
+                "file": "LiteratureNotes/deng2023-compressing.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md",
+                "file": "LiteratureNotes/deng2023-compressing.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -222,10 +222,10 @@
   },
   "active": "e69efd448e3dd0ab",
   "lastOpenFiles": [
+    "LiteratureNotes/sun2023-all.md",
     "Attachments/Pasted image 20240127130752.png",
     "Attachments/Pasted image 20240127130706.png",
     "Paperwords/sun2023-all-w.md",
-    "LiteratureNotes/sun2023-all.md",
     "Attachments/Pasted image 20240126192949.png",
     "diary/2024-01-25.md",
     "Attachments/Pasted image 20240126170043.png",
@@ -257,7 +257,6 @@
     "LiteratureNotes/guo2023-compression.md",
     "Attachments/Pasted image 20240107170225.png",
     "Attachments/Pasted image 20240107165636.png",
-    "Attachments/Pasted image 20240107164822.png",
     "未命名",
     "Pytorch",
     "未命名.canvas",
