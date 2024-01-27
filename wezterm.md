@@ -2,3 +2,5 @@
 `Shift-PageUp` and `Shift-PageDown` 上下翻页（ Scrollback 开启）
 `Ctrl-Shift-F` 进行搜索模式，上下方向键进行选择，`Esc` 退出该模式
 `Ctrl-Shift-C`，`Ctrl-Shift-V` 进行复制粘贴，`Shift-Insert` 也是粘贴
+`Ctrl-Shift-N` 新建窗口（另有 `Super-N`，但没有成功）
+`Ctrl-Shift-T` 和 `Super-T(t)` 新建标签
