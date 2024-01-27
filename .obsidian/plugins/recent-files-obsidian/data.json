@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "wezterm",
+      "path": "wezterm.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
       "basename": "vim",
       "path": "Sundry/vim.md"
     },
@@ -79,10 +87,6 @@
     {
       "basename": "guo2023-compression",
       "path": "LiteratureNotes/guo2023-compression.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.md"
     },
     {
       "basename": "zt-annot.eta",
