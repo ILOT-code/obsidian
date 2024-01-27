@@ -22,3 +22,7 @@ config.scrollback_lines = 3500
 -- to a single cell width
 config.enable_scroll_bar = true
 ```
+
+## # Quick Select Mode
+`CTRL-SHIFT-SPACE` 开启快速选择模式，将匹配特定的内容，并以输入前缀的方式来快速选取一个匹配内容，并将其复制到粘贴板。
+匹配的内容可以自行配置。
