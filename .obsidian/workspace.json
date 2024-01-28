@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md"
+                "file": "Sundry/vim.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/vim.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -228,15 +228,16 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "e69efd448e3dd0ab",
   "lastOpenFiles": [
-    "Sundry/vim.md",
     "wezterm.md",
-    "未命名.md",
+    "Sundry/vim.md",
     "LiteratureNotes/deng2023-compressing.md",
+    "未命名.md",
     "Attachments/Pasted image 20240127135020.png",
     "Attachments/Pasted image 20240127133943.png",
     "LiteratureNotes/sun2023-all.md",
