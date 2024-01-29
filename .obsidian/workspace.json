@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d99784cfb94ebeef",
+        "id": "249a8ce2eabdeb1a",
         "type": "tabs",
         "children": [
           {
-            "id": "5eafd5ffe03ee335",
+            "id": "33f2b763048efca1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paperwords/sun2023-all-w.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e69efd448e3dd0ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sundry/vim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67b434e0ee7caf06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wezterm.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wezterm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wezterm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "wezterm.md"
-              }
+              "state": {}
             }
           },
           {
@@ -200,7 +167,6 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "wezterm.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -232,8 +198,9 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "67b434e0ee7caf06",
+  "active": "33f2b763048efca1",
   "lastOpenFiles": [
+    "Paperwords/sun2023-all-w.md",
     "Sundry/vim.md",
     "wezterm.md",
     "LiteratureNotes/deng2023-compressing.md",
@@ -243,7 +210,6 @@
     "LiteratureNotes/sun2023-all.md",
     "Attachments/Pasted image 20240127130752.png",
     "Attachments/Pasted image 20240127130706.png",
-    "Paperwords/sun2023-all-w.md",
     "Attachments/Pasted image 20240126192949.png",
     "diary/2024-01-25.md",
     "Attachments/Pasted image 20240126170043.png",
