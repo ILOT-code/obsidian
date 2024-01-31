@@ -11,8 +11,12 @@
             "id": "33f2b763048efca1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/flamich2022-fast.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -108,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LiteratureNotes/flamich2022-fast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LiteratureNotes/flamich2022-fast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LiteratureNotes/flamich2022-fast.md"
+              }
             }
           },
           {
@@ -167,6 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
+                "file": "LiteratureNotes/flamich2022-fast.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -194,11 +203,13 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "33f2b763048efca1",
   "lastOpenFiles": [
+    "LiteratureNotes/ali2023-efficient.md",
     "Paperwords/sun2023-all-w.md",
     "Sundry/vim.md",
     "wezterm.md",
@@ -234,7 +245,6 @@
     "LiteratureNotes/wangDecouplingandAggregatingImageExposure2023.md",
     "LiteratureNotes/xuCXTrackImproving3D2023.md",
     "LiteratureNotes/ciGFPoseLearning3D2023.md",
-    "LiteratureNotes/ladune2023-coolchic.md",
     "未命名",
     "Pytorch",
     "未命名.canvas",

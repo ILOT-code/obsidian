@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "flamich2022-fast",
+      "path": "LiteratureNotes/flamich2022-fast.md"
+    },
+    {
+      "basename": "ali2023-efficient",
+      "path": "LiteratureNotes/ali2023-efficient.md"
+    },
+    {
       "basename": "sun2023-all-w",
       "path": "Paperwords/sun2023-all-w.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "deng2023-compressing-w",
       "path": "Paperwords/deng2023-compressing-w.md"
-    },
-    {
-      "basename": "flamich2022-fast",
-      "path": "LiteratureNotes/flamich2022-fast.md"
     },
     {
       "basename": "Drawguo2023-compression",
