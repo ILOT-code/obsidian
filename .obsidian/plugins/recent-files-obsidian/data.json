@@ -9,6 +9,10 @@
       "path": "LiteratureNotes/ali2023-efficient.md"
     },
     {
+      "basename": "deng2023-compressing",
+      "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
       "basename": "sun2023-all-w",
       "path": "Paperwords/sun2023-all-w.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "wezterm",
       "path": "wezterm.md"
-    },
-    {
-      "basename": "deng2023-compressing",
-      "path": "LiteratureNotes/deng2023-compressing.md"
     },
     {
       "basename": "未命名",
