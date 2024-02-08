@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "wezterm",
+      "path": "wezterm.md"
+    },
+    {
       "basename": "flamich2022-fast",
       "path": "LiteratureNotes/flamich2022-fast.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "vim",
       "path": "Sundry/vim.md"
-    },
-    {
-      "basename": "wezterm",
-      "path": "wezterm.md"
     },
     {
       "basename": "未命名",
