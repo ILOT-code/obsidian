@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vim",
+      "path": "Sundry/vim.md"
+    },
+    {
+      "basename": "shell",
+      "path": "Sundry/shell.md"
+    },
+    {
       "basename": "Latex",
       "path": "Sundry/Latex.md"
     },
@@ -25,10 +33,6 @@
       "path": "Paperwords/sun2023-all-w.md"
     },
     {
-      "basename": "vim",
-      "path": "Sundry/vim.md"
-    },
-    {
       "basename": "未命名",
       "path": "未命名.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "zt-note.eta",
       "path": "ZtTemplates/zt-note.eta.md"
-    },
-    {
-      "basename": "shell",
-      "path": "Sundry/shell.md"
     },
     {
       "basename": "deng2023-compressing-w",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sundry/Latex.md",
+                "file": "Sundry/vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sundry/Latex.md",
+                "file": "Sundry/vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sundry/Latex.md",
+                "file": "Sundry/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sundry/Latex.md"
+                "file": "Sundry/vim.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Sundry/Latex.md",
+                "file": "Sundry/vim.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -209,6 +209,8 @@
   },
   "active": "5314c76956ffc746",
   "lastOpenFiles": [
+    "Sundry/shell.md",
+    "Sundry/Latex.md",
     "wezterm.md",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/ali2023-efficient.md",
@@ -226,7 +228,6 @@
     "Attachments/Pasted image 20240126170043.png",
     "Attachments/Pasted image 20240126154126.png",
     "ZtTemplates/zt-note.eta.md",
-    "Sundry/shell.md",
     "Attachments/Pasted image 20240124193418.png",
     "Attachments/Pasted image 20240124192813.png",
     "Attachments/Pasted image 20240124192542.png",
@@ -244,7 +245,6 @@
     "LiteratureNotes/2023-preprocessing.md",
     "LiteratureNotes/wangDecouplingandAggregatingImageExposure2023.md",
     "LiteratureNotes/xuCXTrackImproving3D2023.md",
-    "LiteratureNotes/ciGFPoseLearning3D2023.md",
     "未命名",
     "Pytorch",
     "未命名.canvas",
