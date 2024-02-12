@@ -423,6 +423,7 @@ x, y, d, p 分别对应剪切复制删除粘贴，vim 中有很多寄存器，�
 	- `I`：显示/隐藏在 nvim-tree 插件中配置隐藏的文件和文件夹
 	- `Enter` ：打开文件或展开文件夹
 	- `Backspace`：折叠文件夹（对着文件夹下面的文件可以直接按，不用对着文件夹按）
+	- `C-k`: 显示文件信息
 - Telescope Operations：
 	- `<leader>fr`：基于频率打开最近文件表
 	- `<leader>fw`：在当前项目查找 word
