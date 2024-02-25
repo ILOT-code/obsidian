@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md",
+                "file": "LiteratureNotes/deng2023-compressing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md",
+                "file": "LiteratureNotes/deng2023-compressing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md"
+                "file": "LiteratureNotes/deng2023-compressing.md"
               }
             }
           },
@@ -188,7 +187,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md",
+                "file": "LiteratureNotes/deng2023-compressing.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -220,10 +219,10 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "5e293b91564c0542",
+  "active": "df4606d54e6b5455",
   "lastOpenFiles": [
-    "LiteratureNotes/deng2023-compressing.md",
     "LiteratureNotes/sun2023-all.md",
+    "LiteratureNotes/deng2023-compressing.md",
     "Sundry/vim.md",
     "Paperwords/sun2023-all-w.md",
     "LiteratureNotes/flamich2022-fast.md",
