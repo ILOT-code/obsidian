@@ -80,9 +80,9 @@ $$
 另外，需要证明排列无关性：
 ![[Pasted image 20240126170043.png]]
 
-假设原始排列下，结点特征矩阵和邻接矩阵是 $\mathbf{X} ,\mathbf{A}$, 那么生成 $\mathbf{r}_A=f\left(\mathbf{X},\mathbf{A}\right)$，再生成 $\mathbf{r}=\text{ sgn }\left(\mathbf{r}_A\mathbf{1}^\top-\mathbf{1}\mathbf{r}_A^\top\right)\mathbf{1}$，最后生成近似的排列矩阵 $\hat{\mathbf{P}}=\exp\left\{-\tau\left[\left(\mathbf{m}\mathbf{1}^\top-\mathbf{1}\mathbf{r}^\top+n\right)\quad(\mathrm{mod~}n)\right]\right\}$, 那么最后得到 $\hat{\mathbf{X}}=\hat{\mathbf{P}\mathbf{X}},\textit{and }\hat{\mathbf{A}}=\hat{\mathbf{P}\mathbf{A}}\hat{\mathbf{P}}^\top$
+假设原始排列下，结点特征矩阵和邻接矩阵是 $\mathbf{X} ,\mathbf{A}$, 那么生成 $\mathbf{r}_A=f\left(\mathbf{X},\mathbf{A}\right)$，再生成 $\mathbf{r}=\text{ sgn }\left(\mathbf{r}_A\mathbf{1}^\top-\mathbf{1}\mathbf{r}_A^\top\right)\mathbf{1}$，最后生成近似的排列矩阵 $\hat{\mathbf{P}}=\exp\left\{-\tau\left[\left(\mathbf{m}\mathbf{1}^\top-\mathbf{1}\mathbf{r}^\top+n\right)\quad(\mathrm{mod~}n)\right]\right\}$, 那么最后得到 $\hat{\mathbf{X}}=\hat{\mathbf{P}}\mathbf{X},\textit{and }\hat{\mathbf{A}}=\hat{\mathbf{P}}\mathbf{A}\hat{\mathbf{P}}^\top$
 
-上面这个定理的意识是，如果对于原来的结点进行重新的排序，那么最后生成的 $\hat{\mathbf{X}} and \hat{\mathbf{A}}$ 依旧是不变的，这就满足了引言部分提出的一个重要性质：排列无关性。
+上面这个定理的意思是，如果对于原来的结点进行重新的排序，那么最后生成的 $\hat{\mathbf{X}} and \hat{\mathbf{A}}$ 依旧是不变的，这就满足了引言部分提出的一个重要性质：排列无关性。
 
 设我们以排列矩阵 $\mathbf{P}$ 对原始节点进行重新排列，那么结点特征矩阵就变成了 $\mathbf{PX}$，邻接矩阵变成了 $\mathbf{PAP^T}$, 那么：
 $$
@@ -119,7 +119,7 @@ $$
 \end{align*}
 $$
 
-MLP 操作可以看成是矩阵乘法加上激活函数，容易得到 $MLP(\mathbf{PX})=\mathbf{X}MLP(\mathbf{X})$, 进一步地，可以证明此操作满足 $f(\mathbf{X},\mathbf{A})=f(\mathbf{PX},\mathbf{PAP^T})$.
+MLP 操作可以看成是矩阵乘法加上激活函数，容易得到 $MLP(\mathbf{PX})=\mathbf{P}MLP(\mathbf{X})$, 进一步地，根据 $\mathbf{PP^T}=\mathbf{I}$ ，可以证明此操作满足 $f(\mathbf{X},\mathbf{A})=f(\mathbf{PX},\mathbf{PAP^T})$.
 
 然后根据前文的方法，得到排列矩阵和 $\hat{\mathbf{X}},\hat{\mathbf{A}}$ .
 
