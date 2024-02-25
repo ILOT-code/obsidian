@@ -32,7 +32,7 @@ tags:
 1. 基于多项式的定制的图卷积操作，在有限的参数情况下表现较差。
 2. GNN 无法直接进行分层表示学习，需要借助额外的结构。
 
-而 CNN 天生能够解决这些问题。但 CNN 难以直接用在图卷积上，这需要一个正则化模块来讲欧式卷积从规则的网格结构拓展到不规则的拓扑结构。
+而 CNN 天生能够解决这些问题。但 CNN 难以直接用在图卷积上，这需要一个正则化模块来将欧式卷积从规则的网格结构拓展到不规则的拓扑结构。
 
 作者认为，好的正则化方法需要满足两点要求：
 1. 正则化后的图需要为后面的卷积操作提供足够的信息，因此，正则化操作和随后的卷积操作应该要同时训练，不能分开。
@@ -52,7 +52,7 @@ tags:
 **符号定义**
 
 图： $\mathcal{G}\quad=\quad(\mathcal{V},\mathcal{E})$，$\mathcal{V}=\{v_1,v_2,\cdots,v_n\}$ 表示节点集，$\mathcal{E}$ 表示边集
-每一个节点都由一个长度 $d$ 的特征向量，总体由： $\mathbf{X}\in\mathbb{R}^{n\times d}$ 表示
+每一个节点都有一个长度 $d$ 的特征向量，总体由： $\mathbf{X}\in\mathbb{R}^{n\times d}$ 表示
 邻接矩阵： $\mathbf{A}\in\mathbb{R}^{n\times n}$，对角度矩阵： $\mathbf{D}\in\mathbb{R}^{n\times n}$，$\mathbf{D}_{i,i}=\sum_j\mathbf{A}_{i,j}.$
 排列矩阵的集合：$\mathcal{P}$,   $\left|\mathcal{P}\right|=n!$，
 $\mathbf{P}\in\mathcal{P},\mathbf{P}\in\mathbb{R}^{n\times n},\mathbf{P}\mathbf{1}=\mathbf{1}^\top\mathbf{P}=\mathbf{1},\mathbf{P}_{i, j}\in\{0,1\}$，$\mathbf{P_{i.j}=1}$ 意味着将原来的 $j$ 号节点移到 $i$.
