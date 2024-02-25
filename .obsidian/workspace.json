@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ac0ac970c7d4e33a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sundry/vim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sundry/vim.md",
+                "file": "LiteratureNotes/sun2023-all.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sundry/vim.md",
+                "file": "LiteratureNotes/sun2023-all.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sundry/vim.md"
+                "file": "LiteratureNotes/sun2023-all.md"
               }
             }
           },
@@ -200,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Sundry/vim.md",
+                "file": "LiteratureNotes/sun2023-all.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -232,13 +220,13 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "ac0ac970c7d4e33a",
+  "active": "5e293b91564c0542",
   "lastOpenFiles": [
+    "LiteratureNotes/deng2023-compressing.md",
     "LiteratureNotes/sun2023-all.md",
     "Sundry/vim.md",
     "Paperwords/sun2023-all-w.md",
     "LiteratureNotes/flamich2022-fast.md",
-    "LiteratureNotes/deng2023-compressing.md",
     "Paperwords/wu1996-calica-w.md",
     "Sundry/shell.md",
     "Sundry/Latex.md",
