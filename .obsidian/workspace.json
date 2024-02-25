@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ac0ac970c7d4e33a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sundry/vim.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md",
+                "file": "Sundry/vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md",
+                "file": "Sundry/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md"
+                "file": "Sundry/vim.md"
               }
             }
           },
@@ -188,7 +200,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/sun2023-all.md",
+                "file": "Sundry/vim.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -220,8 +232,9 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "5e293b91564c0542",
+  "active": "ac0ac970c7d4e33a",
   "lastOpenFiles": [
+    "LiteratureNotes/sun2023-all.md",
     "Paperwords/sun2023-all-w.md",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/deng2023-compressing.md",
@@ -234,7 +247,6 @@
     "未命名.md",
     "Attachments/Pasted image 20240127135020.png",
     "Attachments/Pasted image 20240127133943.png",
-    "LiteratureNotes/sun2023-all.md",
     "Attachments/Pasted image 20240127130752.png",
     "Attachments/Pasted image 20240127130706.png",
     "Attachments/Pasted image 20240126192949.png",
