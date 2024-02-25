@@ -57,7 +57,7 @@ tags:
 排列矩阵的集合：$\mathcal{P}$,   $\left|\mathcal{P}\right|=n!$，
 $\mathbf{P}\in\mathcal{P},\mathbf{P}\in\mathbb{R}^{n\times n},\mathbf{P}\mathbf{1}=\mathbf{1}^\top\mathbf{P}=\mathbf{1},\mathbf{P}_{i, j}\in\{0,1\}$，$\mathbf{P_{i.j}=1}$ 意味着将原来的 $j$ 号节点移到 $i$.
 
-假设我们有一个排列矩阵 $\mathbf{P}$，那么节点的特征矩阵就变成了 $\mathbf{P}\mathbf{X}$, 邻接矩阵变成了 $\mathbf{PXP^T}$ .
+假设我们有一个排列矩阵 $\mathbf{P}$，那么节点的特征矩阵就变成了 $\mathbf{P}\mathbf{X}$, 邻接矩阵变成了 $\mathbf{PAP^T}$ .
 还有一条性质是 $\mathbf{PP^T}=\mathbf{I}$
 
 **位置回归**
