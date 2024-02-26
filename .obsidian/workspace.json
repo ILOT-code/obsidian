@@ -1,0 +1,274 @@
+{
+  "main": {
+    "id": "9f653fe1d84d236b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca8057e759703f02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df4606d54e6b5455",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/deng2023-compressing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e293b91564c0542",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paperwords/moffat1995-arithmetic-w.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f1065e6e5e09393",
+    "type": "split",
+    "children": [
+      {
+        "id": "035c69471c9e1850",
+        "type": "tabs",
+        "dimension": 58.33333333333334,
+        "children": [
+          {
+            "id": "85cc9493daeac8f1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d17cd7ae1e3bb0b7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ddd5c0671d1ce879",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "d14deeddadd8e89d",
+        "type": "tabs",
+        "dimension": 41.66666666666666,
+        "children": [
+          {
+            "id": "64dbf49a27a48b89",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 215.5
+  },
+  "right": {
+    "id": "f8efb7f1388c37a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "958c969b08156d0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8474cbb6d23a62e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0cabbd7a9c94fee5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Paperwords/moffat1995-arithmetic-w.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "1de2cec3698ffe1b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Paperwords/moffat1995-arithmetic-w.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1ee4b7f02f2a406f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Paperwords/moffat1995-arithmetic-w.md"
+              }
+            }
+          },
+          {
+            "id": "76eddf6fddd8ee15",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "319182edb37e53c9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ff7369599ba655b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b20da65bc9b5453d",
+            "type": "leaf",
+            "state": {
+              "type": "zotero-annotation-view",
+              "state": {
+                "file": "Paperwords/moffat1995-arithmetic-w.md",
+                "itemId": 13,
+                "attachmentId": 14,
+                "follow": null
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 393.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "cmdr:ZotLit: Refresh Zotero data": false,
+      "cmdr:ZotLit: Open quick switcher for literature notes": false,
+      "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
+      "obsidian-file-cleaner:清理文件": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
+    }
+  },
+  "active": "5e293b91564c0542",
+  "lastOpenFiles": [
+    "Sundry/vim.md",
+    "Paperwords/moffat1995-arithmetic-w.md",
+    "LiteratureNotes/sun2023-all.md",
+    "LiteratureNotes/deng2023-compressing.md",
+    "Paperwords/sun2023-all-w.md",
+    "LiteratureNotes/flamich2022-fast.md",
+    "Paperwords/wu1996-calica-w.md",
+    "Sundry/shell.md",
+    "Sundry/Latex.md",
+    "wezterm.md",
+    "LiteratureNotes/ali2023-efficient.md",
+    "未命名.md",
+    "Attachments/Pasted image 20240127135020.png",
+    "Attachments/Pasted image 20240127133943.png",
+    "Attachments/Pasted image 20240127130752.png",
+    "Attachments/Pasted image 20240127130706.png",
+    "Attachments/Pasted image 20240126192949.png",
+    "diary/2024-01-25.md",
+    "Attachments/Pasted image 20240126170043.png",
+    "Attachments/Pasted image 20240126154126.png",
+    "ZtTemplates/zt-note.eta.md",
+    "Attachments/Pasted image 20240124193418.png",
+    "Attachments/Pasted image 20240124192813.png",
+    "Attachments/Pasted image 20240124192542.png",
+    "Paperwords/deng2023-compressing-w.md",
+    "Excalidraw/Drawguo2023-compression.md",
+    "Sundry/neovim配置.md",
+    "LiteratureNotes/girish2023-shacira.md",
+    "LiteratureNotes/liu2023-learned.md",
+    "LiteratureNotes/muller2022-instant.md",
+    "LiteratureNotes/tang2023-scene.md",
+    "LiteratureNotes/yang2023-lossy.md",
+    "LiteratureNotes/yang2023-tinc.md",
+    "LiteratureNotes/wang2023-decouplingandaggregating.md",
+    "LiteratureNotes/xu2023-cxtrack.md",
+    "LiteratureNotes/2023-preprocessing.md",
+    "未命名",
+    "Pytorch",
+    "未命名.canvas",
+    "Paperwords",
+    "未命名 1.canvas",
+    "LiteratureNotes",
+    "ZtTemplates",
+    "Attachments/monaco.ttf",
+    "monaco.ttf",
+    "Excalidraw",
+    "未命名 3",
+    "未命名 2"
+  ]
+}
