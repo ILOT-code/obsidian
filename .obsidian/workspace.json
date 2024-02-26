@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sundry/vim.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sundry/vim.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sundry/vim.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sundry/vim.md"
+                "file": "Notecards/Arithmetic Coding.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Sundry/vim.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -222,8 +222,9 @@
   },
   "active": "5e293b91564c0542",
   "lastOpenFiles": [
-    "Paperwords/moffat1995-arithmetic-w.md",
     "Sundry/vim.md",
+    "Notecards/Arithmetic Coding.md",
+    "Paperwords/moffat1995-arithmetic-w.md",
     "LiteratureNotes/sun2023-all.md",
     "LiteratureNotes/deng2023-compressing.md",
     "Paperwords/sun2023-all-w.md",
@@ -257,7 +258,6 @@
     "LiteratureNotes/yang2023-tinc.md",
     "LiteratureNotes/wang2023-decouplingandaggregating.md",
     "LiteratureNotes/xu2023-cxtrack.md",
-    "LiteratureNotes/2023-preprocessing.md",
     "未命名",
     "Pytorch",
     "未命名.canvas",
