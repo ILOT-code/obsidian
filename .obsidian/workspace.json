@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "Sundry/GitPro.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "Sundry/GitPro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "Sundry/GitPro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md"
+                "file": "Sundry/GitPro.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "Sundry/GitPro.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -216,13 +216,14 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "5e293b91564c0542",
   "lastOpenFiles": [
-    "Sundry/vim.md",
     "Notecards/Arithmetic Coding.md",
+    "Sundry/vim.md",
     "Paperwords/moffat1995-arithmetic-w.md",
     "LiteratureNotes/sun2023-all.md",
     "LiteratureNotes/deng2023-compressing.md",
