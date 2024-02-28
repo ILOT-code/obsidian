@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "girish2023-shacira",
+      "path": "LiteratureNotes/girish2023-shacira.md"
+    },
+    {
       "basename": "yang2023-tinc",
       "path": "LiteratureNotes/yang2023-tinc.md"
     },
@@ -111,10 +115,6 @@
     {
       "basename": "neovim配置",
       "path": "Sundry/neovim配置.md"
-    },
-    {
-      "basename": "girish2023-shacira",
-      "path": "LiteratureNotes/girish2023-shacira.md"
     },
     {
       "basename": "2023-preprocessing",

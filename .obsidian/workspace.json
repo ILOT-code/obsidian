@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/girish2023-shacira.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/girish2023-shacira.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/girish2023-shacira.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md"
+                "file": "LiteratureNotes/girish2023-shacira.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/girish2023-shacira.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -234,9 +234,9 @@
   },
   "active": "91768c938c8625bd",
   "lastOpenFiles": [
+    "LiteratureNotes/yang2023-tinc.md",
     "LiteratureNotes/deng2023-compressing.md",
     "LiteratureNotes/ladune2023-coolchic.md",
-    "LiteratureNotes/yang2023-tinc.md",
     "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/muller2022-instant.md",
