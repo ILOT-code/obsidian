@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sundry/GitPro.md",
+                "file": "LiteratureNotes/yang2023-tinc.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sundry/GitPro.md",
+                "file": "LiteratureNotes/yang2023-tinc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sundry/GitPro.md",
+                "file": "LiteratureNotes/yang2023-tinc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sundry/GitPro.md"
+                "file": "LiteratureNotes/yang2023-tinc.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Sundry/GitPro.md",
+                "file": "LiteratureNotes/yang2023-tinc.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -216,11 +216,14 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "5e293b91564c0542",
   "lastOpenFiles": [
+    "LiteratureNotes/tang2023-scene.md",
+    "Sundry/GitPro.md",
     "Notecards/Arithmetic Coding.md",
     "Sundry/vim.md",
     "Paperwords/moffat1995-arithmetic-w.md",
@@ -252,11 +255,9 @@
     "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/muller2022-instant.md",
-    "LiteratureNotes/tang2023-scene.md",
     "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/yang2023-tinc.md",
     "LiteratureNotes/wang2023-decouplingandaggregating.md",
-    "LiteratureNotes/xu2023-cxtrack.md",
     "未命名",
     "Pytorch",
     "未命名.canvas",

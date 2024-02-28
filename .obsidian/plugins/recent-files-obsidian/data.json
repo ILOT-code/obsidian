@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "yang2023-tinc",
+      "path": "LiteratureNotes/yang2023-tinc.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
       "basename": "GitPro",
       "path": "Sundry/GitPro.md"
     },
@@ -89,16 +97,8 @@
       "path": "LiteratureNotes/muller2022-instant.md"
     },
     {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
       "basename": "yang2023-lossy",
       "path": "LiteratureNotes/yang2023-lossy.md"
-    },
-    {
-      "basename": "yang2023-tinc",
-      "path": "LiteratureNotes/yang2023-tinc.md"
     },
     {
       "basename": "2023-preprocessing",
