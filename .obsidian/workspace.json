@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "91768c938c8625bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/yang2023-tinc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md",
+                "file": "LiteratureNotes/yang2023-tinc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md",
+                "file": "LiteratureNotes/yang2023-tinc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md"
+                "file": "LiteratureNotes/yang2023-tinc.md"
               }
             }
           },
@@ -188,7 +200,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md",
+                "file": "LiteratureNotes/yang2023-tinc.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -220,8 +232,11 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "5e293b91564c0542",
+  "active": "91768c938c8625bd",
   "lastOpenFiles": [
+    "LiteratureNotes/deng2023-compressing.md",
+    "LiteratureNotes/ladune2023-coolchic.md",
+    "LiteratureNotes/yang2023-tinc.md",
     "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/muller2022-instant.md",
@@ -230,12 +245,10 @@
     "LiteratureNotes/sun2023-all.md",
     "LiteratureNotes/tang2023-scene.md",
     "LiteratureNotes/yang2023-lossy.md",
-    "LiteratureNotes/yang2023-tinc.md",
     "Sundry/GitPro.md",
     "Notecards/Arithmetic Coding.md",
     "Sundry/vim.md",
     "Paperwords/moffat1995-arithmetic-w.md",
-    "LiteratureNotes/deng2023-compressing.md",
     "Paperwords/sun2023-all-w.md",
     "LiteratureNotes/flamich2022-fast.md",
     "Paperwords/wu1996-calica-w.md",
@@ -257,7 +270,6 @@
     "Attachments/Pasted image 20240124192813.png",
     "Attachments/Pasted image 20240124192542.png",
     "Paperwords/deng2023-compressing-w.md",
-    "Excalidraw/Drawguo2023-compression.md",
     "未命名",
     "Pytorch",
     "未命名.canvas",

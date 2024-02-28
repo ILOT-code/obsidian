@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "yang2023-tinc",
+      "path": "LiteratureNotes/yang2023-tinc.md"
+    },
+    {
+      "basename": "deng2023-compressing",
+      "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
       "basename": "ladune2023-coolchic",
       "path": "LiteratureNotes/ladune2023-coolchic.md"
     },
@@ -37,10 +45,6 @@
       "path": "LiteratureNotes/yang2023-lossy.md"
     },
     {
-      "basename": "yang2023-tinc",
-      "path": "LiteratureNotes/yang2023-tinc.md"
-    },
-    {
       "basename": "GitPro",
       "path": "Sundry/GitPro.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "moffat1995-arithmetic-w",
       "path": "Paperwords/moffat1995-arithmetic-w.md"
-    },
-    {
-      "basename": "deng2023-compressing",
-      "path": "LiteratureNotes/deng2023-compressing.md"
     },
     {
       "basename": "sun2023-all-w",
