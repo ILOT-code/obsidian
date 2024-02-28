@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/muller2022-instant.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/muller2022-instant.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/muller2022-instant.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/muller2022-instant.md"
+                "file": "LiteratureNotes/ladune2023-coolchic.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/muller2022-instant.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -222,6 +222,9 @@
   },
   "active": "5e293b91564c0542",
   "lastOpenFiles": [
+    "LiteratureNotes/liu2023-learned.md",
+    "LiteratureNotes/marpe2003-contextbased.md",
+    "LiteratureNotes/muller2022-instant.md",
     "LiteratureNotes/salimans2022-progressive.md",
     "LiteratureNotes/sneyers2016-flif.md",
     "LiteratureNotes/sun2023-all.md",
@@ -255,9 +258,6 @@
     "Attachments/Pasted image 20240124192542.png",
     "Paperwords/deng2023-compressing-w.md",
     "Excalidraw/Drawguo2023-compression.md",
-    "Sundry/neovim配置.md",
-    "LiteratureNotes/girish2023-shacira.md",
-    "LiteratureNotes/liu2023-learned.md",
     "未命名",
     "Pytorch",
     "未命名.canvas",
