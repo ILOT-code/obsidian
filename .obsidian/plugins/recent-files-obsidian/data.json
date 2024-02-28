@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "yang2023-tinc",
-      "path": "LiteratureNotes/yang2023-tinc.md"
+      "basename": "muller2022-instant",
+      "path": "LiteratureNotes/muller2022-instant.md"
+    },
+    {
+      "basename": "salimans2022-progressive",
+      "path": "LiteratureNotes/salimans2022-progressive.md"
+    },
+    {
+      "basename": "sneyers2016-flif",
+      "path": "LiteratureNotes/sneyers2016-flif.md"
+    },
+    {
+      "basename": "sun2023-all",
+      "path": "LiteratureNotes/sun2023-all.md"
     },
     {
       "basename": "tang2023-scene",
       "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
+    },
+    {
+      "basename": "yang2023-tinc",
+      "path": "LiteratureNotes/yang2023-tinc.md"
     },
     {
       "basename": "GitPro",
@@ -23,10 +43,6 @@
     {
       "basename": "moffat1995-arithmetic-w",
       "path": "Paperwords/moffat1995-arithmetic-w.md"
-    },
-    {
-      "basename": "sun2023-all",
-      "path": "LiteratureNotes/sun2023-all.md"
     },
     {
       "basename": "deng2023-compressing",
@@ -91,14 +107,6 @@
     {
       "basename": "liu2023-learned",
       "path": "LiteratureNotes/liu2023-learned.md"
-    },
-    {
-      "basename": "muller2022-instant",
-      "path": "LiteratureNotes/muller2022-instant.md"
-    },
-    {
-      "basename": "yang2023-lossy",
-      "path": "LiteratureNotes/yang2023-lossy.md"
     },
     {
       "basename": "2023-preprocessing",

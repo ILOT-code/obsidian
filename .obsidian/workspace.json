@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/muller2022-instant.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/muller2022-instant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/muller2022-instant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md"
+                "file": "LiteratureNotes/muller2022-instant.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/muller2022-instant.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -222,12 +222,16 @@
   },
   "active": "5e293b91564c0542",
   "lastOpenFiles": [
+    "LiteratureNotes/salimans2022-progressive.md",
+    "LiteratureNotes/sneyers2016-flif.md",
+    "LiteratureNotes/sun2023-all.md",
     "LiteratureNotes/tang2023-scene.md",
+    "LiteratureNotes/yang2023-lossy.md",
+    "LiteratureNotes/yang2023-tinc.md",
     "Sundry/GitPro.md",
     "Notecards/Arithmetic Coding.md",
     "Sundry/vim.md",
     "Paperwords/moffat1995-arithmetic-w.md",
-    "LiteratureNotes/sun2023-all.md",
     "LiteratureNotes/deng2023-compressing.md",
     "Paperwords/sun2023-all-w.md",
     "LiteratureNotes/flamich2022-fast.md",
@@ -254,10 +258,6 @@
     "Sundry/neovim配置.md",
     "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/liu2023-learned.md",
-    "LiteratureNotes/muller2022-instant.md",
-    "LiteratureNotes/yang2023-lossy.md",
-    "LiteratureNotes/yang2023-tinc.md",
-    "LiteratureNotes/wang2023-decouplingandaggregating.md",
     "未命名",
     "Pytorch",
     "未命名.canvas",
