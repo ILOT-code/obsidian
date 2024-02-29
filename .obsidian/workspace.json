@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/girish2023-shacira.md",
+                "file": "Sundry/conda包安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/girish2023-shacira.md",
+                "file": "Sundry/conda包安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/girish2023-shacira.md",
+                "file": "Sundry/conda包安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/girish2023-shacira.md"
+                "file": "Sundry/conda包安装.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/girish2023-shacira.md",
+                "file": "Sundry/conda包安装.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -234,6 +234,7 @@
   },
   "active": "91768c938c8625bd",
   "lastOpenFiles": [
+    "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/yang2023-tinc.md",
     "LiteratureNotes/deng2023-compressing.md",
     "LiteratureNotes/ladune2023-coolchic.md",
@@ -269,7 +270,6 @@
     "Attachments/Pasted image 20240124193418.png",
     "Attachments/Pasted image 20240124192813.png",
     "Attachments/Pasted image 20240124192542.png",
-    "Paperwords/deng2023-compressing-w.md",
     "未命名",
     "Pytorch",
     "未命名.canvas",
