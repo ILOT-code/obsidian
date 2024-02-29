@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sundry/conda包安装.md",
+                "file": "Sundry/shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sundry/conda包安装.md",
+                "file": "Sundry/shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sundry/conda包安装.md",
+                "file": "Sundry/shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sundry/conda包安装.md"
+                "file": "Sundry/shell.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Sundry/conda包安装.md",
+                "file": "Sundry/shell.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -234,6 +234,8 @@
   },
   "active": "91768c938c8625bd",
   "lastOpenFiles": [
+    "Sundry/vim.md",
+    "Sundry/conda包安装.md",
     "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/yang2023-tinc.md",
     "LiteratureNotes/deng2023-compressing.md",
@@ -248,7 +250,6 @@
     "LiteratureNotes/yang2023-lossy.md",
     "Sundry/GitPro.md",
     "Notecards/Arithmetic Coding.md",
-    "Sundry/vim.md",
     "Paperwords/moffat1995-arithmetic-w.md",
     "Paperwords/sun2023-all-w.md",
     "LiteratureNotes/flamich2022-fast.md",
@@ -266,7 +267,6 @@
     "diary/2024-01-25.md",
     "Attachments/Pasted image 20240126170043.png",
     "Attachments/Pasted image 20240126154126.png",
-    "ZtTemplates/zt-note.eta.md",
     "Attachments/Pasted image 20240124193418.png",
     "Attachments/Pasted image 20240124192813.png",
     "Attachments/Pasted image 20240124192542.png",

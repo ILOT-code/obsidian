@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "shell",
+      "path": "Sundry/shell.md"
+    },
+    {
+      "basename": "vim",
+      "path": "Sundry/vim.md"
+    },
+    {
       "basename": "conda包安装",
       "path": "Sundry/conda包安装.md"
     },
@@ -61,10 +69,6 @@
       "path": "Notecards/Arithmetic Coding.md"
     },
     {
-      "basename": "vim",
-      "path": "Sundry/vim.md"
-    },
-    {
       "basename": "moffat1995-arithmetic-w",
       "path": "Paperwords/moffat1995-arithmetic-w.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "wu1996-calica-w",
       "path": "Paperwords/wu1996-calica-w.md"
-    },
-    {
-      "basename": "shell",
-      "path": "Sundry/shell.md"
     },
     {
       "basename": "Latex",
