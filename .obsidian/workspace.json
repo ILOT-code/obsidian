@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "c9c2d04db5d6fcb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shortcut.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "91768c938c8625bd",
             "type": "leaf",
             "state": {
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shortcut.md"
+                "file": "LiteratureNotes/ladune2023-coolchic.md"
               }
             }
           },
@@ -212,7 +200,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "shortcut.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -240,14 +228,13 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c9c2d04db5d6fcb2",
+  "active": "5e293b91564c0542",
   "lastOpenFiles": [
-    "LiteratureNotes/ladune2023-coolchic.md",
     "shortcut.md",
+    "LiteratureNotes/ladune2023-coolchic.md",
     "Sundry/shell.md",
     "Sundry/vim.md",
     "Sundry/conda包安装.md",
