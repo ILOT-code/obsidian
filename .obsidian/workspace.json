@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5,
-    "collapsed": true
+    "width": 215.5
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shortcut.md"
+                "file": "Sundry/shell.md"
               }
             }
           },
@@ -201,7 +200,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/shell.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -229,13 +228,14 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "5e293b91564c0542",
   "lastOpenFiles": [
-    "Sundry/shell.md",
     "shortcut.md",
+    "Sundry/shell.md",
     "LiteratureNotes/ladune2023-coolchic.md",
     "Sundry/vim.md",
     "Sundry/conda包安装.md",
