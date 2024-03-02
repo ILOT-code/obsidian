@@ -18,13 +18,16 @@
 `Alt-Esc`：直接切换窗口
 `Super-d`：显示桌面
 
+`Ctrl-Alt-左(右)`：切换工作区
 ### 截屏
+
 `Print`：交互式截屏
 `Alt-Print`：对窗口截屏
 `Shift-Print`：截屏
 `Shift-Ctrl-Alt-R`：交互式录屏
 
 ### 窗口
+
 `Alt-F4`: 关闭窗口
 `Alt-F10`: 切换到最大状态
 `Super-左(右)`：将窗口推往左 (右)
@@ -33,6 +36,7 @@
 `Alt-Space`：激活窗口菜单
 
 ### 系统
+
 `Super-a`：显示全部应用程序
 `Super`：显示当前工作区全部窗口
 `Super-v`：显示通知
