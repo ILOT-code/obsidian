@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "shortcut.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -235,9 +235,9 @@
   },
   "active": "5e293b91564c0542",
   "lastOpenFiles": [
-    "LiteratureNotes/ladune2023-coolchic.md",
-    "shortcut.md",
     "Sundry/shell.md",
+    "shortcut.md",
+    "LiteratureNotes/ladune2023-coolchic.md",
     "Sundry/vim.md",
     "Sundry/conda包安装.md",
     "LiteratureNotes/girish2023-shacira.md",

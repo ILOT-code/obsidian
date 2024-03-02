@@ -5,12 +5,12 @@
       "path": "shortcut.md"
     },
     {
-      "basename": "ladune2023-coolchic",
-      "path": "LiteratureNotes/ladune2023-coolchic.md"
-    },
-    {
       "basename": "shell",
       "path": "Sundry/shell.md"
+    },
+    {
+      "basename": "ladune2023-coolchic",
+      "path": "LiteratureNotes/ladune2023-coolchic.md"
     },
     {
       "basename": "vim",
