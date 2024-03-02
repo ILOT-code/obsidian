@@ -42,14 +42,15 @@
 `Super-v`：显示通知
 `Super-l`：锁屏
 
+## Vscode
 
-### [Basic Editing](https://code.visualstudio.com/docs/getstarted/keybindings#_basic-editing)
-
+[Visual Studio Code Key Bindings](https://code.visualstudio.com/docs/getstarted/keybindings)
+### Basic Editing
 
 | Command                                     | Key                                        | Command id                                          |
 | ------------------------------------------- | ------------------------------------------ | --------------------------------------------------- |
 | Cut line (empty selection)                  | Ctrl+X                                     | `editor.action.clipboardCutAction`                  |
-| Copy line (empty selection)                 | Ctrl+**C**                                     | `editor.action.clipboardCopyAction`                 |
+| Copy line (empty selection)                 | Ctrl+C                                     | `editor.action.clipboardCopyAction`                 |
 | Paste                                       | Ctrl+V                                     | `editor.action.clipboardPasteAction`                |
 | Delete Line                                 | Ctrl+Shift+K                               | `editor.action.deleteLines`                         |
 | Insert Line Below                           | Ctrl+Enter                                 | `editor.action.insertLineAfter`                     |
@@ -102,7 +103,7 @@
 | Toggle Render Whitespace                    | unassigned                                 | `toggleRenderWhitespace`                            |
 | Toggle Word Wrap                            | Alt+Z                                      | `editor.action.toggleWordWrap`                      |
 
-### [Rich Languages Editing](https://code.visualstudio.com/docs/getstarted/keybindings#_rich-languages-editing)
+### Rich Languages Editing]
 
 |Command|Key|Command id|
 |---|---|---|
@@ -124,7 +125,7 @@
 |Trim Trailing Whitespace|Ctrl+K Ctrl+X|`editor.action.trimTrailingWhitespace`|
 |Change Language Mode|Ctrl+K M|`workbench.action.editor.changeLanguageMode`|
 
-### [Navigation](https://code.visualstudio.com/docs/getstarted/keybindings#_navigation)
+### Navigation
 
 |Command|Key|Command id|
 |---|---|---|
@@ -143,29 +144,29 @@
 |Focus Breadcrumbs|Ctrl+Shift+;|`breadcrumbs.focus`|
 |Focus and Select Breadcrumbs|Ctrl+Shift+.|`breadcrumbs.focusAndSelect`|
 
-### [Editor/Window Management](https://code.visualstudio.com/docs/getstarted/keybindings#_editorwindow-management)
+### Editor/Window Management
 
-| Command                              | Key                                   | Command id                                    |
-| ------------------------------------ | ------------------------------------- | --------------------------------------------- |
-| New Window                           | Ctrl+Shift+N                          | `workbench.action.newWindow`                  |
-| Close Window                         | Alt+F4                                | `workbench.action.closeWindow`                |
-| Close Editor                         | Ctrl+W                                | `workbench.action.closeActiveEditor`          |
-| Close Folder                         | Ctrl+K F                              | `workbench.action.closeFolder`                |
-| Cycle Between Editor Groups          | unassigned                            | `workbench.action.navigateEditorGroups`       |
-| Split Editor                         | Ctrl+\|`workbench.action.splitEditor` |                                               |
-| Focus into First Editor Group        | Ctrl+1                                | `workbench.action.focusFirstEditorGroup`      |
-| Focus into Second Editor Group       | Ctrl+2                                | `workbench.action.focusSecondEditorGroup`     |
-| Focus into Third Editor Group        | Ctrl+3                                | `workbench.action.focusThirdEditorGroup`      |
-| Focus into Editor Group on the Left  | unassigned                            | `workbench.action.focusPreviousGroup`         |
-| Focus into Editor Group on the Right | unassigned                            | `workbench.action.focusNextGroup`             |
-| Move Editor Left                     | Ctrl+Shift+PageUp                     | `workbench.action.moveEditorLeftInGroup`      |
-| Move Editor Right                    | Ctrl+Shift+PageDown                   | `workbench.action.moveEditorRightInGroup`     |
-| Move Active Editor Group Left        | Ctrl+K Left                           | `workbench.action.moveActiveEditorGroupLeft`  |
-| Move Active Editor Group Right       | Ctrl+K Right                          | `workbench.action.moveActiveEditorGroupRight` |
-| Move Editor into Next Group          | Ctrl+Alt+Right                        | `workbench.action.moveEditorToNextGroup`      |
-| Move Editor into Previous Group      | Ctrl+Alt+Left                         | `workbench.action.moveEditorToPreviousGroup`  |
+|Command|Key|Command id|
+|---|---|---|
+|New Window|Ctrl+Shift+N|`workbench.action.newWindow`|
+|Close Window|Alt+F4|`workbench.action.closeWindow`|
+|Close Editor|Ctrl+W|`workbench.action.closeActiveEditor`|
+|Close Folder|Ctrl+K F|`workbench.action.closeFolder`|
+|Cycle Between Editor Groups|unassigned|`workbench.action.navigateEditorGroups`|
+|Split Editor|Ctrl+\|`workbench.action.splitEditor`|
+|Focus into First Editor Group|Ctrl+1|`workbench.action.focusFirstEditorGroup`|
+|Focus into Second Editor Group|Ctrl+2|`workbench.action.focusSecondEditorGroup`|
+|Focus into Third Editor Group|Ctrl+3|`workbench.action.focusThirdEditorGroup`|
+|Focus into Editor Group on the Left|unassigned|`workbench.action.focusPreviousGroup`|
+|Focus into Editor Group on the Right|unassigned|`workbench.action.focusNextGroup`|
+|Move Editor Left|Ctrl+Shift+PageUp|`workbench.action.moveEditorLeftInGroup`|
+|Move Editor Right|Ctrl+Shift+PageDown|`workbench.action.moveEditorRightInGroup`|
+|Move Active Editor Group Left|Ctrl+K Left|`workbench.action.moveActiveEditorGroupLeft`|
+|Move Active Editor Group Right|Ctrl+K Right|`workbench.action.moveActiveEditorGroupRight`|
+|Move Editor into Next Group|Ctrl+Alt+Right|`workbench.action.moveEditorToNextGroup`|
+|Move Editor into Previous Group|Ctrl+Alt+Left|`workbench.action.moveEditorToPreviousGroup`|
 
-### [File Management](https://code.visualstudio.com/docs/getstarted/keybindings#_file-management)
+### File Management
 
 |Command|Key|Command id|
 |---|---|---|
@@ -188,7 +189,7 @@
 |Show Opened File in New Window|unassigned|`workbench.action.files.showOpenedFileInNewWindow`|
 |Compare Opened File With|unassigned|`workbench.files.action.compareFileWith`|
 
-### [Display](https://code.visualstudio.com/docs/getstarted/keybindings#_display)
+### Display
 
 |Command|Key|Command id|
 |---|---|---|
@@ -211,7 +212,7 @@
 |Open Preview to the Side|Ctrl+K V|`markdown.showPreviewToSide`|
 |Toggle Integrated Terminal|Ctrl+`|`workbench.action.terminal.toggleTerminal`|
 
-### [Search](https://code.visualstudio.com/docs/getstarted/keybindings#_search)
+### Search
 
 |Command|Key|Command id|
 |---|---|---|
@@ -235,7 +236,7 @@
 |Search Again|Ctrl+Shift+R|`rerunSearchEditorSearch`|
 |Delete File Results|Ctrl+Shift+Backspace|`search.searchEditor.action.deleteFileResults`|
 
-### [Preferences](https://code.visualstudio.com/docs/getstarted/keybindings#_preferences)
+### Preferences
 
 |Command|Key|Command id|
 |---|---|---|
@@ -246,7 +247,7 @@
 |Select Color Theme|Ctrl+K Ctrl+T|`workbench.action.selectTheme`|
 |Configure Display Language|unassigned|`workbench.action.configureLocale`|
 
-### [Debug](https://code.visualstudio.com/docs/getstarted/keybindings#_debug)
+### Debug
 
 |Command|Key|Command id|
 |---|---|---|
@@ -257,14 +258,14 @@
 |Pause|F6|`workbench.action.debug.pause`|
 |Step Into|F11|`workbench.action.debug.stepInto`|
 
-### [Tasks](https://code.visualstudio.com/docs/getstarted/keybindings#_tasks)
+### Tasks
 
 |Command|Key|Command id|
 |---|---|---|
 |Run Build Task|Ctrl+Shift+B|`workbench.action.tasks.build`|
 |Run Test Task|unassigned|`workbench.action.tasks.test`|
 
-### [Extensions](https://code.visualstudio.com/docs/getstarted/keybindings#_extensions)
+### Extensions
 
 |Command|Key|Command id|
 |---|---|---|
@@ -274,6 +275,5 @@
 |Show Recommended Extensions|unassigned|`workbench.extensions.action.showRecommendedExtensions`|
 |Show Popular Extensions|unassigned|`workbench.extensions.action.showPopularExtensions`|
 |Update All Extensions|unassigned|`workbench.extensions.action.updateAllExtensions`|
-
 
 
