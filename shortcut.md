@@ -15,6 +15,15 @@
 
 "Alt- \`" 和"Super-\`"：在应用程序的窗口之间切换窗口
 
+`Alt-Esc`：直接切换窗口
+`Super-d`：显示桌面
+
+### 截屏
+`Print`：交互式截屏
+`Alt-Print`：对窗口截屏
+`Shift-Print`：截屏
+``
+
 
 
 
