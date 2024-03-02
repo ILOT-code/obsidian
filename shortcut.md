@@ -22,8 +22,11 @@
 `Print`：交互式截屏
 `Alt-Print`：对窗口截屏
 `Shift-Print`：截屏
-``
+`Shift-Ctrl-Alt-R`：交互式录屏
 
+### 窗口
+`Alt-F4`: 关闭窗口
+`Super-左(右)`：
 
 
 
