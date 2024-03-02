@@ -191,26 +191,26 @@
 
 ### Display
 
-|Command|Key|Command id|
-|---|---|---|
-|Toggle Full Screen|F11|`workbench.action.toggleFullScreen`|
-|Toggle Zen Mode|Ctrl+K Z|`workbench.action.toggleZenMode`|
-|Leave Zen Mode|Escape Escape|`workbench.action.exitZenMode`|
-|Zoom in|Ctrl+=|`workbench.action.zoomIn`|
-|Zoom out|Ctrl+-|`workbench.action.zoomOut`|
-|Reset Zoom|Ctrl+Numpad0|`workbench.action.zoomReset`|
-|Toggle Sidebar Visibility|Ctrl+B|`workbench.action.toggleSidebarVisibility`|
-|Show Explorer / Toggle Focus|Ctrl+Shift+E|`workbench.view.explorer`|
-|Show Search|Ctrl+Shift+F|`workbench.view.search`|
-|Show Source Control|Ctrl+Shift+G|`workbench.view.scm`|
-|Show Run|Ctrl+Shift+D|`workbench.view.debug`|
-|Show Extensions|Ctrl+Shift+X|`workbench.view.extensions`|
-|Show Output|Ctrl+K Ctrl+H|`workbench.action.output.toggleOutput`|
-|Quick Open View|unassigned|`workbench.action.quickOpenView`|
-|Open New Command Prompt|Ctrl+Shift+C|`workbench.action.terminal.openNativeConsole`|
-|Toggle Markdown Preview|Ctrl+Shift+V|`markdown.showPreview`|
-|Open Preview to the Side|Ctrl+K V|`markdown.showPreviewToSide`|
-|Toggle Integrated Terminal|Ctrl+`|`workbench.action.terminal.toggleTerminal`|
+| Command                      | Key           | Command id                                    |
+| ---------------------------- | ------------- | --------------------------------------------- |
+| Toggle Full Screen           | F11           | `workbench.action.toggleFullScreen`           |
+| Toggle Zen Mode              | Ctrl+K Z      | `workbench.action.toggleZenMode`              |
+| Leave Zen Mode               | Escape Escape | `workbench.action.exitZenMode`                |
+| Zoom in                      | Ctrl+=        | `workbench.action.zoomIn`                     |
+| Zoom out                     | Ctrl+-        | `workbench.action.zoomOut`                    |
+| Reset Zoom                   | Ctrl+Numpad0  | `workbench.action.zoomReset`                  |
+| Toggle Sidebar Visibility    | Ctrl+B        | `workbench.action.toggleSidebarVisibility`    |
+| Show Explorer / Toggle Focus | Ctrl+Shift+E  | `workbench.view.explorer`                     |
+| Show Search                  | Ctrl+Shift+F  | `workbench.view.search`                       |
+| Show Source Control          | Ctrl+Shift+G  | `workbench.view.scm`                          |
+| Show Run                     | Ctrl+Shift+D  | `workbench.view.debug`                        |
+| Show Extensions              | Ctrl+Shift+X  | `workbench.view.extensions`                   |
+| Show Output                  | Ctrl+K Ctrl+H | `workbench.action.output.toggleOutput`        |
+| Quick Open View              | unassigned    | `workbench.action.quickOpenView`              |
+| Open New Command Prompt      | Ctrl+Shift+C  | `workbench.action.terminal.openNativeConsole` |
+| Toggle Markdown Preview      | Ctrl+Shift+V  | `markdown.showPreview`                        |
+| Open Preview to the Side     | Ctrl+K V      | `markdown.showPreviewToSide`                  |
+| Toggle Integrated Terminal   | Ctrl+`        | `workbench.action.terminal.toggleTerminal`    |
 
 ### Search
 
