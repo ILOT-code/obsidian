@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shortcut.md"
+                "file": "Sundry/vim.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/vim.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -234,8 +234,8 @@
   },
   "active": "91768c938c8625bd",
   "lastOpenFiles": [
-    "未命名 1.md",
     "shortcut.md",
+    "未命名 1.md",
     "Sundry/shell.md",
     "LiteratureNotes/ladune2023-coolchic.md",
     "Sundry/vim.md",

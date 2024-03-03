@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vim",
+      "path": "Sundry/vim.md"
+    },
+    {
       "basename": "shortcut",
       "path": "shortcut.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "ladune2023-coolchic",
       "path": "LiteratureNotes/ladune2023-coolchic.md"
-    },
-    {
-      "basename": "vim",
-      "path": "Sundry/vim.md"
     },
     {
       "basename": "conda包安装",
