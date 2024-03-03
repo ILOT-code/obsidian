@@ -105,25 +105,25 @@
 
 ### Rich Languages Editing]
 
-|Command|Key|Command id|
-|---|---|---|
-|Trigger Suggest|Ctrl+Space|`editor.action.triggerSuggest`|
-|Trigger Parameter Hints|Ctrl+Shift+Space|`editor.action.triggerParameterHints`|
-|Format Document|Ctrl+Shift+I|`editor.action.formatDocument`|
-|Format Selection|Ctrl+K Ctrl+F|`editor.action.formatSelection`|
-|Go to Definition|F12|`editor.action.revealDefinition`|
-|Show Hover|Ctrl+K Ctrl+I|`editor.action.showHover`|
-|Peek Definition|Ctrl+Shift+F10|`editor.action.peekDefinition`|
-|Open Definition to the Side|Ctrl+K F12|`editor.action.revealDefinitionAside`|
-|Quick Fix|Ctrl+.|`editor.action.quickFix`|
-|Go to References|Shift+F12|`editor.action.goToReferences`|
-|Rename Symbol|F2|`editor.action.rename`|
-|Replace with Next Value|Ctrl+Shift+.|`editor.action.inPlaceReplace.down`|
-|Replace with Previous Value|Ctrl+Shift+,|`editor.action.inPlaceReplace.up`|
-|Expand AST Selection|Shift+Alt+Right|`editor.action.smartSelect.expand`|
-|Shrink AST Selection|Shift+Alt+Left|`editor.action.smartSelect.shrink`|
-|Trim Trailing Whitespace|Ctrl+K Ctrl+X|`editor.action.trimTrailingWhitespace`|
-|Change Language Mode|Ctrl+K M|`workbench.action.editor.changeLanguageMode`|
+| Command                     | Key              | Command id                                   |
+| --------------------------- | ---------------- | -------------------------------------------- |
+| Trigger Suggest             | Ctrl+Space       | `editor.action.triggerSuggest`               |
+| Trigger Parameter Hints     | Ctrl+Shift+Space | `editor.action.triggerParameterHints`        |
+| Format Document             | Ctrl+Shift+I     | `editor.action.formatDocument`               |
+| Format Selection            | Ctrl+K Ctrl+F    | `editor.action.formatSelection`              |
+| Go to Definition            | F12              | `editor.action.revealDefinition`             |
+| Show Hover                  | Ctrl+K Ctrl+I    | `editor.action.showHover`                    |
+| Peek Definition             | Ctrl+Shift+F10   | `editor.action.peekDefinition`               |
+| Open Definition to the Side | Ctrl+K F12       | `editor.action.revealDefinitionAside`        |
+| Quick Fix                   | Ctrl+.           | `editor.action.quickFix`                     |
+| Go to References            | Shift+F12        | `editor.action.goToReferences`               |
+| Rename Symbol               | F2               | `editor.action.rename`                       |
+| Replace with Next Value     | Ctrl+Shift+.     | `editor.action.inPlaceReplace.down`          |
+| Replace with Previous Value | Ctrl+Shift+,     | `editor.action.inPlaceReplace.up`            |
+| Expand AST Selection        | Shift+Alt+Right  | `editor.action.smartSelect.expand`           |
+| Shrink AST Selection        | Shift+Alt+Left   | `editor.action.smartSelect.shrink`           |
+| Trim Trailing Whitespace    | Ctrl+K Ctrl+X    | `editor.action.trimTrailingWhitespace`       |
+| Change Language Mode        | Ctrl+K M         | `workbench.action.editor.changeLanguageMode` |
 
 ### Navigation
 
