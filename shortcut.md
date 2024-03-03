@@ -127,22 +127,22 @@
 
 ### Navigation
 
-|Command|Key|Command id|
-|---|---|---|
-|Show All Symbols|Ctrl+T|`workbench.action.showAllSymbols`|
-|Go to Line...|Ctrl+G|`workbench.action.gotoLine`|
-|Go to File..., Quick Open|Ctrl+P|`workbench.action.quickOpen`|
-|Go to Symbol...|Ctrl+Shift+O|`workbench.action.gotoSymbol`|
-|Show Problems|Ctrl+Shift+M|`workbench.actions.view.problems`|
-|Go to Next Error or Warning|F8|`editor.action.marker.nextInFiles`|
-|Go to Previous Error or Warning|Shift+F8|`editor.action.marker.prevInFiles`|
-|Show All Commands|Ctrl+Shift+P or F1|`workbench.action.showCommands`|
-|Navigate Editor Group History|Ctrl+Tab|`workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup`|
-|Go Back|Ctrl+Alt+-|`workbench.action.navigateBack`|
-|Go back in Quick Input|Ctrl+Alt+-|`workbench.action.quickInputBack`|
-|Go Forward|Ctrl+Shift+-|`workbench.action.navigateForward`|
-|Focus Breadcrumbs|Ctrl+Shift+;|`breadcrumbs.focus`|
-|Focus and Select Breadcrumbs|Ctrl+Shift+.|`breadcrumbs.focusAndSelect`|
+| Command                         | Key                | Command id                                                    |
+| ------------------------------- | ------------------ | ------------------------------------------------------------- |
+| Show All Symbols                | Ctrl+T             | `workbench.action.showAllSymbols`                             |
+| Go to Line...                   | Ctrl+G             | `workbench.action.gotoLine`                                   |
+| Go to File..., Quick Open       | Ctrl+P             | `workbench.action.quickOpen`                                  |
+| Go to Symbol...                 | Ctrl+Shift+O       | `workbench.action.gotoSymbol`                                 |
+| Show Problems                   | Ctrl+Shift+M       | `workbench.actions.view.problems`                             |
+| Go to Next Error or Warning     | F8                 | `editor.action.marker.nextInFiles`                            |
+| Go to Previous Error or Warning | Shift+F8           | `editor.action.marker.prevInFiles`                            |
+| Show All Commands               | Ctrl+Shift+P or F1 | `workbench.action.showCommands`                               |
+| Navigate Editor Group History   | Ctrl+Tab           | `workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup` |
+| Go Back                         | Ctrl+Alt+-         | `workbench.action.navigateBack`                               |
+| Go back in Quick Input          | Ctrl+Alt+-         | `workbench.action.quickInputBack`                             |
+| Go Forward                      | Ctrl+Shift+-       | `workbench.action.navigateForward`                            |
+| Focus Breadcrumbs               | Ctrl+Shift+;       | `breadcrumbs.focus`                                           |
+| Focus and Select Breadcrumbs    | Ctrl+Shift+.       | `breadcrumbs.focusAndSelect`                                  |
 
 ### Editor/Window Management
 
