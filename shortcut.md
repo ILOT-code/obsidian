@@ -214,18 +214,18 @@
 
 ### Search
 
-|Command|Key|Command id|
-|---|---|---|
-|Show Search|Ctrl+Shift+F|`workbench.view.search`|
-|Replace in Files|Ctrl+Shift+H|`workbench.action.replaceInFiles`|
-|Toggle Match Case|Alt+C|`toggleSearchCaseSensitive`|
-|Toggle Match Whole Word|Alt+W|`toggleSearchWholeWord`|
-|Toggle Use Regular Expression|Alt+R|`toggleSearchRegex`|
-|Toggle Search Details|Ctrl+Shift+J|`workbench.action.search.toggleQueryDetails`|
-|Focus Next Search Result|F4|`search.action.focusNextSearchResult`|
-|Focus Previous Search Result|Shift+F4|`search.action.focusPreviousSearchResult`|
-|Show Next Search Term|Down|`history.showNext`|
-|Show Previous Search Term|Up|`history.showPrevious`|
+| Command                       | Key          | Command id                                   |
+| ----------------------------- | ------------ | -------------------------------------------- |
+| Show Search                   | Ctrl+Shift+F | `workbench.view.search`                      |
+| Replace in Files              | Ctrl+Shift+H | `workbench.action.replaceInFiles`            |
+| Toggle Match Case             | Alt+C        | `toggleSearchCaseSensitive`                  |
+| Toggle Match Whole Word       | Alt+W        | `toggleSearchWholeWord`                      |
+| Toggle Use Regular Expression | Alt+R        | `toggleSearchRegex`                          |
+| Toggle Search Details         | Ctrl+Shift+J | `workbench.action.search.toggleQueryDetails` |
+| Focus Next Search Result      | F4           | `search.action.focusNextSearchResult`        |
+| Focus Previous Search Result  | Shift+F4     | `search.action.focusPreviousSearchResult`    |
+| Show Next Search Term         | Down         | `history.showNext`                           |
+| Show Previous Search Term     | Up           | `history.showPrevious`                       |
 
 ### [Search Editor](https://code.visualstudio.com/docs/getstarted/keybindings#_search-editor)
 
