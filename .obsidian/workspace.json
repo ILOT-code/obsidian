@@ -229,8 +229,7 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "91768c938c8625bd",

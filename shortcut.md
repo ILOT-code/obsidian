@@ -119,7 +119,7 @@
 | 搜索切换正则表达式                | Alt+R                |
 | 搜索切换整个单词                 | Alt+W                |
 | 按 Tab 来移到焦点              | Ctrl+M               |
-| 切换右侧小地图是否将长行代码自动换行       | Alt+Z                |
+| 切换长代码自动换行                | Alt+Z                |
 
 ## Rich Languages Editing
 
