@@ -103,7 +103,7 @@
 | Toggle Render Whitespace                    | unassigned          | `toggleRenderWhitespace`                            |
 | Toggle Word Wrap                            | Alt+Z               | `editor.action.toggleWordWrap`                      |
 
-### Rich Languages Editing]
+### Rich Languages Editing
 
 | Command                     | Key              | Command id                                   |
 | --------------------------- | ---------------- | -------------------------------------------- |
