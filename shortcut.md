@@ -1,4 +1,4 @@
-
+********
 # Ubuntu
 [每位 Ubuntu 18.04 用户都应该知道的快捷键 - 知乎](https://zhuanlan.zhihu.com/p/45535756)
 ## 启动
@@ -87,12 +87,12 @@
 | 选择全部当前单词                 | Ctrl+Shift+L         |
 | 在当前选择全部行的末尾加光标           | Shift+Alt+I          |
 | 在下面插入光标                  | Shift+Alt+Down       |
-| 在上面插入光标                  | Shift+Alt+U          |
-| 缩进当前行或选中行(外)             | Ctrl+]               |
-| 缩进当前行或选中行(外)             | Ctrl+[               |
-| 缩进选中行(外)                 | Tab                  |
+| 在上面插入光标                  | Shift+Alt+Up         |
+| 缩进当前行或选中行 (向右)           | Ctrl+]               |
+| 缩进当前行或选中行 (向左)           | Ctrl+[               |
+| 缩进选中行 (向)                 | Tab                  |
 | 缩进当前行选中行(里)              | Shift+Tab            |
-| 跳转到匹配的括号                 | Ctrl+Shift+\|        |
+| 跳转到匹配的括号                 | Ctrl+Shift+\         |
 | 跳转到行首                    | Home                 |
 | 跳转到行尾                    | End                  |
 | 跳转到文件首                   | Ctrl+Home            |
