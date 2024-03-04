@@ -136,6 +136,8 @@
 | 快速修改             | Ctrl+.           |
 | 查看引用 (悬浮窗口)(更改)  | Alt+Shift+D      |
 | 重命名符号 (更改)       | Alt+Shift+R      |
+| 智能选择区域 (扩展)      | Shift+Alt+Right  |
+| 智能选择区域 (收缩)      | Shift+Alt+Left   |
 | 删除不必要的空格         | Ctrl+K Ctrl+X    |
 
 ## Navigation
@@ -158,19 +160,19 @@
 
 ## Edit/Window Management
 
-|作用|按键|
-|---|---|
-|新窗口|Ctrl+Shift+N|
-|关闭窗口|Alt+F4|
-|关闭当前编辑器|Ctrl+W|
-|关闭当前工作目录|Ctrl+K F|
-|向右拆分编辑器|Ctrl+\|
-|向上拆分编辑器|Ctrl+K \|
-|聚焦到第1,2,3个编辑器组|Ctrl+(1,2,3)|
-|聚焦左主侧栏|Ctrl+0|
-|转到左边(右边)的编辑器|Ctrl+PageUp(PageDown)|
-|将当前编辑器右移(左移)(更改)|Ctrl+Shift+Down(Up)|
-|将当前编辑器组向方向键移动|Ctrl+K Arrow|
+| 作用               | 按键                    |
+| ---------------- | --------------------- |
+| 新窗口              | Ctrl+Shift+N          |
+| 关闭窗口             | Alt+F4                |
+| 关闭当前编辑器          | Ctrl+W                |
+| 关闭当前工作目录         | Ctrl+K F              |
+| 向右拆分编辑器          | Ctrl+\                |
+| 向上拆分编辑器          | Ctrl+K \              |
+| 聚焦到第1,2,3个编辑器组   | Ctrl+(1,2,3)          |
+| 聚焦左主侧栏           | Ctrl+0                |
+| 转到左边(右边)的编辑器     | Ctrl+PageUp(PageDown) |
+| 将当前编辑器右移(左移)(更改) | Ctrl+Shift+Down(Up)   |
+| 将当前编辑器组向方向键移动    | Ctrl+K Arrow          |
 
 ## File Management
 
