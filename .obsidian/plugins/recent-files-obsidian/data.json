@@ -5,16 +5,20 @@
       "path": "shortcut.md"
     },
     {
+      "basename": "deng2023-compressing",
+      "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
+      "basename": "shell",
+      "path": "Sundry/shell.md"
+    },
+    {
       "basename": "vim",
       "path": "Sundry/vim.md"
     },
     {
       "basename": "未命名 1",
       "path": "未命名 1.md"
-    },
-    {
-      "basename": "shell",
-      "path": "Sundry/shell.md"
     },
     {
       "basename": "ladune2023-coolchic",
@@ -31,10 +35,6 @@
     {
       "basename": "yang2023-tinc",
       "path": "LiteratureNotes/yang2023-tinc.md"
-    },
-    {
-      "basename": "deng2023-compressing",
-      "path": "LiteratureNotes/deng2023-compressing.md"
     },
     {
       "basename": "liu2023-learned",
