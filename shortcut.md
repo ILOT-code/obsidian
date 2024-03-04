@@ -1,11 +1,11 @@
 
-## Ubuntu
+# Ubuntu
 [每位 Ubuntu 18.04 用户都应该知道的快捷键 - 知乎](https://zhuanlan.zhihu.com/p/45535756)
-### 启动
+## 启动
 
 `Ctrl-Alt-T`：启动终端
 `Super-F1`：启动帮助浏览器
-### 导航
+## 导航
 
 `Super-Home`：切换到第一个工作区
 `Super-End`：切换到最后一个工作区
@@ -19,14 +19,14 @@
 `Super-d`：显示桌面
 
 `Ctrl-Alt-左(右)`：切换工作区
-### 截屏
+## 截屏
 
 `Print`：交互式截屏
 `Alt-Print`：对窗口截屏
 `Shift-Print`：截屏
 `Shift-Ctrl-Alt-R`：交互式录屏
 
-### 窗口
+## 窗口
 
 `Alt-F4`: 关闭窗口
 `Alt-F10`: 切换到最大状态
@@ -42,238 +42,224 @@
 `Super-v`：显示通知
 `Super-l`：锁屏
 
-## Vscode
+# Vscode
 
 [Visual Studio Code Key Bindings](https://code.visualstudio.com/docs/getstarted/keybindings)
-### Basic Editing
 
-| Command                                     | Key                 | Command id                                          |
-| ------------------------------------------- | ------------------- | --------------------------------------------------- |
-| Cut line (empty selection)                  | Ctrl+X              | `editor.action.clipboardCutAction`                  |
-| Copy line (empty selection)                 | Ctrl+C              | `editor.action.clipboardCopyAction`                 |
-| Paste                                       | Ctrl+V              | `editor.action.clipboardPasteAction`                |
-| Delete Line                                 | Ctrl+Shift+K        | `editor.action.deleteLines`                         |
-| Insert Line Below                           | Ctrl+Enter          | `editor.action.insertLineAfter`                     |
-| Insert Line Above                           | Ctrl+Shift+Enter    | `editor.action.insertLineBefore`                    |
-| Move Line Down                              | Alt+Down            | `editor.action.moveLinesDownAction`                 |
-| Move Line Up                                | Alt+Up              | `editor.action.moveLinesUpAction`                   |
-| Copy Line Down                              | Ctrl+Shift+Alt+Down | `editor.action.copyLinesDownAction`                 |
-| Copy Line Up                                | Ctrl+Shift+Alt+Up   | `editor.action.copyLinesUpAction`                   |
-| Undo                                        | Ctrl+Z              | `undo`                                              |
-| Redo                                        | Ctrl+Y              | `redo`                                              |
-| Add Selection To Next Find Match            | Ctrl+D              | `editor.action.addSelectionToNextFindMatch`         |
-| Move Last Selection To Next Find Match      | Ctrl+K Ctrl+D       | `editor.action.moveSelectionToNextFindMatch`        |
-| Undo last cursor operation                  | Ctrl+U              | `cursorUndo`                                        |
-| Insert cursor at end of each line selected  | Shift+Alt+I         | `editor.action.insertCursorAtEndOfEachLineSelected` |
-| Select all occurrences of current selection | Ctrl+Shift+L        | `editor.action.selectHighlights`                    |
-| Select all occurrences of current word      | Ctrl+F2             | `editor.action.changeAll`                           |
-| Select current line                         | Ctrl+L              | `expandLineSelection`                               |
-| Insert Cursor Below                         | Shift+Alt+Down      | `editor.action.insertCursorBelow`                   |
-| Insert Cursor Above                         | Shift+Alt+Up        | `editor.action.insertCursorAbove`                   |
-| Jump to matching bracket                    | Ctrl+Shift+\\       | `editor.action.jumpToBracket`                       |
-| Indent Line                                 | Ctrl+]              | `editor.action.indentLines`                         |
-| Outdent Line                                | Ctrl+[              | `editor.action.outdentLines`                        |
-| Go to Beginning of Line                     | Home                | `cursorHome`                                        |
-| Go to End of Line                           | End                 | `cursorEnd`                                         |
-| Go to End of File                           | Ctrl+End            | `cursorBottom`                                      |
-| Go to Beginning of File                     | Ctrl+Home           | `cursorTop`                                         |
-| Scroll Line Down                            | Ctrl+Down           | `scrollLineDown`                                    |
-| Scroll Line Up                              | Ctrl+Up             | `scrollLineUp`                                      |
-| Scroll Page Down                            | Alt+PageDown        | `scrollPageDown`                                    |
-| Scroll Page Up                              | Alt+PageUp          | `scrollPageUp`                                      |
-| Fold (collapse) region                      | Ctrl+Shift+[        | `editor.fold`                                       |
-| Unfold (uncollapse) region                  | Ctrl+Shift+]        | `editor.unfold`                                     |
-| Fold (collapse) all subregions              | Ctrl+K Ctrl+[       | `editor.foldRecursively`                            |
-| Unfold (uncollapse) all subregions          | Ctrl+K Ctrl+]       | `editor.unfoldRecursively`                          |
-| Fold (collapse) all regions                 | Ctrl+K Ctrl+0       | `editor.foldAll`                                    |
-| Unfold (uncollapse) all regions             | Ctrl+K Ctrl+J       | `editor.unfoldAll`                                  |
-| Add Line Comment                            | Ctrl+K Ctrl+C       | `editor.action.addCommentLine`                      |
-| Remove Line Comment                         | Ctrl+K Ctrl+U       | `editor.action.removeCommentLine`                   |
-| Toggle Line Comment                         | Ctrl+/              | `editor.action.commentLine`                         |
-| Toggle Block Comment                        | Ctrl+Shift+A        | `editor.action.blockComment`                        |
-| Find                                        | Ctrl+F              | `actions.find`                                      |
-| Replace                                     | Ctrl+H              | `editor.action.startFindReplaceAction`              |
-| Find Next                                   | Enter               | `editor.action.nextMatchFindAction`                 |
-| Find Previous                               | Shift+Enter         | `editor.action.previousMatchFindAction`             |
-| Select All Occurrences of Find Match        | Alt+Enter           | `editor.action.selectAllMatches`                    |
-| Toggle Find Case Sensitive                  | Alt+C               | `toggleFindCaseSensitive`                           |
-| Toggle Find Regex                           | Alt+R               | `toggleFindRegex`                                   |
-| Toggle Find Whole Word                      | Alt+W               | `toggleFindWholeWord`                               |
-| Toggle Use of Tab Key for Setting Focus     | Ctrl+M              | `editor.action.toggleTabFocusMode`                  |
-| Toggle Render Whitespace                    | unassigned          | `toggleRenderWhitespace`                            |
-| Toggle Word Wrap                            | Alt+Z               | `editor.action.toggleWordWrap`                      |
+在 `Ctrl+P` 下输入 `>` 又可以回到主命令框 `Ctrl+Shift+P` 模式。
 
-### Rich Languages Editing
+在`Ctrl+P`窗口下还可以
 
-| Command                     | Key              | Command id                                   |
-| --------------------------- | ---------------- | -------------------------------------------- |
-| Trigger Suggest             | Ctrl+Space       | `editor.action.triggerSuggest`               |
-| Trigger Parameter Hints     | Ctrl+Shift+Space | `editor.action.triggerParameterHints`        |
-| Format Document             | Ctrl+Shift+I     | `editor.action.formatDocument`               |
-| Format Selection            | Ctrl+K Ctrl+F    | `editor.action.formatSelection`              |
-| Go to Definition            | F12              | `editor.action.revealDefinition`             |
-| Show Hover                  | Ctrl+K Ctrl+I    | `editor.action.showHover`                    |
-| Peek Definition             | Ctrl+Shift+F10   | `editor.action.peekDefinition`               |
-| Open Definition to the Side | Ctrl+K F12       | `editor.action.revealDefinitionAside`        |
-| Quick Fix                   | Ctrl+.           | `editor.action.quickFix`                     |
-| Go to References            | Shift+F12        | `editor.action.goToReferences`               |
-| Rename Symbol               | F2               | `editor.action.rename`                       |
-| Replace with Next Value     | Ctrl+Shift+.     | `editor.action.inPlaceReplace.down`          |
-| Replace with Previous Value | Ctrl+Shift+,     | `editor.action.inPlaceReplace.up`            |
-| Expand AST Selection        | Shift+Alt+Right  | `editor.action.smartSelect.expand`           |
-| Shrink AST Selection        | Shift+Alt+Left   | `editor.action.smartSelect.shrink`           |
-| Trim Trailing Whitespace    | Ctrl+K Ctrl+X    | `editor.action.trimTrailingWhitespace`       |
-| Change Language Mode        | Ctrl+K M         | `workbench.action.editor.changeLanguageMode` |
+- 直接输入文件名，快速打开文件
+    
+- `?` 列出当前可执行的动作
+    
+- `!` 显示Errors或Warnings，也可以`Ctrl+Shift+M`
+    
+- `:` 跳转到行数，也可以`Ctrl+G`直接进入
+    
+- **@ 跳转到symbol（搜索变量或者函数），也可以Ctrl+Shift+O直接进入**
+    
+- `@:`根据分类跳转symbol，查找属性或函数，也可以`Ctrl+Shift+O`后输入`:`进入
+    
+- `#` 根据名字查找symbol，也可以`Ctrl+T`
+    
 
-### Navigation
+## Basic Editing
 
-| Command                         | Key                | Command id                                                    |
-| ------------------------------- | ------------------ | ------------------------------------------------------------- |
-| Show All Symbols                | Ctrl+T             | `workbench.action.showAllSymbols`                             |
-| Go to Line...                   | Ctrl+G             | `workbench.action.gotoLine`                                   |
-| Go to File..., Quick Open       | Ctrl+P             | `workbench.action.quickOpen`                                  |
-| Go to Symbol...                 | Ctrl+Shift+O       | `workbench.action.gotoSymbol`                                 |
-| Show Problems                   | Ctrl+Shift+M       | `workbench.actions.view.problems`                             |
-| Go to Next Error or Warning     | F8                 | `editor.action.marker.nextInFiles`                            |
-| Go to Previous Error or Warning | Shift+F8           | `editor.action.marker.prevInFiles`                            |
-| Show All Commands               | Ctrl+Shift+P or F1 | `workbench.action.showCommands`                               |
-| Navigate Editor Group History   | Ctrl+Tab           | `workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup` |
-| Go Back                         | Ctrl+Alt+-         | `workbench.action.navigateBack`                               |
-| Go back in Quick Input          | Ctrl+Alt+-         | `workbench.action.quickInputBack`                             |
-| Go Forward                      | Ctrl+Shift+-       | `workbench.action.navigateForward`                            |
-| Focus Breadcrumbs               | Ctrl+Shift+;       | `breadcrumbs.focus`                                           |
-| Focus and Select Breadcrumbs    | Ctrl+Shift+.       | `breadcrumbs.focusAndSelect`                                  |
+| 作用                       | 按键                   |
+| ------------------------ | -------------------- |
+| 剪切当前行                    | Ctrl+X               |
+| 复制当前行                    | Ctrl+C               |
+| 粘贴                       | Ctrl+V               |
+| 删除当前行                    | Ctrl+Shift+K         |
+| 在下方插入行                   | Ctrl+Enter           |
+| 在上方插入行                   | Ctrl+Shift+Enter     |
+| 上移当前行                    | Alt+Down             |
+| 下移当前行                    | Alt+Up               |
+| 向下复制当前行(失败)              | Ctrl+Shift+Alt+Down  |
+| 向上复制当前行                  | Ctrl+Shift+Alt+Up    |
+| 撤销                       | Ctrl+Z               |
+| 重做                       | Ctrl+Y               |
+| 回到上次光标位置                 | Ctrl+U               |
+| 选择当前单词，可以连按              | Ctrl+D               |
+| 选择当前行，可以连按               | Ctrl+L               |
+| 选择全部当前单词                 | Ctrl+Shift+L         |
+| 在当前选择全部行的末尾加光标           | Shift+Alt+I          |
+| 在下面插入光标                  | Shift+Alt+Down       |
+| 在上面插入光标                  | Shift+Alt+U          |
+| 缩进当前行或选中行(外)             | Ctrl+]               |
+| 缩进当前行或选中行(外)             | Ctrl+[               |
+| 缩进选中行(外)                 | Tab                  |
+| 缩进当前行选中行(里)              | Shift+Tab            |
+| 跳转到匹配的括号                 | Ctrl+Shift+\|        |
+| 跳转到行首                    | Home                 |
+| 跳转到行尾                    | End                  |
+| 跳转到文件首                   | Ctrl+Home            |
+| 跳转到文件首                   | Ctrl+End             |
+| 以单词为单位跳转                 | Ctrl+Left(Right)     |
+| 滚动屏幕一行                   | Ctrl+Up(Down)        |
+| 滚动屏幕一页(失败)               | Alt+PageUp(PageDown) |
+| 按方向选中                    | Shift+Arrow          |
+| 折叠当前所在块                  | Ctrl+Shift+[         |
+| 展开当前所在块                  | Ctrl+Shift+]         |
+| 折叠当前块(以递归方式)(更改)         | Ｃtrl+Alt+[           |
+| 展开当前块(以递归方式)(更改)         | Ctrl+Alt+]           |
+| 折叠全部块(更改)                | Ctrl+K Ctrl+[        |
+| 展开全部块(更改)                | Ctrl+K Ctrl+]        |
+| 给当前行(或选中行)添加(或去除)行级别注释符号 | Ctrl+/               |
+| 添加(或去除)块级注释符号            | Ctrl+Shift+/         |
+| 在当前文件查找                  | Ctrl+F               |
+| 在当前文件替换                  | Ctrl+H               |
+| 到下一个查找匹配的项               | Enter                |
+| 到下一个查找匹配的项               | Shift+Enter          |
+| 选择所有匹配的项                 | ALT+Enter            |
+| 在搜索框中换行                  | Ctrl+Enter           |
+| 搜索切换大小写敏感                | Alt+C                |
+| 搜索切换正则表达式                | Alt+R                |
+| 搜索切换整个单词                 | Alt+W                |
+| 按 Tab 来移到焦点              | Ctrl+M               |
+| 切换右侧小地图是否将长行代码自动换行       | Alt+Z                |
 
-### Editor/Window Management
+## Rich Languages Editing
 
-| Command                              | Key                 | Command id                                    |
-| ------------------------------------ | ------------------- | --------------------------------------------- |
-| New Window                           | Ctrl+Shift+N        | `workbench.action.newWindow`                  |
-| Close Window                         | Alt+F4              | `workbench.action.closeWindow`                |
-| Close Editor                         | Ctrl+W              | `workbench.action.closeActiveEditor`          |
-| Close Folder                         | Ctrl+K F            | `workbench.action.closeFolder`                |
-| Cycle Between Editor Groups          | unassigned          | `workbench.action.navigateEditorGroups`       |
-| Split Editor                         | Ctrl+\\             | `workbench.action.splitEditor`                |
-| Focus into First Editor Group        | Ctrl+1              | `workbench.action.focusFirstEditorGroup`      |
-| Focus into Second Editor Group       | Ctrl+2              | `workbench.action.focusSecondEditorGroup`     |
-| Focus into Third Editor Group        | Ctrl+3              | `workbench.action.focusThirdEditorGroup`      |
-| Focus into Editor Group on the Left  | unassigned          | `workbench.action.focusPreviousGroup`         |
-| Focus into Editor Group on the Right | unassigned          | `workbench.action.focusNextGroup`             |
-| Move Editor Left                     | Ctrl+Shift+PageUp   | `workbench.action.moveEditorLeftInGroup`      |
-| Move Editor Right                    | Ctrl+Shift+PageDown | `workbench.action.moveEditorRightInGroup`     |
-| Move Active Editor Group Left        | Ctrl+K Left         | `workbench.action.moveActiveEditorGroupLeft`  |
-| Move Active Editor Group Right       | Ctrl+K Right        | `workbench.action.moveActiveEditorGroupRight` |
-| Move Editor into Next Group          | Ctrl+Alt+Right      | `workbench.action.moveEditorToNextGroup`      |
-| Move Editor into Previous Group      | Ctrl+Alt+Left       | `workbench.action.moveEditorToPreviousGroup`  |
+|作用|按键|
+|---|---|
+|触发建议|Ctrl+Space|
+|触发函数提示(光标在函数括号内)|Ctrl+Shift+Space|
+|格式化文档|Ctri+Shift+I|
+|格式化当前行(或所选区域)|Ctrl+K Ctrl+F|
+|触发函数提示(光标在函数名上)|Ctrl+K Ctrl+I|
+|转到定义(更改)|Ctrl+K Ctrl+D|
+|转到定义(在边上打开)(更改)|Ctrl+K Ctrl+L|
+|查看定义(悬浮窗口上)(更改)|Ctrl+K Ctrl+H|
+|快速修改|Ctrl+.|
+|查看引用(悬浮窗口)|Alt+Shift+D|
+|重命名符号|Alt+Shift+R|
+|删除不必要的空行|Ctrl+K Ctrl+X|
 
-### File Management
+## Navigation
 
-|Command|Key|Command id|
-|---|---|---|
-|New File|Ctrl+N|`workbench.action.files.newUntitledFile`|
-|Open File...|Ctrl+O|`workbench.action.files.openFile`|
-|Save|Ctrl+S|`workbench.action.files.save`|
-|Save All|unassigned|`saveAll`|
-|Save As...|Ctrl+Shift+S|`workbench.action.files.saveAs`|
-|Close|Ctrl+W|`workbench.action.closeActiveEditor`|
-|Close Others|unassigned|`workbench.action.closeOtherEditors`|
-|Close Group|Ctrl+K W|`workbench.action.closeEditorsInGroup`|
-|Close Other Groups|unassigned|`workbench.action.closeEditorsInOtherGroups`|
-|Close Group to Left|unassigned|`workbench.action.closeEditorsToTheLeft`|
-|Close Group to Right|unassigned|`workbench.action.closeEditorsToTheRight`|
-|Close All|Ctrl+K Ctrl+W|`workbench.action.closeAllEditors`|
-|Reopen Closed Editor|Ctrl+Shift+T|`workbench.action.reopenClosedEditor`|
-|Keep Open|Ctrl+K Enter|`workbench.action.keepEditor`|
-|Copy Path of Active File|Ctrl+K P|`workbench.action.files.copyPathOfActiveFile`|
-|Reveal Active File in Windows|Ctrl+K R|`workbench.action.files.revealActiveFileInWindows`|
-|Show Opened File in New Window|unassigned|`workbench.action.files.showOpenedFileInNewWindow`|
-|Compare Opened File With|unassigned|`workbench.files.action.compareFileWith`|
+|作用|按键|
+|---|---|
+|在当前工作区中搜索符号|Ctrl+T|
+|转移到行|Ctrl+G|
+|快速打开文件|Ctrl+P|
+|转移到符号|Ctrl+Shift+O|
+|显示问题栏|Ctrl+Shift+M|
+|转到下一个问题(更改)|Ctrl+K Ctrl+E|
+|转到上一个问题(更改)|Ctrl+K E|
+|输入命令|Ctrl+Shift+P|
+|切换标签页|Ctrl+Tab|
+|返回|Ctrl+Alt+-|
+|前进|Ctrl+Shift+-|
+|聚焦到导航路径视图|Ctrl+Shift+;|
+|聚焦到导航路径视图并选择|Ctrl+Shift+.|
 
-### Display
+## Edit/Window Management
 
-| Command                      | Key           | Command id                                    |
-| ---------------------------- | ------------- | --------------------------------------------- |
-| Toggle Full Screen           | F11           | `workbench.action.toggleFullScreen`           |
-| Toggle Zen Mode              | Ctrl+K Z      | `workbench.action.toggleZenMode`              |
-| Leave Zen Mode               | Escape Escape | `workbench.action.exitZenMode`                |
-| Zoom in                      | Ctrl+=        | `workbench.action.zoomIn`                     |
-| Zoom out                     | Ctrl+-        | `workbench.action.zoomOut`                    |
-| Reset Zoom                   | Ctrl+Numpad0  | `workbench.action.zoomReset`                  |
-| Toggle Sidebar Visibility    | Ctrl+B        | `workbench.action.toggleSidebarVisibility`    |
-| Show Explorer / Toggle Focus | Ctrl+Shift+E  | `workbench.view.explorer`                     |
-| Show Search                  | Ctrl+Shift+F  | `workbench.view.search`                       |
-| Show Source Control          | Ctrl+Shift+G  | `workbench.view.scm`                          |
-| Show Run                     | Ctrl+Shift+D  | `workbench.view.debug`                        |
-| Show Extensions              | Ctrl+Shift+X  | `workbench.view.extensions`                   |
-| Show Output                  | Ctrl+K Ctrl+H | `workbench.action.output.toggleOutput`        |
-| Quick Open View              | unassigned    | `workbench.action.quickOpenView`              |
-| Open New Command Prompt      | Ctrl+Shift+C  | `workbench.action.terminal.openNativeConsole` |
-| Toggle Markdown Preview      | Ctrl+Shift+V  | `markdown.showPreview`                        |
-| Open Preview to the Side     | Ctrl+K V      | `markdown.showPreviewToSide`                  |
-| Toggle Integrated Terminal   | Ctrl+`        | `workbench.action.terminal.toggleTerminal`    |
+|作用|按键|
+|---|---|
+|新窗口|Ctrl+Shift+N|
+|关闭窗口|Alt+F4|
+|关闭当前编辑器|Ctrl+W|
+|关闭当前工作目录|Ctrl+K F|
+|向右拆分编辑器|Ctrl+\|
+|向上拆分编辑器|Ctrl+K \|
+|聚焦到第1,2,3个编辑器组|Ctrl+(1,2,3)|
+|聚焦左主侧栏|Ctrl+0|
+|转到左边(右边)的编辑器|Ctrl+PageUp(PageDown)|
+|将当前编辑器右移(左移)(更改)|Ctrl+Shift+Down(Up)|
+|将当前编辑器组向方向键移动|Ctrl+K Arrow|
 
-### Search
+## File Management
 
-| Command                       | Key          | Command id                                   |
-| ----------------------------- | ------------ | -------------------------------------------- |
-| Show Search                   | Ctrl+Shift+F | `workbench.view.search`                      |
-| Replace in Files              | Ctrl+Shift+H | `workbench.action.replaceInFiles`            |
-| Toggle Match Case             | Alt+C        | `toggleSearchCaseSensitive`                  |
-| Toggle Match Whole Word       | Alt+W        | `toggleSearchWholeWord`                      |
-| Toggle Use Regular Expression | Alt+R        | `toggleSearchRegex`                          |
-| Toggle Search Details         | Ctrl+Shift+J | `workbench.action.search.toggleQueryDetails` |
-| Focus Next Search Result      | F4           | `search.action.focusNextSearchResult`        |
-| Focus Previous Search Result  | Shift+F4     | `search.action.focusPreviousSearchResult`    |
-| Show Next Search Term         | Down         | `history.showNext`                           |
-| Show Previous Search Term     | Up           | `history.showPrevious`                       |
+|按键|作用|
+|---|---|
+|新文件|Ctrl+N|
+|打开文件|Ctrl+O|
+|打开文件夹|Ctrl+K Ctrl+O|
+|保存|Ctrl+S|
+|另存为|Ctrl+Shift+S|
+|关闭当前编辑器|Ctrl+W|
+|关闭当前编辑器组|Ctrl+K W|
+|关闭当前编辑器组中已保存的文件|Ctrl+K U|
+|关闭全部编辑器|Ctrl+K Ctrl+W|
+|重新打开关闭的编辑器(可连按)(更改)|Ctrl+K Ctrl+R|
+|使当前处于预览的文件保持打开(预览状态的文件名是斜体的，这是点击其它文件，此文件会被切换掉)|Ctrl+K Enter|
+|复制当前文件路径|Ctrl+K P|
+|在资源管理器中定位到当前文件|Ctrl+K R|
 
-### [Search Editor](https://code.visualstudio.com/docs/getstarted/keybindings#_search-editor)
+## Display
 
-|Command|Key|Command id|
-|---|---|---|
-|Open Results In Editor|Alt+Enter|`search.action.openInEditor`|
-|Focus Search Editor Input|Escape|`search.action.focusQueryEditorWidget`|
-|Search Again|Ctrl+Shift+R|`rerunSearchEditorSearch`|
-|Delete File Results|Ctrl+Shift+Backspace|`search.searchEditor.action.deleteFileResults`|
+|作用|按键|
+|---|---|
+|进入(退出)全屏|F11|
+|进入(退出)Zen模式|Ctrl+K Z|
+|放大(缩小)|Ctrl+=(-)|
+|显示(折叠)左主侧栏|Ctrl+B|
+|显示资源管理器|Ctrl+Shift+E|
+|显示搜索|Ctrl+Shift+F|
+|显示替换|Ctrl+Shift+H|
+|显示源代码管理|Ctrl+Shift+G|
+|显示运行和调试|Ctrl+Shift+D|
+|显示扩展|Ctrl+Shift+X|
+|显示输出|Ctrl+Shift+T|
+|显示问题|Ctrl+Shift+M|
+|显示调试|Ctrl+Shift+Y|
+|显示终端|Ctrl+`|
+|新建终端|Ctrl+Shift+`|
+|打开系统终端(到当前目录下)|Ctrl+Shift+C|
+|预览当前md文件(在新编辑器中)|Ctrl+Shift+V|
+|预览当前md文件(在右边打开)|Ctrl+K V|
 
-### Preferences
+## Search
 
-|Command|Key|Command id|
-|---|---|---|
-|Open Settings|Ctrl+,|`workbench.action.openSettings`|
-|Open Workspace Settings|unassigned|`workbench.action.openWorkspaceSettings`|
-|Open Keyboard Shortcuts|Ctrl+K Ctrl+S|`workbench.action.openGlobalKeybindings`|
-|Open User Snippets|unassigned|`workbench.action.openSnippets`|
-|Select Color Theme|Ctrl+K Ctrl+T|`workbench.action.selectTheme`|
-|Configure Display Language|unassigned|`workbench.action.configureLocale`|
+|作用|按键|
+|---|---|
+|打开搜索|Ctrl+Shift+F|
+|打开替换|Ctrl+Shift+H|
+|切换大小写敏感|Alt+C|
+|切换是否选择整个单词|Alt+W|
+|切换是否使用正则表达式|Alt+R|
+|显示(隐藏)搜索的细节|Ctrl+Shift+J|
+|下一个搜索结果|F4|
+|上一个搜索结果|Shift+F4|
+|显示下一个搜索项目|Down|
+|显示前一个搜索项目|Up|
 
-### Debug
+## Preferences
 
-|Command|Key|Command id|
-|---|---|---|
-|Toggle Breakpoint|F9|`editor.debug.action.toggleBreakpoint`|
-|Start|F5|`workbench.action.debug.start`|
-|Continue|F5|`workbench.action.debug.continue`|
-|Start (without debugging)|Ctrl+F5|`workbench.action.debug.run`|
-|Pause|F6|`workbench.action.debug.pause`|
-|Step Into|F11|`workbench.action.debug.stepInto`|
+|作用|按键|
+|---|---|
+|打开设置|Ctrl+,|
+|打开快捷键设置|Ctrl+K Ctrl+S|
+|选择主题|Ctrl+K Ctrl+T|
 
-### Tasks
+## Debug
 
-|Command|Key|Command id|
-|---|---|---|
-|Run Build Task|Ctrl+Shift+B|`workbench.action.tasks.build`|
-|Run Test Task|unassigned|`workbench.action.tasks.test`|
+|作用|按键|
+|---|---|
+|设置(取消)断点|F9|
+|开始调试|F5|
+|继续|F5|
+|以非调试模式运行|Ctrl+F5|
+|暂停|F6|
+|单步执行|F11|
+|逐过程执行|F10|
 
-### Extensions
+## Tasks
 
-|Command|Key|Command id|
-|---|---|---|
-|Install Extension|unassigned|`workbench.extensions.action.installExtension`|
-|Show Installed Extensions|unassigned|`workbench.extensions.action.showInstalledExtensions`|
-|Show Outdated Extensions|unassigned|`workbench.extensions.action.listOutdatedExtensions`|
-|Show Recommended Extensions|unassigned|`workbench.extensions.action.showRecommendedExtensions`|
-|Show Popular Extensions|unassigned|`workbench.extensions.action.showPopularExtensions`|
-|Update All Extensions|unassigned|`workbench.extensions.action.updateAllExtensions`|
+|作用|按键|
+|---|---|
+|运行构建任务|Ctrl+SHift+B|
+
+
+
+
+
+
+
+
 
 
