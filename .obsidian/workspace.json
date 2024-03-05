@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sundry/GitPro.md",
+                "file": "shortcut.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sundry/GitPro.md",
+                "file": "shortcut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sundry/GitPro.md",
+                "file": "shortcut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sundry/GitPro.md"
+                "file": "shortcut.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Sundry/GitPro.md",
+                "file": "shortcut.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -209,6 +209,7 @@
   },
   "active": "1fa954e685fd0d1d",
   "lastOpenFiles": [
+    "Sundry/GitPro.md",
     "shortcut.md",
     "LiteratureNotes/deng2023-compressing.md",
     "Sundry/shell.md",
@@ -226,7 +227,6 @@
     "LiteratureNotes/sun2023-all.md",
     "LiteratureNotes/tang2023-scene.md",
     "LiteratureNotes/yang2023-lossy.md",
-    "Sundry/GitPro.md",
     "Notecards/Arithmetic Coding.md",
     "Paperwords/moffat1995-arithmetic-w.md",
     "Paperwords/sun2023-all-w.md",
