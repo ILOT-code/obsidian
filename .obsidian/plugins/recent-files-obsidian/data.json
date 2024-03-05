@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "GitPro",
+      "path": "Sundry/GitPro.md"
+    },
+    {
       "basename": "shortcut",
       "path": "shortcut.md"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "yang2023-lossy",
       "path": "LiteratureNotes/yang2023-lossy.md"
-    },
-    {
-      "basename": "GitPro",
-      "path": "Sundry/GitPro.md"
     },
     {
       "basename": "Arithmetic Coding",
