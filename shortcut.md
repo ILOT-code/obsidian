@@ -67,59 +67,59 @@
 
 ## Basic Editing
 
-| 作用                       | 按键                        |
-| ------------------------ | ------------------------- |
-| 剪切当前行                    | Ctrl+X                    |
-| 复制当前行                    | Ctrl+C                    |
-| 粘贴                       | Ctrl+V                    |
-| 删除当前行                    | Ctrl+Shift+K              |
-| 在下方插入行                   | Ctrl+Enter                |
-| 在上方插入行                   | Ctrl+Shift+Enter          |
-| 上移当前行                    | Alt+Down                  |
-| 下移当前行                    | Alt+Up                    |
-| 向下复制当前行(失败)              | Ctrl+Shift+Alt+Down       |
-| 向上复制当前行(失败)              | Ctrl+Shift+Alt+Up         |
-| 撤销                       | Ctrl+Z                    |
-| 重做                       | Ctrl+Y                    |
-| 回到上次光标位置                 | Ctrl+U                    |
-| 选择当前单词，可以连按              | Ctrl+D                    |
-| 选择当前行，可以连按               | Ctrl+L                    |
-| 选择全部当前单词                 | Ctrl+Shift+L              |
-| 在当前选择全部行的末尾加光标           | Shift+Alt+I               |
-| 在下面插入光标                  | Shift+Alt+Down            |
-| 在上面插入光标                  | Shift+Alt+Up              |
-| 缩进当前行或选中行 (向右)           | Ctrl+]                    |
-| 缩进当前行或选中行 (向左)           | Ctrl+[                    |
-| 缩进选中行 (向右)               | Tab                       |
-| 缩进当前行选中行 (向左)            | Shift+Tab                 |
-| 跳转到匹配的括号                 | Ctrl+Shift+\              |
-| 跳转到行首                    | Home                      |
-| 跳转到行尾                    | End                       |
-| 跳转到文件首                   | Ctrl+Home                 |
-| 跳转到文件首                   | Ctrl+End                  |
-| 以单词为单位跳转                 | Ctrl+Left(Right)          |
-| 滚动屏幕一行                   | Ctrl+Up(Down)             |
-| 滚动屏幕一页(更改)               | Ctrl+Alt+PageUp(PageDown) |
-| 按方向选中                    | Shift+Arrow               |
-| 折叠当前所在块                  | Ctrl+Shift+[              |
-| 展开当前所在块                  | Ctrl+Shift+]              |
-| 折叠当前块(以递归方式)(更改)         | Ｃtrl+Alt+[                |
-| 展开当前块(以递归方式)(更改)         | Ctrl+Alt+]                |
-| 折叠全部块(更改)                | Ctrl+K Ctrl+[             |
-| 展开全部块(更改)                | Ctrl+K Ctrl+]             |
-| 给当前行(或选中行)添加(或去除)行级别注释符号 | Ctrl+/                    |
-| 添加(或去除)块级注释符号            | Ctrl+Shift+/              |
-| 在当前文件查找                  | Ctrl+F                    |
-| 在当前文件替换                  | Ctrl+H                    |
-| 到下一个查找匹配的项               | Enter                     |
-| 到下一个查找匹配的项               | Shift+Enter               |
-| 选择所有匹配的项                 | ALT+Enter                 |
-| 在搜索框中换行                  | Ctrl+Enter                |
-| 搜索切换大小写敏感                | Alt+C                     |
-| 搜索切换正则表达式                | Alt+R                     |
-| 搜索切换整个单词                 | Alt+W                     |
-| 按 Tab 来移到焦点              | Ctrl+M                    |
-| 切换长代码自动换行                | Alt+Z                     |
+| 作用                       | 按键                  |
+| ------------------------ | ------------------- |
+| 剪切当前行                    | Ctrl+X              |
+| 复制当前行                    | Ctrl+C              |
+| 粘贴                       | Ctrl+V              |
+| 删除当前行                    | Ctrl+Shift+K        |
+| 在下方插入行                   | Ctrl+Enter          |
+| 在上方插入行                   | Ctrl+Shift+Enter    |
+| 上移当前行                    | Alt+Down            |
+| 下移当前行                    | Alt+Up              |
+| 向下复制当前行(失败)              | Ctrl+Shift+Alt+Down |
+| 向上复制当前行(失败)              | Ctrl+Shift+Alt+Up   |
+| 撤销                       | Ctrl+Z              |
+| 重做                       | Ctrl+Y              |
+| 回到上次光标位置                 | Ctrl+U              |
+| 选择当前单词，可以连按              | Ctrl+D              |
+| 选择当前行，可以连按               | Ctrl+L              |
+| 选择全部当前单词                 | Ctrl+Shift+L        |
+| 在当前选择全部行的末尾加光标           | Shift+Alt+I         |
+| 在下面插入光标                  | Shift+Alt+Down      |
+| 在上面插入光标                  | Shift+Alt+Up        |
+| 缩进当前行或选中行 (向右)           | Ctrl+]              |
+| 缩进当前行或选中行 (向左)           | Ctrl+[              |
+| 缩进选中行 (向右)               | Tab                 |
+| 缩进当前行选中行 (向左)            | Shift+Tab           |
+| 跳转到匹配的括号                 | Ctrl+Shift+\        |
+| 跳转到行首                    | Home                |
+| 跳转到行尾                    | End                 |
+| 跳转到文件首                   | Ctrl+Home           |
+| 跳转到文件首                   | Ctrl+End            |
+| 以单词为单位跳转                 | Ctrl+Left(Right)    |
+| 滚动屏幕一行                   | Ctrl+Up(Down)       |
+| 滚动屏幕一页(更改)               | Ctrl+Alt+Up(Down)   |
+| 按方向选中                    | Shift+Arrow         |
+| 折叠当前所在块                  | Ctrl+Shift+[        |
+| 展开当前所在块                  | Ctrl+Shift+]        |
+| 折叠当前块(以递归方式)(更改)         | Ｃtrl+Alt+[          |
+| 展开当前块(以递归方式)(更改)         | Ctrl+Alt+]          |
+| 折叠全部块(更改)                | Ctrl+K Ctrl+[       |
+| 展开全部块(更改)                | Ctrl+K Ctrl+]       |
+| 给当前行(或选中行)添加(或去除)行级别注释符号 | Ctrl+/              |
+| 添加(或去除)块级注释符号            | Ctrl+Shift+/        |
+| 在当前文件查找                  | Ctrl+F              |
+| 在当前文件替换                  | Ctrl+H              |
+| 到下一个查找匹配的项               | Enter               |
+| 到下一个查找匹配的项               | Shift+Enter         |
+| 选择所有匹配的项                 | ALT+Enter           |
+| 在搜索框中换行                  | Ctrl+Enter          |
+| 搜索切换大小写敏感                | Alt+C               |
+| 搜索切换正则表达式                | Alt+R               |
+| 搜索切换整个单词                 | Alt+W               |
+| 按 Tab 来移到焦点              | Ctrl+M              |
+| 切换长代码自动换行                | Alt+Z               |
 
 ## Rich Languages Editing
 
