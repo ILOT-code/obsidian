@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e2c9c36c692a8d97",
+        "id": "920f215b729ca32f",
         "type": "tabs",
         "children": [
           {
-            "id": "1fa954e685fd0d1d",
+            "id": "ae9d6d873752e849",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -203,13 +203,14 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "1fa954e685fd0d1d",
+  "active": "ae9d6d873752e849",
   "lastOpenFiles": [
-    "Sundry/GitPro.md",
     "shortcut.md",
+    "Sundry/GitPro.md",
     "LiteratureNotes/deng2023-compressing.md",
     "Sundry/shell.md",
     "Sundry/vim.md",
