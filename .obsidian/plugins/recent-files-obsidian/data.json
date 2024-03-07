@@ -1,44 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "yang2023-tinc",
-      "path": "LiteratureNotes/yang2023-tinc.md"
-    },
-    {
-      "basename": "yang2023-lossy",
-      "path": "LiteratureNotes/yang2023-lossy.md"
-    },
-    {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
-      "basename": "sun2023-all",
-      "path": "LiteratureNotes/sun2023-all.md"
+      "basename": "2023-preprocessing",
+      "path": "LiteratureNotes/2023-preprocessing.md"
     },
     {
       "basename": "sneyers2016-flif",
       "path": "LiteratureNotes/sneyers2016-flif.md"
     },
     {
-      "basename": "salimans2022-progressive",
-      "path": "LiteratureNotes/salimans2022-progressive.md"
+      "basename": "sun2023-all",
+      "path": "LiteratureNotes/sun2023-all.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
+    },
+    {
+      "basename": "yang2023-tinc",
+      "path": "LiteratureNotes/yang2023-tinc.md"
     },
     {
       "basename": "muller2022-instant",
       "path": "LiteratureNotes/muller2022-instant.md"
     },
     {
-      "basename": "marpe2003-contextbased",
-      "path": "LiteratureNotes/marpe2003-contextbased.md"
-    },
-    {
-      "basename": "liu2023-learned",
-      "path": "LiteratureNotes/liu2023-learned.md"
-    },
-    {
-      "basename": "ladune2023-coolchic",
-      "path": "LiteratureNotes/ladune2023-coolchic.md"
+      "basename": "salimans2022-progressive",
+      "path": "LiteratureNotes/salimans2022-progressive.md"
     },
     {
       "basename": "guo2023-compression",
@@ -49,12 +41,32 @@
       "path": "LiteratureNotes/girish2023-shacira.md"
     },
     {
-      "basename": "flamich2022-fast",
-      "path": "LiteratureNotes/flamich2022-fast.md"
+      "basename": "ali2023-efficienta-w",
+      "path": "Paperwords/ali2023-efficienta-w.md"
+    },
+    {
+      "basename": "alakuijala2019-jpeg-w",
+      "path": "Paperwords/alakuijala2019-jpeg-w.md"
+    },
+    {
+      "basename": "liu2023-learned",
+      "path": "LiteratureNotes/liu2023-learned.md"
     },
     {
       "basename": "deng2023-compressing",
       "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
+      "basename": "marpe2003-contextbased",
+      "path": "LiteratureNotes/marpe2003-contextbased.md"
+    },
+    {
+      "basename": "ladune2023-coolchic",
+      "path": "LiteratureNotes/ladune2023-coolchic.md"
+    },
+    {
+      "basename": "flamich2022-fast",
+      "path": "LiteratureNotes/flamich2022-fast.md"
     },
     {
       "basename": "ali2023-efficient",
@@ -63,10 +75,6 @@
     {
       "basename": "alakuijala2019-jpeg",
       "path": "LiteratureNotes/alakuijala2019-jpeg.md"
-    },
-    {
-      "basename": "2023-preprocessing",
-      "path": "LiteratureNotes/2023-preprocessing.md"
     },
     {
       "basename": "shortcut",

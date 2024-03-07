@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/2023-preprocessing.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/2023-preprocessing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/2023-preprocessing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md"
+                "file": "LiteratureNotes/2023-preprocessing.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "LiteratureNotes/2023-preprocessing.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -209,19 +209,22 @@
   },
   "active": "ae9d6d873752e849",
   "lastOpenFiles": [
-    "LiteratureNotes/yang2023-lossy.md",
-    "LiteratureNotes/tang2023-scene.md",
-    "LiteratureNotes/sun2023-all.md",
     "LiteratureNotes/sneyers2016-flif.md",
-    "LiteratureNotes/salimans2022-progressive.md",
+    "LiteratureNotes/sun2023-all.md",
+    "LiteratureNotes/tang2023-scene.md",
+    "LiteratureNotes/yang2023-lossy.md",
+    "LiteratureNotes/yang2023-tinc.md",
     "LiteratureNotes/muller2022-instant.md",
-    "LiteratureNotes/marpe2003-contextbased.md",
-    "LiteratureNotes/liu2023-learned.md",
-    "LiteratureNotes/ladune2023-coolchic.md",
+    "LiteratureNotes/salimans2022-progressive.md",
     "LiteratureNotes/guo2023-compression.md",
     "LiteratureNotes/girish2023-shacira.md",
-    "LiteratureNotes/flamich2022-fast.md",
+    "Paperwords/ali2023-efficienta-w.md",
+    "Paperwords/alakuijala2019-jpeg-w.md",
+    "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/deng2023-compressing.md",
+    "LiteratureNotes/marpe2003-contextbased.md",
+    "LiteratureNotes/ladune2023-coolchic.md",
+    "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/ali2023-efficient.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
     "LiteratureNotes/2023-preprocessing.md",
@@ -231,10 +234,7 @@
     "Sundry/vim.md",
     "未命名 1.md",
     "Sundry/conda包安装.md",
-    "LiteratureNotes/yang2023-tinc.md",
     "Notecards/Arithmetic Coding.md",
-    "Paperwords/moffat1995-arithmetic-w.md",
-    "Paperwords/sun2023-all-w.md",
     "Attachments/Pasted image 20240127135020.png",
     "Attachments/Pasted image 20240127133943.png",
     "Attachments/Pasted image 20240127130752.png",
