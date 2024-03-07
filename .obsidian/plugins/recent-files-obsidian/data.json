@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-preprocessing",
+      "path": "LiteratureNotes/2023-preprocessing.md"
+    },
+    {
       "basename": "shortcut",
       "path": "shortcut.md"
     },
@@ -127,10 +131,6 @@
     {
       "basename": "neovim配置",
       "path": "Sundry/neovim配置.md"
-    },
-    {
-      "basename": "2023-preprocessing",
-      "path": "LiteratureNotes/2023-preprocessing.md"
     },
     {
       "basename": "guo2023-compression",
