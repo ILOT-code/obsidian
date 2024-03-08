@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c8c6f76606b777b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/marpe2003-contextbased.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -209,6 +221,8 @@
   },
   "active": "ae9d6d873752e849",
   "lastOpenFiles": [
+    "LiteratureNotes/marpe2003-contextbased.md",
+    "LiteratureNotes/sneyers2016-flif.md",
     "LiteratureNotes/salimans2022-progressive.md",
     "LiteratureNotes/muller2022-instant.md",
     "LiteratureNotes/flamich2022-fast.md",
@@ -217,8 +231,6 @@
     "Paperwords/muller2022-instanta-w.md",
     "Paperwords/sneyers2016-flif-w.md",
     "shortcut.md",
-    "LiteratureNotes/marpe2003-contextbased.md",
-    "LiteratureNotes/sneyers2016-flif.md",
     "LiteratureNotes/2023-preprocessing.md",
     "LiteratureNotes/sun2023-all.md",
     "LiteratureNotes/tang2023-scene.md",
