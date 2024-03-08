@@ -9,6 +9,10 @@
       "path": "LiteratureNotes/marpe2003-contextbased.md"
     },
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "salimans2022-progressive",
       "path": "LiteratureNotes/salimans2022-progressive.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "sneyers2016-flif-w",
       "path": "Paperwords/sneyers2016-flif-w.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "2023-preprocessing",
