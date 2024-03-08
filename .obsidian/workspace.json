@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/girish2023-shacira.md",
+                "file": "LiteratureNotes/salimans2022-progressive.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/girish2023-shacira.md",
+                "file": "LiteratureNotes/salimans2022-progressive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/girish2023-shacira.md",
+                "file": "LiteratureNotes/salimans2022-progressive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/girish2023-shacira.md"
+                "file": "LiteratureNotes/salimans2022-progressive.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/girish2023-shacira.md",
+                "file": "LiteratureNotes/salimans2022-progressive.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -210,6 +210,8 @@
   "active": "ae9d6d873752e849",
   "lastOpenFiles": [
     "LiteratureNotes/muller2022-instant.md",
+    "LiteratureNotes/flamich2022-fast.md",
+    "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/yang2023-tinc.md",
     "Paperwords/muller2022-instanta-w.md",
     "Paperwords/sneyers2016-flif-w.md",
@@ -222,13 +224,11 @@
     "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/salimans2022-progressive.md",
     "LiteratureNotes/guo2023-compression.md",
-    "LiteratureNotes/girish2023-shacira.md",
     "Paperwords/ali2023-efficienta-w.md",
     "Paperwords/alakuijala2019-jpeg-w.md",
     "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/deng2023-compressing.md",
     "LiteratureNotes/ladune2023-coolchic.md",
-    "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/ali2023-efficient.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
     "Sundry/GitPro.md",

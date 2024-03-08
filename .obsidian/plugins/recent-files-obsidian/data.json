@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "girish2023-shacira",
-      "path": "LiteratureNotes/girish2023-shacira.md"
+      "basename": "salimans2022-progressive",
+      "path": "LiteratureNotes/salimans2022-progressive.md"
     },
     {
       "basename": "muller2022-instant",
       "path": "LiteratureNotes/muller2022-instant.md"
+    },
+    {
+      "basename": "flamich2022-fast",
+      "path": "LiteratureNotes/flamich2022-fast.md"
+    },
+    {
+      "basename": "girish2023-shacira",
+      "path": "LiteratureNotes/girish2023-shacira.md"
     },
     {
       "basename": "yang2023-tinc",
@@ -49,10 +57,6 @@
       "path": "LiteratureNotes/yang2023-lossy.md"
     },
     {
-      "basename": "salimans2022-progressive",
-      "path": "LiteratureNotes/salimans2022-progressive.md"
-    },
-    {
       "basename": "guo2023-compression",
       "path": "LiteratureNotes/guo2023-compression.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "ladune2023-coolchic",
       "path": "LiteratureNotes/ladune2023-coolchic.md"
-    },
-    {
-      "basename": "flamich2022-fast",
-      "path": "LiteratureNotes/flamich2022-fast.md"
     },
     {
       "basename": "ali2023-efficient",
