@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "marpe2003-contextbased",
       "path": "LiteratureNotes/marpe2003-contextbased.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "alakuijala2019-jpeg",
       "path": "LiteratureNotes/alakuijala2019-jpeg.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "GitPro",
