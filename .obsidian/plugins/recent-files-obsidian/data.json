@@ -5,12 +5,12 @@
       "path": "LiteratureNotes/sneyers2016-flif.md"
     },
     {
-      "basename": "marpe2003-contextbased",
-      "path": "LiteratureNotes/marpe2003-contextbased.md"
-    },
-    {
       "basename": "shortcut",
       "path": "shortcut.md"
+    },
+    {
+      "basename": "marpe2003-contextbased",
+      "path": "LiteratureNotes/marpe2003-contextbased.md"
     },
     {
       "basename": "salimans2022-progressive",
