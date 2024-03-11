@@ -271,6 +271,7 @@
 | copilot        | 在右边栏显示建议       | Alt+Enter  |
 | Bracket Select | 选择括号内内容，可连按    | Alt+A      |
 | Bracket Select | 选中括号内内容，（包括括号） | Ctrl+Alt+A |
+| Git History    | 显示文件的 git 历史   | Alt+H      |
 
 
 
