@@ -272,6 +272,7 @@
 | Bracket Select | 选择括号内内容，可连按    | Alt+A      |
 | Bracket Select | 选中括号内内容，（包括括号） | Ctrl+Alt+A |
 | Git History    | 显示文件的 git 历史   | Alt+H      |
+| Git            | 打开更改           | Alt+M      |
 
 
 
