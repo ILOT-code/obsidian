@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/sneyers2016-flif.md",
+                "file": "LiteratureNotes/muller2022-instant.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/sneyers2016-flif.md",
+                "file": "LiteratureNotes/muller2022-instant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/sneyers2016-flif.md",
+                "file": "LiteratureNotes/muller2022-instant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/sneyers2016-flif.md"
+                "file": "LiteratureNotes/muller2022-instant.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/sneyers2016-flif.md",
+                "file": "LiteratureNotes/muller2022-instant.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -209,10 +209,12 @@
   },
   "active": "224c357867d1848a",
   "lastOpenFiles": [
-    "shortcut.md",
-    "LiteratureNotes/sneyers2016-flif.md",
-    "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/salimans2022-progressive.md",
+    "LiteratureNotes/sneyers2016-flif.md",
+    "LiteratureNotes/sun2023-all.md",
+    "LiteratureNotes/tang2023-scene.md",
+    "shortcut.md",
+    "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/muller2022-instant.md",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/girish2023-shacira.md",
@@ -220,8 +222,6 @@
     "Paperwords/muller2022-instanta-w.md",
     "Paperwords/sneyers2016-flif-w.md",
     "LiteratureNotes/2023-preprocessing.md",
-    "LiteratureNotes/sun2023-all.md",
-    "LiteratureNotes/tang2023-scene.md",
     "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/guo2023-compression.md",
     "Paperwords/ali2023-efficienta-w.md",
