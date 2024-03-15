@@ -123,24 +123,24 @@
 
 ## Rich Languages Editing
 
-| 作用               | 按键               |
-| ---------------- | ---------------- |
-| 触发建议             | Ctrl+Space       |
-| 触发函数提示(光标在函数括号内) | Ctrl+Shift+Space |
-| 格式化文档            | Ctri+Shift+I     |
-| 格式化当前行(或所选区域)    | Ctrl+K Ctrl+F    |
-| 触发函数提示(光标在函数名上)  | Ctrl+K Ctrl+I    |
-| 转到定义(更改)         | Ctrl+K Ctrl+D    |
-| 转到定义(在边上打开)(更改)  | Ctrl+K Ctrl+L    |
-| 查看定义(悬浮窗口上)(更改)  | Ctrl+K Ctrl+H    |
-| 快速修改             | Ctrl+.           |
-| 查看引用 (悬浮窗口)(更改)  | Alt+Shift+D      |
-| 查看全部引用           | Alt+Shift+F12    |
-| 显示该符号调用层次结构      | Alt+Shift+H      |
-| 重命名符号 (更改)       | Alt+Shift+R      |
-| 智能选择区域 (扩展)      | Shift+Alt+Right  |
-| 智能选择区域 (收缩)      | Shift+Alt+Left   |
-| 删除不必要的空格         | Ctrl+K Ctrl+X    |
+| 作用                | 按键               |
+| ----------------- | ---------------- |
+| 触发建议              | Ctrl+Space       |
+| 触发函数提示(光标在函数括号内)  | Ctrl+Shift+Space |
+| 格式化文档             | Ctri+Shift+I     |
+| 格式化当前行(或所选区域)     | Ctrl+K Ctrl+F    |
+| 触发函数提示 (光标在函数名上 ) | Ctrl+K Ctrl+I    |
+| 转到定义(更改)          | Ctrl+K Ctrl+D    |
+| 转到定义(在边上打开)(更改)   | Ctrl+K Ctrl+L    |
+| 查看定义(悬浮窗口上)(更改)   | Ctrl+K Ctrl+H    |
+| 快速修改              | Ctrl+.           |
+| 查看引用 (悬浮窗口)(更改)   | Alt+Shift+D      |
+| 查看全部引用            | Alt+Shift+F12    |
+| 显示该符号调用层次结构       | Alt+Shift+H      |
+| 重命名符号 (更改)        | Alt+Shift+R      |
+| 智能选择区域 (扩展)       | Shift+Alt+Right  |
+| 智能选择区域 (收缩)       | Shift+Alt+Left   |
+| 删除不必要的空格          | Ctrl+K Ctrl+X    |
 
 ## Navigation
 
