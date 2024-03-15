@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "ladune2023-coolchic",
+      "path": "LiteratureNotes/ladune2023-coolchic.md"
+    },
+    {
+      "basename": "marpe2003-contextbased",
+      "path": "LiteratureNotes/marpe2003-contextbased.md"
+    },
+    {
       "basename": "yang2023-lossy",
       "path": "LiteratureNotes/yang2023-lossy.md"
     },
@@ -21,16 +29,8 @@
       "path": "LiteratureNotes/muller2022-instant.md"
     },
     {
-      "basename": "marpe2003-contextbased",
-      "path": "LiteratureNotes/marpe2003-contextbased.md"
-    },
-    {
       "basename": "liu2023-learned",
       "path": "LiteratureNotes/liu2023-learned.md"
-    },
-    {
-      "basename": "ladune2023-coolchic",
-      "path": "LiteratureNotes/ladune2023-coolchic.md"
     },
     {
       "basename": "guo2023-compression",

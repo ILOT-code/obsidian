@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/yang2023-lossy.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/yang2023-lossy.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/yang2023-lossy.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/yang2023-lossy.md"
+                "file": "LiteratureNotes/ladune2023-coolchic.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/yang2023-lossy.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -209,11 +209,12 @@
   },
   "active": "224c357867d1848a",
   "lastOpenFiles": [
+    "LiteratureNotes/marpe2003-contextbased.md",
+    "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/tang2023-scene.md",
     "LiteratureNotes/sun2023-all.md",
     "LiteratureNotes/sneyers2016-flif.md",
     "LiteratureNotes/muller2022-instant.md",
-    "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/ladune2023-coolchic.md",
     "LiteratureNotes/guo2023-compression.md",
@@ -228,7 +229,6 @@
     "LiteratureNotes/yang2023-tinc.md",
     "Paperwords/muller2022-instanta-w.md",
     "Paperwords/sneyers2016-flif-w.md",
-    "LiteratureNotes/yang2023-lossy.md",
     "Paperwords/ali2023-efficienta-w.md",
     "Paperwords/alakuijala2019-jpeg-w.md",
     "Sundry/GitPro.md",
