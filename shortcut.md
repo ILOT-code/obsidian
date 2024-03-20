@@ -265,14 +265,15 @@
 ## Extensions
 
 
-| 来源             | 作用             | 按键         |
-| -------------- | -------------- | ---------- |
-| copilot        | 对选择内容进行解释      | Ctrl+Alt+E |
-| copilot        | 在右边栏显示建议       | Alt+Enter  |
-| Bracket Select | 选择括号内内容，可连按    | Alt+A      |
-| Bracket Select | 选中括号内内容，（包括括号） | Ctrl+Alt+A |
-| Git History    | 显示文件的 git 历史   | Alt+H      |
-| Git            | 打开更改           | Alt+M      |
+| 来源             | 作用              | 按键         |
+| -------------- | --------------- | ---------- |
+| copilot        | 对选择内容进行解释       | Ctrl+Alt+E |
+| copilot        | 在右边栏显示建议 (更改)   | Alt+Enter  |
+| copilot        | 询问 copilot (悬浮) | Ctrl+I     |
+| Bracket Select | 选择括号内内容，可连按     | Alt+A      |
+| Bracket Select | 选中括号内内容，（包括括号）  | Ctrl+Alt+A |
+| Git History    | 显示文件的 git 历史    | Alt+H      |
+| Git            | 打开更改 (更改)       | Alt+M      |
 
 
 
