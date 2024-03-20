@@ -216,7 +216,7 @@
 | 显示调试             | Ctrl+Shift+Y |
 | 显示终端             | Ctrl+`       |
 | 新建终端             | Ctrl+Shift+` |
-| 显示 (隐藏) 终端       | Ctrl+J       |
+| 显示 (隐藏) 下栏       | Ctrl+J       |
 | 打开系统终端(到当前目录下)   | Ctrl+Shift+C |
 | 预览当前md文件(在新编辑器中) | Ctrl+Shift+V |
 | 预览当前md文件(在右边打开)  | Ctrl+K V     |
