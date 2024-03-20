@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md",
+                "file": "diary/2024-03-20.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md",
+                "file": "diary/2024-03-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md",
+                "file": "diary/2024-03-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md"
+                "file": "diary/2024-03-20.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/ladune2023-coolchic.md",
+                "file": "diary/2024-03-20.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -183,11 +183,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 393.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,8 +207,10 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "85cc9493daeac8f1",
+  "active": "224c357867d1848a",
   "lastOpenFiles": [
+    "LiteratureNotes/ladune2023-coolchic.md",
+    "diary/2024-03-20.md",
     "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/tang2023-scene.md",
@@ -215,7 +218,6 @@
     "LiteratureNotes/sneyers2016-flif.md",
     "LiteratureNotes/muller2022-instant.md",
     "LiteratureNotes/liu2023-learned.md",
-    "LiteratureNotes/ladune2023-coolchic.md",
     "LiteratureNotes/guo2023-compression.md",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/deng2023-compressing.md",
@@ -233,7 +235,6 @@
     "Sundry/GitPro.md",
     "Sundry/shell.md",
     "Sundry/vim.md",
-    "未命名 1.md",
     "Attachments/Pasted image 20240127135020.png",
     "Attachments/Pasted image 20240127133943.png",
     "Attachments/Pasted image 20240127130752.png",
