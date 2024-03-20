@@ -135,8 +135,8 @@
 | 查看定义(悬浮窗口上)(更改)      | Ctrl+K Ctrl+H    |
 | 快速修改                 | Ctrl+.           |
 | 查看引用 (悬浮窗口)(更改)      | Alt+Shift+D      |
-| 查看全部引用               | Alt+Shift+F12    |
-| 显示该符号调用层次结构          | Alt+Shift+H      |
+| 查看全部引用 (在左栏显示)       | Alt+Shift+F12    |
+| 显示该符号被调用层次结构         | Alt+Shift+H      |
 | 重命名符号 (更改)           | Alt+Shift+R      |
 | 智能选择区域 (扩展)          | Shift+Alt+Right  |
 | 智能选择区域 (收缩)          | Shift+Alt+Left   |
