@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "224c357867d1848a",
+            "id": "70acedb5f62ebaf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2024-03-20.md",
+                "file": "shortcut.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "70acedb5f62ebaf4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 215.5,
+    "collapsed": true
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -123,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2024-03-20.md",
+                "file": "shortcut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2024-03-20.md",
+                "file": "shortcut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2024-03-20.md"
+                "file": "shortcut.md"
               }
             }
           },
@@ -186,7 +176,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "diary/2024-03-20.md",
+                "file": "shortcut.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -214,13 +204,14 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "70acedb5f62ebaf4",
   "lastOpenFiles": [
-    "LiteratureNotes/ladune2023-coolchic.md",
     "diary/2024-03-20.md",
+    "LiteratureNotes/ladune2023-coolchic.md",
     "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/tang2023-scene.md",
