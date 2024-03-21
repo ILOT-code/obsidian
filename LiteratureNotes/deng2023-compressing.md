@@ -6,9 +6,9 @@ title: "Compressing Explicit Voxel Grid Representations: Fast NeRFs Become Also 
 authors:
   - Chenxi Lola Deng
   - Enzo Tartaglione
-conference: xxx
+conference: WACV2023
 citekey: deng2023-compressing
-tags: []
+tags:
 ---
 # Compressing Explicit Voxel Grid Representations: Fast NeRFs Become Also Small
 
