@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "sun2023-all",
+      "path": "LiteratureNotes/sun2023-all.md"
+    },
+    {
+      "basename": "muller2022-instant",
+      "path": "LiteratureNotes/muller2022-instant.md"
+    },
+    {
+      "basename": "deng2023-compressing",
+      "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
+      "basename": "liu2023-learned",
+      "path": "LiteratureNotes/liu2023-learned.md"
+    },
+    {
       "basename": "shortcut",
       "path": "shortcut.md"
     },
@@ -25,20 +41,8 @@
       "path": "LiteratureNotes/tang2023-scene.md"
     },
     {
-      "basename": "sun2023-all",
-      "path": "LiteratureNotes/sun2023-all.md"
-    },
-    {
       "basename": "sneyers2016-flif",
       "path": "LiteratureNotes/sneyers2016-flif.md"
-    },
-    {
-      "basename": "muller2022-instant",
-      "path": "LiteratureNotes/muller2022-instant.md"
-    },
-    {
-      "basename": "liu2023-learned",
-      "path": "LiteratureNotes/liu2023-learned.md"
     },
     {
       "basename": "guo2023-compression",
@@ -47,10 +51,6 @@
     {
       "basename": "flamich2022-fast",
       "path": "LiteratureNotes/flamich2022-fast.md"
-    },
-    {
-      "basename": "deng2023-compressing",
-      "path": "LiteratureNotes/deng2023-compressing.md"
     },
     {
       "basename": "ali2023-efficient",
