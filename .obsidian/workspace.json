@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a4dd90e699657c62",
+        "id": "802984e32761dcec",
         "type": "tabs",
         "children": [
           {
-            "id": "3bada21d160b83de",
+            "id": "270a68497b042cc8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shortcut.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -112,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "shortcut.md"
-              }
+              "state": {}
             }
           },
           {
@@ -175,7 +167,6 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "shortcut.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -203,10 +194,11 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "3bada21d160b83de",
+  "active": "270a68497b042cc8",
   "lastOpenFiles": [
     "shortcut.md",
     "diary/2024-03-20.md",
