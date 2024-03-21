@@ -1,52 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "sun2023-all",
-      "path": "LiteratureNotes/sun2023-all.md"
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
+    },
+    {
+      "basename": "salimans2022-progressive",
+      "path": "LiteratureNotes/salimans2022-progressive.md"
     },
     {
       "basename": "muller2022-instant",
       "path": "LiteratureNotes/muller2022-instant.md"
     },
     {
-      "basename": "deng2023-compressing",
-      "path": "LiteratureNotes/deng2023-compressing.md"
-    },
-    {
       "basename": "liu2023-learned",
       "path": "LiteratureNotes/liu2023-learned.md"
     },
     {
-      "basename": "shortcut",
-      "path": "shortcut.md"
-    },
-    {
-      "basename": "2024-03-20",
-      "path": "diary/2024-03-20.md"
+      "basename": "guo2023-compression",
+      "path": "LiteratureNotes/guo2023-compression.md"
     },
     {
       "basename": "ladune2023-coolchic",
       "path": "LiteratureNotes/ladune2023-coolchic.md"
     },
     {
-      "basename": "marpe2003-contextbased",
-      "path": "LiteratureNotes/marpe2003-contextbased.md"
-    },
-    {
-      "basename": "yang2023-lossy",
-      "path": "LiteratureNotes/yang2023-lossy.md"
-    },
-    {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
-      "basename": "sneyers2016-flif",
-      "path": "LiteratureNotes/sneyers2016-flif.md"
-    },
-    {
-      "basename": "guo2023-compression",
-      "path": "LiteratureNotes/guo2023-compression.md"
+      "basename": "girish2023-shacira",
+      "path": "LiteratureNotes/girish2023-shacira.md"
     },
     {
       "basename": "flamich2022-fast",
@@ -57,20 +37,40 @@
       "path": "LiteratureNotes/ali2023-efficient.md"
     },
     {
-      "basename": "alakuijala2019-jpeg",
-      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
-    },
-    {
       "basename": "2023-preprocessing",
       "path": "LiteratureNotes/2023-preprocessing.md"
     },
     {
-      "basename": "salimans2022-progressive",
-      "path": "LiteratureNotes/salimans2022-progressive.md"
+      "basename": "sun2023-all",
+      "path": "LiteratureNotes/sun2023-all.md"
     },
     {
-      "basename": "girish2023-shacira",
-      "path": "LiteratureNotes/girish2023-shacira.md"
+      "basename": "deng2023-compressing",
+      "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
+      "basename": "2024-03-20",
+      "path": "diary/2024-03-20.md"
+    },
+    {
+      "basename": "marpe2003-contextbased",
+      "path": "LiteratureNotes/marpe2003-contextbased.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
+      "basename": "sneyers2016-flif",
+      "path": "LiteratureNotes/sneyers2016-flif.md"
+    },
+    {
+      "basename": "alakuijala2019-jpeg",
+      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
     },
     {
       "basename": "yang2023-tinc",
