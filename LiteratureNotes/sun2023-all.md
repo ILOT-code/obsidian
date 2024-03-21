@@ -72,7 +72,7 @@ $sgn$ 操作无法传播梯度，使用 $sigmod$ 进行松弛。
 $$
 \begin{aligned}
 \hat{\mathbf{P}}&=\exp\left\{-\tau\left[\left(\mathbf{m}\mathbf{1}^\top-\mathbf{1}\mathbf{r}^\top+n\right)\quad(\mathrm{mod~}n)\right]\right\}\\
-\mathbf{b}&\in \mathbb{R}^{n}, \mathbf{m}_i=i
+\mathbf{m}&\in \mathbb{R}^{n}, \mathbf{m}_i=i
 \end{aligned}
 $$
 这样的生成会使全部 $(\mathbf{r}_i,i)$ 上的元素是 $1$，其它位置是小于 $1$ 的正数。容易得到 $\begin{aligned}\lim_{\tau\to+\infty}\hat{\mathbf{P}}=\mathbf{P},\mathbf{P}\in\mathcal{P}.\end{aligned}$，
