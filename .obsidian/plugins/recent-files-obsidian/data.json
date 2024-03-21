@@ -5,6 +5,10 @@
       "path": "LiteratureNotes/deng2023-compressing.md"
     },
     {
+      "basename": "sun2023-all",
+      "path": "LiteratureNotes/sun2023-all.md"
+    },
+    {
       "basename": "deng2023-compressing-w",
       "path": "Paperwords/deng2023-compressing-w.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "alakuijala2019-jpeg",
       "path": "LiteratureNotes/alakuijala2019-jpeg.md"
-    },
-    {
-      "basename": "sun2023-all",
-      "path": "LiteratureNotes/sun2023-all.md"
     },
     {
       "basename": "yang2023-lossy",
