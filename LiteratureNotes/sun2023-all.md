@@ -89,18 +89,18 @@ $$
 \begin{aligned}
 f(\mathbf{PX},\mathbf{PAP^{T})}&= \mathbf{P}f(\mathbf{X},\mathbf{A})\\
 &=\mathbf{Pr_A}\\
-\text{继续生成绝对排序}\\
+\text{继续生成绝对排序:}\\
 &\operatorname{sgn}\left(\mathbf{Pr}_A\mathbf{1}^\top-\mathbf{1r}_A^\top\mathbf{P}^\top\right)\mathbf{1} \\
 &= \operatorname{sgn}\left(\mathbf{Pr}_A\mathbf{1}^\top\mathbf{P}^\top-\mathbf{P1r}_A^\top\mathbf{P}^\top\right)\mathbf{1}  \\
 &= \mathbf{P}\text{sgn}\left(\mathbf{r}_A\mathbf{1}^\top-\mathbf{1}\mathbf{r}_A^\top\right)\mathbf{P}^\top\mathbf{1}  \\
 &= \mathbf{P}\text{sgn}\left(\mathbf{r}_A\mathbf{1}^\top-\mathbf{1}\mathbf{r}_A^\top\right)\mathbf{1}  \\
 &= \mathbf{Pr}\\
-\text{再生成排列矩阵}\\
+\text{再生成排列矩阵:}\\
 &\exp\left\{-\tau\left[\left(\mathbf{m}\mathbf{1}^\top-\mathbf{1}\mathbf{r}^\top\mathbf{P}^\top+n\right)\quad(\mathrm{mod~}n)\right]\right\} \\
 &= \exp\left\{-\tau\left[\left(\mathbf{m}\mathbf{1}^\top\mathbf{P}^\top-1\mathbf{r}^\top\mathbf{P}^\top+n\right)\quad(\mathrm{mod~}n)\right]\right\}  \\
 &= \exp\left\{-\tau\left[\left(\mathbf{m}\mathbf{1}^\top-\mathbf{1}\mathbf{r}^\top+n\right)\quad(\mathrm{mod~}n)\right]\right\}\mathbf{P}^\top   \\
 &= \hat{\mathbf{P}}\mathbf{P}^\top  \\
-\text{最后得到两个矩阵}\\
+\text{最后得到两个矩阵:}\\
 &\hat{\mathbf{X}^{1}}=\hat{\mathbf{P}}\mathbf{P}^T{(\mathbf{P}\mathbf{X})=\hat{\mathbf{P}}\mathbf{X}}= \hat{\mathbf{X}}\\
 &\hat{\mathbf{A}^{1}} = \hat{\mathbf{P}}\mathbf{P}^T(\mathbf{P}\mathbf{A}\mathbf{P}^T)\mathbf{P}\hat{\mathbf{P}}^\top=\mathbf{\hat{P}}\mathbf{A}\hat{\mathbf{P}}^{T}=\hat{\mathbf{A}}\\
 \text{得证}
