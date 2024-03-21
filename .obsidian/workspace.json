@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paperwords/deng2023-compressing-w.md",
+                "file": "LiteratureNotes/deng2023-compressing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 377.5
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paperwords/deng2023-compressing-w.md",
+                "file": "LiteratureNotes/deng2023-compressing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Paperwords/deng2023-compressing-w.md",
+                "file": "LiteratureNotes/deng2023-compressing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Paperwords/deng2023-compressing-w.md"
+                "file": "LiteratureNotes/deng2023-compressing.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Paperwords/deng2023-compressing-w.md",
+                "file": "LiteratureNotes/deng2023-compressing.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -209,6 +209,7 @@
   },
   "active": "270a68497b042cc8",
   "lastOpenFiles": [
+    "Paperwords/deng2023-compressing-w.md",
     "Paperwords/2023-preprocessing-w.md",
     "CompressionFromCV.md",
     "dupont2021-coin.md",
@@ -234,7 +235,6 @@
     "diary/2024-03-20.md",
     "Paperwords/muller2022-instanta-w.md",
     "Paperwords/sneyers2016-flif-w.md",
-    "Paperwords/ali2023-efficienta-w.md",
     "Attachments/Pasted image 20240127135020.png",
     "Attachments/Pasted image 20240127133943.png",
     "Attachments/Pasted image 20240127130752.png",
