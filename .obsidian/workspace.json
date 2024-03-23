@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/Numpy.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/Numpy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/Numpy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md"
+                "file": "Sundry/Numpy.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/deng2023-compressing.md",
+                "file": "Sundry/Numpy.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -215,13 +215,15 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "270a68497b042cc8",
   "lastOpenFiles": [
-    "LiteratureNotes/sun2023-all.md",
+    "Sundry/Pytorch.md",
     "LiteratureNotes/deng2023-compressing.md",
+    "LiteratureNotes/sun2023-all.md",
     "Paperwords/deng2023-compressing-w.md",
     "Paperwords/2023-preprocessing-w.md",
     "CompressionFromCV.md",
@@ -245,7 +247,6 @@
     "LiteratureNotes/yang2023-tinc.md",
     "diary/2024-03-20.md",
     "Paperwords/muller2022-instanta-w.md",
-    "Paperwords/sneyers2016-flif-w.md",
     "Attachments/Pasted image 20240127135020.png",
     "Attachments/Pasted image 20240127133943.png",
     "Attachments/Pasted image 20240127130752.png",

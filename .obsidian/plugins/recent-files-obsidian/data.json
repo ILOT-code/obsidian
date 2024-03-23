@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Numpy",
+      "path": "Sundry/Numpy.md"
+    },
+    {
+      "basename": "Pytorch",
+      "path": "Sundry/Pytorch.md"
+    },
+    {
       "basename": "deng2023-compressing",
       "path": "LiteratureNotes/deng2023-compressing.md"
     },
