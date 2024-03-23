@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sundry/Numpy.md",
+                "file": "Notecards/矩阵微分.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sundry/Numpy.md",
+                "file": "Notecards/矩阵微分.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sundry/Numpy.md",
+                "file": "Notecards/矩阵微分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sundry/Numpy.md"
+                "file": "Notecards/矩阵微分.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Sundry/Numpy.md",
+                "file": "Notecards/矩阵微分.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -221,6 +221,13 @@
   },
   "active": "270a68497b042cc8",
   "lastOpenFiles": [
+    "Notecards/ANS及其实现技巧.md",
+    "Notecards/DM.md",
+    "Notecards/PSNR与SSIM.md",
+    "Notecards/VAE.md",
+    "Math/多元高斯分布.md",
+    "Notecards/无符号整数除法计算的优化.md",
+    "Sundry/Numpy.md",
     "Sundry/Pytorch.md",
     "LiteratureNotes/deng2023-compressing.md",
     "LiteratureNotes/sun2023-all.md",
@@ -240,13 +247,6 @@
     "LiteratureNotes/guo2023-compression.md",
     "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/flamich2022-fast.md",
-    "LiteratureNotes/ali2023-efficient.md",
-    "LiteratureNotes/2023-preprocessing.md",
-    "LiteratureNotes/alakuijala2019-jpeg.md",
-    "LiteratureNotes/yang2023-lossy.md",
-    "LiteratureNotes/yang2023-tinc.md",
-    "diary/2024-03-20.md",
-    "Paperwords/muller2022-instanta-w.md",
     "Attachments/Pasted image 20240127135020.png",
     "Attachments/Pasted image 20240127133943.png",
     "Attachments/Pasted image 20240127130752.png",

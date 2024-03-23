@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "矩阵微分",
+      "path": "Notecards/矩阵微分.md"
+    },
+    {
+      "basename": "ANS及其实现技巧",
+      "path": "Notecards/ANS及其实现技巧.md"
+    },
+    {
+      "basename": "DM",
+      "path": "Notecards/DM.md"
+    },
+    {
+      "basename": "PSNR与SSIM",
+      "path": "Notecards/PSNR与SSIM.md"
+    },
+    {
+      "basename": "VAE",
+      "path": "Notecards/VAE.md"
+    },
+    {
+      "basename": "多元高斯分布",
+      "path": "Math/多元高斯分布.md"
+    },
+    {
+      "basename": "无符号整数除法计算的优化",
+      "path": "Notecards/无符号整数除法计算的优化.md"
+    },
+    {
       "basename": "Numpy",
       "path": "Sundry/Numpy.md"
     },
@@ -171,22 +199,6 @@
     {
       "basename": "zt-note.eta",
       "path": "ZtTemplates/zt-note.eta.md"
-    },
-    {
-      "basename": "Drawguo2023-compression",
-      "path": "Excalidraw/Drawguo2023-compression.md"
-    },
-    {
-      "basename": "neovim配置",
-      "path": "Sundry/neovim配置.md"
-    },
-    {
-      "basename": "zt-annot.eta",
-      "path": "ZtTemplates/zt-annot.eta.md"
-    },
-    {
-      "basename": "zt-field.eta",
-      "path": "ZtTemplates/zt-field.eta.md"
     }
   ],
   "omittedPaths": [],
