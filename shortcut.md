@@ -93,7 +93,7 @@
 | 缩进选中行 (向右)               | Tab                 |
 | 缩进当前行选中行 (向左)            | Shift+Tab           |
 | 跳转到匹配的括号                 | Ctrl+Shift+\        |
-| 跳转到行首                    | Home                |
+| 跳转到行首（软硬）                | Home                |
 | 跳转到行尾                    | End                 |
 | 跳转到文件首                   | Ctrl+Home           |
 | 跳转到文件首                   | Ctrl+End            |
@@ -162,19 +162,19 @@
 
 ## Edit/Window Management
 
-| 作用               | 按键                    |
-| ---------------- | --------------------- |
-| 新窗口              | Ctrl+Shift+N          |
-| 关闭窗口             | Alt+F4                |
-| 关闭当前编辑器          | Ctrl+W                |
-| 关闭当前工作目录         | Ctrl+K F              |
-| 向右拆分编辑器          | Ctrl+\                |
-| 向下拆分编辑器          | Ctrl+K Ctrl+\         |
-| 聚焦到第1,2,3个编辑器组   | Ctrl+(1,2,3)          |
-| 聚焦左主侧栏           | Ctrl+0                |
-| 转到左边(右边)的编辑器     | Ctrl+PageUp(PageDown) |
-| 将当前编辑器右移(左移)(更改) | Ctrl+Shift+Down(Up)   |
-| 将当前编辑器组向方向键移动    | Ctrl+K Arrow          |
+| 作用                        | 按键                    |
+| ------------------------- | --------------------- |
+| 新窗口                       | Ctrl+Shift+N          |
+| 关闭窗口                      | Alt+F4                |
+| 关闭当前编辑器                   | Ctrl+W                |
+| 关闭当前工作目录                  | Ctrl+K F              |
+| 向右拆分编辑器                   | Ctrl+\                |
+| 向下拆分编辑器                   | Ctrl+K Ctrl+\         |
+| 聚焦到第 1,2,3 个编辑器组 (不存在就创建) | Ctrl+(1,2,3)          |
+| 聚焦左主侧栏                    | Ctrl+0                |
+| 转到左边(右边)的编辑器              | Ctrl+PageUp(PageDown) |
+| 将当前编辑器右移(左移)(更改)          | Ctrl+Shift+Down(Up)   |
+| 将当前编辑器组向方向键移动             | Ctrl+K Arrow          |
 
 ## File Management
 
