@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "矩阵微分",
       "path": "Notecards/矩阵微分.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "dupont2021-coin",
       "path": "dupont2021-coin.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "wezterm",
