@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/Pytorch.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/Pytorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/Pytorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shortcut.md"
+                "file": "Sundry/Pytorch.md"
               }
             }
           },
@@ -176,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "shortcut.md",
+                "file": "Sundry/Pytorch.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -204,11 +203,13 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "270a68497b042cc8",
   "lastOpenFiles": [
+    "shortcut.md",
     "Notecards/矩阵微分.md",
     "Notecards/ANS及其实现技巧.md",
     "Notecards/DM.md",
@@ -224,7 +225,6 @@
     "Paperwords/2023-preprocessing-w.md",
     "CompressionFromCV.md",
     "dupont2021-coin.md",
-    "shortcut.md",
     "wezterm.md",
     "LiteratureNotes/tang2023-scene.md",
     "LiteratureNotes/sneyers2016-flif.md",
