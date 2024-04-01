@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Numpy",
+      "path": "Sundry/Numpy.md"
+    },
+    {
       "basename": "Pytorch",
       "path": "Sundry/Pytorch.md"
     },

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sundry/Pytorch.md",
+                "file": "Sundry/Numpy.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sundry/Pytorch.md",
+                "file": "Sundry/Numpy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sundry/Pytorch.md",
+                "file": "Sundry/Numpy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sundry/Pytorch.md"
+                "file": "Sundry/Numpy.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Sundry/Pytorch.md",
+                "file": "Sundry/Numpy.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -203,11 +203,13 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "270a68497b042cc8",
   "lastOpenFiles": [
+    "Sundry/Pytorch.md",
     "shortcut.md",
     "Notecards/矩阵微分.md",
     "Notecards/ANS及其实现技巧.md",
@@ -217,7 +219,6 @@
     "Math/多元高斯分布.md",
     "Notecards/无符号整数除法计算的优化.md",
     "Sundry/Numpy.md",
-    "Sundry/Pytorch.md",
     "LiteratureNotes/deng2023-compressing.md",
     "LiteratureNotes/sun2023-all.md",
     "Paperwords/deng2023-compressing-w.md",
