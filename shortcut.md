@@ -5,7 +5,7 @@
 
 | 作用               | 按键                       |
 | ---------------- | ------------------------ |
-| 启动帮助浏览器          | Ctrl+Alt+T               |
+| 启动终端             | Ctrl+Alt+T               |
 | 切换到第一个工作区        | Super+Home               |
 | 切换到最后工作区         | Super+End                |
 | 在应用程序间切换         | Super+Tap                |
@@ -14,6 +14,12 @@
 | 把当前窗口移动到(左，右)显示器 | Shift+Super+(left,right) |
 | 把当前窗口移动到(左，右)工作区 | Shift+Super+(uo,down)    |
 | 隐藏所有正常显示的窗口      | Ctrl+Super+D             |
+| 关闭窗口             | Alt+F4                   |
+| 窗口切换到最大状态        | Alt+F10                  |
+| 改变窗口大小           | Alt+F8                   |
+| 窗口向(左，右)分割       | Super+(left,right)       |
+|                  | Super+(down,up)          |
+|                  |                          |
 |                  |                          |
 |                  |                          |
 
