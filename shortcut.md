@@ -13,7 +13,8 @@
 | 在应用程序的窗口间切换          | Super (Alt)+ `           |
 | 把当前窗口移动到(左，右)显示器     | Shift+Super+(left,right) |
 | 把当前窗口移动到(左，右)工作区(更改) | Shift+Super+(uo,down)    |
-| 隐藏所有正常显示的窗口          | Ctrl+Super+D             |
+| 转到(左，右)工作区           | Ctrl+Alt+(left,right)    |
+| 隐藏所有正常显示的窗口          | Super+D                  |
 | 关闭窗口                 | Alt+F4                   |
 | 窗口切换到最大状态            | Alt+F10                  |
 | 改变窗口大小               | Alt+F8                   |
@@ -25,8 +26,9 @@
 | 显示全部应用程序             | Super+A                  |
 | 显示通知                 | Super+V(M)               |
 | 锁屏                   | Super+L                  |
-|                      |                          |
-|                      |                          |
+| 交互式截屏                | Print                    |
+| 对窗口进行截屏              | Alt+Print                |
+| 截屏                   | Shift+Print              |
 
 # Vscode
 
