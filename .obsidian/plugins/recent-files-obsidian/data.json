@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "Numpy",
       "path": "Sundry/Numpy.md"
     },
     {
       "basename": "Pytorch",
       "path": "Sundry/Pytorch.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     }
   ],
   "omittedPaths": [],
