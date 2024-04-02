@@ -100,7 +100,7 @@
 | 在当前文件查找                  | Ctrl+F              |
 | 在当前文件替换                  | Ctrl+H              |
 | 到下一个查找匹配的项               | Enter               |
-| 到下一个查找匹配的项               | Shift+Enter         |
+| 到上一个查找匹配的项               | Shift+Enter         |
 | 选择所有匹配的项                 | ALT+Enter           |
 | 在搜索框中换行                  | Ctrl+Enter          |
 | 搜索切换大小写敏感                | Alt+C               |
