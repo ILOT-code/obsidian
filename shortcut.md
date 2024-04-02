@@ -3,19 +3,19 @@
 [每位 Ubuntu 18.04 用户都应该知道的快捷键 - 知乎](https://zhuanlan.zhihu.com/p/45535756)
 
 
-| 作用              | 按键                       |
-| --------------- | ------------------------ |
-| 启动帮助浏览器         | Ctrl+Alt+T               |
-| 切换到第一个工作区       | Super+Home               |
-| 切换到最后工作区        | Super+End                |
-| 在应用程序间切换        | Super+Tap                |
-| 在窗口间切换          | Alt+Tab                  |
-| 在应用程序的窗口间切换     | Super (Alt)+ `           |
-| 把当前窗口左(右)移动一个窗口 | Shift+Super+(left,right) |
-|                 |                          |
-|                 |                          |
-|                 |                          |
-|                 |                          |
+| 作用               | 按键                       |
+| ---------------- | ------------------------ |
+| 启动帮助浏览器          | Ctrl+Alt+T               |
+| 切换到第一个工作区        | Super+Home               |
+| 切换到最后工作区         | Super+End                |
+| 在应用程序间切换         | Super+Tap                |
+| 在窗口间切换           | Alt+Tab                  |
+| 在应用程序的窗口间切换      | Super (Alt)+ `           |
+| 把当前窗口移动到(左，右)显示器 | Shift+Super+(left,right) |
+| 把当前窗口移动到(左，右)工作区 | Shift+Super+(uo,down)    |
+| 隐藏所有正常显示的窗口      | Ctrl+Super+D             |
+|                  |                          |
+|                  |                          |
 
 # Vscode
 
