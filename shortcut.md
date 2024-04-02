@@ -3,25 +3,30 @@
 [每位 Ubuntu 18.04 用户都应该知道的快捷键 - 知乎](https://zhuanlan.zhihu.com/p/45535756)
 
 
-| 作用               | 按键                       |
-| ---------------- | ------------------------ |
-| 启动终端             | Ctrl+Alt+T               |
-| 切换到第一个工作区        | Super+Home               |
-| 切换到最后工作区         | Super+End                |
-| 在应用程序间切换         | Super+Tap                |
-| 在窗口间切换           | Alt+Tab                  |
-| 在应用程序的窗口间切换      | Super (Alt)+ `           |
-| 把当前窗口移动到(左，右)显示器 | Shift+Super+(left,right) |
-| 把当前窗口移动到(左，右)工作区 | Shift+Super+(uo,down)    |
-| 隐藏所有正常显示的窗口      | Ctrl+Super+D             |
-| 关闭窗口             | Alt+F4                   |
-| 窗口切换到最大状态        | Alt+F10                  |
-| 改变窗口大小           | Alt+F8                   |
-| 窗口向(左，右)分割       | Super+(left,right)       |
-|                  | Super+(down,up)          |
-|                  |                          |
-|                  |                          |
-|                  |                          |
+| 作用                   | 按键                       |
+| -------------------- | ------------------------ |
+| 启动终端                 | Ctrl+Alt+T               |
+| 切换到第一个工作区            | Super+Home               |
+| 切换到最后工作区             | Super+End                |
+| 在应用程序间切换             | Super+Tap                |
+| 在窗口间切换               | Alt+Tab                  |
+| 在应用程序的窗口间切换          | Super (Alt)+ `           |
+| 把当前窗口移动到(左，右)显示器     | Shift+Super+(left,right) |
+| 把当前窗口移动到(左，右)工作区(更改) | Shift+Super+(uo,down)    |
+| 隐藏所有正常显示的窗口          | Ctrl+Super+D             |
+| 关闭窗口                 | Alt+F4                   |
+| 窗口切换到最大状态            | Alt+F10                  |
+| 改变窗口大小               | Alt+F8                   |
+| 窗口向(左，右)分割           | Super+(left,right)       |
+| (恢复，最大化)窗口           | Super+(down,up)          |
+| 隐藏窗口                 | Super+H                  |
+| 激活窗口菜单               | Alt+Space                |
+| 显示工作区概览              | Super                    |
+| 显示全部应用程序             | Super+A                  |
+| 显示通知                 | Super+V(M)               |
+| 锁屏                   | Super+L                  |
+|                      |                          |
+|                      |                          |
 
 # Vscode
 
