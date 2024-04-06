@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hazimeh2021-dselectk.md",
+                "file": "LiteratureNotes/hazimeh2021-dselectk.md",
                 "mode": "source",
                 "source": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hazimeh2021-dselectk.md",
+                "file": "LiteratureNotes/hazimeh2021-dselectk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hazimeh2021-dselectk.md",
+                "file": "LiteratureNotes/hazimeh2021-dselectk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hazimeh2021-dselectk.md"
+                "file": "LiteratureNotes/hazimeh2021-dselectk.md"
               }
             }
           },
@@ -210,7 +210,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "hazimeh2021-dselectk.md",
+                "file": "LiteratureNotes/hazimeh2021-dselectk.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -244,8 +244,11 @@
   },
   "active": "01b3271260f905dc",
   "lastOpenFiles": [
-    "hazimeh2021-dselectk-w.md",
+    "dupont2021-coin.md",
+    "LiteratureNotes/hazimeh2021-dselectk.md",
     "hazimeh2021-dselectk.md",
+    "Paperwords/balle2017-endtoend-w.md",
+    "hazimeh2021-dselectk-w.md",
     "Sundry/Numpy.md",
     "Sundry/Pytorch.md",
     "shortcut.md",
@@ -261,15 +264,12 @@
     "Paperwords/deng2023-compressing-w.md",
     "Paperwords/2023-preprocessing-w.md",
     "CompressionFromCV.md",
-    "dupont2021-coin.md",
     "wezterm.md",
     "LiteratureNotes/tang2023-scene.md",
     "LiteratureNotes/sneyers2016-flif.md",
     "LiteratureNotes/salimans2022-progressive.md",
     "LiteratureNotes/muller2022-instant.md",
     "LiteratureNotes/marpe2003-contextbased.md",
-    "LiteratureNotes/liu2023-learned.md",
-    "LiteratureNotes/ladune2023-coolchic.md",
     "Attachments/Pasted image 20240127135020.png",
     "Attachments/Pasted image 20240127133943.png",
     "Attachments/Pasted image 20240127130752.png",
