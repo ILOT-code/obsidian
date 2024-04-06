@@ -31,5 +31,11 @@ tags:
 
 
 ## MoE中的门结构--历史
-MoE结构
+MoE结构具有门控结构和一系列专家网络，网络的输出由它们共同组成：
+$$
+\sum\limits_{i=1}^{i=n}f_{i}(x)g(x)_i
+$$
+门控结构 $g(x)_i$ 有一些经典的做法：
+1. Softmax Gate: 采用 Softmax 函数生成一维概率向量 : $\sigma(Ax+b)$
+2. Top-K Gate：是 Softmax 结构的一种稀疏化变体，
 
