@@ -87,4 +87,11 @@ $$\begin{aligned}\min_{f_1,...f_n,\alpha,Z}&\frac1N\sum_{(x,y)\in\mathcal{D}}\el
 
 ### 光滑化
 前文中，$z$ 只能取 $\{0,1\}$, 这并不好，因此将它松弛到 $(-\infty,+\infty)$，并使用一个函数进一步处理：
+$$S(t)=\begin{cases}0&\text{if} t\leq-\gamma/2\\-\frac{2}{\gamma^3}t^3+\frac{3}{2\gamma}t+\frac{1}{2}&\text{if} -\gamma/2\leq t\leq\gamma/2\\1&\text{if} t\geq\gamma/2\end{cases}$$
 
+它和 sigmod 类似，但能够精确输出 0 和 1，连续可微。
+
+因此，优化函数被写为：
+$$
+
+$$
