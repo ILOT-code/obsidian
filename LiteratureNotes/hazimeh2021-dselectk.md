@@ -118,4 +118,12 @@ $$
 
 可是，它并不满足最后一条限制，就是概率向量中非 0 元素的数量不超过 $k$.
 
-观察
+观察 $S$ 这个函数，它在值为 0 和 1 的时候的梯度为 0，有前面的证明 $r(S(z))$ 的和为 1，只有给与充分长的时间，这个概率向量可以收敛到 one-hot 的形式，进而满足非零元素数量小于等于 $k$.
+
+为了加速这一收敛过程，作者加了一个正则项：
+$$
+\begin{align*}
+\min_{f_1,...f_n,\alpha,Z}\quad\sum_{(x,y)\in\mathcal{D}}\frac1N\ell\Big(y,\sum_{i=1}^nf_i(x)\tilde{q}(\alpha,Z)_i\Big)+\lambda\Omega(Z)
+\end{align*}\\
+
+$$
