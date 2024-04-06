@@ -39,5 +39,13 @@ $$
 1. Softmax Gate: 采用 Softmax 函数生成一维概率向量 : $\sigma(Ax+b)$
 2. Top-K Gate：是 Softmax 结构的一种稀疏化变体，$\sigma(KeepTopK(Ax+b))$, $KeepTopK(t)$ 把向量 $t$ 的前 K 大元素保持不变，其它的置 0，这种方法有助于训练很多个专家，因为在前向和反向过程中它仅仅选取了部分的专家。
 
-本文提出的 DSelect 和 Tok-k 类似，根据用户选取的 k 来稀疏的选取一些专家，并且此结构是光滑的，在参数量
+本文提出的 DSelect 和 Tok-k 类似，根据用户选取的 k 来稀疏的选取一些专家，并且此结构是光滑的，参数量和计算量也会更少。
 
+![[Pasted image 20240406151600.png]]
+
+
+
+## Differentiable and Sparse Gating
+
+本文需要解决的问题是：在 $n$ 个专家网络中，如果选取不超过 $k$ 个网络，来使得损失函数最小：
+$$\begin{aligned}\min_{f_1,...f_n,w}&\frac1N\sum_{(x,y)\in\mathcal{D}}\ell\Big(y,\sum_{i=1}^nf_i(x)w_i\Big)\\\text{s.t.}&\|w\|_0\leq k\\&\sum_{i=1}^nw_i=1, w\geq0.\end{aligned}$$
