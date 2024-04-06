@@ -5,20 +5,20 @@
       "path": "LiteratureNotes/hazimeh2021-dselectk.md"
     },
     {
-      "basename": "dupont2021-coin",
-      "path": "dupont2021-coin.md"
-    },
-    {
-      "basename": "balle2017-endtoend-w",
-      "path": "Paperwords/balle2017-endtoend-w.md"
-    },
-    {
       "basename": "hazimeh2021-dselectk-w",
       "path": "hazimeh2021-dselectk-w.md"
     },
     {
       "basename": "shortcut",
       "path": "shortcut.md"
+    },
+    {
+      "basename": "dupont2021-coin",
+      "path": "dupont2021-coin.md"
+    },
+    {
+      "basename": "balle2017-endtoend-w",
+      "path": "Paperwords/balle2017-endtoend-w.md"
     },
     {
       "basename": "Numpy",

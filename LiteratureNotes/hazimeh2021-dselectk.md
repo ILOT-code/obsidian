@@ -24,16 +24,11 @@ tags:
 ## Abstract
 
 >[!abstract]
->The Mixture-of-Experts (MoE) architecture is showing promising results in improving parameter sharing in multi-task learning (MTL) and in scaling high-capacity neural networks. State-of-the-art MoE models use a trainable sparse gate to select a subset of the experts for each input example. While conceptually appealing, existing sparse gates, such as Top-k, are not smooth. The lack of smoothness can lead to convergence and statistical performance issues when training with gradient-based methods. In this paper, we develop DSelect-k: a continuously differentiable and sparse gate for MoE, based on a novel binary encoding formulation. The gate can be trained using first-order methods, such as stochastic gradient descent, and offers explicit control over the number of experts to select. We demonstrate the effectiveness of DSelect-k on both synthetic and real MTL datasets with up to $128$ tasks. Our experiments indicate that DSelect-k can achieve statistically significant improvements in prediction and expert selection over popular MoE gates. Notably, on a real-world, large-scale recommender system, DSelect-k achieves over $22\%$ improvement in predictive performance compared to Top-k. We provide an open-source implementation of DSelect-k.
->
->MoE架构在提升网络的容量和改善参数共享方面展现了巨大的前景。但如今，最先进的MoE结构（如Top-K gating）是不可微的，这影响了收敛的性能，
-
-
-
-
-
-
-
+>MoE架构在提升网络的容量和改善参数共享方面展现了巨大的前景。但如今，最先进的MoE结构（如Top-K gating）是不光滑的的，这影响了收敛的性能，参数会出现振荡的现象。
+>本文提出了DSelect-k, 一种可微的、稀疏的门控结构，能够使用一阶的优化方法来进行优化，在多个数据集合上表现的比Top-K更好。
 
 ## Comments
+
+
+## Introduction
 
