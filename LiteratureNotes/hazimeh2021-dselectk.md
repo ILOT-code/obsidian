@@ -133,4 +133,10 @@ $$
 ### 和输入样本相关的路由结构
 
 前文介绍的结构是静态的，和输入无关，也可以写成和输入相关的形式：
-
+$$
+\begin{align*}
+v(G,W,x)=\sum_{i=1}^k\sigma(Gx)_ir\big(S(W^{(i)}x)\big).\\
+\sum_{(x,y)\in\mathcal{D}}\left(\frac1N\ell\Big(y,\sum_{i=1}^nf_i(x)v(G,W,x)_i\Big)+\lambda\Omega(W,x)\right),
+\end{align*}
+$$
+## Experiments
