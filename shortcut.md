@@ -185,29 +185,29 @@
 
 ## Display
 
-| 作用               | 按键           |
-| ---------------- | ------------ |
-| 进入(退出)全屏         | F11          |
-| 显示菜单栏 (菜单栏不可见时)  | Alt          |
-| 进入(退出)Zen模式      | Ctrl+K Z     |
-| 放大(缩小)           | Ctrl+=(-)    |
-| 显示(折叠)左主侧栏       | Ctrl+B       |
-| 显示(折叠)右主侧栏       | Ctrl+Alt+B   |
-| 显示资源管理器          | Ctrl+Shift+E |
-| 显示搜索             | Ctrl+Shift+F |
-| 显示替换             | Ctrl+Shift+H |
-| 显示源代码管理          | Ctrl+Shift+G |
-| 显示运行和调试          | Ctrl+Shift+D |
-| 显示扩展             | Ctrl+Shift+X |
-| 显示输出 (更改)        | Ctrl+Shift+T |
-| 显示问题             | Ctrl+Shift+M |
-| 显示调试             | Ctrl+Shift+Y |
-| 显示终端             | Ctrl+`       |
-| 新建终端             | Ctrl+Shift+` |
-| 显示 (隐藏) 下栏       | Ctrl+J       |
-| 打开系统终端(到当前目录下)   | Ctrl+Shift+C |
-| 预览当前md文件(在新编辑器中) | Ctrl+Shift+V |
-| 预览当前md文件(在右边打开)  | Ctrl+K V     |
+| 作用                 | 按键           |
+| ------------------ | ------------ |
+| 进入(退出)全屏           | F11          |
+| 显示菜单栏 (菜单栏不可见时)    | Alt          |
+| 进入(退出)Zen模式        | Ctrl+K Z     |
+| 放大(缩小)             | Ctrl+=(-)    |
+| 显示(折叠)左主侧栏         | Ctrl+B       |
+| 显示(折叠)右主侧栏         | Ctrl+Alt+B   |
+| 显示资源管理器            | Ctrl+Shift+E |
+| 显示搜索               | Ctrl+Shift+F |
+| 显示替换               | Ctrl+Shift+H |
+| 显示源代码管理            | Ctrl+Shift+G |
+| 显示运行和调试            | Ctrl+Shift+D |
+| 显示扩展               | Ctrl+Shift+X |
+| 显示输出 (更改)          | Ctrl+Shift+T |
+| 显示问题               | Ctrl+Shift+M |
+| 显示调试               | Ctrl+Shift+Y |
+| 显示终端               | Ctrl+`       |
+| 新建终端               | Ctrl+Shift+` |
+| 显示 (隐藏) 下栏         | Ctrl+J       |
+| 打开系统终端(到当前目录下)（更改） | Ctrl+Shift+C |
+| 预览当前md文件(在新编辑器中)   | Ctrl+Shift+V |
+| 预览当前md文件(在右边打开)    | Ctrl+K V     |
 
 ## Search
 
