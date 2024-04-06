@@ -4,3 +4,4 @@ circumvent 规避
 cardinality 基数
 oscillatory 振荡的
 exposition 说明，展览会
+feasible 可行的
