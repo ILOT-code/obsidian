@@ -107,5 +107,13 @@ $$r(x)_i=\left\{\begin{matrix}r([x_1,x_2,\ldots,x_t])_i(1-x_{t+1})&i\in[2^t]\\r(
 
 那么
 $$
-\sum\limits_{i=1}^{i=2^{t+1}}r(x)_i=\sum\limits_{i=1}^{i=2^{t}r(x)_{i}}+ \sum\limits
+\begin{align*}
+\sum\limits_{i=1}^{i=2^{t+1}}r(x)_i&=\sum\limits_{i=1}^{i=2^{t}}r(x)_{i}+ \sum\limits_{i=2^t+1}^{i=2^{t+1}}r(x)_{i}\\\\
+&=\sum\limits_{i=1}^{i=2^{t}}r([x_1,x_2,\ldots,x_t])_i(1-x_{t+1}+x_{t+1})\\\\
+&=1
+\end{align*}
 $$
+
+得证。
+
+可是，它并不满足最后一条限制，就是概率向量中非 0 元素的数量不超过 $k$。
