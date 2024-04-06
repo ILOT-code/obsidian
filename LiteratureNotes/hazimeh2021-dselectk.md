@@ -103,3 +103,9 @@ $$
 也就是证明对任意 $x\in [0,1]^t$,  $\sum\limits_{i=1}^{i=2^t}r(x)_i=1$
 显然，当 $t=1$ 时，$r(x)_{1}= 1-x_1$, $r(x)_2=x_1$，得证。使用归纳法继续证明：
 设该结论对 $t$ 成立，证明对 $t+1$ 成立：
+$$r(x)_i=\left\{\begin{matrix}r([x_1,x_2,\ldots,x_t])_i(1-x_{t+1})&i\in[2^t]\\r([x_1,x_2,\ldots,x_t])_{i-2^t}x_{t+1}&i\in[2^{t+1}]\setminus[2^t]\end{matrix}\right.$$
+
+那么
+$$
+\sum\limits_{i=1}^{i=2^{t+1}}r(x)_i=\sum\limits_{i=1}^{i=2^{t}r(x)_{i}}+ \sum\limits
+$$
