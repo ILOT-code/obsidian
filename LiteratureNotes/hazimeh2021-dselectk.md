@@ -123,7 +123,14 @@ $$
 为了加速这一收敛过程，作者加了一个正则项：
 $$
 \begin{align*}
-\min_{f_1,...f_n,\alpha,Z}\quad\sum_{(x,y)\in\mathcal{D}}\frac1N\ell\Big(y,\sum_{i=1}^nf_i(x)\tilde{q}(\alpha,Z)_i\Big)+\lambda\Omega(Z)
-\end{align*}\\
-
+\min_{f_1,...f_n,\alpha,Z}&\quad\sum_{(x,y)\in\mathcal{D}}\frac1N\ell\Big(y,\sum_{i=1}^nf_i(x)\tilde{q}(\alpha,Z)_i\Big)+\lambda\Omega(Z)
+\\\\
+&\Omega(Z) := \sum_{i=1}^{k}h\big(r(S(z^{(i)}))\big) \text{a}
+\end{align*}
 $$
+其中 $h(.)$ 计算输入概率向量和 one-hot 向量之间差距 (熵)。
+
+### 和输入样本相关的路由结构
+
+前文介绍的结构是静态的，和输入无关，也可以写成和输入相关的形式：
+
