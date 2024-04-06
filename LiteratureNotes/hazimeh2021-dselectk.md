@@ -84,3 +84,7 @@ $$q(\alpha,Z)=\sum_{i=1}^k\sigma(\alpha)_ir(z^{(i)}),$$
 $$\begin{aligned}\min_{f_1,...f_n,\alpha,Z}&\frac1N\sum_{(x,y)\in\mathcal{D}}\ell\Big(y,\sum_{i=1}^nf_i(x)q(\alpha,Z)_i\Big)\\&z^{(i)}\in\{0,1\}^m, i\in[k]\end{aligned}$$
 
 而且，可以证明，这两者是等价的，可以容易地从一个问题的解构造出另一个问题的解。
+
+### 光滑化
+前文中，$z$ 只能取 $\{0,1\}$, 这并不好，因此将它松弛到 $(-\infty,+\infty)$，并使用一个函数进一步处理：
+
