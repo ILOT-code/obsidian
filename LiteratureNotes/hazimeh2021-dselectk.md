@@ -37,5 +37,7 @@ $$
 $$
 门控结构 $g(x)_i$ 有一些经典的做法：
 1. Softmax Gate: 采用 Softmax 函数生成一维概率向量 : $\sigma(Ax+b)$
-2. Top-K Gate：是 Softmax 结构的一种稀疏化变体，
+2. Top-K Gate：是 Softmax 结构的一种稀疏化变体，$\sigma(KeepTopK(Ax+b))$, $KeepTopK(t)$ 把向量 $t$ 的前 K 大元素保持不变，其它的置 0，这种方法有助于训练很多个专家，因为在前向和反向过程中它仅仅选取了部分的专家。
+
+本文提出的 DSelect 和 Tok-k 类似，根据用户选取的 k 来稀疏的选取一些专家，并且此结构是光滑的，在参数量
 
