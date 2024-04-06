@@ -77,4 +77,9 @@ $$w_i=r(z)_i=\prod_{j\in\mathcal{B}(i-1)}(z_j)\prod_{j\in[m]\setminus\mathcal{B}
 上文中，一组 $m$ 个二进制数就生成了对应了选择一个专家的概率向量，如果要选择 $k$ 个专家，显然可以准备 $k$ 组这样的二进制数，但这样它们的和就不是 1 了，而是 $k$，可以对每一组数乘一个概率值即可：
 $$q(\alpha,Z)=\sum_{i=1}^k\sigma(\alpha)_ir(z^{(i)}),$$
 
-其中，$\alpha\in\mathbb{R}^k$，它经由 softmax 生成每一组的权重，$Z\in \mathbf{R}^{k \ti}$
+其中，$\alpha\in\mathbb{R}^k$，它经由 softmax 生成每一组的权重，$Z\in \mathbb{R}^{k \times m}$，表示 $k$ 组二进制数。
+在这样的情况下，$q(\alpha,Z)$ 依旧是概率单纯形
+
+于是，面对的问题从之前的有约束问题，变成了下面这个无约束的问题：
+$$\begin{aligned}\min_{f_1,...f_n,\alpha,Z}&\frac1N\sum_{(x,y)\in\mathcal{D}}\ell\Big(y,\sum_{i=1}^nf_i(x)q(\alpha,Z)_i\Big)\\&z^{(i)}\in\{0,1\}^m, i\in[k]\end{aligned}$$
+
