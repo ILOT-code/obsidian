@@ -48,4 +48,10 @@ $$
 ## Differentiable and Sparse Gating
 
 本文需要解决的问题是：在 $n$ 个专家网络中，如果选取不超过 $k$ 个网络，来使得损失函数最小：
-$$\begin{aligned}\min_{f_1,...f_n,w}&\frac1N\sum_{(x,y)\in\mathcal{D}}\ell\Big(y,\sum_{i=1}^nf_i(x)w_i\Big)\\\text{s.t.}&\|w\|_0\leq k\\&\sum_{i=1}^nw_i=1, w\geq0.\end{aligned}$$
+$$\begin{aligned}\min_{f_1,...f_n,w}~~&\frac1N\sum_{(x,y)\in\mathcal{D}}\ell\Big(y,\sum_{i=1}^nf_i(x)w_i\Big)\\\text{s.t.}~~~&\|w\|_0\leq k\\&\sum_{i=1}^nw_i=1, w\geq0.\end{aligned}$$
+
+$w$ 是一个概率向量，满足大于等于 0，和为 1，非零元素个数小于等于 k 这三个限制。
+
+这个带有约束的问题是不能够直接使用梯度下降来优化的，后面会对此进行一步步的变换，把这个带有约束的问题变成一个无约束的问题，并保证 $w$ 的这 3 个性质。
+
+### 只选择 1 个专家的
