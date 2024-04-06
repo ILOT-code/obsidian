@@ -93,5 +93,10 @@ $$S(t)=\begin{cases}0&\text{if} t\leq-\gamma/2\\-\frac{2}{\gamma^3}t^3+\frac{3}{
 
 因此，优化函数被写为：
 $$
-
+\begin{align*}
+\min_{f_1,...f_n,\alpha,Z}\quad\frac1N\sum_{(x,y)\in\mathcal{D}}\ell\Big(y,\sum_{i=1}^nf_i(x)\tilde{q}(\alpha,Z)_i\Big).\\\\
+\tilde{q}(\alpha,Z):=q(\alpha,S(Z))=\sum_{i=1}^k\sigma(\alpha)_ir\big(S(z^{(i)})\big),
+\end{align*}
 $$
+现在，再来看看 $r\big(S(z^{(i)})\big)$ 这个概率向量依旧是概率单纯形。
+首先，$r\big(S(z^{(i)})\big)$ 中的每一个元素都大于 0，这很容易证明，接着证明其和为 1.
