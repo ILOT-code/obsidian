@@ -1,0 +1,10 @@
+standalone 独立的
+reinforcement 加强
+circumvent 规避
+oscillatory 振荡的
+exposition 说明，展览会
+feasible 可行的
+polynomial 多项式
+cubic 三次的，立方体
+amenable 顺从的，适用于
+simplex 单纯形
