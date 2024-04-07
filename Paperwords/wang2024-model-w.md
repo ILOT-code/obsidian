@@ -21,3 +21,5 @@ eigenvalues 特征值
 ternary 三元
 comply 遵守
 scarce 稀缺
+hindered 受阻碍的
+skewed 倾斜的
