@@ -23,3 +23,4 @@ comply 遵守
 scarce 稀缺
 hindered 受阻碍的
 skewed 倾斜的
+prohibitively 令人望而却步地
