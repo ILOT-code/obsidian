@@ -1,1 +1,5 @@
 deploy 部署
+taxonomy 分类
+prominent 著名的
+pronounced 明显的
+forbidding 令人生畏的
