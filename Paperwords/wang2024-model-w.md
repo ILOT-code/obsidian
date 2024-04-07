@@ -7,3 +7,4 @@ cumbersome 麻烦的
 cornerstones 基石
 preliminaries 预备知识
 plenty 大量
+drastically 彻底地
