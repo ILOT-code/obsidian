@@ -16,7 +16,7 @@ authors:
 doi: 10.48550/arXiv.2402.09748
 conference: xxx
 citekey: wang2024-model
-tags: []
+tags:
 ---
 # Model Compression and Efficient Inference for Large Language Models: A Survey
 
