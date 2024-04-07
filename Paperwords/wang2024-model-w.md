@@ -11,3 +11,7 @@ drastically 彻底地
 compatible 兼容的
 grasp 掌握，抓牢
 calibration 校准
+granularity 粒度
+Symmetric/Asymmetric 对称/不对称
+For clarity 为清楚起见
+Perturbation 扰动
