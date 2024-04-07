@@ -27,3 +27,4 @@ prohibitively 令人望而却步地
 negligible 微不足道的
 perplexity 困惑
 ascribe 归咎于
+centroids 质心
