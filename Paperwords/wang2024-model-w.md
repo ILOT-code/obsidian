@@ -24,3 +24,6 @@ scarce 稀缺
 hindered 受阻碍的
 skewed 倾斜的
 prohibitively 令人望而却步地
+negligible 微不足道的
+perplexity 困惑
+ascribe 归咎于
