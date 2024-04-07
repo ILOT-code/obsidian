@@ -8,3 +8,5 @@ cornerstones 基石
 preliminaries 预备知识
 plenty 大量
 drastically 彻底地
+compatible 兼容的
+grasp 掌握，抓牢
