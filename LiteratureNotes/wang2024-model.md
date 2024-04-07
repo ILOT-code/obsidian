@@ -91,3 +91,9 @@ I-BERT 为各种非线性层设计了一种仅整数运算的近似方法，避�
 
 
 ### Post-Training Quantization for LLMs
+
+PTQ 方法由于无需训练在大模型中更受欢迎
+
+
+**Weight-Only Quantization.**
+只对网络参数进行量化，此类量化方法一般属于模拟量化。
