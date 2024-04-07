@@ -11,8 +11,24 @@
             "id": "deb0e409da9230ed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Paperwords/hazimeh2021-dselectk-w.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8263e6898faf5d44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paperwords/hazimeh2021-dselectk-w.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -108,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Paperwords/hazimeh2021-dselectk-w.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Paperwords/hazimeh2021-dselectk-w.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Paperwords/hazimeh2021-dselectk-w.md"
+              }
             }
           },
           {
@@ -167,6 +187,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
+                "file": "Paperwords/hazimeh2021-dselectk-w.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -194,14 +215,13 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Open Zotero annotation view in side panel": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "deb0e409da9230ed",
   "lastOpenFiles": [
-    "shortcut.md",
     "Paperwords/hazimeh2021-dselectk-w.md",
+    "shortcut.md",
     "LiteratureNotes/hazimeh2021-dselectk.md",
     "Paperwords/yang2023-lossy-w.md",
     "Attachments/Pasted image 20240406153951.png",

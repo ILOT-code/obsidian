@@ -1,1 +1,11 @@
-{}
+{
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "-"
+    }
+  ]
+}
