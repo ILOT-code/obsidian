@@ -18,3 +18,4 @@ Perturbation 扰动
 criterion 标准
 susceptible 易受影响的
 eigenvalues 特征值
+ternary 三元
