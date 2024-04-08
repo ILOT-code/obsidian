@@ -155,7 +155,7 @@ $$\begin{aligned}&\min_{\mathbf{w},\mathbf{z}}\mathcal{L}(\mathbf{w}\odot\mathbf
 
 此方法直接剪去权重，可能会造成性能的快速下降，因此一些研究设计了一些控制稀疏率的策略，逐步地降低稀疏率。
 
-### Loss-based Pruning
+**Loss-based Pruning**
 magnitude 本身可能无法准确反应出权重的重要性，小的权重也可能有用，loss-based 方法由此而生。
 最基本的方法使用下面这个式子：
 $$\mathbf{I}=-\mathbf{w}\nabla\mathcal{L}(\mathbf{w})$$
@@ -164,3 +164,6 @@ $$\mathbf{I}=-\mathbf{w}\nabla\mathcal{L}(\mathbf{w})$$
 另一种类别集成了二阶导信息：
 $$\mathbf{I}=\frac12(\mathbf{w}-\mathbf{w}^*)^\top\mathbf{H}_\mathcal{L}(\mathbf{w}^*)(\mathbf{w}-\mathbf{w}^*).$$
 在训练的末尾中，一阶导被认为接近 0 而被忽略了。
+
+**Regularization**
+L1  和 L2  正则化是用于抵消网络过度拟合的流行方法。两者都在损失函数中引入了正则化项。此外，L1 正则化还具有导致权重稀疏的额外效果。然而，当涉及到直接修剪网络时，L1 正则化并不总是最合适的选择。这是因为 L1 正则化对较大权重施加了更实质性的惩罚，偏离了消除不重要连接。
