@@ -188,3 +188,5 @@ $$\begin{aligned}
 可以在其他方法的基础上，引入正则化项。
 
 ### Pruning Methods for LLMs
+**Magnitude-based**
+在中形模型中，直接衡量权重的 magnitude，但
