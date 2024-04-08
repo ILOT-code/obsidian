@@ -167,3 +167,5 @@ $$\mathbf{I}=\frac12(\mathbf{w}-\mathbf{w}^*)^\top\mathbf{H}_\mathcal{L}(\mathbf
 
 **Regularization**
 L1 正则化具有导致权重稀疏的额外效果。然而，当涉及到直接修剪网络时，L1 正则化并不总是最合适的选择，这是因为 L1 正则化对较大权重施加了更实质性的惩罚。更常用的是 L0 正则化。
+$$\min_{\mathbf{w},\mathbf{z}}\frac1N\sum_{i=1}^N\ell(\mathbf{w}\odot\mathbf{z};(x_i,y_i))+\lambda\|\mathbf{w}\|_p,$$
+
