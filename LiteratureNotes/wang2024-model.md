@@ -151,4 +151,9 @@ $$\begin{aligned}&\min_{\mathbf{w},\mathbf{z}}\mathcal{L}(\mathbf{w}\odot\mathbf
 #### Unstructured Pruning for Medium-Size Language Models
 
 **Magnitude-based Pruning**
-有研究表明，在 BERT 中，有 30%到 40%的权重是不必要的，删减他们不会造成性能损失。另外，对于 BERT 而言，针对特定任务进行
+有研究表明，在 BERT 中，有 30%到 40%的权重是不必要的，删减他们不会造成性能损失。另外，对于 BERT 而言，针对特定任务进行的微调对提升稀疏率没有帮助，因此，Once for All 在微调之前对 BERT 进行剪枝，然后应用到各个子任务上。
+
+此方法直接剪去权重，可能会造成性能的快速下降，因此一些研究设计了一些控制稀疏率的策略，逐步地降低稀疏率。
+
+### Loss-based Pruning
+magnitude 本身可能无法准确反应出权重的重要性，小的权重也可能有用，loss-based 方法由此
