@@ -118,3 +118,8 @@ $$\mathbf{Y}=\mathbf{XW}=(\hat{\mathbf{X}}\mathrm{diag}(\mathbf{s}))\cdot(\mathr
 许多研究对缩放因子 $s$ 作了各种尝试，一种 $s$ 的表达式是：
 $$\mathbf{s}_i=\max(|\mathbf{X}_i|)^\alpha/\max(|\mathbf{W}_j|)^{1-\alpha}$$
 当然，有研究也使用学习的方法来确定 $s$，在校准集上进行学习：
+$$\min_\mathbf{s}\mathbb{E}[||\mathbf{XW}-(Q(\hat{\mathbf{X}})Q(\hat{\mathbf{W}})+\hat{\mathbf{b}})||_2^2].$$
+
+
+
+最后，仅量化权重
