@@ -163,7 +163,8 @@ $$\mathbf{I}=-\mathbf{w}\nabla\mathcal{L}(\mathbf{w})$$
 
 另一种类别集成了二阶导信息：
 $$\mathbf{I}=\frac12(\mathbf{w}-\mathbf{w}^*)^\top\mathbf{H}_\mathcal{L}(\mathbf{w}^*)(\mathbf{w}-\mathbf{w}^*).$$
-在训练的末尾中，一阶导被认为接近 0 而被忽略了。
+(在训练的末尾中，一阶导被认为接近 0 而被忽略了。)
+OBD和OBS两者都利用损失函数的 Hessian 矩阵来选择性地消除特定参数，同时最大限度地减少对损失的影响。为了简化计算，两种方法都在一定程度上简化了 Hessian 矩阵的计算。
 
 **Regularization**
 L1 正则化具有导致权重稀疏的额外效果。然而，当涉及到直接修剪网络时，L1 正则化并不总是最合适的选择，这是因为 L1 正则化对较大权重施加了更实质性的惩罚。更常用的是 L0 正则化。
@@ -188,6 +189,7 @@ $$\begin{aligned}
 可以在其他方法的基础上，引入正则化项。
 
 ### Pruning Methods for LLMs
+#### Unstructured Pruning for LLMs
 Wanda 和 SparseGPT 是这方面的领先方法。
 **Magnitude-based**
 在中形模型中，直接衡量权重的 magnitude，但这种做法在 LLM 中效果并不好, 一般使用权重和激活值结合起来来计算 magnitude。
@@ -197,3 +199,6 @@ $$\mathbf{S}_{ij}=|\mathbf{W}_{ij}|\cdot\|\mathbf{X}_j\|_2,$$
 
 **Loss-based**
 SparseGPT 是一种二阶剪枝方法。 SparseGPT 剪枝方法由两个主要部分组成：掩模选择和权重重建过程。最初，掩码选择基于度量（例如权重大小）来识别用于修剪的权重。随后，对未剪枝的权重使用 OBS 的方法优化以补偿剪枝的权重。 
+
+#### Structured Pruning for LLMs
+结构化的剪枝有利于实现硬件加速，但由于性能会更快的下降，在这种方法中一般会用到微调。
