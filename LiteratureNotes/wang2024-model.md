@@ -175,4 +175,8 @@ $$\begin{aligned}
 &\bar{s}=s(\zeta-\gamma)+\gamma, \\
 &\begin{aligned}z=\min(1,\max(0,\bar{s})),\end{aligned}
 \end{aligned}$$
-其中，$\alpha$ 是每个位置上代训练的参数，其它参数是超参数。在 $\alpha=0$ 时，这种分布把一半的
+其中，$\alpha$ 是每个位置上代训练的参数，其它参数是超参数。在 $\alpha=0$ 时，这种分布把一半的概率密度放在离散的 0 和 1 上，剩下的一半密度均匀放在 0，1 之间。
+![[Pasted image 20240408141241.png|500]]
+在训练完成之后，设定一个阈值，低于这个阈值的 $z$ 被置 0.
+
+#### Structured Pruning for Medium-Size Language Models
