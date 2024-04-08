@@ -115,4 +115,6 @@ $$\mathbf{X}_{f16}\mathbf{W}_{f16}\approx\sum_{\hat{d}\in O}\mathbf{X}_{f16}^{\h
 
 另一种思路是对所有维度进行缩放，这样那些异常的维度会被缩小，这样就能更好的量化：
 $$\mathbf{Y}=\mathbf{XW}=(\hat{\mathbf{X}}\mathrm{diag}(\mathbf{s}))\cdot(\mathrm{diag}(\mathbf{s})^{-1}\hat{\mathbf{W}})=\hat{\mathbf{XW}}$$
-许多研究
+许多研究对缩放因子 $s$ 作了各种尝试，一种 $s$ 的表达式是：
+$$\mathbf{s}_i=\max(|\mathbf{X}_i|)^\alpha/\max(|\mathbf{W}_j|)^{1-\alpha}$$
+当然，有研究也使用学习的方法来确定 $s$，在校准集上进行学习：
