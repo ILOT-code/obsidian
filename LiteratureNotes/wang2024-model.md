@@ -190,3 +190,5 @@ $$\begin{aligned}
 ### Pruning Methods for LLMs
 **Magnitude-based**
 在中形模型中，直接衡量权重的 magnitude，但这种做法在 LLM 中效果并不好, 一般使用权重和激活值结合起来来计算 magnitude。
+Wanda 提出了这样的计算 magnitude 的方法，考虑一个线性层，权重的分数是：
+$$\mathbf{S}_{ij}=|\mathbf{W}_{ij}|\cdot\|\mathbf{X}_j\|_2,$$
