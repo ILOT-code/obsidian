@@ -126,3 +126,8 @@ $$\min_\mathbf{s}\mathbb{E}[||\mathbf{XW}-(Q(\hat{\mathbf{X}})Q(\hat{\mathbf{W}}
 
 
 ## PRUNING
+剪枝在 CNN 模型中有很好的效果，但在 LLM 领域，相比量化和蒸馏，并不稳健。剪枝效果降低的原因来自于微调过程。由于模型参数较多，微调成本较高，更难达到剪枝的全部效果。
+
+### Basic Concepts
+
+修剪单元：指
