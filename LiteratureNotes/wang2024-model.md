@@ -156,4 +156,7 @@ $$\begin{aligned}&\min_{\mathbf{w},\mathbf{z}}\mathcal{L}(\mathbf{w}\odot\mathbf
 此方法直接剪去权重，可能会造成性能的快速下降，因此一些研究设计了一些控制稀疏率的策略，逐步地降低稀疏率。
 
 ### Loss-based Pruning
-magnitude 本身可能无法准确反应出权重的重要性，小的权重也可能有用，loss-based 方法由此
+magnitude 本身可能无法准确反应出权重的重要性，小的权重也可能有用，loss-based 方法由此而生。
+最基本的方法使用下面这个式子：
+$$\mathbf{I}=-\mathbf{w}\nabla\mathcal{L}(\mathbf{w})$$
+有两种对于此表达式的解释：1，泰勒展开一阶项。2，权重的负梯度方向表示权重想要增加的方向。因此，如果权重方向与权重增长方向一致，则表明该权重在特定任务中的重要性，因为该任务需要其大小持续增加。
