@@ -203,4 +203,6 @@ SparseGPT 是一种二阶剪枝方法。 SparseGPT 剪枝方法由两个主要�
 #### Structured Pruning for LLMs
 结构化的剪枝有利于实现硬件加速，但由于性能会更快的下降，在这种方法中一般会用到微调。LLM-Pruner 是这个领域的 baseline。
 **Magnitude-based***
-一般以行或列视为剪枝单元。FLAP 就以列为单元，其 magnitude 的计算方法是输入样本的该特征的方差，再乘以权重举证对应列的
+一般以行或列视为剪枝单元。FLAP 就以列为单元，其 magnitude 的计算方法是输入样本的该特征的方差，再乘以权重举证对应列的 2 范数。
+**Loss-base**
+
