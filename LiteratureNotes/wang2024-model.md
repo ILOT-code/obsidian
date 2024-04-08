@@ -145,3 +145,10 @@ $$\begin{aligned}&\min_{\mathbf{w},\mathbf{z}}\mathcal{L}(\mathbf{w}\odot\mathbf
 是否数据驱动：数据驱动的剪枝依靠可使用的数据来获得剪枝策略，data-free 的方式独立于数据。
 
 上游、下游剪枝：上游剪枝在微调之前进行，下游剪枝在微调时进行。前者保留了模型对多任务的适用性，后者则专注于特定的任务。
+
+### Pruning Methods for Medium-Size Language Models
+
+#### Unstructured Pruning for Medium-Size Language Models
+
+**Magnitude-based Pruning**
+有研究表明，在 BERT 中，有 30%到 40%的权重是不必要的，删减他们不会造成性能损失。另外，对于 BERT 而言，针对特定任务进行
