@@ -183,3 +183,4 @@ $$\begin{aligned}
 **Magnitude-based**
 把结构中所有参数的 magnitude 相加起来作为整个结构的 magnitude，然后用类似非结构的方法进行剪枝。
 **Loss-based Pruning**
+对注意力头的修剪：Michel 提出更具掩码 $z$ 的梯度来计算注意力头的分数，从而去除一些头，结果表明大概 20%~30%的注意力头是没有用的。DSP 方法将注意力头的修剪看成子集选取问题，实验结果表明可以
