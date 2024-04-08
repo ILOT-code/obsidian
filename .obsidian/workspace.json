@@ -11,8 +11,12 @@
             "id": "7e9c40e11264f001",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/wang2024-model.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -108,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LiteratureNotes/wang2024-model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LiteratureNotes/wang2024-model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LiteratureNotes/wang2024-model.md"
+              }
             }
           },
           {
@@ -167,6 +176,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
+                "file": "LiteratureNotes/wang2024-model.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
