@@ -189,4 +189,4 @@ $$\begin{aligned}
 
 ### Pruning Methods for LLMs
 **Magnitude-based**
-在中形模型中，直接衡量权重的 magnitude，但
+在中形模型中，直接衡量权重的 magnitude，但这种做法在 LLM 中效果并不好, 一般使用权重和激活值结合起来来计算 magnitude。
