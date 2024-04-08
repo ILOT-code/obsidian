@@ -130,4 +130,7 @@ $$\min_\mathbf{s}\mathbb{E}[||\mathbf{XW}-(Q(\hat{\mathbf{X}})Q(\hat{\mathbf{W}}
 
 ### Basic Concepts
 
-修剪单元：指剪枝过程中最小的剪枝单元，分为非结构化剪枝和结构化剪枝。前者关注的是单个权重，它不受网络结构的限制，能够获得更高的稀疏率，但其稀疏模式不规则，计算效率并没有显著提升。后者关注网络结构，如注意力头、隐藏维度等，为了避免模型性能崩溃，其稀疏
+修剪单元：指剪枝过程中最小的剪枝单元，分为非结构化剪枝和结构化剪枝。前者关注的是单个权重，它不受网络结构的限制，能够获得更高的稀疏率，但其稀疏模式不规则，计算效率并没有显著提升。后者关注网络结构，如注意力头、隐藏维度等，为了避免模型性能崩溃，其稀疏率低于前者。
+$$\begin{aligned}&\min_{\mathbf{w},\mathbf{z}}\mathcal{L}(\mathbf{w}\odot\mathbf{z};\mathcal{D})=\min_{\mathbf{w},\mathbf{z}}\frac{1}{N}\sum_{i=1}^{N}\ell(\mathbf{w}\odot\mathbf{z};(x_{i},y_{i})),\\&s.t.\quad\|\mathbf{z}\|_0\leq t,\end{aligned}$$
+
+修剪的度量：
