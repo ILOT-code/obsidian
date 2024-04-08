@@ -168,4 +168,11 @@ $$\mathbf{I}=\frac12(\mathbf{w}-\mathbf{w}^*)^\top\mathbf{H}_\mathcal{L}(\mathbf
 **Regularization**
 L1 正则化具有导致权重稀疏的额外效果。然而，当涉及到直接修剪网络时，L1 正则化并不总是最合适的选择，这是因为 L1 正则化对较大权重施加了更实质性的惩罚。更常用的是 L0 正则化。
 $$\min_{\mathbf{w},\mathbf{z}}\frac1N\sum_{i=1}^N\ell(\mathbf{w}\odot\mathbf{z};(x_i,y_i))+\lambda\|\mathbf{w}\|_p,$$
-
+掩码 $z$ 是二元的，给梯度下降带来一定困难。一种解决方法是把 $z$ 的概率分布进行近似：
+$$\begin{aligned}
+&u\sim\mathcal{U}(0,1), \\
+&\begin{aligned}s=\text{Sigmoid}((\log u-\log{(1-u)}+\log\alpha)/\beta)\end{aligned} \\
+&\bar{s}=s(\zeta-\gamma)+\gamma, \\
+&\begin{aligned}z=\min(1,\max(0,\bar{s})),\end{aligned}
+\end{aligned}$$
+其中，$\alpha$ 是每个位置上代训练的参数，其它参数是超参数。在 $\alpha=0$ 时，这种分布把一半的
