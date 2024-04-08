@@ -135,4 +135,7 @@ $$\begin{aligned}&\min_{\mathbf{w},\mathbf{z}}\mathcal{L}(\mathbf{w}\odot\mathbf
 
 修剪的度量：magnitude-based pruning, 如根据权重的绝对值大小来衡量，低于阈值的权重被置 0。loss-based metric，根据修剪之后损失的增加来度量，为了节省计算资源，一般展开到一阶或二阶导来进行衡量。还有一些正则化的方法也能够剪枝，如 $L0，L1，L2$ 正则化。
 
-静态、动态剪枝：
+静态、动态剪枝：区别在于剪枝是否依据输入的特征。静态剪枝有几种模式：
+![[Pasted image 20240408114458.png|500]]
+
+迭代、一次性剪枝：在 LLM 中，迭代很耗费时间，one-shot 的剪枝更多一点。
