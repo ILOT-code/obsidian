@@ -121,5 +121,6 @@ $$\mathbf{s}_i=\max(|\mathbf{X}_i|)^\alpha/\max(|\mathbf{W}_j|)^{1-\alpha}$$
 $$\min_\mathbf{s}\mathbb{E}[||\mathbf{XW}-(Q(\hat{\mathbf{X}})Q(\hat{\mathbf{W}})+\hat{\mathbf{b}})||_2^2].$$
 
 
+### Quantization-Aware Training for LLMs
 
-最后，仅量化权重
+
