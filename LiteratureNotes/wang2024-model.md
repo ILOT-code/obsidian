@@ -139,3 +139,5 @@ $$\begin{aligned}&\min_{\mathbf{w},\mathbf{z}}\mathcal{L}(\mathbf{w}\odot\mathbf
 ![[Pasted image 20240408114458.png|500]]
 
 迭代、一次性剪枝：在 LLM 中，迭代很耗费时间，one-shot 的剪枝更多一点。
+
+全局、局部剪枝：全局剪枝比较所有的修剪单元，他可能会导致特定区域过于稀疏。
