@@ -180,3 +180,6 @@ $$\begin{aligned}
 在训练完成之后，设定一个阈值，低于这个阈值的 $z$ 被置 0.
 
 #### Structured Pruning for Medium-Size Language Models
+**Magnitude-based**
+把结构中所有参数的 magnitude 相加起来作为整个结构的 magnitude，然后用类似非结构的方法进行剪枝。
+**Loss-based Pruning**
