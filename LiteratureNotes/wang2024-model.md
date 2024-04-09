@@ -246,3 +246,5 @@ MiniLM 把蒸馏的重心放在最后一层 transformer 上，它利用这一层
 TED 为每一层装备了一个任务感知的过滤器，来从隐藏层中提取知识。
 
 ### KD for Large Language Models
+许多大预言模型是闭源的，因此几乎都是使用黑盒蒸馏。
+
