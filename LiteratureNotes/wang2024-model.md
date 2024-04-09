@@ -231,3 +231,5 @@ $$L_{response}=\mathcal{L}((f_t(t_i,t_j),f_s(s_i,s_j))$$
 
 Black-box KD: 很多闭源大模型无法获取中间层的信息，智能通过对最终预测结果进行学习。
 
+### KD for Medium-Size Language Models
+KD 可以在模型预训练之后进行，也可以在微调之后进行。
