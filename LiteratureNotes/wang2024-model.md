@@ -322,9 +322,9 @@ Q^{^{\prime}}，K^{^{\prime}} \in R^{N\times r}
 $$
 $\phi：R^{d} \rightarrow R^r$ 函数对矩阵的每一行单独使用。
 作者这样定义 $\phi$:
-
+$$\phi(\mathbf{x})=\frac{h(\mathbf{x})}{\sqrt{m}}(f_1(\omega_1^\top\mathbf{x}),...,f_1(\omega_m^\top\mathbf{x}),...,f_l(\omega_1^\top\mathbf{x}),...,f_l(\omega_m^\top\mathbf{x}))$$
+其中 $f$ 是实域到实域的函数，$h$ 把向量映射到实域，$\omega$ 是独立的 $d$ 维随机变量，来自某个分布
 
 就能够实现线性的复杂度。
-有 $A(i,j)=exp(q_ik)j^T$，记为 $SM(x,y)=exp(x^Ty)$
-
+有 $A(i,j)=exp(q_ik)j^T$，记为 $SM(x,y)=exp(x^Ty)$，需要保证 $SM(x,y)=\phi(x)\phi(y)^T$
 之前已经有文献得到了这样的近似：
