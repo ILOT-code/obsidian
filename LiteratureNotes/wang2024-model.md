@@ -274,4 +274,7 @@ Windows-based：将输入的 token 进行分块，每个 token 只关注块内�
 
 ![[Pasted image 20240409151327.png|500]] 
 
-data-based: 
+data-based: 使用适当的方法来自动找到最相关的那些项
+
+Reformer 通过局部敏感哈希算法来快速得到相似的向量，复杂度被降低到了 $O(Nlog(N))$.
+SAC 把输入看成图，并使用 LSTM 预测
