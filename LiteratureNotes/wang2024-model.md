@@ -336,3 +336,7 @@ $$Attention(Q,K,V)\approx softmax(Q(EK)^T)FV$$
 
 Transformer-VQ 则对矩阵 $K$ 采用了向量量化，向量 $K\in \mathbb{R}^{n\times d}$ 被表示成其码本 $C\in \mathbb{R}^{c\times d}$ 和 $\triangle \in \{0,1\}^{n\times c}$ 的乘积：
 $$exp(QK^T)V=exp(QC^T\triangle^T)V=exp(QC^T)(\triangle^TV)$$
+>[!ques]
+>这里能划等号吗
+
+FlashAttention 把重点放在减少内存访问开销上，实现训练和推理的加速。它并不是近似的方法，
