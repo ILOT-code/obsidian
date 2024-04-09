@@ -285,11 +285,20 @@ $$\text{Attention}(Q,K,V)=\text{softmax}(QK^T)V$$
 有 associativity-based 和 low-rank-based 两种类型的方法。
 
 Associativity Based Methods
+如果可以先计算 $K^TV$ 的话，能够把复杂度降为线性，但 softmax 函数阻止了这种做法。
 attention 可以被重写为：
 
 $$
 \begin{align*}
 \text{Attention}(Q,K,V)_i=\frac{\sum_{j=1}^n\text{sim}(q_i,k_j)v_j}{\sum_{j=1}^n\text{sim}(q_i,k_j)}\\
-
+sim(q_i,k_j)=e^{q_ik_j^T}
+\end{align*}
+$$
+下标都表示矩阵的那一行。
+可以使用一些近似代替 sim 函数，并且满足基本的条件：
+$$
+\begin{align*}
+\sin(q_i,k_j)=\phi_1(q_i)\phi_2(k_j)^T\\
+s.t. 
 \end{align*}
 $$
