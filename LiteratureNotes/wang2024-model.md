@@ -280,4 +280,16 @@ Reformer 通过局部敏感哈希算法来快速得到相似的向量，复杂�
 SAC 把输入的 token 看成点，并使用 LSTM 预测点之间的边 (代表了注意力关系).
 
 #### Linear Approximate Attentionefficient
+标准自注意力计算：
 $$\text{Attention}(Q,K,V)=\text{softmax}(QK^T)V$$
+有 associativity-based 和 low-rank-based 两种类型的方法。
+
+Associativity Based Methods
+attention 可以被重写为：
+
+$$
+\begin{align*}
+\text{Attention}(Q,K,V)_i=\frac{\sum_{j=1}^n\text{sim}(q_i,k_j)v_j}{\sum_{j=1}^n\text{sim}(q_i,k_j)}\\
+
+\end{align*}
+$$
