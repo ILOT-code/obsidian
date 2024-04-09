@@ -215,4 +215,8 @@ LLM-Pruner 自动地识别和提取这样的组合结构 (依据神经元的连�
 知识蒸馏将复杂的教师模型获得的知识转移到简单的学生模型当中。
 
 ### Basic Concepts
-
+KD 有 4 个种类：
+![[Pasted image 20240409104417.png|500]]
+logit-based KD 比较它们 softmax 层的差异，Hilton 提出的损失函数是：
+$$L=\alpha\cdot L_D(p(z_t,T),p(z_s,T))+(1-\alpha)\cdot L_S(y,p(z_s,T))$$
+前一项比较教师和学生的 softmaxd 的输出，后一项比较学生网络和标签，$L_D,L_S$ 都是交叉熵损失函数。
