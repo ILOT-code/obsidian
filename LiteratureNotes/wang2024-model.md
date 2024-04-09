@@ -334,5 +334,5 @@ $$h(x)=exp(-\frac{||x|||^{2}}{2}),l=2,f_{1}(x)=exp(x),f_{2}(x)=exp(-x),\omega \i
 Linformer 观察到，在多个任务中，Transformer 的注意力矩阵是低秩的，因此在计算注意力矩阵之前，使用矩阵 $E,F\in \mathbb{R}^{m\times n}$ 来投影 $K,V$：
 $$Attention(Q,K,V)\approx softmax(Q(EK)^T)FV$$
 
-Transformer-VQ 则对矩阵 $K$ 采用了向量量化，向量 $K$ 被表示成其码本 $C$ 和 $\triangle \in \{0,1\}^{n\times c}$ 的乘积：
+Transformer-VQ 则对矩阵 $K$ 采用了向量量化，向量 $K\in \mathbb{R}^{n\times d}$ 被表示成其码本 $C\in \mathbb{R}^{c\times d}$ 和 $\triangle \in \{0,1\}^{n\times c}$ 的乘积：
 $$exp(QK^T)V=exp(QC^T\triangle^T)V=exp(QC^T)(\triangle^TV)$$
