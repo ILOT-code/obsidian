@@ -331,3 +331,4 @@ $$\phi(\mathbf{x})=\frac{h(\mathbf{x})}{\sqrt{m}}(f_1(\omega_1^\top\mathbf{x}),.
 $$h(x)=exp(-\frac{||x|||^{2}}{2}),l=2,f_{1}(x)=exp(x),f_{2}(x)=exp(-x),\omega \in N(0,1)$$
 
 **Low-rank Based Methods**
+Linformer 观察到，在多个任务中，Transformer 的注意力矩阵
