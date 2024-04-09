@@ -305,3 +305,4 @@ s.t. ~~&\sin(q_i,k_{j})\geq 0\\
 $$
 这样的话，就能实现线性的复杂度。
 一种尝试是：
+$$\phi_1(x)=\phi_2(x)=elu(x)+1=\left\{\begin{array}{ll}1+x&x\geqslant0\\e^x&x<0\end{array}\right.$$
