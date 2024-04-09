@@ -270,6 +270,8 @@ self-attention 对于长度为 N 的序列，时空复杂度都是 N 的二次�
 #### Sparse Attention
 
 stride-based: 让每个 token 只关注前几个 token。早期的研究让每个位置的 token 只关注预设好的前面连续的几个 token，这种方法并不具有普适性。后面有研究让每个注意力头自主学习向前的长度。
-Windows-based：将输入的 token 进行分块，每个 token 只关注块内的项。复杂度在 $O(N^2/n)$.
+Windows-based：将输入的 token 进行分块，每个 token 只关注块内的项。复杂度在 $O(N^2/n)$。后有研究使用滑动窗口的思想，并引入“global attention”(在预设的位置)，把复杂度降到了 $O(N(k+m))$。$K$ 是滑动窗口的长度，$m$ 是预设的"global attention"的数量。
 
-![[Pasted image 20240409151327.png|500]]
+![[Pasted image 20240409151327.png|500]] 
+
+data-based: 
