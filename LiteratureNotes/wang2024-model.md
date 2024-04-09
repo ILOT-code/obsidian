@@ -277,4 +277,6 @@ Windows-based：将输入的 token 进行分块，每个 token 只关注块内�
 data-based: 使用适当的方法来自动找到最相关的那些项
 
 Reformer 通过局部敏感哈希算法来快速得到相似的向量，复杂度被降低到了 $O(Nlog(N))$.
-SAC 把输入看成图，并使用 LSTM 预测
+SAC 把输入的 token 看成点，并使用 LSTM 预测点之间的边 (代表了注意力关系).
+
+#### Linear Approximate Attention
