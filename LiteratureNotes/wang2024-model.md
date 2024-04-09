@@ -227,4 +227,7 @@ $$L_{feature}=\mathcal{L}((f_t(x),r(f_s(x)))$$
 
 Relation-based KD: relation 表现在两方面：1，同一样本不同层次的输出的关系。2，不同样本输出之间的关系。
 $$L_{response}=\mathcal{L}((f_t(t_i,t_j),f_s(s_i,s_j))$$
-其中 $t_i,t_j,s_i,s_j$ 分别表示来自老师和学生的同一样本不同层或不同样本的输出，$f$ 函数用来计算相似性。FSP 使用 Gram 矩阵作为 $f$，MSE 作为
+其中 $t_i,t_j,s_i,s_j$ 分别表示来自老师和学生的同一样本不同层或不同样本的输出，$f$ 函数用来计算相似性。FSP 使用 Gram 矩阵作为 $f$，MSE 作为 $\mathcal{L}$.
+
+Black-box KD: 很多闭源大模型无法获取中间层的信息，智能通过对最终预测结果进行学习。
+
