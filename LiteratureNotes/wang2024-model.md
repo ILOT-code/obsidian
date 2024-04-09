@@ -284,7 +284,7 @@ SAC 把输入的 token 看成点，并使用 LSTM 预测点之间的边 (代表�
 $$\text{Attention}(Q,K,V)=\text{softmax}(QK^T)V$$
 有 associativity-based 和 low-rank-based 两种类型的方法。
 
-Associativity Based Methods
+**Associativity Based Methods**
 如果可以先计算 $K^TV$ 的话，能够把复杂度降为线性，但 softmax 函数阻止了这种做法。
 attention 可以被重写为：
 
@@ -326,5 +326,8 @@ $$\phi(\mathbf{x})=\frac{h(\mathbf{x})}{\sqrt{m}}(f_1(\omega_1^\top\mathbf{x}),.
 其中 $f$ 是实域到实域的函数，$h$ 把向量映射到实域，$\omega$ 是独立的 $d$ 维随机变量，来自某个分布
 
 就能够实现线性的复杂度。
-有 $A(i,j)=exp(q_ik)j^T$，记为 $SM(x,y)=exp(x^Ty)$，需要保证 $SM(x,y)=\phi(x)\phi(y)^T$
-之前已经有文献得到了这样的近似：
+有 $A(i,j)=exp(q_ik)j^T$，记为 $SM(x,y)=exp(x^Ty)$，需要保证 $SM(x,y)\approx\phi(x)\phi(y)^T$
+之前已经有文献得到了这样的近似, 作者最终取：
+$$h(x)=exp(-\frac{||x|||^{2}}{2}),l=2,f_{1}(x)=exp(x),f_{2}(x)=exp(-x),\omega \in N(0,1)$$
+
+**Low-rank Based Methods**
