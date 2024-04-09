@@ -220,3 +220,6 @@ KD 有 4 个种类：
 logit-based KD 比较它们 softmax 层的差异，Hilton 提出的损失函数是：
 $$L=\alpha\cdot L_D(p(z_t,T),p(z_s,T))+(1-\alpha)\cdot L_S(y,p(z_s,T))$$
 前一项比较教师和学生的 softmaxd 的输出，后一项比较学生网络和标签，$L_D,L_S$ 都是交叉熵损失函数。
+
+Feature-basednKD: 对于教师和学生的各个中间层的特征进行比较，希望让学生网络理解潜在的过程：
+
