@@ -298,7 +298,10 @@ $$
 可以使用一些近似代替 sim 函数，并且满足基本的条件：
 $$
 \begin{align*}
-\sin(q_i,k_j)=\phi_1(q_i)\phi_2(k_j)^T\\
-s.t. 
+\sin(q_i,k_j)&=\phi_1(q_i)\phi_2(k_j)^T\\
+s.t. ~~&\sin(q_i,k_{j})\geq 0\\
+&\left(\phi_1(q_i)\phi_2(k_j)^T\right)v_j=\phi_1(q_i)\left(\phi_2(k_j)^Tv_j\right)
 \end{align*}
 $$
+这样的话，就能实现线性的复杂度。
+一种尝试是：
