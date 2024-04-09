@@ -222,4 +222,7 @@ $$L=\alpha\cdot L_D(p(z_t,T),p(z_s,T))+(1-\alpha)\cdot L_S(y,p(z_s,T))$$
 前一项比较教师和学生的 softmaxd 的输出，后一项比较学生网络和标签，$L_D,L_S$ 都是交叉熵损失函数。
 
 Feature-basednKD: 对于教师和学生的各个中间层的特征进行比较，希望让学生网络理解潜在的过程：
+$$L_{feature}=\mathcal{L}((f_t(x),r(f_s(x)))$$
+其中 $r()$ 用来把学生网络的特征映射到和教师一样的形状。  FitNet 使用 MSE 和可学习的 $r$ 来进行训练。
 
+Relation-based KD: 
