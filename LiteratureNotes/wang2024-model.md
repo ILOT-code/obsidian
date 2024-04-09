@@ -306,3 +306,14 @@ $$
 这样的话，就能实现线性的复杂度。
 一种尝试是：
 $$\phi_1(x)=\phi_2(x)=elu(x)+1=\left\{\begin{array}{ll}1+x&x\geqslant0\\e^x&x<0\end{array}\right.$$
+Performer 则
+$$
+\begin{align*}
+Attention(A,K,V) = D^{-1}AV\\
+A=exp(QK^T)
+\end{align*}
+$$
+如果能把 A 矩阵近似掉：
+$$
+A=exp(QK^T)\
+$$
