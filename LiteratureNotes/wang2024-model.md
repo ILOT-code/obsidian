@@ -306,7 +306,7 @@ $$
 这样的话，就能实现线性的复杂度。
 一种尝试是：
 $$\phi_1(x)=\phi_2(x)=elu(x)+1=\left\{\begin{array}{ll}1+x&x\geqslant0\\e^x&x<0\end{array}\right.$$
-Performer 则
+另一种作法：Performer
 $$
 \begin{align*}
 Attention(A,K,V) = D^{-1}AV\\
@@ -320,6 +320,11 @@ A=exp(QK^T)\approx\phi(Q)\phi(K)^T=Q^{^{\prime}}(K^{^{\prime}})^T\\
 Q^{^{\prime}}，K^{^{\prime}} \in R^{N\times r}
 \end{align*}
 $$
+$\phi：R^{d} \rightarrow R^r$ 函数对矩阵的每一行单独使用。
+作者这样定义 $\phi$:
+
+
 就能够实现线性的复杂度。
 有 $A(i,j)=exp(q_ik)j^T$，记为 $SM(x,y)=exp(x^Ty)$
 
+之前已经有文献得到了这样的近似：
