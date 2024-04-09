@@ -315,5 +315,11 @@ A=exp(QK^T)
 $$
 如果能把 A 矩阵近似掉：
 $$
-A=exp(QK^T)\
+\begin{align*}
+A=exp(QK^T)\approx\phi(Q)\phi(K)^T=Q^{^{\prime}}(K^{^{\prime}})^T\\
+Q^{^{\prime}}，K^{^{\prime}} \in R^{N\times r}
+\end{align*}
 $$
+就能够实现线性的复杂度。
+有 $A(i,j)=exp(q_ik)j^T$，记为 $SM(x,y)=exp(x^Ty)$
+
