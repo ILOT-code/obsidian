@@ -212,4 +212,7 @@ LLM-Pruner 自动地识别和提取这样的组合结构 (依据神经元的连�
 
 ## KNOWLEDGE DISTILLATION
 
-sd 1 ss
+知识蒸馏将复杂的教师模型获得的知识转移到简单的学生模型当中。
+
+### Basic Concepts
+
