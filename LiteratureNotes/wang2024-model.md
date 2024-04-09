@@ -269,6 +269,7 @@ self-attention 对于长度为 N 的序列，时空复杂度都是 N 的二次�
 
 #### Sparse Attention
 
-stride-based: 让每个 token 只关注前几个 token。早期的研究让每个位置的 token 只关注预设好的前面连续的几个 token，这种方法并不具有普适性。后面有研究让每个注意力头自主学习
+stride-based: 让每个 token 只关注前几个 token。早期的研究让每个位置的 token 只关注预设好的前面连续的几个 token，这种方法并不具有普适性。后面有研究让每个注意力头自主学习向前的长度。
+Windows-based：将输入的 token 进行分块，每个 token 只关注块内的项。复杂度在 $O(N^2/n)$.
 
 ![[Pasted image 20240409151327.png|500]]
