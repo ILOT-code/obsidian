@@ -367,4 +367,7 @@ GShard 提出了 3 种方法：1，限定每个专家可以被分配的任务数
 #### MoE model architecture
 讨论如何把 MoE 插入到 Transformer 架构中去。
 
-一般的做法是均匀的
+一般的做法是均匀的 (以某个频次)插入，每几个 Transformer 层就放一个 MoE, 有研究表明频率在 0.5~1 更好，低于 0.5 的话会影响性能。
+
+#### Training Strategies
+在训练的初始阶段，路由几乎是随机的，因此 MoE 需要更长时间去收敛。
