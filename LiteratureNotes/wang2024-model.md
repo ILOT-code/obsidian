@@ -354,4 +354,4 @@ page 29
 ### Mixture of Experts
 $$y=\sum^NG(x)_iE_i(x)$$
 
-
+$G(x)_i$ 具有稀疏性，可以跳过那些输出为 0 的部分。
