@@ -346,5 +346,7 @@ FlashAttention 把重点放在减少内存访问开销上，实现训练和推�
 这样分块后，结果是 $C=A_0B_0+A_1B_2+A_0B_1+A_1B_3$
 内存访问开销减小了一半，实际上矩阵乘法一次只能取一行和一列，因此效率能更高。
 但 softmax 需要访问全部元素，给分块带来困难，FlashAttention 通过一些技巧进行了改进：
+page 29
 
-### Neural Architecture Search
+## DYNAMIC NETWORKS
+扩大模型规模能够提高性能，但也会带来计算成本、内存需求的上升。动态神经网络
