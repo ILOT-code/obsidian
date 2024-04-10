@@ -374,3 +374,4 @@ GShard 提出了 3 种方法：1，限定每个专家可以被分配的任务数
 一种做法是多阶段训练：StableMoE 在第一阶段学习路由网络，第二阶段冻结路由网络而学习专家网络。EvoMoE 则先学习好专家网络，再学习门控网络并稀疏化。
 
 ### Combineing MoE with other efficient techniques
+MoE 技术可以和其他的模型压缩结合起来。
