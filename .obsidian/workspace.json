@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/hazimeh2021-dselectk.md",
+                "file": "LiteratureNotes/alakuijala2019-jpeg.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/hazimeh2021-dselectk.md",
+                "file": "LiteratureNotes/alakuijala2019-jpeg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/hazimeh2021-dselectk.md",
+                "file": "LiteratureNotes/alakuijala2019-jpeg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/hazimeh2021-dselectk.md"
+                "file": "LiteratureNotes/alakuijala2019-jpeg.md"
               }
             }
           },
@@ -176,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/hazimeh2021-dselectk.md",
+                "file": "LiteratureNotes/alakuijala2019-jpeg.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -210,6 +209,10 @@
   },
   "active": "7e9c40e11264f001",
   "lastOpenFiles": [
+    "LiteratureNotes/2023-preprocessing.md",
+    "diary/2024-04-08.md",
+    "Paperwords/wang2024-model-w.md",
+    "LiteratureNotes/hazimeh2021-dselectk.md",
     "LiteratureNotes/wang2024-model.md",
     "Notecards/VQ.md",
     "Attachments/Pasted image 20240409174419.png",
@@ -219,12 +222,8 @@
     "Attachments/Pasted image 20240409104349.png",
     "Attachments/Pasted image 20240408141241.png",
     "Attachments/Pasted image 20240408114458.png",
-    "diary/2024-04-08.md",
-    "Paperwords/wang2024-model-w.md",
     "Paperwords/hazimeh2021-dselectk-w.md",
-    "LiteratureNotes/2023-preprocessing.md",
     "shortcut.md",
-    "LiteratureNotes/hazimeh2021-dselectk.md",
     "Paperwords/yang2023-lossy-w.md",
     "Attachments/Pasted image 20240406153951.png",
     "Attachments/Pasted image 20240406151600.png",
