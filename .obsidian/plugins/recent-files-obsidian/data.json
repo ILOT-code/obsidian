@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Arithmetic Coding",
+      "path": "Notecards/Arithmetic Coding.md"
+    },
+    {
+      "basename": "VQ",
+      "path": "Notecards/VQ.md"
+    },
+    {
       "basename": "wang2024-model",
       "path": "LiteratureNotes/wang2024-model.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "shortcut",
       "path": "shortcut.md"
-    },
-    {
-      "basename": "VQ",
-      "path": "Notecards/VQ.md"
     },
     {
       "basename": "alakuijala2019-jpeg",
