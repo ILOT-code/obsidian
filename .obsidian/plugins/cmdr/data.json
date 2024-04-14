@@ -4,26 +4,7 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [
-    {
-      "id": "zotlit:refresh-zotero-data",
-      "icon": "rotate-ccw",
-      "name": "ZotLit: Refresh Zotero data",
-      "mode": "any"
-    },
-    {
-      "id": "zotlit:note-quick-switcher",
-      "icon": "at-sign",
-      "name": "ZotLit: Open quick switcher for literature notes",
-      "mode": "any"
-    },
-    {
-      "id": "zotlit:zotero-annot-view",
-      "icon": "album",
-      "name": "ZotLit: Open Zotero annotation view in side panel",
-      "mode": "any"
-    }
-  ],
+  "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
@@ -32,13 +13,7 @@
   "explorer": [],
   "hide": {
     "statusbar": [],
-    "leftRibbon": [
-      "打开命令面板",
-      "打开快速切换",
-      "Advanced Tables Toolbar",
-      "插入模板",
-      "新建白板"
-    ]
+    "leftRibbon": []
   },
   "spacing": 8,
   "advancedToolbar": {
