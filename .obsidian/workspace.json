@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "未命名 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "未命名 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "未命名 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md"
+                "file": "未命名 3.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "未命名 3.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -219,8 +219,8 @@
   },
   "active": "e8e84168772ab9c8",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20240414181919.png",
     "Notecards/Arithmetic Coding.md",
+    "Attachments/Pasted image 20240414181919.png",
     "Notecards/VQ.md",
     "LiteratureNotes/wang2024-model.md",
     "Paperwords/wang2024-model-w.md",
@@ -254,7 +254,6 @@
     "Notecards/无符号整数除法计算的优化.md",
     "LiteratureNotes/deng2023-compressing.md",
     "Attachments/Pasted image 20240127135020.png",
-    "Attachments/Pasted image 20240127133943.png",
     "未命名",
     "Pytorch",
     "未命名.canvas",
