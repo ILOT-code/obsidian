@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "31307d0ed81f047e",
+            "id": "e8e84168772ab9c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e8e84168772ab9c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 3.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名 3.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 3.md"
+                "file": "Notecards/Arithmetic Coding.md"
               }
             }
           },
@@ -188,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "未命名 3.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -217,7 +204,7 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "e8e84168772ab9c8",
+  "active": "85cc9493daeac8f1",
   "lastOpenFiles": [
     "Notecards/Arithmetic Coding.md",
     "Attachments/Pasted image 20240414181919.png",
@@ -232,7 +219,7 @@
     "LiteratureNotes/hazimeh2021-dselectk.md",
     "LiteratureNotes/2023-preprocessing.md",
     "Attachments/Pasted image 20240409174419.png",
-    "未命名 3.md",
+    "Notecards/Arithmetic Coding.md",
     "Attachments/Pasted image 20240409151327.png",
     "Attachments/Pasted image 20240409104417.png",
     "Attachments/Pasted image 20240409104349.png",
