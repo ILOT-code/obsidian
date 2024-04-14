@@ -23,8 +23,12 @@
             "id": "e8e84168772ab9c8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notecards/Arithmetic Coding.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -121,6 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notecards/Arithmetic Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,6 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notecards/Arithmetic Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notecards/Arithmetic Coding.md"
+              }
             }
           },
           {
@@ -180,6 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
+                "file": "Notecards/Arithmetic Coding.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
