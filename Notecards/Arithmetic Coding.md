@@ -71,3 +71,5 @@ newhigh要减去1，因为后面假设有无穷个1.
 另一点需要注意的是，在解码阶段，对value的计算方式：
 ![[Pasted image 20240415124551.png]]
 可能会疑惑，这个value为什么不这么算：offset* total/range
+我们是把在RANGE域的offset映射到total域的value，
+假设我们已经得到了value，那么从total域的value映射到RANGE域的offset的映射函数是已经固定了的
