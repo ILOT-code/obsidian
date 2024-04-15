@@ -67,3 +67,7 @@ range 加了1
 ![[Pasted image 20240415122124.png]]
 newhigh要减去1，因为后面假设有无穷个1.
 ![[Pasted image 20240415122153.png]]
+
+另一点需要注意的是，在解码阶段，对value的计算方式：
+![[Pasted image 20240415124551.png]]
+可能会疑惑，这个value为什么不这么算：offset* total/range
