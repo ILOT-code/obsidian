@@ -81,3 +81,8 @@ value* range < (offset+1)* total,
 value* range <= (offset+1) * total -1
 也就是
 value = ((offset+1) * total -1)/range
+
+如果说，我们采用value = offset* total /range的做法，则会得到：
+offset1 = value* range /total <= offset
+其上限就只有offset，
+而采用第一种计算方式，offset1 < offset+1,offset1有更大概率和offset相等。
