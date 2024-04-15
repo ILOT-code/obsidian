@@ -73,6 +73,7 @@ newhigh要减去1，因为后面假设有无穷个1.
 可能会疑惑，这个value为什么不这么算：offset* total/range
 我们是把在RANGE域的offset映射到total域的value，
 假设我们已经得到了value，那么从total域的value映射到RANGE域的offset的映射函数是已经固定了的：
+(下面的除法都表示机器除)
 offset1 = value* range / total
 为了保证offset1=offset，就有：
 offset * total<=value* range < (offset+1)* total,
