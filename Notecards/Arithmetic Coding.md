@@ -128,3 +128,81 @@ value* range &\leq (offset+1)*total - 1\\\\
 \Rightarrow value &= ((offset+1)*total - 1)/range
 \end{align*}
 $$
+如果以这样的方式，从 `offset` 映射到 `value`，可以发现重新映射回去得到的 `offset1<offset+1`，`offset1` 依旧有很大概率能够等于 `offset`。比前面那种几乎不可能的方式好得多。
+
+
+下面，要正式开始证明这个算法了：
+
+```cpp
+void ArithmeticCoderBase::update(const FrequencyTable &freqs, uint32_t symbol) {
+
+// State check
+
+if (low >= high || (low & stateMask) != low || (high & stateMask) != high)
+
+throw std::logic_error("Assertion error: Low or high out of range");
+
+uint64_t range = high - low + 1;
+
+if (!(minimumRange <= range && range <= fullRange))
+
+throw std::logic_error("Assertion error: Range out of range");
+
+// Frequency table values check
+
+uint32_t total = freqs.getTotal();
+
+uint32_t symLow = freqs.getLow(symbol);
+
+uint32_t symHigh = freqs.getHigh(symbol);
+
+if (symLow == symHigh)
+
+throw std::invalid_argument("Symbol has zero frequency");
+
+if (total > maximumTotal)
+
+throw std::invalid_argument("Cannot code symbol because total is too large");
+
+// Update range
+
+uint64_t newLow = low + symLow * range / total;
+
+uint64_t newHigh = low + symHigh * range / total - 1;
+
+low = newLow;
+
+high = newHigh;
+
+// While low and high have the same top bit value, shift them out
+
+while (((low ^ high) & halfRange) == 0) {
+
+shift();
+
+low = ((low << 1) & stateMask);
+
+high = ((high << 1) & stateMask) | 1;
+
+}
+
+// Now low's top bit must be 0 and high's top bit must be 1
+
+// While low's top two bits are 01 and high's are 10, delete the second highest bit of both
+
+while ((low & ~high & quarterRange) != 0) {
+
+underflow();
+
+low = (low << 1) ^ halfRange;
+
+high = ((high ^ halfRange) << 1) | halfRange | 1;
+
+}
+
+}
+```
+
+我要证明
+
+假设某次进入这个函数 (开始编码新的元素)时，
