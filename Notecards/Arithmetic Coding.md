@@ -252,6 +252,25 @@ $$
 而如果在 $L,R$ 上进行算术编码的计算，有：
 $$
 \begin{align*}
-&L+range*Plow
+&L+range*P_{low}\\
+&=0~1111~XXX\\
+&~~~+~~~~~~Y~YYY\\
+&=1~0000~ZZZ
+\end{align*}
+$$
+这是因为那个地方发生了进位，
+同样，
+$$
+\begin{align*}
+&L+range*P_{high}\\
+&=0~1111~XXX\\
+&~~~+~~~~~~Y'~Y'Y'Y'\\
+&=1~0000~Z'Z'Z'
+\end{align*}
+$$
+那么前面这些本来未知的数就可以写为一个 $1$，加 $U=4$ 个 0。新得到的 $L',R'$ 又左移一位，此刻：
+$$
+\begin{align*}
+A
 \end{align*}
 $$
