@@ -101,4 +101,13 @@ uint64_t newLow = low + symLow * range / total;
 
 uint64_t newHigh = low + symHigh * range / total - 1;
 ```
-其次，在域 `range` 中，有一个数 `offset`，在域 `total` ()
+其次，在域 `range` 中，有一个数 `offset`，在域 `total` (概率表频次之和)中有一个数 `value`，它们之间有如下近似关系：
+$$
+\frac{offset}{range}\approx \frac{value}{total}
+$$
+当然希望这个约等于号取等，但在有限的位内是无法实现的。
+那么在得知 `offset` 之后，如何得到 `value`，反过来，在得到 `value` 后，如何得到 `offset`，使得误差尽可能小？(接下来的乘法和除法，都是指计算机的乘除，而不是严格的数学上的乘除)
+首先，从 `value` 到 `offset` 的映射已经被固定了：
+$$
+offset'=value *range /total
+$$
