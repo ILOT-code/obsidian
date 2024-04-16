@@ -111,3 +111,16 @@ $$
 $$
 offset'=value *range /total
 $$
+那么怎么确定从 `offset` 到 `value` 呢？显然，在解码阶段，这是相当重要的。你可能会说，直接:
+$$
+value = offset*total /range
+$$
+不就行了吗。
+但此时，我们使用得到的 `value` 去计算回 `offset1`，可以发现新的 `offset1` 几乎不可能和原来的 `offset` 相等，当且仅当 `offset*total` 能够整除 `range` 时，才能取等，其它情况 $offset1<offset$。
+
+我们不妨换个思路：
+$$
+\begin{align*}
+offset1 &< offset+
+\end{align*}
+$$
