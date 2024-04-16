@@ -232,6 +232,26 @@ $$
 如果：
 $$
 \begin{align*}
-L'+range*P_
+&L'+range*P_{low}\\
+&=~~~~0~XXX\\
+&~~~~+Y~YYY\\
+&=~~~~1~ZZZ
+\end{align*}
+$$
+也就是第一位为 1，那么必然有：
+$$
+\begin{align*}
+&L'+range*P_{high}\\
+&=~~~~0~XXX\\
+&~~~~+Y'~Y'Y'Y'\\
+&=~~~~1~Z'Z'Z'
+\end{align*}
+$$
+这是因为 $Y'Y'Y'Y'>YYYY$
+
+而如果在 $L,R$ 上进行算术编码的计算，有：
+$$
+\begin{align*}
+&L+range*Plow
 \end{align*}
 $$
