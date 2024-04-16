@@ -86,3 +86,8 @@ value = ((offset+1) * total -1)/range
 offset1 = value* range /total <= offset
 其上限就只有offset，并且大概率是小于的。
 而采用第一种计算方式，offset1 < offset+1,offset1有更大概率和offset相等。
+
+
+以[GitHub - nayuki/Reference-arithmetic-coding: Clear implementation of arithmetic coding for educational purposes in Java, Python, C++.](https://github.com/nayuki/Reference-arithmetic-coding)中对算术编码的实现为例子，系统性的严格来证明该算法的正确性。
+
+首先，需要明确的第一个问题是，尽管在算法中 $L,R$ 的状态依旧是有限的，但$L$的后面有无穷个$0$,$R$后面有无穷个$1$.
