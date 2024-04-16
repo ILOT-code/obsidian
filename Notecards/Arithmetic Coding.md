@@ -89,5 +89,16 @@ offset1 = value* range /total <= offset
 
 
 以[GitHub - nayuki/Reference-arithmetic-coding: Clear implementation of arithmetic coding for educational purposes in Java, Python, C++.](https://github.com/nayuki/Reference-arithmetic-coding)中对算术编码的实现为例子，系统性的严格来证明该算法的正确性。
+在证明之前，先对一些基本问题进行阐述。
+首先，需要明确的第一个问题是，尽管在算法中 $L,R$ 的状态依旧是有限的，但 $L$ 的后面有无穷个 $0$, $R$ 后面有无穷个 $1$。
+因此，当我们计算 `range` 的时候，是这样计算的：
+```cpp
+uint64_t range = high - low + 1;
+```
+并且，当我们计算出 `newLow` , `newHigh` 的时候，后者要自动减 $1$，因为默认后面接了无穷个 $1$。
+```cpp
+uint64_t newLow = low + symLow * range / total;
 
-首先，需要明确的第一个问题是，尽管在算法中 $L,R$ 的状态依旧是有限的，但$L$的后面有无穷个$0$,$R$后面有无穷个$1$.
+uint64_t newHigh = low + symHigh * range / total - 1;
+```
+其次，在域 `range` 中，有一个数 `offset`，在域 `total` ()
