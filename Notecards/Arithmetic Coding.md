@@ -56,37 +56,7 @@ Y YYY =
 由于运算得到的后面那些位完全一样，那么L,R完全可以被Ln和Rn替换。
 
 如果前两种都不满足，而是满足第三种情况，
-也就说我们得到的：
-ZZZZ
-依旧无法确定第一个数是啥，继续进入这种pending_bit++的模式，直到某次到达前两种情况之一。
-假设是第一种，也就是第一个Z是1，此时就可以不断往前进位了。否则第一个Z是0，就不需要进位。
-
-
-虽然可能认为L=0000，R=FFFF，并不满足原本区间为10000的假设，但实际上就是按照R后面有无穷的1处理的：
-range 加了1
-![[Pasted image 20240415122124.png]]
-newhigh要减去1，因为后面假设有无穷个1.
-![[Pasted image 20240415122153.png]]
-
-另一点需要注意的是，在解码阶段，对value的计算方式：
-![[Pasted image 20240415124551.png]]
-可能会疑惑，这个value为什么不这么算：offset* total/range
-我们是把在range域的offset映射到total域的value，
-假设我们已经得到了value，那么从total域的value映射到RANGE域的offset的映射函数是已经固定了的：
-(下面的除法都表示机器除)
-offset1 = value* range / total
-为了保证offset1<=offset，右边最多可以拓展到：
-value* range < (offset+1)* total,
-也就是
-value* range <= (offset+1) * total -1
-也就是
-value = ((offset+1) * total -1)/range
-
-如果说，我们采用value = offset* total /range的做法，则会得到：
-offset1 = value* range /total <= offset
-其上限就只有offset，并且大概率是小于的。
-而采用第一种计算方式，offset1 < offset+1,offset1有更大概率和offset相等。
-
+也
 
 以[GitHub - nayuki/Reference-arithmetic-coding: Clear implementation of arithmetic coding for educational purposes in Java, Python, C++.](https://github.com/nayuki/Reference-arithmetic-coding)中对算术编码的实现为例子，系统性的严格来证明该算法的正确性。
 在证明之前，先对一些基本问题进行阐述。
