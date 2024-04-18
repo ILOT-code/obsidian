@@ -139,9 +139,10 @@ if (std::numeric_limits<char>::is_signed)
 output.put(static_cast<char>(currentByte));
 ```
 这是因为如果 char 是带符号的，那么它的范围是 $[-127.128]$，而假设我们需要写入的字节 (在程序中用 int 表示)超过 128，那么把这个 int 形的 `currentByte` 转化为 char 就有可能出现问题，造成转化后的 char 的那 8 个 bit 不完全等于 `currenByte` 的低 8 位。
-程序中的这种处理就避免了这种情况，如果 `currentByte` 的第 8 位是 1，`currentByte -= 2^8`，这是一个负数，范围一定在有符号的 char 内，然后负数在 8 位的 char 内部这样表示：
-下面，要正式开始证明这个算法了：
+程序中的这种处理就避免了这种情况，如果 `currentByte` 的第 8 位是 1，`currentByte -= 2^8`，这是一个负数，范围一定在有符号的 char 内，然后负数在 8 位的 char 内部这样表示 (补码)：`2^8-(2^8-currentByte)=currentByte`，这样，在计算机内部它的表示就完全和原本的低 8 位一样了。
+打个比方，设 `currentByte=0x000000FF`, 也就是 255，它先减去 256，就是 `-1`，然后把 `-1` 表示成 8 位的带符号数，计算机内部用补码存储，也就是 `256-1=11111111`，完全和低 8 位一样。
 
+下面，要正式开始证明这个算法了：
 ```cpp
 void ArithmeticCoderBase::update(const FrequencyTable &freqs, uint32_t symbol) {
 
@@ -358,3 +359,4 @@ $$
 此刻，由算法，$U=4+1=5$。
 这个过程可以一直进行，直到退出此函数。
 
+最后一个点要说明的事
