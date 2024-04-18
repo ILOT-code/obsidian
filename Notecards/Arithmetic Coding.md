@@ -382,4 +382,13 @@ void ArithmeticEncoder::finish() {
 	output.write(1);
 }
 ```
-后面加无穷个 0，可以被简略为 31 个 0. 但还是会占用额外的空间。
+后面加无穷个 0，可以被简略为 31 个 0. 但还是会占用额外的空间。此代码采用了更巧妙的方法：
+```cpp
+int ArithmeticDecoder::readCodeBit() {
+	int temp = input.read();
+	if (temp == -1)
+		temp = 0;
+return temp;
+}
+```
+它并不显式的把 0 写入文件末尾，而是当读到文件结束符的时候，看成是 0 就行了。
