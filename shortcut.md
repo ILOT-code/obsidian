@@ -118,9 +118,9 @@
 | 格式化文档                | Ctri+Shift+I     |
 | 格式化当前行(或所选区域)        | Ctrl+K Ctrl+F    |
 | 显示其信息 (光标在函数，类，变量上 ) | Ctrl+K Ctrl+I    |
-| 转到定义(更改)             | Ctrl+K Ctrl+D    |
-| 转到定义(在边上打开)(更改)      | Ctrl+K Ctrl+L    |
-| 查看定义(悬浮窗口上)(更改)      | Ctrl+K Ctrl+H    |
+| 转到定义(更改)             | Ctrl+Alt+D       |
+| 转到定义(在边上打开)(更改)      | Ctrl+Alt+L       |
+| 查看定义(悬浮窗口上)(更改)      | Ctrl+Alt+H       |
 | 快速修改                 | Ctrl+.           |
 | 查看引用 (悬浮窗口)(更改)      | Alt+Shift+D      |
 | 查看全部引用 (在左栏显示)       | Alt+Shift+A      |
