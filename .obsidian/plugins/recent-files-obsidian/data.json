@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "Arithmetic Coding",
       "path": "Notecards/Arithmetic Coding.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "yang2023-lossy-w",
       "path": "Paperwords/yang2023-lossy-w.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "alakuijala2019-jpeg",

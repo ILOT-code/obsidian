@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7dd6e5e0f71f520b",
+        "id": "a41d6007922f6f39",
         "type": "tabs",
         "children": [
           {
-            "id": "e8e84168772ab9c8",
+            "id": "988a9b44c32628d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "shortcut.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "shortcut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "shortcut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md"
+                "file": "shortcut.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "shortcut.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -204,31 +204,29 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "e8e84168772ab9c8",
+  "active": "988a9b44c32628d3",
   "lastOpenFiles": [
+    "Notecards/Arithmetic Coding.md",
+    "shortcut.md",
     "Attachments/Pasted image 20240415124551.png",
     "Attachments/Pasted image 20240415122153.png",
     "Attachments/Pasted image 20240415122124.png",
-    "Notecards/Arithmetic Coding.md",
     "Attachments/Pasted image 20240414181919.png",
     "Notecards/VQ.md",
     "LiteratureNotes/wang2024-model.md",
     "Paperwords/wang2024-model-w.md",
     "Paperwords/yang2023-lossy-w.md",
-    "shortcut.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
     "diary/2024-04-08.md",
     "Paperwords/hazimeh2021-dselectk-w.md",
     "LiteratureNotes/hazimeh2021-dselectk.md",
     "LiteratureNotes/2023-preprocessing.md",
     "Attachments/Pasted image 20240409174419.png",
-    "Notecards/Arithmetic Coding.md",
     "Attachments/Pasted image 20240409151327.png",
     "Attachments/Pasted image 20240409104417.png",
     "Attachments/Pasted image 20240409104349.png",
     "Attachments/Pasted image 20240408141241.png",
     "Attachments/Pasted image 20240408114458.png",
-    "Attachments/Pasted image 20240406153951.png",
     "dupont2021-coin.md",
     "hazimeh2021-dselectk.md",
     "Paperwords/balle2017-endtoend-w.md",
