@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
+      "basename": "wezterm",
+      "path": "wezterm.md"
+    },
+    {
       "basename": "charls",
       "path": "charls.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "VQ",
       "path": "Notecards/VQ.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "wang2024-model",
