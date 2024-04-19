@@ -123,7 +123,7 @@
 | 查看定义(悬浮窗口上)(更改)      | Ctrl+K Ctrl+H    |
 | 快速修改                 | Ctrl+.           |
 | 查看引用 (悬浮窗口)(更改)      | Alt+Shift+D      |
-| 查看全部引用 (在左栏显示)       | Alt+Shift+F12    |
+| 查看全部引用 (在左栏显示)       | Alt+Shift+A      |
 | 显示该符号被调用层次结构         | Alt+Shift+H      |
 | 重命名符号 (更改)           | Alt+Shift+R      |
 | 智能选择区域 (扩展)          | Shift+Alt+Right  |
@@ -205,7 +205,7 @@
 | 显示终端               | Ctrl+`       |
 | 新建终端               | Ctrl+Shift+` |
 | 显示 (隐藏) 下栏         | Ctrl+J       |
-| 打开系统终端(到当前目录下)（更改） | Ctrl+Shift+C |
+| 打开系统终端(到当前目录下)（更改） | Ctrl+Shift+Q |
 | 预览当前md文件(在新编辑器中)   | Ctrl+Shift+V |
 | 预览当前md文件(在右边打开)    | Ctrl+K V     |
 
