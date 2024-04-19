@@ -4,7 +4,14 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "zotlit:import-note",
+      "icon": "at-sign",
+      "name": "ZotLit: Import note",
+      "mode": "any"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
@@ -13,7 +20,10 @@
   "explorer": [],
   "hide": {
     "statusbar": [],
-    "leftRibbon": []
+    "leftRibbon": [
+      "插入模板",
+      "Advanced Tables Toolbar"
+    ]
   },
   "spacing": 8,
   "advancedToolbar": {
