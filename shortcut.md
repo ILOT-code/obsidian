@@ -253,19 +253,22 @@
 ## Extensions
 
 
-| 来源             | 作用              | 按键         |
-| -------------- | --------------- | ---------- |
-| copilot        | 对选择内容进行解释       | Ctrl+Alt+E |
-| copilot        | 在右边栏显示建议 (更改)   | Alt+Enter  |
-| copilot        | 询问 copilot (悬浮) | Ctrl+I     |
-| copilot        | 询问 copilot（左边栏） | Ctrl+Alt+I |
-| Bracket Select | 选择括号内内容，可连按     | Alt+A      |
-| Bracket Select | 选中括号内内容，（包括括号）  | Ctrl+Alt+A |
-| Git History    | 显示文件的 git 历史    | Alt+H      |
-| Git            | 打开更改 (更改)       | Alt+M      |
-| bookmarks      | 切换标记书签          | Ctrl+Alt+K |
-| bookmarks      | 到上一个标签 (可跨文件)   | Ctrl+Alt+J |
-| bookmarks      | 到下一个标签 (可跨文件)   | Ctrl+Alt+L |
+| 来源             | 作用                  | 按键          |
+| -------------- | ------------------- | ----------- |
+| copilot        | 对选择内容进行解释           | Ctrl+Alt+E  |
+| copilot        | 在右边栏显示建议 (更改)       | Alt+Enter   |
+| copilot        | 询问 copilot (悬浮)     | Ctrl+I      |
+| copilot        | 询问 copilot（左边栏）     | Ctrl+Alt+I  |
+| Bracket Select | 选择括号内内容，可连按         | Alt+A       |
+| Bracket Select | 选中括号内内容，（包括括号）      | Ctrl+Alt+A  |
+| Git History    | 显示文件的 git 历史        | Alt+H       |
+| Git            | 打开更改 (更改)           | Alt+M       |
+| bookmarks      | 切换标记书签              | Ctrl+Alt+K  |
+| bookmarks      | 到上一个标签 (可跨文件)       | Ctrl+Alt+J  |
+| bookmarks      | 到下一个标签 (可跨文件)       | Ctrl+Alt+L  |
+| bookmarks      | 选择当前位置到前一个标记处 (可连按) | Alt+Shift+J |
+| bookmarks      | 选择当前位置到下一个标记处 (可连按) | Alt+Shift+L |
+| bookmarks      | 取消                  | Alt+Shift+K |
 
 
 
