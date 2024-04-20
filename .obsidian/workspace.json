@@ -202,11 +202,10 @@
       "obsidian-file-cleaner:清理文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "cmdr:ZotLit: Import note": false,
-      "cmdr:ZotLit: Refresh Zotero data": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "cmdr:ZotLit: Refresh Zotero data": false
     }
   },
-  "active": "988a9b44c32628d3",
+  "active": "64dbf49a27a48b89",
   "lastOpenFiles": [
     "Notecards/无符号整数除法计算的优化.md",
     "Notecards/ANS及其实现技巧.md",
