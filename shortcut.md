@@ -119,7 +119,7 @@
 | 格式化当前行(或所选区域)        | Ctrl+K Ctrl+F    |
 | 显示其信息 (光标在函数，类，变量上 ) | Ctrl+K Ctrl+I    |
 | 转到定义(更改)             | Ctrl+Alt+D       |
-| 转到定义(在边上打开)(更改)      | Ctrl+Alt+L       |
+| 转到定义(在边上打开)(更改)      | Ctrl+Alt+S       |
 | 查看定义(悬浮窗口上)(更改)      | Ctrl+Alt+H       |
 | 快速修改                 | Ctrl+.           |
 | 查看引用 (悬浮窗口)(更改)      | Alt+Shift+D      |
@@ -258,10 +258,14 @@
 | copilot        | 对选择内容进行解释       | Ctrl+Alt+E |
 | copilot        | 在右边栏显示建议 (更改)   | Alt+Enter  |
 | copilot        | 询问 copilot (悬浮) | Ctrl+I     |
+| copilot        | 询问 copilot（左边栏） | Ctrl+Alt+I |
 | Bracket Select | 选择括号内内容，可连按     | Alt+A      |
 | Bracket Select | 选中括号内内容，（包括括号）  | Ctrl+Alt+A |
 | Git History    | 显示文件的 git 历史    | Alt+H      |
 | Git            | 打开更改 (更改)       | Alt+M      |
+|                | 切换标记书签          | Ctrl+Alt+K |
+|                |                 | Ctrl+Alt+J |
+|                |                 | Ctrl+Alt+L |
 
 
 
