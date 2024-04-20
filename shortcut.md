@@ -263,9 +263,9 @@
 | Bracket Select | 选中括号内内容，（包括括号）  | Ctrl+Alt+A |
 | Git History    | 显示文件的 git 历史    | Alt+H      |
 | Git            | 打开更改 (更改)       | Alt+M      |
-|                | 切换标记书签          | Ctrl+Alt+K |
-|                |                 | Ctrl+Alt+J |
-|                |                 | Ctrl+Alt+L |
+| bookmarks      | 切换标记书签          | Ctrl+Alt+K |
+| bookmarks      | 到上一个标签 (可跨文件)   | Ctrl+Alt+J |
+| bookmarks      | 到下一个标签 (可跨文件)   | Ctrl+Alt+L |
 
 
 
