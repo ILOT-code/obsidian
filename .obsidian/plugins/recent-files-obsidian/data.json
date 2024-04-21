@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "charls",
+      "path": "charls.md"
+    },
+    {
+      "basename": "CompressionFromCV",
+      "path": "CompressionFromCV.md"
+    },
+    {
+      "basename": "ANS及其实现技巧",
+      "path": "Notecards/ANS及其实现技巧.md"
+    },
+    {
+      "basename": "Arithmetic Coding",
+      "path": "Notecards/Arithmetic Coding.md"
+    },
+    {
       "basename": "yang2023-tinc",
       "path": "LiteratureNotes/yang2023-tinc.md"
     },
@@ -65,14 +81,6 @@
       "path": "LiteratureNotes/deng2023-compressing.md"
     },
     {
-      "basename": "Arithmetic Coding 1",
-      "path": "LiteratureNotes/Arithmetic Coding 1.md"
-    },
-    {
-      "basename": "ANS及其实现技巧 1",
-      "path": "LiteratureNotes/ANS及其实现技巧 1.md"
-    },
-    {
       "basename": "ali2023-efficient",
       "path": "LiteratureNotes/ali2023-efficient.md"
     },
@@ -83,14 +91,6 @@
     {
       "basename": "2023-preprocessing",
       "path": "LiteratureNotes/2023-preprocessing.md"
-    },
-    {
-      "basename": "Arithmetic Coding",
-      "path": "Notecards/Arithmetic Coding.md"
-    },
-    {
-      "basename": "ANS及其实现技巧",
-      "path": "Notecards/ANS及其实现技巧.md"
     },
     {
       "basename": "熵",
@@ -163,10 +163,6 @@
     {
       "basename": "wezterm",
       "path": "wezterm.md"
-    },
-    {
-      "basename": "charls",
-      "path": "charls.md"
     },
     {
       "basename": "wang2024-model-w",

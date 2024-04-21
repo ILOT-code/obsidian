@@ -2,8 +2,8 @@
   "Tabout": true,
   "SelectionEnhance": true,
   "IntrinsicSymbolPairs": true,
-  "BaseObEditEnhance": true,
-  "FW2HWEnhance": true,
+  "BaseObEditEnhance": false,
+  "FW2HWEnhance": false,
   "AutoFormat": true,
   "ExcludeFiles": "",
   "ChineseEnglishSpace": true,
@@ -62,5 +62,6 @@
   "EnterTwice": false,
   "TryFixChineseIM": false,
   "PuncRectify": false,
-  "FixMacOSContextMenu": false
+  "FixMacOSContextMenu": false,
+  "TryFixMSIME": false
 }

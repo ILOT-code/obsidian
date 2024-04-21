@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "charls.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "charls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
+                "file": "charls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md"
+                "file": "charls.md"
               }
             }
           },
@@ -188,9 +188,9 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/yang2023-tinc.md",
-                "itemId": 13,
-                "attachmentId": 14,
+                "file": "charls.md",
+                "itemId": -1,
+                "attachmentId": -1,
                 "follow": null
               }
             }
@@ -211,15 +211,20 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:显示文件夹": false,
       "cmdr:ZotLit: Import note": false,
-      "cmdr:ZotLit: Refresh Zotero data": false
+      "cmdr:ZotLit: Refresh Zotero data": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "f634ddc2ebe9331c",
   "lastOpenFiles": [
+    "CompressionFromCV.md",
+    "Notecards/ANS及其实现技巧.md",
+    "Notecards/Arithmetic Coding.md",
+    "LiteratureNotes/yang2023-tinc.md",
+    "LiteratureNotes/ANS及其实现技巧 1.md",
     "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/wang2024-model.md",
     "LiteratureNotes/tang2023-scene.md",
@@ -236,18 +241,13 @@
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/deng2023-compressing.md",
     "LiteratureNotes/Arithmetic Coding 1.md",
-    "LiteratureNotes/ANS及其实现技巧 1.md",
     "LiteratureNotes/ali2023-efficient.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
     "LiteratureNotes/2023-preprocessing.md",
-    "Notecards/Arithmetic Coding.md",
     "literaturenotes.zip",
     "ziVputrH",
-    "Notecards/ANS及其实现技巧.md",
     "Notecards/熵.md",
     "Notecards/矩阵微分.md",
-    "Notecards/VQ.md",
-    "Notecards/VAE.md",
     "Attachments/Pasted image 20240415124551.png",
     "Attachments/Pasted image 20240415122153.png",
     "Attachments/Pasted image 20240415122124.png",
