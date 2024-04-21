@@ -1,6 +1,66 @@
 {
   "recentFiles": [
     {
+      "basename": "wang2024-model",
+      "path": "LiteratureNotes/wang2024-model.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
+      "basename": "sun2023-all",
+      "path": "LiteratureNotes/sun2023-all.md"
+    },
+    {
+      "basename": "sneyers2016-flif",
+      "path": "LiteratureNotes/sneyers2016-flif.md"
+    },
+    {
+      "basename": "salimans2022-progressive",
+      "path": "LiteratureNotes/salimans2022-progressive.md"
+    },
+    {
+      "basename": "muller2022-instant",
+      "path": "LiteratureNotes/muller2022-instant.md"
+    },
+    {
+      "basename": "marpe2003-contextbased",
+      "path": "LiteratureNotes/marpe2003-contextbased.md"
+    },
+    {
+      "basename": "liu2023-learned",
+      "path": "LiteratureNotes/liu2023-learned.md"
+    },
+    {
+      "basename": "ladune2023-coolchic",
+      "path": "LiteratureNotes/ladune2023-coolchic.md"
+    },
+    {
+      "basename": "hazimeh2021-dselectk",
+      "path": "LiteratureNotes/hazimeh2021-dselectk.md"
+    },
+    {
+      "basename": "guo2023-compression",
+      "path": "LiteratureNotes/guo2023-compression.md"
+    },
+    {
+      "basename": "girish2023-shacira",
+      "path": "LiteratureNotes/girish2023-shacira.md"
+    },
+    {
+      "basename": "flamich2022-fast",
+      "path": "LiteratureNotes/flamich2022-fast.md"
+    },
+    {
+      "basename": "deng2023-compressing",
+      "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
+      "basename": "Arithmetic Coding 1",
+      "path": "LiteratureNotes/Arithmetic Coding 1.md"
+    },
+    {
       "basename": "ANS及其实现技巧 1",
       "path": "LiteratureNotes/ANS及其实现技巧 1.md"
     },
@@ -21,28 +81,12 @@
       "path": "LiteratureNotes/yang2023-lossy.md"
     },
     {
-      "basename": "liu2023-learned",
-      "path": "LiteratureNotes/liu2023-learned.md"
-    },
-    {
-      "basename": "hazimeh2021-dselectk",
-      "path": "LiteratureNotes/hazimeh2021-dselectk.md"
-    },
-    {
-      "basename": "guo2023-compression",
-      "path": "LiteratureNotes/guo2023-compression.md"
-    },
-    {
       "basename": "Arithmetic Coding",
       "path": "Notecards/Arithmetic Coding.md"
     },
     {
       "basename": "ANS及其实现技巧",
       "path": "Notecards/ANS及其实现技巧.md"
-    },
-    {
-      "basename": "Arithmetic Coding 1",
-      "path": "LiteratureNotes/Arithmetic Coding 1.md"
     },
     {
       "basename": "熵",
@@ -101,40 +145,8 @@
       "path": "Notecards/无符号整数除法计算的优化.md"
     },
     {
-      "basename": "sun2023-all",
-      "path": "LiteratureNotes/sun2023-all.md"
-    },
-    {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
-      "basename": "wang2024-model",
-      "path": "LiteratureNotes/wang2024-model.md"
-    },
-    {
       "basename": "yang2023-tinc",
       "path": "LiteratureNotes/yang2023-tinc.md"
-    },
-    {
-      "basename": "sneyers2016-flif",
-      "path": "LiteratureNotes/sneyers2016-flif.md"
-    },
-    {
-      "basename": "ladune2023-coolchic",
-      "path": "LiteratureNotes/ladune2023-coolchic.md"
-    },
-    {
-      "basename": "girish2023-shacira",
-      "path": "LiteratureNotes/girish2023-shacira.md"
-    },
-    {
-      "basename": "flamich2022-fast",
-      "path": "LiteratureNotes/flamich2022-fast.md"
-    },
-    {
-      "basename": "deng2023-compressing",
-      "path": "LiteratureNotes/deng2023-compressing.md"
     },
     {
       "basename": "Transformer",
