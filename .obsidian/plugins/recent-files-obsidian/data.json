@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ANS及其实现技巧",
+      "path": "Notecards/ANS及其实现技巧.md"
+    },
+    {
       "basename": "Arithmetic Coding",
       "path": "Notecards/Arithmetic Coding.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "CompressionFromCV",
       "path": "CompressionFromCV.md"
-    },
-    {
-      "basename": "ANS及其实现技巧",
-      "path": "Notecards/ANS及其实现技巧.md"
     },
     {
       "basename": "yang2023-tinc",
