@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "LiteratureNotes/ANS及其实现技巧 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "LiteratureNotes/ANS及其实现技巧 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "LiteratureNotes/ANS及其实现技巧 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md"
+                "file": "LiteratureNotes/ANS及其实现技巧 1.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Notecards/Arithmetic Coding.md",
+                "file": "LiteratureNotes/ANS及其实现技巧 1.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -221,12 +221,19 @@
   },
   "active": "f634ddc2ebe9331c",
   "lastOpenFiles": [
+    "LiteratureNotes/ali2023-efficient.md",
+    "LiteratureNotes/alakuijala2019-jpeg.md",
+    "LiteratureNotes/2023-preprocessing.md",
+    "LiteratureNotes/yang2023-lossy.md",
+    "LiteratureNotes/liu2023-learned.md",
+    "LiteratureNotes/hazimeh2021-dselectk.md",
+    "LiteratureNotes/guo2023-compression.md",
+    "LiteratureNotes/ANS及其实现技巧 1.md",
+    "Notecards/Arithmetic Coding.md",
     "literaturenotes.zip",
     "ziVputrH",
     "Notecards/ANS及其实现技巧.md",
     "LiteratureNotes/Arithmetic Coding 1.md",
-    "Notecards/Arithmetic Coding.md",
-    "LiteratureNotes/ANS及其实现技巧 1.md",
     "Notecards/熵.md",
     "Notecards/矩阵微分.md",
     "Notecards/VQ.md",
@@ -242,12 +249,6 @@
     "Notecards/常见的伪影.md",
     "Notecards/无符号整数除法计算的优化.md",
     "LiteratureNotes/sun2023-all.md",
-    "LiteratureNotes/tang2023-scene.md",
-    "LiteratureNotes/wang2024-model.md",
-    "LiteratureNotes/yang2023-lossy.md",
-    "LiteratureNotes/yang2023-tinc.md",
-    "LiteratureNotes/sneyers2016-flif.md",
-    "LiteratureNotes/ladune2023-coolchic.md",
     "Attachments/Pasted image 20240415124551.png",
     "Attachments/Pasted image 20240415122153.png",
     "Attachments/Pasted image 20240415122124.png",
@@ -267,7 +268,6 @@
     "ZtTemplates",
     "Attachments/monaco.ttf",
     "monaco.ttf",
-    "Excalidraw",
-    "未命名 3"
+    "Excalidraw"
   ]
 }

@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "ANS及其实现技巧 1",
+      "path": "LiteratureNotes/ANS及其实现技巧 1.md"
+    },
+    {
+      "basename": "ali2023-efficient",
+      "path": "LiteratureNotes/ali2023-efficient.md"
+    },
+    {
+      "basename": "alakuijala2019-jpeg",
+      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
+    },
+    {
+      "basename": "2023-preprocessing",
+      "path": "LiteratureNotes/2023-preprocessing.md"
+    },
+    {
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
+    },
+    {
+      "basename": "liu2023-learned",
+      "path": "LiteratureNotes/liu2023-learned.md"
+    },
+    {
+      "basename": "hazimeh2021-dselectk",
+      "path": "LiteratureNotes/hazimeh2021-dselectk.md"
+    },
+    {
+      "basename": "guo2023-compression",
+      "path": "LiteratureNotes/guo2023-compression.md"
+    },
+    {
       "basename": "Arithmetic Coding",
       "path": "Notecards/Arithmetic Coding.md"
     },
@@ -11,10 +43,6 @@
     {
       "basename": "Arithmetic Coding 1",
       "path": "LiteratureNotes/Arithmetic Coding 1.md"
-    },
-    {
-      "basename": "ANS及其实现技巧 1",
-      "path": "LiteratureNotes/ANS及其实现技巧 1.md"
     },
     {
       "basename": "熵",
@@ -85,10 +113,6 @@
       "path": "LiteratureNotes/wang2024-model.md"
     },
     {
-      "basename": "yang2023-lossy",
-      "path": "LiteratureNotes/yang2023-lossy.md"
-    },
-    {
       "basename": "yang2023-tinc",
       "path": "LiteratureNotes/yang2023-tinc.md"
     },
@@ -101,14 +125,6 @@
       "path": "LiteratureNotes/ladune2023-coolchic.md"
     },
     {
-      "basename": "hazimeh2021-dselectk",
-      "path": "LiteratureNotes/hazimeh2021-dselectk.md"
-    },
-    {
-      "basename": "guo2023-compression",
-      "path": "LiteratureNotes/guo2023-compression.md"
-    },
-    {
       "basename": "girish2023-shacira",
       "path": "LiteratureNotes/girish2023-shacira.md"
     },
@@ -119,18 +135,6 @@
     {
       "basename": "deng2023-compressing",
       "path": "LiteratureNotes/deng2023-compressing.md"
-    },
-    {
-      "basename": "ali2023-efficient",
-      "path": "LiteratureNotes/ali2023-efficient.md"
-    },
-    {
-      "basename": "alakuijala2019-jpeg",
-      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
-    },
-    {
-      "basename": "2023-preprocessing",
-      "path": "LiteratureNotes/2023-preprocessing.md"
     },
     {
       "basename": "Transformer",
