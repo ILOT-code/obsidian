@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Arithmetic Coding",
+      "path": "Notecards/Arithmetic Coding.md"
+    },
+    {
+      "basename": "ANS及其实现技巧",
+      "path": "Notecards/ANS及其实现技巧.md"
+    },
+    {
+      "basename": "Arithmetic Coding 1",
+      "path": "LiteratureNotes/Arithmetic Coding 1.md"
+    },
+    {
+      "basename": "ANS及其实现技巧 1",
+      "path": "LiteratureNotes/ANS及其实现技巧 1.md"
+    },
+    {
       "basename": "熵",
       "path": "Notecards/熵.md"
     },
@@ -51,14 +67,6 @@
     {
       "basename": "常见的伪影",
       "path": "Notecards/常见的伪影.md"
-    },
-    {
-      "basename": "Arithmetic Coding",
-      "path": "Notecards/Arithmetic Coding.md"
-    },
-    {
-      "basename": "ANS及其实现技巧",
-      "path": "Notecards/ANS及其实现技巧.md"
     },
     {
       "basename": "无符号整数除法计算的优化",

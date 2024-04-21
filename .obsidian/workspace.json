@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notecards/VQ.md",
-                "mode": "preview",
+                "file": "Notecards/Arithmetic Coding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f634ddc2ebe9331c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notecards/Arithmetic Coding.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -31,7 +44,7 @@
       {
         "id": "035c69471c9e1850",
         "type": "tabs",
-        "dimension": 58.33333333333334,
+        "dimension": 71.92755498059509,
         "children": [
           {
             "id": "85cc9493daeac8f1",
@@ -71,7 +84,7 @@
       {
         "id": "d14deeddadd8e89d",
         "type": "tabs",
-        "dimension": 41.66666666666666,
+        "dimension": 28.072445019404917,
         "children": [
           {
             "id": "64dbf49a27a48b89",
@@ -112,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notecards/VQ.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notecards/VQ.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notecards/VQ.md"
+                "file": "Notecards/Arithmetic Coding.md"
               }
             }
           },
@@ -175,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Notecards/VQ.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -206,21 +219,27 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "988a9b44c32628d3",
+  "active": "f634ddc2ebe9331c",
   "lastOpenFiles": [
+    "literaturenotes.zip",
+    "ziVputrH",
+    "Notecards/ANS及其实现技巧.md",
+    "LiteratureNotes/Arithmetic Coding 1.md",
+    "Notecards/Arithmetic Coding.md",
+    "LiteratureNotes/ANS及其实现技巧 1.md",
+    "Notecards/熵.md",
+    "Notecards/矩阵微分.md",
+    "Notecards/VQ.md",
     "Notecards/VAE.md",
     "Notecards/PSNR与SSIM.md",
     "Notecards/Normalization.md",
     "Notecards/Gumbel Softmax.md",
-    "Notecards/矩阵微分.md",
     "Notecards/光流.md",
     "Notecards/哥伦布编码.md",
     "Notecards/概率PCA.md",
     "Notecards/傅里叶变换与小波变换.md",
     "Notecards/独立成分分析.md",
     "Notecards/常见的伪影.md",
-    "Notecards/Arithmetic Coding.md",
-    "Notecards/ANS及其实现技巧.md",
     "Notecards/无符号整数除法计算的优化.md",
     "LiteratureNotes/sun2023-all.md",
     "LiteratureNotes/tang2023-scene.md",
@@ -229,11 +248,6 @@
     "LiteratureNotes/yang2023-tinc.md",
     "LiteratureNotes/sneyers2016-flif.md",
     "LiteratureNotes/ladune2023-coolchic.md",
-    "LiteratureNotes/hazimeh2021-dselectk.md",
-    "LiteratureNotes/guo2023-compression.md",
-    "LiteratureNotes/girish2023-shacira.md",
-    "LiteratureNotes/flamich2022-fast.md",
-    "LiteratureNotes/deng2023-compressing.md",
     "Attachments/Pasted image 20240415124551.png",
     "Attachments/Pasted image 20240415122153.png",
     "Attachments/Pasted image 20240415122124.png",
@@ -254,7 +268,6 @@
     "Attachments/monaco.ttf",
     "monaco.ttf",
     "Excalidraw",
-    "未命名 3",
-    "未命名 2"
+    "未命名 3"
   ]
 }
