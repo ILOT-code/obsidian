@@ -1,5 +1,5 @@
 {
-  "useMathKeyboardShortcut_toggle": false,
+  "useMathKeyboardShortcut_toggle": true,
   "moveIntoMath_toggle": false,
   "autoCloseMath_toggle": false,
   "autoCloseRound_toggle": true,

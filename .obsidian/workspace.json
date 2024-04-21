@@ -14,25 +14,12 @@
               "type": "markdown",
               "state": {
                 "file": "Notecards/Arithmetic Coding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f634ddc2ebe9331c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "charls.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "charls.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "charls.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "charls.md"
+                "file": "Notecards/Arithmetic Coding.md"
               }
             }
           },
@@ -188,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "charls.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": null
@@ -218,8 +205,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f634ddc2ebe9331c",
+  "active": "988a9b44c32628d3",
   "lastOpenFiles": [
+    "charls.md",
     "CompressionFromCV.md",
     "Notecards/ANS及其实现技巧.md",
     "Notecards/Arithmetic Coding.md",
@@ -247,7 +235,6 @@
     "literaturenotes.zip",
     "ziVputrH",
     "Notecards/熵.md",
-    "Notecards/矩阵微分.md",
     "Attachments/Pasted image 20240415124551.png",
     "Attachments/Pasted image 20240415122153.png",
     "Attachments/Pasted image 20240415122124.png",
