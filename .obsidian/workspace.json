@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shortcut.md",
-                "mode": "source",
+                "file": "Notecards/ANS及其实现技巧.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shortcut.md"
+                "file": "Notecards/ANS及其实现技巧.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "shortcut.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -208,10 +208,10 @@
   },
   "active": "988a9b44c32628d3",
   "lastOpenFiles": [
+    "shortcut.md",
     "Sundry/Pytorch.md",
     "Notecards/ANS及其实现技巧.md",
     "Notecards/无符号整数除法计算的优化.md",
-    "shortcut.md",
     "wezterm.md",
     "charls.md",
     "未命名.md",
