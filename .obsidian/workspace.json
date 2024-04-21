@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "LiteratureNotes/yang2023-tinc.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "LiteratureNotes/yang2023-tinc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "LiteratureNotes/yang2023-tinc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md"
+                "file": "LiteratureNotes/yang2023-tinc.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "LiteratureNotes/yang2023-tinc.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -215,12 +215,13 @@
       "obsidian-file-cleaner:清理文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "cmdr:ZotLit: Import note": false,
-      "cmdr:ZotLit: Refresh Zotero data": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "cmdr:ZotLit: Refresh Zotero data": false
     }
   },
   "active": "f634ddc2ebe9331c",
   "lastOpenFiles": [
+    "LiteratureNotes/yang2023-lossy.md",
+    "LiteratureNotes/wang2024-model.md",
     "LiteratureNotes/tang2023-scene.md",
     "LiteratureNotes/sun2023-all.md",
     "LiteratureNotes/sneyers2016-flif.md",
@@ -239,7 +240,6 @@
     "LiteratureNotes/ali2023-efficient.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
     "LiteratureNotes/2023-preprocessing.md",
-    "LiteratureNotes/yang2023-lossy.md",
     "Notecards/Arithmetic Coding.md",
     "literaturenotes.zip",
     "ziVputrH",
@@ -248,7 +248,6 @@
     "Notecards/矩阵微分.md",
     "Notecards/VQ.md",
     "Notecards/VAE.md",
-    "Notecards/PSNR与SSIM.md",
     "Attachments/Pasted image 20240415124551.png",
     "Attachments/Pasted image 20240415122153.png",
     "Attachments/Pasted image 20240415122124.png",

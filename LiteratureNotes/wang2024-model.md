@@ -18,7 +18,7 @@ conference: xxx
 citekey: wang2024-model
 tags:
 ---
-# Model Compression and Efficient Inference for Large Language Models: A Survey
+<u></u># Model Compression and Efficient Inference for Large Language Models: A Survey
 
 **文章链接**: [Zotero](zotero://select/library/items/IW2FDBIC) [attachment](<file:///home/ilot/Zotero/storage/KV3YSMHP/Wang%20%E7%AD%89%20-%202024%20-%20Model%20Compression%20and%20Efficient%20Inference%20for%20Larg.pdf>)
 **网页链接**: [URL](http://arxiv.org/abs/2402.09748)

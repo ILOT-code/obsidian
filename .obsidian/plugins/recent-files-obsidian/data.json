@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "yang2023-tinc",
+      "path": "LiteratureNotes/yang2023-tinc.md"
+    },
+    {
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
+    },
+    {
       "basename": "wang2024-model",
       "path": "LiteratureNotes/wang2024-model.md"
     },
@@ -77,10 +85,6 @@
       "path": "LiteratureNotes/2023-preprocessing.md"
     },
     {
-      "basename": "yang2023-lossy",
-      "path": "LiteratureNotes/yang2023-lossy.md"
-    },
-    {
       "basename": "Arithmetic Coding",
       "path": "Notecards/Arithmetic Coding.md"
     },
@@ -143,10 +147,6 @@
     {
       "basename": "无符号整数除法计算的优化",
       "path": "Notecards/无符号整数除法计算的优化.md"
-    },
-    {
-      "basename": "yang2023-tinc",
-      "path": "LiteratureNotes/yang2023-tinc.md"
     },
     {
       "basename": "Transformer",
