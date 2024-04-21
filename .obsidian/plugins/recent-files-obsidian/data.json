@@ -1,16 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "熵",
+      "path": "Notecards/熵.md"
+    },
+    {
+      "basename": "矩阵微分",
+      "path": "Notecards/矩阵微分.md"
+    },
+    {
+      "basename": "VQ",
+      "path": "Notecards/VQ.md"
+    },
+    {
+      "basename": "VAE",
+      "path": "Notecards/VAE.md"
+    },
+    {
+      "basename": "PSNR与SSIM",
+      "path": "Notecards/PSNR与SSIM.md"
+    },
+    {
+      "basename": "Normalization",
+      "path": "Notecards/Normalization.md"
+    },
+    {
+      "basename": "Gumbel Softmax",
+      "path": "Notecards/Gumbel Softmax.md"
+    },
+    {
+      "basename": "光流",
+      "path": "Notecards/光流.md"
+    },
+    {
+      "basename": "哥伦布编码",
+      "path": "Notecards/哥伦布编码.md"
+    },
+    {
+      "basename": "概率PCA",
+      "path": "Notecards/概率PCA.md"
+    },
+    {
+      "basename": "傅里叶变换与小波变换",
+      "path": "Notecards/傅里叶变换与小波变换.md"
+    },
+    {
+      "basename": "独立成分分析",
+      "path": "Notecards/独立成分分析.md"
+    },
+    {
+      "basename": "常见的伪影",
+      "path": "Notecards/常见的伪影.md"
+    },
+    {
+      "basename": "Arithmetic Coding",
+      "path": "Notecards/Arithmetic Coding.md"
+    },
+    {
+      "basename": "ANS及其实现技巧",
+      "path": "Notecards/ANS及其实现技巧.md"
+    },
+    {
+      "basename": "无符号整数除法计算的优化",
+      "path": "Notecards/无符号整数除法计算的优化.md"
+    },
+    {
+      "basename": "sun2023-all",
+      "path": "LiteratureNotes/sun2023-all.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
       "basename": "wang2024-model",
       "path": "LiteratureNotes/wang2024-model.md"
     },
     {
-      "basename": "yang2023-tinc",
-      "path": "LiteratureNotes/yang2023-tinc.md"
-    },
-    {
       "basename": "yang2023-lossy",
       "path": "LiteratureNotes/yang2023-lossy.md"
+    },
+    {
+      "basename": "yang2023-tinc",
+      "path": "LiteratureNotes/yang2023-tinc.md"
     },
     {
       "basename": "sneyers2016-flif",
@@ -57,22 +129,6 @@
       "path": "Notecards/Transformer.md"
     },
     {
-      "basename": "VAE",
-      "path": "Notecards/VAE.md"
-    },
-    {
-      "basename": "Arithmetic Coding",
-      "path": "Notecards/Arithmetic Coding.md"
-    },
-    {
-      "basename": "ANS及其实现技巧",
-      "path": "Notecards/ANS及其实现技巧.md"
-    },
-    {
-      "basename": "无符号整数除法计算的优化",
-      "path": "Notecards/无符号整数除法计算的优化.md"
-    },
-    {
       "basename": "shortcut",
       "path": "shortcut.md"
     },
@@ -87,10 +143,6 @@
     {
       "basename": "charls",
       "path": "charls.md"
-    },
-    {
-      "basename": "VQ",
-      "path": "Notecards/VQ.md"
     },
     {
       "basename": "wang2024-model-w",

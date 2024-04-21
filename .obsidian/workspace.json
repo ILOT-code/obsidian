@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "Notecards/VQ.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "Notecards/VQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "Notecards/VQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md"
+                "file": "Notecards/VQ.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "Notecards/VQ.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -208,8 +208,25 @@
   },
   "active": "988a9b44c32628d3",
   "lastOpenFiles": [
-    "LiteratureNotes/yang2023-tinc.md",
+    "Notecards/VAE.md",
+    "Notecards/PSNR与SSIM.md",
+    "Notecards/Normalization.md",
+    "Notecards/Gumbel Softmax.md",
+    "Notecards/矩阵微分.md",
+    "Notecards/光流.md",
+    "Notecards/哥伦布编码.md",
+    "Notecards/概率PCA.md",
+    "Notecards/傅里叶变换与小波变换.md",
+    "Notecards/独立成分分析.md",
+    "Notecards/常见的伪影.md",
+    "Notecards/Arithmetic Coding.md",
+    "Notecards/ANS及其实现技巧.md",
+    "Notecards/无符号整数除法计算的优化.md",
+    "LiteratureNotes/sun2023-all.md",
+    "LiteratureNotes/tang2023-scene.md",
+    "LiteratureNotes/wang2024-model.md",
     "LiteratureNotes/yang2023-lossy.md",
+    "LiteratureNotes/yang2023-tinc.md",
     "LiteratureNotes/sneyers2016-flif.md",
     "LiteratureNotes/ladune2023-coolchic.md",
     "LiteratureNotes/hazimeh2021-dselectk.md",
@@ -217,27 +234,10 @@
     "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/deng2023-compressing.md",
-    "LiteratureNotes/ali2023-efficient.md",
-    "LiteratureNotes/alakuijala2019-jpeg.md",
-    "LiteratureNotes/2023-preprocessing.md",
-    "Notecards/Transformer.md",
-    "Notecards/VAE.md",
-    "Notecards/Arithmetic Coding.md",
-    "Notecards/ANS及其实现技巧.md",
-    "Notecards/无符号整数除法计算的优化.md",
-    "shortcut.md",
-    "Sundry/Pytorch.md",
-    "wezterm.md",
-    "charls.md",
-    "未命名.md",
-    "Notecards/VQ.md",
     "Attachments/Pasted image 20240415124551.png",
     "Attachments/Pasted image 20240415122153.png",
     "Attachments/Pasted image 20240415122124.png",
     "Attachments/Pasted image 20240414181919.png",
-    "LiteratureNotes/wang2024-model.md",
-    "Paperwords/wang2024-model-w.md",
-    "Paperwords/yang2023-lossy-w.md",
     "Attachments/Pasted image 20240409174419.png",
     "Attachments/Pasted image 20240409151327.png",
     "Attachments/Pasted image 20240409104417.png",
