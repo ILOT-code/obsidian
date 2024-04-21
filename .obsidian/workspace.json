@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md",
+                "file": "LiteratureNotes/wang2024-model.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md",
+                "file": "LiteratureNotes/wang2024-model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md",
+                "file": "LiteratureNotes/wang2024-model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md"
+                "file": "LiteratureNotes/wang2024-model.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md",
+                "file": "LiteratureNotes/wang2024-model.md",
                 "itemId": 13,
                 "attachmentId": 14,
                 "follow": null
@@ -208,14 +208,28 @@
   },
   "active": "988a9b44c32628d3",
   "lastOpenFiles": [
-    "Notecards/无符号整数除法计算的优化.md",
+    "LiteratureNotes/yang2023-tinc.md",
+    "LiteratureNotes/yang2023-lossy.md",
+    "LiteratureNotes/sneyers2016-flif.md",
+    "LiteratureNotes/ladune2023-coolchic.md",
+    "LiteratureNotes/hazimeh2021-dselectk.md",
+    "LiteratureNotes/guo2023-compression.md",
+    "LiteratureNotes/girish2023-shacira.md",
+    "LiteratureNotes/flamich2022-fast.md",
+    "LiteratureNotes/deng2023-compressing.md",
+    "LiteratureNotes/ali2023-efficient.md",
+    "LiteratureNotes/alakuijala2019-jpeg.md",
+    "LiteratureNotes/2023-preprocessing.md",
+    "Notecards/Transformer.md",
+    "Notecards/VAE.md",
+    "Notecards/Arithmetic Coding.md",
     "Notecards/ANS及其实现技巧.md",
+    "Notecards/无符号整数除法计算的优化.md",
     "shortcut.md",
     "Sundry/Pytorch.md",
     "wezterm.md",
     "charls.md",
     "未命名.md",
-    "Notecards/Arithmetic Coding.md",
     "Notecards/VQ.md",
     "Attachments/Pasted image 20240415124551.png",
     "Attachments/Pasted image 20240415122153.png",
@@ -224,26 +238,12 @@
     "LiteratureNotes/wang2024-model.md",
     "Paperwords/wang2024-model-w.md",
     "Paperwords/yang2023-lossy-w.md",
-    "LiteratureNotes/alakuijala2019-jpeg.md",
-    "diary/2024-04-08.md",
-    "Paperwords/hazimeh2021-dselectk-w.md",
-    "LiteratureNotes/hazimeh2021-dselectk.md",
-    "LiteratureNotes/2023-preprocessing.md",
     "Attachments/Pasted image 20240409174419.png",
     "Attachments/Pasted image 20240409151327.png",
     "Attachments/Pasted image 20240409104417.png",
     "Attachments/Pasted image 20240409104349.png",
     "Attachments/Pasted image 20240408141241.png",
     "Attachments/Pasted image 20240408114458.png",
-    "dupont2021-coin.md",
-    "hazimeh2021-dselectk.md",
-    "Paperwords/balle2017-endtoend-w.md",
-    "Sundry/Numpy.md",
-    "Notecards/矩阵微分.md",
-    "Notecards/DM.md",
-    "Notecards/PSNR与SSIM.md",
-    "Notecards/VAE.md",
-    "Math/多元高斯分布.md",
     "未命名",
     "Pytorch",
     "未命名.canvas",
