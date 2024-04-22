@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "VAE",
+      "path": "Notecards/VAE.md"
+    },
+    {
       "basename": "多元高斯分布",
       "path": "Math/多元高斯分布.md"
     },
@@ -107,10 +111,6 @@
     {
       "basename": "VQ",
       "path": "Notecards/VQ.md"
-    },
-    {
-      "basename": "VAE",
-      "path": "Notecards/VAE.md"
     },
     {
       "basename": "PSNR与SSIM",
