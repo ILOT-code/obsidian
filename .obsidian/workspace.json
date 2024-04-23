@@ -201,8 +201,7 @@
       "obsidian-file-cleaner:清理文件": false,
       "cmdr:ZotLit: Import note": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "988a9b44c32628d3",
