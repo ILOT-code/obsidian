@@ -16,5 +16,14 @@
       ],
       "key": "-"
     }
+  ],
+  "editor:insert-table": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
   ]
 }
