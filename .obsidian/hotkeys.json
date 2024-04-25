@@ -62,12 +62,6 @@
   "easy-typing-obsidian:easy-typing-format-switch": [
     {
       "modifiers": [
-        "Ctrl"
-      ],
-      "key": "tab"
-    },
-    {
-      "modifiers": [
         "Alt",
         "Shift"
       ],
@@ -77,13 +71,6 @@
   "easy-typing-obsidian:easy-typing-format-selection": [
     {
       "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "l"
-    },
-    {
-      "modifiers": [
         "Alt",
         "Shift"
       ],
@@ -91,13 +78,6 @@
     }
   ],
   "easy-typing-obsidian:easy-typing-format-article": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "s"
-    },
     {
       "modifiers": [
         "Alt",
