@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shortcut.md",
+                "file": "wezterm.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
+                "file": "wezterm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
+                "file": "wezterm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shortcut.md"
+                "file": "wezterm.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "shortcut.md",
+                "file": "wezterm.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": null
