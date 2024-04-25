@@ -4,6 +4,8 @@
 `Ctrl-Shift-C`，`Ctrl-Shift-V` 进行复制粘贴，`Shift-Insert` 也是粘贴
 `Ctrl-Shift-N` 新建窗口（另有 `Super-N`，但没有成功）
 `Ctrl-Shift-T` 和 `Super-T(t)` 新建标签，`Super-Shift-[` and `Super-Shift-]` 下一个和上一个标签，`Super-[1-9]` 跳转到标签（与系统按键冲突）
+`Ctrl+PageUp(PageDown)` 切换上一个（下一个）标签
+`Ctrl+Shift+W` 关闭当前标签
 `Ctrl-Shift-Alt-%` and `Ctrl-Shift-Alt-"` 水平和垂直分割窗口，`Ctrl-Shift-ArrowKey` 在窗口间移动
 `Ctrl-L`：清空
 ## Scrollback
