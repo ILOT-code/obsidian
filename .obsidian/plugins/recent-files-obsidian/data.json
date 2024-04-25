@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "wezterm",
-      "path": "wezterm.md"
-    },
-    {
       "basename": "shortcut",
       "path": "shortcut.md"
+    },
+    {
+      "basename": "wezterm",
+      "path": "wezterm.md"
     },
     {
       "basename": "VAE",
