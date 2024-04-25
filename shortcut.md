@@ -382,4 +382,11 @@
 | 移到上一个标签  | Ctrl+Shift+PageUp   |
 | 移到下一个标签  | Ctrl+Shift+PageDown |
 | 重新加载配置文件 | Ctrl+Shift+R        |
+| 清空       | Ctrl+Shift+K        |
+| 打开命令面板   | Ctrl+Shift+P        |
+| 搜索       | Ctrl+Shift+F        |
+| 进入复制模式   | Ctrl+Shift+X        |
+| 进入选择模式   | Ctrl+Shift+Space    |
+| 垂直分割     | Ctrl+Shift+Alt+"    |
+| 水平分割     | Ctrl+Shift+Alt+%    |
 |          |                     |
