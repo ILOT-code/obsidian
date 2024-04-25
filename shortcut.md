@@ -364,3 +364,16 @@
 |             | 添加 case 块         | Alt+Shift+C            |
 |             | 添加矩阵块           | Alt+Shift+M            |
 # Wezterm
+
+
+| 作用   | 按键           |
+| ---- | ------------ |
+| 复制   | Ctrl+Shift+C |
+| 粘贴   | Ctrl+Shift+V |
+| 新建窗口 | Ctrl+Shift+N |
+| 减小字号 | Ctrl+-       |
+| 增加字号 | Ctrl+=       |
+| 重置字号 | Ctrl+0       |
+| 新标签  | Ctrl+Shift+T |
+| 关闭标签 | Ctrl+Shift+W |
+|      |              |
