@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "wezterm",
+      "path": "wezterm.md"
+    },
+    {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "VAE",
       "path": "Notecards/VAE.md"
     },
@@ -157,16 +165,8 @@
       "path": "Notecards/Transformer.md"
     },
     {
-      "basename": "shortcut",
-      "path": "shortcut.md"
-    },
-    {
       "basename": "Pytorch",
       "path": "Sundry/Pytorch.md"
-    },
-    {
-      "basename": "wezterm",
-      "path": "wezterm.md"
     },
     {
       "basename": "wang2024-model-w",
