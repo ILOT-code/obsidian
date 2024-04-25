@@ -366,34 +366,35 @@
 # Wezterm
 
 
-| 作用           | 按键                      |
-| ------------ | ----------------------- |
-| 复制           | Ctrl+Shift+C            |
-| 粘贴           | Ctrl+Shift+V            |
-| 新建窗口         | Ctrl+Shift+N            |
-| 减小字号         | Ctrl+-                  |
-| 增加字号         | Ctrl+=                  |
-| 重置字号         | Ctrl+0                  |
-| 新标签          | Ctrl+Shift+T            |
-| 关闭标签         | Ctrl+Shift+W            |
-| 到第几个标签       | Ctrl+Shift+(1,2,3)      |
-| 到下一个标签       | Ctrl+PageDown           |
-| 到上一个标签       | Ctrl+PageUp             |
-| 移到上一个标签      | Ctrl+Shift+PageUp       |
-| 移到下一个标签      | Ctrl+Shift+PageDown     |
-| 向前翻页         | Shift+PageUp            |
-| 向下翻页         | Shift+PageDown          |
-| 重新加载配置文件     | Ctrl+Shift+R            |
-| 清空           | Ctrl+Shift+K            |
-| 打开命令面板       | Ctrl+Shift+P            |
-| 搜索           | Ctrl+Shift+F            |
-| 进入复制模式       | Ctrl+Shift+X            |
-| 进入选择模式       | Ctrl+Shift+Space        |
-| 垂直分割         | Ctrl+Shift+Alt+"        |
-| 水平分割         | Ctrl+Shift+Alt+%        |
-| 调整 (分割后)面板大小 | Ctrl+Shift+Alt+Arrowkey |
-| 调整(分割后)焦点面板  | Ctrl+Shift+Arrowkey     |
-| 只显示该面板 (分割后) | Ctrl+Shift+Z            |
+| 作用                   | 按键                      |
+| -------------------- | ----------------------- |
+| 复制                   | Ctrl+Shift+C            |
+| 粘贴                   | Ctrl+Shift+V            |
+| 新建窗口                 | Ctrl+Shift+N            |
+| 减小字号                 | Ctrl+-                  |
+| 增加字号                 | Ctrl+=                  |
+| 重置字号                 | Ctrl+0                  |
+| 新标签                  | Ctrl+Shift+T            |
+| 关闭标签                 | Ctrl+Shift+W            |
+| 到第几个标签               | Ctrl+Shift+(1,2,3)      |
+| 到下一个标签               | Ctrl+PageDown           |
+| 到上一个标签               | Ctrl+PageUp             |
+| 移到上一个标签              | Ctrl+Shift+PageUp       |
+| 移到下一个标签              | Ctrl+Shift+PageDown     |
+| 向前翻页                 | Shift+PageUp            |
+| 向下翻页                 | Shift+PageDown          |
+| 重新加载配置文件             | Ctrl+Shift+R            |
+| 清空                   | Ctrl+Shift+K            |
+| 打开命令面板               | Ctrl+Shift+P            |
+| 搜索                   | Ctrl+Shift+F            |
+| 进入复制模式               | Ctrl+Shift+X            |
+| 进入选择模式               | Ctrl+Shift+Space        |
+| 垂直分割                 | Ctrl+Shift+Alt+"        |
+| 水平分割                 | Ctrl+Shift+Alt+%        |
+| 调整 (分割后)面板大小         | Ctrl+Shift+Alt+Arrowkey |
+| 调整(分割后) 面板焦点         | Ctrl+Shift+Arrowkey     |
+| 只显示该面板 (分割后)         | Ctrl+Shift+Z            |
+| 聚焦到 (0,1,2) 号面板（分割后） | Alt+(a, b, c)           |
 
 | 作用       | 按键     |
 | -------- | ------ |
