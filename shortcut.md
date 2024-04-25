@@ -366,14 +366,20 @@
 # Wezterm
 
 
-| 作用   | 按键           |
-| ---- | ------------ |
-| 复制   | Ctrl+Shift+C |
-| 粘贴   | Ctrl+Shift+V |
-| 新建窗口 | Ctrl+Shift+N |
-| 减小字号 | Ctrl+-       |
-| 增加字号 | Ctrl+=       |
-| 重置字号 | Ctrl+0       |
-| 新标签  | Ctrl+Shift+T |
-| 关闭标签 | Ctrl+Shift+W |
-|      |              |
+| 作用       | 按键                  |
+| -------- | ------------------- |
+| 复制       | Ctrl+Shift+C        |
+| 粘贴       | Ctrl+Shift+V        |
+| 新建窗口     | Ctrl+Shift+N        |
+| 减小字号     | Ctrl+-              |
+| 增加字号     | Ctrl+=              |
+| 重置字号     | Ctrl+0              |
+| 新标签      | Ctrl+Shift+T        |
+| 关闭标签     | Ctrl+Shift+W        |
+| 到第几个标签   | Ctrl+Shift+(1,2,3)  |
+| 到下一个标签   | Ctrl+Tab            |
+| 到上一个标签   | Ctrl+Shift+Tab      |
+| 移到上一个标签  | Ctrl+Shift+PageUp   |
+| 移到下一个标签  | Ctrl+Shift+PageDown |
+| 重新加载配置文件 | Ctrl+Shift+R        |
+|          |                     |
