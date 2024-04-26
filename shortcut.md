@@ -381,8 +381,10 @@
 | 到上一个标签               | Ctrl+PageUp             |
 | 移到上一个标签              | Ctrl+Shift+Up           |
 | 移到下一个标签              | Ctrl+Shift+Down         |
-| 向前翻页                 | Ctrl+                   |
-| 向下翻页                 | Shift+PageDown          |
+| 向前翻页                 | Ctrl+Alt+Up             |
+| 向下翻页                 | Ctrl+Alt+Down           |
+| 向前翻一行                | Ctrl+Up                 |
+| 向后翻一行                | Ctrl+Down               |
 | 重新加载配置文件             | Ctrl+Shift+R            |
 | 清空                   | Ctrl+Shift+K            |
 | 打开命令面板               | Ctrl+Shift+P            |
