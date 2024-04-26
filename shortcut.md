@@ -381,7 +381,7 @@
 | 到上一个标签               | Ctrl+PageUp             |
 | 移到上一个标签              | Ctrl+Shift+Up           |
 | 移到下一个标签              | Ctrl+Shift+Down         |
-| 向前翻页                 | Shift+PageUp            |
+| 向前翻页                 | Ctrl+                   |
 | 向下翻页                 | Shift+PageDown          |
 | 重新加载配置文件             | Ctrl+Shift+R            |
 | 清空                   | Ctrl+Shift+K            |
