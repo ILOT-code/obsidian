@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
+                "file": "wezterm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
+                "file": "wezterm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shortcut.md"
+                "file": "wezterm.md"
               }
             }
           },
@@ -188,7 +189,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "shortcut.md",
+                "file": "wezterm.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": null
@@ -218,10 +219,10 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "988a9b44c32628d3",
+  "active": "77a6fc9241efcf59",
   "lastOpenFiles": [
-    "wezterm.md",
     "shortcut.md",
+    "wezterm.md",
     "未命名.md",
     "Notecards/VAE.md",
     "Math/多元高斯分布.md",
