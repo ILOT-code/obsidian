@@ -379,8 +379,8 @@
 | 到第几个标签               | Ctrl+Shift+(1,2,3)      |
 | 到下一个标签               | Ctrl+PageDown           |
 | 到上一个标签               | Ctrl+PageUp             |
-| 移到上一个标签              | Ctrl+Shift+PageUp       |
-| 移到下一个标签              | Ctrl+Shift+PageDown     |
+| 移到上一个标签              | Ctrl+Shift+Up           |
+| 移到下一个标签              | Ctrl+Shift+Down         |
 | 向前翻页                 | Shift+PageUp            |
 | 向下翻页                 | Shift+PageDown          |
 | 重新加载配置文件             | Ctrl+Shift+R            |
