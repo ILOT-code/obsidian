@@ -388,6 +388,8 @@
 | 重新加载配置文件             | Ctrl+Shift+R            |
 | 清空                   | Ctrl+Shift+K            |
 | 打开命令面板               | Ctrl+Shift+P            |
+| 显示启动菜单               | Alt+L                   |
+| 启动 debug             | Ctrl+Shift+L            |
 | 搜索                   | Ctrl+Shift+F            |
 | 进入复制模式               | Ctrl+Shift+X            |
 | 进入选择模式               | Ctrl+Shift+Space        |
