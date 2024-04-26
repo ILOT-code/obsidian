@@ -393,8 +393,8 @@
 | 搜索                   | Ctrl+Shift+F            |
 | 进入复制模式               | Ctrl+Shift+X            |
 | 进入选择模式               | Ctrl+Shift+Space        |
-| 垂直分割                 | Ctrl+Shift+Alt+"        |
-| 水平分割                 | Ctrl+Shift+Alt+%        |
+| 垂直分割                 | Ctrl+\                  |
+| 水平分割                 | Ctrl+Shift+\            |
 | 调整 (分割后)面板大小         | Ctrl+Shift+Alt+Arrowkey |
 | 调整(分割后) 面板焦点         | Ctrl+Shift+Arrowkey     |
 | 只显示该面板 (分割后)         | Ctrl+Shift+Z            |
