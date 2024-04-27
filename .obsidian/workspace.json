@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sundry/Numpy.md",
+                "file": "shortcut.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sundry/Numpy.md",
+                "file": "shortcut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sundry/Numpy.md",
+                "file": "shortcut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sundry/Numpy.md"
+                "file": "shortcut.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Sundry/Numpy.md",
+                "file": "shortcut.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": null
@@ -207,6 +207,7 @@
   },
   "active": "988a9b44c32628d3",
   "lastOpenFiles": [
+    "Sundry/Numpy.md",
     "shortcut.md",
     "wezterm.md",
     "未命名.md",
@@ -232,7 +233,6 @@
     "LiteratureNotes/guo2023-compression.md",
     "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/flamich2022-fast.md",
-    "LiteratureNotes/deng2023-compressing.md",
     "literaturenotes.zip",
     "ziVputrH",
     "Attachments/Pasted image 20240415124551.png",
