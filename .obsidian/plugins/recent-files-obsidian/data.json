@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Numpy",
+      "path": "Sundry/Numpy.md"
+    },
+    {
       "basename": "shortcut",
       "path": "shortcut.md"
     },
@@ -187,10 +191,6 @@
     {
       "basename": "balle2017-endtoend-w",
       "path": "Paperwords/balle2017-endtoend-w.md"
-    },
-    {
-      "basename": "Numpy",
-      "path": "Sundry/Numpy.md"
     }
   ],
   "omittedPaths": [],
