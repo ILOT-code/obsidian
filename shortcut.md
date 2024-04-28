@@ -8,7 +8,7 @@
 | 启动终端                 | Ctrl+Alt+T               |
 | 切换到第一个工作区            | Super+Home               |
 | 切换到最后工作区             | Super+End                |
-| 在应用程序间切换             | Super+Tap                |
+| 在应用程序间切换             | Super+Tab                |
 | 在窗口间切换               | Alt+Tab                  |
 | 在应用程序的窗口间切换          | Super (Alt)+ `           |
 | 把当前窗口移动到(左，右)显示器     | Shift+Super+(left,right) |
@@ -132,21 +132,21 @@
 
 ## Navigation
 
-|作用|按键|
-|---|---|
-|在当前工作区中搜索符号|Ctrl+T|
-|转移到行|Ctrl+G|
-|快速打开文件|Ctrl+P|
-|转移到符号|Ctrl+Shift+O|
-|显示问题栏|Ctrl+Shift+M|
-|转到下一个问题(更改)|Ctrl+K Ctrl+E|
-|转到上一个问题(更改)|Ctrl+K E|
-|输入命令|Ctrl+Shift+P|
-|切换标签页|Ctrl+Tab|
-|返回|Ctrl+Alt+-|
-|前进|Ctrl+Shift+-|
-|聚焦到导航路径视图|Ctrl+Shift+;|
-|聚焦到导航路径视图并选择|Ctrl+Shift+.|
+| 作用              | 按键               |
+| --------------- | ---------------- |
+| 在当前工作区中搜索符号     | Ctrl+T           |
+| 转移到行            | Ctrl+G           |
+| 快速打开文件          | Ctrl+P           |
+| 转移到符号           | Ctrl+Shift+O     |
+| 显示问题栏           | Ctrl+Shift+M     |
+| 转到下一个问题(更改)     | Ctrl+K Ctrl+E    |
+| 转到上一个问题(更改)     | Ctrl+K E         |
+| 输入命令            | Ctrl+Shift+P     |
+| 切换标签页 (下一个，上一个) | Ctrl+(Shift)+Tab |
+| 返回              | Ctrl+Alt+-       |
+| 前进              | Ctrl+Shift+-     |
+| 聚焦到导航路径视图       | Ctrl+Shift+;     |
+| 聚焦到导航路径视图并选择    | Ctrl+Shift+.     |
 
 ## Edit/Window Management
 
