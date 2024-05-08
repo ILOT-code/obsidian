@@ -271,6 +271,9 @@
 | bookmarks      | 选择当前位置到前一个标记处 (可连按)            | Alt+Shift+J |
 | bookmarks      | 选择当前位置到下一个标记处 (可连按)            | Alt+Shift+L |
 | bookmarks      | 取消一次选择 (前两种选择了多次时，按这个可以取消一次选择) | Alt+Shift+K |
+| code ace jump  | 跳到特定字符                         | Alt+J       |
+| code ace jump  | 选择到特定字符                        | Alt+S       |
+| code ace jump  | 跳到特定行                          | Alt+L       |
 
 
 

@@ -1,9 +1,7 @@
 {
   "blue-topaz-theme@@background-settings-workplace-background-image": true,
-  "blue-topaz-theme@@background-settings-workplace-theme-dark": "background-settings-workplace-theme-dark-in-the-sky",
   "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-custom-option",
   "blue-topaz-theme@@background-image-settings-switch": true,
-  "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-default",
   "blue-topaz-theme@@toggle-nonoverlapping-bg": false,
   "blue-topaz-theme@@background-notebook-liked-switch": false,
   "blue-topaz-theme@@notebook-liked-markdown-page-options": "notebook-liked-markdown-page-stripe-notebook-1",
