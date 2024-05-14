@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "41e85c62bb2eccbe",
+        "id": "042b0a9f548a07ff",
         "type": "tabs",
         "children": [
           {
-            "id": "0ea9db1f8892aa3d",
+            "id": "23ad4cfbc5126413",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -191,17 +191,20 @@
       "command-palette:打开命令面板": false,
       "obsidian-file-cleaner:清理文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "cmdr:ZotLit: Refresh Zotero data": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "cmdr:ZotLit: Open quick switcher for literature notes": false,
+      "cmdr:ZotLit: Refresh Zotero data": false
     }
   },
-  "active": "0ea9db1f8892aa3d",
+  "active": "23ad4cfbc5126413",
   "lastOpenFiles": [
+    "LiteratureNotes/dettmers2022-llm.md",
+    "未命名 2.md",
+    "LiteratureNotes/ding2024-efficiency.md",
     "ZtTemplates/zt-annot.eta.md",
     "LiteratureNotes/zt-import/Comment_ Published at NeurIPS 2022. Camera-ready version.md",
     "LiteratureNotes/zt-import",
     "shortcut.md",
-    "未命名 2.md",
     "未命名 1.md",
     "Sundry/Numpy.md",
     "wezterm.md",
@@ -222,8 +225,6 @@
     "LiteratureNotes/salimans2022-progressive.md",
     "LiteratureNotes/muller2022-instant.md",
     "LiteratureNotes/marpe2003-contextbased.md",
-    "LiteratureNotes/liu2023-learned.md",
-    "LiteratureNotes/ladune2023-coolchic.md",
     "literaturenotes.zip",
     "ziVputrH",
     "Attachments/Pasted image 20240415124551.png",

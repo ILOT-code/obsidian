@@ -10,6 +10,12 @@
       "icon": "refresh-cw",
       "name": "ZotLit: Refresh Zotero data",
       "mode": "any"
+    },
+    {
+      "id": "zotlit:note-quick-switcher",
+      "icon": "at-sign",
+      "name": "ZotLit: Open quick switcher for literature notes",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],

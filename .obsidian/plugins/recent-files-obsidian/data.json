@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "dettmers2022-llm",
+      "path": "LiteratureNotes/dettmers2022-llm.md"
+    },
+    {
       "basename": "zt-annot.eta",
       "path": "ZtTemplates/zt-annot.eta.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2024-04-08",
       "path": "diary/2024-04-08.md"
-    },
-    {
-      "basename": "hazimeh2021-dselectk-w",
-      "path": "Paperwords/hazimeh2021-dselectk-w.md"
     }
   ],
   "omittedPaths": [],
