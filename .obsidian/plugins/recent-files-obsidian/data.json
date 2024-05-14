@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "dettmers2022-llm-w",
+      "path": "dettmers2022-llm-w.md"
+    },
+    {
+      "basename": "未命名 3",
+      "path": "未命名 3.md"
+    },
+    {
       "basename": "dettmers2022-llm",
       "path": "LiteratureNotes/dettmers2022-llm.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Pytorch",
       "path": "Sundry/Pytorch.md"
-    },
-    {
-      "basename": "wang2024-model-w",
-      "path": "Paperwords/wang2024-model-w.md"
-    },
-    {
-      "basename": "yang2023-lossy-w",
-      "path": "Paperwords/yang2023-lossy-w.md"
     }
   ],
   "omittedPaths": [],
