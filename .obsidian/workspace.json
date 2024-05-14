@@ -11,8 +11,12 @@
             "id": "23ad4cfbc5126413",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/dettmers2022-llm.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 282.5
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -167,18 +171,18 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "itemId": -1,
-                "attachmentId": -1,
-                "follow": null
+                "itemId": 148,
+                "attachmentId": 150,
+                "follow": "zt-reader"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 393.5,
+    "width": 237.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -191,14 +195,15 @@
       "command-palette:打开命令面板": false,
       "obsidian-file-cleaner:清理文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "hidden-folder-obsidian:显示文件夹": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Refresh Zotero data": false
+      "cmdr:ZotLit: Refresh Zotero data": false,
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "23ad4cfbc5126413",
+  "active": "3ff7369599ba655b",
   "lastOpenFiles": [
     "LiteratureNotes/dettmers2022-llm.md",
+    "ZtTemplates/zt-note.eta.md",
     "未命名 2.md",
     "LiteratureNotes/ding2024-efficiency.md",
     "ZtTemplates/zt-annot.eta.md",
@@ -224,7 +229,6 @@
     "LiteratureNotes/sneyers2016-flif.md",
     "LiteratureNotes/salimans2022-progressive.md",
     "LiteratureNotes/muller2022-instant.md",
-    "LiteratureNotes/marpe2003-contextbased.md",
     "literaturenotes.zip",
     "ziVputrH",
     "Attachments/Pasted image 20240415124551.png",

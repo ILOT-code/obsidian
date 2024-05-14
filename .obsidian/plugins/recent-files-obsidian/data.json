@@ -5,6 +5,10 @@
       "path": "LiteratureNotes/dettmers2022-llm.md"
     },
     {
+      "basename": "zt-note.eta",
+      "path": "ZtTemplates/zt-note.eta.md"
+    },
+    {
       "basename": "zt-annot.eta",
       "path": "ZtTemplates/zt-annot.eta.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "yang2023-lossy-w",
       "path": "Paperwords/yang2023-lossy-w.md"
-    },
-    {
-      "basename": "2024-04-08",
-      "path": "diary/2024-04-08.md"
     }
   ],
   "omittedPaths": [],
