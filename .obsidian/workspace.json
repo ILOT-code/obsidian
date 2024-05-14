@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "73555e6429ec97f4",
+        "id": "41e85c62bb2eccbe",
         "type": "tabs",
         "children": [
           {
-            "id": "c1dd6cae7db185ce",
+            "id": "0ea9db1f8892aa3d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -191,12 +191,15 @@
       "command-palette:打开命令面板": false,
       "obsidian-file-cleaner:清理文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "cmdr:ZotLit: Import note": false,
-      "cmdr:ZotLit: Refresh Zotero data": false
+      "cmdr:ZotLit: Refresh Zotero data": false,
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "c1dd6cae7db185ce",
+  "active": "0ea9db1f8892aa3d",
   "lastOpenFiles": [
+    "ZtTemplates/zt-annot.eta.md",
+    "LiteratureNotes/zt-import/Comment_ Published at NeurIPS 2022. Camera-ready version.md",
+    "LiteratureNotes/zt-import",
     "shortcut.md",
     "未命名 2.md",
     "未命名 1.md",
@@ -221,8 +224,6 @@
     "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/ladune2023-coolchic.md",
-    "LiteratureNotes/hazimeh2021-dselectk.md",
-    "LiteratureNotes/guo2023-compression.md",
     "literaturenotes.zip",
     "ziVputrH",
     "Attachments/Pasted image 20240415124551.png",
@@ -243,7 +244,6 @@
     "LiteratureNotes",
     "ZtTemplates",
     "Attachments/monaco.ttf",
-    "monaco.ttf",
-    "Excalidraw"
+    "monaco.ttf"
   ]
 }

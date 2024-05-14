@@ -6,12 +6,6 @@
   "fileMenu": [],
   "leftRibbon": [
     {
-      "id": "zotlit:import-note",
-      "icon": "at-sign",
-      "name": "ZotLit: Import note",
-      "mode": "any"
-    },
-    {
       "id": "zotlit:refresh-zotero-data",
       "icon": "refresh-cw",
       "name": "ZotLit: Refresh Zotero data",

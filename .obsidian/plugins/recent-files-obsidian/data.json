@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "zt-annot.eta",
+      "path": "ZtTemplates/zt-annot.eta.md"
+    },
+    {
       "basename": "shortcut",
       "path": "shortcut.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "hazimeh2021-dselectk-w",
       "path": "Paperwords/hazimeh2021-dselectk-w.md"
-    },
-    {
-      "basename": "balle2017-endtoend-w",
-      "path": "Paperwords/balle2017-endtoend-w.md"
     }
   ],
   "omittedPaths": [],
