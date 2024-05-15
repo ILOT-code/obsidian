@@ -54,7 +54,8 @@ $$
 ![[Pasted image 20240515161445.png]]
 $\boldsymbol{S}$ 是和 $\boldsymbol{W}$ 形状相等的。$\boldsymbol{S}$ 当然可以采用最简单的形式：各个位置的元素完全独立，并且作者声称这样的 tensor-wise 也能达到和全精度模型相同的性能。作者还通过改进 $\boldsymbol{S}$ 的结构来提供性能。
 $$
-\widehat{\boldsymbol{W}}=\begin{cases}s_1\left\lfloor\frac W{s_1\odot\boldsymbol{S}_2\odot\boldsymbol{s}_3}\right\rceil&\text{for a linear layer}\\ \\
-s_1\left\lfloor\frac W{s_1\odot\boldsymbol{S}_2\odot\boldsymbol{s}_3\odot\boldsymbol{s}_4}\right\rceil&\text{for a 2D convolution}\end{cases}
+\widehat{\boldsymbol{W}}=\begin{cases}s_1\left\lfloor\frac {\boldsymbol{W}}{s_1\odot\boldsymbol{S}_2\odot\boldsymbol{s}_3}\right\rceil&\text{for a linear layer}\\ \\
+s_1\left\lfloor\frac {\boldsymbol{W}}{s_1\odot\boldsymbol{S}_2\odot\boldsymbol{s}_3\odot\boldsymbol{s}_4}\right\rceil&\text{for a 2D convolution}\end{cases}
 $$
-对于线性层，$\boldsymbol{W}$ 
+对于线性层，$\boldsymbol{W}\in \mathbb{R}^{C_{out}\times C_{in}},\boldsymbol{s_{3}\in \mathbb{R}^{C_{out}\times 1}}$。
+对应卷积层，$\boldsymbol{W}\in\dot{\mathbb{R}^{C_{out}\times C_{in}\times H\times W}},\boldsymbol{s}_3 \in \mathbb{R}_{>0}^{C_{out}\times1\times1\times1},\boldsymbol{s}_4 \in \mathbb{R}_{>0}^{1\times C_\times1\times1}$
