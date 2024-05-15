@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/dettmers2022-llm.md",
+                "file": "shortcut.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/dettmers2022-llm.md",
+                "file": "shortcut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/dettmers2022-llm.md",
+                "file": "shortcut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/dettmers2022-llm.md"
+                "file": "shortcut.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/dettmers2022-llm.md",
+                "file": "shortcut.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -214,11 +214,13 @@
       "obsidian-file-cleaner:清理文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Refresh Zotero data": false
+      "cmdr:ZotLit: Refresh Zotero data": false,
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
   "active": "376b4e2b545219d1",
   "lastOpenFiles": [
+    "LiteratureNotes/dettmers2022-llm.md",
     "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/tang2023-scene.md",
@@ -227,7 +229,6 @@
     "Attachments/Pasted image 20240515161445.png",
     "Attachments/Pasted image 20240515153907.png",
     "LiteratureNotes/wang2024-model.md",
-    "LiteratureNotes/dettmers2022-llm.md",
     "LiteratureNotes/guo2023-compression.md",
     "LiteratureNotes/hazimeh2021-dselectk.md",
     "LiteratureNotes/ali2023-efficient.md",

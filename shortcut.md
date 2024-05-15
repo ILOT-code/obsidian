@@ -46,11 +46,11 @@
     
 - `:` 跳转到行数，也可以`Ctrl+G`直接进入
     
-- `@` 跳转到 symbol（搜索变量或者函数），也可以 Ctrl+Shift+O 直接进入
+- `@` 在当前文件中，跳转到 symbol（搜索变量或者函数），也可以 Ctrl+Shift+O 直接进入
     
 - `@:`根据分类跳转symbol，查找属性或函数，也可以`Ctrl+Shift+O`后输入`:`进入
     
-- `#` 根据名字查找symbol，也可以`Ctrl+T`
+- `#` 在当前目录中，根据名字查找symbol，也可以 `Ctrl+T`
     
 
 ## Basic Editing
@@ -88,7 +88,7 @@
 | 以单词为单位跳转                 | Ctrl+Left(Right)      |
 | 滚动屏幕一行                   | Ctrl+Up(Down)         |
 | 滚动屏幕一页(更改)               | Ctrl+Alt+Up(Down)     |
-| 按方向选中                    | Shift+Arrow           |
+| 按跳转方向选中                  | Shift+Jump            |
 | 折叠当前所在块                  | Ctrl+Shift+[          |
 | 展开当前所在块                  | Ctrl+Shift+]          |
 | 折叠当前块(以递归方式)(更改)         | Ｃtrl+Alt+[            |

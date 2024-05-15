@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "dettmers2022-llm",
       "path": "LiteratureNotes/dettmers2022-llm.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "zt-annot.eta",
       "path": "ZtTemplates/zt-annot.eta.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "未命名 2",
