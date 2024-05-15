@@ -57,5 +57,6 @@ $$
 \widehat{\boldsymbol{W}}=\begin{cases}s_1\left\lfloor\frac {\boldsymbol{W}}{s_1\odot\boldsymbol{S}_2\odot\boldsymbol{s}_3}\right\rceil&\text{for a linear layer}\\ \\
 s_1\left\lfloor\frac {\boldsymbol{W}}{s_1\odot\boldsymbol{S}_2\odot\boldsymbol{s}_3\odot\boldsymbol{s}_4}\right\rceil&\text{for a 2D convolution}\end{cases}
 $$
-对于线性层，$\boldsymbol{W}\in \mathbb{R}^{C_{out}\times C_{in}},\boldsymbol{s_{3}\in \mathbb{R}^{C_{out}\times 1}}$。
-对应卷积层，$\boldsymbol{W}\in\dot{\mathbb{R}^{C_{out}\times C_{in}\times H\times W}},\boldsymbol{s}_3 \in \mathbb{R}_{>0}^{C_{out}\times1\times1\times1},\boldsymbol{s}_4 \in \mathbb{R}_{>0}^{1\times C_\times1\times1}$
+对于线性层，$\boldsymbol{W}\in \mathbb{R}^{C_{out}\times C_{in}},\boldsymbol{s_{3}}\in \mathbb{R}^{C_{out}\times 1}_{>0}$。
+对应卷积层，$\boldsymbol{W}\in\dot{\mathbb{R}^{C_{out}\times C_{in}\times H\times W}},\boldsymbol{s}_3 \in \mathbb{R}_{>0}^{C_{out}\times1\times1\times1},\boldsymbol{s}_4 \in \mathbb{R}_{>0}^{1\times C_{in}\times1\times1}$
+引入了一些分块、分 vector 的特征。全部参数一开始全部置 1，以使 $\widehat{\boldsymbol{W}}$ 近似于 $\boldsymbol{W}$.
