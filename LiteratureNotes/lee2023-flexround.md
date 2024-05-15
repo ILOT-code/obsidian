@@ -31,4 +31,4 @@ tags:
 quantization-aware training (QAT)：网络量化过程和网络的训练过程是共同进行的，它需要在完整的训练数据集上进行端到端的再训练或微调，花费很大。
 post-training quantization (PTQ)：不需要整个数据集上进行训练，也不需要端到端的学习，模型量化完成后直接使用。
 
-PTQ 方法，一般而言就是把原来的权重进行放缩，然后直接舍如到最近的整数，$\boldsymbol{\widehat{W}}=s\lfloor \frac{\boldsymbol{W}}{s}\rceil$,
+PTQ 方法，一般而言就是把原来的权重进行放缩，然后直接舍如到最近的整数，$\boldsymbol{\widehat{W}}=s\lfloor \frac{\boldsymbol{W}}{s}\rceil$。这种简单的量化方式会带来严重的性能退化，这种量化可以看成给原来的 $\boldsymbol{W}$ 添加一个扰动项，这一层的输出可以以权重为变量展开到二阶项，性能退化主要来源于二阶项上的误差。
