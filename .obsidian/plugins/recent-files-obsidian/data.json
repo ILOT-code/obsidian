@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "lee2023-flexround",
+      "path": "LiteratureNotes/lee2023-flexround.md"
+    },
+    {
       "basename": "wang2024-model",
       "path": "LiteratureNotes/wang2024-model.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Transformer",
       "path": "Notecards/Transformer.md"
-    },
-    {
-      "basename": "Pytorch",
-      "path": "Sundry/Pytorch.md"
     }
   ],
   "omittedPaths": [],

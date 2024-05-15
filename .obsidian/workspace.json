@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "LiteratureNotes/lee2023-flexround.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "LiteratureNotes/lee2023-flexround.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "LiteratureNotes/lee2023-flexround.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md"
+                "file": "LiteratureNotes/lee2023-flexround.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "LiteratureNotes/lee2023-flexround.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -220,6 +220,8 @@
   },
   "active": "376b4e2b545219d1",
   "lastOpenFiles": [
+    "LiteratureNotes/wang2024-model.md",
+    "LiteratureNotes/lee2023-flexround.md",
     "LiteratureNotes/guo2023-compression.md",
     "LiteratureNotes/hazimeh2021-dselectk.md",
     "LiteratureNotes/ali2023-efficient.md",
@@ -245,8 +247,6 @@
     "charls.md",
     "CompressionFromCV.md",
     "LiteratureNotes/yang2023-tinc.md",
-    "LiteratureNotes/ANS及其实现技巧 1.md",
-    "LiteratureNotes/yang2023-lossy.md",
     "literaturenotes.zip",
     "ziVputrH",
     "Attachments/Pasted image 20240415124551.png",
