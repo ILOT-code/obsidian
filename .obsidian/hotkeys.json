@@ -86,10 +86,11 @@
       "key": "S"
     }
   ],
-  "easy-typing-obsidian:easy-typing-insert-codeblock": [
+  "easy-typing-obsidian:easy-typing-insert-codeblock": [],
+  "editor:insert-codeblock": [
     {
       "modifiers": [
-        "Alt",
+        "Mod",
         "Shift"
       ],
       "key": "K"

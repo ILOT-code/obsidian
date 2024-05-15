@@ -332,42 +332,42 @@
 # Obsidian
 
 
-| 来源          | 作用              | 按键                     |
-| ----------- | --------------- | ---------------------- |
-| 原生          | 保存              | Ctrl+S                 |
-|             | 插入链接            | Ctrl+K                 |
-|             | 打开设置            | Ctrl+,                 |
-|             | 返回              | Ctrl+Alt+-             |
-|             | 前进              | Ctrl+Shift+-           |
-|             | 关闭标签            | Ctrl+W                 |
-|             | 关闭窗口            | Ctrl+Shift+W           |
-|             | 加粗              | Ctrl+B                 |
-|             | 倾斜              | Ctrl+I                 |
-|             | 切换文件            | Ctrl+O                 |
-|             | 打开命令面板          | Ctrl+P                 |
-|             | 切换编辑/预览         | Ctrl+E                 |
-|             | 删除段落            | Ctrl+D                 |
-|             | 搜索              | Ctrl+F                 |
-|             | 搜索替换            | Ctrl+H                 |
-|             | 在所有文件中搜索        | Ctrl+Shift+F           |
-|             | 新建标签页           | Ctrl+T                 |
-|             | 新建笔记            | Ctrl+N                 |
-|             | 在右侧新建笔记         | Ctrl+Shift+N           |
-|             | 增加文件属性          | Ctrl+;                 |
-|             | 转到标签            | Ctrl+(1,2,3)           |
-|             | 到上 (下) 一个标签       | Ctrl+(PageUp, PageDown) |
-|             | 左右分屏            | Ctrl+\                 |
-|             | 插入表格            | Ctrl+Shift+B           |
-| Easy typing | 插入代码块           | Alt+Shift+K            |
-|             | 格式化全文           | Alt+Shift+S            |
-|             | 格式化选中部分/当前行     | Alt+Shift+L            |
-|             | 切换自动格式化         | Alt+Shift+O            |
-|             | 删除选中部分/全文多余的空白行 | Alt+Shift+D            |
-| Quick Latex | 添加 align 块        | Alt+Shift+A            |
-|             | 添加数学块           | Ctrl+Shift+M           |
-|             | 添加行内数学块         | Ctrl+M                 |
-|             | 添加 case 块         | Alt+Shift+C            |
-|             | 添加矩阵块           | Alt+Shift+M            |
+| 来源          | 作用              | 按键                      |
+| ----------- | --------------- | ----------------------- |
+| 原生          | 保存              | Ctrl+S                  |
+|             | 插入链接            | Ctrl+K                  |
+|             | 打开设置            | Ctrl+,                  |
+|             | 返回              | Ctrl+Alt+-              |
+|             | 前进              | Ctrl+Shift+-            |
+|             | 关闭标签            | Ctrl+W                  |
+|             | 关闭窗口            | Ctrl+Shift+W            |
+|             | 加粗              | Ctrl+B                  |
+|             | 倾斜              | Ctrl+I                  |
+|             | 切换文件            | Ctrl+O                  |
+|             | 打开命令面板          | Ctrl+P                  |
+|             | 切换编辑/预览         | Ctrl+E                  |
+|             | 删除段落            | Ctrl+D                  |
+|             | 搜索              | Ctrl+F                  |
+|             | 搜索替换            | Ctrl+H                  |
+|             | 在所有文件中搜索        | Ctrl+Shift+F            |
+|             | 新建标签页           | Ctrl+T                  |
+|             | 新建笔记            | Ctrl+N                  |
+|             | 在右侧新建笔记         | Ctrl+Shift+N            |
+|             | 增加文件属性          | Ctrl+;                  |
+|             | 转到标签            | Ctrl+(1,2,3)            |
+|             | 到上 (下) 一个标签     | Ctrl+(PageUp, PageDown) |
+|             | 左右分屏            | Ctrl+\                  |
+|             | 插入表格            | Ctrl+Shift+B            |
+| Easy Typing | 插入代码块           | Ctrl+Shift+K            |
+|             | 格式化全文           | Alt+Shift+S             |
+|             | 格式化选中部分/当前行     | Alt+Shift+L             |
+|             | 切换自动格式化         | Alt+Shift+O             |
+|             | 删除选中部分/全文多余的空白行 | Alt+Shift+D             |
+| Quick Latex | 添加 align 块      | Alt+Shift+A             |
+|             | 添加数学块           | Ctrl+Shift+M            |
+|             | 添加行内数学块         | Ctrl+M                  |
+|             | 添加 case 块       | Alt+Shift+C             |
+|             | 添加矩阵块           | Alt+Shift+M             |
 # Wezterm
 
 
