@@ -26,5 +26,9 @@ tags:
 
 
 ## Introduction
-网络的量化技术可以被
+网络的量化技术可以被分为两类：
 
+quantization-aware training (QAT)：网络量化过程和网络的训练过程是共同进行的，它需要在完整的训练数据集上进行端到端的再训练或微调，花费很大。
+post-training quantization (PTQ)：不需要整个数据集上进行训练，也不需要端到端的学习，模型量化完成后直接使用。
+
+PTQ 方法，一般而言就是
