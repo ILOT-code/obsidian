@@ -42,5 +42,12 @@ PTQ 方法，一般而言就是把原来的权重进行放缩，然后直接舍�
 $$\|\boldsymbol{W}X-\widehat{\boldsymbol{W}}\widetilde{\boldsymbol{X}}\|_F^2$$
 现有的研究一般都是以逐元素相加的方式：
 $$
-s_1(\lfloor\frac{\boldsymbol{W}}{s_1}\rfloor+h(\boldsymbol{V}))
+\begin{align*}
+\widehat{\boldsymbol{W}}&=s_1(\lfloor\frac{\boldsymbol{W}}{s_1}\rfloor+h(\boldsymbol{V}))\\
+\widehat{\boldsymbol{W}}&=s_1\bigg\lfloor\frac{\boldsymbol{W}+\boldsymbol{V}}{s_1}\bigg\rceil 
+\end{align*}
+
 $$
+函数 $h$ 和连续变量 $\boldsymbol{V}$ 可以学习得到。
+
+在这种逐元素相加的方法中，可学习的 $h,\boldsymbol{V}$ 都和具体位置上的元素 $\boldsymbol{W}_{ij}$ 没有什么
