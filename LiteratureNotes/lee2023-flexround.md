@@ -61,4 +61,4 @@ $$
 对应卷积层，$\boldsymbol{W}\in\dot{\mathbb{R}^{C_{out}\times C_{in}\times H\times W}},\boldsymbol{s}_3 \in \mathbb{R}_{>0}^{C_{out}\times1\times1\times1},\boldsymbol{s}_4 \in \mathbb{R}_{>0}^{1\times C_{in}\times1\times1}$
 引入了一些分块、分 vector 的特征。全部参数一开始全部置 1，以使 $\widehat{\boldsymbol{W}}$ 近似于 $\boldsymbol{W}$.
 
-在这样的设计下，
+令 $S^{\prime}=\boldsymbol{S_{2}\odot \boldsymbol{s_3}}$ 在这样的设计下，$\left|\frac{\partial\mathcal{L}}{\partial S_{(i, j)}^{\prime}}\right|$ 正比于 $\left|W_{(i, j)}\frac{\partial\mathcal{L}}{\partial\widehat{W}_{(i, j)}}\right|$ (采用 STE 的反向求导模式)。
