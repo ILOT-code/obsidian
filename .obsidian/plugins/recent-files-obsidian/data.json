@@ -9,6 +9,10 @@
       "path": "LiteratureNotes/wang2024-model.md"
     },
     {
+      "basename": "dettmers2022-llm",
+      "path": "LiteratureNotes/dettmers2022-llm.md"
+    },
+    {
       "basename": "guo2023-compression",
       "path": "LiteratureNotes/guo2023-compression.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "未命名 3",
       "path": "未命名 3.md"
-    },
-    {
-      "basename": "dettmers2022-llm",
-      "path": "LiteratureNotes/dettmers2022-llm.md"
     },
     {
       "basename": "zt-note.eta",
