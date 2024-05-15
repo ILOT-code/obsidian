@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "shortcut.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -220,6 +220,10 @@
   },
   "active": "376b4e2b545219d1",
   "lastOpenFiles": [
+    "未命名 6.md",
+    "shortcut.md",
+    "未命名 5.md",
+    "未命名 4.md",
     "LiteratureNotes/dettmers2022-llm.md",
     "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/flamich2022-fast.md",
@@ -241,15 +245,11 @@
     "ZtTemplates/zt-annot.eta.md",
     "LiteratureNotes/zt-import/Comment_ Published at NeurIPS 2022. Camera-ready version.md",
     "LiteratureNotes/zt-import",
-    "shortcut.md",
     "未命名 1.md",
     "Sundry/Numpy.md",
     "wezterm.md",
     "未命名.md",
     "Notecards/VAE.md",
-    "Math/多元高斯分布.md",
-    "Notecards/ANS及其实现技巧.md",
-    "Notecards/Arithmetic Coding.md",
     "literaturenotes.zip",
     "ziVputrH",
     "Attachments/Pasted image 20240415124551.png",

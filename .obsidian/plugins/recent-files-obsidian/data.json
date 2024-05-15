@@ -5,6 +5,18 @@
       "path": "shortcut.md"
     },
     {
+      "basename": "未命名 6",
+      "path": "未命名 6.md"
+    },
+    {
+      "basename": "未命名 5",
+      "path": "未命名 5.md"
+    },
+    {
+      "basename": "未命名 4",
+      "path": "未命名 4.md"
+    },
+    {
       "basename": "dettmers2022-llm",
       "path": "LiteratureNotes/dettmers2022-llm.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "独立成分分析",
       "path": "Notecards/独立成分分析.md"
-    },
-    {
-      "basename": "常见的伪影",
-      "path": "Notecards/常见的伪影.md"
-    },
-    {
-      "basename": "无符号整数除法计算的优化",
-      "path": "Notecards/无符号整数除法计算的优化.md"
-    },
-    {
-      "basename": "Transformer",
-      "path": "Notecards/Transformer.md"
     }
   ],
   "omittedPaths": [],
