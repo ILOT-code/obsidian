@@ -50,4 +50,6 @@ $$
 $$
 函数 $h$ 和连续变量 $\boldsymbol{V}$ 可以学习得到。
 
-
+作者提出的确实另一种逐元素除的形式：
+![[Pasted image 20240515161445.png]]
+$\boldsymbol{S}$ 是和 $\boldsymbol{W}$ 形状相等的。$\boldsymbol{S}$ 当然可以采用最简单的形式：各个位置的元素完全独立，并且作者 
