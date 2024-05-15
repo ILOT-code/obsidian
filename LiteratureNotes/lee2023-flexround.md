@@ -67,3 +67,7 @@ $$
 
 
 ![[Pasted image 20240515165159.png]]
+
+
+
+toread: AdaRound, AdaQuant, BRECQ, QDrop

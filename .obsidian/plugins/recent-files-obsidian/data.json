@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "dettmers2022-llm",
+      "path": "LiteratureNotes/dettmers2022-llm.md"
+    },
+    {
+      "basename": "girish2023-shacira",
+      "path": "LiteratureNotes/girish2023-shacira.md"
+    },
+    {
+      "basename": "flamich2022-fast",
+      "path": "LiteratureNotes/flamich2022-fast.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
       "basename": "lee2023-flexround",
       "path": "LiteratureNotes/lee2023-flexround.md"
     },
     {
       "basename": "wang2024-model",
       "path": "LiteratureNotes/wang2024-model.md"
-    },
-    {
-      "basename": "dettmers2022-llm",
-      "path": "LiteratureNotes/dettmers2022-llm.md"
     },
     {
       "basename": "guo2023-compression",
@@ -97,10 +109,6 @@
       "path": "LiteratureNotes/yang2023-lossy.md"
     },
     {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
       "basename": "sun2023-all",
       "path": "LiteratureNotes/sun2023-all.md"
     },
@@ -123,14 +131,6 @@
     {
       "basename": "ladune2023-coolchic",
       "path": "LiteratureNotes/ladune2023-coolchic.md"
-    },
-    {
-      "basename": "girish2023-shacira",
-      "path": "LiteratureNotes/girish2023-shacira.md"
-    },
-    {
-      "basename": "flamich2022-fast",
-      "path": "LiteratureNotes/flamich2022-fast.md"
     },
     {
       "basename": "deng2023-compressing",
