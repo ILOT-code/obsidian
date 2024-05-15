@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "wang2024-model",
+      "path": "LiteratureNotes/wang2024-model.md"
+    },
+    {
+      "basename": "guo2023-compression",
+      "path": "LiteratureNotes/guo2023-compression.md"
+    },
+    {
+      "basename": "hazimeh2021-dselectk",
+      "path": "LiteratureNotes/hazimeh2021-dselectk.md"
+    },
+    {
+      "basename": "ali2023-efficient",
+      "path": "LiteratureNotes/ali2023-efficient.md"
+    },
+    {
       "basename": "liu2023-learned",
       "path": "LiteratureNotes/liu2023-learned.md"
     },
@@ -77,10 +93,6 @@
       "path": "LiteratureNotes/yang2023-lossy.md"
     },
     {
-      "basename": "wang2024-model",
-      "path": "LiteratureNotes/wang2024-model.md"
-    },
-    {
       "basename": "tang2023-scene",
       "path": "LiteratureNotes/tang2023-scene.md"
     },
@@ -109,14 +121,6 @@
       "path": "LiteratureNotes/ladune2023-coolchic.md"
     },
     {
-      "basename": "hazimeh2021-dselectk",
-      "path": "LiteratureNotes/hazimeh2021-dselectk.md"
-    },
-    {
-      "basename": "guo2023-compression",
-      "path": "LiteratureNotes/guo2023-compression.md"
-    },
-    {
       "basename": "girish2023-shacira",
       "path": "LiteratureNotes/girish2023-shacira.md"
     },
@@ -127,10 +131,6 @@
     {
       "basename": "deng2023-compressing",
       "path": "LiteratureNotes/deng2023-compressing.md"
-    },
-    {
-      "basename": "ali2023-efficient",
-      "path": "LiteratureNotes/ali2023-efficient.md"
     },
     {
       "basename": "alakuijala2019-jpeg",

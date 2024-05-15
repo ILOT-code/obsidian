@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dettmers2022-llm-w.md",
+                "file": "LiteratureNotes/wang2024-model.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dettmers2022-llm-w.md",
+                "file": "LiteratureNotes/wang2024-model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dettmers2022-llm-w.md",
+                "file": "LiteratureNotes/wang2024-model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dettmers2022-llm-w.md"
+                "file": "LiteratureNotes/wang2024-model.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "dettmers2022-llm-w.md",
+                "file": "LiteratureNotes/wang2024-model.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -220,8 +220,12 @@
   },
   "active": "376b4e2b545219d1",
   "lastOpenFiles": [
-    "未命名 3.md",
+    "LiteratureNotes/guo2023-compression.md",
+    "LiteratureNotes/hazimeh2021-dselectk.md",
+    "LiteratureNotes/ali2023-efficient.md",
+    "LiteratureNotes/liu2023-learned.md",
     "dettmers2022-llm-w.md",
+    "未命名 3.md",
     "LiteratureNotes/dettmers2022-llm.md",
     "ZtTemplates/zt-note.eta.md",
     "未命名 2.md",
@@ -243,10 +247,6 @@
     "LiteratureNotes/yang2023-tinc.md",
     "LiteratureNotes/ANS及其实现技巧 1.md",
     "LiteratureNotes/yang2023-lossy.md",
-    "LiteratureNotes/wang2024-model.md",
-    "LiteratureNotes/tang2023-scene.md",
-    "LiteratureNotes/sun2023-all.md",
-    "LiteratureNotes/sneyers2016-flif.md",
     "literaturenotes.zip",
     "ziVputrH",
     "Attachments/Pasted image 20240415124551.png",
