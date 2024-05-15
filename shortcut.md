@@ -358,8 +358,8 @@
 |             | 到上 (下) 一个标签     | Ctrl+(PageUp, PageDown) |
 |             | 左右分屏            | Ctrl+\                  |
 |             | 插入表格            | Ctrl+Shift+B            |
-| Easy Typing | 插入代码块           | Ctrl+Shift+K            |
-|             | 格式化全文           | Alt+Shift+S             |
+|             | 插入代码块           | Ctrl+Shift+K            |
+| Easy Typing | 格式化全文           | Alt+Shift+S             |
 |             | 格式化选中部分/当前行     | Alt+Shift+L             |
 |             | 切换自动格式化         | Alt+Shift+O             |
 |             | 删除选中部分/全文多余的空白行 | Alt+Shift+D             |
