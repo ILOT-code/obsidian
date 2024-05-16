@@ -76,5 +76,11 @@ $$
 假设要计算两个 16 位浮点数的乘法，$\boldsymbol{X}_{f16}\boldsymbol{W}_{f16}$，分别为 $\boldsymbol{X}_{f16}$ 的每一行，$\boldsymbol{W}_{f16}$ 的每一列单独进行量化（使用 Adsmax 和 zeropoint 都行），都计算出尺度因子，并计算出 $\boldsymbol{X}_{i8},\boldsymbol{W}_{i8}$，就有：
 $$
 \boldsymbol{X}_{f16}\boldsymbol{W}_{f16}=\boldsymbol{C}_{f16}
-\approx \boldsymbol{S}_{f16}\boldsymbol{X}_{i8}\boldsymbol{W}_{i8}
+\approx \frac1{\mathbf{c}_{x_{f16}}\otimes\mathbf{c}_{w_{f16}}}\boldsymbol{X}_{i8}\boldsymbol{W}_{i8}
 $$
+
+
+## 对异常维度的分离
+异常值虽然多，但他们集中在几个维度，因此，可以把原来的矩阵乘法分解开来，这些异常维度单独使用全精度的计算。最后再拼接到一起。
+![[Pasted image 20240516164025.png]]
+设 $\boldsymbol{X}_{f16}\in \mathbb{R}^{s\times h},\boldsymbol{W}_{f16} \in \mmathbb$,
