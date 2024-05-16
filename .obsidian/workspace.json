@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/lee2023-flexround.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/lee2023-flexround.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/lee2023-flexround.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/lee2023-flexround.md"
+                "file": "Notecards/Arithmetic Coding.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/lee2023-flexround.md",
+                "file": "Notecards/Arithmetic Coding.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -220,8 +220,8 @@
   },
   "active": "d7734ccf9b058c44",
   "lastOpenFiles": [
-    "LiteratureNotes/dettmers2022-llm.md",
     "LiteratureNotes/lee2023-flexround.md",
+    "LiteratureNotes/dettmers2022-llm.md",
     "Attachments/Pasted image 20240516174700.png",
     "Attachments/Pasted image 20240516174531.png",
     "Attachments/Pasted image 20240516174146.png",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Arithmetic Coding",
+      "path": "Notecards/Arithmetic Coding.md"
+    },
+    {
       "basename": "lee2023-flexround",
       "path": "LiteratureNotes/lee2023-flexround.md"
     },
@@ -99,10 +103,6 @@
     {
       "basename": "ANS及其实现技巧",
       "path": "Notecards/ANS及其实现技巧.md"
-    },
-    {
-      "basename": "Arithmetic Coding",
-      "path": "Notecards/Arithmetic Coding.md"
     },
     {
       "basename": "charls",
