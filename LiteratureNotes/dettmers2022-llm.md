@@ -38,4 +38,18 @@ tags: []
 ## B 比特数据以及量化的形式
 
 Absmax quant:
+$$
+\mathbf{X}_{i8}=\left\lfloor\frac{127\cdot\mathbf{X}_{f16}}{\max_{ij}(|\mathbf{X}_{{f16_{ij}}}|)}\right\rceil=\left\lfloor\frac{127}{\|\mathbf{X}_{f16}\|_{\infty}}\mathbf{X}_{f16}\right\rceil=\left\lfloor s_{{x_{f16}}}\mathbf{X}_{f16}\right\rceil,
+$$
 
+这种形式的量化，会导致 $[-127,127]$ 中的数不能被完全利用。比如如果所有数都是正的，那么负的半边就是空的。
+
+Zeropoint quant:
+使用 scale 和 zeropoint 进行转化。
+
+$$
+\begin{align*}
+-127 &= scale \times \boldsymbol{X}_{min}+zeropoint\\\\
+
+\end{align*}
+$$
