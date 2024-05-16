@@ -23,12 +23,15 @@
             "id": "d7734ccf9b058c44",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/lee2023-flexround.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "width": 282.5
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -122,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LiteratureNotes/dettmers2022-llm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LiteratureNotes/dettmers2022-llm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LiteratureNotes/dettmers2022-llm.md"
+              }
             }
           },
           {
@@ -181,6 +187,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
+                "file": "LiteratureNotes/dettmers2022-llm.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -210,8 +217,9 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "d7734ccf9b058c44",
+  "active": "23ad4cfbc5126413",
   "lastOpenFiles": [
+    "LiteratureNotes/lee2023-flexround.md",
     "LiteratureNotes/dettmers2022-llm.md",
     "Attachments/Pasted image 20240516174700.png",
     "Attachments/Pasted image 20240516174531.png",
@@ -225,7 +233,6 @@
     "LiteratureNotes/girish2023-shacira.md",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/tang2023-scene.md",
-    "LiteratureNotes/lee2023-flexround.md",
     "Attachments/Pasted image 20240515165159.png",
     "Attachments/Pasted image 20240515161445.png",
     "Attachments/Pasted image 20240515153907.png",

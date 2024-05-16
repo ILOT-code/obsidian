@@ -9,9 +9,9 @@ authors:
   - Younes Belkada
   - Luke Zettlemoyer
 doi: 10.48550/arXiv.2208.07339
-conference: xxx
+conference: NIPS2022
 citekey: dettmers2022-llm
-tags: []
+tags:
 ---
 # LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale
 

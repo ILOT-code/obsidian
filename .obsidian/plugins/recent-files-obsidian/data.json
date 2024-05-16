@@ -5,6 +5,10 @@
       "path": "LiteratureNotes/dettmers2022-llm.md"
     },
     {
+      "basename": "lee2023-flexround",
+      "path": "LiteratureNotes/lee2023-flexround.md"
+    },
+    {
       "basename": "shortcut",
       "path": "shortcut.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "tang2023-scene",
       "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
-      "basename": "lee2023-flexround",
-      "path": "LiteratureNotes/lee2023-flexround.md"
     },
     {
       "basename": "wang2024-model",
