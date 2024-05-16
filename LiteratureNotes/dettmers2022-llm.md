@@ -50,6 +50,13 @@ Zeropoint quant:
 $$
 \begin{align*}
 -127 &= scale \times \boldsymbol{X}_{min}+zeropoint\\\\
-
+127&= scale \times \boldsymbol{X}_{max} + zeropoint
+\end{align*}
+$$
+解得：
+$$
+\begin{align*}
+scale &= 127 \times \frac{2}{(\boldsymbol{X}_{max}-\boldsymbol{X}_{min})}\\
+zeropoint &= -\lfloor scale \times \boldsymbol{X}_{min}\rceil -127
 \end{align*}
 $$
