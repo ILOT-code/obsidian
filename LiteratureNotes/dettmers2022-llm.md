@@ -27,4 +27,6 @@ tags: []
 
 ## Introduction
 
-对矩阵乘法，只使用第一种方法，也就是分别为 $\boldsymbol{XW}$ z
+对矩阵乘法，只使用第一种方法，也就是分别为 $\boldsymbol{XW}$ 中 $\boldsymbol{X}$ 的每一行和 $\boldsymbol{W}$ 的每一列设计单独的因子，在参数量在 2.7B 以下时，可以保持很好的精度，但更多参数时，性能会快速下降。这主要是由于某些特征上的极端大的异常值造成的，对这些异常值的量化导致了性能的减退。
+
+> To this end, we provide a new descriptive analysis which shows that large features with magnitudes up to 20x larger than in other dimensions first appear in about 25% of all transformer layers and then gradually spread to other layers as we scale transformers to 6 B parameters. At around 6.7 B parameters, a phase shift occurs, and all transformer layers and 75% of all sequence dimensions are affected by extreme magnitude features. These outliers are highly systematic: at the 6.7 B scale, 150,000 outliers occur per sequence, but they are concentrated in only 6 feature dimensions across the entire transformer. Setting these outlier feature dimensions to zero decreases top-1 attention softmax probability mass by more than 20% and degrades validation perplexity by 600-1000% despite them only making up about 0.1% of all input features. In contrast, removing the same amount of random features decreases the probability by a maximum of 0.3% and degrades perplexity by about 0.1%.
