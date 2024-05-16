@@ -33,3 +33,9 @@ tags: []
 
 
 ![[Pasted image 20240516153000.png]]
+
+
+## B 比特数据以及量化的形式
+
+Absmax quant:
+
