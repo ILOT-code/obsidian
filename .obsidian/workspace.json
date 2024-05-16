@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
+                "file": "LiteratureNotes/dettmers2022-llm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
+                "file": "LiteratureNotes/dettmers2022-llm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shortcut.md"
+                "file": "LiteratureNotes/dettmers2022-llm.md"
               }
             }
           },
@@ -189,7 +188,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "shortcut.md",
+                "file": "LiteratureNotes/dettmers2022-llm.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -219,10 +218,10 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "376b4e2b545219d1",
+  "active": "23ad4cfbc5126413",
   "lastOpenFiles": [
-    "未命名 6.md",
     "shortcut.md",
+    "未命名 6.md",
     "未命名 5.md",
     "未命名 4.md",
     "LiteratureNotes/dettmers2022-llm.md",
