@@ -86,5 +86,9 @@ $$
 设 $\boldsymbol{X}_{f16}\in \mathbb{R}^{s\times h},\boldsymbol{W}_{f16} \in \mathbb{R}^{s\times o}$, $O=\{i|i\in\mathbb{Z},0\leq i\leq h\}$ 表示那些值很大的维度，那么数学化表达就是：
 $$\mathbf{C}_{f16}\approx\sum_{h\in O}\mathbf{X}_{f16}^{h}\mathbf{W}_{f16}^{h}+\mathbf{S}_{f16}\cdot\sum_{h\not\in O}\mathbf{X}_{i8}^{h}\mathbf{W}_{i8}^{h}$$
 
-如何确定异常维度：
+## 如何确定异常维度 ：
 假设一个 L 层的 transformer 模块，它的一个隐藏的状态 $\boldsymbol{X}_{l}\in \mathbb{R}^{s\times h}l=0,1,...L$，$s$ 表示序列长度，$h$ 表示特征长度。如果某个维度 $h_i$，它对应的 $s$ 个数中，至少有 6%的数 $\geq 6$，并且在全部的 $L$ 个状态中，至少有 25%的层在这个维度上，都出现了这样的 $\geq 6$ 的异常值。
+
+## 异常维度的影响
+![[Pasted image 20240516174146.png]]
+a 表明，随着困惑度的下降，异常值的中值大小猛然上升，这也是为什么之前普通
