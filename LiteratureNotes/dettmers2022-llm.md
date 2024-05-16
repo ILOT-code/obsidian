@@ -83,4 +83,5 @@ $$
 ## 对异常维度的分离
 异常值虽然多，但他们集中在几个维度，因此，可以把原来的矩阵乘法分解开来，这些异常维度单独使用全精度的计算。最后再拼接到一起。
 ![[Pasted image 20240516164025.png]]
-设 $\boldsymbol{X}_{f16}\in \mathbb{R}^{s\times h},\boldsymbol{W}_{f16} \in \mmathbb$,
+设 $\boldsymbol{X}_{f16}\in \mathbb{R}^{s\times h},\boldsymbol{W}_{f16} \in \mathbb{R}^{s\times o}$, $O=\{i|i\in\mathbb{Z},0\leq i\leq h\}$ 表示那些值很大的维度，那么数学化表达就是：
+$$\mathbf{C}_{f16}\approx\sum_{h\in O}\mathbf{X}_{f16}^{h}\mathbf{W}_{f16}^{h}+\mathbf{S}_{f16}\cdot\sum_{h\not\in O}\mathbf{X}_{i8}^{h}\mathbf{W}_{i8}^{h}$$
