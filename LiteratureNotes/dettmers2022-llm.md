@@ -87,3 +87,4 @@ $$
 $$\mathbf{C}_{f16}\approx\sum_{h\in O}\mathbf{X}_{f16}^{h}\mathbf{W}_{f16}^{h}+\mathbf{S}_{f16}\cdot\sum_{h\not\in O}\mathbf{X}_{i8}^{h}\mathbf{W}_{i8}^{h}$$
 
 如何确定异常维度：
+假设一个 L 层的 transformer 模块，它的一个隐藏的状态 $\boldsymbol{X}_{l}\in \mathbb{R}^{s\times h}l=0,1,...L$，$s$ 表示序列长度，$h$ 表示特征长度。如果某个维度 $h$
