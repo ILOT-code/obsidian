@@ -56,7 +56,13 @@ $$
 解得：
 $$
 \begin{align*}
-scale &= 127 \times \frac{2}{(\boldsymbol{X}_{max}-\boldsymbol{X}_{min})}\\
+scale &=  \frac{2\times 127}{(\boldsymbol{X}_{max}-\boldsymbol{X}_{min})}\\
 zeropoint &= -\lfloor scale \times \boldsymbol{X}_{min}\rceil -127
+\end{align*}
+$$
+$$
+\begin{align*}
+\boldsymbol{X}_{q}&=\lfloor scale \times \boldsymbol{X} +zeropoint\rceil \\
+\boldsymbol{X}_{deq}&= \frac{\boldsymbol{X}_{q}-zeropoint}{scale}
 \end{align*}
 $$
