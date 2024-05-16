@@ -27,3 +27,4 @@ tags: []
 
 ## Introduction
 
+对矩阵乘法，只使用第一种方法，也就是分别为 $\boldsymbol{XW}$ z
