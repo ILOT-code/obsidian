@@ -42,7 +42,9 @@ $$
 \mathbf{X}_{i8}=\left\lfloor\frac{127\cdot\mathbf{X}_{f16}}{\max_{ij}(|\mathbf{X}_{{f16_{ij}}}|)}\right\rceil=\left\lfloor\frac{127}{\|\mathbf{X}_{f16}\|_{\infty}}\mathbf{X}_{f16}\right\rceil=\left\lfloor s_{{x_{f16}}}\mathbf{X}_{f16}\right\rceil,
 $$
 
+假设计算 $\boldsymbol{X}_{f16}\boldsymbol{W}_{f16}$，
 这种形式的量化，会导致 $[-127,127]$ 中的数不能被完全利用。比如如果所有数都是正的，那么负的半边就是空的。
+
 
 Zeropoint quant:
 使用 scale 和 zeropoint 进行转化。
@@ -66,3 +68,6 @@ $$
 \boldsymbol{X}_{deq}&= \frac{\boldsymbol{X}_{q}-zeropoint}{scale}
 \end{align*}
 $$
+实际上这个 $zeropoint$ 似乎没啥用，还只是保存一个 $X_{i8}=\lfloor scale \boldsymbol{X}_{f16}\rceil$
+
+假设要计算两个 16 位浮点数的乘法，$\boldsymbol{X}_{f16}\boldsymbol{W}_{f16}$
