@@ -86,6 +86,8 @@
 | 跳转到文件首                   | Ctrl+Home             |
 | 跳转到文件首                   | Ctrl+End              |
 | 以单词为单位跳转                 | Ctrl+Left(Right)      |
+| 删除到当前单词首部                | Ctrl+Backspace        |
+| 删除到当前单词尾部                | Ctrl+Delete           |
 | 滚动屏幕一行                   | Ctrl+Up(Down)         |
 | 滚动屏幕一页(更改)               | Ctrl+Alt+Up(Down)     |
 | 按跳转方向选中                  | Shift+Jump            |
