@@ -213,8 +213,7 @@
       "obsidian-file-cleaner:清理文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Refresh Zotero data": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "cmdr:ZotLit: Refresh Zotero data": false
     }
   },
   "active": "23ad4cfbc5126413",
