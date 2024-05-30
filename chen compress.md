@@ -51,18 +51,21 @@ IEEE Transactions on Big Data, 2022
 The International Journal of High Performance Computing Applications, 2019
 引用次数：64
 
-本文设计了一个 Z-checker 的有损压缩通用框架，
-由于当今的科学模拟和实验产生大量数据，有损数据压缩器允许用户在压缩过程中控制精度损失，是显着减小数据大小的相关解决方案。然而，有损压缩器开发人员和用户缺少一种工具来探索科学数据集的特征并以系统且可靠的方式了解压缩后的数据变化。为了解决这个问题，我们设计并实现了一个名为 Z-checker 的通用框架。一方面，Z-checker 结合了一系列数据分析组件来进行数据压缩。另一方面，Z-checker 是作为开源社区工具实现的，用户和开发人员可以根据自己的额外分析需求做出贡献并添加新的分析组件。在本文中，我们对现有有损压缩机进行了调查。然后，我们描述了 Z-checker 的设计框架，其中我们集成了先前工作中提出的评估指标以及其他分析工具。具体来说，对于有损压缩器开发人员来说，Z-checker 可用于表征任何数据集的关键属性（例如熵、分布、功率谱、主成分分析和自相关），以改进压缩策略。对于有损压缩用户，Z-checker可以检测压缩质量（压缩比和比特率），并提供各种全局失真分析，将原始数据与解压缩数据进行比较（峰值信噪比、归一化均方误差、码率-失真、速率压缩误差、频谱、分布和导数）以及压缩误差的统计分析（最大、最小和平均误差；自相关；以及误差分布）。 Z-checker 可以以粗粒度（整个数据集）或细粒度（通过用户定义的块）执行分析，以便用户和开发人员可以为数据集的不同部分选择最适合的自适应压缩器。 Z-checker 具有可视化界面，除了数据集的一些基本视图（例如时间序列）之外，还显示所有分析结果。据我们所知，Z-checker 是第一个旨在全面评估科学数据集有损压缩的工具。
+本文设计了一个 Z-checker 框架，为有损压缩器开发人员和用户提供探索数据集的特征并以系统且可靠的方式了解压缩后数据变化的工具，是第一个旨在全面评估科学数据集有损压缩的工具。
+
 ### SDRBench: Scientific data reduction benchmark for lossy compressors
 [web](https://ieeexplore.ieee.org/abstract/document/9378449/)
 2020 IEEE international conference on big data (Big Data)
 引用数：61
+
+本文建立了标准的压缩评估基准，包含跨不同领域的大量真实科学数据集，为研究人员和用户以公平、便捷的方式评估和比较压缩器提供帮助。
 
 ### Exploring autoencoder-based error-bounded compression for scientific data
 [web](https://ieeexplore.ieee.org/abstract/document/9555941/)
 2021 IEEE International Conference on Cluster Computing (CLUSTER)
 引用数：34
 
+摘要：误差有限有损压缩正在成为当今科学项目成功不可或缺的技术，这些项目在模拟或仪器数据采集过程中会产生大量数据。它不仅可以显着减少数据大小，还可以根据用户指定的误差范围控制压缩误差。自动编码器 (AE) 模型已广泛应用于图像压缩中，但很少有基于 AE 的压缩方法支持科学应用高度需要的误差限制特征。为了解决这个问题，我们探索使用卷积自动编码器来改进科学数据的误差有限有损压缩，并做出以下三个关键贡献。 (1) 我们深入研究了各种自动编码器模型的特性，并根据 SZ 模型开发了一个基于误差有界自动编码器的框架。 (2) 我们优化了我们设计的基于 AE 的误差限制压缩框架中主要阶段的压缩质量，微调了块大小和潜在大小，并优化了潜在向量的压缩效率。 (3) 我们使用五个真实世界的科学数据集评估我们提出的解决方案，并将它们与其他六个相关工作进行比较。实验表明，我们的解决方案在我们测试的所有压缩机中表现出非常有竞争力的压缩质量。从绝对值来看，在高压缩比的情况下，与 SZ 2.1 和 ZFP 相比，它可以获得更好的压缩质量（相同数据失真情况下压缩比提高 100%∼800%）。
 ### Significantly improving lossy compression quality based on an optimized hybrid prediction model]
 [web](https://dl.acm.org/doi/abs/10.1145/3295500.3356193)
 (book)Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, 2019
