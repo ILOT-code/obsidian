@@ -66,7 +66,23 @@ The International Journal of High Performance Computing Applications, 2019
 (book)Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, 2019
 引用数：34
 
+### Improving performance of data dumping with lossy compression for scientific simulation
+[web]( https://ieeexplore.ieee.org/abstract/document/8891037/
+2019 IEEE International Conference on Cluster Computing (CLUSTER)
+引用数：30
 ### Fixed-PSNR lossy compression for scientific data
 [web](https://ieeexplore.ieee.org/abstract/document/8514891/)
 2018 IEEE International Conference on Cluster Computing (CLUSTER)
 引用数：26
+
+### Optimizing lossy compression with adjacent snapshots for n-body simulation data
+[web](https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=AvanGFkAAAAJ&cstart=20&pagesize=80&citation_for_view=AvanGFkAAAAJ:NJdIkVacNvsC)
+2018 IEEE International Conference on Big Data (Big Data), 428-437
+引用数：20
+
+
+### Mdz: An efficient error-bounded lossy compressor for molecular dynamics
+[web](https://ieeexplore.ieee.org/abstract/document/9835212/)
+作者
+2022 IEEE 38th International Conference on Data Engineering (ICDE)
+引用数：18
