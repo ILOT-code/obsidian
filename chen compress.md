@@ -7,3 +7,6 @@ Significantly improving lossy compression for scientific data sets based on mult
 ![[Pasted image 20240530151345.png]]
 这张图展示的是一个二维数据的例子，根据那些打叉的点 (已经处理完毕) 来预测下一个点。其中，"layer"即为向前参考的层数，根据层数的不同，预测的函数式也不同：
 ![[Pasted image 20240530151635.png]]
+另外，是他们提出的控制量化误差的方法。用户提供一个 error_bound，限定允许的最大误差，他们使用下面的方法来满足这个限定要求：
+![[Pasted image 20240530152711.png]]
+红色的 First-phase Predicted Value 就是
