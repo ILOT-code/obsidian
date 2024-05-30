@@ -76,11 +76,14 @@ The International Journal of High Performance Computing Applications, 2019
 [web]( https://ieeexplore.ieee.org/abstract/document/8891037/
 2019 IEEE International Conference on Cluster Computing (CLUSTER)
 引用数：30
+
+本文提出了一种新颖的 I/O 性能分析模型，可以有效地表示不同规模和数据大小的 I/O 性能，并使用最小二乘法优化数据转储性能的估计精度。并开发了一种自适应有损压缩框架，可以选择最适合的压缩器（在两个领先的有损压缩器 SZ 和 ZFP 之间。
 ### Fixed-PSNR lossy compression for scientific data
 [web](https://ieeexplore.ieee.org/abstract/document/8514891/)
 2018 IEEE International Conference on Cluster Computing (CLUSTER)
 引用数：26
 
+本文提出了一种新技术，为科学数据集提供固定 PSNR 有损压缩。
 ### Optimizing lossy compression with adjacent snapshots for n-body simulation data
 [web](https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=AvanGFkAAAAJ&cstart=20&pagesize=80&citation_for_view=AvanGFkAAAAJ:NJdIkVacNvsC)
 2018 IEEE International Conference on Big Data (Big Data), 428-437
@@ -92,3 +95,5 @@ The International Journal of High Performance Computing Applications, 2019
 作者
 2022 IEEE 38th International Conference on Data Engineering (ICDE)
 引用数：18
+
+分子动力学（MD）已广泛应用于当今材料科学、生物化学、生物物理学和结构生物学等多个领域的科学研究，MD 模拟会产生极其大量的数据。本文对多个 MD 模拟数据集进行了深入分析，然后开发了一种有效的误差有限有损压缩器，可以显着提高压缩比。
