@@ -14,6 +14,7 @@
 红色的 First-phase Predicted Value 就是指使用预测模型得到的预测值，以 2\*Error_bound 为间隔，以红色点为中心，扩展成 $2^m-2$ 个值。这些值之间构成了 $2^m$ 的区间，用 m 个 bit 就可以编码它们，如果真值落在了某个区间内，他就是可预测的，编码这个区间即可。反之，采用其它方法来编码。这样就能满足误差不超过 error_bound.
 
 ### Error -Controlled Lossy Compression Optimized for High Compression Ratios of Scientific Datasets
+[web](https://ieeexplore.ieee.org/abstract/document/8622520/)
 2018 IEEE International Conference on Big Data (Big Data)
 引用数：233
 
