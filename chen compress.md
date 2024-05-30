@@ -17,3 +17,10 @@
 引用数：233
 
 也是对科学计算产生的数据进行压缩压缩。把数据集分成不同的区域，根据各个区域的特征自适应选择合适的预测方法。他们根据洛伦佐预测器和均值积分洛伦佐预测，设计了一种混合洛伦佐预测方法。
+
+### Optimizing error-bounded lossy compression for scientific data by dynamic spline interpolation
+[web](https://ieeexplore.ieee.org/abstract/document/9458791)
+2021 IEEE 37th International Conference on Data Engineering (ICDE)
+引用数：98
+
+是对基于预测的压缩器进行的改进，提出了一种具有一系列优化策略的动态样条插值方法，可以显着提高数据预测精度，从而大大提高压缩质量。
