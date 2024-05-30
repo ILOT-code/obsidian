@@ -1,5 +1,6 @@
 
 ### Significantly improving lossy compression for scientific data sets based on multidimensional prediction and error-controlled quantization
+[web](https://ieeexplore.ieee.org/abstract/document/7967203/)
 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
 引用数：287
 
@@ -89,7 +90,7 @@ The International Journal of High Performance Computing Applications, 2019
 2018 IEEE International Conference on Big Data (Big Data), 428-437
 引用数：20
 
-
+当今的 N 体模拟正在产生极其大量的数据。本文利用宇宙学数据在空间和时间维度上的连续性以及不同领域的物理相关性，设计并实现了一种高效的误差限定的有限有损压缩器。
 ### Mdz: An efficient error-bounded lossy compressor for molecular dynamics
 [web](https://ieeexplore.ieee.org/abstract/document/9835212/)
 作者
