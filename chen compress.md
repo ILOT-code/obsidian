@@ -65,12 +65,13 @@ The International Journal of High Performance Computing Applications, 2019
 2021 IEEE International Conference on Cluster Computing (CLUSTER)
 引用数：34
 
-摘要：误差有限有损压缩正在成为当今科学项目成功不可或缺的技术，这些项目在模拟或仪器数据采集过程中会产生大量数据。它不仅可以显着减少数据大小，还可以根据用户指定的误差范围控制压缩误差。自动编码器 (AE) 模型已广泛应用于图像压缩中，但很少有基于 AE 的压缩方法支持科学应用高度需要的误差限制特征。为了解决这个问题，我们探索使用卷积自动编码器来改进科学数据的误差有限有损压缩，并做出以下三个关键贡献。 (1) 我们深入研究了各种自动编码器模型的特性，并根据 SZ 模型开发了一个基于误差有界自动编码器的框架。 (2) 我们优化了我们设计的基于 AE 的误差限制压缩框架中主要阶段的压缩质量，微调了块大小和潜在大小，并优化了潜在向量的压缩效率。 (3) 我们使用五个真实世界的科学数据集评估我们提出的解决方案，并将它们与其他六个相关工作进行比较。实验表明，我们的解决方案在我们测试的所有压缩机中表现出非常有竞争力的压缩质量。从绝对值来看，在高压缩比的情况下，与 SZ 2.1 和 ZFP 相比，它可以获得更好的压缩质量（相同数据失真情况下压缩比提高 100%∼800%）。
+自动编码器 (AE) 模型已广泛应用于图像压缩中，但他们缺少误差控制手段，这限制了它们在科学数据压缩领域的应用。本文使用卷积自动编码器来改善具有误差限制的有损压缩。
 ### Significantly improving lossy compression quality based on an optimized hybrid prediction model]
 [web](https://dl.acm.org/doi/abs/10.1145/3295500.3356193)
 (book)Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, 2019
 引用数：34
 
+本文设计了一种基于优化的混合预测模型来提高压缩质量，该框架能够根据数据集自适应的调整预测策略。
 ### Improving performance of data dumping with lossy compression for scientific simulation
 [web]( https://ieeexplore.ieee.org/abstract/document/8891037/
 2019 IEEE International Conference on Cluster Computing (CLUSTER)
