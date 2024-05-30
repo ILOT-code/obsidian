@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "chen compress",
+      "path": "chen compress.md"
+    },
+    {
       "basename": "ali2023-efficient",
       "path": "LiteratureNotes/ali2023-efficient.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "傅里叶变换与小波变换",
       "path": "Notecards/傅里叶变换与小波变换.md"
-    },
-    {
-      "basename": "独立成分分析",
-      "path": "Notecards/独立成分分析.md"
     }
   ],
   "omittedPaths": [],
