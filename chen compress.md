@@ -42,6 +42,16 @@ SZ 和 ZFP 在大数据压缩领域是领先的方法。本文分析了他们的
 ### Sz3: A modular framework for composing prediction-based error-bounded lossy compressors
 [web](https://ieeexplore.ieee.org/abstract/document/9866018/)
 IEEE Transactions on Big Data, 2022
-引用数：22
+引用数：65
 
 本文提出了一个模块化和可组合的框架 Sz 3,  用户可以通过精心设计的模块定制压缩管道中的任何阶段，包括预处理、预测、量化、编码和无损压缩
+
+### Z-checker: A framework for assessing lossy compression of scientific data
+[web](( https://journals.sagepub.com/doi/abs/10.1177/1094342017737147 )
+The International Journal of High Performance Computing Applications, 2019
+引用次数：64
+
+### SDRBench: Scientific data reduction benchmark for lossy compressors
+[web](https://ieeexplore.ieee.org/abstract/document/9378449/)
+2020 IEEE international conference on big data (Big Data)
+引用数：61
