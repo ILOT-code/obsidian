@@ -55,3 +55,18 @@ The International Journal of High Performance Computing Applications, 2019
 [web](https://ieeexplore.ieee.org/abstract/document/9378449/)
 2020 IEEE international conference on big data (Big Data)
 引用数：61
+
+### Exploring autoencoder-based error-bounded compression for scientific data
+[web](https://ieeexplore.ieee.org/abstract/document/9555941/)
+2021 IEEE International Conference on Cluster Computing (CLUSTER)
+引用数：34
+
+### Significantly improving lossy compression quality based on an optimized hybrid prediction model]
+[web](https://dl.acm.org/doi/abs/10.1145/3295500.3356193)
+(book)Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, 2019
+引用数：34
+
+### Fixed-PSNR lossy compression for scientific data
+[web](https://ieeexplore.ieee.org/abstract/document/8514891/)
+2018 IEEE International Conference on Cluster Computing (CLUSTER)
+引用数：26
