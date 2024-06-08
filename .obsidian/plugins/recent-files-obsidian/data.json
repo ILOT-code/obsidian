@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "10.48550_arXiv.2402.17414",
+      "path": "LiteratureNotes/10.48550_arXiv.2402.17414.md"
+    },
+    {
+      "basename": "chen2021-nerv",
+      "path": "LiteratureNotes/chen2021-nerv.md"
+    },
+    {
       "basename": "Zizhongchen compress",
       "path": "Zizhongchen compress.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "哥伦布编码",
       "path": "Notecards/哥伦布编码.md"
-    },
-    {
-      "basename": "概率PCA",
-      "path": "Notecards/概率PCA.md"
-    },
-    {
-      "basename": "傅里叶变换与小波变换",
-      "path": "Notecards/傅里叶变换与小波变换.md"
     }
   ],
   "omittedPaths": [],

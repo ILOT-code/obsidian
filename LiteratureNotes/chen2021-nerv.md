@@ -1,0 +1,28 @@
+---
+zotero-key: P7HCP4W6
+zt-attachments:
+  - "130"
+title: "NeRV: Neural Representations for Videos"
+authors:
+  - Hao Chen
+  - Bo He
+  - Hanyu Wang
+  - Yixuan Ren
+  - Ser-Nam Lim
+  - Abhinav Shrivastava
+doi: 10.48550/arXiv.2110.13903
+conference: xxx
+citekey: chen2021-nerv
+tags: []
+---
+# NeRV: Neural Representations for Videos
+
+**文章链接**: [Zotero](zotero://select/library/items/P7HCP4W6) [attachment](<file:///home/ilot/Zotero/storage/S5UY8GI8/Chen%20%E7%AD%89%20-%202021%20-%20NeRV%20Neural%20Representations%20for%20Videos.pdf>)
+**网页链接**: [URL](http://arxiv.org/abs/2110.13903)
+## Abstract
+
+>[!abstract]
+>We propose a novel neural representation for videos (NeRV) which encodes videos in neural networks. Unlike conventional representations that treat videos as frame sequences, we represent videos as neural networks taking frame index as input. Given a frame index, NeRV outputs the corresponding RGB image. Video encoding in NeRV is simply fitting a neural network to video frames and decoding process is a simple feedforward operation. As an image-wise implicit representation, NeRV output the whole image and shows great efficiency compared to pixel-wise implicit representation, improving the encoding speed by 25x to 70x, the decoding speed by 38x to 132x, while achieving better video quality. With such a representation, we can treat videos as neural networks, simplifying several video-related tasks. For example, conventional video compression methods are restricted by a long and complex pipeline, specifically designed for the task. In contrast, with NeRV, we can use any neural network compression method as a proxy for video compression, and achieve comparable performance to traditional frame-based video compression approaches (H.264, HEVC \etc). Besides compression, we demonstrate the generalization of NeRV for video denoising. The source code and pre-trained model can be found at https://github.com/haochen-rye/NeRV.git.
+
+## Comments
+

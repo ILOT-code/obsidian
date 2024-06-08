@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zizhongchen compress.md",
+                "file": "LiteratureNotes/10.48550_arXiv.2402.17414.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zizhongchen compress.md",
+                "file": "LiteratureNotes/10.48550_arXiv.2402.17414.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zizhongchen compress.md",
+                "file": "LiteratureNotes/10.48550_arXiv.2402.17414.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zizhongchen compress.md"
+                "file": "LiteratureNotes/10.48550_arXiv.2402.17414.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Zizhongchen compress.md",
+                "file": "LiteratureNotes/10.48550_arXiv.2402.17414.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -226,15 +226,18 @@
       "obsidian-file-cleaner:清理文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Refresh Zotero data": false
+      "cmdr:ZotLit: Refresh Zotero data": false,
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
   "active": "2deef075aa384096",
   "lastOpenFiles": [
+    "LiteratureNotes/chen2021-nerv.md",
+    "LiteratureNotes/10.48550_arXiv.2402.17414.md",
+    "Zizhongchen compress.md",
     "Attachments/Pasted image 20240530152711.png",
     "Attachments/Pasted image 20240530151635.png",
     "Attachments/Pasted image 20240530151345.png",
-    "Zizhongchen compress.md",
     "LiteratureNotes/ali2023-efficient.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
     "shortcut.md",
@@ -254,7 +257,6 @@
     "LiteratureNotes/tang2023-scene.md",
     "Attachments/Pasted image 20240515165159.png",
     "Attachments/Pasted image 20240515161445.png",
-    "Attachments/Pasted image 20240515153907.png",
     "LiteratureNotes/wang2024-model.md",
     "LiteratureNotes/guo2023-compression.md",
     "LiteratureNotes/hazimeh2021-dselectk.md",
@@ -267,7 +269,6 @@
     "ZtTemplates/zt-annot.eta.md",
     "LiteratureNotes/zt-import/Comment_ Published at NeurIPS 2022. Camera-ready version.md",
     "LiteratureNotes/zt-import",
-    "未命名 1.md",
     "literaturenotes.zip",
     "ziVputrH",
     "未命名",
