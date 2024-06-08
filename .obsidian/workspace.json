@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "79ad81fe6b3b0430",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/li2023-neural.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -161,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
+                "file": "LiteratureNotes/li2023-neural.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
+                "file": "LiteratureNotes/li2023-neural.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/li2024-neural.md"
+                "file": "LiteratureNotes/li2023-neural.md"
               }
             }
           },
@@ -224,7 +236,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
+                "file": "LiteratureNotes/li2023-neural.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -254,12 +266,13 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "49c1d3298b2c35b5",
+  "active": "79ad81fe6b3b0430",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20240608182623.png",
+    "LiteratureNotes/li2024-neural.md",
     "li2023-neural-w.md",
     "LiteratureNotes/li2023-neural.md",
     "li2024-neural-w.md",
-    "LiteratureNotes/li2024-neural.md",
     "LiteratureNotes/chen2021-nerv.md",
     "LiteratureNotes/10.48550_arXiv.2402.17414.md",
     "Zizhongchen compress.md",
@@ -291,7 +304,6 @@
     "LiteratureNotes/liu2023-learned.md",
     "dettmers2022-llm-w.md",
     "未命名 3.md",
-    "ZtTemplates/zt-note.eta.md",
     "LiteratureNotes/zt-import",
     "literaturenotes.zip",
     "ziVputrH",

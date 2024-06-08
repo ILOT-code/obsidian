@@ -36,3 +36,6 @@ conditional coding-based neural video codec (NVC) 尽管在率失真上有很好
 - We not only exploit the training with longer video but also module the temporal feature with a periodically refreshing mechanism to boost the quality. These help our DCVC-FM to tackle the long prediction chain. •
 - To further improve the practicality, we enable DCVC-FM to support both RGB and YUV colorspaces within a single model. Moreover, we demonstrate the low-precision inference with negligible bitrate increase. 
 - Our DCVC-FM can outperform all traditional codecs under intra-period –1 setting. When compared with the previous SOTA NVC, 29.7% bitrate reduction is achieved with 16% MAC reduction. Our codec is an important milestone in the development of NVC.
+
+
+本文是建立在作者 23 年发表在 cvpr 的工作上的: [[li2023-neural|(Jiahao Li, 2023)]]
