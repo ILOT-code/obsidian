@@ -52,5 +52,7 @@ $F_{t-1}$ 根据通道数被分为了 $G$ 组，每组有 $N$ 个 offset，也�
 
 ![[Pasted image 20240608191546.png]]
 ### Quadtree Partition-Based Entropy Coding
-把 $\hat{y}_t$ 按照通道分组，在每一组内部，使用这样的 4 步来进行进行预测。每一步的预测都会结合超先验 $\hat{z}_t$，特征 $C_t$，以及已经解码的 latent $\hat{y}$.
+把 $\hat{y}_t$ 按照通道分组，在每一组内部，使用这样的 4 步来进行进行预测。每一步的预测都会结合超先验 $\hat{z}_t$，特征 $C_t$，以及前一帧解码的 latent $\hat{y}_{t-1}$.
+这样的方式相比 checkboard context 也有优势，在它的两步解码过程中，参考点数量分别是 0,4
+但在这样的结构下，4 个步骤的参考点分别是 0,4,4,8
 ![[Pasted image 20240608193242.png]]

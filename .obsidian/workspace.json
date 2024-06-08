@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
+                "file": "LiteratureNotes/li2023-neural.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -266,16 +266,17 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "79ad81fe6b3b0430",
+  "active": "49c1d3298b2c35b5",
   "lastOpenFiles": [
+    "LiteratureNotes/li2024-neural.md",
+    "LiteratureNotes/liu2023-learned.md",
+    "LiteratureNotes/li2023-neural.md",
     "Attachments/Pasted image 20240608193242.png",
     "Attachments/Pasted image 20240608191546.png",
     "Attachments/Pasted image 20240608190707.png",
     "Attachments/Pasted image 20240608185226.png",
     "Attachments/Pasted image 20240608182623.png",
-    "LiteratureNotes/li2024-neural.md",
     "li2023-neural-w.md",
-    "LiteratureNotes/li2023-neural.md",
     "li2024-neural-w.md",
     "LiteratureNotes/chen2021-nerv.md",
     "LiteratureNotes/10.48550_arXiv.2402.17414.md",
@@ -292,7 +293,6 @@
     "Notecards/Arithmetic Coding.md",
     "Attachments/Pasted image 20240516174700.png",
     "Attachments/Pasted image 20240516174531.png",
-    "Attachments/Pasted image 20240516174146.png",
     "未命名 6.md",
     "未命名 5.md",
     "未命名 4.md",
@@ -301,7 +301,6 @@
     "LiteratureNotes/wang2024-model.md",
     "LiteratureNotes/guo2023-compression.md",
     "LiteratureNotes/hazimeh2021-dselectk.md",
-    "LiteratureNotes/liu2023-learned.md",
     "dettmers2022-llm-w.md",
     "未命名 3.md",
     "LiteratureNotes/zt-import",

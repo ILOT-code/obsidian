@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "li2024-neural",
+      "path": "LiteratureNotes/li2024-neural.md"
+    },
+    {
       "basename": "li2023-neural",
       "path": "LiteratureNotes/li2023-neural.md"
     },
     {
-      "basename": "li2024-neural",
-      "path": "LiteratureNotes/li2024-neural.md"
+      "basename": "liu2023-learned",
+      "path": "LiteratureNotes/liu2023-learned.md"
     },
     {
       "basename": "li2023-neural-w",
@@ -83,10 +87,6 @@
     {
       "basename": "hazimeh2021-dselectk",
       "path": "LiteratureNotes/hazimeh2021-dselectk.md"
-    },
-    {
-      "basename": "liu2023-learned",
-      "path": "LiteratureNotes/liu2023-learned.md"
     },
     {
       "basename": "dettmers2022-llm-w",
