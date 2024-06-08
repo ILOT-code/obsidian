@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "li2024-neural-w.md",
+                "file": "LiteratureNotes/li2023-neural.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49c1d3298b2c35b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "li2023-neural-w.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -149,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "li2024-neural-w.md",
+                "file": "li2023-neural-w.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "li2024-neural-w.md",
+                "file": "li2023-neural-w.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "li2024-neural-w.md"
+                "file": "li2023-neural-w.md"
               }
             }
           },
@@ -212,7 +224,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "li2024-neural-w.md",
+                "file": "li2023-neural-w.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -242,10 +254,12 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "208caaee74c369d3",
+  "active": "49c1d3298b2c35b5",
   "lastOpenFiles": [
-    "LiteratureNotes/li2024-neural.md",
+    "li2023-neural-w.md",
+    "LiteratureNotes/li2023-neural.md",
     "li2024-neural-w.md",
+    "LiteratureNotes/li2024-neural.md",
     "LiteratureNotes/chen2021-nerv.md",
     "LiteratureNotes/10.48550_arXiv.2402.17414.md",
     "Zizhongchen compress.md",
@@ -278,8 +292,6 @@
     "dettmers2022-llm-w.md",
     "未命名 3.md",
     "ZtTemplates/zt-note.eta.md",
-    "未命名 2.md",
-    "LiteratureNotes/ding2024-efficiency.md",
     "LiteratureNotes/zt-import",
     "literaturenotes.zip",
     "ziVputrH",
