@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/10.48550_arXiv.2402.17414.md",
+                "file": "LiteratureNotes/li2024-neural.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "208caaee74c369d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "li2024-neural-w.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -137,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/10.48550_arXiv.2402.17414.md",
+                "file": "li2024-neural-w.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/10.48550_arXiv.2402.17414.md",
+                "file": "li2024-neural-w.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/10.48550_arXiv.2402.17414.md"
+                "file": "li2024-neural-w.md"
               }
             }
           },
@@ -200,7 +212,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/10.48550_arXiv.2402.17414.md",
+                "file": "li2024-neural-w.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -230,8 +242,10 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "2deef075aa384096",
+  "active": "208caaee74c369d3",
   "lastOpenFiles": [
+    "LiteratureNotes/li2024-neural.md",
+    "li2024-neural-w.md",
     "LiteratureNotes/chen2021-nerv.md",
     "LiteratureNotes/10.48550_arXiv.2402.17414.md",
     "Zizhongchen compress.md",
@@ -266,8 +280,6 @@
     "ZtTemplates/zt-note.eta.md",
     "未命名 2.md",
     "LiteratureNotes/ding2024-efficiency.md",
-    "ZtTemplates/zt-annot.eta.md",
-    "LiteratureNotes/zt-import/Comment_ Published at NeurIPS 2022. Camera-ready version.md",
     "LiteratureNotes/zt-import",
     "literaturenotes.zip",
     "ziVputrH",

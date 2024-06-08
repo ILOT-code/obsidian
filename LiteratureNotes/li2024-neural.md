@@ -9,6 +9,7 @@ authors:
   - Yan Lu
 doi: 10.48550/arXiv.2402.17414
 conference: xxx
+citekey: li2024-neural
 tags: []
 ---
 # Neural Video Compression with Feature Modulation

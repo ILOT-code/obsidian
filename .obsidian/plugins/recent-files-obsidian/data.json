@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "10.48550_arXiv.2402.17414",
-      "path": "LiteratureNotes/10.48550_arXiv.2402.17414.md"
+      "basename": "li2024-neural-w",
+      "path": "li2024-neural-w.md"
+    },
+    {
+      "basename": "li2024-neural",
+      "path": "LiteratureNotes/li2024-neural.md"
     },
     {
       "basename": "chen2021-nerv",
@@ -195,10 +199,6 @@
     {
       "basename": "光流",
       "path": "Notecards/光流.md"
-    },
-    {
-      "basename": "哥伦布编码",
-      "path": "Notecards/哥伦布编码.md"
     }
   ],
   "omittedPaths": [],
