@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "li2023-neural-w.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "li2023-neural-w.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "li2023-neural-w.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "li2023-neural-w.md"
+                "file": "LiteratureNotes/li2024-neural.md"
               }
             }
           },
@@ -224,7 +224,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "li2023-neural-w.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
