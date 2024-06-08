@@ -41,4 +41,6 @@ $$
 ![[Pasted image 20240608185226.png]]
 
 ### Group-Based Offset Diversity
-由于帧之间的运动多种多样，直接使用未经处理的$$ 而不进行运动对齐很难让编解码器捕获时间对应关系。
+由于帧之间的运动多种多样，直接使用未经处理的 $F_{t-1}$ 而不进行运动对齐很难让编解码器捕获时间对应关系。$f_{Tcontext}(F_{t-1},\hat{v}_t)$ 模块就是做这样的工作。
+![[Pasted image 20240608190707.png]]
+它主要由 offset pre 和 Cross-G fusion
