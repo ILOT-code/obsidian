@@ -41,3 +41,4 @@ $$
 ![[Pasted image 20240608185226.png]]
 
 ### Group-Based Offset Diversity
+由于帧之间的运动多种多样，直接使用未经处理的$$ 而不进行运动对齐很难让编解码器捕获时间对应关系。
