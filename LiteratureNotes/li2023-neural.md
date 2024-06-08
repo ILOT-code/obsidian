@@ -25,3 +25,4 @@ tags: []
 ### overview
 ![[Pasted image 20240608182623.png]]
 主要有 3 个模块 $f_{frame},f_{Tcontext},f_{motion}$
+$f_{motion}$ 是一个光流算法模块，它通过对上一帧的解码图像 $\hat{x}_{t-1}$ 和当前帧 $x_t$ 计算得到运动向量 $v_t$，它被解码后得到 $\hat{v}_t$.
