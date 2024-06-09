@@ -49,5 +49,5 @@ conditional coding-based neural video codec (NVC) 尽管在率失真上有很好
 
 ### Wide Quality Range in a Single Model
 首先，有一个质量区间 $[0,q_{num}-1]$，用户可以选择一个此区间的数 $q$ 来决定帧的质量。
-$s_t^{enc}$
+编解码被分为了两段过程，高分辨率和低分辨率，$s_t^{enc}$ 和 $s_t^{dec}$ 分别被用来调制和解调两者中间的 latent。$s_t^{enc}$ 和 $s_t^{dec}$ 类似于 $\hat{I}=QS\cdot\lfloor\frac I{QS}\rceil$ 中的 $QS$，只是没有限定这个量化参数在编解码过程中需要相同，作者认为这样
 ![[Pasted image 20240609133159.png]]
