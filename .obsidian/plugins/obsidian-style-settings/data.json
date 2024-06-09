@@ -2,5 +2,7 @@
   "blue-topaz-theme@@background-settings-workplace-background-image": true,
   "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-waves-light",
   "blue-topaz-theme@@text-selection@@light": "#469E88CF",
-  "blue-topaz-theme@@clutter-free-headings": true
+  "blue-topaz-theme@@clutter-free-headings": true,
+  "blue-topaz-theme@@mjx-math-color@@light": "#7A1ABA",
+  "blue-topaz-theme@@mjx-inline-math-color@@light": "#A33B09"
 }

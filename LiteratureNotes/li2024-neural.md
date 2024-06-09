@@ -79,3 +79,8 @@ $s_t^{enc}$ 对所有空间坐标的点都是一致的，这会导致忽略一�
 ![[Pasted image 20240609140704.png]]
 
 ### Implementation
+**Single model for both RGB and YUV colorspaces**
+在损失函数中，联合加入 RGB 空间和 YUV 空间的距离。
+$$
+Loss_{RD}=R+\lambda\cdot(k\cdot D_{YUV}+(1-k)\cdot D_{RGB}).
+$$
