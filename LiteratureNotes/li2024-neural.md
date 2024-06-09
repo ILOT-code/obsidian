@@ -57,5 +57,10 @@ s_t^{enc}=s_{min}^{enc}\cdot(\frac{s_{max}^{enc}}{s_{min}^{enc}})^{\frac{q_t}{q_
 s_t^{enc}=e^{\ln s_{min}^{enc}+\frac{q_t}{q_num-1}\cdot(\ln s_{max}^{enc}-\ln s_{min}^{enc})}
 \end{align*}
 $$
-
+同时，$Loss_{RD}=R+\lambda D$ 中的 $\lambda$ 也由 $q$ 来决定：
+$$
+\lambda=e^{\ln\lambda_{min}+\frac{q_t}{q-num-1}\cdot(\ln\lambda_{max}-\ln\lambda_{min})}
+$$
+$\lambda_{max},\lambda_{min}$ 是预先就固定的数。
+在实际训练过程中，会随机在 $[0,q_{num}-1]$ 取样得到 $q$，进行实验。$q$ 越大，$\lambda$ 越大，图像质量占比就越大，
 ![[Pasted image 20240609133159.png]]
