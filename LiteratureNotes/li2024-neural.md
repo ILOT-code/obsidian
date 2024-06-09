@@ -48,3 +48,6 @@ conditional coding-based neural video codec (NVC) 尽管在率失真上有很好
 ![[Pasted image 20240609130927.png]]
 
 ### Wide Quality Range in a Single Model
+首先，有一个质量区间 $[0,q_{num}-1]$，用户可以选择一个此区间的数 $q$ 来决定帧的质量。
+$s_t^{enc}$
+![[Pasted image 20240609133159.png]]
