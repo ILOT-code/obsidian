@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "li2024-neural",
-      "path": "LiteratureNotes/li2024-neural.md"
+      "basename": "shortcut",
+      "path": "shortcut.md"
     },
     {
       "basename": "li2023-neural",
       "path": "LiteratureNotes/li2023-neural.md"
+    },
+    {
+      "basename": "未命名 7",
+      "path": "未命名 7.md"
+    },
+    {
+      "basename": "ali2023-efficient",
+      "path": "LiteratureNotes/ali2023-efficient.md"
+    },
+    {
+      "basename": "Arithmetic Coding",
+      "path": "Notecards/Arithmetic Coding.md"
+    },
+    {
+      "basename": "li2024-neural",
+      "path": "LiteratureNotes/li2024-neural.md"
     },
     {
       "basename": "liu2023-learned",
@@ -29,16 +45,8 @@
       "path": "Zizhongchen compress.md"
     },
     {
-      "basename": "ali2023-efficient",
-      "path": "LiteratureNotes/ali2023-efficient.md"
-    },
-    {
       "basename": "alakuijala2019-jpeg",
       "path": "LiteratureNotes/alakuijala2019-jpeg.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "lee2023-flexround",
@@ -51,10 +59,6 @@
     {
       "basename": "dettmers2022-llm",
       "path": "LiteratureNotes/dettmers2022-llm.md"
-    },
-    {
-      "basename": "Arithmetic Coding",
-      "path": "Notecards/Arithmetic Coding.md"
     },
     {
       "basename": "未命名 6",
@@ -195,10 +199,6 @@
     {
       "basename": "PSNR与SSIM",
       "path": "Notecards/PSNR与SSIM.md"
-    },
-    {
-      "basename": "Normalization",
-      "path": "Notecards/Normalization.md"
     }
   ],
   "omittedPaths": [],

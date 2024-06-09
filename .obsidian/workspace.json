@@ -4,83 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "042b0a9f548a07ff",
+        "id": "6b0c92a124d4a708",
         "type": "tabs",
         "children": [
           {
-            "id": "23ad4cfbc5126413",
+            "id": "e4658a167ba83d80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/ali2023-efficient.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7734ccf9b058c44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notecards/Arithmetic Coding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2deef075aa384096",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "208caaee74c369d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LiteratureNotes/li2023-neural.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49c1d3298b2c35b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79ad81fe6b3b0430",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LiteratureNotes/li2023-neural.md",
+                "file": "shortcut.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "width": 282.5
   },
   "right": {
     "id": "f8efb7f1388c37a8",
@@ -174,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
+                "file": "shortcut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
+                "file": "shortcut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/li2024-neural.md"
+                "file": "shortcut.md"
               }
             }
           },
@@ -237,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
+                "file": "shortcut.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -267,15 +205,18 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "49c1d3298b2c35b5",
+  "active": "e4658a167ba83d80",
   "lastOpenFiles": [
+    "LiteratureNotes/li2023-neural.md",
+    "未命名 7.md",
+    "LiteratureNotes/ali2023-efficient.md",
+    "Notecards/Arithmetic Coding.md",
+    "LiteratureNotes/li2024-neural.md",
     "Attachments/Pasted image 20240609141247.png",
     "Attachments/Pasted image 20240609140704.png",
     "Attachments/Pasted image 20240609135454.png",
     "Attachments/Pasted image 20240609133159.png",
     "Attachments/Pasted image 20240609130927.png",
-    "LiteratureNotes/li2023-neural.md",
-    "LiteratureNotes/li2024-neural.md",
     "LiteratureNotes/liu2023-learned.md",
     "Attachments/Pasted image 20240608193242.png",
     "Attachments/Pasted image 20240608191546.png",
@@ -287,14 +228,11 @@
     "LiteratureNotes/chen2021-nerv.md",
     "LiteratureNotes/10.48550_arXiv.2402.17414.md",
     "Zizhongchen compress.md",
-    "Attachments/Pasted image 20240530152711.png",
-    "LiteratureNotes/ali2023-efficient.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
     "shortcut.md",
     "LiteratureNotes/lee2023-flexround.md",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/dettmers2022-llm.md",
-    "Notecards/Arithmetic Coding.md",
     "未命名 6.md",
     "未命名 5.md",
     "未命名 4.md",
