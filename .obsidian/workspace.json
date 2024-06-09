@@ -61,9 +61,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/li2023-neural.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "a36b02e178c67c94",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.2"
               }
             }
           },
@@ -80,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -173,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/li2023-neural.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/li2023-neural.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/li2023-neural.md"
+                "file": "LiteratureNotes/li2024-neural.md"
               }
             }
           },
@@ -236,7 +246,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/li2023-neural.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -262,15 +272,14 @@
       "obsidian-file-cleaner:清理文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Refresh Zotero data": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "cmdr:ZotLit: Refresh Zotero data": false
     }
   },
-  "active": "49c1d3298b2c35b5",
+  "active": "a36b02e178c67c94",
   "lastOpenFiles": [
+    "LiteratureNotes/li2023-neural.md",
     "LiteratureNotes/li2024-neural.md",
     "LiteratureNotes/liu2023-learned.md",
-    "LiteratureNotes/li2023-neural.md",
     "Attachments/Pasted image 20240608193242.png",
     "Attachments/Pasted image 20240608191546.png",
     "Attachments/Pasted image 20240608190707.png",
