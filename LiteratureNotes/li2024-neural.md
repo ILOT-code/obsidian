@@ -43,3 +43,8 @@ conditional coding-based neural video codec (NVC) 尽管在率失真上有很好
 
 ## Method
 
+### Overview
+和 DDVC-DC 类似
+![[Pasted image 20240609130927.png]]
+
+### Wide Quality Range in a Single Model
