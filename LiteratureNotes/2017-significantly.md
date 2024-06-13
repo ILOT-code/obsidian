@@ -22,5 +22,6 @@ tags: []
 
 
 
-## Comments
+## Prediction Model for Multidimensional Scientific Data Sets
+证明很古怪，认为 $0^0=1$ 得到证明。 
 
