@@ -30,3 +30,7 @@ tags: []
 
 ## Error-Controlled Quantization
 ![[Pasted image 20240613163524.png]]
+以预测值为中心，间隔为 2\*bound，扩展出 $2^m-1$ 个间隔。实际的数落到第 $i$ 个间隔，就用 $i$ 的二进制数去编码。如果不能落到这些间隔，用 $0$ 来编码，并采取特殊处理。
+实际上，分布不均匀，实际采用了哈夫曼编码来对这 255 个数进行编码。
+![[Pasted image 20240613164024.png]]
+## Adaptive Scheme for Number of Quantization Intervals
