@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/2017-significantly.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/2017-significantly.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/2017-significantly.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/2017-significantly.md"
+                "file": "LiteratureNotes/li2024-neural.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/2017-significantly.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -207,8 +207,8 @@
   },
   "active": "47f847fa98031f25",
   "lastOpenFiles": [
-    "LiteratureNotes/2023-preprocessing.md",
     "LiteratureNotes/2017-significantly.md",
+    "LiteratureNotes/2023-preprocessing.md",
     "Zizhongchen compress.md",
     "LiteratureNotes/li2023-neural.md",
     "LiteratureNotes/li2024-neural.md",
