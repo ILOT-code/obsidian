@@ -3,10 +3,10 @@ zotero-key: ITE5L9D4
 zt-attachments:
   - "182"
 title: Significantly improving lossy compression for scientific data sets based on multidimensional prediction and error-controlled quantization
-authors: []
-conference: xxx
+authors: 
+conference: IPDPS2017
 citekey: 2017-significantly
-tags: []
+tags:
 ---
 # Significantly improving lossy compression for scientific data sets based on multidimensional prediction and error-controlled quantization
 
