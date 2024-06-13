@@ -27,3 +27,5 @@ tags: []
 
 ## In-Depth Analysis of the Best Layer for Multilayer Prediction Model
 一方面，通过增加层数可以实现更准确的预测，这将在多个维度上带来更多有用的信息。另一方面，来自更远距离的数据会给预测带来更多不相关的信息（噪声），这意味着太多的层会降低我们预测的准确性。
+
+## Error-Controlled Quantization
