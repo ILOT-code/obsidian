@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "liang2019-significantly",
+      "path": "LiteratureNotes/liang2019-significantly.md"
+    },
+    {
+      "basename": "Zizhongchen compress",
+      "path": "Zizhongchen compress.md"
+    },
+    {
       "basename": "shortcut",
       "path": "shortcut.md"
+    },
+    {
+      "basename": "li2023-neural-w",
+      "path": "Paperwords/li2023-neural-w.md"
+    },
+    {
+      "basename": "li2024-neural-w",
+      "path": "Paperwords/li2024-neural-w.md"
     },
     {
       "basename": "li2023-neural",
@@ -29,20 +45,8 @@
       "path": "LiteratureNotes/liu2023-learned.md"
     },
     {
-      "basename": "li2023-neural-w",
-      "path": "li2023-neural-w.md"
-    },
-    {
-      "basename": "li2024-neural-w",
-      "path": "li2024-neural-w.md"
-    },
-    {
       "basename": "chen2021-nerv",
       "path": "LiteratureNotes/chen2021-nerv.md"
-    },
-    {
-      "basename": "Zizhongchen compress",
-      "path": "Zizhongchen compress.md"
     },
     {
       "basename": "alakuijala2019-jpeg",
@@ -94,7 +98,7 @@
     },
     {
       "basename": "dettmers2022-llm-w",
-      "path": "dettmers2022-llm-w.md"
+      "path": "Paperwords/dettmers2022-llm-w.md"
     },
     {
       "basename": "未命名 3",
@@ -195,10 +199,6 @@
     {
       "basename": "VQ",
       "path": "Notecards/VQ.md"
-    },
-    {
-      "basename": "PSNR与SSIM",
-      "path": "Notecards/PSNR与SSIM.md"
     }
   ],
   "omittedPaths": [],
