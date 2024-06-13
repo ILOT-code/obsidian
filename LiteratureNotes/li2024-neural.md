@@ -8,9 +8,9 @@ authors:
   - Bin Li
   - Yan Lu
 doi: 10.48550/arXiv.2402.17414
-conference: xxx
+conference: cvpr2024
 citekey: li2024-neural
-tags: []
+tags:
 ---
 # Neural Video Compression with Feature Modulation
 
