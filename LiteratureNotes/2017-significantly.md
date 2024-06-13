@@ -34,3 +34,4 @@ tags: []
 实际上，分布不均匀，实际采用了哈夫曼编码来对这 255 个数进行编码。
 ![[Pasted image 20240613164024.png]]
 ## Adaptive Scheme for Number of Quantization Intervals
+![[Pasted image 20240613164617.png]]

@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/2017-significantly.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60b5a75a1d2e7991",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zizhongchen compress.md",
+                "file": "Paperwords/li2024-neural-w.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/2017-significantly.md",
+                "file": "Paperwords/li2024-neural-w.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/2017-significantly.md",
+                "file": "Paperwords/li2024-neural-w.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/2017-significantly.md"
+                "file": "Paperwords/li2024-neural-w.md"
               }
             }
           },
@@ -187,7 +175,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/2017-significantly.md",
+                "file": "Paperwords/li2024-neural-w.md",
                 "itemId": 148,
                 "attachmentId": 150,
                 "follow": "zt-reader"
@@ -219,10 +207,11 @@
   },
   "active": "47f847fa98031f25",
   "lastOpenFiles": [
+    "LiteratureNotes/2017-significantly.md",
+    "Attachments/Pasted image 20240613164617.png",
     "Attachments/Pasted image 20240613164024.png",
     "Attachments/Pasted image 20240613163524.png",
     "LiteratureNotes/liang2019-significantly.md",
-    "LiteratureNotes/2017-significantly.md",
     "Zizhongchen compress.md",
     "shortcut.md",
     "Paperwords/li2023-neural-w.md",
@@ -240,8 +229,6 @@
     "LiteratureNotes/liu2023-learned.md",
     "Attachments/Pasted image 20240608193242.png",
     "Attachments/Pasted image 20240608191546.png",
-    "Attachments/Pasted image 20240608190707.png",
-    "Attachments/Pasted image 20240608185226.png",
     "LiteratureNotes/chen2021-nerv.md",
     "LiteratureNotes/10.48550_arXiv.2402.17414.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
