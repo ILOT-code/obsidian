@@ -8,7 +8,7 @@ authors:
   - Bin Li
   - Yan Lu
 doi: 10.48550/arXiv.2402.17414
-conference: cvpr2024
+conference: CVPR2024
 citekey: li2024-neural
 tags:
 ---
@@ -33,13 +33,12 @@ conditional coding-based neural video codec (NVC) 尽管在率失真上有很好
 本文设计了相应的策略来解决这些问题。
 
 - We modulate the latent feature via learnable quantization scaler, where a uniform quantization parameter sampling mechanism is proposed to help its learning. It enables our DCVC-FM to support a wide quality range in a single model, and the rate control capability is demonstrated. 
-- We not only exploit the training with longer video but also module the temporal feature with a periodically refreshing mechanism to boost the quality. These help our DCVC-FM to tackle the long prediction chain. •
+- We not only exploit the training with longer video but also module the temporal feature with a periodically refreshing mechanism to boost the quality. These help our DCVC-FM to tackle the long prediction chain. 
 - To further improve the practicality, we enable DCVC-FM to support both RGB and YUV colorspaces within a single model. Moreover, we demonstrate the low-precision inference with negligible bitrate increase. 
 - Our DCVC-FM can outperform all traditional codecs under intra-period –1 setting. When compared with the previous SOTA NVC, 29.7% bitrate reduction is achieved with 16% MAC reduction. Our codec is an important milestone in the development of NVC.
 
 
 本文是建立在作者 23 年发表在 cvpr 的工作上的: [[li2023-neural|(Jiahao Li, 2023)]]
-
 
 ## Method
 
