@@ -5,6 +5,10 @@
       "path": "LiteratureNotes/2017-significantly.md"
     },
     {
+      "basename": "2023-preprocessing",
+      "path": "LiteratureNotes/2023-preprocessing.md"
+    },
+    {
       "basename": "Zizhongchen compress",
       "path": "Zizhongchen compress.md"
     },
@@ -187,10 +191,6 @@
     {
       "basename": "deng2023-compressing",
       "path": "LiteratureNotes/deng2023-compressing.md"
-    },
-    {
-      "basename": "2023-preprocessing",
-      "path": "LiteratureNotes/2023-preprocessing.md"
     },
     {
       "basename": "熵",
