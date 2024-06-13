@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2017-significantly",
+      "path": "LiteratureNotes/2017-significantly.md"
+    },
+    {
       "basename": "liang2019-significantly",
       "path": "LiteratureNotes/liang2019-significantly.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "矩阵微分",
       "path": "Notecards/矩阵微分.md"
-    },
-    {
-      "basename": "VQ",
-      "path": "Notecards/VQ.md"
     }
   ],
   "omittedPaths": [],
