@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "9f653fe1d84d236b",
+    "id": "c819917c937d6aac",
     "type": "split",
     "children": [
       {
-        "id": "1cac4cc29f66ef86",
+        "id": "507ff295a49bce5c",
         "type": "tabs",
         "children": [
           {
-            "id": "47f847fa98031f25",
+            "id": "b92b6f4b2e1cc48d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
+                "file": "shortcut.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,16 +25,23 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5f1065e6e5e09393",
+    "id": "6894e5a4cc17b33d",
     "type": "split",
     "children": [
       {
-        "id": "035c69471c9e1850",
+        "id": "ce5c4b517c017921",
         "type": "tabs",
-        "dimension": 71.92755498059509,
         "children": [
           {
-            "id": "85cc9493daeac8f1",
+            "id": "fdb1a5f537a6d654",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "af5c7bb3610ed00e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +51,7 @@
             }
           },
           {
-            "id": "d17cd7ae1e3bb0b7",
+            "id": "219fa1b31ed7c6ab",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,7 +66,7 @@
             }
           },
           {
-            "id": "ddd5c0671d1ce879",
+            "id": "f2f0c126c77920f5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -67,36 +74,58 @@
             }
           }
         ]
-      },
-      {
-        "id": "d14deeddadd8e89d",
-        "type": "tabs",
-        "dimension": 28.072445019404917,
-        "children": [
-          {
-            "id": "64dbf49a27a48b89",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 300
   },
   "right": {
-    "id": "f8efb7f1388c37a8",
+    "id": "4ab0658d09defd2a",
     "type": "split",
     "children": [
       {
-        "id": "958c969b08156d0c",
+        "id": "a72f7fe1e7de69fa",
         "type": "tabs",
         "children": [
           {
-            "id": "f8474cbb6d23a62e",
+            "id": "c358149f77041a03",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b1f3041d6cb40174",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "shortcut.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e8196eb87f9f1dde",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "shortcut.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1eb7e6ed222da5db",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -107,153 +136,40 @@
             }
           },
           {
-            "id": "0cabbd7a9c94fee5",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "1de2cec3698ffe1b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "1ee4b7f02f2a406f",
+            "id": "68db257f0ce91cdf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/li2024-neural.md"
-              }
-            }
-          },
-          {
-            "id": "76eddf6fddd8ee15",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "319182edb37e53c9",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "3ff7369599ba655b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b20da65bc9b5453d",
-            "type": "leaf",
-            "state": {
-              "type": "zotero-annotation-view",
-              "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
-                "itemId": 148,
-                "attachmentId": 150,
-                "follow": "zt-reader"
+                "file": "shortcut.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 237.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "cmdr:ZotLit: Refresh Zotero data": false,
+      "cmdr:ZotLit: Open quick switcher for literature notes": false,
+      "obsidian-file-cleaner:清理文件": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Refresh Zotero data": false,
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "47f847fa98031f25",
+  "active": "b92b6f4b2e1cc48d",
   "lastOpenFiles": [
-    "LiteratureNotes/2017-significantly.md",
-    "LiteratureNotes/li2024-neural.md",
-    "LiteratureNotes/2023-preprocessing.md",
-    "Zizhongchen compress.md",
-    "LiteratureNotes/li2023-neural.md",
-    "Paperwords/li2024-neural-w.md",
-    "Attachments/Pasted image 20240613164617.png",
-    "Attachments/Pasted image 20240613164024.png",
-    "Attachments/Pasted image 20240613163524.png",
-    "LiteratureNotes/liang2019-significantly.md",
-    "shortcut.md",
-    "Paperwords/li2023-neural-w.md",
-    "未命名 7.md",
-    "LiteratureNotes/ali2023-efficient.md",
-    "Notecards/Arithmetic Coding.md",
-    "Attachments/Pasted image 20240609141247.png",
-    "Attachments/Pasted image 20240609140704.png",
-    "Attachments/Pasted image 20240609135454.png",
-    "Attachments/Pasted image 20240609133159.png",
-    "Attachments/Pasted image 20240609130927.png",
     "LiteratureNotes/liu2023-learned.md",
-    "Attachments/Pasted image 20240608193242.png",
-    "Attachments/Pasted image 20240608191546.png",
-    "LiteratureNotes/chen2021-nerv.md",
-    "LiteratureNotes/10.48550_arXiv.2402.17414.md",
-    "LiteratureNotes/alakuijala2019-jpeg.md",
-    "LiteratureNotes/lee2023-flexround.md",
-    "LiteratureNotes/flamich2022-fast.md",
-    "LiteratureNotes/dettmers2022-llm.md",
-    "未命名 6.md",
-    "未命名 5.md",
-    "未命名 4.md",
-    "LiteratureNotes/girish2023-shacira.md",
-    "LiteratureNotes/tang2023-scene.md",
-    "LiteratureNotes/wang2024-model.md",
-    "LiteratureNotes/guo2023-compression.md",
-    "LiteratureNotes/zt-import",
-    "literaturenotes.zip",
-    "ziVputrH",
-    "未命名",
-    "Pytorch",
-    "未命名.canvas",
-    "Paperwords",
-    "未命名 1.canvas",
-    "LiteratureNotes",
-    "ZtTemplates",
-    "Attachments/monaco.ttf",
-    "monaco.ttf"
+    "未命名 5.md"
   ]
 }
