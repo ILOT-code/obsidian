@@ -43,5 +43,7 @@ Drawing inspiration from this, we introduce an innovative encoder controller for
 视频压缩有两种范式，分别是基于预测的残差编码模式，和基于条件概率的模式。它们的比特流由运动和残差/上下文相关的信息构成。后者通常占据 80%以上，来生成高质量的帧。然而对于视觉任务来说，它们更关注物体及其运动，而不是整个帧。
 
 帧有 I 帧 P 帧两种类型，本文设计了 dynamic vision mode predicction (DVPM) 来生成新的帧类型 $P_m$, 它为当前帧预测出可以跳过/不跳过的编码的feature element。这个模块可以根据视觉任务自动学习，在保持视觉任务性能的同时降低码率。
-具体而言，对于
+具体而言，对于预测结果为跳过的 feature element，使用超先验网络预测到的平均值代替他，而不用进行编码。
+
+同时，保持帧重建质量也很重要，因为需要提取帧之间的参考关系。对于 Group of Pictures (GoP) 的结构，第一个帧是 I 帧，需要考虑后面的 P 帧和 $P_m$ 帧的比例与排列，以此提高重建质量。
 
