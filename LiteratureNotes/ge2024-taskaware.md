@@ -78,5 +78,6 @@ $$
 $$
 $\theta$ 表示一种排列可能。
 
-DFS 当然是耗时的，因此提出了
+DFS 当然是耗时的，因此提出了 GoP prediction 模块
 ![[Pasted image 20240710014034.png]]
+由 Pre-Analysis 和 GoP Prediction 两部分组成。其中 Detector 识别物体并生成 mask，RAFT 计算出光流向量
