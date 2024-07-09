@@ -61,5 +61,5 @@ a 是总体流程，GoP Vector 决定了帧是 P 还是 $P_m$ 类型，可以看
 
 ### Dynamic Vision Mode Prediction
 
-
+以预测--残差模式的 DVC 为例，来阐述该模块的作用。我们需要去编码一个 residual feature $m_t$，它的形状是 $c\times h\times w$。同时超先验网络会得到一个预测
 
