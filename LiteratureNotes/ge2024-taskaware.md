@@ -31,9 +31,11 @@ tags: []
 >Prior research on deep video compression (DVC) for machine tasks typically necessitates training a unique codec for each specific task, mandating a dedicated decoder per task. In contrast, traditional video codecs employ a flexible encoder controller, enabling the adaptation of a single codec to different tasks through mechanisms like mode prediction.
 >之前的 DVC 都是对特定的学习任务训练单独的编码器，而传统的视频编码器则可以通过一些参数来控制编码器行为，适应不同的任务。
 Drawing inspiration from this, we introduce an innovative encoder controller for deep video compression for machines. This controller features a mode prediction and a Group of Pictures (GoP) selection module. Our approach centralizes control at the encoding stage, allowing for adaptable encoder adjustments across different tasks, such as detection and tracking, while maintaining compatibility with a standard pre-trained DVC decoder. 
-本文为 DVC 设计了一个
+本文为 DVC 设计了一个控制器，在编码阶段使用。它能够控制DVC 适应不同的任务（如识别和追踪）
 
 
 
 
 
+## Introduction
+现有的视频编码器大都为人眼识别服务，但现在很多视频进过压缩后是被
