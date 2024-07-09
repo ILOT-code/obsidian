@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notecards/Gumbel Softmax.md",
+                "file": "LiteratureNotes/ge2024-taskaware.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notecards/Gumbel Softmax.md",
+                "file": "LiteratureNotes/ge2024-taskaware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notecards/Gumbel Softmax.md",
+                "file": "LiteratureNotes/ge2024-taskaware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notecards/Gumbel Softmax.md"
+                "file": "LiteratureNotes/ge2024-taskaware.md"
               }
             }
           }
@@ -177,6 +177,7 @@
   },
   "active": "b92b6f4b2e1cc48d",
   "lastOpenFiles": [
+    "Notecards/Gumbel Softmax.md",
     "LiteratureNotes/ge2024-taskaware.md",
     "Attachments/Pasted image 20240710010304.png",
     "Attachments/Pasted image 20240710004347.png",

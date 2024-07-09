@@ -63,4 +63,9 @@ a 是总体流程，GoP Vector 决定了帧是 P 还是 $P_m$ 类型，可以看
 
 以预测--残差模式的 DVC 为例，来阐述该模块的作用。我们需要去编码一个 residual feature $m_t$，它的形状是 $c\times h\times w$。同时超先验网络会得到一个形状为 $2c\times h \times w$ 的向量（这里的超先验网络不能为自回归模型），每个值表示了对应位置的均值和方差。
 ![[Pasted image 20240710010304.png]]
+如图，把那些为 0 的点，不进行编码，直接替换为超先验网络的预测的均值。
+>[!?]
+>gumbel softmax 怎么生成一个 binary
 
+
+### DivGoP → GoP Selection
