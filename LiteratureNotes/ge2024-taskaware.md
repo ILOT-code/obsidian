@@ -24,7 +24,7 @@ tags: []
 **网页链接**: [URL](https://openaccess.thecvf.com/content/CVPR2024/html/Ge_Task-Aware_Encoder_Control_for_Deep_Video_Compression_CVPR_2024_paper.html)
 
 
-**前置文章：DCVC**
+**前置文章：DCVC，TCM, FVC**
 ## Abstract
 
 >[!abstract]
@@ -73,3 +73,10 @@ DivGoP 是一种手工设计的结构，P 和 $P_m$ 交替排列。
 ![[Pasted image 20240710013142.png]]
 
 最优GoP 结构的选择，实际上是一个排列组合问题。假设组的大小是 10，除了第一个是 I 帧外，其他 9 个任意选择。因此，最优的选择可以通过 DFS 来遍历得到。
+$$
+\arg\min_\theta\quad R(\theta)+\lambda_pL_{\det}(\theta)
+$$
+$\theta$ 表示一种排列可能。
+
+DFS 当然是耗时的，因此提出了
+![[Pasted image 20240710014034.png]]
