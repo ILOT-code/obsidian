@@ -49,3 +49,10 @@ Drawing inspiration from this, we introduce an innovative encoder controller for
 
 本文把这样的架构使用在已经经过预训练的 DVC 上，并且之后不改变编码器和解码器的参数。提出的这些模块仅仅控制编码阶段。
 
+##  Method
+
+### Overview
+
+![[Pasted image 20240710004347.png]]
+a 是总体流程，GoP Vector 决定了帧是 P 还是 $P_m$ 类型，可以看到解码器部分并没有任何改变，直接使用预先训练的解码器。
+
