@@ -80,4 +80,6 @@ $\theta$ 表示一种排列可能。
 
 DFS 当然是耗时的，因此提出了 GoP prediction 模块
 ![[Pasted image 20240710014034.png]]
-由 Pre-Analysis 和 GoP Prediction 两部分组成。其中 Detector 识别物体并生成 mask，RAFT 计算出光流向量，并和 mask 相乘。motion encoder 生成均值方差向量。
+由 Pre-Analysis 和 GoP Prediction 两部分组成。其中 Detector 识别物体并生成 mask，RAFT 计算出光流向量，并和 mask 相乘。motion encoder 生成的是均值方差向量。
+
+得到 $s_{logit}$ 后，在训练过程中，使用 Gumbel softmax 采样技术迭代地为每一帧生成一个 binary。
