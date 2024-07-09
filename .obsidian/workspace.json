@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/ge2024-taskaware.md",
+                "file": "Notecards/Gumbel Softmax.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "f9ff9a56711812bb",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/ge2024-taskaware.md",
+                "file": "Notecards/Gumbel Softmax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/ge2024-taskaware.md",
+                "file": "Notecards/Gumbel Softmax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/ge2024-taskaware.md"
+                "file": "Notecards/Gumbel Softmax.md"
               }
             }
           }
@@ -178,10 +177,10 @@
   },
   "active": "b92b6f4b2e1cc48d",
   "lastOpenFiles": [
+    "LiteratureNotes/ge2024-taskaware.md",
     "Attachments/Pasted image 20240710010304.png",
     "Attachments/Pasted image 20240710004347.png",
     "LiteratureNotes/li2023-neural.md",
-    "LiteratureNotes/ge2024-taskaware.md",
     "shortcut.md",
     "LiteratureNotes/liu2023-learned.md",
     "未命名 5.md"
