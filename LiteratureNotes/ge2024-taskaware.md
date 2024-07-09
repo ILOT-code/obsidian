@@ -38,4 +38,6 @@ Drawing inspiration from this, we introduce an innovative encoder controller for
 
 
 ## Introduction
-现有的视频编码器大都为人眼识别服务，但现在很多视频进过压缩后是被
+现有的视频编码器大都为人眼识别服务，但现在很多视频进过压缩和解压后是被视觉任务使用。视觉任务通常更注意帧内的某些区域的语义信息，而不必要关注整个帧。
+
+视频压缩有两种范式，分别是基于预测的残差编码模式，和基于条件概率的模式。
