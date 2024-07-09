@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/li2023-neural.md",
+                "file": "LiteratureNotes/ge2024-taskaware.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dcvc",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/li2023-neural.md",
+                "file": "LiteratureNotes/ge2024-taskaware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/li2023-neural.md",
+                "file": "LiteratureNotes/ge2024-taskaware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/li2023-neural.md"
+                "file": "LiteratureNotes/ge2024-taskaware.md"
               }
             }
           }
@@ -178,6 +178,8 @@
   },
   "active": "b92b6f4b2e1cc48d",
   "lastOpenFiles": [
+    "LiteratureNotes/li2023-neural.md",
+    "LiteratureNotes/ge2024-taskaware.md",
     "shortcut.md",
     "LiteratureNotes/liu2023-learned.md",
     "未命名 5.md"
