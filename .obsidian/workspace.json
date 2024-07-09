@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shortcut.md",
+                "file": "LiteratureNotes/li2023-neural.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,15 +31,8 @@
       {
         "id": "ce5c4b517c017921",
         "type": "tabs",
+        "dimension": 59.31506849315068,
         "children": [
-          {
-            "id": "fdb1a5f537a6d654",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          },
           {
             "id": "af5c7bb3610ed00e",
             "type": "leaf",
@@ -56,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dcvc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,6 +63,22 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "f9ff9a56711812bb",
+        "type": "tabs",
+        "dimension": 40.68493150684932,
+        "children": [
+          {
+            "id": "fdb1a5f537a6d654",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -101,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
+                "file": "LiteratureNotes/li2023-neural.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
+                "file": "LiteratureNotes/li2023-neural.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shortcut.md"
+                "file": "LiteratureNotes/li2023-neural.md"
               }
             }
           }
@@ -169,6 +178,7 @@
   },
   "active": "b92b6f4b2e1cc48d",
   "lastOpenFiles": [
+    "shortcut.md",
     "LiteratureNotes/liu2023-learned.md",
     "未命名 5.md"
   ]
