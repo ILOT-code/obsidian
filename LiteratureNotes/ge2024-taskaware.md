@@ -45,5 +45,7 @@ Drawing inspiration from this, we introduce an innovative encoder controller for
 帧有 I 帧 P 帧两种类型，本文设计了 dynamic vision mode predicction (DVPM) 来生成新的帧类型 $P_m$, 它为当前帧预测出可以跳过/不跳过的编码的feature element。这个模块可以根据视觉任务自动学习，在保持视觉任务性能的同时降低码率。
 具体而言，对于预测结果为跳过的 feature element，使用超先验网络预测到的平均值代替他，而不用进行编码。
 
-同时，保持帧重建质量也很重要，因为需要提取帧之间的参考关系。对于 Group of Pictures (GoP) 的结构，第一个帧是 I 帧，需要考虑后面的 P 帧和 $P_m$ 帧的比例与排列，以此提高重建质量。
+同时，保持帧重建质量也很重要，因为需要提取帧之间的参考关系。对于 Group of Pictures (GoP) 的结构，第一个帧是 I 帧，需要考虑后面的 P 帧和 $P_m$ 帧的比例与排列，以此提高重建质量。本文设计了一个 GoP selection 网络，动态选择出 GoP 的结构。
+
+本文把这样的架构使用在已经经过预训练的 DVC 上，并且之后不改变编码器和解码器的参数。提出的这些模块仅仅控制编码阶段。
 
