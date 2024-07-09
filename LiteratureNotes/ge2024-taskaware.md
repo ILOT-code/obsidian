@@ -54,5 +54,7 @@ Drawing inspiration from this, we introduce an innovative encoder controller for
 ### Overview
 
 ![[Pasted image 20240710004347.png]]
-a 是总体流程，GoP Vector 决定了帧是 P 还是 $P_m$ 类型，可以看到解码器部分并没有任何改变，直接使用预先训练的解码器。
+a 是总体流程，GoP Vector 决定了帧是 P 还是 $P_m$ 类型，可以看到解码器部分并没有任何改变，直接使用预先训练的解码器。b 表示了 $P_m$ 的生成，由先前的 P 帧为参考和 DVMP 模块来生成，另外，全部的 P 帧也是以先前的 P 帧为参考的，而不是 $P_m$。c 表示了 GoP selection 网络的构成。
+
+当面向人眼时，帧的形式改为 I, P, P, P...
 
