@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "kim2024-c3",
+      "path": "LiteratureNotes/kim2024-c3.md"
+    },
+    {
       "basename": "ge2024-taskaware",
       "path": "LiteratureNotes/ge2024-taskaware.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "熵",
       "path": "Notecards/熵.md"
-    },
-    {
-      "basename": "矩阵微分",
-      "path": "Notecards/矩阵微分.md"
     }
   ],
   "omittedPaths": [],
