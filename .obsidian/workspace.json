@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/kim2024-c3.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/kim2024-c3.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/kim2024-c3.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/kim2024-c3.md"
+                "file": "Notecards/ANS及其实现技巧.md"
               }
             }
           }
@@ -191,8 +190,8 @@
   },
   "active": "8d24a65d866796be",
   "lastOpenFiles": [
-    "LiteratureNotes/ge2024-taskaware.md",
     "LiteratureNotes/kim2024-c3.md",
+    "LiteratureNotes/ge2024-taskaware.md",
     "Notecards/ANS及其实现技巧.md",
     "Attachments/Pasted image 20240711013039.png",
     "Attachments/Pasted image 20240711013022.png",
