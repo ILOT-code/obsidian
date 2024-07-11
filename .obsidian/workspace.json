@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md",
+                "file": "Notecards/Gumbel Softmax.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md",
+                "file": "Notecards/Gumbel Softmax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md",
+                "file": "Notecards/Gumbel Softmax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md"
+                "file": "Notecards/Gumbel Softmax.md"
               }
             }
           }
@@ -190,9 +190,9 @@
   },
   "active": "8d24a65d866796be",
   "lastOpenFiles": [
+    "Notecards/ANS及其实现技巧.md",
     "LiteratureNotes/kim2024-c3.md",
     "LiteratureNotes/ge2024-taskaware.md",
-    "Notecards/ANS及其实现技巧.md",
     "Attachments/Pasted image 20240711013039.png",
     "Attachments/Pasted image 20240711013022.png",
     "Attachments/Pasted image 20240711012455.png",
