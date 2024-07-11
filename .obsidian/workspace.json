@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/ge2024-taskaware.md",
+                "file": "LiteratureNotes/kim2024-c3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/ge2024-taskaware.md",
+                "file": "LiteratureNotes/kim2024-c3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/ge2024-taskaware.md"
+                "file": "LiteratureNotes/kim2024-c3.md"
               }
             }
           }
@@ -175,8 +176,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "cmdr:ZotLit: Refresh Zotero data": false,
-      "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "obsidian-file-cleaner:清理文件": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
@@ -185,13 +184,15 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "hidden-folder-obsidian:隐藏文件夹": false,
+      "cmdr:ZotLit: Refresh Zotero data": false,
+      "cmdr:ZotLit: Open quick switcher for literature notes": false
     }
   },
-  "active": "b92b6f4b2e1cc48d",
+  "active": "8d24a65d866796be",
   "lastOpenFiles": [
-    "LiteratureNotes/kim2024-c3.md",
     "LiteratureNotes/ge2024-taskaware.md",
+    "LiteratureNotes/kim2024-c3.md",
     "Notecards/ANS及其实现技巧.md",
     "Attachments/Pasted image 20240711013039.png",
     "Attachments/Pasted image 20240711013022.png",
