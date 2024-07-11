@@ -14,9 +14,9 @@ authors:
   - Yan Wang
   - Jun Zhang
   - Hongwei Qin
-conference: xxx
+conference: CVPR2024
 citekey: ge2024-taskaware
-tags: []
+tags:
 ---
 # Task-Aware Encoder Control for Deep Video Compression
 
