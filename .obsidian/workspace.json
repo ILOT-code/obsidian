@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notecards/Gumbel Softmax.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notecards/Gumbel Softmax.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notecards/Gumbel Softmax.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notecards/Gumbel Softmax.md"
+                "file": "Notecards/ANS及其实现技巧.md"
               }
             }
           }
@@ -190,6 +190,7 @@
   },
   "active": "8d24a65d866796be",
   "lastOpenFiles": [
+    "Notecards/Gumbel Softmax.md",
     "Notecards/ANS及其实现技巧.md",
     "LiteratureNotes/kim2024-c3.md",
     "LiteratureNotes/ge2024-taskaware.md",
@@ -203,7 +204,6 @@
     "Attachments/Pasted image 20240711000426.png",
     "Attachments/Pasted image 20240710015915.png",
     "Attachments/Pasted image 20240710014034.png",
-    "Notecards/Gumbel Softmax.md",
     "LiteratureNotes/li2023-neural.md",
     "shortcut.md",
     "LiteratureNotes/liu2023-learned.md",
