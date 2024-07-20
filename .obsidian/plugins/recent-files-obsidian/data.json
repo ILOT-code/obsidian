@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "ANS及其实现技巧",
       "path": "Notecards/ANS及其实现技巧.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "deng2023-compressing",
       "path": "LiteratureNotes/deng2023-compressing.md"
-    },
-    {
-      "basename": "熵",
-      "path": "Notecards/熵.md"
     }
   ],
   "omittedPaths": [],
