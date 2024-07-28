@@ -4,20 +4,7 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [
-    {
-      "id": "zotlit:refresh-zotero-data",
-      "icon": "refresh-cw",
-      "name": "ZotLit: Refresh Zotero data",
-      "mode": "any"
-    },
-    {
-      "id": "zotlit:note-quick-switcher",
-      "icon": "at-sign",
-      "name": "ZotLit: Open quick switcher for literature notes",
-      "mode": "any"
-    }
-  ],
+  "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
@@ -26,10 +13,7 @@
   "explorer": [],
   "hide": {
     "statusbar": [],
-    "leftRibbon": [
-      "插入模板",
-      "Advanced Tables Toolbar"
-    ]
+    "leftRibbon": []
   },
   "spacing": 8,
   "advancedToolbar": {

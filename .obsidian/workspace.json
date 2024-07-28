@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/ge2024-taskaware.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d24a65d866796be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "shortcut.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,17 +170,16 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "cmdr:ZotLit: Refresh Zotero data": false,
-      "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "8d24a65d866796be",
+  "active": "b92b6f4b2e1cc48d",
   "lastOpenFiles": [
+    "LiteratureNotes/ge2024-taskaware.md",
+    "shortcut.md",
     "Notecards/ANS及其实现技巧.md",
     "Notecards/Gumbel Softmax.md",
     "LiteratureNotes/kim2024-c3.md",
-    "LiteratureNotes/ge2024-taskaware.md",
     "Attachments/Pasted image 20240711013039.png",
     "Attachments/Pasted image 20240711013022.png",
     "Attachments/Pasted image 20240711012455.png",
@@ -205,7 +191,6 @@
     "Attachments/Pasted image 20240710015915.png",
     "Attachments/Pasted image 20240710014034.png",
     "LiteratureNotes/li2023-neural.md",
-    "shortcut.md",
     "LiteratureNotes/liu2023-learned.md",
     "未命名 5.md"
   ]

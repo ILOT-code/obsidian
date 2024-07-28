@@ -5,6 +5,10 @@
       "path": "shortcut.md"
     },
     {
+      "basename": "ge2024-taskaware",
+      "path": "LiteratureNotes/ge2024-taskaware.md"
+    },
+    {
       "basename": "ANS及其实现技巧",
       "path": "Notecards/ANS及其实现技巧.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "kim2024-c3",
       "path": "LiteratureNotes/kim2024-c3.md"
-    },
-    {
-      "basename": "ge2024-taskaware",
-      "path": "LiteratureNotes/ge2024-taskaware.md"
     },
     {
       "basename": "li2023-neural",
