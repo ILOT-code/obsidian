@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shortcut.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
+                "file": "Notecards/ANS及其实现技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shortcut.md"
+                "file": "Notecards/ANS及其实现技巧.md"
               }
             }
           }
@@ -175,8 +176,8 @@
   },
   "active": "b92b6f4b2e1cc48d",
   "lastOpenFiles": [
-    "LiteratureNotes/ge2024-taskaware.md",
     "shortcut.md",
+    "LiteratureNotes/ge2024-taskaware.md",
     "Notecards/ANS及其实现技巧.md",
     "Notecards/Gumbel Softmax.md",
     "LiteratureNotes/kim2024-c3.md",
