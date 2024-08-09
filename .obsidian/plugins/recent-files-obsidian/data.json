@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "mehta2021-modulated",
+      "path": "LiteratureNotes/mehta2021-modulated.md"
+    },
+    {
+      "basename": "jacobs1991-adaptive",
+      "path": "LiteratureNotes/jacobs1991-adaptive.md"
+    },
+    {
       "basename": "ANS及其实现技巧",
       "path": "Notecards/ANS及其实现技巧.md"
+    },
+    {
+      "basename": "jacobs1991-adaptive",
+      "path": "jacobs1991-adaptive.md"
     },
     {
       "basename": "shortcut",
@@ -187,18 +199,6 @@
     {
       "basename": "muller2022-instant",
       "path": "LiteratureNotes/muller2022-instant.md"
-    },
-    {
-      "basename": "marpe2003-contextbased",
-      "path": "LiteratureNotes/marpe2003-contextbased.md"
-    },
-    {
-      "basename": "ladune2023-coolchic",
-      "path": "LiteratureNotes/ladune2023-coolchic.md"
-    },
-    {
-      "basename": "deng2023-compressing",
-      "path": "LiteratureNotes/deng2023-compressing.md"
     }
   ],
   "omittedPaths": [],

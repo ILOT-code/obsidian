@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md",
+                "file": "LiteratureNotes/mehta2021-modulated.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md",
+                "file": "LiteratureNotes/mehta2021-modulated.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md",
+                "file": "LiteratureNotes/mehta2021-modulated.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notecards/ANS及其实现技巧.md"
+                "file": "LiteratureNotes/mehta2021-modulated.md"
               }
             }
           }
@@ -176,9 +175,12 @@
   },
   "active": "b92b6f4b2e1cc48d",
   "lastOpenFiles": [
+    "LiteratureNotes/jacobs1991-adaptive.md",
+    "LiteratureNotes/mehta2021-modulated.md",
+    "Notecards/ANS及其实现技巧.md",
+    "jacobs1991-adaptive.md",
     "shortcut.md",
     "LiteratureNotes/ge2024-taskaware.md",
-    "Notecards/ANS及其实现技巧.md",
     "Notecards/Gumbel Softmax.md",
     "LiteratureNotes/kim2024-c3.md",
     "Attachments/Pasted image 20240711013039.png",

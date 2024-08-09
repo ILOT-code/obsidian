@@ -1,4 +1,5 @@
 
+
 ANS (Asymmetric Numeral Systems) 是一种压缩手段，这里会推导其实现的部分数学证明，以及实现上的一些优化技巧。
 本文参考了 ANS 论文原文：[[1311.2540] Asymmetric numeral systems: entropy coding combining speed of Huffman coding with compression rate of arithmetic coding]( https://arxiv.org/abs/1311.2540 ) 以及一篇博客：
 [Lossless Compression with Asymmetric Numeral Systems | Bounded Rationality](https://bjlkeng.io/posts/lossless-compression-with-asymmetric-numeral-systems/)
