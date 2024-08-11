@@ -163,17 +163,18 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "hidden-folder-obsidian:隐藏文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "b92b6f4b2e1cc48d",
+  "active": "fdb1a5f537a6d654",
   "lastOpenFiles": [
     "Paperwords/2023-preprocessing-w.md",
     "未命名.md",
