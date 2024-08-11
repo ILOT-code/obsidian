@@ -4,7 +4,20 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "zotlit:refresh-zotero-data",
+      "icon": "refresh-cw",
+      "name": "ZotLit: Refresh Zotero data",
+      "mode": "any"
+    },
+    {
+      "id": "zotlit:note-quick-switcher",
+      "icon": "at-sign",
+      "name": "ZotLit: Open quick switcher for literature notes",
+      "mode": "any"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
@@ -13,7 +26,12 @@
   "explorer": [],
   "hide": {
     "statusbar": [],
-    "leftRibbon": []
+    "leftRibbon": [
+      "打开快速切换",
+      "创建新看板",
+      "新建绘图文件",
+      "打开命令面板"
+    ]
   },
   "spacing": 8,
   "advancedToolbar": {

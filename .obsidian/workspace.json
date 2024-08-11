@@ -11,8 +11,12 @@
             "id": "b0cfd4b3ea8d2031",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/balle2017-endtoend.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -105,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/多元高斯分布.md",
+                "file": "LiteratureNotes/balle2017-endtoend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/多元高斯分布.md",
+                "file": "LiteratureNotes/balle2017-endtoend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/多元高斯分布.md"
+                "file": "LiteratureNotes/balle2017-endtoend.md"
               }
             }
           }
@@ -167,11 +171,14 @@
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-kanban:创建新看板": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "hidden-folder-obsidian:隐藏文件夹": false,
+      "cmdr:ZotLit: Refresh Zotero data": false,
+      "cmdr:ZotLit: Open quick switcher for literature notes": false
     }
   },
-  "active": "fdb1a5f537a6d654",
+  "active": "b0cfd4b3ea8d2031",
   "lastOpenFiles": [
+    "LiteratureNotes/balle2017-endtoend.md",
     "Paperwords/2023-preprocessing-w.md",
     "未命名.md",
     "LiteratureNotes/jacobs1991-adaptive.md",
