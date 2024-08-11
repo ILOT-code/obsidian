@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "507ff295a49bce5c",
+        "id": "92f54ba052823e48",
         "type": "tabs",
         "children": [
           {
-            "id": "b92b6f4b2e1cc48d",
+            "id": "b0cfd4b3ea8d2031",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math/多元高斯分布.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -169,9 +166,9 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "hidden-folder-obsidian:隐藏文件夹": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-kanban:创建新看板": false
+      "obsidian-kanban:创建新看板": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "fdb1a5f537a6d654",
