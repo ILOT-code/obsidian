@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "mehta2021-modulated",
-      "path": "LiteratureNotes/mehta2021-modulated.md"
+      "basename": "多元高斯分布",
+      "path": "Math/多元高斯分布.md"
     },
     {
-      "basename": "jacobs1991-adaptive",
-      "path": "LiteratureNotes/jacobs1991-adaptive.md"
+      "basename": "2023-preprocessing-w",
+      "path": "Paperwords/2023-preprocessing-w.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
+      "basename": "zt-note.eta",
+      "path": "ZtTemplates/zt-note.eta.md"
+    },
+    {
+      "basename": "zt-annot.eta",
+      "path": "ZtTemplates/zt-annot.eta.md"
     },
     {
       "basename": "ANS及其实现技巧",
@@ -137,14 +149,6 @@
       "path": "未命名 3.md"
     },
     {
-      "basename": "zt-note.eta",
-      "path": "ZtTemplates/zt-note.eta.md"
-    },
-    {
-      "basename": "zt-annot.eta",
-      "path": "ZtTemplates/zt-annot.eta.md"
-    },
-    {
       "basename": "未命名 2",
       "path": "未命名 2.md"
     },
@@ -157,16 +161,8 @@
       "path": "Sundry/Numpy.md"
     },
     {
-      "basename": "未命名",
-      "path": "未命名.md"
-    },
-    {
       "basename": "VAE",
       "path": "Notecards/VAE.md"
-    },
-    {
-      "basename": "多元高斯分布",
-      "path": "Math/多元高斯分布.md"
     },
     {
       "basename": "charls",

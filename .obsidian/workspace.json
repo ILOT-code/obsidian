@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/mehta2021-modulated.md",
+                "file": "Math/多元高斯分布.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/mehta2021-modulated.md",
+                "file": "Math/多元高斯分布.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/mehta2021-modulated.md",
+                "file": "Math/多元高斯分布.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/mehta2021-modulated.md"
+                "file": "Math/多元高斯分布.md"
               }
             }
           }
@@ -175,8 +175,12 @@
   },
   "active": "b92b6f4b2e1cc48d",
   "lastOpenFiles": [
+    "Paperwords/2023-preprocessing-w.md",
+    "未命名.md",
     "LiteratureNotes/jacobs1991-adaptive.md",
     "LiteratureNotes/mehta2021-modulated.md",
+    "ZtTemplates/zt-note.eta.md",
+    "ZtTemplates/zt-annot.eta.md",
     "Notecards/ANS及其实现技巧.md",
     "jacobs1991-adaptive.md",
     "shortcut.md",
