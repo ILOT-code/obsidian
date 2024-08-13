@@ -5,6 +5,10 @@
       "path": "Notecards/ANS及其实现技巧.md"
     },
     {
+      "basename": "ali2023-efficient",
+      "path": "LiteratureNotes/ali2023-efficient.md"
+    },
+    {
       "basename": "未命名 3",
       "path": "未命名 3.md"
     },
@@ -95,10 +99,6 @@
     {
       "basename": "未命名 7",
       "path": "未命名 7.md"
-    },
-    {
-      "basename": "ali2023-efficient",
-      "path": "LiteratureNotes/ali2023-efficient.md"
     },
     {
       "basename": "Arithmetic Coding",

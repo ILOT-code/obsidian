@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b9960b0e5eb38a11",
+        "id": "75c9c95de1512bf6",
         "type": "tabs",
         "children": [
           {
-            "id": "0a5e55f811d6560c",
+            "id": "0a889f09c1b99783",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -144,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LiteratureNotes/balle2017-endtoend.md"
+              }
             }
           }
         ]
@@ -170,10 +170,11 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "0a5e55f811d6560c",
+  "active": "af5c7bb3610ed00e",
   "lastOpenFiles": [
-    "Notecards/ANS及其实现技巧.md",
     "LiteratureNotes/balle2017-endtoend.md",
+    "Notecards/ANS及其实现技巧.md",
+    "LiteratureNotes/ali2023-efficient.md",
     "未命名 3.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
     "LiteratureNotes/2023-preprocessing.md",
