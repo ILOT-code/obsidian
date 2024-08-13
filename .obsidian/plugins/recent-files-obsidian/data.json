@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "balle2017-endtoend",
-      "path": "LiteratureNotes/balle2017-endtoend.md"
+      "basename": "ANS及其实现技巧",
+      "path": "Notecards/ANS及其实现技巧.md"
+    },
+    {
+      "basename": "未命名 3",
+      "path": "未命名 3.md"
+    },
+    {
+      "basename": "alakuijala2019-jpeg",
+      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
+    },
+    {
+      "basename": "2023-preprocessing",
+      "path": "LiteratureNotes/2023-preprocessing.md"
+    },
+    {
+      "basename": "balle2017-endtoend-w",
+      "path": "Paperwords/balle2017-endtoend-w.md"
     },
     {
       "basename": "多元高斯分布",
@@ -23,10 +39,6 @@
     {
       "basename": "zt-annot.eta",
       "path": "ZtTemplates/zt-annot.eta.md"
-    },
-    {
-      "basename": "ANS及其实现技巧",
-      "path": "Notecards/ANS及其实现技巧.md"
     },
     {
       "basename": "jacobs1991-adaptive",
@@ -65,10 +77,6 @@
       "path": "LiteratureNotes/2017-significantly.md"
     },
     {
-      "basename": "2023-preprocessing",
-      "path": "LiteratureNotes/2023-preprocessing.md"
-    },
-    {
       "basename": "Zizhongchen compress",
       "path": "Zizhongchen compress.md"
     },
@@ -99,10 +107,6 @@
     {
       "basename": "chen2021-nerv",
       "path": "LiteratureNotes/chen2021-nerv.md"
-    },
-    {
-      "basename": "alakuijala2019-jpeg",
-      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
     },
     {
       "basename": "lee2023-flexround",
@@ -149,10 +153,6 @@
       "path": "Paperwords/dettmers2022-llm-w.md"
     },
     {
-      "basename": "未命名 3",
-      "path": "未命名 3.md"
-    },
-    {
       "basename": "未命名 2",
       "path": "未命名 2.md"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "salimans2022-progressive",
       "path": "LiteratureNotes/salimans2022-progressive.md"
-    },
-    {
-      "basename": "muller2022-instant",
-      "path": "LiteratureNotes/muller2022-instant.md"
     }
   ],
   "omittedPaths": [],
