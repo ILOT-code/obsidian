@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sundry/vim.md",
-                "mode": "preview",
+                "file": "未命名 8.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sundry/vim.md",
+                "file": "未命名 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sundry/vim.md",
+                "file": "未命名 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sundry/vim.md"
+                "file": "未命名 8.md"
               }
             }
           }
@@ -178,6 +178,7 @@
   },
   "active": "c8ae9f630d520c21",
   "lastOpenFiles": [
+    "Sundry/vim.md",
     "未命名 8.md",
     "未命名 4.md",
     "未命名 9.md",
