@@ -5,6 +5,14 @@
       "path": "未命名 4.md"
     },
     {
+      "basename": "未命名 8",
+      "path": "未命名 8.md"
+    },
+    {
+      "basename": "未命名 9",
+      "path": "未命名 9.md"
+    },
+    {
       "basename": "ANS及其实现技巧",
       "path": "Notecards/ANS及其实现技巧.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "sneyers2016-flif",
       "path": "LiteratureNotes/sneyers2016-flif.md"
-    },
-    {
-      "basename": "salimans2022-progressive",
-      "path": "LiteratureNotes/salimans2022-progressive.md"
     }
   ],
   "omittedPaths": [],

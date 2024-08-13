@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "75c9c95de1512bf6",
+        "id": "b27e34ffb5bc26a7",
         "type": "tabs",
         "children": [
           {
-            "id": "0a889f09c1b99783",
+            "id": "c8ae9f630d520c21",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 4.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 256.5
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -109,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "未命名 4.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -176,8 +168,11 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "0a889f09c1b99783",
+  "active": "c8ae9f630d520c21",
   "lastOpenFiles": [
+    "未命名 4.md",
+    "未命名 8.md",
+    "未命名 9.md",
     "LiteratureNotes/balle2017-endtoend.md",
     "Notecards/ANS及其实现技巧.md",
     "LiteratureNotes/ali2023-efficient.md",
