@@ -11,8 +11,12 @@
             "id": "0a889f09c1b99783",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "未命名 4.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -105,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "未命名 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/balle2017-endtoend.md"
+                "file": "未命名 4.md"
               }
             }
           }
@@ -170,7 +176,7 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "af5c7bb3610ed00e",
+  "active": "0a889f09c1b99783",
   "lastOpenFiles": [
     "LiteratureNotes/balle2017-endtoend.md",
     "Notecards/ANS及其实现技巧.md",
