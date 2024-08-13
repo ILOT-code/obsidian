@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vim",
+      "path": "Sundry/vim.md"
+    },
+    {
       "basename": "未命名 8",
       "path": "未命名 8.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "sun2023-all",
       "path": "LiteratureNotes/sun2023-all.md"
-    },
-    {
-      "basename": "sneyers2016-flif",
-      "path": "LiteratureNotes/sneyers2016-flif.md"
     }
   ],
   "omittedPaths": [],
