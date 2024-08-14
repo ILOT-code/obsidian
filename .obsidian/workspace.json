@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 10.md",
+                "file": "未命名 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名 10.md",
+                "file": "未命名 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 10.md"
+                "file": "未命名 8.md"
               }
             }
           }
@@ -189,10 +188,10 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "e049b61cb0439f60",
+  "active": "c8ae9f630d520c21",
   "lastOpenFiles": [
-    "未命名 8.md",
     "未命名 10.md",
+    "未命名 8.md",
     "Sundry/vim.md",
     "未命名 4.md",
     "未命名 9.md",
