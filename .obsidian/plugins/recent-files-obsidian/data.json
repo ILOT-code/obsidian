@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-08-26",
+      "path": "diary/2024-08-26.md"
+    },
+    {
       "basename": "未命名 8",
       "path": "未命名 8.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "yang2023-tinc",
       "path": "LiteratureNotes/yang2023-tinc.md"
-    },
-    {
-      "basename": "yang2023-lossy",
-      "path": "LiteratureNotes/yang2023-lossy.md"
     }
   ],
   "omittedPaths": [],
