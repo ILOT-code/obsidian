@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-08-27",
+      "path": "diary/2024-08-27.md"
+    },
+    {
       "basename": "mentzer2019-practical",
       "path": "LiteratureNotes/mentzer2019-practical.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "charls",
       "path": "charls.md"
-    },
-    {
-      "basename": "CompressionFromCV",
-      "path": "CompressionFromCV.md"
     }
   ],
   "omittedPaths": [],
