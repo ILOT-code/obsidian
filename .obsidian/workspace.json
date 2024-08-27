@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2024-08-26.md",
+                "file": "LiteratureNotes/mentzer2019-practical.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2024-08-26.md",
+                "file": "LiteratureNotes/mentzer2019-practical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2024-08-26.md",
+                "file": "LiteratureNotes/mentzer2019-practical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2024-08-26.md"
+                "file": "LiteratureNotes/mentzer2019-practical.md"
               }
             }
           }
@@ -179,8 +179,10 @@
   },
   "active": "c8ae9f630d520c21",
   "lastOpenFiles": [
-    "未命名 8.md",
+    "Attachments/Pasted image 20240827202034.png",
     "diary/2024-08-26.md",
+    "LiteratureNotes/mentzer2019-practical.md",
+    "未命名 8.md",
     "Attachments/Pasted image 20240824153035.png",
     "未命名 10.md",
     "Sundry/vim.md",
@@ -212,8 +214,6 @@
     "Attachments/Pasted image 20240711002317.png",
     "Attachments/Pasted image 20240711000532.png",
     "Attachments/Pasted image 20240711000426.png",
-    "Attachments/Pasted image 20240710015915.png",
-    "LiteratureNotes/li2023-neural.md",
-    "LiteratureNotes/liu2023-learned.md"
+    "Attachments/Pasted image 20240710015915.png"
   ]
 }
