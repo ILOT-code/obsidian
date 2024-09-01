@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-09-01",
+      "path": "diary/2024-09-01.md"
+    },
+    {
       "basename": "多元高斯分布",
       "path": "Math/多元高斯分布.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "VAE",
       "path": "Notecards/VAE.md"
-    },
-    {
-      "basename": "charls",
-      "path": "charls.md"
     }
   ],
   "omittedPaths": [],
