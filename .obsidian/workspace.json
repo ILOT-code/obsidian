@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2024-09-01.md",
+                "file": "diary/2024-08-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2024-09-01.md",
+                "file": "diary/2024-08-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2024-09-01.md",
+                "file": "diary/2024-08-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2024-09-01.md"
+                "file": "diary/2024-08-26.md"
               }
             }
           }
@@ -178,9 +178,9 @@
   },
   "active": "289755077331dd1f",
   "lastOpenFiles": [
+    "diary/2024-08-27.md",
     "diary/2024-09-01.md",
     "Math/多元高斯分布.md",
-    "diary/2024-08-27.md",
     "LiteratureNotes/mentzer2019-practical.md",
     "Attachments/Pasted image 20240827202034.png",
     "diary/2024-08-26.md",
