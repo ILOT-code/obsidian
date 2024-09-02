@@ -26,4 +26,6 @@ tags: []
 
 ## Comments
 
-![[Pasted image 20240902161724.png]]
+![[Pasted image 20240902162047.png]]
+垂直方向和水平两个方向进行。注意红圈部分，除第一层外，其他层的 mask 并不会掩盖掉 mid 行，这是实现 noblind 的关键。最终随着卷积层数的增加，感受野如下图所示向外增长。
+![[Pasted image 20240902162204.png]]
