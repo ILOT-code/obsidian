@@ -22,11 +22,11 @@ tags: []
 >Modeling the distribution of natural images is a landmark problem in unsupervised learning. This task requires an image model that is at once expressive, tractable and scalable. We present a deep neural network that sequentially predicts the pixels in an image along the two spatial dimensions. Our method models the discrete probability of the raw pixel values and encodes the complete set of dependencies in the image. Architectural novelties include fast two-dimensional recurrent layers and an effective use of residual connections in deep recurrent networks. We achieve log-likelihood scores on natural images that are considerably better than the previous state of the art. Our main results also provide benchmarks on the diverse ImageNet dataset. Samples generated from the model appear crisp, varied and globally coherent.
 
 ## Comments
-双向对角线 rnn 设计。深蓝色是正向过程中参考点，浅蓝色是逆向过程参考点。
+双向对角线 rnn 设计。深蓝色是正向过程中参考点，浅蓝色是逆向过程参考点。和 CNN 不同的是，当前点的感受野是其左和其上的所有点，而不是像 CNN 那样感受野随着卷积层的增加而增加。这个特性是 LSTM 的 h和
 
 
 ![[Pasted image 20240902162523.png]]
-在 RNN 之前，先进行了 conv 处理。这样该值就并不是预测下一对角线上的值，而是本身位置的值
+在 LSTM之前，先进行了 conv 处理。这样该值就并不是预测下一对角线上的值，而是本身位置的值
 ![[Pasted image 20240902162823.png]]
 
 > [!note] Page 4
