@@ -26,7 +26,8 @@ tags: []
 
 
 ![[Pasted image 20240902162523.png]]
-在
+在 RNN 之前，先进行了 conv 处理。这样该值就并不是预测下一对角线上的值，而是本身位置的值
+![[Pasted image 20240902162823.png]]
 
 > [!note] Page 4
 > 
