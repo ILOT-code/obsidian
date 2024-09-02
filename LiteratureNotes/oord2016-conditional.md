@@ -26,3 +26,4 @@ tags: []
 
 ## Comments
 
+![[Pasted image 20240902161724.png]]
