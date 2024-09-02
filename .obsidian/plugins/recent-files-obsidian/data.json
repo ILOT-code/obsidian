@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "oord2016-conditional",
+      "path": "LiteratureNotes/oord2016-conditional.md"
+    },
+    {
+      "basename": "2024-08-26",
+      "path": "diary/2024-08-26.md"
+    },
+    {
       "basename": "2024-08-27",
       "path": "diary/2024-08-27.md"
     },
     {
       "basename": "2024-09-01",
       "path": "diary/2024-09-01.md"
-    },
-    {
-      "basename": "2024-08-26",
-      "path": "diary/2024-08-26.md"
     },
     {
       "basename": "多元高斯分布",
@@ -195,10 +199,6 @@
     {
       "basename": "Numpy",
       "path": "Sundry/Numpy.md"
-    },
-    {
-      "basename": "VAE",
-      "path": "Notecards/VAE.md"
     }
   ],
   "omittedPaths": [],
