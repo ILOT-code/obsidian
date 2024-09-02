@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "oord2016-pixel",
+      "path": "LiteratureNotes/oord2016-pixel.md"
+    },
+    {
       "basename": "oord2016-conditional",
       "path": "LiteratureNotes/oord2016-conditional.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "未命名 1",
       "path": "未命名 1.md"
-    },
-    {
-      "basename": "Numpy",
-      "path": "Sundry/Numpy.md"
     }
   ],
   "omittedPaths": [],
