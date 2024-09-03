@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/oord2016-pixel.md",
+                "file": "diary/2024-09-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/oord2016-pixel.md",
+                "file": "diary/2024-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/oord2016-pixel.md",
+                "file": "diary/2024-09-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/oord2016-pixel.md"
+                "file": "diary/2024-09-03.md"
               }
             }
           }
@@ -157,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,10 +177,11 @@
   },
   "active": "289755077331dd1f",
   "lastOpenFiles": [
+    "LiteratureNotes/oord2016-pixel.md",
+    "diary/2024-09-03.md",
     "Attachments/Pasted image 20240902162823.png",
     "Attachments/Pasted image 20240902162523.png",
     "LiteratureNotes/oord2016-conditional.md",
-    "LiteratureNotes/oord2016-pixel.md",
     "Attachments/Pasted image 20240902162204.png",
     "Attachments/Pasted image 20240902162047.png",
     "Attachments/Pasted image 20240902161724.png",
@@ -212,7 +212,6 @@
     "ZtTemplates/zt-annot.eta.md",
     "Attachments/Pasted image 20240711013039.png",
     "Attachments/Pasted image 20240711013022.png",
-    "Attachments/Pasted image 20240711012455.png",
-    "Attachments/Pasted image 20240711005433.png"
+    "Attachments/Pasted image 20240711012455.png"
   ]
 }
