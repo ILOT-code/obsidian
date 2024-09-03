@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "diary/2024-09-03.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ffb70fd8e6b665d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "LiteratureNotes/kwan2024-hinerva.md",
                 "mode": "source",
                 "source": false
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md",
+                "file": "diary/2024-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md",
+                "file": "diary/2024-09-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md"
+                "file": "diary/2024-09-03.md"
               }
             }
           }
@@ -180,13 +192,13 @@
   "active": "2937e61d59548240",
   "lastOpenFiles": [
     "LiteratureNotes/kwan2024-hinerva.md",
+    "diary/2024-09-03.md",
     "ZtTemplates/zt-annots.eta.md",
     "ZtTemplates/zt-cite2.eta.md",
     "ZtTemplates/zt-colored.eta.md",
     "ZtTemplates/zt-field.eta.md",
     "ZtTemplates/zt-note.eta.md",
     "ZtTemplates/zt-annot.eta.md",
-    "diary/2024-09-03.md",
     "LiteratureNotes/oord2016-pixel.md",
     "Attachments/Pasted image 20240902162823.png",
     "Attachments/Pasted image 20240902162523.png",
