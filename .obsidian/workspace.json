@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "de7c760a13c20f96",
+        "id": "44bb40382be02cb1",
         "type": "tabs",
         "children": [
           {
-            "id": "26db80aa3850905e",
+            "id": "d1be694eec58925d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/kwan2024-hinerva.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -105,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LiteratureNotes/kwan2024-hinerva.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LiteratureNotes/kwan2024-hinerva.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,14 +148,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LiteratureNotes/kwan2024-hinerva.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,8 +176,9 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "26db80aa3850905e",
+  "active": "d1be694eec58925d",
   "lastOpenFiles": [
+    "LiteratureNotes/kwan2024-hinerva.md",
     "ZtTemplates/zt-annots.eta.md",
     "ZtTemplates/zt-cite2.eta.md",
     "ZtTemplates/zt-colored.eta.md",
@@ -201,7 +211,6 @@
     "未命名 3.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
     "LiteratureNotes/2023-preprocessing.md",
-    "Paperwords/balle2017-endtoend-w.md",
     "Attachments/Pasted image 20240711013039.png",
     "Attachments/Pasted image 20240711013022.png",
     "Attachments/Pasted image 20240711012455.png"

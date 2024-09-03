@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "kwan2024-hinerva",
+      "path": "LiteratureNotes/kwan2024-hinerva.md"
+    },
+    {
       "basename": "zt-annots.eta",
       "path": "ZtTemplates/zt-annots.eta.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "tang2023-scene",
       "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
-      "basename": "wang2024-model",
-      "path": "LiteratureNotes/wang2024-model.md"
     }
   ],
   "omittedPaths": [],
