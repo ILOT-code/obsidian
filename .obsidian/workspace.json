@@ -11,8 +11,12 @@
             "id": "2937e61d59548240",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/kwan2024-hinerva.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -105,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LiteratureNotes/kwan2024-hinerva.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LiteratureNotes/kwan2024-hinerva.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +177,7 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false
     }
   },
-  "active": "af5c7bb3610ed00e",
+  "active": "2937e61d59548240",
   "lastOpenFiles": [
     "LiteratureNotes/kwan2024-hinerva.md",
     "ZtTemplates/zt-annots.eta.md",
