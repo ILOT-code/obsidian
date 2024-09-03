@@ -35,53 +35,31 @@ tags: []
 > 🔤然而，现有的基于 INR 的方法未能提供与视频压缩领域的最新技术相当的速率质量性能。🔤
 > ^ZDU6Y7D6aNXTAQGZ4p1
 
-### 代研究点
-
-> [!note] Page 1
+> [!note] Page 3
 > 
-> lity and speed [12]. To address this limitation, recent works have employed Convolutional Neural Networks
+> uality of INRs by using adaptive pruning and quantization-aware training. 4) The compression performance of the proposed method is superior to existing INR models, and is comparable to many conventional/le
 > 
 > ---
-> 🔤强度和速度[12]。为了解决这个限制，最近的工作采用了卷积神经网络🔤
-> ^88RZQTGYaNXTAQGZ4p1
+> 🔤通过使用自适应修剪和量化感知训练来提高 INR 的质量。 4）所提出的方法的压缩性能优于现有的INR模型，并且可以与许多常规/le🔤
+> ^RZ8U4VXUaNXTAQGZ4p3
 
 ### 创新点
 
-> [!note] Page 1
+> [!note] Page 2
 > 
-> mploys depth-wise convolutional, MLP and interpolation layers to build the deep and wide network architecture with high capacity. HiNeRV is also a unified representation encoding videos in both frames and patches at the same time, which offers higher performance and flexibility than existing methods. We further build a video codec based on H
-> 
-> ---
-> 🔤采用深度卷积、MLP 和插值层来构建具有高容量的深而宽的网络架构。 HiNeRV 也是一种同时对帧和补丁中的视频进行统一表示编码的方法，它比现有方法提供了更高的性能和灵活性。我们进一步构建了基于H的视频编解码器🔤
-> ^5LYUFALNaNXTAQGZ4p1
-
-### 疑惑点
-
-> [!note] Page 1
-> 
-> index to video frame mapping [12, 31, 6, 27, 11]. These CNN-based INRs are capable of reconstructing video content with higher quality and with a faster decoding speed, when compared to MLP-based appro
+> ive pruning technique to reduce the negative impact of model pruning. Secondly, quantization-aware training is applied for fine-tuning the model performance before quantization. This enables lower bit depth quantization which achieves an improve rate-distortion trade-off. The proposed method has been tested against existing INR-based video coding methods and state-ofthe-art conventional and learning-based video codecs on the UVG [38] and MCL-JCV [57] datasets. Notwithstanding the fact tha
 > 
 > ---
-> 🔤视频帧映射的索引[12,31,6,27,11]。与基于 MLP 的应用程序相比，这些基于 CNN 的 INR 能够以更高的质量和更快的解码速度重建视频内容。🔤
-> ^DF3FEUDKaNXTAQGZ4p1
-
-### 性能成绩
-
-> [!note] Page 1
-> 
-> ion. The proposed method has been evaluated on both UVG and MCL-JCV datasets for video compression, demonstrating significant improvement over all existing INRs baselines and competitive performance when compared to learning-based codecs (72.3% overall
-> 
-> ---
-> 🔤离子。所提出的方法已在用于视频压缩的 UVG 和 MCL-JCV 数据集上进行了评估，与基于学习的编解码器（总体 72.3％）相比，证明了所有现有 INR 基线和竞争性能的显着改进🔤
-> ^S89BMHUMaNXTAQGZ4p1
+> 🔤ive 剪枝技术，减少模型剪枝的负面影响。其次，量化感知训练用于在量化之前微调模型性能。这实现了较低的位深度量化，从而实现了改进的率失真权衡。该方法已在 UVG [38] 和 MCL-JCV [57] 数据集上针对现有的基于 INR 的视频编码方法以及最先进的传统和基于学习的视频编解码器进行了测试。尽管事实上🔤
+> ^L46KFEL7aNXTAQGZ4p2
 
 ### 技术细节
 
-> [!note] Page 1
+> [!note] Page 2
 > 
-> ] and videos [50, 12]. INRs typically learn a coordinate to value mapping (e.g. mapping a pixel or voxel index to its color and/or occupancy) to support implicit reconstruction of the original signal. While the
+> ession, the training of INR models is equivalent to the encoding process, implying that most INR-based codecs require a long encoding runtime to obtain a satisfactory rate-quality performance [12]. However, some
 > 
 > ---
-> 🔤] 和视频 [50, 12]。 INR 通常学习坐标到值的映射（例如，将像素或体素索引映射到其颜色和/或占用）以支持原始信号的隐式重建。虽然🔤
-> ^JTKSTWA8aNXTAQGZ4p1
+> 🔤会话中，INR模型的训练相当于编码过程，这意味着大多数基于INR的编解码器需要较长的编码运行时间才能获得令人满意的码率质量性能[12]。然而，一些🔤
+> ^KUGH44LUaNXTAQGZ4p2
 
