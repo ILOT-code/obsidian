@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2024-09-03.md",
+                "file": "ZtTemplates/zt-annots.eta.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2024-09-03.md",
+                "file": "ZtTemplates/zt-annots.eta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2024-09-03.md",
+                "file": "ZtTemplates/zt-annots.eta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2024-09-03.md"
+                "file": "ZtTemplates/zt-annots.eta.md"
               }
             }
           }
@@ -177,8 +177,13 @@
   },
   "active": "289755077331dd1f",
   "lastOpenFiles": [
-    "LiteratureNotes/oord2016-pixel.md",
+    "ZtTemplates/zt-cite2.eta.md",
+    "ZtTemplates/zt-colored.eta.md",
+    "ZtTemplates/zt-field.eta.md",
+    "ZtTemplates/zt-note.eta.md",
+    "ZtTemplates/zt-annot.eta.md",
     "diary/2024-09-03.md",
+    "LiteratureNotes/oord2016-pixel.md",
     "Attachments/Pasted image 20240902162823.png",
     "Attachments/Pasted image 20240902162523.png",
     "LiteratureNotes/oord2016-conditional.md",
@@ -205,11 +210,6 @@
     "LiteratureNotes/2023-preprocessing.md",
     "Paperwords/balle2017-endtoend-w.md",
     "Paperwords/2023-preprocessing-w.md",
-    "未命名.md",
-    "LiteratureNotes/jacobs1991-adaptive.md",
-    "LiteratureNotes/mehta2021-modulated.md",
-    "ZtTemplates/zt-note.eta.md",
-    "ZtTemplates/zt-annot.eta.md",
     "Attachments/Pasted image 20240711013039.png",
     "Attachments/Pasted image 20240711013022.png",
     "Attachments/Pasted image 20240711012455.png"

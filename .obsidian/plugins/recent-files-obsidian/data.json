@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "zt-annots.eta",
+      "path": "ZtTemplates/zt-annots.eta.md"
+    },
+    {
+      "basename": "zt-cite2.eta",
+      "path": "ZtTemplates/zt-cite2.eta.md"
+    },
+    {
+      "basename": "zt-colored.eta",
+      "path": "ZtTemplates/zt-colored.eta.md"
+    },
+    {
+      "basename": "zt-field.eta",
+      "path": "ZtTemplates/zt-field.eta.md"
+    },
+    {
+      "basename": "zt-note.eta",
+      "path": "ZtTemplates/zt-note.eta.md"
+    },
+    {
+      "basename": "zt-annot.eta",
+      "path": "ZtTemplates/zt-annot.eta.md"
+    },
+    {
       "basename": "2024-09-03",
       "path": "diary/2024-09-03.md"
     },
@@ -83,14 +107,6 @@
     {
       "basename": "未命名",
       "path": "未命名.md"
-    },
-    {
-      "basename": "zt-note.eta",
-      "path": "ZtTemplates/zt-note.eta.md"
-    },
-    {
-      "basename": "zt-annot.eta",
-      "path": "ZtTemplates/zt-annot.eta.md"
     },
     {
       "basename": "jacobs1991-adaptive",
@@ -183,22 +199,6 @@
     {
       "basename": "wang2024-model",
       "path": "LiteratureNotes/wang2024-model.md"
-    },
-    {
-      "basename": "guo2023-compression",
-      "path": "LiteratureNotes/guo2023-compression.md"
-    },
-    {
-      "basename": "hazimeh2021-dselectk",
-      "path": "LiteratureNotes/hazimeh2021-dselectk.md"
-    },
-    {
-      "basename": "dettmers2022-llm-w",
-      "path": "Paperwords/dettmers2022-llm-w.md"
-    },
-    {
-      "basename": "未命名 2",
-      "path": "未命名 2.md"
     }
   ],
   "omittedPaths": [],
