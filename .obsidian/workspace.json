@@ -11,12 +11,8 @@
             "id": "2937e61d59548240",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -109,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,12 +165,13 @@
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-kanban:创建新看板": false,
+      "hidden-folder-obsidian:隐藏文件夹": false,
+      "cmdr:ZotLit: Update literature note": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
-      "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "cmdr:ZotLit: Open quick switcher for literature notes": false
     }
   },
-  "active": "2937e61d59548240",
+  "active": "af5c7bb3610ed00e",
   "lastOpenFiles": [
     "LiteratureNotes/kwan2024-hinerva.md",
     "ZtTemplates/zt-annots.eta.md",

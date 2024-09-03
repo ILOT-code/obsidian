@@ -16,6 +16,12 @@
       "icon": "at-sign",
       "name": "ZotLit: Open quick switcher for literature notes",
       "mode": "any"
+    },
+    {
+      "id": "zotlit:update-literature-note",
+      "icon": "arrow-left-circle",
+      "name": "ZotLit: Update literature note",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],
