@@ -24,6 +24,8 @@ tags: []
 >在视频压缩领域，现有的 INR-based 方法无法达到最先进的性能，这可能和它们简单的结构有关，限制了它们的容量。本文提出了一种具有多个结构、层次复杂的网络结构，大大提升了性能。
 >在 UVG 和 MCL-JCV 数据集上，比 HNeRV 节省 72%, 比 DCVC 节省 43.4%。
 
+## Method
+视频 $V\in \mathbb{R}^{T\times H\times W\times C}$ . 视频中的每一帧都被分成了 $M\times M$ 的块，patch 坐标的坐标是 $(i,j,t),0\leq t<T,0\leq H\M$
 ## Comments
 
 ### 先前研究的问题
