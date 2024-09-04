@@ -44,7 +44,9 @@ m=\lfloor \hat{t} \rfloor ,n=\lceil \hat{t} \rceil \\
 $$
 从一系列网格中提取特征，并组合到一起，作为网络的输入。
 网络会给出 5 个输出：
-1. $I(t)$, 预测的 Independent frame
+1. $I(t)\in \mathbb{R}^{3\times H\times W}$, 预测的 Independent frame
 2. $\{M(t+i,t)\in \mathbb{R}^{H\times W}\}_{i\in \mathcal{N}}$, $t$ 与 $t+i$ 之间的 flow map。其中 $\mathcal{N}=\{-2,-1,1,2\}$
 3. $\{w_{M}(t+i,t)\in \mathbb{R}^{H\times W}\}_{i\in \mathcal{N}}$，一组权重
-4. $w_{A}(t),$
+4. $w_{A}(t),w_{I}(t)\in \mathbb{R}^{H\times W}$, 权重。
+
+### Flow-Guided Frame Aggregation
