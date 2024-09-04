@@ -47,6 +47,8 @@ $X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, $C_{n}=\left\lfloor  \fra
 当使用逐帧的配置时，会在 overlapped patch 上进行计算，这有助于缓和 patch 边缘的重建低质量问题。
 
 训练完毕之后会对模型进行剪枝和量化，作者认为越宽的层，重要性越低。
+对于一个有 $P$ 个参数的层，参数重要性由 $\frac{|\theta_{p}|}{P^{\lambda}}$ 给出
+
 ## Comments
 
 ### 先前研究的问题
