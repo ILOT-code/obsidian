@@ -21,7 +21,8 @@ tags: []
 ## Abstract
 
 >[!abstract]
->Learning-based video compression is currently a popular research topic, offering the potential to compete with conventional standard video codecs. In this context, Implicit Neural Representations (INRs) have previously been used to represent and compress image and video content, demonstrating relatively high decoding speed compared to other methods. However, existing INR-based methods have failed to deliver rate quality performance comparable with the state of the art in video compression. This is mainly due to the simplicity of the employed network architectures, which limit their representation capability. In this paper, we propose HiNeRV, an INR that combines light weight layers with novel hierarchical positional encodings. We employs depth-wise convolutional, MLP and interpolation layers to build the deep and wide network architecture with high capacity. HiNeRV is also a unified representation encoding videos in both frames and patches at the same time, which offers higher performance and flexibility than existing methods. We further build a video codec based on HiNeRV and a refined pipeline for training, pruning and quantization that can better preserve HiNeRV's performance during lossy model compression. The proposed method has been evaluated on both UVG and MCL-JCV datasets for video compression, demonstrating significant improvement over all existing INRs baselines and competitive performance when compared to learning-based codecs (72.3% overall bit rate saving over HNeRV and 43.4% over DCVC on the UVG dataset, measured in PSNR).
+>在视频压缩领域，现有的 INR-based 方法无法达到最先进的性能，这可能和它们简单的结构有关，限制了它们的容量。本文提出了一种具有多个结构、层次复杂的网络结构，大大提升了性能。
+>在 UVG 和 MCL-JCV 数据集上，比 HNeRV 节省 72%, 比 DCVC 节省 43.4%。
 
 ## Comments
 
