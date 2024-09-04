@@ -29,7 +29,8 @@ tags: []
 
 Grid 采用了 [[lee2023-ffnerv|(Joo Chan Lee, 2023)]] 中的多时间分辨率 grid，不同的是，[[lee2023-ffnerv|(Joo Chan Lee, 2023)]]
 是 frame-wise 的，一次生成一整个帧，只在时间轴上进行线性插值，而本文是 patch-wise 的 (当然也能扩展到 frame-wise)，会在, x, y, t 三个轴上进行三线性插值。
-$X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, 使用沙 un
+$X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, 使用双线性插值上采样(作者认为，无参的双线性插值相比使用卷积，在压缩任务中更好)，$M_{{n+1}}=M_{n}\times C_{n+1}$。
+
 
 ![[Pasted image 20240904162739.png]]
 ## Comments
