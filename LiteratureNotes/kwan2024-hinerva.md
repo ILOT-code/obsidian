@@ -35,8 +35,9 @@ tags: []
 Grid 采用了 [[lee2023-ffnerv|(Joo Chan Lee, 2023)]] 中的多时间分辨率 grid，不同的是，[[lee2023-ffnerv|(Joo Chan Lee, 2023)]]
 是 frame-wise 的，一次生成一整个帧，只在时间轴上进行线性插值，而本文是 patch-wise 的 (当然也能扩展到 frame-wise)，会使用 frame-based 的三个坐标轴进行插值。这些 grid 的形状是 $\lfloor\frac{T_{grid}}{2^l}\rfloor\times H_{grid}\times W_{grid}\times(C_{grid}\times2^l),\mathrm{for~}0\leq l<L_{grid}.$
 
-$X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, 使用双线性插值上采样(作者认为，无参的双线性插值相比使用卷积，在压缩任务中更好)，$M_{{n+1}}=M_{n}\times S_{n+1}$。
-
+在每一个 HiNeRV 块中，会获得两个输入。
+$X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, 使用双线性插值上采样(作者认为，无参的双线性插值相比使用卷积，在压缩任务中更好)，$M_{{n+1}}=M_{n}\times S_{n+1}$。$S$ 是上采样系数
+patch-index 同样也会被输入，每一个 HiNeRV 块，也存在着一个 temporal local grid.
 
 ![[Pasted image 20240904162739.png]]
 ## Comments
