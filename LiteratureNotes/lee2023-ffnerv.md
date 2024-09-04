@@ -33,4 +33,4 @@ tags: []
 ## FFNERV
 ![[Pasted image 20240904145059.png]]
 ### Multi-Resolution Temporal Grid
-网格 $G\in $
+网格 $G\in \mathbb{R}^{s \times c \times h \times w}$,
