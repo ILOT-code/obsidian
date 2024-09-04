@@ -50,3 +50,4 @@ $$
 4. $w_{A}(t),w_{I}(t)\in \mathbb{R}^{H\times W}$, 权重。
 
 ### Flow-Guided Frame Aggregation
+如果网络仅仅给出 $I(t)$，它和之前的方法 NeRV, E-NeRV 没有太大的区别，但本文引入了光流来利用帧间冗余。
