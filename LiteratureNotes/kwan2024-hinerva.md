@@ -49,6 +49,8 @@ $X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, $C_{n}=\left\lfloor  \fra
 训练完毕之后会对模型进行剪枝和量化，作者认为越宽的层，重要性越低。
 对于一个有 $P$ 个参数的层，参数重要性由 $\frac{|\theta_{p}|}{P^{\lambda}}$ 给出
 
+>quant-noise:
+>P. Stock, A. Fan, B. Graham, E. Grave, R. Gribonval, H. Jégou, and A. Joulin. Training with Quantization Noise for Extreme Model Compression. In ICLR. OpenReview. net, 2021.
 ## Comments
 
 ### 先前研究的问题
