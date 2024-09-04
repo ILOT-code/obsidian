@@ -81,5 +81,9 @@ frame buffer 的使用，节省了训练时间。
 本来需要 $C_{1}C_{2}K^2$ 的参数，现在需要 $g \frac{C_{1}}{g} \frac{C_{2}}{g}k^2+C_{2}^2$ 个参数。
 
 Quantization-Aware Training：
-实验发现，使用 QAT 会使
-![[Pasted image 20240904160111.png]]
+实验发现，使用 QAT 会使权重的分布更加集中，这有利于熵编码器的编码。
+![[Pasted image 20240904160111.png]] ![[Pasted image 20240904160237.png]]
+![[Pasted image 20240904160315.png]]
+
+## 实验
+在解码过程中，只能看到前面的帧，因此 $\mathcal{N}=\{-4,-3,-2,-1\}$

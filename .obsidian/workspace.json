@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md",
+                "file": "LiteratureNotes/kwan2024-hinerva.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md",
+                "file": "LiteratureNotes/kwan2024-hinerva.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md",
+                "file": "LiteratureNotes/kwan2024-hinerva.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md"
+                "file": "LiteratureNotes/kwan2024-hinerva.md"
               }
             }
           }
@@ -204,6 +204,9 @@
   },
   "active": "34991989f0017896",
   "lastOpenFiles": [
+    "LiteratureNotes/lee2023-ffnerv.md",
+    "Attachments/Pasted image 20240904160315.png",
+    "Attachments/Pasted image 20240904160237.png",
     "Attachments/Pasted image 20240904160111.png",
     "ZtTemplates/zt-field.eta.md",
     "LiteratureNotes/kwan2024-hinerva.md",
@@ -212,7 +215,6 @@
     "ZtTemplates/zt-colored.eta.md",
     "ZtTemplates/zt-cite2.eta.md",
     "ZtTemplates/zt-cite.eta.md",
-    "LiteratureNotes/lee2023-ffnerv.md",
     "Attachments/Pasted image 20240904154313.png",
     "Attachments/Pasted image 20240904145059.png",
     "Attachments/Pasted image 20240904143340.png",
@@ -226,15 +228,12 @@
     "LiteratureNotes/oord2016-conditional.md",
     "Attachments/Pasted image 20240902162204.png",
     "Attachments/Pasted image 20240902162047.png",
-    "Attachments/Pasted image 20240902161724.png",
     "diary/2024-08-26.md",
     "diary/2024-08-27.md",
     "diary/2024-09-01.md",
     "Math/多元高斯分布.md",
     "LiteratureNotes/mentzer2019-practical.md",
-    "Attachments/Pasted image 20240827202034.png",
     "未命名 8.md",
-    "Attachments/Pasted image 20240824153035.png",
     "未命名 10.md",
     "Sundry/vim.md",
     "未命名 4.md",
