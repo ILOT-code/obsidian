@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md",
+                "file": "diary/2024-09-04.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md",
+                "file": "diary/2024-09-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md",
+                "file": "diary/2024-09-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md",
+                "file": "diary/2024-09-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md"
+                "file": "diary/2024-09-04.md"
               }
             }
           }
@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,13 +203,19 @@
   },
   "active": "34991989f0017896",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20240904162739.png",
+    "diary/2024-08-26.md",
+    "diary/2024-08-27.md",
+    "diary/2024-09-01.md",
+    "diary/2024-09-03.md",
+    "diary/2024-09-04.md",
     "LiteratureNotes/lee2023-ffnerv.md",
+    "LiteratureNotes/kwan2024-immersive.md",
+    "LiteratureNotes/kwan2024-hinerva.md",
+    "Attachments/Pasted image 20240904162739.png",
     "Attachments/Pasted image 20240904160315.png",
     "Attachments/Pasted image 20240904160237.png",
     "Attachments/Pasted image 20240904160111.png",
     "ZtTemplates/zt-field.eta.md",
-    "LiteratureNotes/kwan2024-hinerva.md",
     "ZtTemplates/zt-annots.eta.md",
     "ZtTemplates/zt-note.eta.md",
     "ZtTemplates/zt-colored.eta.md",
@@ -219,19 +224,12 @@
     "Attachments/Pasted image 20240904154313.png",
     "Attachments/Pasted image 20240904145059.png",
     "Attachments/Pasted image 20240904143340.png",
-    "LiteratureNotes/kwan2024-immersive.md",
-    "diary/2024-09-04.md",
-    "diary/2024-09-03.md",
     "ZtTemplates/zt-annot.eta.md",
     "LiteratureNotes/oord2016-pixel.md",
     "Attachments/Pasted image 20240902162823.png",
     "Attachments/Pasted image 20240902162523.png",
     "LiteratureNotes/oord2016-conditional.md",
     "Attachments/Pasted image 20240902162204.png",
-    "Attachments/Pasted image 20240902162047.png",
-    "diary/2024-08-26.md",
-    "diary/2024-08-27.md",
-    "diary/2024-09-01.md",
     "Math/多元高斯分布.md",
     "LiteratureNotes/mentzer2019-practical.md",
     "未命名 8.md",
