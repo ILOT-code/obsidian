@@ -20,7 +20,11 @@ tags: []
 ## Abstract
 
 >[!abstract]
->INR 技术，在视频压缩领域，始终无法达到最先进的水平。本文提出了一种将 Flow information 合并到视频逐帧表示的技术
+>INR 技术，在视频压缩领域，始终无法达到最先进的水平。本文提出了一种将 Flow information 合并到视频逐帧表示的技术。FFNeRV 的性能优于广泛使用的标准视频编解码器（H.264 和 HEVC），并与最先进的视频压缩算法相媲美。
 
-## Comments
+## INTRODUCTION
+先前的技术又 pixel-wise, frame-wise 两种形式。前者压缩性能、收敛速度、推理速度都相对而言不高。后者在压缩性能上哟
+![[Pasted image 20240904143340.png]]
+
+
 
