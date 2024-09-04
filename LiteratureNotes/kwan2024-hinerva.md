@@ -42,6 +42,9 @@ $X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, $C_{n}=\left\lfloor  \fra
 使用该坐标 $(t,u_{l},v_{l})$ 在 temporal local grid 上取得对应的值（三线性插值）。这个过程和卷积有相似的地方。
 
 ![[Pasted image 20240904162739.png]]
+
+
+当使用逐帧的配置时，该 patch 周边的 padding 不是 0, 而是从原图中取得的，这有助于减轻 patch 边界
 ## Comments
 
 ### 先前研究的问题
