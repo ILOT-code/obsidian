@@ -51,3 +51,9 @@ $$
 
 ### Flow-Guided Frame Aggregation
 如果网络仅仅给出 $I(t)$，它和之前的方法 NeRV, E-NeRV 没有太大的区别，但本文引入了光流来利用帧间冗余。
+aggregated frame $\overline{A}(t)$ 由下式表达
+$$
+\begin{align*}
+\overline{A}(t)=\sum_{i\in\mathcal{N}}w_M^{\prime}(t+i,t)\circ\mathrm{warp}(I(t+i),M(t+i,t)),\\w_M^{\prime}(i,t)=\exp(w_M(i,t))\circ\frac1{\sum_{j\in\mathcal{N}}\exp(w_M(t+j,t))},
+\end{align*}
+$$
