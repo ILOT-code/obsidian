@@ -43,4 +43,7 @@ m=\lfloor \hat{t} \rfloor ,n=\lceil \hat{t} \rceil \\
 \end{align*}
 $$
 从一系列网格中提取特征，并组合到一起，作为网络的输入。
-$\mathbb{N}$
+网络会给出 5 个输出：
+1. $I(t)$, 预测的 Independent frame
+2. $\{M(t+i,t)\in \mathbb{R}^{H\times W}\}_{i\in \mathcal{N}}$, $t$ 与 $t+i$ 之间的 flow map。
+3. $\{w\}$
