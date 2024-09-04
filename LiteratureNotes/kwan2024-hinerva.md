@@ -38,7 +38,8 @@ Grid 采用了 [[lee2023-ffnerv|(Joo Chan Lee, 2023)]] 中的多时间分辨率 
 在每一个 HiNeRV 块中，会获得两个输入。
 $X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, $C_{n}=\left\lfloor  \frac{C_{0}}{R^{n-1}}  \right\rfloor$ 使用双线性插值上采样(作者认为，无参的双线性插值相比使用卷积，在压缩任务中更好)，$M_{{n+1}}=M_{n}\times S_{n+1}$。$S$ 是上采样系数。双线性插值会产生平滑的图像，会导致后续的网络难以产生高频的输出，图像的高频细节难以维持。grid-based encoding 是解决这个问题的一种方法，但它同时意味着巨大的空间损耗，对于 N 个块而言难以接受。本文提出了一种分层编码方法。
 
-每一个 HiNeRV 块，也存在着一个 temporal local grid. 具有 $L_{local}$ 个形状是 $\left\lfloor  \frac{T_{local}}{2^l}  \right\rfloor *S_{n}\times S_{n}\times \left( \left\lfloor   \frac{C_{local}}{R^{n-1}}  \right\rfloor \times 2^l \right )$，$S_{n}$ 很小，这些网格的参数量很小。对于 patch 中的坐标 $(u_{p},v_{p})$，由于给了 patch-index，可以先把它们映射到全局坐标
+每一个 HiNeRV 块，也存在着一个 temporal local grid. 具有 $L_{local}$ 个形状是 $\left\lfloor  \frac{T_{local}}{2^l}  \right\rfloor *S_{n}\times S_{n}\times \left( \left\lfloor   \frac{C_{local}}{R^{n-1}}  \right\rfloor \times 2^l \right )$，$S_{n}$ 很小，这些网格的参数量很小。对于 patch 中的坐标 $(u_{p},v_{p})$，由于给了 patch-index，可以先把它们映射到全局坐标 $(u_{f},v_{f})$, 最后得到 local 坐标 $(u_{l}=u_{f}~MOD~ S_{n},v_{l}=v_{f}~MOD~S_{n})$。
+使用该坐标 $(t,u_{l},v_{l})$ 在 temporal local grid 上取得对应的值（三线性插值）
 
 ![[Pasted image 20240904162739.png]]
 ## Comments
