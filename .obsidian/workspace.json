@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2024-09-04.md",
+                "file": "diary/2024-09-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2024-09-04.md",
+                "file": "diary/2024-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2024-09-04.md",
+                "file": "diary/2024-09-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2024-09-04.md"
+                "file": "diary/2024-09-03.md"
               }
             }
           }
@@ -190,8 +190,8 @@
   },
   "active": "2937e61d59548240",
   "lastOpenFiles": [
-    "diary/2024-09-03.md",
     "diary/2024-09-04.md",
+    "diary/2024-09-03.md",
     "LiteratureNotes/kwan2024-hinerva.md",
     "ZtTemplates/zt-annots.eta.md",
     "ZtTemplates/zt-cite2.eta.md",
