@@ -5,12 +5,36 @@
       "path": "LiteratureNotes/lee2023-ffnerv.md"
     },
     {
-      "basename": "kwan2024-immersive",
-      "path": "LiteratureNotes/kwan2024-immersive.md"
+      "basename": "zt-field.eta",
+      "path": "ZtTemplates/zt-field.eta.md"
     },
     {
       "basename": "kwan2024-hinerva",
       "path": "LiteratureNotes/kwan2024-hinerva.md"
+    },
+    {
+      "basename": "zt-annots.eta",
+      "path": "ZtTemplates/zt-annots.eta.md"
+    },
+    {
+      "basename": "zt-note.eta",
+      "path": "ZtTemplates/zt-note.eta.md"
+    },
+    {
+      "basename": "zt-colored.eta",
+      "path": "ZtTemplates/zt-colored.eta.md"
+    },
+    {
+      "basename": "zt-cite2.eta",
+      "path": "ZtTemplates/zt-cite2.eta.md"
+    },
+    {
+      "basename": "zt-cite.eta",
+      "path": "ZtTemplates/zt-cite.eta.md"
+    },
+    {
+      "basename": "kwan2024-immersive",
+      "path": "LiteratureNotes/kwan2024-immersive.md"
     },
     {
       "basename": "2024-09-04",
@@ -19,26 +43,6 @@
     {
       "basename": "2024-09-03",
       "path": "diary/2024-09-03.md"
-    },
-    {
-      "basename": "zt-annots.eta",
-      "path": "ZtTemplates/zt-annots.eta.md"
-    },
-    {
-      "basename": "zt-cite2.eta",
-      "path": "ZtTemplates/zt-cite2.eta.md"
-    },
-    {
-      "basename": "zt-colored.eta",
-      "path": "ZtTemplates/zt-colored.eta.md"
-    },
-    {
-      "basename": "zt-field.eta",
-      "path": "ZtTemplates/zt-field.eta.md"
-    },
-    {
-      "basename": "zt-note.eta",
-      "path": "ZtTemplates/zt-note.eta.md"
     },
     {
       "basename": "zt-annot.eta",
@@ -195,10 +199,6 @@
     {
       "basename": "flamich2022-fast",
       "path": "LiteratureNotes/flamich2022-fast.md"
-    },
-    {
-      "basename": "dettmers2022-llm",
-      "path": "LiteratureNotes/dettmers2022-llm.md"
     }
   ],
   "omittedPaths": [],
