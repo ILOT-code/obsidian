@@ -36,8 +36,9 @@ Grid 采用了 [[lee2023-ffnerv|(Joo Chan Lee, 2023)]] 中的多时间分辨率 
 是 frame-wise 的，一次生成一整个帧，只在时间轴上进行线性插值，而本文是 patch-wise 的 (当然也能扩展到 frame-wise)，会使用 frame-based 的三个坐标轴进行插值。这些 grid 的形状是 $\lfloor\frac{T_{grid}}{2^l}\rfloor\times H_{grid}\times W_{grid}\times(C_{grid}\times2^l),\mathrm{for~}0\leq l<L_{grid}.$
 
 在每一个 HiNeRV 块中，会获得两个输入。
-$X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, $C_{n}=\left\lfloor  \frac{C_{0}}{R^{n-1}}  \right\rfloor$ 使用双线性插值上采样(作者认为，无参的双线性插值相比使用卷积，在压缩任务中更好)，$M_{{n+1}}=M_{n}\times S_{n+1}$。$S$ 是上采样系数。双线性插值会禅寺
-patch-index 同样也会被输入，每一个 HiNeRV 块，也存在着一个 temporal local grid. 首先，patch-based 坐标会被映射到全局坐标
+$X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, $C_{n}=\left\lfloor  \frac{C_{0}}{R^{n-1}}  \right\rfloor$ 使用双线性插值上采样(作者认为，无参的双线性插值相比使用卷积，在压缩任务中更好)，$M_{{n+1}}=M_{n}\times S_{n+1}$。$S$ 是上采样系数。双线性插值会产生平滑的图像，会导致后续的网络难以产生高频的输出，图像的高频细节难以维持。grid-based encoding 是解决这个问题的一种方法，但它同时意味着巨大的空间损耗，对于 N 个块而言难以接受。本文提出了一种分层编码方法。
+
+每一个 HiNeRV 块，也存在着一个 temporal local grid. 具有 $L_{local}$ 个形状是 $\lfloor T_{lo\mathcal{}} \rfloor$
 
 ![[Pasted image 20240904162739.png]]
 ## Comments
