@@ -34,4 +34,9 @@ tags: []
 ![[Pasted image 20240904145059.png]]
 ### Multi-Resolution Temporal Grid
 网格 $G\in \mathbb{R}^{s \times c \times h \times w}$, $s$ 是时间分辨率。有一系列这样的网格，他们的 $s$ 不同，但具有相同的空间分辨率。
-给一个时间坐标 $t$，$\phi (t,G) \in \mathbb{R}^{c\times h \times w}$ 表示从网格中提取特征。$	$
+给一个时间坐标 $t$，$\phi (t,G) \in \mathbb{R}^{c\times h \times w}$ 表示从网格中提取特征。
+$$
+\begin{align*}
+\phi(t,G)=|\hat{t}-n|G[m]+|| 
+\end{align*}
+$$
