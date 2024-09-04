@@ -32,6 +32,6 @@ $$
 $$
 使用 Quant-Noise 技术来克服不可导问题。
 
-Entropy regularisation：使用
-## Comments
+Entropy regularisation：使用多元高斯分布对模型参数分布进行建模，$R=\sum_{i=0}^{|\boldsymbol{\hat{\theta}}|}-\mathrm{log}_2p(\hat{\theta_i})$
+## Comments 
 
