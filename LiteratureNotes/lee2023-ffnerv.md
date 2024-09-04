@@ -57,3 +57,7 @@ $$
 \overline{A}(t)=\sum_{i\in\mathcal{N}}w_M^{\prime}(t+i,t)\circ\mathrm{warp}(I(t+i),M(t+i,t)),\\w_M^{\prime}(i,t)=\exp(w_M(i,t))\circ\frac1{\sum_{j\in\mathcal{N}}\exp(w_M(t+j,t))},
 \end{align*}
 $$
+把该帧作为额外的细节增加到 $I(t)$ 上去：
+$$
+f_{\theta}{t}=w_A(t)\circ\overline{A}(t)+w_I(t)\circ I(t).
+$$
