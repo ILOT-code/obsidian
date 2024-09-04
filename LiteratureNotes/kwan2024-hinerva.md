@@ -25,7 +25,11 @@ tags: []
 >在 UVG 和 MCL-JCV 数据集上，比 HNeRV 节省 72%, 比 DCVC 节省 43.4%。
 
 ## Method
-视频 $V\in \mathbb{R}^{T\times H\times W\times C}$ . 视频中的每一帧都被分成了 $M\times M$ 的块，patch 坐标的坐标是 $(i,j,t),0\leq t<T,0\leq H\M$
+视频 $V\in \mathbb{R}^{T\times H\times W\times C}$ . 视频中的每一帧都被分成了 $M\times M$ 的块，patch 坐标的坐标是 $(i,j,t),0\leq t<T,0\leq j<\frac{H}{M},0\leq i<\frac{W}{M}$
+
+Grid 采用了 [[lee2023-ffnerv|(Joo Chan Lee, 2023)]] 中的多时间分辨率 grid，
+
+![[Pasted image 20240904162739.png]]
 ## Comments
 
 ### 先前研究的问题
