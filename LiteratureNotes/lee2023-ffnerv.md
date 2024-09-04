@@ -75,3 +75,11 @@ frame buffer 的使用，节省了训练时间。
 
 ## 模型压缩
 卷积组：
+>As pointed out by E-NeRV [22], naively applying spatial convolution with large channels (Figure 4 (a)) incurs a number of redundant parameters.
+
+使用卷积组来代替加 pointwise Conv 来代替。
+本来需要 $C_{1}C_{2}K^2$ 的参数，现在需要 $g \frac{C_{1}}{g} \frac{C_{2}}{g}k^2+C_{2}^2$ 个参数。
+
+Quantization-Aware Training：
+实验发现，使用 QAT 会使
+![[Pasted image 20240904160111.png]]
