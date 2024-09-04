@@ -183,10 +183,10 @@
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-kanban:创建新看板": false,
-      "hidden-folder-obsidian:隐藏文件夹": false,
       "cmdr:ZotLit: Update literature note": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
-      "cmdr:ZotLit: Open quick switcher for literature notes": false
+      "cmdr:ZotLit: Open quick switcher for literature notes": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "2937e61d59548240",
