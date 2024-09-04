@@ -25,8 +25,10 @@ tags: []
 >在 UVG 和 MCL-JCV 数据集上，比 HNeRV 节省 72%, 比 DCVC 节省 43.4%。
 
 ## Method
-记号
+
 视频 $V\in \mathbb{R}^{T\times H\times W\times C}$ . 视频中的每一帧都被分成了 $M\times M$ 的块，patch 坐标的坐标是 $(i,j,t),0\leq t<T,0\leq j<\frac{H}{M},0\leq i<\frac{W}{M}$
+该 patch在经过一系列卷积之后，大小会变，$M_{1}\times M_{1}$。但是依然可以把这个 patch 坐标映射到全局的坐标，假设一个 patch-based 坐标是 $u_{patch},v_{{patch}}$，那么它映射回的全局坐标就是 $u_{frame}=j\times M_{1}+u_{patch},v_{frame}=i\times M_{1}$
+
 
 Grid 采用了 [[lee2023-ffnerv|(Joo Chan Lee, 2023)]] 中的多时间分辨率 grid，不同的是，[[lee2023-ffnerv|(Joo Chan Lee, 2023)]]
 是 frame-wise 的，一次生成一整个帧，只在时间轴上进行线性插值，而本文是 patch-wise 的 (当然也能扩展到 frame-wise)，会在, x, y, t 三个轴上进行三线性插值。
