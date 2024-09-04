@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2024-09-04.md",
+                "file": "LiteratureNotes/kwan2024-immersive.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2024-09-04.md",
+                "file": "LiteratureNotes/kwan2024-immersive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2024-09-04.md",
+                "file": "LiteratureNotes/kwan2024-immersive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2024-09-04.md"
+                "file": "LiteratureNotes/kwan2024-immersive.md"
               }
             }
           }
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,11 +204,11 @@
   },
   "active": "34991989f0017896",
   "lastOpenFiles": [
+    "diary/2024-09-04.md",
     "diary/2024-08-26.md",
     "diary/2024-08-27.md",
     "diary/2024-09-01.md",
     "diary/2024-09-03.md",
-    "diary/2024-09-04.md",
     "LiteratureNotes/lee2023-ffnerv.md",
     "LiteratureNotes/kwan2024-immersive.md",
     "LiteratureNotes/kwan2024-hinerva.md",
