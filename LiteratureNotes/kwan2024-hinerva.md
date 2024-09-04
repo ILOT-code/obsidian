@@ -44,7 +44,7 @@ $X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, $C_{n}=\left\lfloor  \fra
 ![[Pasted image 20240904162739.png]]
 
 
-当使用逐帧的配置时，该 patch 周边的 padding 不是 0, 而是从原图中取得的，这有助于减轻 patch 边界
+当使用逐帧的配置时，会在
 ## Comments
 
 ### 先前研究的问题
