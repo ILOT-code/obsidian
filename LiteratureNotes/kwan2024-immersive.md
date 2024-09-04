@@ -26,6 +26,12 @@ tags: []
 
 
 
-全宗
+权重量化：对于模型参数 $\boldsymbol{\theta}=\{\theta_{i}\}$, 使用可学习的参数 $\boldsymbol{\delta} = \{\delta_i \}$ 来量化。
+$$
+\hat{\theta_i}=\delta\times\lfloor\frac{\theta_i}{\delta_i}\rceil.
+$$
+使用 Quant-Noise 技术来克服不可导问题。
+
+Entropy regularisation：使用
 ## Comments
 
