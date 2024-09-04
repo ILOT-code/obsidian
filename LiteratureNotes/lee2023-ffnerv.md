@@ -31,3 +31,6 @@ tags: []
 本文进一步提出了 multi-resolution temporal grids
 
 ## FFNERV
+![[Pasted image 20240904145059.png]]
+### Multi-Resolution Temporal Grid
+网格 $G\in $
