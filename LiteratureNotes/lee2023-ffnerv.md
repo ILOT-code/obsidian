@@ -37,6 +37,10 @@ tags: []
 给一个时间坐标 $t$，$\phi (t,G) \in \mathbb{R}^{c\times h \times w}$ 表示从网格中提取特征。
 $$
 \begin{align*}
-\phi(t,G)=|\hat{t}-n|G[m]+|| 
+\phi(t,G)=|\hat{t}-n|G[m]+|\hat{t}-m|G[n]\\
+m=\lfloor \hat{t} \rfloor ,n=\lceil \hat{t} \rceil \\
+\hat{t}=\frac{ts}{T} ~~~\text{T is the total number of frames}
 \end{align*}
 $$
+从一系列网格中提取特征，并组合到一起，作为网络的输入。
+$\mathbb{N}$
