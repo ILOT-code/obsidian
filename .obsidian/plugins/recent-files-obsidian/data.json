@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "lee2023-ffnerv",
+      "path": "LiteratureNotes/lee2023-ffnerv.md"
+    },
+    {
+      "basename": "kwan2024-immersive",
+      "path": "LiteratureNotes/kwan2024-immersive.md"
+    },
+    {
+      "basename": "kwan2024-hinerva",
+      "path": "LiteratureNotes/kwan2024-hinerva.md"
+    },
+    {
       "basename": "2024-09-04",
       "path": "diary/2024-09-04.md"
     },
     {
       "basename": "2024-09-03",
       "path": "diary/2024-09-03.md"
-    },
-    {
-      "basename": "kwan2024-hinerva",
-      "path": "LiteratureNotes/kwan2024-hinerva.md"
     },
     {
       "basename": "zt-annots.eta",
@@ -191,14 +199,6 @@
     {
       "basename": "dettmers2022-llm",
       "path": "LiteratureNotes/dettmers2022-llm.md"
-    },
-    {
-      "basename": "未命名 6",
-      "path": "未命名 6.md"
-    },
-    {
-      "basename": "girish2023-shacira",
-      "path": "LiteratureNotes/girish2023-shacira.md"
     }
   ],
   "omittedPaths": [],

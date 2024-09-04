@@ -61,6 +61,16 @@ tags: []
 > 🔤我们用新的上采样层替换了现有 INR 中常用的子像素传统层 [47]，用于上采样 [12,31,6,27,11]，该层体现了从多分辨率局部特征网格采样的分层编码的双线性插值。🔤
 > ^CWLJZA9NaNXTAQGZ4p2
 
+### 疑惑点
+
+> [!note] Page 7
+> 
+> using quantization-aware training with Quant-Noise [51] to minimize the quantization error.
+> 
+> ---
+> 🔤使用量化感知训练和 Quant-Noise [51] 来最小化量化误差。🔤
+> ^VCXYDLZBaNXTAQGZ4p7
+
 ### 性能成绩
 
 > [!note] Page 1
@@ -70,4 +80,54 @@ tags: []
 > ---
 > 🔤所提出的方法已在用于视频压缩的 UVG 和 MCL-JCV 数据集上进行了评估，与基于学习的编解码器相比，证明了所有现有 INR 基线和竞争性能的显着改进（比 HNeRV 总体比特率节省 72.3%，比 DCVC 节省 43.4%）在 UVG 数据集上，以 PSNR 为单位测量）。 1🔤
 > ^XJ764926aNXTAQGZ4p1
+
+### 技术细节
+
+> [!note] Page 4
+> 
+> In FFNeRV, linear interpolation over the temporal dimension is used to obtain a slice that is used as the input feature map. In our case, we utilize both of the frame index and the frame-based coordinates, i.e., (uframe, vframe, t), for interpolating the feature patches.
+> 
+> ---
+> 🔤在 FFNeRV 中，使用时间维度上的线性插值来获取用作输入特征图的切片。在我们的例子中，我们利用帧索引和基于帧的坐标，即（uframe，vframe，t）来插值特征块。🔤
+> ^JLM9R3WGaNXTAQGZ4p4
+
+> [!note] Page 4
+> 
+> To maintain a compact multi-resolution grid, we increase the number of channels when reducing the temporal resolution at each grid level
+> 
+> ---
+> 🔤为了保持紧凑的多分辨率网格，我们在降低每个网格级别的时间分辨率时增加通道数🔤
+> ^LH3HIX4AaNXTAQGZ4p4
+
+> [!note] Page 5
+> 
+> Previous work [12] has shown that bilinear interpolation does not perform as well as convolutional layers. However, we observed that it is actually a better choice when the parameter count is fixed.
+> 
+> ---
+> 🔤之前的工作 [12] 表明双线性插值的性能不如卷积层。然而，我们观察到，当参数数量固定时，它实际上是一个更好的选择。🔤
+> ^4H4PUXC9aNXTAQGZ4p5
+
+> [!note] Page 5
+> 
+> While we can generate high-resolution maps using parameter-free bilinear interpolation, the resulting maps are smoothed, and subsequent neural network layers may struggle to produce high-frequency output from them. One way to model high-frequency signals is to introduce positional encoding [40] during upsampling.
+> 
+> ---
+> 🔤虽然我们可以使用无参数双线性插值生成高分辨率地图，但生成的地图是平滑的，后续的神经网络层可能难以从中产生高频输出。对高频信号建模的一种方法是在上采样期间引入位置​​编码[40]。🔤
+> ^Z7J67SEIaNXTAQGZ4p5
+
+> [!note] Page 5
+> 
+> To address this limitation, we introduce a novel grid-based encoding approach called hierarchical encoding, which boosts the upsampling capability of bilinear interpolation without significantly increasing the storage cost.
+> 
+> ---
+> 🔤为了解决这个限制，我们引入了一种新颖的基于网格的编码方法，称为分层编码，它增强了双线性插值的上采样能力，而不会显着增加存储成本。🔤
+> ^RJNNZ8FQaNXTAQGZ4p5
+
+> [!note] Page 6
+> 
+> When configuring HiNeRV as a patch-wise representation, we perform computation in overlapped patches, where we refer to the overlapped part as paddings, and the amount of padding pixels depends on the network configuration (e.g. the kernel sizes and/or the number of bilinear interpolation/convolutional layers).
+> 
+> ---
+> 🔤当将 HiNeRV 配置为 patch-wise 表示时，我们在重叠的 patch 中执行计算，其中我们将重叠部分称为填充，填充像素的数量取决于网络配置（例如内核大小和/或双线性的数量）插值/卷积层）。🔤
+> ^7KXXMTLZaNXTAQGZ4p6
 
