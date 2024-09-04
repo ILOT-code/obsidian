@@ -61,3 +61,17 @@ $$
 $$
 f_{\theta}{t}=w_A(t)\circ\overline{A}(t)+w_I(t)\circ I(t).
 $$
+
+使用
+$$
+\begin{align*}
+L(\theta)=\frac{1}{T}\sum_{t=1}^{T}\lambda_{1}l(\overline{A}(t),F_{t})+\lambda_{2}l(I(t),F_{t})+l(f_{\theta}(t),F_{t}),\\l(\hat{y},y)=\alpha||\hat{y}-y||_{1}+(1-\alpha)(1-\mathrm{SSIM}(\hat{y},y)),
+\end{align*}
+$$
+进行训练。
+
+![[Pasted image 20240904154313.png]]
+frame buffer 的使用，节省了训练时间。
+
+## 模型压缩
+卷积组
