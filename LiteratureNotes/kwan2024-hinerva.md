@@ -27,12 +27,15 @@ tags: []
 ## Method
 
 视频 $V\in \mathbb{R}^{T\times H\times W\times C}$ . 视频中的每一帧都被分成了 $M\times M$ 的块，patch 坐标的坐标是 $(i,j,t),0\leq t<T,0\leq j<\frac{H}{M},0\leq i<\frac{W}{M}$
-该 patch在经过一系列卷积之后，大小会变，$M_{1}\times M_{1}$。但是依然可以把这个 patch 坐标映射到全局的坐标，假设一个 patch-based 坐标是 $u_{patch},v_{{patch}}$，那么它映射回的全局坐标就是 $u_{frame}=j\times M_{1}+u_{patch},v_{frame}=i\times M_{1}$
+该 patch在经过一系列卷积之后，大小会变，$M_{1}\times M_{1}$。但是依然可以把这个 patch 坐标映射到全局的坐标，假设一个 patch-based 坐标是 $u_{patch},v_{{patch}}$，那么它映射回的全局坐标 (frame -based)
+就是 $u_{frame}=j\times M_{1}+u_{patch},v_{frame}=i\times M_{1}+v_{patch}$
+
 
 
 Grid 采用了 [[lee2023-ffnerv|(Joo Chan Lee, 2023)]] 中的多时间分辨率 grid，不同的是，[[lee2023-ffnerv|(Joo Chan Lee, 2023)]]
-是 frame-wise 的，一次生成一整个帧，只在时间轴上进行线性插值，而本文是 patch-wise 的 (当然也能扩展到 frame-wise)，会在, x, y, t 三个轴上进行三线性插值。
-$X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, 使用双线性插值上采样(作者认为，无参的双线性插值相比使用卷积，在压缩任务中更好)，$M_{{n+1}}=M_{n}\times C_{n+1}$。
+是 frame-wise 的，一次生成一整个帧，只在时间轴上进行线性插值，而本文是 patch-wise 的 (当然也能扩展到 frame-wise)，会使用 frame-based 的三个坐标轴进行插值。这些 grid 的形状是 $\lfloor\frac{T_{grid}}{2^l}\rfloor\times H_{grid}\times W_{grid}\times(C_{grid}\times2^l),\mathrm{for~}0\leq l<L_{grid}.$
+
+$X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, 使用双线性插值上采样(作者认为，无参的双线性插值相比使用卷积，在压缩任务中更好)，$M_{{n+1}}=M_{n}\times S_{n+1}$。
 
 
 ![[Pasted image 20240904162739.png]]
