@@ -27,7 +27,9 @@ tags: []
 ## Method
 视频 $V\in \mathbb{R}^{T\times H\times W\times C}$ . 视频中的每一帧都被分成了 $M\times M$ 的块，patch 坐标的坐标是 $(i,j,t),0\leq t<T,0\leq j<\frac{H}{M},0\leq i<\frac{W}{M}$
 
-Grid 采用了 [[lee2023-ffnerv|(Joo Chan Lee, 2023)]] 中的多时间分辨率 grid，
+Grid 采用了 [[lee2023-ffnerv|(Joo Chan Lee, 2023)]] 中的多时间分辨率 grid，不同的是，[[lee2023-ffnerv|(Joo Chan Lee, 2023)]]
+是 frame-wise 的，一次生成一整个帧，只在时间轴上进行线性插值，而本文是 patch-wise 的 (当然也能扩展到 frame-wise)，会在, x, y, t 三个轴上进行三线性插值。
+$X_{n}\in \mathbb{R}^{M_{n}\times M_{n}\times C_{n}}$, 使用沙 un
 
 ![[Pasted image 20240904162739.png]]
 ## Comments
