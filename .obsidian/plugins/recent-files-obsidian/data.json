@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "kwan2024-immersive",
+      "path": "LiteratureNotes/kwan2024-immersive.md"
+    },
+    {
       "basename": "zhang2024-efficient",
       "path": "LiteratureNotes/zhang2024-efficient.md"
     },
     {
-      "basename": "chen2023-factor",
-      "path": "LiteratureNotes/chen2023-factor.md"
+      "basename": "2024-09-03",
+      "path": "diary/2024-09-03.md"
     },
     {
-      "basename": "kwan2024-immersive",
-      "path": "LiteratureNotes/kwan2024-immersive.md"
+      "basename": "zt-annots.eta",
+      "path": "ZtTemplates/zt-annots.eta.md"
+    },
+    {
+      "basename": "chen2023-factor",
+      "path": "LiteratureNotes/chen2023-factor.md"
     },
     {
       "basename": "2024-09-05",
@@ -23,10 +31,6 @@
     {
       "basename": "2024-09-01",
       "path": "diary/2024-09-01.md"
-    },
-    {
-      "basename": "2024-09-03",
-      "path": "diary/2024-09-03.md"
     },
     {
       "basename": "2024-09-04",
@@ -51,10 +55,6 @@
     {
       "basename": "zt-field.eta",
       "path": "ZtTemplates/zt-field.eta.md"
-    },
-    {
-      "basename": "zt-annots.eta",
-      "path": "ZtTemplates/zt-annots.eta.md"
     },
     {
       "basename": "zt-note.eta",

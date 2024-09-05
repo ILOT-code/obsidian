@@ -67,6 +67,9 @@ $$
 $$
 \mathcal{L}_{total}=\sum_{\mathbf{r}\in\mathbb{R}}\|C(\mathbf{r})-\hat{C}(\mathbf{r})\|^2+\lambda_1\mathcal{L}_{rate}+\lambda_2\mathcal{L}_{reg}
 $$
+## Experiment
+![[Pasted image 20240905163704.png]]
+
 
 ## Comments
 
