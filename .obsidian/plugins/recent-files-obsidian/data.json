@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "zhang2024-efficient",
+      "path": "LiteratureNotes/zhang2024-efficient.md"
+    },
+    {
       "basename": "2024-09-05",
       "path": "diary/2024-09-05.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "未命名 7",
       "path": "未命名 7.md"
-    },
-    {
-      "basename": "Arithmetic Coding",
-      "path": "Notecards/Arithmetic Coding.md"
     }
   ],
   "omittedPaths": [],

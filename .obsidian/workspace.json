@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2024-09-05.md",
+                "file": "LiteratureNotes/zhang2024-efficient.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2024-09-05.md",
+                "file": "LiteratureNotes/zhang2024-efficient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2024-09-05.md",
+                "file": "LiteratureNotes/zhang2024-efficient.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2024-09-05.md"
+                "file": "LiteratureNotes/zhang2024-efficient.md"
               }
             }
           }
@@ -203,8 +203,9 @@
   },
   "active": "34991989f0017896",
   "lastOpenFiles": [
-    "diary/2024-09-06.md",
     "diary/2024-09-05.md",
+    "LiteratureNotes/zhang2024-efficient.md",
+    "diary/2024-09-06.md",
     "LiteratureNotes/chen2023-factor.md",
     "Attachments/Pasted image 20240905142141.png",
     "Attachments/Pasted image 20240905140546.png",
@@ -237,7 +238,6 @@
     "LiteratureNotes/mentzer2019-practical.md",
     "未命名 8.md",
     "未命名 10.md",
-    "Sundry/vim.md",
-    "未命名 4.md"
+    "Sundry/vim.md"
   ]
 }
