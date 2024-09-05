@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/chen2023-factor.md",
+                "file": "diary/2024-09-05.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/chen2023-factor.md",
+                "file": "diary/2024-09-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/chen2023-factor.md",
+                "file": "diary/2024-09-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/chen2023-factor.md"
+                "file": "diary/2024-09-05.md"
               }
             }
           }
@@ -203,11 +203,13 @@
   },
   "active": "34991989f0017896",
   "lastOpenFiles": [
+    "diary/2024-09-06.md",
+    "diary/2024-09-05.md",
+    "LiteratureNotes/chen2023-factor.md",
     "Attachments/Pasted image 20240905142141.png",
     "Attachments/Pasted image 20240905140546.png",
     "Attachments/Pasted image 20240905140448.png",
     "diary/2024-09-01.md",
-    "LiteratureNotes/chen2023-factor.md",
     "diary/2024-09-03.md",
     "diary/2024-09-04.md",
     "LiteratureNotes/kwan2024-immersive.md",
@@ -228,7 +230,6 @@
     "ZtTemplates/zt-cite.eta.md",
     "Attachments/Pasted image 20240904154313.png",
     "Attachments/Pasted image 20240904145059.png",
-    "Attachments/Pasted image 20240904143340.png",
     "ZtTemplates/zt-annot.eta.md",
     "LiteratureNotes/oord2016-pixel.md",
     "LiteratureNotes/oord2016-conditional.md",
@@ -237,7 +238,6 @@
     "未命名 8.md",
     "未命名 10.md",
     "Sundry/vim.md",
-    "未命名 4.md",
-    "未命名 9.md"
+    "未命名 4.md"
   ]
 }

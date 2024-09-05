@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-09-05",
+      "path": "diary/2024-09-05.md"
+    },
+    {
+      "basename": "2024-09-06",
+      "path": "diary/2024-09-06.md"
+    },
+    {
       "basename": "chen2023-factor",
       "path": "LiteratureNotes/chen2023-factor.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Arithmetic Coding",
       "path": "Notecards/Arithmetic Coding.md"
-    },
-    {
-      "basename": "chen2021-nerv",
-      "path": "LiteratureNotes/chen2021-nerv.md"
-    },
-    {
-      "basename": "lee2023-flexround",
-      "path": "LiteratureNotes/lee2023-flexround.md"
     }
   ],
   "omittedPaths": [],
