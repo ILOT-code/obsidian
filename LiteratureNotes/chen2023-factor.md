@@ -33,7 +33,7 @@ $$
 \hat{\mathbf{s}}(\mathbf{x})=\mathcal{P}\left(\prod_{i=1}^N\mathbf{f}_i\left(\boldsymbol{\gamma}_i(\mathbf{x})\right)\right)
 $$
 
-将坐标 $\mathbf{x}$ 使用坐标变换 $\gamma_{i}$，$\mathbf{f}_{i}$ 再把它映射到对应的域中去，连车
+将坐标 $\mathbf{x}$ 使用坐标变换 $\gamma_{i}$，$\mathbf{f}_{i}$ 再把它映射到对应的域中去，连乘符号表示 elent-wis
 ## Comments
 
 ### 先前研究的问题
