@@ -31,6 +31,8 @@ tags: []
 
 ## Method
 
+### 前置
+
 $$
 (\mathbf{c},\sigma)=g_{\phi}(\mathbf{x},\mathbf{d})
 $$
@@ -50,6 +52,12 @@ $$
 (\mathbf{c},\sigma)& =\mathcal{P}(\mathbf{c}(\mathbf{x})\circ\mathbf{b}(\mathbf{x}),\mathbf{d}) 
 \end{aligned}
 $$
+### 紧凑的动态场表达
+对动态场最朴素的表达就是，单独为每一个时间布，单独训练一个 $\mathbf{C,B},\mathcal{P}$，但这样显然忽略了时间步之间的联系。
+
+在时间步 $t$ 时，从先前 buffer 中提取出 $\hat{B}_{t-1}$，并固定其参数，训练残余连
+
+![[Pasted image 20240905162319.png]]
 ## Comments
 
 ### 先前研究的问题
