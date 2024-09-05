@@ -22,8 +22,10 @@ tags: []
 ## Abstract
 
 本文使用动态的神经辐射场技术来压缩体素视频。
-其工作极大程度建立在 [[chen2023-factor|(Anpei Chen, 2023)]] 上。作者将它扩赞
+其工作极大程度建立在 [[chen2023-factor|(Anpei Chen, 2023)]] 上。作者将它扩展到时间维度，并引入了 rate-estimate 和加噪声模拟量化的技术，实现了 end-to-end 的训练。
 
+## Intro
+作者分析了限期
 
 ## Comments
 
