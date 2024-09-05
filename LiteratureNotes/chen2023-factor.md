@@ -47,7 +47,7 @@ $$
 
 
 ### DiF
-取 $N=2,\gamma_{1}(x)=x$
+取 $N=2,\gamma_{1}(x)=x,\gamma_{2}(x)$ 为一个周期性的函数，$\mathbf{f}_{1},\mathbf{f}_{2}$ 取 grid-based 的映射，就组成了 DiF。使用 DCT 来初始化 $\mathbf{f}_{2}$ 的网格。
 
 ## Comments
 
