@@ -35,11 +35,21 @@ $$
 (\mathbf{c},\sigma)=g_{\phi}(\mathbf{x},\mathbf{d})
 $$
 $$
-\begin{}
-
-\end{}
+\begin{align*}
+\hat{C}(\mathbf{r})&=\sum _{i=1}^{N}T_{i}\alpha_{i}\mathbf{c}_{i}\\
+T_{i}&=\prod_{j=1}^{i-1}(1-\alpha _{i}), ~~\alpha_{i}=1-\exp(-\sigma_{i}\delta_{i})
+\end{align*}
 $$
 
+$T_{i}$ 表示透过率，$\alpha$ 表示透明度。
+
+$$
+\begin{aligned}
+\mathbf{c(x)}& =\text{interp}\left(\mathbf{x},\mathbf{C}\right) \\
+\mathbf{b(x)}& =\text{interp}\left(\gamma(\mathbf{x}),\mathbf{B}\right) \\
+(\mathbf{c},\sigma)& =\mathcal{P}(\mathbf{c}(\mathbf{x})\circ\mathbf{b}(\mathbf{x}),\mathbf{d}) 
+\end{aligned}
+$$
 ## Comments
 
 ### 先前研究的问题
