@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "chen2023-factor",
+      "path": "LiteratureNotes/chen2023-factor.md"
+    },
+    {
       "basename": "2024-09-01",
       "path": "diary/2024-09-01.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "lee2023-flexround",
       "path": "LiteratureNotes/lee2023-flexround.md"
-    },
-    {
-      "basename": "flamich2022-fast",
-      "path": "LiteratureNotes/flamich2022-fast.md"
     }
   ],
   "omittedPaths": [],

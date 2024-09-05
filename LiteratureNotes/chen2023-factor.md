@@ -1,0 +1,81 @@
+---
+zotero-key: FW8IM9EK
+zt-attachments:
+  - "282"
+title: "Factor Fields: A Unified Framework for Neural Fields and Beyond"
+authors:
+  - Anpei Chen
+  - Zexiang Xu
+  - Xinyue Wei
+  - Siyu Tang
+  - Hao Su
+  - Andreas Geiger
+doi: 10.48550/arXiv.2302.01226
+conference: xxx
+citekey: chen2023-factor
+tags: []
+---
+# Factor Fields: A Unified Framework for Neural Fields and Beyond
+
+**文章链接**: [Zotero](zotero://select/library/items/FW8IM9EK) [attachment](<file:///home/ilot/Zotero/storage/9WNVVIJM/Chen%20%E7%AD%89%20-%202023%20-%20Factor%20Fields%20A%20Unified%20Framework%20for%20Neural%20Fiel.pdf>)
+**网页链接**: [URL](http://arxiv.org/abs/2302.01226)
+## Abstract
+
+>[!abstract]
+>We present Factor Fields, a novel framework for modeling and representing signals. Factor Fields decomposes a signal into a product of factors, each represented by a classical or neural field representation which operates on transformed input coordinates. This decomposition results in a unified framework that accommodates several recent signal representations including NeRF, Plenoxels, EG3D, Instant-NGP, and TensoRF. Additionally, our framework allows for the creation of powerful new signal representations, such as the "Dictionary Field" (DiF) which is a second contribution of this paper. Our experiments show that DiF leads to improvements in approximation quality, compactness, and training time when compared to previous fast reconstruction methods. Experimentally, our representation achieves better image approximation quality on 2D image regression tasks, higher geometric quality when reconstructing 3D signed distance fields, and higher compactness for radiance field reconstruction tasks. Furthermore, DiF enables generalization to unseen images/3D scenes by sharing bases across signals during training which greatly benefits use cases such as image regression from sparse observations and few-shot radiance field reconstruction.
+
+
+## Intro
+NeRF 技术衍生出了很多改进技术
+
+
+## Comments
+
+### 先前研究的问题
+
+> [!note] Page 3
+> 
+> Representing the signal s(x) using a global set of basis functions is inefficient as information cannot be shared spatially.
+> 
+> ---
+> 🔤使用全局基函数集表示信号 s(x) 效率低下，因为信息无法在空间上共享。🔤
+> ^8Z9ANMS7a9WNVVIJMp3
+
+### 创新点
+
+> [!note] Page 2
+> 
+> In order to gain a better understanding of existing representations, make comparisons across their design principles, and create powerful new representations, we propose Factor Fields, a novel mathematical framework that unifies many previous neural representations for multi-dimensional signals. This framework offers a simple formulation for modeling and representing signals.
+> 
+> ---
+> 🔤为了更好地理解现有的表示，比较它们的设计原理，并创建强大的新表示，我们提出了因子场，这是一种新颖的数学框架，它统一了许多先前的多维信号神经表示。该框架提供了用于建模和表示信号的简单公式。🔤
+> ^DD5ZJGU5a9WNVVIJMp2
+
+> [!note] Page 5
+> 
+> This forces the signal to be represented with random combinations of features at every iteration, encouraging sparsity and preventing co-adaptation of features.
+> 
+> ---
+> 🔤这迫使信号在每次迭代时都用特征的随机组合来表示，从而鼓励稀疏性并防止特征的共同适应。🔤
+> ^3A4ULBR6a9WNVVIJMp5
+
+### 性能成绩
+
+> [!note] Page 2
+> 
+> Our framework accommodates most previous neural representations. Many of them can be represented in our framework as a single factor with a domain transformation
+> 
+> ---
+> 🔤我们的框架适应了大多数以前的神经表征。其中许多可以在我们的框架中表示为具有域转换的单个因素🔤
+> ^9Q8Y46LBa9WNVVIJMp2
+
+### 技术细节
+
+> [!note] Page 2
+> 
+> Our framework decomposes a signal by factorizing it into multiple factor fields (f1, . . . , fN ) operating on suitably chosen coordinate transformations (γ1, . . . , γN ) as illustrated in Fig. 1. More specifically, each factor field decodes multi-channel features at any spatial location of a coordinate-transformed signal domain. The target signal is then regressed from the factor product via a learned projection function (e.g., MLP).
+> 
+> ---
+> 🔤我们的框架通过将信号分解为在适当选择的坐标变换（γ1，...，γN）上运行的多个因子字段（f1，...，fN）来分解信号，如图1所示。更具体地说，每个因子字段解码坐标变换信号域的任何空间位置的多通道特征。然后通过学习的投影函数（例如 MLP）从因子乘积回归目标信号。🔤
+> ^DR2NUX6Sa9WNVVIJMp2
+
