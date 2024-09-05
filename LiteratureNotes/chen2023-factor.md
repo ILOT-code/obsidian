@@ -41,7 +41,9 @@ $$
 ![[Pasted image 20240905140448.png]]
 但是 $\gamma$ 的选择被它所使用的域给限制了。
 1. 当 $\mathbf{f}$ 表示 coefficients 时: coefficients 通常在不同的坐标上十分不一样，因此对应的 $\gamma$ 尽量使用本征变换。
-2. 当 $\mathbf{f}$ 表示 basis 时：通常希望在不同的空间上能够使用相同的基，因此对应的 $\gamma$ 应是周期性的
+2. 当 $\mathbf{f}$ 表示 basis 时：通常希望在不同的空间上能够使用相同的基，因此对应的 $\gamma$ 应是周期性的。
+3. 在一些技术中，设置了一系列不同空间分辨率下的基，设有 $L$ 个不同的 level，$\gamma_i^{\mathrm{PR}}(\mathbf{x})=(\gamma_i(\mathbf{x}f_1),\ldots,\gamma_i(\mathbf{x}f_L))$
+
 ## Comments
 
 ### 先前研究的问题
