@@ -26,9 +26,14 @@ tags: []
 
 
 ## Intro
-NeRF 技术衍生出了很多改进技术
+NeRF 技术衍生出了很多改进技术，本文构建了一种范式，使得 NeRF, Instant-NGP 等方法都成为了该范式下的一个特例。在此基础上，提出了 Dictionary Field 方法，把信号分解到 coefficient 域和 basis 域，能够跨空间利用相似的信号特征。
 
+## Factor Fields
+$$
+\hat{\mathbf{s}}(\mathbf{x})=\mathcal{P}\left(\prod_{i=1}^N\mathbf{f}_i\left(\boldsymbol{\gamma}_i(\mathbf{x})\right)\right)
+$$
 
+将坐标 $\mathbf{x}$ 使用坐标变换 $\gamma_{i}$，$\mathbf{f}_{i}$ 再把它映射到对应的域中去，连车
 ## Comments
 
 ### 先前研究的问题
