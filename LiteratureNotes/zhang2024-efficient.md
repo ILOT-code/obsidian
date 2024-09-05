@@ -25,7 +25,20 @@ tags: []
 其工作极大程度建立在 [[chen2023-factor|(Anpei Chen, 2023)]] 上。作者将它扩展到时间维度，并引入了 rate-estimate 和加噪声模拟量化的技术，实现了 end-to-end 的训练。
 
 ## Intro
-作者分析了限期
+作者分析了先前的 SOTA 技术 ReRF 的不足：
+1. 在 3 D 层面，进行运动估计是很困难的事，ReRF 中的运动估计也只使用了很少的参数，无法有效利用帧间信息。
+2. 它的模型训练以及之后的模型压缩过程是分离的，无法做到端到端。
+
+## Method
+
+$$
+(\mathbf{c},\sigma)=g_{\phi}(\mathbf{x},\mathbf{d})
+$$
+$$
+\begin{}
+
+\end{}
+$$
 
 ## Comments
 
