@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/zhang2024-efficient.md",
+                "file": "LiteratureNotes/chen2023-factor.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/zhang2024-efficient.md",
+                "file": "LiteratureNotes/chen2023-factor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/zhang2024-efficient.md",
+                "file": "LiteratureNotes/chen2023-factor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/zhang2024-efficient.md"
+                "file": "LiteratureNotes/chen2023-factor.md"
               }
             }
           }
@@ -191,9 +191,9 @@
   },
   "active": "b030fbc6a76def92",
   "lastOpenFiles": [
+    "LiteratureNotes/zhang2024-efficient.md",
     "LiteratureNotes/kwan2024-immersive.md",
     "LiteratureNotes/chen2023-factor.md",
-    "LiteratureNotes/zhang2024-efficient.md",
     "LiteratureNotes/gomes2023-video.md",
     "LiteratureNotes/lee2023-ffnerv.md",
     "LiteratureNotes/kwan2024-hinerva.md",
