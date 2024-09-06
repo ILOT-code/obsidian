@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md",
+                "file": "LiteratureNotes/zhang2024-efficient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md",
+                "file": "LiteratureNotes/zhang2024-efficient.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md"
+                "file": "LiteratureNotes/zhang2024-efficient.md"
               }
             }
           }
@@ -190,12 +189,12 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "471d6550a4743fa3",
+  "active": "b030fbc6a76def92",
   "lastOpenFiles": [
+    "LiteratureNotes/kwan2024-immersive.md",
     "LiteratureNotes/chen2023-factor.md",
     "LiteratureNotes/zhang2024-efficient.md",
     "LiteratureNotes/gomes2023-video.md",
-    "LiteratureNotes/kwan2024-immersive.md",
     "LiteratureNotes/lee2023-ffnerv.md",
     "LiteratureNotes/kwan2024-hinerva.md",
     "Attachments/Pasted image 20240906121336.png",
