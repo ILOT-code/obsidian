@@ -25,7 +25,8 @@ tags:
 
 
 ## Architecture
-把当前帧 $t \in[0,1)$阔赞
+把当前帧 $t \in[0,1)$ 扩展到 $T\in \mathbb{R}^{1\times h\times w}$，并把它和一个固定的坐标网格 $M\in \mathbb{R}^{2\times h\times w},whereM[0,h^{\prime},w^{\prime}]=\frac{w^{\prime}}{W},M[1,h^{\prime},w^{\prime}]=\frac{h^{\prime}}{W}$ 结合。再 element-wise 使用位置编码：
+
 
 
 
