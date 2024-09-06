@@ -41,9 +41,12 @@ $$
 使用的量化手段是：
 $$
 \begin{aligned}
-Q_{\gamma}:\mathbb{R}\to \mathbb{Z},Q_{\gamma}(x)=
-\end{aligned}
+Q_{\gamma}:\mathbb{R}\to \mathbb{Z},Q_{\gamma}(x)=\lfloor \frac{x+\beta}{\alpha} \rceil , \gamma=(\alpha,\beta)\\
+Q_{\gamma}^{-1}=x\times \alpha-\beta
+\end{aligned} 
 $$
+
+
 ## Comments
 
 ### 先前研究的问题
