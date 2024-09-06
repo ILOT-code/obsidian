@@ -30,8 +30,8 @@ tags:
 $$
 \gamma(x)=(\sin(1.25^0\pi x),\cos(1.25^0\pi x),\dots,\sin(1.25^{L-1}\pi x,\cos(1.25^{L-1}\pi x))
 $$
-
-
+采用了和 E-NERV 类似的结构。卷积上采样共有 5 个块，AdaIN 模块为它们各学习一个 $\mu ，\sigma$，时间信息经 AdaIN 处理后输入这些层。
+![[Pasted image 20240906111014.png]]
 
 
 
