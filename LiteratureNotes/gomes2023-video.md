@@ -18,7 +18,7 @@ tags:
 ## Abstract
 
 >[!abstract]
->neural video representation 和传统的一些视频压缩技术仍然存在 gap，这由两方面的因素：
+>neural video representation 和传统的一些视频压缩技术仍然存在 gap，这有两方面的因素：
 >1. 此类方法的网络结构很简单，无法获得紧凑的表达形式，参数的使用很没有效率
 >2. 失真控制和码率控制没有同步进行
 >为此，提出了一种新颖的卷积结构的视频表示方法，能够联合优化率-失真。
@@ -58,7 +58,12 @@ $$
 $$
 \min _{\theta,\phi,\boldsymbol{\gamma}}\sum_{(x,y)\in S}D(f(x;Q^{-1}(Q_{ste}(\theta;\boldsymbol{\gamma});\boldsymbol{\gamma})),y)+\lambda\frac{\sum_{l\in layers}-\log_{2}p_{\phi}(Q_{noise}(\theta _{l};\gamma_{l}))}{frames\times h\times w}
 $$
-rate 项初以来
+rate 项除以了总像素数，这样 $\lambda$ 就和视频的分辨率和帧数无关了。
+
+
+## Experiments
+
+
 ## Comments
 
 ### 先前研究的问题
