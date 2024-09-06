@@ -34,7 +34,10 @@ $$
 ![[Pasted image 20240906111014.png]]
 
 ## Entropy Minimization
-权重参数需要被量化，$\hat{\theta}=Q_{\gamma}(\theta)$，被解码后，再反量化回来 $\theta ^\prime=Q_{\gamma}^{-1}(\hat{\theta})$. 
+权重参数需要被量化，$\hat{\theta}=Q_{\gamma}(\theta)$，被解码后，再反量化回来 $\theta ^\prime=Q_{\gamma}^{-1}(\hat{\theta})$. 整体的损失函数即为：
+$$
+\min_{\theta}\sum_{(x,y)\in S}D(f(x;Q_{\gamma}^{-1}(\hat{\theta})),y)+\lambda \sum_{i=0}^{|\hat{\theta}|}-\log_{2}\hat{p}(\hat{\theta_{i}})
+$$
 
 ## Comments
 
