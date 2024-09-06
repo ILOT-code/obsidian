@@ -7,9 +7,9 @@ authors:
   - Andrew Gower
   - David Bull
 doi: 10.48550/arXiv.2402.01596
-conference: xxx
+conference: preprint,arxiv2024
 citekey: kwan2024-immersive
-tags: []
+tags:
 ---
 # Immersive Video Compression using Implicit Neural Representations
 

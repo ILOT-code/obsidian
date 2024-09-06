@@ -9,9 +9,9 @@ authors:
   - Jong Hwan Ko
   - Eunbyung Park
 doi: 10.1145/3581783.3612444
-conference: xxx
+conference: International Multimedia Conference2023
 citekey: lee2023-ffnerv
-tags: []
+tags:
 ---
 # FFNeRV: Flow-Guided Frame-Wise Neural Representations for Videos
 

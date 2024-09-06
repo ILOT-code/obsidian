@@ -10,9 +10,9 @@ authors:
   - Andrew Gower
   - David Bull
 doi: 10.5555/3666122.3669299
-conference: xxx
+conference: NIPS2023
 citekey: kwan2024-hinerva
-tags: []
+tags:
 ---
 # HiNeRV: Video Compression with Hierarchical Encoding-based Neural Representation
 

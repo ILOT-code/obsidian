@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md",
+                "file": "LiteratureNotes/chen2023-factor.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md",
+                "file": "LiteratureNotes/chen2023-factor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md",
+                "file": "LiteratureNotes/chen2023-factor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md"
+                "file": "LiteratureNotes/chen2023-factor.md"
               }
             }
           }
@@ -179,9 +179,11 @@
   },
   "active": "b030fbc6a76def92",
   "lastOpenFiles": [
-    "LiteratureNotes/kwan2024-hinerva.md",
-    "LiteratureNotes/zhang2024-efficient.md",
+    "LiteratureNotes/kwan2024-immersive.md",
     "LiteratureNotes/gomes2023-video.md",
+    "LiteratureNotes/zhang2024-efficient.md",
+    "LiteratureNotes/kwan2024-hinerva.md",
+    "LiteratureNotes/lee2023-ffnerv.md",
     "Attachments/Pasted image 20240906121336.png",
     "Attachments/Pasted image 20240906121016.png",
     "Attachments/Pasted image 20240906111014.png",
@@ -190,7 +192,6 @@
     "diary/2024-09-03.md",
     "diary/2024-09-05.md",
     "diary/2024-09-04.md",
-    "LiteratureNotes/kwan2024-immersive.md",
     "ZtTemplates/zt-annots.eta.md",
     "Attachments/Pasted image 20240905163704.png",
     "LiteratureNotes/chen2023-factor.md",
@@ -201,7 +202,6 @@
     "Attachments/Pasted image 20240904194217.png",
     "diary/2024-08-26.md",
     "diary/2024-08-27.md",
-    "LiteratureNotes/lee2023-ffnerv.md",
     "Attachments/Pasted image 20240904162739.png",
     "ZtTemplates/zt-field.eta.md",
     "ZtTemplates/zt-note.eta.md",
