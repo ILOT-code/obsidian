@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "gomes2023-video",
+      "path": "LiteratureNotes/gomes2023-video.md"
+    },
+    {
+      "basename": "2024-09-06",
+      "path": "diary/2024-09-06.md"
+    },
+    {
+      "basename": "2024-09-01",
+      "path": "diary/2024-09-01.md"
+    },
+    {
       "basename": "2024-09-03",
       "path": "diary/2024-09-03.md"
     },
     {
-      "basename": "2024-09-04",
-      "path": "diary/2024-09-04.md"
-    },
-    {
       "basename": "2024-09-05",
       "path": "diary/2024-09-05.md"
+    },
+    {
+      "basename": "2024-09-04",
+      "path": "diary/2024-09-04.md"
     },
     {
       "basename": "kwan2024-immersive",
@@ -27,14 +39,6 @@
     {
       "basename": "chen2023-factor",
       "path": "LiteratureNotes/chen2023-factor.md"
-    },
-    {
-      "basename": "2024-09-06",
-      "path": "diary/2024-09-06.md"
-    },
-    {
-      "basename": "2024-09-01",
-      "path": "diary/2024-09-01.md"
     },
     {
       "basename": "2024-08-26",
@@ -195,10 +199,6 @@
     {
       "basename": "li2023-neural-w",
       "path": "Paperwords/li2023-neural-w.md"
-    },
-    {
-      "basename": "未命名 7",
-      "path": "未命名 7.md"
     }
   ],
   "omittedPaths": [],
