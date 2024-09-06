@@ -11,9 +11,9 @@ authors:
   - Qiang Hu
   - Li Song
 doi: 10.48550/arXiv.2402.01380
-conference: xxx
+conference: preprint,arxiv2024
 citekey: zhang2024-efficient
-tags: []
+tags:
 ---
 # Efficient Dynamic-NeRF Based Volumetric Video Coding with Rate Distortion Optimization
 

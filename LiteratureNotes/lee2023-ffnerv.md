@@ -9,7 +9,7 @@ authors:
   - Jong Hwan Ko
   - Eunbyung Park
 doi: 10.1145/3581783.3612444
-conference: International Multimedia Conference2023
+conference: MM2023
 citekey: lee2023-ffnerv
 tags:
 ---

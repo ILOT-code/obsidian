@@ -11,9 +11,9 @@ authors:
   - Hao Su
   - Andreas Geiger
 doi: 10.48550/arXiv.2302.01226
-conference: xxx
+conference: SIGGRAPH 2023
 citekey: chen2023-factor
-tags: []
+tags:
 ---
 # Factor Fields: A Unified Framework for Neural Fields and Beyond
 

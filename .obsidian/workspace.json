@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/chen2023-factor.md",
+                "file": "LiteratureNotes/zhang2024-efficient.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/chen2023-factor.md",
+                "file": "LiteratureNotes/zhang2024-efficient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/chen2023-factor.md",
+                "file": "LiteratureNotes/zhang2024-efficient.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/chen2023-factor.md"
+                "file": "LiteratureNotes/zhang2024-efficient.md"
               }
             }
           }
@@ -179,11 +179,12 @@
   },
   "active": "b030fbc6a76def92",
   "lastOpenFiles": [
-    "LiteratureNotes/kwan2024-immersive.md",
-    "LiteratureNotes/gomes2023-video.md",
-    "LiteratureNotes/zhang2024-efficient.md",
-    "LiteratureNotes/kwan2024-hinerva.md",
     "LiteratureNotes/lee2023-ffnerv.md",
+    "LiteratureNotes/kwan2024-immersive.md",
+    "LiteratureNotes/zhang2024-efficient.md",
+    "LiteratureNotes/chen2023-factor.md",
+    "LiteratureNotes/gomes2023-video.md",
+    "LiteratureNotes/kwan2024-hinerva.md",
     "Attachments/Pasted image 20240906121336.png",
     "Attachments/Pasted image 20240906121016.png",
     "Attachments/Pasted image 20240906111014.png",
@@ -194,7 +195,6 @@
     "diary/2024-09-04.md",
     "ZtTemplates/zt-annots.eta.md",
     "Attachments/Pasted image 20240905163704.png",
-    "LiteratureNotes/chen2023-factor.md",
     "Attachments/Pasted image 20240905162319.png",
     "Attachments/Pasted image 20240905142141.png",
     "Attachments/Pasted image 20240905140546.png",
