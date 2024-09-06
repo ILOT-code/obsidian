@@ -52,6 +52,10 @@ $$
 
 实际上作者同时使用了这两种方法。在计算损失函数的第一项时，对参数首先使用了 STE 进行处理，计算失真。在计算第二项时，是对参数进行加噪声的处理，再使用熵模型来计算 rate。
 
+作者把每一层内部的参数，建模成独立同分布模型。（作者声称采用过联合概率建模的方法，但效果不好）。并使用 [[balle2018-variational|(Johannes Ballé, 2018)]] 中那个对 $z$ 进行概率建模的模型。
+$$
+\min _{\theta,\phi,\boldsymbol{\gamma}}\sum_{(x,y)\in S}D(f(x;Q^{-1}(Q_{ste}(\theta);\boldsymbol{\gamma});\boldsymbol{\gamma}),y)
+$$
 ## Comments
 
 ### 先前研究的问题
