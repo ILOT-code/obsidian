@@ -38,7 +38,7 @@ $$
 $$
 \min_{\theta}\sum_{(x,y)\in S}D(f(x;Q_{\gamma}^{-1}(\hat{\theta})),y)+\lambda \sum_{i=0}^{|\hat{\theta}|}-\log_{2}\hat{p}(\hat{\theta_{i}})
 $$
-使用的量化手段是：
+使用的量化操作是：
 $$
 \begin{aligned}
 Q_{\gamma}:\mathbb{R}\to \mathbb{Z},Q_{\gamma}(x)=\lfloor \frac{x+\beta}{\alpha} \rceil , \gamma=(\alpha,\beta)\\
@@ -46,7 +46,11 @@ Q_{\gamma}^{-1}=x\times \alpha-\beta
 \end{aligned} 
 $$
 
+克服不可微的方法有两种：
+1. STE
+2. 加噪声，$\tilde{\theta}=\frac{x+\beta}{\alpha}+u$
 
+实际
 ## Comments
 
 ### 先前研究的问题
