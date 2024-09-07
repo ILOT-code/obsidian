@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md",
+                "file": "LiteratureNotes/chen2021-nerva.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md",
+                "file": "LiteratureNotes/chen2021-nerva.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md",
+                "file": "LiteratureNotes/chen2021-nerva.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/kwan2024-hinerva.md"
+                "file": "LiteratureNotes/chen2021-nerva.md"
               }
             }
           }
@@ -216,9 +216,12 @@
   },
   "active": "7e4fd2d4e448d283",
   "lastOpenFiles": [
+    "LiteratureNotes/lee2023-flexround.md",
+    "LiteratureNotes/chen2021-nerva.md",
+    "LiteratureNotes/2017-significantly.md",
+    "LiteratureNotes/kwan2024-hinerva.md",
     "LiteratureNotes/kwan2024-immersive.md",
     "LiteratureNotes/gomes2023-video.md",
-    "LiteratureNotes/kwan2024-hinerva.md",
     "LiteratureNotes/zhang2024-efficient.md",
     "LiteratureNotes/chen2023-factor.md",
     "LiteratureNotes/lee2023-ffnerv.md",
@@ -248,8 +251,6 @@
     "ZtTemplates/zt-annot.eta.md",
     "LiteratureNotes/oord2016-pixel.md",
     "LiteratureNotes/oord2016-conditional.md",
-    "Math/多元高斯分布.md",
-    "LiteratureNotes/mentzer2019-practical.md",
-    "未命名 8.md"
+    "Math/多元高斯分布.md"
   ]
 }
