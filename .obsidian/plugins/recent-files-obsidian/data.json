@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "li2022-enerv",
+      "path": "LiteratureNotes/li2022-enerv.md"
+    },
+    {
       "basename": "wu2023-tetrirf",
       "path": "LiteratureNotes/wu2023-tetrirf.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "li2024-neural",
       "path": "LiteratureNotes/li2024-neural.md"
-    },
-    {
-      "basename": "Zizhongchen compress",
-      "path": "Zizhongchen compress.md"
     }
   ],
   "omittedPaths": [],
