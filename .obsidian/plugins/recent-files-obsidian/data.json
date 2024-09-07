@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "周报24-09-07",
-      "path": "周报24-09-07.md"
+      "basename": "2024-09-07",
+      "path": "diary/2024-09-07.md"
     },
     {
-      "basename": "kwan2024-hinerva",
-      "path": "LiteratureNotes/kwan2024-hinerva.md"
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
+      "basename": "Zizhongchen compress",
+      "path": "Zizhongchen compress.md"
+    },
+    {
+      "basename": "CompressionFromCV",
+      "path": "CompressionFromCV.md"
+    },
+    {
+      "basename": "周报24-09-07",
+      "path": "周报/周报24-09-07.md"
     },
     {
       "basename": "kwan2024-immersive",
       "path": "LiteratureNotes/kwan2024-immersive.md"
+    },
+    {
+      "basename": "kwan2024-hinerva",
+      "path": "LiteratureNotes/kwan2024-hinerva.md"
     },
     {
       "basename": "zhang2024-efficient",
@@ -121,24 +137,8 @@
       "path": "LiteratureNotes/mentzer2019-practical.md"
     },
     {
-      "basename": "未命名 8",
-      "path": "未命名 8.md"
-    },
-    {
-      "basename": "未命名 10",
-      "path": "未命名 10.md"
-    },
-    {
       "basename": "vim",
       "path": "Sundry/vim.md"
-    },
-    {
-      "basename": "未命名 4",
-      "path": "未命名 4.md"
-    },
-    {
-      "basename": "未命名 9",
-      "path": "未命名 9.md"
     },
     {
       "basename": "ANS及其实现技巧",
@@ -147,10 +147,6 @@
     {
       "basename": "ali2023-efficient",
       "path": "LiteratureNotes/ali2023-efficient.md"
-    },
-    {
-      "basename": "未命名 3",
-      "path": "未命名 3.md"
     },
     {
       "basename": "alakuijala2019-jpeg",
@@ -169,18 +165,6 @@
       "path": "Paperwords/2023-preprocessing-w.md"
     },
     {
-      "basename": "未命名",
-      "path": "未命名.md"
-    },
-    {
-      "basename": "jacobs1991-adaptive",
-      "path": "jacobs1991-adaptive.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
-    },
-    {
       "basename": "ge2024-taskaware",
       "path": "LiteratureNotes/ge2024-taskaware.md"
     },
@@ -195,10 +179,6 @@
     {
       "basename": "li2023-neural",
       "path": "LiteratureNotes/li2023-neural.md"
-    },
-    {
-      "basename": "未命名 5",
-      "path": "未命名 5.md"
     }
   ],
   "omittedPaths": [],
