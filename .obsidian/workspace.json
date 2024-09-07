@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/lee2023-flexround.md",
+                "file": "LiteratureNotes/wu2023-tetrirf.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/lee2023-flexround.md",
+                "file": "LiteratureNotes/wu2023-tetrirf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/lee2023-flexround.md",
+                "file": "LiteratureNotes/wu2023-tetrirf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/lee2023-flexround.md"
+                "file": "LiteratureNotes/wu2023-tetrirf.md"
               }
             }
           },
@@ -196,9 +196,9 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/lee2023-flexround.md",
-                "itemId": -1,
-                "attachmentId": -1,
+                "file": "LiteratureNotes/wu2023-tetrirf.md",
+                "itemId": 391,
+                "attachmentId": 393,
                 "follow": "zt-reader"
               }
             }
@@ -208,7 +208,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 324.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,13 +228,16 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "7e4fd2d4e448d283",
+  "active": "b64af767bce66310",
   "lastOpenFiles": [
+    "LiteratureNotes/2017-significantly.md",
+    "LiteratureNotes/wu2023-tetrirf.md",
     "LiteratureNotes/-231206713.md",
+    "ZtTemplates/zt-annot.eta.md",
+    "LiteratureNotes/kwan2024-hinerva.md",
+    "LiteratureNotes/zhao2021-optimizing.md",
     "LiteratureNotes/lee2023-flexround.md",
     "LiteratureNotes/chen2021-nerva.md",
-    "LiteratureNotes/2017-significantly.md",
-    "LiteratureNotes/kwan2024-hinerva.md",
     "LiteratureNotes/kwan2024-immersive.md",
     "LiteratureNotes/gomes2023-video.md",
     "LiteratureNotes/zhang2024-efficient.md",
@@ -261,9 +265,6 @@
     "ZtTemplates/zt-note.eta.md",
     "ZtTemplates/zt-colored.eta.md",
     "ZtTemplates/zt-cite2.eta.md",
-    "ZtTemplates/zt-cite.eta.md",
-    "ZtTemplates/zt-annot.eta.md",
-    "LiteratureNotes/oord2016-pixel.md",
-    "LiteratureNotes/oord2016-conditional.md"
+    "ZtTemplates/zt-cite.eta.md"
   ]
 }

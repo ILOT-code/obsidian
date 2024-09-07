@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "lee2023-flexround",
-      "path": "LiteratureNotes/lee2023-flexround.md"
+      "basename": "wu2023-tetrirf",
+      "path": "LiteratureNotes/wu2023-tetrirf.md"
     },
     {
       "basename": "2017-significantly",
       "path": "LiteratureNotes/2017-significantly.md"
     },
     {
+      "basename": "zt-annot.eta",
+      "path": "ZtTemplates/zt-annot.eta.md"
+    },
+    {
       "basename": "kwan2024-hinerva",
       "path": "LiteratureNotes/kwan2024-hinerva.md"
+    },
+    {
+      "basename": "zhao2021-optimizing",
+      "path": "LiteratureNotes/zhao2021-optimizing.md"
+    },
+    {
+      "basename": "lee2023-flexround",
+      "path": "LiteratureNotes/lee2023-flexround.md"
     },
     {
       "basename": "kwan2024-immersive",
@@ -83,10 +95,6 @@
     {
       "basename": "zt-cite.eta",
       "path": "ZtTemplates/zt-cite.eta.md"
-    },
-    {
-      "basename": "zt-annot.eta",
-      "path": "ZtTemplates/zt-annot.eta.md"
     },
     {
       "basename": "oord2016-pixel",
@@ -191,10 +199,6 @@
     {
       "basename": "Zizhongchen compress",
       "path": "Zizhongchen compress.md"
-    },
-    {
-      "basename": "li2024-neural-w",
-      "path": "Paperwords/li2024-neural-w.md"
     }
   ],
   "omittedPaths": [],
