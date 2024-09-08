@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2024-09-07.md",
+                "file": "diary/2024-09-08.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2024-09-07.md",
+                "file": "diary/2024-09-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2024-09-07.md",
+                "file": "diary/2024-09-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2024-09-07.md"
+                "file": "diary/2024-09-08.md"
               }
             }
           },
@@ -196,7 +196,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "diary/2024-09-07.md",
+                "file": "diary/2024-09-08.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -223,13 +223,14 @@
       "cmdr:ZotLit: Update literature note": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
   "active": "7e4fd2d4e448d283",
   "lastOpenFiles": [
-    "shortcut.md",
     "diary/2024-09-07.md",
+    "diary/2024-09-08.md",
+    "shortcut.md",
     "charls.md",
     "Zizhongchen compress.md",
     "CompressionFromCV.md",
@@ -257,7 +258,6 @@
     "diary/2024-09-06.md",
     "diary/2024-09-01.md",
     "diary/2024-09-03.md",
-    "diary/2024-09-05.md",
     "Attachments/Pasted image 20240905163704.png",
     "Attachments/Pasted image 20240905162319.png",
     "Attachments/Pasted image 20240905142141.png",
