@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md",
+                "file": "Math/SH，SG.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md",
+                "file": "Math/SH，SG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md",
+                "file": "Math/SH，SG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md"
+                "file": "Math/SH，SG.md"
               }
             }
           },
@@ -196,7 +196,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md",
+                "file": "Math/SH，SG.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -229,6 +229,7 @@
   },
   "active": "471d6550a4743fa3",
   "lastOpenFiles": [
+    "LiteratureNotes/kwan2024-immersive.md",
     "Math/雅可比行列式.md",
     "Math/SH，SG.md",
     "diary/2024-09-08.md",
@@ -239,7 +240,6 @@
     "CompressionFromCV.md",
     "jacobs1991-adaptive.md",
     "周报/周报24-09-07.md",
-    "LiteratureNotes/kwan2024-immersive.md",
     "周报24-09-07.md",
     "周报",
     "LiteratureNotes/kwan2024-hinerva.md",
