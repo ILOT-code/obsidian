@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md",
+                "file": "Math/SH，SG.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md",
+                "file": "Math/SH，SG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md",
+                "file": "Math/SH，SG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md"
+                "file": "Math/SH，SG.md"
               }
             }
           },
@@ -196,7 +196,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/lee2023-ffnerv.md",
+                "file": "Math/SH，SG.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -229,6 +229,7 @@
   },
   "active": "471d6550a4743fa3",
   "lastOpenFiles": [
+    "LiteratureNotes/lee2023-ffnerv.md",
     "LiteratureNotes/kwan2024-hinerva.md",
     "LiteratureNotes/zhang2024-efficient.md",
     "Math/SH，SG.md",
@@ -246,7 +247,6 @@
     "周报",
     "LiteratureNotes/gomes2023-video.md",
     "LiteratureNotes/chen2023-factor.md",
-    "LiteratureNotes/lee2023-ffnerv.md",
     "ZtTemplates/zt-annot.eta.md",
     "LiteratureNotes/li2022-enerv.md",
     "LiteratureNotes/wu2023-tetrirf.md",
