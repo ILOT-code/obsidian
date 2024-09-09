@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/SH，SG.md",
+                "file": "LiteratureNotes/lee2023-ffnerv.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/SH，SG.md",
+                "file": "LiteratureNotes/lee2023-ffnerv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/SH，SG.md",
+                "file": "LiteratureNotes/lee2023-ffnerv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/SH，SG.md"
+                "file": "LiteratureNotes/lee2023-ffnerv.md"
               }
             }
           },
@@ -196,7 +196,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Math/SH，SG.md",
+                "file": "LiteratureNotes/lee2023-ffnerv.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -229,9 +229,11 @@
   },
   "active": "471d6550a4743fa3",
   "lastOpenFiles": [
+    "LiteratureNotes/kwan2024-hinerva.md",
+    "LiteratureNotes/zhang2024-efficient.md",
+    "Math/SH，SG.md",
     "LiteratureNotes/kwan2024-immersive.md",
     "Math/雅可比行列式.md",
-    "Math/SH，SG.md",
     "diary/2024-09-08.md",
     "diary/2024-09-07.md",
     "shortcut.md",
@@ -242,8 +244,6 @@
     "周报/周报24-09-07.md",
     "周报24-09-07.md",
     "周报",
-    "LiteratureNotes/kwan2024-hinerva.md",
-    "LiteratureNotes/zhang2024-efficient.md",
     "LiteratureNotes/gomes2023-video.md",
     "LiteratureNotes/chen2023-factor.md",
     "LiteratureNotes/lee2023-ffnerv.md",
