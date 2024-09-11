@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/gomes2023-video.md",
+                "file": "Math/SH，SG.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/gomes2023-video.md",
+                "file": "Math/SH，SG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/gomes2023-video.md",
+                "file": "Math/SH，SG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/gomes2023-video.md"
+                "file": "Math/SH，SG.md"
               }
             }
           },
@@ -184,7 +184,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/gomes2023-video.md",
+                "file": "Math/SH，SG.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -217,8 +217,8 @@
   },
   "active": "cccf48d06faa630d",
   "lastOpenFiles": [
-    "Math/雅可比行列式.md",
     "LiteratureNotes/gomes2023-video.md",
+    "Math/雅可比行列式.md",
     "Math/SH，SG.md",
     "LiteratureNotes/lee2023-ffnerv.md",
     "LiteratureNotes/kwan2024-hinerva.md",
