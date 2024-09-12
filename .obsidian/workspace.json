@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "cccf48d06faa630d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "周报/周报24-09-07.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7e4fd2d4e448d283",
             "type": "leaf",
             "state": {
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "周报/周报24-09-07.md",
+                "file": "LiteratureNotes/kwan2024-immersive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "周报/周报24-09-07.md",
+                "file": "LiteratureNotes/kwan2024-immersive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "周报/周报24-09-07.md"
+                "file": "LiteratureNotes/kwan2024-immersive.md"
               }
             }
           },
@@ -184,7 +171,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "周报/周报24-09-07.md",
+                "file": "LiteratureNotes/kwan2024-immersive.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -215,8 +202,9 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "cccf48d06faa630d",
+  "active": "b030fbc6a76def92",
   "lastOpenFiles": [
+    "周报/周报24-09-07.md",
     "Math/SH，SG.md",
     "LiteratureNotes/gomes2023-video.md",
     "Math/雅可比行列式.md",
@@ -231,7 +219,6 @@
     "Zizhongchen compress.md",
     "CompressionFromCV.md",
     "jacobs1991-adaptive.md",
-    "周报/周报24-09-07.md",
     "周报24-09-07.md",
     "周报",
     "LiteratureNotes/chen2023-factor.md",
