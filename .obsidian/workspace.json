@@ -211,8 +211,7 @@
       "obsidian-kanban:创建新看板": false,
       "cmdr:ZotLit: Update literature note": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
-      "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "cmdr:ZotLit: Open quick switcher for literature notes": false
     }
   },
   "active": "cccf48d06faa630d",
