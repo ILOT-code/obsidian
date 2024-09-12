@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/SH，SG.md",
+                "file": "周报/周报24-09-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/SH，SG.md",
+                "file": "周报/周报24-09-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/SH，SG.md",
+                "file": "周报/周报24-09-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/SH，SG.md"
+                "file": "周报/周报24-09-07.md"
               }
             }
           },
@@ -184,7 +184,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Math/SH，SG.md",
+                "file": "周报/周报24-09-07.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -211,14 +211,15 @@
       "obsidian-kanban:创建新看板": false,
       "cmdr:ZotLit: Update literature note": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
-      "cmdr:ZotLit: Open quick switcher for literature notes": false
+      "cmdr:ZotLit: Open quick switcher for literature notes": false,
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
   "active": "cccf48d06faa630d",
   "lastOpenFiles": [
+    "Math/SH，SG.md",
     "LiteratureNotes/gomes2023-video.md",
     "Math/雅可比行列式.md",
-    "Math/SH，SG.md",
     "LiteratureNotes/lee2023-ffnerv.md",
     "LiteratureNotes/kwan2024-hinerva.md",
     "LiteratureNotes/zhang2024-efficient.md",
