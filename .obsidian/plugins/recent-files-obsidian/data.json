@@ -5,6 +5,10 @@
       "path": "周报/周报24-09-13.md"
     },
     {
+      "basename": "SH，SG",
+      "path": "Math/SH，SG.md"
+    },
+    {
       "basename": "雅可比行列式",
       "path": "Math/雅可比行列式.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "周报24-09-07",
       "path": "周报/周报24-09-07.md"
-    },
-    {
-      "basename": "SH，SG",
-      "path": "Math/SH，SG.md"
     },
     {
       "basename": "gomes2023-video",
