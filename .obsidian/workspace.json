@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/雅可比行列式.md",
+                "file": "周报/周报24-09-13.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/雅可比行列式.md",
+                "file": "周报/周报24-09-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/雅可比行列式.md",
+                "file": "周报/周报24-09-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/雅可比行列式.md"
+                "file": "周报/周报24-09-13.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Math/雅可比行列式.md",
+                "file": "周报/周报24-09-13.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -192,12 +192,13 @@
   },
   "active": "7e4fd2d4e448d283",
   "lastOpenFiles": [
+    "Math/雅可比行列式.md",
+    "周报/周报24-09-13.md",
     "shortcut.md",
     "LiteratureNotes/kwan2024-immersive.md",
     "周报/周报24-09-07.md",
     "Math/SH，SG.md",
     "LiteratureNotes/gomes2023-video.md",
-    "Math/雅可比行列式.md",
     "LiteratureNotes/lee2023-ffnerv.md",
     "LiteratureNotes/kwan2024-hinerva.md",
     "LiteratureNotes/zhang2024-efficient.md",
@@ -221,7 +222,6 @@
     "Attachments/Pasted image 20240906121336.png",
     "Attachments/Pasted image 20240906121016.png",
     "Attachments/Pasted image 20240906111014.png",
-    "diary/2024-09-06.md",
     "Attachments/Pasted image 20240905163704.png",
     "Attachments/Pasted image 20240905162319.png",
     "Attachments/Pasted image 20240905142141.png",
