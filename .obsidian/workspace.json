@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b030fbc6a76def92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7e4fd2d4e448d283",
             "type": "leaf",
             "state": {
@@ -97,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -122,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md",
+                "file": "Math/雅可比行列式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md",
+                "file": "Math/雅可比行列式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md"
+                "file": "Math/雅可比行列式.md"
               }
             }
           },
@@ -172,7 +159,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/kwan2024-immersive.md",
+                "file": "Math/雅可比行列式.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -203,8 +190,10 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "b030fbc6a76def92",
+  "active": "7e4fd2d4e448d283",
   "lastOpenFiles": [
+    "shortcut.md",
+    "LiteratureNotes/kwan2024-immersive.md",
     "周报/周报24-09-07.md",
     "Math/SH，SG.md",
     "LiteratureNotes/gomes2023-video.md",
@@ -212,10 +201,8 @@
     "LiteratureNotes/lee2023-ffnerv.md",
     "LiteratureNotes/kwan2024-hinerva.md",
     "LiteratureNotes/zhang2024-efficient.md",
-    "LiteratureNotes/kwan2024-immersive.md",
     "diary/2024-09-08.md",
     "diary/2024-09-07.md",
-    "shortcut.md",
     "charls.md",
     "Zizhongchen compress.md",
     "CompressionFromCV.md",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "雅可比行列式",
+      "path": "Math/雅可比行列式.md"
+    },
+    {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "kwan2024-immersive",
       "path": "LiteratureNotes/kwan2024-immersive.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "gomes2023-video",
       "path": "LiteratureNotes/gomes2023-video.md"
-    },
-    {
-      "basename": "雅可比行列式",
-      "path": "Math/雅可比行列式.md"
     },
     {
       "basename": "lee2023-ffnerv",
@@ -39,10 +43,6 @@
     {
       "basename": "2024-09-07",
       "path": "diary/2024-09-07.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "Zizhongchen compress",
