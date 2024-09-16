@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "周报/周报24-09-13.md",
+                "file": "shortcut.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "周报/周报24-09-13.md",
+                "file": "shortcut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "周报/周报24-09-13.md",
+                "file": "shortcut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "周报/周报24-09-13.md"
+                "file": "shortcut.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "周报/周报24-09-13.md",
+                "file": "shortcut.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -192,8 +192,8 @@
   },
   "active": "7e4fd2d4e448d283",
   "lastOpenFiles": [
-    "Math/SH，SG.md",
     "周报/周报24-09-13.md",
+    "Math/SH，SG.md",
     "Math/雅可比行列式.md",
     "shortcut.md",
     "LiteratureNotes/kwan2024-immersive.md",
