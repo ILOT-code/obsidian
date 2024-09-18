@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e04dd935d8098628",
+        "id": "559610a4395bde7e",
         "type": "tabs",
         "children": [
           {
-            "id": "7e4fd2d4e448d283",
+            "id": "eeb5b277b35a840d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shortcut.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -110,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shortcut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shortcut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "shortcut.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,7 +152,6 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "shortcut.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -191,12 +182,12 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "7e4fd2d4e448d283",
+  "active": "eeb5b277b35a840d",
   "lastOpenFiles": [
+    "shortcut.md",
     "周报/周报24-09-13.md",
     "Math/SH，SG.md",
     "Math/雅可比行列式.md",
-    "shortcut.md",
     "LiteratureNotes/kwan2024-immersive.md",
     "周报/周报24-09-07.md",
     "LiteratureNotes/gomes2023-video.md",
