@@ -11,8 +11,12 @@
             "id": "eeb5b277b35a840d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "diary/2024-09-18.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -106,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "diary/2024-09-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "diary/2024-09-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "diary/2024-09-18.md"
+              }
             }
           },
           {
@@ -152,6 +159,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
+                "file": "diary/2024-09-18.md",
                 "itemId": 391,
                 "attachmentId": 393,
                 "follow": "zt-reader"
@@ -162,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5,
-    "collapsed": true
+    "width": 324.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,6 +191,7 @@
   },
   "active": "eeb5b277b35a840d",
   "lastOpenFiles": [
+    "diary/2024-09-18.md",
     "shortcut.md",
     "周报/周报24-09-13.md",
     "Math/SH，SG.md",
@@ -210,7 +218,6 @@
     "LiteratureNotes/-231206713.md",
     "LiteratureNotes/zhao2021-optimizing.md",
     "LiteratureNotes/lee2023-flexround.md",
-    "LiteratureNotes/chen2021-nerva.md",
     "Attachments/Pasted image 20240906121336.png",
     "Attachments/Pasted image 20240906121016.png",
     "Attachments/Pasted image 20240906111014.png",
