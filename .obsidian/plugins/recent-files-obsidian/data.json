@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "周报24-09-21",
+      "path": "周报/周报24-09-21.md"
+    },
+    {
+      "basename": "周报24-09-13",
+      "path": "周报/周报24-09-13.md"
+    },
+    {
       "basename": "2024-09-18",
       "path": "diary/2024-09-18.md"
     },
     {
       "basename": "shortcut",
       "path": "shortcut.md"
-    },
-    {
-      "basename": "周报24-09-13",
-      "path": "周报/周报24-09-13.md"
     },
     {
       "basename": "SH，SG",
@@ -195,10 +199,6 @@
     {
       "basename": "kim2024-c3",
       "path": "LiteratureNotes/kim2024-c3.md"
-    },
-    {
-      "basename": "li2023-neural",
-      "path": "LiteratureNotes/li2023-neural.md"
     }
   ],
   "omittedPaths": [],
