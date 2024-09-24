@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "10.48550_arXiv.2401.02436",
+      "path": "LiteratureNotes/10.48550_arXiv.2401.02436.md"
+    },
+    {
       "basename": "周报24-09-21",
       "path": "周报/周报24-09-21.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Gumbel Softmax",
       "path": "Notecards/Gumbel Softmax.md"
-    },
-    {
-      "basename": "kim2024-c3",
-      "path": "LiteratureNotes/kim2024-c3.md"
     }
   ],
   "omittedPaths": [],
