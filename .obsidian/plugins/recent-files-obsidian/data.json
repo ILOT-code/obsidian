@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "10.1109_VISUAL.2001.964490",
+      "path": "LiteratureNotes/10.1109_VISUAL.2001.964490.md"
+    },
+    {
+      "basename": "10.1145_3592433",
+      "path": "LiteratureNotes/10.1145_3592433.md"
+    },
+    {
+      "basename": "10.48550_arXiv.1701.05517",
+      "path": "LiteratureNotes/10.48550_arXiv.1701.05517.md"
+    },
+    {
       "basename": "10.48550_arXiv.2401.02436",
       "path": "LiteratureNotes/10.48550_arXiv.2401.02436.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "balle2017-endtoend-w",
       "path": "Paperwords/balle2017-endtoend-w.md"
-    },
-    {
-      "basename": "2023-preprocessing-w",
-      "path": "Paperwords/2023-preprocessing-w.md"
-    },
-    {
-      "basename": "ge2024-taskaware",
-      "path": "LiteratureNotes/ge2024-taskaware.md"
-    },
-    {
-      "basename": "Gumbel Softmax",
-      "path": "Notecards/Gumbel Softmax.md"
     }
   ],
   "omittedPaths": [],
