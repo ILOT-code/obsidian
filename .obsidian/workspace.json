@@ -174,22 +174,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-file-cleaner:清理文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-kanban:创建新看板": false,
-      "cmdr:ZotLit: Update literature note": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
+      "cmdr:ZotLit: Update literature note": false,
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-file-cleaner:清理文件": false,
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "eeb5b277b35a840d",
+  "active": "fdb1a5f537a6d654",
   "lastOpenFiles": [
     "周报/周报24-09-13.md",
     "周报/周报24-09-21.md",
