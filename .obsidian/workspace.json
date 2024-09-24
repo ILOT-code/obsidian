@@ -174,7 +174,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -186,10 +185,11 @@
       "cmdr:ZotLit: Update literature note": false,
       "obsidian-kanban:创建新看板": false,
       "obsidian-file-cleaner:清理文件": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "eeb5b277b35a840d",
+  "active": "fdb1a5f537a6d654",
   "lastOpenFiles": [
     "ZtTemplates/zt-note.eta.md",
     "周报/周报24-09-21.md",
