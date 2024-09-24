@@ -11,8 +11,12 @@
             "id": "6fd43984ce48203b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -105,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md"
+              }
             }
           },
           {
@@ -151,6 +159,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
+                "file": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": "zt-reader"
@@ -183,6 +192,7 @@
   "active": "6fd43984ce48203b",
   "lastOpenFiles": [
     "LiteratureNotes/10.1109_VISUAL.2001.964490.md",
+    "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
     "LiteratureNotes/10.1145_3592433.md",
     "LiteratureNotes/10.48550_arXiv.1701.05517.md",
     "LiteratureNotes/10.48550_arXiv.2401.02436.md",
@@ -208,7 +218,6 @@
     "周报24-09-07.md",
     "周报",
     "LiteratureNotes/chen2023-factor.md",
-    "ZtTemplates/zt-annot.eta.md",
     "Attachments/Pasted image 20240906121336.png",
     "Attachments/Pasted image 20240906121016.png",
     "Attachments/Pasted image 20240906111014.png",
