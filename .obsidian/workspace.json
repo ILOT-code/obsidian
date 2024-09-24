@@ -160,8 +160,8 @@
               "type": "zotero-annotation-view",
               "state": {
                 "file": "周报/周报24-09-21.md",
-                "itemId": 391,
-                "attachmentId": 393,
+                "itemId": -1,
+                "attachmentId": -1,
                 "follow": "zt-reader"
               }
             }
@@ -185,13 +185,15 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
       "obsidian-kanban:创建新看板": false,
-      "obsidian-file-cleaner:清理文件": false
+      "obsidian-file-cleaner:清理文件": false,
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "fdb1a5f537a6d654",
+  "active": "eeb5b277b35a840d",
   "lastOpenFiles": [
-    "周报/周报24-09-13.md",
+    "ZtTemplates/zt-note.eta.md",
     "周报/周报24-09-21.md",
+    "周报/周报24-09-13.md",
     "diary/2024-09-18.md",
     "shortcut.md",
     "Math/SH，SG.md",
@@ -216,7 +218,6 @@
     "LiteratureNotes/wu2023-tetrirf.md",
     "LiteratureNotes/2017-significantly.md",
     "LiteratureNotes/-231206713.md",
-    "LiteratureNotes/zhao2021-optimizing.md",
     "Attachments/Pasted image 20240906121336.png",
     "Attachments/Pasted image 20240906121016.png",
     "Attachments/Pasted image 20240906111014.png",

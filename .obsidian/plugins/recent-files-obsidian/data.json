@@ -5,6 +5,10 @@
       "path": "周报/周报24-09-21.md"
     },
     {
+      "basename": "zt-note.eta",
+      "path": "ZtTemplates/zt-note.eta.md"
+    },
+    {
       "basename": "周报24-09-13",
       "path": "周报/周报24-09-13.md"
     },
@@ -127,10 +131,6 @@
     {
       "basename": "zt-field.eta",
       "path": "ZtTemplates/zt-field.eta.md"
-    },
-    {
-      "basename": "zt-note.eta",
-      "path": "ZtTemplates/zt-note.eta.md"
     },
     {
       "basename": "zt-colored.eta",
