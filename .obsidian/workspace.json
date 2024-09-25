@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
+                "file": "shortcut.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
+                "file": "shortcut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
+                "file": "shortcut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md"
+                "file": "shortcut.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
+                "file": "shortcut.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": "zt-reader"
@@ -185,13 +185,14 @@
       "cmdr:ZotLit: Update literature note": false,
       "obsidian-kanban:创建新看板": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "6fd43984ce48203b",
   "lastOpenFiles": [
-    "LiteratureNotes/10.1109_VISUAL.2001.964490.md",
     "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
+    "LiteratureNotes/10.1109_VISUAL.2001.964490.md",
     "LiteratureNotes/10.1145_3592433.md",
     "LiteratureNotes/10.48550_arXiv.1701.05517.md",
     "LiteratureNotes/10.48550_arXiv.2401.02436.md",
