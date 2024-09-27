@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "238124a053a865f5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "周报/周报24-09-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "周报/周报24-09-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "周报/周报24-09-21.md"
-              }
+              "state": {}
             }
           },
           {
@@ -159,7 +164,6 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "周报/周报24-09-21.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": "zt-reader"
@@ -189,10 +193,10 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "6fd43984ce48203b",
+  "active": "238124a053a865f5",
   "lastOpenFiles": [
-    "未命名 1.md",
     "周报/周报24-09-21.md",
+    "未命名 1.md",
     "未命名.md",
     "shortcut.md",
     "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
