@@ -32,19 +32,31 @@
             }
           },
           {
-            "id": "4774944001d17a4c",
+            "id": "246446617cdb3df5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "周报24-09-27.md",
+                "file": "未命名 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df017d9297ac39fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "周报24-09-27.md",
+                "file": "未命名 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "周报24-09-27.md",
+                "file": "未命名 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "周报24-09-27.md"
+                "file": "未命名 2.md"
               }
             }
           },
@@ -184,7 +196,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "周报24-09-27.md",
+                "file": "未命名 2.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": "zt-reader"
@@ -214,13 +226,16 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "4774944001d17a4c",
+  "active": "df017d9297ac39fe",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20240927200226.png",
+    "未命名 1.md",
+    "未命名 2.md",
     "周报/周报24-09-21.md",
-    "周报24-09-27.md",
-    "未命名.md",
+    "Sundry/vim.md",
     "shortcut.md",
+    "周报24-09-27.md",
+    "Attachments/Pasted image 20240927200226.png",
+    "未命名.md",
     "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
     "LiteratureNotes/10.1109_VISUAL.2001.964490.md",
     "LiteratureNotes/10.1145_3592433.md",
@@ -240,8 +255,6 @@
     "diary/2024-09-08.md",
     "diary/2024-09-07.md",
     "charls.md",
-    "Zizhongchen compress.md",
-    "CompressionFromCV.md",
     "周报",
     "Attachments/Pasted image 20240906121336.png",
     "Attachments/Pasted image 20240906121016.png",
@@ -251,7 +264,6 @@
     "Attachments/Pasted image 20240905142141.png",
     "Attachments/Pasted image 20240905140546.png",
     "Attachments/Pasted image 20240905140448.png",
-    "Attachments/Pasted image 20240904194217.png",
-    "Attachments/Pasted image 20240904162739.png"
+    "Attachments/Pasted image 20240904194217.png"
   ]
 }
