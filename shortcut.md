@@ -57,7 +57,9 @@
 | 显示活动切换器                     | Meta+Q                |
 | 激活 (隐藏) 任务管理器的条目            | Meta+Num              |
 | 激活应用程序启动器                   | Meta                  |
-|                             |                       |
+| 显示剪切板项目                     | Meta+V                |
+| 锁屏                          | Meta+L                |
+| 快速执行                        | Alt+Space             |
 
 
 # Vscode
