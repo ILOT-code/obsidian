@@ -53,7 +53,11 @@
 | 按方向把当前窗口移动到对应屏幕             | Meta+Shift+Arrow      |
 | 暂时显示桌面                      | Meta+D                |
 | 最大最小化窗口                     | Meta+(PgUp, PgDown)   |
-|                             | Meta+                 |
+| 遍历 (反向) 活动                  | Meta+(Shift)+A        |
+| 显示活动切换器                     | Meta+Q                |
+| 激活 (隐藏) 任务管理器的条目            | Meta+Num              |
+| 激活应用程序启动器                   | Meta                  |
+|                             |                       |
 
 
 # Vscode
