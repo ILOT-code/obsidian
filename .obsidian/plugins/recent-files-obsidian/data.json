@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "未命名 3",
       "path": "未命名 3.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "vim",
       "path": "Sundry/vim.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "周报24-09-27",
