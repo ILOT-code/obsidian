@@ -53,6 +53,7 @@
 | 按方向把当前窗口移动到对应屏幕             | Meta+Shift+Arrow      |
 | 暂时显示桌面                      | Meta+D                |
 | 最大最小化窗口                     | Meta+(PgUp, PgDown)   |
+|                             | Meta+                 |
 
 
 # Vscode
