@@ -43,11 +43,16 @@
 | 遍历当前应用程序窗口 (反向)             | Alt+(\`,-)            |
 | 按方向把窗口移到对应桌面                | Meta+Ctrl+Shift+Arrow |
 | 磁铁编辑器，按 Shift 拖动窗口可以固定其到磁贴上 | Meta+T                |
-| 放大缩小                        | Meta+(=.-)            |
+| 放大缩小                        | Meta+(0,=.-)          |
 | 关闭窗口                        | Alt+F4                |
 | 按方向平铺窗口                     | Meta+Arrow            |
 | 按方向切换到对应桌面                  | Meta+Ctrl+Arror       |
-|                             | Meta+Alt+Arror        |
+| 按方向切换到对应窗口                  | Meta+Alt+Arror        |
+| 展示全部桌面                      | Meta+G                |
+| 展示当前桌面总览                    | Meta+W                |
+| 按方向把当前窗口移动到对应屏幕             | Meta+Shift+Arrow      |
+| 暂时显示桌面                      | Meta+D                |
+| 最大最小化窗口                     | Meta+(PgUp, PgDown)   |
 
 
 # Vscode
