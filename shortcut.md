@@ -32,16 +32,18 @@
 
 # ArchLinux+KDEPlasma
 
-| 作用              | 按键             |
-| --------------- | -------------- |
-| 打开系统监视器         | Meta+Esc       |
-| 打开 Dolphin      | Meta+E         |
-| 打开 wezterm      | Ctrl+Alt+T     |
-| flameshot       | F1             |
-| 显示器切换           | Meta+P         |
-| 遍历窗口 (反向)       | Alt+(Shift)Tab |
-| 遍历当前应用程序窗口 (反向) | Alt+(\`,-)     |
-|                 |                |
+| 作用                          | 按键                    |
+| --------------------------- | --------------------- |
+| 打开系统监视器                     | Meta+Esc              |
+| 打开 Dolphin                  | Meta+E                |
+| 打开 wezterm                  | Ctrl+Alt+T            |
+| flameshot                   | F1                    |
+| 显示器切换                       | Meta+P                |
+| 遍历窗口 (反向)                   | Alt+(Shift)Tab        |
+| 遍历当前应用程序窗口 (反向)             | Alt+(\`,-)            |
+| 按方向把窗口移到对应桌面                | Meta+Ctrl+Shift+Arrow |
+| 磁铁编辑器，按 Shift 拖动窗口可以固定其到磁贴上 | Meta+T                |
+|                             |                       |
 
 
 # Vscode
