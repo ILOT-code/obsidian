@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SH，SG",
+      "path": "Math/SH，SG.md"
+    },
+    {
+      "basename": "VQ",
+      "path": "Notecards/VQ.md"
+    },
+    {
       "basename": "未命名 2",
       "path": "未命名 2.md"
     },
@@ -47,10 +55,6 @@
     {
       "basename": "2024-09-18",
       "path": "diary/2024-09-18.md"
-    },
-    {
-      "basename": "SH，SG",
-      "path": "Math/SH，SG.md"
     },
     {
       "basename": "雅可比行列式",
@@ -195,10 +199,6 @@
     {
       "basename": "ali2023-efficient",
       "path": "LiteratureNotes/ali2023-efficient.md"
-    },
-    {
-      "basename": "alakuijala2019-jpeg",
-      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
     }
   ],
   "omittedPaths": [],

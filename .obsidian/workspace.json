@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 2.md",
+                "file": "Math/SH，SG.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 2.md",
+                "file": "Math/SH，SG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名 2.md",
+                "file": "Math/SH，SG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 2.md"
+                "file": "Math/SH，SG.md"
               }
             }
           },
@@ -196,7 +196,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "未命名 2.md",
+                "file": "Math/SH，SG.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": "zt-reader"
@@ -222,14 +222,16 @@
       "cmdr:ZotLit: Update literature note": false,
       "obsidian-kanban:创建新看板": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "df017d9297ac39fe",
   "lastOpenFiles": [
+    "Notecards/VQ.md",
+    "未命名 2.md",
     "shortcut.md",
     "未命名 3.md",
-    "未命名 2.md",
     "未命名 1.md",
     "周报/周报24-09-21.md",
     "Sundry/vim.md",
@@ -253,7 +255,6 @@
     "LiteratureNotes/kwan2024-hinerva.md",
     "LiteratureNotes/zhang2024-efficient.md",
     "diary/2024-09-08.md",
-    "diary/2024-09-07.md",
     "周报",
     "Attachments/Pasted image 20240906121336.png",
     "Attachments/Pasted image 20240906121016.png",
