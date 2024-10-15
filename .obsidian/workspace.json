@@ -222,8 +222,7 @@
       "cmdr:ZotLit: Update literature note": false,
       "obsidian-kanban:创建新看板": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "df017d9297ac39fe",
