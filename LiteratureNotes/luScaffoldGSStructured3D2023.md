@@ -76,6 +76,11 @@ $$
 $$
 \begin{align}
 {w,w_{1},w_{2}}=Softmax(F_{w}(\delta_{vc},\vec{\mathbf{d}}_{vc})), \\
-\hat{f}_{v} = w\times f_{v}+w_{1}f_{v_{2}}
+\hat{f}_{v} = w f_{v}+w_{1}f_{v_{\downarrow_{1}}}+w_{2}f_{v_{\downarrow_{2}}}
 \end{align}
+$$
+
+每个锚点，会生成 k 个高斯点：
+$$
+{\mu_{0},\mu_{1},..\mu_{k-1}}=\mathbf{x}_{v}+{\mathcal{O}_{o},\mathcal{O}_{1},\dots \mathcal{O}_{k-1}}\times l_{v}
 $$
