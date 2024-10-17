@@ -82,5 +82,6 @@ $$
 
 每个锚点，会生成 k 个高斯点：
 $$
-{\mu_{0},\mu_{1},..\mu_{k-1}}=\mathbf{x}_{v}+{\mathcal{O}_{o},\mathcal{O}_{1},\dots \mathcal{O}_{k-1}}\times l_{v}
+{\mu_{0},\mu_{1},..\mu_{k-1}}=\mathbf{x}_{v}+\{\mathcal{O}_{o},\mathcal{O}_{1},\dots \mathcal{O}_{k-1}\}\times l_{v}
 $$
+高斯点的不透明度 $\alpha \in \mathbb{R}$, 颜色 $c\in \mathbb{R}^{3}$, 旋转 $q\in \mathbb{R}^{4}$, 尺度 $s\in \mathbb{R}^{3}$ 都由对应的 MLP 生成。
