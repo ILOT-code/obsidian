@@ -47,5 +47,8 @@ $$
 同时，每个高斯球由一组球谐系数定义了不同方向的颜色，最终，渲染的结果用画家 a 算法来给出：
 
 $$
-C(x^{\prime})  = \sum_{}
+C(x^{\prime})  = \sum_{i\in N}c_{i}\sigma_{i}\prod_{j=1}^{i-1}(1-\sigma_{j}),\sigma_{i}=\alpha_{i}G^{\prime}_{i}(x')
 $$
+为了保证 $\Sigma$ 的对称性，它由一个对角矩阵和旋转矩阵给出。
+
+### Scaffold-GS
