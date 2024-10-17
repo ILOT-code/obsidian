@@ -49,3 +49,5 @@ $\mathcal{A}$ 中的一些属性，比如 $l$ 是小数，没法用普通的 rou
 $$
 L_{hash}=M_{+}\times (-\log(h_{f}))+M_{-}\times (-\log(1-h_{f}))
 $$
+**对 offset 的自适应 mask**
+$\mathcal{O}$ 在 0 附近具有较大的概率，
