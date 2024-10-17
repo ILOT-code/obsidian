@@ -42,4 +42,5 @@ $$
 
 **TIME-AWARE GAUSSIAN GENERATION**
 
-在 [[luScaffoldGSStructured3D2023|(Tao Lu, 2023)]] 中，直接输入
+在 [[luScaffoldGSStructured3D2023|(Tao Lu, 2023)]] 中，直接输入锚点和相机点的坐标差，和锚点特征 $f^{a}$ 来生成高斯点的各项参数。
+本文对此做了些改进，
