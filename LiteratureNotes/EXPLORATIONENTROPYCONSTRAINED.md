@@ -35,6 +35,11 @@ $$
 \Sigma^{\prime}=W\Sigma W^{T}
 $$
 
-TWS
+**TWS**
 
-假设需要
+假设需要渲染 t 帧的图像，从 $[t-h,t]$ 这一段空间渲染一次，再从 $[t,t+h]$ 空间渲染一次，取它们的平均作为渲染结果。这种方式 h 只需要利用一小部分的高斯点进行渲染，而且可以支持随机渲染。
+![[Pasted image 20241017161254.png]]
+
+**TIME-AWARE GAUSSIAN GENERATION**
+
+在 [[luScaffoldGSStructured3D2023|(Tao Lu, 2023)]] 中，直接输入
