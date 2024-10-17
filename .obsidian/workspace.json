@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "file": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "file": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "file": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md"
+                "file": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
               }
             }
           },
@@ -208,7 +208,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "file": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": "zt-reader"
@@ -240,6 +240,8 @@
   },
   "active": "df017d9297ac39fe",
   "lastOpenFiles": [
+    "LiteratureNotes/chenHACHashgridAssisted2024.md",
+    "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "Attachments/Pasted image 20241017143110.png",
     "Attachments/Pasted image 20241017143055.png",
     "Attachments/Pasted image 20241017142935.png",
@@ -251,9 +253,7 @@
     "Attachments/Pasted image 20241017133819.png",
     "Attachments/Pasted image 20241017132853.png",
     "LiteratureNotes/luScaffoldGSStructured3D2023.md",
-    "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
-    "Attachments/Pasted image 20241017105937.png",
     "未命名 1.md",
     "Math/SH，SG.md",
     "Notecards/VQ.md",
