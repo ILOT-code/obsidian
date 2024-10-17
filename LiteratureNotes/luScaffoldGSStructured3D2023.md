@@ -55,6 +55,11 @@ $$
 在 Scaffold-GS 中，场景只由少量锚点和其属性组成。
 
 首先，使用稀疏点云生成技术来初始化锚点，$\mathbf{P} \in  \mathbb{R}^{M\times 3}$。
-点云进一步被量化到对应的网格中：$\mathbf{V}={\lfloor \frac{\mathbf{P}}{\epsilon} \rceil}\times\epsilon$, 
+点云进一步被量化到对应的网格中：$\mathbf{V}={\lfloor \frac{\mathbf{P}}{\epsilon} \rceil}\times\epsilon$, 其中 $\epsilon$ 是体素网格的大小
+
+锚点的数量是稀少的，尽管之后会生成新的锚点，但都是少量且谨慎的生成。这些锚点描绘好了场景的几何结构，相当于是场景的骨干了。同时每个锚点还具有其它的特征，这些特征用来描绘该锚点附近局部区域的细节。
+
+具体而言，单个锚点具有 3 种可训练的参数：
+- $$
 
 
