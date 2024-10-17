@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "chenHACHashgridAssisted2024",
+      "path": "LiteratureNotes/chenHACHashgridAssisted2024.md"
+    },
+    {
+      "basename": "girishSHACIRAScalableHAshgrid2023",
+      "path": "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md"
+    },
+    {
       "basename": "luScaffoldGSStructured3D2023",
       "path": "LiteratureNotes/luScaffoldGSStructured3D2023.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "多元高斯分布",
       "path": "Math/多元高斯分布.md"
-    },
-    {
-      "basename": "mentzer2019-practical",
-      "path": "LiteratureNotes/mentzer2019-practical.md"
-    },
-    {
-      "basename": "ANS及其实现技巧",
-      "path": "Notecards/ANS及其实现技巧.md"
     }
   ],
   "omittedPaths": [],
