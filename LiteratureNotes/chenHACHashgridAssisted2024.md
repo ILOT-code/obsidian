@@ -50,4 +50,8 @@ $$
 L_{hash}=M_{+}\times (-\log(h_{f}))+M_{-}\times (-\log(1-h_{f}))
 $$
 **对 offset 的自适应 mask**
-$\mathcal{O}$ 在 0 附近具有较大的概率，
+$\mathcal{O}$ 在 0 附近具有较大的概率，说明很多高斯点是不必要的，有必要剔除对这些高斯点，采用了Compact 3d gaussian representation for radiance field. cvpr 24 中的策略：
+
+每一个高斯点，都具有一个参数 $m_{n}\in \mathbb{R}$, $\sigma (m_{n})$ 表达了其重要程度。根据 h 重要程度同时对高斯点的不透明度和尺寸进行 mask:
+![[Pasted image 20241017142528.png]]
+使用 STE 来是这个二值化过程
