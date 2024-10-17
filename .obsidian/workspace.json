@@ -8,48 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6fd43984ce48203b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "周报/周报24-09-21.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "周报24-09-21"
-            }
-          },
-          {
-            "id": "238124a053a865f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "周报/周报24-09-21.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "周报24-09-21"
-            }
-          },
-          {
-            "id": "246446617cdb3df5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名 1"
-            }
-          },
-          {
             "id": "df017d9297ac39fe",
             "type": "leaf",
             "state": {
@@ -76,9 +34,23 @@
               "icon": "lucide-file",
               "title": "luScaffoldGSStructured3D2023"
             }
+          },
+          {
+            "id": "893f94a67dcc2b9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "chenHACHashgridAssisted2024"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -264,16 +236,17 @@
       "cmdr:ZotLit: Update literature note": false,
       "obsidian-kanban:创建新看板": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "df017d9297ac39fe",
+  "active": "893f94a67dcc2b9d",
   "lastOpenFiles": [
+    "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "Attachments/Pasted image 20241017164448.png",
     "Attachments/Pasted image 20241017164338.png",
     "Attachments/Pasted image 20241017161254.png",
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
-    "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "Attachments/Pasted image 20241017143110.png",
     "Attachments/Pasted image 20241017143055.png",
     "Attachments/Pasted image 20241017142935.png",
@@ -281,7 +254,6 @@
     "Attachments/Pasted image 20241017142528.png",
     "Attachments/Pasted image 20241017134843.png",
     "Attachments/Pasted image 20241017134339.png",
-    "Attachments/Pasted image 20241017133821.png",
     "LiteratureNotes/luScaffoldGSStructured3D2023.md",
     "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
     "未命名 1.md",
