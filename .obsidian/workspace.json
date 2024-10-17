@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,7 +221,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 324.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,13 +241,15 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "893f94a67dcc2b9d",
+  "active": "99cc9ec1a0eaceb5",
   "lastOpenFiles": [
+    "shortcut.md",
+    "LiteratureNotes/luScaffoldGSStructured3D2023.md",
+    "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "Attachments/Pasted image 20241017164448.png",
     "Attachments/Pasted image 20241017164338.png",
     "Attachments/Pasted image 20241017161254.png",
-    "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "Attachments/Pasted image 20241017143110.png",
     "Attachments/Pasted image 20241017143055.png",
     "Attachments/Pasted image 20241017142935.png",
@@ -254,13 +257,11 @@
     "Attachments/Pasted image 20241017142528.png",
     "Attachments/Pasted image 20241017134843.png",
     "Attachments/Pasted image 20241017134339.png",
-    "LiteratureNotes/luScaffoldGSStructured3D2023.md",
     "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
     "未命名 1.md",
     "Math/SH，SG.md",
     "Notecards/VQ.md",
     "未命名 2.md",
-    "shortcut.md",
     "未命名 3.md",
     "周报/周报24-09-21.md",
     "Sundry/vim.md",
