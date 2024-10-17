@@ -55,6 +55,16 @@ $$
 \begin{align}
 \gamma_{{i,c}}=g_{c}(pe(t),pe(\delta z^{a})),\beta_{i,c}=h_{c}(pe(t),pe(\delta z^{a})) \\
 \mathbf{f}_{i}=MLP_{c}(f_{i}^{a}) \\
-\hat{\mathbf{f}}_{i}
+\hat{\mathbf{f}}_{i}=\gamma_{i,c}\mathbf{f}_{i}+\beta_{i,c} \\
+\mathbf{c}=MLP'_{c}(\hat{\mathbf{f}}_{i})
+\end{align}
+$$
+$i$ 表示了第几个锚点，$c$ 表示某个属性
+
+在动态视频中，一个物体在相邻帧中往往会有一个位移。这意味着，对于某个高斯点，它在相邻的几帧中，位置可能是不一致的。为此，e 本文提出了一种变形网络来对此建模。
+$$
+\begin{align}
+\delta \mathbf{o}=MLP_{o}(f^{a},pe(t),pe(\delta z^{a})) \\
+
 \end{align}
 $$
