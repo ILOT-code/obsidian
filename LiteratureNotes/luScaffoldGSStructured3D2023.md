@@ -85,3 +85,12 @@ $$
 {\mu_{0},\mu_{1},..\mu_{k-1}}=\mathbf{x}_{v}+\{\mathcal{O}_{o},\mathcal{O}_{1},\dots \mathcal{O}_{k-1}\}\times l_{v}
 $$
 高斯点的不透明度 $\alpha \in \mathbb{R}$, 颜色 $c\in \mathbb{R}^{3}$, 旋转 $q\in \mathbb{R}^{4}$, 尺度 $s\in \mathbb{R}^{3}$ 都由对应的 MLP 生成。
+$$
+\{\alpha_{0},\dots\alpha_{k-1}\}=F_{\alpha}(\hat{f}_{v},\delta_{vc},\vec{d}_{vc})
+$$
+
+高斯点属性是动态生成的，只有那些在视锥体中的高斯点才会被计算，并且只有不透明度大于阈值的高斯点才会被保留。这些设置加速了渲染。
+
+
+**锚点的生成**
+高斯点都是建立在锚点上的，锚点的质量对重建质量至关重要。
