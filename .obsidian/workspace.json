@@ -222,11 +222,13 @@
       "cmdr:ZotLit: Update literature note": false,
       "obsidian-kanban:创建新看板": false,
       "obsidian-file-cleaner:清理文件": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
   "active": "df017d9297ac39fe",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20241017105937.png",
     "未命名 1.md",
     "LiteratureNotes/luScaffoldGSStructured3D2023.md",
     "Math/SH，SG.md",
@@ -253,7 +255,6 @@
     "LiteratureNotes/gomes2023-video.md",
     "LiteratureNotes/lee2023-ffnerv.md",
     "LiteratureNotes/kwan2024-hinerva.md",
-    "LiteratureNotes/zhang2024-efficient.md",
     "周报",
     "Attachments/Pasted image 20240906121336.png",
     "Attachments/Pasted image 20240906121016.png",
