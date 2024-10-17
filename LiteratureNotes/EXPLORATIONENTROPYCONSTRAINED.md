@@ -46,4 +46,15 @@ $$
 本文对此做了些改进。
 
 首先，这个三维的坐标差被分解成了两部分，$\delta z^{a}$ 表示该锚点在该相机平面上的坐标，$t$ 表示第几帧。
-对这些坐标，先进行位置
+对这些坐标，先进行位置编码：
+$$
+pe(p) = (\sin(2k\pi p),\cos(2k\pi p))_{k=0}^{L-1}
+$$
+作者使用了 FiLM 层，来融合坐标和 $f^{a}$
+$$
+\begin{align}
+\gamma_{{i,c}}=g_{c}(pe(t),pe(\delta z^{a})),\beta_{i,c}=h_{c}(pe(t),pe(\delta z^{a})) \\
+\mathbf{f}_{i}=MLP_{c}(f_{i}^{a}) \\
+\hat{\mathbf{f}}_{i}
+\end{align}
+$$
