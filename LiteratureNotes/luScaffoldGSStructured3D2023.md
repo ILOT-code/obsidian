@@ -54,5 +54,7 @@ $$
 ### Scaffold-GS
 在 Scaffold-GS 中，场景只由少量锚点和其属性组成。
 
-首先，使用稀疏点云生成技术
+首先，使用稀疏点云生成技术来初始化锚点，$\mathbf{P} \in  \mathbb{R}^{M\times 3}$。
+点云进一步被量化到对应的网格中：$\mathbf{V}={\lfloor \frac{\mathbf{P}}{\epsilon} \rceil}\times\epsilon$, 
+
 
