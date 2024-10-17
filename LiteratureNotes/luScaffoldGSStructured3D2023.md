@@ -12,9 +12,9 @@ authors:
   - Dahua Lin
   - Bo Dai
 doi: 10.48550/arXiv.2312.00109
-conference: xxx
+conference: CVPR024
 citekey: luScaffoldGSStructured3D2023
-tags: []
+tags:
 ---
 # Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering
 
@@ -99,4 +99,12 @@ $$
 ![[Pasted image 20241017105937.png]]
 
 
-**损失 **
+**损失函数**
+$$
+\begin{align}
+\mathcal{L}=\mathcal{L}_{1}+\lambda_{1}\mathcal{L}_{ssim}+\lambda_{2}
+\mathcal{L}_{vol} \\ \\
+\mathcal{L}_{vol}=\sum _{i=1}^{N}Prod(s_{i})
+\end{align}
+$$
+$\mathcal{L}_{vol}$ 项限制了高斯点的大小，防止过多的重叠。
