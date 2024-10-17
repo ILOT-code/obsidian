@@ -54,6 +54,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "99cc9ec1a0eaceb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/luScaffoldGSStructured3D2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 3
