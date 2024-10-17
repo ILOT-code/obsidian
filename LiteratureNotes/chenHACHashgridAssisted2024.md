@@ -10,9 +10,9 @@ authors:
   - Mehrtash Harandi
   - Jianfei Cai
 doi: 10.48550/arXiv.2403.14530
-conference: xxx
+conference: ECCV2024
 citekey: chenHACHashgridAssisted2024
-tags: []
+tags:
 ---
 # HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression
 
@@ -29,4 +29,6 @@ tags: []
 
 
 ![[Pasted image 20241017132853.png]]
-利用锚点坐标去哈希 grid 中索引特征，该特征被用来对锚点的属性进行概率建模，也被用来进行自适应量化。
+利用锚点坐标去哈希 grid 中索引特征 $f^{h}$，该特征被用来对锚点的属性 $\mathcal{A}$ 进行概率建模，也被用来进行自适应量化。
+
+我感觉作者一开始只是想用 $f^{h}$ 去替代 $f^{a}$，但不发现结果差了那么一点。虽然结果差了一点，但确实说明了他的假设有一定道理，于是他干脆把 $f^{h}$ 看成 context 来进行概率建模
