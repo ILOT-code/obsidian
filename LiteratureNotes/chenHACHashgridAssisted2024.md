@@ -53,14 +53,14 @@ $$
 $\mathcal{O}$ 在 0 附近具有较大的概率，说明很多高斯点是不必要的，有必要剔除对这些高斯点，采用了 Compact 3 d gaussian representation for radiance field. cvpr 24 中的策略：
 
 每一个高斯点，都具有一个参数 $m_{n}\in \mathbb{R}$, $\sigma (m_{n})$ 表达了其重要程度。根据 h 重要程度同时对高斯点的不透明度和尺寸进行 mask:
-![[Pasted image 20241017142528.png]]
+![[Pasted image 20241018130024.png]]
 使用 STE 来使这个二值化过程可微。
 再向损失函数中填一项，来鼓励减去更多的高斯点：
-![[Pasted image 20241017142736.png]]
+![[Pasted image 20241018130044.png]]
 
 **LOSS**
-![[Pasted image 20241017142935.png]]
+![[Pasted image 20241018130143.png]]
 
 **实验**
-![[Pasted image 20241017143055.png]]
-![[Pasted image 20241017143110.png]]
+![[Pasted image 20241018130202.png]]
+![[Pasted image 20241018130224.png]]

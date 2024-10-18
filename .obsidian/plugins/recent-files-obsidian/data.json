@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "EXPLORATIONENTROPYCONSTRAINED",
+      "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
+    },
+    {
       "basename": "chenHACHashgridAssisted2024",
       "path": "LiteratureNotes/chenHACHashgridAssisted2024.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "oord2016-conditional",
       "path": "LiteratureNotes/oord2016-conditional.md"
-    },
-    {
-      "basename": "多元高斯分布",
-      "path": "Math/多元高斯分布.md"
     }
   ],
   "omittedPaths": [],
