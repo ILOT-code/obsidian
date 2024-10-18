@@ -10,9 +10,9 @@ authors:
   - Mehrtash Harandi
   - Jianfei Cai
 doi: 10.48550/arXiv.2403.14530
-conference: xxx
+conference: ECCV2024
 citekey: chenHACHashgridAssisted2024
-tags: []
+tags:
 ---
 # HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression
 
