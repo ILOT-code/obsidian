@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "file": "LiteratureNotes/luScaffoldGSStructured3D2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "file": "LiteratureNotes/luScaffoldGSStructured3D2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "file": "LiteratureNotes/luScaffoldGSStructured3D2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md"
+                "file": "LiteratureNotes/luScaffoldGSStructured3D2023.md"
               }
             }
           },
@@ -196,7 +196,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "file": "LiteratureNotes/luScaffoldGSStructured3D2023.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": "zt-reader"
@@ -227,9 +227,9 @@
   },
   "active": "df017d9297ac39fe",
   "lastOpenFiles": [
-    "LiteratureNotes/luScaffoldGSStructured3D2023.md",
-    "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
+    "LiteratureNotes/chenHACHashgridAssisted2024.md",
+    "LiteratureNotes/luScaffoldGSStructured3D2023.md",
     "Attachments/Pasted image 20241017105937.png",
     "未命名 1.md",
     "Math/SH，SG.md",
