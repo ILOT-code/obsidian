@@ -4,43 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1300804bed41b24d",
+        "id": "ff689ffd9fc59ac3",
         "type": "tabs",
         "children": [
           {
-            "id": "df017d9297ac39fe",
+            "id": "8d994c575138b3c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99cc9ec1a0eaceb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LiteratureNotes/luScaffoldGSStructured3D2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "893f94a67dcc2b9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -64,7 +38,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -79,7 +55,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -87,7 +65,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -102,7 +82,9 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -124,7 +106,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -133,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +124,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
@@ -150,10 +135,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "出链"
             }
           },
           {
@@ -164,7 +150,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -172,9 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           },
           {
@@ -183,11 +171,12 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
                 "itemId": -1,
                 "attachmentId": -1,
                 "follow": "zt-reader"
-              }
+              },
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ]
@@ -214,23 +203,24 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "df017d9297ac39fe",
+  "active": "8d994c575138b3c3",
   "lastOpenFiles": [
-    "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
+    "shortcut.md",
+    "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
     "LiteratureNotes/luScaffoldGSStructured3D2023.md",
+    "LiteratureNotes/chenHACHashgridAssisted2024.md",
+    "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "未命名 1.md",
     "Attachments/Pasted image 20241018130618.png",
     "Attachments/Pasted image 20241018130541.png",
     "Attachments/Pasted image 20241018130519.png",
     "Attachments/Pasted image 20241018130448.png",
-    "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "Attachments/Pasted image 20241018130224.png",
     "Attachments/Pasted image 20241018130202.png",
     "Attachments/Pasted image 20241018130143.png",
     "Attachments/Pasted image 20241018130044.png",
     "Attachments/Pasted image 20241018130024.png",
     "Attachments/Pasted image 20241018125930.png",
-    "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
     "Math/SH，SG.md",
     "Notecards/VQ.md",
     "未命名 2.md",
