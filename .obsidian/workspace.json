@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "c819917c937d6aac",
+    "type": "split",
+    "children": [
+      {
+        "id": "1300804bed41b24d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df017d9297ac39fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6894e5a4cc17b33d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce5c4b517c017921",
+        "type": "tabs",
+        "dimension": 59.31506849315068,
+        "children": [
+          {
+            "id": "af5c7bb3610ed00e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "219fa1b31ed7c6ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f2f0c126c77920f5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f9ff9a56711812bb",
+        "type": "tabs",
+        "dimension": 40.68493150684932,
+        "children": [
+          {
+            "id": "fdb1a5f537a6d654",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 256.5
+  },
+  "right": {
+    "id": "4ab0658d09defd2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a72f7fe1e7de69fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c358149f77041a03",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b1f3041d6cb40174",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e8196eb87f9f1dde",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1eb7e6ed222da5db",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "68db257f0ce91cdf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md"
+              }
+            }
+          },
+          {
+            "id": "b64af767bce66310",
+            "type": "leaf",
+            "state": {
+              "type": "zotero-annotation-view",
+              "state": {
+                "file": "LiteratureNotes/chenHACHashgridAssisted2024.md",
+                "itemId": -1,
+                "attachmentId": -1,
+                "follow": "zt-reader"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 324.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "cmdr:ZotLit: Refresh Zotero data": false,
+      "cmdr:ZotLit: Open quick switcher for literature notes": false,
+      "cmdr:ZotLit: Update literature note": false,
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-file-cleaner:清理文件": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
+    }
+  },
+  "active": "df017d9297ac39fe",
+  "lastOpenFiles": [
+    "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
+    "LiteratureNotes/luScaffoldGSStructured3D2023.md",
+    "未命名 1.md",
+    "Attachments/Pasted image 20241018130618.png",
+    "Attachments/Pasted image 20241018130541.png",
+    "Attachments/Pasted image 20241018130519.png",
+    "Attachments/Pasted image 20241018130448.png",
+    "LiteratureNotes/chenHACHashgridAssisted2024.md",
+    "Attachments/Pasted image 20241018130224.png",
+    "Attachments/Pasted image 20241018130202.png",
+    "Attachments/Pasted image 20241018130143.png",
+    "Attachments/Pasted image 20241018130044.png",
+    "Attachments/Pasted image 20241018130024.png",
+    "Attachments/Pasted image 20241018125930.png",
+    "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
+    "Math/SH，SG.md",
+    "Notecards/VQ.md",
+    "未命名 2.md",
+    "shortcut.md",
+    "未命名 3.md",
+    "周报/周报24-09-21.md",
+    "Sundry/vim.md",
+    "周报24-09-27.md",
+    "未命名.md",
+    "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
+    "LiteratureNotes/10.1109_VISUAL.2001.964490.md",
+    "LiteratureNotes/10.1145_3592433.md",
+    "LiteratureNotes/10.48550_arXiv.1701.05517.md",
+    "LiteratureNotes/10.48550_arXiv.2401.02436.md",
+    "ZtTemplates/zt-note.eta.md",
+    "周报/周报24-09-13.md",
+    "diary/2024-09-18.md",
+    "Math/雅可比行列式.md",
+    "LiteratureNotes/kwan2024-immersive.md",
+    "周报/周报24-09-07.md",
+    "周报"
+  ]
+}
