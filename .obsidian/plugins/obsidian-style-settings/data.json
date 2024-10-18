@@ -4,5 +4,7 @@
   "blue-topaz-theme@@text-selection@@light": "#469E88CF",
   "blue-topaz-theme@@clutter-free-headings": true,
   "blue-topaz-theme@@mjx-math-color@@light": "#7A1ABA",
-  "blue-topaz-theme@@mjx-inline-math-color@@light": "#A33B09"
+  "blue-topaz-theme@@mjx-inline-math-color@@light": "#A33B09",
+  "blue-topaz-theme@@toggle-bg-panel-page": false,
+  "blue-topaz-theme@@bg-panel-page-opacity-cp": 0.35
 }
