@@ -198,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 324.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,7 +219,7 @@
       "cmdr:ZotLit: Update literature note": false
     }
   },
-  "active": "af5c7bb3610ed00e",
+  "active": "8d994c575138b3c3",
   "lastOpenFiles": [
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
