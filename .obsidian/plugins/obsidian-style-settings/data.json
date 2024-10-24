@@ -6,5 +6,7 @@
   "blue-topaz-theme@@mjx-math-color@@light": "#7A1ABA",
   "blue-topaz-theme@@mjx-inline-math-color@@light": "#A33B09",
   "blue-topaz-theme@@toggle-bg-panel-page": false,
-  "blue-topaz-theme@@bg-panel-page-opacity-cp": 0.35
+  "blue-topaz-theme@@bg-panel-page-opacity-cp": 0.35,
+  "blue-topaz-theme@@remove-file-icons": false,
+  "blue-topaz-theme@@remove-arrow": false
 }
