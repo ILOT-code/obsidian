@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "Pytorch",
       "path": "Sundry/Pytorch.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "周报24-09-13",
       "path": "周报/周报24-09-13.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "zhang2024-efficient",
