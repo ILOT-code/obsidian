@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "周报/周报24-10-18.md",
+                "file": "Sundry/Numpy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "周报24-10-18"
+              "title": "Numpy"
             }
           }
         ],
@@ -236,10 +236,11 @@
   },
   "active": "913b39078908d592",
   "lastOpenFiles": [
+    "Sundry/Pytorch.md",
+    "周报/周报24-10-18.md",
     "LiteratureNotes/luScaffoldGSStructured3D2023.md",
     "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
-    "周报/周报24-10-18.md",
     "周报/周报24-09-27.md",
     "周报/周报24-09-13.md",
     "shortcut.md",
@@ -271,7 +272,6 @@
     "ZtTemplates/zt-note.eta.md",
     "diary/2024-09-18.md",
     "Math/雅可比行列式.md",
-    "LiteratureNotes/kwan2024-immersive.md",
     "周报"
   ]
 }
