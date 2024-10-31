@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "EXPLORATIONENTROPYCONSTRAINED",
       "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "zhao2021-optimizing",
       "path": "LiteratureNotes/zhao2021-optimizing.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "Pytorch",
