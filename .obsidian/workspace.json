@@ -22,16 +22,6 @@
             }
           },
           {
-            "id": "8b2905a94847eecb",
-            "type": "leaf",
-            "state": {
-              "type": "marp-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Deck Preview"
-            }
-          },
-          {
             "id": "48691ab4a4a63778",
             "type": "leaf",
             "state": {
@@ -245,14 +235,15 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "8b2905a94847eecb",
+  "active": "48691ab4a4a63778",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20241111154144.png",
+    "LiteratureNotes/tang2023-scene.md",
+    "chen2024-howfarcan.md",
     "chen2024-howfarcan.pdf",
     "chen2024-howfarcan.pptx",
     "LiteratureNotes/wang2024-model.md",
-    "chen2024-howfarcan.md",
     "LiteratureNotes/yang2023-lossy.md",
-    "LiteratureNotes/tang2023-scene.md",
     "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "diary/2024-09-08.md",
     "shortcut.md",

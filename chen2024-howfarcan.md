@@ -10,10 +10,12 @@ citekey: chenHowFarCan2024
 tags:
 ---
 
----
-# sd
-Yihang Chen
+# How Far Can We Compress Instant-NGP-Based NeRF?
 
 ---
-sd
+## Abstract
+![[Pasted image 20241111154144.png]]
+本文是对 Instant-NGP 的压缩。构建了一种上下文概率模型来对 grid 进行 h 压缩。
+
 ---
+#
