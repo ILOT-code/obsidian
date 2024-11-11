@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "wang2024-model",
+      "path": "LiteratureNotes/wang2024-model.md"
+    },
+    {
+      "basename": "chen2024-howfarcan",
+      "path": "chen2024-howfarcan.md"
+    },
+    {
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
       "basename": "EXPLORATIONENTROPYCONSTRAINED",
       "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
     },
@@ -183,18 +199,6 @@
     {
       "basename": "zt-cite2.eta",
       "path": "ZtTemplates/zt-cite2.eta.md"
-    },
-    {
-      "basename": "zt-cite.eta",
-      "path": "ZtTemplates/zt-cite.eta.md"
-    },
-    {
-      "basename": "oord2016-pixel",
-      "path": "LiteratureNotes/oord2016-pixel.md"
-    },
-    {
-      "basename": "oord2016-conditional",
-      "path": "LiteratureNotes/oord2016-conditional.md"
     }
   ],
   "omittedPaths": [],
