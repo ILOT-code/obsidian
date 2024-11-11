@@ -55,4 +55,7 @@ tags:
 ![[Pasted image 20241111162319.png]]
 ![[Pasted image 20241111162339.png]]
 
-如果某个
+如果某个条目对应的 AOE 全是 0, 那就可以不编码它。
+
+
+### Dimension-Wise Context Models
