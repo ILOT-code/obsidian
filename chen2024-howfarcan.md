@@ -34,4 +34,7 @@ tags:
 ![[Pasted image 20241111155432.png]]
 
 ### Compress Embeddings with Context Model
-本文的方法建立在 BiRF 之上，因此，grid 中的每一个值，对应的概率只有 $p(\theta=+1)$ 和 $1-p(\theta=+1)$。假设
+本文的方法建立在 BiRF 之上，因此，grid 中的每一个值，对应的概率只有 $p(\theta=+1)$ 和 $1-p(\theta=+1)$，概率模型也只预测符号+1 的概率。在得到该概率后，损失熵就可以写为：
+![[Pasted image 20241111160152.png]]
+
+首先，熵模型本身不需要很复杂，因为熵模型本身就占有很大的参数量。在实际实现中，对于 3D 的 grid, 仅仅采用了 3 层 mlp,
