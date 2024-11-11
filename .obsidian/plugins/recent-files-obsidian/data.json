@@ -198,6 +198,8 @@
     }
   ],
   "omittedPaths": [],
+  "omittedTags": [],
+  "omitBookmarks": false,
   "maxLength": null,
   "openType": "tab"
 }
