@@ -21,3 +21,12 @@ tags:
 ## Preliminaries
 
 #### NeRF
+![[Pasted image 20241111154900.png]]
+
+### Instant-NGP
+
+![[Pasted image 20241111154955.png]]
+![[Pasted image 20241111155024.png]]
+
+
+### 
