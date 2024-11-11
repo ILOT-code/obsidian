@@ -59,3 +59,5 @@ tags:
 
 
 ### Dimension-Wise Context Models
+这是对 2Dgrid 作出的改进，这三个 2D 平面在 3d 空间上有很强的联系，仅仅在它们内部作预测无法得到很好的效果。为此，使用 level 最高的那个 3dgrid 作为这 3 个平面的参考上下文。
+![[Pasted image 20241111163333.png]]
