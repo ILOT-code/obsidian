@@ -29,4 +29,9 @@ tags:
 ![[Pasted image 20241111155024.png]]
 
 
-### 
+### BiRF
+![[Pasted image 20241111155353.png]]
+![[Pasted image 20241111155432.png]]
+
+### Compress Embeddings with Context Model
+本文的方法建立在 BiRF 之上，因此，grid 中的每一个值，对应的概率只有 $p(\theta=+1)$ 和 $1-p(\theta=+1)$。假设
