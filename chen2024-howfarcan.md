@@ -44,5 +44,5 @@ tags:
 ### Level-Wise Context Models
 ![[Pasted image 20241111160731.png]]
 
-如果当前在解码 level 4 的网格，那么它只会参考前 k 个 level 网格的信息，k 是常数。
-其次，
+如果当前在解码 level 4 的网格，那么它只会参考前 $L_{c}$ 个 level 网格的信息，$L_{c}$ 是常数。
+其次，除参考之前的网格外，还会参考一个标量 $f_{G}$，它是统计当前 level 解码出
