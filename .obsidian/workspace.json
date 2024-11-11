@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/wang2024-model.md",
+                "file": "chen2024-howfarcan.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "wang2024-model"
+              "title": "chen2024-howfarcan"
             }
           }
         ],
@@ -236,6 +236,7 @@
   },
   "active": "48691ab4a4a63778",
   "lastOpenFiles": [
+    "LiteratureNotes/wang2024-model.md",
     "chen2024-howfarcan.md",
     "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/tang2023-scene.md",
@@ -271,7 +272,6 @@
     "Sundry/vim.md",
     "未命名.md",
     "LiteratureNotes/10.1109_VISUAL.2001.964490.md",
-    "LiteratureNotes/10.1145_3592433.md",
     "周报"
   ]
 }
