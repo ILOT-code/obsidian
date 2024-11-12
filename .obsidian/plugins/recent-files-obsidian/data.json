@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "chen2024-howfarcan",
-      "path": "chen2024-howfarcan.md"
+      "basename": "未命名 1",
+      "path": "未命名 1.md"
     },
     {
       "basename": "tang2023-scene",
       "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
+      "basename": "chen2024-howfarcan",
+      "path": "chen2024-howfarcan.md"
     },
     {
       "basename": "zhangVQNeRVVectorQuantization2024",
@@ -195,10 +199,6 @@
     {
       "basename": "zt-field.eta",
       "path": "ZtTemplates/zt-field.eta.md"
-    },
-    {
-      "basename": "zt-colored.eta",
-      "path": "ZtTemplates/zt-colored.eta.md"
     }
   ],
   "omittedPaths": [],
