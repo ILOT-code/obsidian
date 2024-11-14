@@ -29,7 +29,7 @@
               "state": {
                 "file": "chen2024-howfarcan.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "chen2024-howfarcan"
@@ -245,15 +245,16 @@
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
       "marp-slides:Show Slide Preview": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "hidden-folder-obsidian:隐藏文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "48691ab4a4a63778",
   "lastOpenFiles": [
     "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
+    "chen2024-howfarcan.md",
     "Attachments/Pasted image 20241112144950.png",
     "LiteratureNotes/tang2023-scene.md",
-    "chen2024-howfarcan.md",
     "zhangVQNeRVVectorQuantization2024.md",
     "Attachments/Pasted image 20241111163445.png",
     "Attachments/Pasted image 20241111163424.png",
