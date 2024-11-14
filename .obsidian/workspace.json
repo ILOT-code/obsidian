@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,10 +249,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "48691ab4a4a63778",
+  "active": "0a9f2c00f57996b7",
   "lastOpenFiles": [
-    "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
     "chen2024-howfarcan.md",
+    "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
     "Attachments/Pasted image 20241112144950.png",
     "LiteratureNotes/tang2023-scene.md",
     "zhangVQNeRVVectorQuantization2024.md",
