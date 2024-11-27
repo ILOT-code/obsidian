@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Numpy",
+      "path": "Sundry/Numpy.md"
+    },
+    {
+      "basename": "Pytorch",
+      "path": "Sundry/Pytorch.md"
+    },
+    {
       "basename": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS",
       "path": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "zhao2021-optimizing",
       "path": "LiteratureNotes/zhao2021-optimizing.md"
-    },
-    {
-      "basename": "Pytorch",
-      "path": "Sundry/Pytorch.md"
-    },
-    {
-      "basename": "Numpy",
-      "path": "Sundry/Numpy.md"
     },
     {
       "basename": "周报24-10-18",
