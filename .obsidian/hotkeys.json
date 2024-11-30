@@ -95,5 +95,13 @@
       ],
       "key": "K"
     }
+  ],
+  "app:open-settings": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ","
+    }
   ]
 }
