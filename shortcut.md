@@ -29,7 +29,7 @@
 | 交互式截屏                       | Print                    |
 | 对窗口进行截屏                     | Alt+Print                |
 | 截屏                          | Shift+Print              |
-
+****
 # ArchLinux+KDEPlasma
 
 | 作用                          | 按键                    |
