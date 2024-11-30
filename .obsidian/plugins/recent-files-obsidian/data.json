@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名 1",
+      "path": "未命名 1.md"
+    },
+    {
       "basename": "shortcut",
       "path": "shortcut.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2024-08-27",
       "path": "diary/2024-08-27.md"
-    },
-    {
-      "basename": "zt-field.eta",
-      "path": "ZtTemplates/zt-field.eta.md"
     }
   ],
   "omittedPaths": [],

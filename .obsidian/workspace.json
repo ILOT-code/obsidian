@@ -243,12 +243,13 @@
       "obsidian-git:Open Git source control": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "cmdr:ZotLit: Update literature note": false
     }
   },
   "active": "0a9f2c00f57996b7",
   "lastOpenFiles": [
+    "未命名 1.md",
+    "shortcut.md",
     "Sundry/Numpy.md",
     "Sundry/Pytorch.md",
     "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
@@ -271,7 +272,6 @@
     "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "diary/2024-09-08.md",
-    "shortcut.md",
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
     "LiteratureNotes/luScaffoldGSStructured3D2023.md",
