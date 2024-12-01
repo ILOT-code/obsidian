@@ -185,20 +185,21 @@
 
 ## Edit/Window Management
 
-| 作用                        | 按键                    |
-| ------------------------- | --------------------- |
-| 新窗口                       | Ctrl+Shift+N          |
-| 关闭窗口                      | Ctrl+Shift+W (Ctrl+Q) |
-| 打开最近的文件或文件夹               | Ctrl+R                |
-| 关闭当前编辑器                   | Ctrl+W                |
-| 关闭当前工作目录                  | Ctrl+K F              |
-| 向右拆分编辑器                   | Ctrl+\                |
-| 向下拆分编辑器                   | Ctrl+K Ctrl+\         |
-| 聚焦到第 1,2,3 个编辑器组 (不存在就创造) | Ctrl+(1,2,3)          |
-| 聚焦左主侧栏                    | Ctrl+0                |
-| 转到左边(右边)的编辑器              | Ctrl+PageUp(PageDown) |
-| 将当前编辑器右移(左移)(更改)          | Ctrl+Shift+Down(Up)   |
-| 将当前编辑器组向方向键移动             | Ctrl+K Arrow          |
+| 作用                        | 按键                       |
+| ------------------------- | ------------------------ |
+| 新窗口                       | Ctrl+Shift+N             |
+| 关闭窗口                      | Ctrl+Shift+W (Ctrl+Q)    |
+| 打开最近的文件或文件夹               | Ctrl+R                   |
+| 关闭当前编辑器                   | Ctrl+W                   |
+| 关闭当前工作目录                  | Ctrl+K F                 |
+| 向右拆分编辑器                   | Ctrl+\                   |
+| 向下拆分编辑器                   | Ctrl+K Ctrl+\            |
+| 聚焦到第 1,2,3 个编辑器组 (不存在就创造) | Ctrl+(1,2,3)             |
+| 聚焦左主侧栏                    | Ctrl+0                   |
+| 转到左边(右边)的编辑器              | Ctrl+PageUp(PageDown)    |
+| 将当前编辑器右移(左移)(更改)          | Ctrl+Shift+Down(Up)      |
+| 将当前编辑器组向方向键移动             | Ctrl+K Arrow             |
+| 按方向聚焦到编辑器组（更改）            | Ctrl+K, Ctrl+Shift+Arror |
 
 ## File Management
 
