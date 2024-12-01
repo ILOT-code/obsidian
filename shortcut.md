@@ -310,8 +310,8 @@
 | code ace jump  | 选择到特定字符                        | Alt+S                      |
 | code ace jump  | 跳到特定行                          | Alt+L                      |
 |                | 把当前编辑器移到 （左右）编辑器组              | Ctrl+K, Ctrl+(left, right) |
-|                | 切换到列 ua 选择模式                   | Alt+V                      |
-|                |                                | Shift+(Backspace, Delete)  |
+|                | 切换到列选择模式                       | Alt+V                      |
+|                | 删除到行首，行尾                       | Shift+(Backspace, Delete)  |
 |                |                                |                            |
 |                |                                |                            |
 |                |                                |                            |
