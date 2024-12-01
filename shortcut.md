@@ -289,26 +289,34 @@
 ## Extensions
 
 
-| 来源             | 作用                             | 按键                |
-| -------------- | ------------------------------ | ----------------- |
-| copilot        | 对选择内容进行解释                      | Ctrl+Alt+E        |
-| copilot        | 把所选内容增加到聊天                     | Ctrl+K,Ctrl+Alt+E |
-| copilot        | 在右边栏显示建议 (更改)                  | Alt+Enter         |
-| copilot        | 询问 copilot (悬浮)                | Ctrl+I            |
-| copilot        | 询问 copilot（左边栏）                | Ctrl+Alt+I        |
-| Bracket Select | 选择括号内内容，可连按                    | Alt+A             |
-| Bracket Select | 选中括号内内容，（包括括号）                 | Ctrl+Alt+A        |
-| Git History    | 显示文件的 git 历史                   | Alt+H             |
-| Git            | 打开更改 (更改)                      | Alt+M             |
-| bookmarks      | 切换标记书签                         | Ctrl+Alt+K        |
-| bookmarks      | 到上一个标签 (可跨文件)                  | Ctrl+Alt+J        |
-| bookmarks      | 到下一个标签 (可跨文件)                  | Ctrl+Alt+L        |
-| bookmarks      | 选择当前位置到前一个标记处 (可连按)            | Alt+Shift+J       |
-| bookmarks      | 选择当前位置到下一个标记处 (可连按)            | Alt+Shift+L       |
-| bookmarks      | 取消一次选择 (前两种选择了多次时，按这个可以取消一次选择) | Alt+Shift+K       |
-| code ace jump  | 跳到特定字符                         | Alt+J             |
-| code ace jump  | 选择到特定字符                        | Alt+S             |
-| code ace jump  | 跳到特定行                          | Alt+L             |
+| 来源             | 作用                             | 按键                         |
+| -------------- | ------------------------------ | -------------------------- |
+| copilot        | 对选择内容进行解释                      | Ctrl+Alt+E                 |
+| copilot        | 把所选内容增加到聊天                     | Ctrl+K,Ctrl+Alt+E          |
+| copilot        | 在右边栏显示建议 (更改)                  | Alt+Enter                  |
+| copilot        | 询问 copilot (悬浮)                | Ctrl+I                     |
+| copilot        | 询问 copilot（左边栏）                | Ctrl+Alt+I                 |
+| Bracket Select | 选择括号内内容，可连按                    | Alt+A                      |
+| Bracket Select | 选中括号内内容，（包括括号）                 | Ctrl+Alt+A                 |
+| Git History    | 显示文件的 git 历史                   | Alt+H                      |
+| Git            | 打开更改 (更改)                      | Alt+M                      |
+| bookmarks      | 切换标记书签                         | Ctrl+Alt+K                 |
+| bookmarks      | 到上一个标签 (可跨文件)                  | Ctrl+Alt+J                 |
+| bookmarks      | 到下一个标签 (可跨文件)                  | Ctrl+Alt+L                 |
+| bookmarks      | 选择当前位置到前一个标记处 (可连按)            | Alt+Shift+J                |
+| bookmarks      | 选择当前位置到下一个标记处 (可连按)            | Alt+Shift+L                |
+| bookmarks      | 取消一次选择 (前两种选择了多次时，按这个可以取消一次选择) | Alt+Shift+K                |
+| code ace jump  | 跳到特定字符                         | Alt+J                      |
+| code ace jump  | 选择到特定字符                        | Alt+S                      |
+| code ace jump  | 跳到特定行                          | Alt+L                      |
+|                | 把当前编辑器移到 （左右）编辑器组              | Ctrl+K, Ctrl+(left, right) |
+|                | 切换到列 ua 选择模式                   | Alt+V                      |
+|                |                                | Shift+(Backspace, Delete)  |
+|                |                                |                            |
+|                |                                |                            |
+|                |                                |                            |
+|                |                                |                            |
+|                |                                |                            |
 
 
 
