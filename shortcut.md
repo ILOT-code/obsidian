@@ -314,9 +314,10 @@
 |                | 删除到行首，行尾                              | Shift+(Backspace, Delete)  |
 |                | 选中括号中的内容 (是否包括括号本身)。输入起始的 pair (,{来选择 | Ctrl+(Alt, Shift)+P        |
 |                | 选中 pair 对，不包括其中的内容                    | Alt+P                      |
-|                |                                       |                            |
-|                |                                       |                            |
-|                |                                       |                            |
+|                | 添加或去除书签                               | Alt+K                      |
+|                | 书签菜单                                  | Alt+\                      |
+|                | 向前删除，向后删除                             | Alt+(Delete, Backspace)    |
+|                |                                       | Alt+D                      |
 
 
 
