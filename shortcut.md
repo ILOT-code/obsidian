@@ -311,8 +311,8 @@
 | code ace jump  | 跳到特定字符                                | Alt+J                      |
 | code ace jump  | 选择到特定字符                               | Alt+S                      |
 | code ace jump  | 跳到特定行                                 | Alt+L                      |
-|                | 把当前编辑器移到 （左右）编辑器组                     | Ctrl+K, Ctrl+(left, right) |
-|                | 切换到列选择模式                              | Alt+V                      |
+|                | 把当前编辑器移到 （上一个、下一个）编辑器组                | Ctrl+K, Ctrl+(left, right) |
+|                | 切换到列选择模式 (此时选择文本将按照列的方式进行)            | Alt+V                      |
 |                | 删除到行首，行尾                              | Shift+(Backspace, Delete)  |
 |                | 选中括号中的内容 (是否包括括号本身)。输入起始的 pair (,{来选择 | Ctrl+(Alt, Shift)+P        |
 |                | 选中 pair 对，不包括其中的内容                    | Alt+P                      |
