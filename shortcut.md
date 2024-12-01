@@ -316,8 +316,8 @@
 |                | 选中 pair 对，不包括其中的内容                    | Alt+P                      |
 |                | 添加或去除书签                               | Alt+K                      |
 |                | 书签菜单                                  | Alt+\                      |
-|                | 向前删除，向后删除                             | Alt+(Delete, Backspace)    |
-|                |                                       | Alt+D                      |
+|                | 向前删除，向后删除到任意位置                        | Alt+(Delete, Backspace)    |
+|                | 删除到任意位置                               | Alt+D                      |
 
 
 
