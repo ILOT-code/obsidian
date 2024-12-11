@@ -50,3 +50,5 @@ $$\mathcal{L}_{CCA}=\sum_i\mathbb{E}_{\hat{\boldsymbol{y}}\sim p_{\hat{\boldsymb
 
 ![[Pasted image 20241211152547.png]]
 
+
+这个额外的熵模型同样也需要训练。但作者并没有明确说明是如何训练的，如果这个辅助的熵模型没学习好的话，这个 CCA loss 岂不是一点意义没有。
