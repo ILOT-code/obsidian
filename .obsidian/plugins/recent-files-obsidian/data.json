@@ -5,12 +5,16 @@
       "path": "zhang2024-LDMIC.md"
     },
     {
-      "basename": "chen2024-howfarcan",
-      "path": "chen2024-howfarcan.md"
-    },
-    {
       "basename": "han2024-CausalContextAdjustment",
       "path": "han2024-CausalContextAdjustment.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
+      "basename": "chen2024-howfarcan",
+      "path": "chen2024-howfarcan.md"
     },
     {
       "basename": "ge2024-taskaware",
@@ -19,10 +23,6 @@
     {
       "basename": "wang2024-model",
       "path": "LiteratureNotes/wang2024-model.md"
-    },
-    {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
     },
     {
       "basename": "未命名 1",

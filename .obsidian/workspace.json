@@ -231,12 +231,13 @@
       "cmdr:ZotLit: Update literature note": false
     }
   },
-  "active": "af5c7bb3610ed00e",
+  "active": "48691ab4a4a63778",
   "lastOpenFiles": [
-    "chen2024-howfarcan.md",
     "han2024-CausalContextAdjustment.md",
-    "LiteratureNotes/ge2024-taskaware.md",
+    "LiteratureNotes/tang2023-scene.md",
+    "chen2024-howfarcan.md",
     "zhang2024-LDMIC.md",
+    "LiteratureNotes/ge2024-taskaware.md",
     "LiteratureNotes/wang2024-model.md",
     "Attachments/Pasted image 20241211153944.png",
     "Attachments/Pasted image 20241211153809.png",
@@ -244,7 +245,6 @@
     "Attachments/Pasted image 20241211150340.png",
     "Attachments/Pasted image 20241211150302.png",
     "Attachments/Pasted image 20241211150222.png",
-    "LiteratureNotes/tang2023-scene.md",
     "shortcut.md",
     "未命名 1.md",
     "Sundry/Numpy.md",
