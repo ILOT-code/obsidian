@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "chen2024-howfarcan"
             }
+          },
+          {
+            "id": "aa0e89c337d593e8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -232,14 +242,14 @@
       "cmdr:ZotLit: Update literature note": false
     }
   },
-  "active": "48691ab4a4a63778",
+  "active": "aa0e89c337d593e8",
   "lastOpenFiles": [
+    "chen2024-howfarcan.md",
     "shortcut.md",
     "未命名 1.md",
     "Sundry/Numpy.md",
     "Sundry/Pytorch.md",
     "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
-    "chen2024-howfarcan.md",
     "Attachments/Pasted image 20241112144950.png",
     "LiteratureNotes/tang2023-scene.md",
     "zhangVQNeRVVectorQuantization2024.md",
