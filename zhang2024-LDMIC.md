@@ -43,4 +43,13 @@ $$
 $$
 只采用了很简单的融合方式。实际上，融合方式应该和各个相机的相对位置有关。设计一些复杂点的融合方式应该可以获得更好的效果。
 
-设 $\mathbf{f}'_{k}\in \mathbb{R}^{H\times W\times d}，\tilde{\mathbf{f}}'_{k}\in $
+设 $\mathbf{f}'_{k}\in \mathbb{R}^{H\times W\times d}，\tilde{\mathbf{f}}'_{k}\in \mathbb{R}^{H\times W\times D}$，采用了一种快速计算交叉注意力的方法。设有 $h$ 个注意力头，$n=H\times W$
+使用核为 1 的卷积和 reshape 操作，得到：
+$$
+\begin{align}
+\mathbf{Q}_{k} =Conv(\mathbf{f'_{k}}) \in \mathcal{R}^{n\times h\times d_{1}} \\
+\mathbf{K}_{k}=Conv(\tilde{\mathbf{f}}'_{k}) \in \mathcal{R}^{n\times h\times d_{1}} \\
+\mathbf{V}_{k} = Conv(\tilde{\mathbf{f}}'_{k}) \in \mathcal{R}^{n\times h\times d_{2}} \\
+
+\end{align}
+$$
