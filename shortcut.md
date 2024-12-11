@@ -302,30 +302,24 @@
 | Bracket Select | 选中括号内内容，（包括括号）                        | Ctrl+Alt+A                 |
 | Git History    | 显示文件的 git 历史                          | Alt+H                      |
 | Git            | 打开更改 (更改)                             | Alt+M                      |
-| bookmarks      | 切换标记书签                                | Ctrl+Alt+K                 |
-| bookmarks      | 到上一个标签 (可跨文件)                         | Ctrl+Alt+J                 |
-| bookmarks      | 到下一个标签 (可跨文件)                         | Ctrl+Alt+L                 |
-| bookmarks      | 选择当前位置到前一个标记处 (可连按)                   | Alt+Shift+J                |
-| bookmarks      | 选择当前位置到下一个标记处 (可连按)                   | Alt+Shift+L                |
-| bookmarks      | 取消一次选择 (前两种选择了多次时，按这个可以取消一次选择)        | Alt+Shift+K                |
-|                | 把当前编辑器移到 （上一个、下一个）编辑器组                | Ctrl+K, Ctrl+(left, right) |
-|                | 切换到列选择模式 (此时选择文本将按照列的方式进行)            | Alt+V                      |
-|                | 删除到行首，行尾                              | Shift+(Backspace, Delete)  |
-|                | 选中括号中的内容 (是否包括括号本身)。输入起始的 pair (,{来选择 | Alt+(Ctrl)+A               |
-|                | 选中 pair 对，不包括其中的内容，修改该括号类型            | Alt+P                      |
-|                | 添加或去除书签（更改）                           | Alt+K                      |
-|                | 跳转到下一个，上一个书签位置                        | Alt+([,])                  |
-|                | 书签菜单                                  | Alt+\                      |
-|                | 向前删除，向后删除到任意位置                        | Alt+(Delete, Backspace)    |
-|                | 删除到任意位置                               | Alt+D                      |
-|                | 跳转到字符后、前，或智能选择前后                      | Alt+{,./}                  |
-|                | 在字符后、前（后智能前后）位置插入光标                   | Ctrl+Alt+{.,/}             |
-|                | 选择到字符后、前，或智能选择前后                      | Shift+Alt+{.,/}            |
-|                | 跳转到下一个或上一个空行                          | Alt+(End, Home)            |
-|                | 选择到下一个、上一个空行，可连按，反向按可取消一次选择           | Shift+Alt+(End, Home)      |
-|                | 把当前行滚动到底部、中间、顶部 (更改)                  | Alt+(B, N, T)              |
-|                | 向下、向上选择行。需要先按 Ctrl+L                  | (Ctrl, Alt)+L              |
-|                | 在选中文本时，切换光标在文本的头部还是尾部 (更改)            | Alt+U                      |
+| Metago         | 把当前编辑器移到 （上一个、下一个）编辑器组                | Ctrl+K, Ctrl+(left, right) |
+| Metago         | 切换到列选择模式 (此时选择文本将按照列的方式进行)            | Alt+V                      |
+| Metago         | 删除到行首，行尾                              | Shift+(Backspace, Delete)  |
+| Metago         | 选中括号中的内容 (是否包括括号本身)。输入起始的 pair (,{来选择 | Alt+(Ctrl)+A               |
+| Metago         | 选中 pair 对，不包括其中的内容，修改该括号类型            | Alt+P                      |
+| Metago         | 添加或去除书签（更改）                           | Alt+K                      |
+| Metago         | 跳转到下一个，上一个书签位置                        | Alt+([,])                  |
+| Metago         | 书签菜单                                  | Alt+\                      |
+| Metago         | 向前删除，向后删除到任意位置                        | Alt+(Delete, Backspace)    |
+| Metago         | 删除到任意位置                               | Alt+D                      |
+| Metago         | 跳转到字符后、前，或智能选择前后                      | Alt+{,./}                  |
+| Metago         | 在字符后、前（后智能前后）位置插入光标                   | Ctrl+Alt+{.,/}             |
+| Metago         | 选择到字符后、前，或智能选择前后                      | Shift+Alt+{.,/}            |
+| Metago         | 跳转到下一个或上一个空行                          | Alt+(End, Home)            |
+| Metago         | 选择到下一个、上一个空行，可连按，反向按可取消一次选择           | Shift+Alt+(End, Home)      |
+| Metago         | 把当前行滚动到底部、中间、顶部 (更改)                  | Alt+(B, N, T)              |
+| Metago         | 向下、向上选择行。需要先按 Ctrl+L                  | (Ctrl, Alt)+L              |
+| Metago         | 在选中文本时，切换光标在文本的头部还是尾部 (更改)            | Alt+U                      |
 |                |                                       |                            |
 |                |                                       |                            |
 
