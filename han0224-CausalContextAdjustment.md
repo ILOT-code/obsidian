@@ -31,6 +31,13 @@ z 的引入其实已经为 y(latent) 之间的联系进行了建模了，继续�
 
 ### method
 考虑一个分为两阶段进行的 AR 模型，$\mathbf{y}=\{\mathbf{y}_{1},\mathbf{y}_{2}\}$
-令 $q(\hat{\mathbf{y}}|\hat{\mathbf{z}})$ 表示当前模型在当前数据集下给出的真正分布，而
+令 $q(\hat{\mathbf{y}}|\hat{\mathbf{z}})$ 表示当前模型在当前数据集下给出的真正分布，而 $p(\hat{\mathbf{y}}|\hat{\mathbf{z}})$ 则是预测的分布。在仅有 z 和有 z 和 context 的情况下，交叉熵数损失写成：
+$$
+\begin{align}
+H_{HP}(q(\hat{\mathbf{y}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}}|\hat{\mathbf{z}}))=H(q(\hat{\mathbf{y}_{1}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}_{1}}|\hat{\mathbf{z}}))+H(q(\hat{\mathbf{y}_{2}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}_{2}}|\hat{\mathbf{z}}))  \\
+H_{HP,AR}(q(\hat{\mathbf{y}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}}|\hat{\mathbf{z}}))=H(q(\hat{\mathbf{y}_{1}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}_{1}}|\hat{\mathbf{z}}))+H(q(\hat{\mathbf{y}_{2}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}_{2}}|\hat{\mathbf{z}}))
+
+\end{align}
+$$
 
 
