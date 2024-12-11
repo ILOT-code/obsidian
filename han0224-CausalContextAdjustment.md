@@ -43,4 +43,10 @@ $$
 context 带来的信息增益就是
 $$H_{\mathrm{HP}}-H_{\mathrm{HP+AR}}=H(q(\hat{\boldsymbol{y}}_2|\hat{\boldsymbol{z}}),p(\hat{\boldsymbol{y}}_2|\hat{\boldsymbol{z}}))-H(q(\hat{\boldsymbol{y}}_2|\hat{\boldsymbol{z}},\hat{\boldsymbol{y}}_1),p(\hat{\boldsymbol{y}}_2|\hat{\boldsymbol{z}},\hat{\boldsymbol{y}}_1)),$$
 
-在一个 HP+AR 的框架中，后一项是模型能直接给出来的，前一项则不能。
+在一个 HP+AR 的框架中，后一项是模型能直接给出来的，前一项则不能。为此，作者设计了一个辅助熵模型，它仅仅以 z 作为输入，来预测 y 的概率。并以此信息增益作为损失。
+
+扩展到多阶段的 AR 模型中，该项损失就是：
+$$\mathcal{L}_{CCA}=\sum_i\mathbb{E}_{\hat{\boldsymbol{y}}\sim p_{\hat{\boldsymbol{y}}|\boldsymbol{z}}}\mathbb{E}_{\hat{\boldsymbol{z}}\sim p_{\hat{\boldsymbol{z}}|\boldsymbol{\psi}}}[-\log p_{\hat{\boldsymbol{y}}_i|\hat{\boldsymbol{z}},\hat{\boldsymbol{y}}_{<i-1}}(\hat{\boldsymbol{y}}_i|\hat{\boldsymbol{z}},\hat{\boldsymbol{y}}_{<i-1})+\log p_{\hat{\boldsymbol{y}}_i|\hat{\boldsymbol{z}},\hat{\boldsymbol{y}}_{<i}}(\hat{\boldsymbol{y}}_i|\hat{\boldsymbol{z}},\hat{\boldsymbol{y}}_{<i})].$$
+
+![[Pasted image 20241211152547.png]]
+
