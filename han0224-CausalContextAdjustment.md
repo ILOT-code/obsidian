@@ -35,9 +35,12 @@ z 的引入其实已经为 y(latent) 之间的联系进行了建模了，继续�
 $$
 \begin{align}
 H_{HP}(q(\hat{\mathbf{y}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}}|\hat{\mathbf{z}}))=H(q(\hat{\mathbf{y}_{1}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}_{1}}|\hat{\mathbf{z}}))+H(q(\hat{\mathbf{y}_{2}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}_{2}}|\hat{\mathbf{z}}))  \\
-H_{HP,AR}(q(\hat{\mathbf{y}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}}|\hat{\mathbf{z}}))=H(q(\hat{\mathbf{y}_{1}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}_{1}}|\hat{\mathbf{z}}))+H(q(\hat{\mathbf{y}_{2}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}_{2}}|\hat{\mathbf{z}}))
+H_{HP+AR}(q(\hat{\mathbf{y}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}}|\hat{\mathbf{z}}))=H(q(\hat{\mathbf{y}_{1}}|\hat{\mathbf{z}}),p(\hat{\mathbf{y}_{1}}|\hat{\mathbf{z}}))+H(q(\hat{\mathbf{y}_{2}}|\hat{\mathbf{z}},\hat{\mathbf{y}}_{1}),p(\hat{\mathbf{y}_{2}}|\hat{\mathbf{z}},\hat{\mathbf{y}}_{1}))
 
 \end{align}
 $$
 
+context 带来的信息增益就是
+$$H_{\mathrm{HP}}-H_{\mathrm{HP+AR}}=H(q(\hat{\boldsymbol{y}}_2|\hat{\boldsymbol{z}}),p(\hat{\boldsymbol{y}}_2|\hat{\boldsymbol{z}}))-H(q(\hat{\boldsymbol{y}}_2|\hat{\boldsymbol{z}},\hat{\boldsymbol{y}}_1),p(\hat{\boldsymbol{y}}_2|\hat{\boldsymbol{z}},\hat{\boldsymbol{y}}_1)),$$
 
+在一个 HP+AR 的框架中，后一项是模型能直接给出来的，前一项则不能。
