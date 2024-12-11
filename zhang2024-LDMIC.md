@@ -47,9 +47,16 @@ $$
 使用核为 1 的卷积和 reshape 操作，得到：
 $$
 \begin{align}
-\mathbf{Q}_{k} =Conv(\mathbf{f'_{k}}) \in \mathcal{R}^{n\times h\times d_{1}} \\
-\mathbf{K}_{k}=Conv(\tilde{\mathbf{f}}'_{k}) \in \mathcal{R}^{n\times h\times d_{1}} \\
-\mathbf{V}_{k} = Conv(\tilde{\mathbf{f}}'_{k}) \in \mathcal{R}^{n\times h\times d_{2}} \\
+\mathbf{Q}_{k} &=Conv(\mathbf{f'_{k}}) \in \mathcal{R}^{n\times h\times d_{1}} \\
+\mathbf{K}_{k}&=Conv(\tilde{\mathbf{f}}'_{k}) \in \mathcal{R}^{n\times h\times d_{1}} \\
+\mathbf{V}_{k} &= Conv(\tilde{\mathbf{f}}'_{k}) \in \mathcal{R}^{n\times h\times d_{2}} \\
 
+\boldsymbol{A}_{k,i} & =\sigma_{row}(\boldsymbol{Q}_{k,i})(\sigma_{col}(\boldsymbol{K}_{k,i})^\mathsf{T}\boldsymbol{V}_{k,i}),\forall i=1,\cdots,h \\
+\boldsymbol{f}_{\mathbb{K}\setminus\{k\}\to k}^{^{\prime}} & =\mathrm{Conv}(\boldsymbol{A}_{k,1}\oplus\cdots\oplus\boldsymbol{A}_{k,h}),
 \end{align}
 $$
+
+最后得到模块的输出：
+$$\boldsymbol{f}_k^*=\boldsymbol{f}_k+F(\boldsymbol{f}_{\mathbb{K}\setminus\{k\}\to k}^{^{\prime}}\oplus\boldsymbol{f}_k^{^{\prime}}),$$
+## Exp
+
