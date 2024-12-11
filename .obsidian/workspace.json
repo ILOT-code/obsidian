@@ -27,44 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chen2024-howfarcan.md",
+                "file": "zhang2024-LDMIC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chen2024-howfarcan"
-            }
-          },
-          {
-            "id": "aa0e89c337d593e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "han2024-CausalContextAdjustment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "han2024-CausalContextAdjustment"
-            }
-          },
-          {
-            "id": "74b989965f3d1862",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名 2"
+              "title": "zhang2024-LDMIC"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "xinjie",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -259,10 +231,12 @@
       "cmdr:ZotLit: Update literature note": false
     }
   },
-  "active": "74b989965f3d1862",
+  "active": "af5c7bb3610ed00e",
   "lastOpenFiles": [
+    "chen2024-howfarcan.md",
     "han2024-CausalContextAdjustment.md",
-    "未命名 2.md",
+    "LiteratureNotes/ge2024-taskaware.md",
+    "zhang2024-LDMIC.md",
     "LiteratureNotes/wang2024-model.md",
     "Attachments/Pasted image 20241211153944.png",
     "Attachments/Pasted image 20241211153809.png",
@@ -271,7 +245,6 @@
     "Attachments/Pasted image 20241211150302.png",
     "Attachments/Pasted image 20241211150222.png",
     "LiteratureNotes/tang2023-scene.md",
-    "chen2024-howfarcan.md",
     "shortcut.md",
     "未命名 1.md",
     "Sundry/Numpy.md",
@@ -298,7 +271,6 @@
     "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
     "Math/SH，SG.md",
     "Notecards/VQ.md",
-    "未命名 3.md",
     "周报"
   ]
 }

@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名 2",
-      "path": "未命名 2.md"
+      "basename": "zhang2024-LDMIC",
+      "path": "zhang2024-LDMIC.md"
+    },
+    {
+      "basename": "chen2024-howfarcan",
+      "path": "chen2024-howfarcan.md"
     },
     {
       "basename": "han2024-CausalContextAdjustment",
       "path": "han2024-CausalContextAdjustment.md"
+    },
+    {
+      "basename": "ge2024-taskaware",
+      "path": "LiteratureNotes/ge2024-taskaware.md"
     },
     {
       "basename": "wang2024-model",
@@ -35,10 +43,6 @@
     {
       "basename": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS",
       "path": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md"
-    },
-    {
-      "basename": "chen2024-howfarcan",
-      "path": "chen2024-howfarcan.md"
     },
     {
       "basename": "zhangVQNeRVVectorQuantization2024",
@@ -195,10 +199,6 @@
     {
       "basename": "2024-09-04",
       "path": "diary/2024-09-04.md"
-    },
-    {
-      "basename": "zt-annots.eta",
-      "path": "ZtTemplates/zt-annots.eta.md"
     }
   ],
   "omittedPaths": [],
