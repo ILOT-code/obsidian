@@ -39,10 +39,28 @@
             "id": "aa0e89c337d593e8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/wang2024-model.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "wang2024-model"
+            }
+          },
+          {
+            "id": "5794b039077a36e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "han0224-CausalContextAdjustment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "han0224-CausalContextAdjustment"
             }
           }
         ],
@@ -120,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.49999618530273,
-    "collapsed": true
+    "width": 263.49999618530273
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -244,6 +261,9 @@
   },
   "active": "aa0e89c337d593e8",
   "lastOpenFiles": [
+    "han0224-CausalContextAdjustment.md",
+    "LiteratureNotes/tang2023-scene.md",
+    "LiteratureNotes/wang2024-model.md",
     "chen2024-howfarcan.md",
     "shortcut.md",
     "未命名 1.md",
@@ -251,7 +271,6 @@
     "Sundry/Pytorch.md",
     "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
     "Attachments/Pasted image 20241112144950.png",
-    "LiteratureNotes/tang2023-scene.md",
     "zhangVQNeRVVectorQuantization2024.md",
     "Attachments/Pasted image 20241111163445.png",
     "Attachments/Pasted image 20241111163424.png",
@@ -264,7 +283,6 @@
     "Attachments/Pasted image 20241111155353.png",
     "chen2024-howfarcan.pdf",
     "chen2024-howfarcan.pptx",
-    "LiteratureNotes/wang2024-model.md",
     "LiteratureNotes/yang2023-lossy.md",
     "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "diary/2024-09-08.md",
@@ -279,7 +297,6 @@
     "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
     "Math/SH，SG.md",
     "Notecards/VQ.md",
-    "未命名 2.md",
     "未命名 3.md",
     "周报/周报24-09-21.md",
     "周报"

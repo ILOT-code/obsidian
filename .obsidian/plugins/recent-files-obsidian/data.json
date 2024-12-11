@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "wang2024-model",
+      "path": "LiteratureNotes/wang2024-model.md"
+    },
+    {
+      "basename": "han0224-CausalContextAdjustment",
+      "path": "han0224-CausalContextAdjustment.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
       "basename": "未命名 1",
       "path": "未命名 1.md"
     },
@@ -25,16 +37,8 @@
       "path": "chen2024-howfarcan.md"
     },
     {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
       "basename": "zhangVQNeRVVectorQuantization2024",
       "path": "zhangVQNeRVVectorQuantization2024.md"
-    },
-    {
-      "basename": "wang2024-model",
-      "path": "LiteratureNotes/wang2024-model.md"
     },
     {
       "basename": "yang2023-lossy",
@@ -195,10 +199,6 @@
     {
       "basename": "2024-08-26",
       "path": "diary/2024-08-26.md"
-    },
-    {
-      "basename": "2024-08-27",
-      "path": "diary/2024-08-27.md"
     }
   ],
   "omittedPaths": [],
