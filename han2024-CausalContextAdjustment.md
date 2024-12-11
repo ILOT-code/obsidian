@@ -56,3 +56,11 @@ $$\mathcal{L}_{CCA}=\sum_i\mathbb{E}_{\hat{\boldsymbol{y}}\sim p_{\hat{\boldsymb
 
 ### Channel-wise Unevenly Grouped Entropy Model
 作者设计的熵模型是分通道进行的，捕获通道间的信息增益。此外，由于 CCA 损失可以明确地将重要信息调整到早期通道中，作者探索了一种不均匀分组的策略，以充分利用前几个信息渠道。非均匀分组策略还为带来了参数数量和运行时间方面的优势。
+
+
+## EXP
+
+下图比较了 latent 的编码长度，随着slice 增长，CCA  loss 降低了 latent 的编码长度。
+![[Pasted image 20241211153809.png]]
+
+![[Pasted image 20241211153944.png]]

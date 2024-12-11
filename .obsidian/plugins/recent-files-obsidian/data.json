@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "han0224-CausalContextAdjustment",
-      "path": "han0224-CausalContextAdjustment.md"
+      "basename": "未命名 2",
+      "path": "未命名 2.md"
+    },
+    {
+      "basename": "han2024-CausalContextAdjustment",
+      "path": "han2024-CausalContextAdjustment.md"
     },
     {
       "basename": "wang2024-model",
@@ -195,10 +199,6 @@
     {
       "basename": "zt-annots.eta",
       "path": "ZtTemplates/zt-annots.eta.md"
-    },
-    {
-      "basename": "2024-08-26",
-      "path": "diary/2024-08-26.md"
     }
   ],
   "omittedPaths": [],
