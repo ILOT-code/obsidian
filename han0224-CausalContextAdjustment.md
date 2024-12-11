@@ -14,7 +14,8 @@ tags:
 
 ## 问题分析
 LIC 的成功基于 VAE 模式，并引入各种 causal context 来进一步减少码流。
-对于 causal context 为什么能 work,
+对于 causal context 为什么能 work, 可以很直观的进行解释：它为当前待解码的 latent 引入了更多的参考，而 latent 在空间上、通道上都具有一定的关联。
 
+但是 z 的引入其实已经为 y(latent) 之间的联系进行了建模了，
 
 
