@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -259,11 +259,11 @@
       "cmdr:ZotLit: Update literature note": false
     }
   },
-  "active": "aa0e89c337d593e8",
+  "active": "5794b039077a36e4",
   "lastOpenFiles": [
+    "LiteratureNotes/wang2024-model.md",
     "han0224-CausalContextAdjustment.md",
     "LiteratureNotes/tang2023-scene.md",
-    "LiteratureNotes/wang2024-model.md",
     "chen2024-howfarcan.md",
     "shortcut.md",
     "未命名 1.md",
