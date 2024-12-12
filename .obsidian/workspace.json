@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/tang2023-scene.md",
+                "file": "zhang2024-LDMIC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tang2023-scene"
+              "title": "zhang2024-LDMIC"
             }
           }
         ]
@@ -219,11 +219,11 @@
   },
   "active": "4990238530ebfee0",
   "lastOpenFiles": [
+    "LiteratureNotes/tang2023-scene.md",
     "zhang2024-LDMIC.md",
     "Attachments/Pasted image 20241211162532.png",
     "Attachments/Pasted image 20241211161143.png",
     "han2024-CausalContextAdjustment.md",
-    "LiteratureNotes/tang2023-scene.md",
     "chen2024-howfarcan.md",
     "LiteratureNotes/ge2024-taskaware.md",
     "LiteratureNotes/wang2024-model.md",
