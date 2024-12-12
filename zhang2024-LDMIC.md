@@ -60,3 +60,8 @@ $$
 $$\boldsymbol{f}_k^*=\boldsymbol{f}_k+F(\boldsymbol{f}_{\mathbb{K}\setminus\{k\}\to k}^{^{\prime}}\oplus\boldsymbol{f}_k^{^{\prime}}),$$
 ## Exp
 
+![[Pasted image 20241212181637.png]]
+
+![[Pasted image 20241212181824.png]]
+
+![[Pasted image 20241212181843.png]]
