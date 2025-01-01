@@ -21,4 +21,6 @@ DCVC 整个系列都在研究这三个问题。
 ### 熵模型
 ![[Pasted image 20250101150703.png]]
 
-采用 AR 的形式，综合融合了三种信息。spatial correlation 引入了非常局部的参考信息，边信息引入了当前帧的全局
+采用 AR 的形式，综合融合了三种信息。spatial correlation 引入了非常局部的参考信息，边信息引入了当前帧的全局参考信息，context 则引入了时间轴上的参考信息。
+
+## Temporal Context Mining for Learned  Video Compression
