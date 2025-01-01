@@ -90,5 +90,12 @@ $F_{t-1}$ 包含了很复杂的特征，包含了之前所有帧中的信息，�
 首先在通道维度上把 $F$ 分为 G 组，需要为每一组生成 N 个，共 $G\times N$ 个光流。这些生成的光流以原始的那个光流为基础。Offset Prediction 模块同时会为每一个光流生成置信度 mask。
 ![[Pasted image 20250101191548.png]]
 
-Cross-group 模块先进行 warp 和 mask 操作，然后，像 PixelShuffle 那样，把这些通道进行重排
+Cross-group 模块先进行 warp 和 mask 操作，然后，像 PixelShuffle 那样，把这些通道进行重排，顺序变为了 ($N\times G$)，随后的 fusion 把每 N 个通道融合为一个。这样的操作加强了通道间的联系，加强了上下文的丰富性。
 ![[Pasted image 20250101191717.png]]
+
+### Quadtree Partition-Based Entropy Coding
+在熵模型方面，作者设计了四分树的模式来引入更多空间上的参考。
+
+首先把 latent 沿着通道维度分为 4 组，每组内部进行顺序不同的
+
+![[Pasted image 20250101192420.png]]
