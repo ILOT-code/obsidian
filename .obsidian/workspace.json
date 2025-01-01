@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zhang2024-LDMIC.md",
+                "file": "DCVC系列.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "zhang2024-LDMIC"
+              "title": "DCVC系列"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DCVC系列.md",
+                "file": "LiteratureNotes/li2024-neural.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DCVC系列"
+              "title": "li2024-neural"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "han2024-CausalContextAdjustment"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xinjie",
+                "query": "dcvc fm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +102,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f9ff9a56711812bb",
@@ -246,8 +246,12 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "69a268e24ea92efe",
+  "active": "4990238530ebfee0",
   "lastOpenFiles": [
+    "LiteratureNotes/li2024-neural.md",
+    "DCVC系列.md",
+    "zhang2024-LDMIC.md",
+    "周报/周报24-09-21.md",
     "Attachments/Pasted image 20250101192420.png",
     "Attachments/Pasted image 20250101191717.png",
     "Attachments/Pasted image 20250101191548.png",
@@ -258,9 +262,6 @@
     "Attachments/Pasted image 20250101155056.png",
     "Attachments/Pasted image 20250101155023.png",
     "Attachments/Pasted image 20250101154446.png",
-    "Attachments/Pasted image 20250101150703.png",
-    "zhang2024-LDMIC.md",
-    "DCVC系列.md",
     "han2024-CausalContextAdjustment.md",
     "LiteratureNotes/tang2023-scene.md",
     "chen2024-howfarcan.md",
@@ -285,7 +286,6 @@
     "周报/周报24-09-27.md",
     "周报/周报24-09-13.md",
     "LiteratureNotes/zhang2024-efficient.md",
-    "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
     "周报"
   ]
 }
