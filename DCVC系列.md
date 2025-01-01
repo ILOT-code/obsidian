@@ -96,6 +96,7 @@ Cross-group 模块先进行 warp 和 mask 操作，然后，像 PixelShuffle 那
 ### Quadtree Partition-Based Entropy Coding
 在熵模型方面，作者设计了四分树的模式来引入更多空间上的参考。
 
-首先把 latent 沿着通道维度分为 4 组，每组内部进行顺序不同的
+首先把 latent 沿着通道维度分为 4 组，每组内部进行顺序不同的计算策略。每一个阶段解码得到的值会作为参考供下一个阶段使用。
+
 
 ![[Pasted image 20250101192420.png]]
