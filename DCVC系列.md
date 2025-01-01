@@ -48,3 +48,8 @@ $F,v$ 经过下采样后进行扭曲，大尺度的条件融合了小尺度的�
 
 ## Hybrid Spatial-Temporal Entropy Modelling for Neural Video Compression
 视频压缩使用的熵模型大多使用现有的图像压缩中的模型，它们的一个缺点是没有考虑到时间轴上的参考。本文为视频压缩方案设计了一种新的熵模型，来缓和熵模型对时间参考有限的问题。
+
+### 时空信息融合的熵模型：
+![[Pasted image 20250101162653.png]]
+
+空间信息上的参考实际上采用了 checkboard 的形式，而空间信息上的参考实际上就是融合了 $\hat{y}_{t-1}$ 和 $C_{t}$。$ha$
