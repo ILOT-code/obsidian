@@ -62,3 +62,7 @@ $F,v$ 经过下采样后进行扭曲，大尺度的条件融合了小尺度的�
 global 由用户指定，提供了粗略的量化范围，在模型训练时，global 采样生成。
 ch 是一组可学习的参数，分通道进行量化。
 sc 是熵模型生成的 spatial-channel-wise 的量化参数。
+
+
+## Neural Video Compression with Diverse Contexts
+上下文的质量极大影响了编码效率。本文提出了三种些方法来提高上下文的生成质量以及增强上下文的多样性。这些方法最终带来了
