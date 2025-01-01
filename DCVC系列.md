@@ -23,4 +23,5 @@ DCVC 整个系列都在研究这三个问题。
 
 采用 AR 的形式，综合融合了三种信息。spatial correlation 引入了非常局部的参考信息，边信息引入了当前帧的全局参考信息，context 则引入了时间轴上的参考信息。
 
-## Temporal Context Mining for Learned  Video Compression
+## Temporal Context Mining for Learned  Video Compressionz
+在 DCVC 中，在时间轴上，实际上只考虑了上一个时刻的参考
