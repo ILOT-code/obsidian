@@ -106,13 +106,15 @@ Cross-group 模块先进行 warp 和 mask 操作，然后，像 PixelShuffle 那
 1. 如何在单个模型中，允许一个宽的解码质量范围。
 2. 在长预测链之下，NVC 如何才能稳定工作。现有的一些 NVC 方法很难处理好时间误差累积问题，它们很多通过频繁地插入 I-帧来解决这样的问题，但很多情况下对于单个视频，是只允许存在 1 个 I-帧的。
 ### Wide Quality Range in a Single Model
+![[Pasted image 20250101194448.png]]
 首先，有一个质量区间 $[0,q_{num}-1]$，用户可以选择一个此区间的数 $q$ 来决定帧的质量。
+
 编解码被分为了两段过程，高分辨率和低分辨率，$s_t^{enc}$ 和 $s_t^{dec}$ 分别被用来调制和解调两者中间的 latent。$s_t^{enc}$ 和 $s_t^{dec}$ 类似于 $\hat{I}=QS\cdot\lfloor\frac I{QS}\rceil$ 中的 $QS$，只是没有限定这个量化参数在编解码过程中需要相同，作者认为这样能够更加灵活地调整图像质量。也因此，量化过程并没有使用除法，而是使用乘法运算。
 $s_t^{enc}$ 由两个可学习的参数 $s_{min}^{enc},s_{max}^{enc}$ 和自定义的 $q$ 来生成：
 $$
 \begin{align*}
-s_t^{enc}=s_{min}^{enc}\cdot(\frac{s_{max}^{enc}}{s_{min}^{enc}})^{\frac{q_t}{q_num-1}}\\
-s_t^{enc}=e^{\ln s_{min}^{enc}+\frac{q_t}{q_num-1}\cdot(\ln s_{max}^{enc}-\ln s_{min}^{enc})}
+s_t^{enc}=s_{min}^{enc}\cdot(\frac{s_{max}^{enc}}{s_{min}^{enc}})^{\frac{q_t}{q_{num}-1}}\\
+s_t^{enc}=e^{\ln s_{min}^{enc}+\frac{q_t}{q_{num}-1}\cdot(\ln s_{max}^{enc}-\ln s_{min}^{enc})}
 \end{align*}
 $$
 同时，$Loss_{RD}=R+\lambda D$ 中的 $\lambda$ 也由 $q$ 来决定：
@@ -123,7 +125,6 @@ $\lambda_{max},\lambda_{min}$ 是预先就固定的数。
 在实际训练过程中，会随机在 $[0,q_{num}-1]$ 取样得到 $q$，进行实验。$q$ 越大，$\lambda$ 越大，图像质量占比就越大，就会指导 $s_t^{enc}$ 的生成越趋于 1 的数。通过调整 $\lambda$ 的范围，就能实现很宽的图像质量范围。
 
 $s_t^{enc}$ 对所有空间坐标的点都是一致的，这会导致忽略一些空间特征。为此，使用熵模型生成 spatial-channel-wise 的量化参数 $w_t^{enc}$, 它不仅有助于在每个位置实现精确调制，而且可以适应每个帧的视频内容，这种内容自适应的动态调制也可以提高最终的压缩效率。
-![[Pasted image 20240609133159.png]]
 
 通过对不同的帧给与不同的 $q$，可以实现质量的控制：
 ![[Pasted image 20240609135454.png]]
