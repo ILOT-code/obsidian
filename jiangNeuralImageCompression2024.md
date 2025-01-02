@@ -44,4 +44,6 @@ weight 采用 16 位 float，在不 mask 的情况下，每个 super-pixel共需
 ## 实验
 
 可以看到, MAGE 和 AdaCode 趋向于本文方法的两个极端例子。把这两个点连接起来，作为概念性的 baseline, 进行比较。
-![[Pasted image 20250102165249.png]]![[Pasted image 20250102165411.png]]
+![[Pasted image 20250102165249.png]] ![[Pasted image 20250102165411.png]]
+消融实验：
+![[Pasted image 20250102165807.png]]
