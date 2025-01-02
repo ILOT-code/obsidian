@@ -39,4 +39,4 @@ weight 采用 16 位 float，在不 mask 的情况下，每个 super-pixel共需
 
 ## 训练
 采用 AdaCode 中训练好的 $E^{emb}$ 和码本，并固定它们。
-使用 L1 损失 $\mathcal{L}_{1}(\hat{x},x)$, pereptual loss $\mathcal{L}_{per}(\hat{x},x)$，对抗损失 $\mathcal{L}_{adv}(\hat{x},x)$, 以及 Y 的重建损失 $\mathcal{L}_{con}(\hat{Y},Y)$ 来训练生成器（）
+使用 L1 损失 $\mathcal{L}_{1}(\hat{x},x)$, pereptual loss $\mathcal{L}_{per}(\hat{x},x)$，对抗损失 $\mathcal{L}_{adv}(\hat{x},x)$, 以及 Y 的重建损失 $\mathcal{L}_{con}(\hat{Y},Y)$ 来训练生成器和判别器，以及 Weight Predictor, Weight Filler 模块。
