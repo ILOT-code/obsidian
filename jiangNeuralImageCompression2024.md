@@ -10,6 +10,7 @@ tags:
 ---
 # Neural Image Compression Using Masked Sparse Visual Representation
 
+## Introduction
 使用 VQ 技术的压缩方案具有一些优点：
 1. 编解码端就算处于不同平台，也具有好的鲁棒性。在基于先验的框架中，浮点运算带来的一些扰动会影响 hyperpriors 的解码结果，而熵模型是十分敏感的，进而对解码的图像造成很大干扰。VQ 技术用整数来传递 latent, 避免了这个问题。
 2. 训练过程中，对有噪声干扰的训练图像更有鲁棒性。
@@ -21,5 +22,8 @@ tags:
 2. 高码率，低失真。代表：AdaCode
 
 MAGE 使用了单个 semantic-class-agnostic 的码本，AdaCode 使用了多个 semantic-class-dependent 的码本，并对多个码本的索引结果和权重 h 相乘。它们的设计无法动态地调控码率。本文则设计了一种可以动态调节码率的压缩方案。
+
+
+## Method
 
 
