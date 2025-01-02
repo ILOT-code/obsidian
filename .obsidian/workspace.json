@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dcvc fm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.49999618530273
+    "width": 263.49999618530273,
+    "collapsed": true
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -242,8 +243,7 @@
       "obsidian-git:Open Git source control": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "cmdr:ZotLit: Update literature note": false
     }
   },
   "active": "4990238530ebfee0",
