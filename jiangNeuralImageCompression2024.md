@@ -40,3 +40,8 @@ weight 采用 16 位 float，在不 mask 的情况下，每个 super-pixel共需
 ## 训练
 采用 AdaCode 中训练好的 $E^{emb}$ 和码本，并固定它们。
 使用 L1 损失 $\mathcal{L}_{1}(\hat{x},x)$, pereptual loss $\mathcal{L}_{per}(\hat{x},x)$，对抗损失 $\mathcal{L}_{adv}(\hat{x},x)$, 以及 Y 的重建损失 $\mathcal{L}_{con}(\hat{Y},Y)$ 来训练生成器和判别器，以及 Weight Predictor, Weight Filler 模块。
+
+## 实验
+
+可以看到, MAGE 和 AdaCode 趋向于本文方法的两个极端例子。把这两个点连接起来，作为概念性的 baseline, 进行比较。
+![[Pasted image 20250102165249.png]]![[Pasted image 20250102165411.png]]
