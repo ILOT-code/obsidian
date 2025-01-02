@@ -14,4 +14,4 @@ tags:
 1. 低码率，高失真。代表：MAGE
 2. 高码率，低失真。代表：AdaCode
 
-MAGE 使用了单个
+MAGE 使用了单个 semantic-class-agnostic 的码本，AdaC
