@@ -29,4 +29,8 @@ MAGE 使用了单个 semantic-class-agnostic 的码本，AdaCode 使用了多个
 
 这个模型建立在 AdaCode 之上。
 
-Weight-Predictor 根据 $Y$ 直接来生成一个权重 $W$。设码本数量是 $K$, masking 模块会对每个 super-pixel 保留 $m$ 个权重，mask 掉其它 $K-m$ 个权重。mask 的策略是比较 weight 的绝对值。
+Weight-Predictor 根据 $Y$ 直接来生成一个权重 $W$。设码本数量是 $K$, masking 模块会对每个 super-pixel 保留 $m$ 个权重，mask 掉其它 $K-m$ 个权重，得到 $\tilde{W}$ ,mask 的策略是比较 weight 的绝对值。
+
+weight 采用 16 位 float，在不 mask 的情况下，每个 super-pixel共需要 $16K$ 的码流来传递 $W$，在 mask 之后，需要 $(16+floor(\log_{2}K))\times m$ 的码流。
+
+在解码端，首先根据索引去各自的码本中得到 $Y_{q}$，使用 $\tilde{W}$ 和其相乘，得到 $\tilde{Y}$。Weight Filler 模块和 Weight P
