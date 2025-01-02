@@ -21,7 +21,7 @@ tags:
 1. 低码率，高失真。代表：MAGE
 2. 高码率，低失真。代表：AdaCode
 
-MAGE 使用了单个 semantic-class-agnostic 的码本，AdaCode 使用了多个 semantic-class-dependent 的码本，并对多个码本的索引结果和权重 h 相乘。它们的设计无法动态地调控码率。本文则设计了一种可以动态调节码率的压缩方案。
+MAGE 使用了单个 semantic-class-agnostic 的码本，AdaCode 使用了多个 semantic-class-dependent 的码本，并对多个码本的索引结果和权重相乘。它们的设计无法动态地调控码率。本文则设计了一种可以动态调节码率的压缩方案。
 
 
 ## Method
