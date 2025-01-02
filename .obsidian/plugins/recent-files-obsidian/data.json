@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "jiangNeuralImageCompression2024",
+      "path": "jiangNeuralImageCompression2024.md"
+    },
+    {
       "basename": "DCVC系列",
       "path": "DCVC系列.md"
     },
     {
-      "basename": "li2024-neural",
-      "path": "LiteratureNotes/li2024-neural.md"
-    },
-    {
       "basename": "zhang2024-LDMIC",
       "path": "zhang2024-LDMIC.md"
+    },
+    {
+      "basename": "li2024-neural",
+      "path": "LiteratureNotes/li2024-neural.md"
     },
     {
       "basename": "周报24-09-21",
@@ -195,10 +199,6 @@
     {
       "basename": "2024-09-01",
       "path": "diary/2024-09-01.md"
-    },
-    {
-      "basename": "2024-09-03",
-      "path": "diary/2024-09-03.md"
     }
   ],
   "omittedPaths": [],

@@ -13,40 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DCVC系列.md",
+                "file": "jiangNeuralImageCompression2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DCVC系列"
-            }
-          },
-          {
-            "id": "69a268e24ea92efe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LiteratureNotes/li2024-neural.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "li2024-neural"
-            }
-          },
-          {
-            "id": "ba7f12fadc7c1772",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "han2024-CausalContextAdjustment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "han2024-CausalContextAdjustment"
+              "title": "jiangNeuralImageCompression2024"
             }
           }
         ]
@@ -102,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "f9ff9a56711812bb",
@@ -124,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.49999618530273,
-    "collapsed": true
+    "width": 263.49999618530273
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -248,10 +218,11 @@
   },
   "active": "4990238530ebfee0",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20250101194448.png",
-    "LiteratureNotes/li2024-neural.md",
     "DCVC系列.md",
     "zhang2024-LDMIC.md",
+    "jiangNeuralImageCompression2024.md",
+    "Attachments/Pasted image 20250101194448.png",
+    "LiteratureNotes/li2024-neural.md",
     "周报/周报24-09-21.md",
     "Attachments/Pasted image 20250101192420.png",
     "Attachments/Pasted image 20250101191717.png",
@@ -262,7 +233,6 @@
     "Attachments/Pasted image 20250101155418.png",
     "Attachments/Pasted image 20250101155056.png",
     "Attachments/Pasted image 20250101155023.png",
-    "Attachments/Pasted image 20250101154446.png",
     "han2024-CausalContextAdjustment.md",
     "LiteratureNotes/tang2023-scene.md",
     "chen2024-howfarcan.md",
