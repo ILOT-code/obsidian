@@ -33,4 +33,7 @@ Weight-Predictor 根据 $Y$ 直接来生成一个权重 $W$。设码本数量是
 
 weight 采用 16 位 float，在不 mask 的情况下，每个 super-pixel共需要 $16K$ 的码流来传递 $W$，在 mask 之后，需要 $(16+floor(\log_{2}K))\times m$ 的码流。
 
-在解码端，首先根据索引去各自的码本中得到 $Y_{q}$，使用 $\tilde{W}$ 和其相乘，得到 $\tilde{Y}$。Weight Filler 模块和 Weight P
+在解码端，首先根据索引去各自的码本中得到 $Y_{q}$，使用 $\tilde{W}$ 和其相乘，得到 $\tilde{Y}$。Weight Filler 模块和 Weight Predictor 类似，重新生成新的 weight, 并进一步得到重建的 $Y$。
+
+在 $m=1$ 的特殊情况下，Weight-Predictor 会做出改进，此时 weight 的大小并不重要了，仅仅需要传递一个码流大小为 $u\times v\times floor(\log K)$ 的权重。
+
