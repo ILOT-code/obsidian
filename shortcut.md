@@ -199,6 +199,7 @@
 | 关闭当前工作目录                  | Ctrl+K F                 |
 | 向右拆分编辑器                   | Ctrl+\                   |
 | 向下拆分编辑器                   | Ctrl+K Ctrl+\            |
+| 右侧打开相同的编辑器                | Ctrl+K Ctrl+Shift+\      |
 | 聚焦到第 1,2,3 个编辑器组 (不存在就创造) | Ctrl+(1,2,3)             |
 | 聚焦左主侧栏                    | Ctrl+0                   |
 | 转到左边(右边)的编辑器              | Ctrl+PageUp(PageDown)    |
