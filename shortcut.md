@@ -144,6 +144,7 @@
 | 搜索切换整个单词                 | Alt+W                 |
 | 按 Tab 来移到焦点              | Ctrl+M                |
 | 切换长代码自动换行                | Alt+Z                 |
+| 设置标记与选择到标记               | Ctrl+K, Ctrl+B (K)    |
 
 ## Rich Languages Editing
 
