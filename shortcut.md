@@ -122,6 +122,7 @@
 | 删除到当前单词尾部                | Ctrl+Delete           |
 | 滚动屏幕一行                   | Ctrl+Up(Down)         |
 | 滚动屏幕一页(更改)               | Ctrl+Alt+Up(Down)     |
+| 滚动屏幕一页，光标跟随滚动            | PageUP (PageDown)     |
 | 按跳转方向选中                  | Shift+Jump            |
 | 折叠当前所在块                  | Ctrl+Shift+[          |
 | 展开当前所在块                  | Ctrl+Shift+]          |

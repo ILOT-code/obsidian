@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jiangNeuralImageCompression2024.md",
+                "file": "shortcut.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jiangNeuralImageCompression2024"
+              "title": "shortcut"
             }
           }
         ]
@@ -219,8 +219,8 @@
   },
   "active": "31cf1b974ebd96f4",
   "lastOpenFiles": [
-    "DCVC系列.md",
     "jiangNeuralImageCompression2024.md",
+    "DCVC系列.md",
     "Attachments/Pasted image 20250102165807.png",
     "Attachments/Pasted image 20250102165411.png",
     "Attachments/Pasted image 20250102165249.png",
