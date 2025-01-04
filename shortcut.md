@@ -185,6 +185,7 @@
 | 切换标签页 (下一个，上一个) | Ctrl+(Shift)+Tab |
 | 返回              | Ctrl+Alt+-       |
 | 前进              | Ctrl+Shift+-     |
+| 回到上一编辑位置        | Ctrl+K, Ctrl+Q   |
 | 聚焦到导航路径视图       | Ctrl+Shift+;     |
 | 聚焦到导航路径视图并选择    | Ctrl+Shift+.     |
 
@@ -224,6 +225,7 @@
 | 关闭全部编辑器                                        | Ctrl+K Ctrl+W      |
 | 重新打开关闭的编辑器(可连按)(更改)                            | Ctrl+K Ctrl+R      |
 | 使当前处于预览的文件保持打开(预览状态的文件名是斜体的，这是点击其它文件，此文件会被切换掉) | Ctrl+K Enter       |
+| 切换编辑器是否固定 (更改)                                 | Ctrl+K, Ctrl+Enter |
 | 复制当前文件路径                                       | Ctrl+K P           |
 | 在资源管理器中定位到当前文件                                 | Ctrl+K R           |
 | 聚焦在文件栏，复制文件绝对（相对）路径                            | Ctrl+{Shift}+Alt+C |
@@ -297,6 +299,12 @@
 |作用|按键|
 |---|---|
 |运行构建任务|Ctrl+SHift+B|
+## Terminal
+
+| 作用  | 案件  |
+| --- | --- |
+|     |     |
+
 
 ## Extensions
 
@@ -330,7 +338,7 @@
 | Metago         | 把当前行滚动到底部、中间、顶部 (更改)                  | Alt+(B, N, T)              |
 | Metago         | 向下、向上选择行。需要先按 Ctrl+L                  | (Ctrl, Alt)+L              |
 | Metago         | 在选中文本时，切换光标在文本的头部还是尾部 (更改)            | Alt+U                      |
-|                |                                       |                            |
+| SSH            | 打开远程菜单                                | Ctrl+Alt+O                 |
 |                |                                       |                            |
 
 
