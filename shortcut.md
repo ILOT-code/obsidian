@@ -326,6 +326,9 @@
 | Bracket Select | 选中括号内内容，（包括括号）                        | Ctrl+Alt+A                 |
 | Git History    | 显示文件的 git 历史                          | Alt+H                      |
 | Git            | 打开更改 (更改)                             | Alt+M                      |
+| Git            | Alt+M 视图中，还原所选范围                      | Ctrl+K, Ctrl+Alt+R         |
+| Git            | Alt+M 视图中，暂存所选范围                      | Ctrl+K, Ctrl+Alt+S         |
+| Git            | Alt+M 视图中，取消暂存所选范围                    | Ctrl+K, Ctrl+Alt+N         |
 | Metago         | 把当前编辑器移到 （上一个、下一个）编辑器组                | Ctrl+K, Ctrl+(left, right) |
 | Metago         | 切换到列选择模式 (此时选择文本将按照列的方式进行)            | Alt+V                      |
 | Metago         | 删除到行首，行尾                              | Shift+(Backspace, Delete)  |
@@ -345,7 +348,7 @@
 | Metago         | 向下、向上选择行。需要先按 Ctrl+L                  | (Ctrl, Alt)+L              |
 | Metago         | 在选中文本时，切换光标在文本的头部还是尾部 (更改)            | Alt+U                      |
 | SSH            | 打开远程菜单                                | Ctrl+Alt+O                 |
-|                |                                       |                            |
+| Clangd         | 切换头文件源文件                              | Alt+0                      |
 
 
 
