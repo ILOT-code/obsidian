@@ -348,7 +348,7 @@
 | Metago         | 向下、向上选择行。需要先按 Ctrl+L                  | (Ctrl, Alt)+L              |
 | Metago         | 在选中文本时，切换光标在文本的头部还是尾部 (更改)            | Alt+U                      |
 | SSH            | 打开远程菜单                                | Ctrl+Alt+O                 |
-| Clangd         | 切换头文件源文件                              | Alt+0                      |
+| Clangd         | 切换头文件源文件                              | Alt+O                      |
 
 
 
