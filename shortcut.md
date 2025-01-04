@@ -157,6 +157,7 @@
 | 转到定义(更改)             | Ctrl+Alt+D       |
 | 转到定义(在边上打开)(更改)      | Ctrl+Alt+S       |
 | 查看定义(悬浮窗口上)(更改)      | Ctrl+Alt+H       |
+| 重构符号                 | Ctrl+Shift+R     |
 | 快速修改                 | Ctrl+.           |
 | 查看引用 (悬浮窗口)(更改)      | Alt+Shift+D      |
 | 查看全部引用 (在左栏显示)       | Alt+Shift+A      |
@@ -165,6 +166,7 @@
 | 智能选择区域 (扩展)          | Shift+Alt+Right  |
 | 智能选择区域 (收缩)          | Shift+Alt+Left   |
 | 删除不必要的空格             | Ctrl+K Ctrl+X    |
+|                      |                  |
 
 ## Navigation
 
@@ -250,18 +252,19 @@
 
 ## Search
 
-| 作用           | 按键           |
-| ------------ | ------------ |
-| 打开搜索         | Ctrl+Shift+F |
-| 打开替换         | Ctrl+Shift+H |
-| 切换大小写敏感      | Alt+C        |
-| 切换是否选择整个单词   | Alt+W        |
-| 切换是否使用正则表达式  | Alt+R        |
-| 显示(隐藏)搜索的细节  | Ctrl+Shift+J |
-| 下一个搜索结果 (更改) | Ctrl+Alt+N   |
-| 上一个搜索结果 (更改) | Ctrl+Alt+P   |
-| 显示下一个搜索项目    | Down         |
-| 显示前一个搜索项目    | Up           |
+| 作用            | 按键              |
+| ------------- | --------------- |
+| 打开搜索          | Ctrl+Shift+F    |
+| 打开替换          | Ctrl+Shift+H    |
+| 切换大小写敏感       | Alt+C           |
+| 切换是否选择整个单词    | Alt+W           |
+| 切换是否使用正则表达式   | Alt+R           |
+| 显示(隐藏)搜索的细节   | Ctrl+Shift+J    |
+| 下一个搜索结果 (更改)  | Ctrl+Alt+N      |
+| 上一个搜索结果 (更改)  | Ctrl+Alt+P      |
+| 转到下(上)一个更改或差异 | Ctrl+Alt+(N, P) |
+| 显示下一个搜索项目     | Down            |
+| 显示前一个搜索项目     | Up              |
 
 ## Preferences
 
