@@ -209,6 +209,7 @@
 | 将当前编辑器右移(左移)(更改)          | Ctrl+Shift+Down(Up)      |
 | 将当前编辑器组向方向键移动             | Ctrl+K Arrow             |
 | 按方向聚焦到编辑器组（更改）            | Ctrl+K, Ctrl+Shift+Arror |
+|                           | Ctrl+Alt+(left, right)   |
 
 ## File Management
 
