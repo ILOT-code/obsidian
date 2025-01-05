@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sundry/vim.md",
+                "file": "shortcut.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vim"
+              "title": "shortcut"
             }
           }
         ]
@@ -219,6 +219,7 @@
   },
   "active": "31cf1b974ebd96f4",
   "lastOpenFiles": [
+    "Sundry/vim.md",
     "shortcut.md",
     "jiangNeuralImageCompression2024.md",
     "DCVC系列.md",
