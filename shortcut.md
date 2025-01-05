@@ -193,23 +193,23 @@
 
 ## Edit/Window Management
 
-| 作用                        | 按键                       |
-| ------------------------- | ------------------------ |
-| 新窗口                       | Ctrl+Shift+N             |
-| 关闭窗口                      | Ctrl+Shift+W (Ctrl+Q)    |
-| 打开最近的文件或文件夹               | Ctrl+R                   |
-| 关闭当前编辑器                   | Ctrl+W                   |
-| 关闭当前工作目录                  | Ctrl+K F                 |
-| 向右拆分编辑器                   | Ctrl+\                   |
-| 向下拆分编辑器                   | Ctrl+K Ctrl+\            |
-| 右侧打开相同的编辑器                | Ctrl+K Ctrl+Shift+\      |
-| 聚焦到第 1,2,3 个编辑器组 (不存在就创造) | Ctrl+(1,2,3)             |
-| 聚焦左主侧栏                    | Ctrl+0                   |
-| 转到左边(右边)的编辑器              | Ctrl+PageUp(PageDown)    |
-| 将当前编辑器右移(左移)(更改)          | Ctrl+Shift+Down(Up)      |
-| 将当前编辑器组向方向键移动             | Ctrl+K Arrow             |
-| 按方向聚焦到编辑器组（更改）            | Ctrl+K, Ctrl+Shift+Arror |
-|                           | Ctrl+Alt+(left, right)   |
+| 作用                        | 按键                     |
+| ------------------------- | ---------------------- |
+| 新窗口                       | Ctrl+Shift+N           |
+| 关闭窗口                      | Ctrl+Shift+W (Ctrl+Q)  |
+| 打开最近的文件或文件夹               | Ctrl+R                 |
+| 关闭当前编辑器                   | Ctrl+W                 |
+| 关闭当前工作目录                  | Ctrl+K F               |
+| 向右拆分编辑器                   | Ctrl+\                 |
+| 向下拆分编辑器                   | Ctrl+K Ctrl+\          |
+| 右侧打开相同的编辑器                | Ctrl+K Ctrl+Shift+\    |
+| 聚焦到第 1,2,3 个编辑器组 (不存在就创造) | Ctrl+(1,2,3)           |
+| 聚焦左主侧栏                    | Ctrl+0                 |
+| 转到左边(右边)的编辑器              | Ctrl+PageUp(PageDown)  |
+| 将当前编辑器右移(左移)(更改)          | Ctrl+Shift+Down(Up)    |
+| 将当前编辑器组向方向键移动             | Ctrl+K Arrow           |
+| 按方向聚焦到编辑器组（更改）            | Ctrl+K, Ctrl+Arror     |
+| 把当前编辑器移到 （上一个、下一个）编辑器组    | Ctrl+Alt+(left, right) |
 
 ## File Management
 
@@ -330,7 +330,7 @@
 | Git            | Alt+M 视图中，还原所选范围                      | Ctrl+K, Ctrl+Alt+R         |
 | Git            | Alt+M 视图中，暂存所选范围                      | Ctrl+K, Ctrl+Alt+S         |
 | Git            | Alt+M 视图中，取消暂存所选范围                    | Ctrl+K, Ctrl+Alt+N         |
-| Metago         | 把当前编辑器移到 （上一个、下一个）编辑器组                | Ctrl+K, Ctrl+(left, right) |
+| Metago         | 把当前编辑器移到 （上一个、下一个）编辑器组 (删除)           | Ctrl+K, Ctrl+(left, right) |
 | Metago         | 切换到列选择模式 (此时选择文本将按照列的方式进行)            | Alt+V                      |
 | Metago         | 删除到行首，行尾                              | Shift+(Backspace, Delete)  |
 | Metago         | 选中括号中的内容 (是否包括括号本身)。输入起始的 pair (,{来选择 | Alt+(Ctrl)+A               |
