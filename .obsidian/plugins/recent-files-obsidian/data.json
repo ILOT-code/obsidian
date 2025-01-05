@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vim",
+      "path": "Sundry/vim.md"
+    },
+    {
       "basename": "shortcut",
       "path": "shortcut.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2024-09-06",
       "path": "diary/2024-09-06.md"
-    },
-    {
-      "basename": "2024-09-01",
-      "path": "diary/2024-09-01.md"
     }
   ],
   "omittedPaths": [],
