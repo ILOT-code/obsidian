@@ -11,20 +11,20 @@
 | 在应用程序间切换                    | Super+Tab                |
 | 在窗口间切换                      | Alt+Tab                  |
 | 在应用程序的窗口间切换 (Super+Tab 选中后) | Super (Alt)+ `           |
-| 把当前窗口移动到(左，右)显示器            | Shift+Super+(left,right) |
-| 把当前窗口移动到(左，右)工作区(更改)        | Shift+Super+(uo,down)    |
-| 转到(左，右)工作区                  | Ctrl+Alt+(left,right)    |
+| 把当前窗口移动到 (左，右) 显示器            | Shift+Super+(left, right) |
+| 把当前窗口移动到 (左，右) 工作区 (更改)        | Shift+Super+(uo, down)    |
+| 转到 (左，右) 工作区                  | Ctrl+Alt+(left, right)    |
 | 隐藏所有正常显示的窗口                 | Super+D                  |
-| 关闭窗口                        | Alt+F4                   |
-| 窗口切换到最大状态                   | Alt+F10                  |
-| 改变窗口大小                      | Alt+F8                   |
-| 窗口向(左，右)分割                  | Super+(left,right)       |
-| (恢复，最大化)窗口                  | Super+(down,up)          |
+| 关闭窗口                        | Alt+F 4                   |
+| 窗口切换到最大状态                   | Alt+F 10                  |
+| 改变窗口大小                      | Alt+F 8                   |
+| 窗口向 (左，右) 分割                  | Super+(left, right)       |
+| (恢复，最大化) 窗口                  | Super+(down, up)          |
 | 隐藏窗口                        | Super+H                  |
 | 激活窗口菜单                      | Alt+Space                |
 | 显示工作区概览                     | Super                    |
 | 显示全部应用程序                    | Super+A                  |
-| 显示通知                        | Super+V(M)               |
+| 显示通知                        | Super+V (M)               |
 | 锁屏                          | Super+L                  |
 | 交互式截屏                       | Print                    |
 | 对窗口进行截屏                     | Alt+Print                |
@@ -37,14 +37,14 @@
 | 打开系统监视器                     | Meta+Esc              |
 | 打开 Dolphin                  | Meta+E                |
 | 打开 wezterm                  | Ctrl+Alt+T            |
-| flameshot                   | F1                    |
+| flameshot                   | F 1                    |
 | 显示器切换                       | Meta+P                |
-| 遍历窗口 (反向)                   | Alt+(Shift)Tab        |
+| 遍历窗口 (反向)                   | Alt+(Shift) Tab        |
 | 遍历当前应用程序窗口 (反向)             | Alt+(\`,-)            |
 | 按方向把窗口移到对应桌面                | Meta+Ctrl+Shift+Arrow |
 | 磁铁编辑器，按 Shift 拖动窗口可以固定其到磁贴上 | Meta+T                |
 | 放大缩小                        | Meta+(0,=.-)          |
-| 关闭窗口                        | Alt+F4                |
+| 关闭窗口                        | Alt+F 4                |
 | 按方向平铺窗口                     | Meta+Arrow            |
 | 按方向切换到对应桌面                  | Meta+Ctrl+Arror       |
 | 按方向切换到对应窗口                  | Meta+Alt+Arror        |
@@ -74,15 +74,15 @@
     
 - `?` 列出当前可执行的动作
     
-- `!` 显示Errors或Warnings，也可以`Ctrl+Shift+M`
+- `!` 显示 Errors 或 Warnings，也可以`Ctrl+Shift+M`
     
 - `:` 跳转到行数，也可以`Ctrl+G`直接进入
     
 - `@` 在当前文件中，跳转到 symbol（搜索变量或者函数），也可以 Ctrl+Shift+O 直接进入
     
-- `@:`根据分类跳转symbol，查找属性或函数，也可以`Ctrl+Shift+O`后输入`:`进入
+- `@:`根据分类跳转 symbol，查找属性或函数，也可以`Ctrl+Shift+O`后输入`:`进入
     
-- `#` 在当前目录中，根据名字查找symbol，也可以 `Ctrl+T`
+- `#` 在当前目录中，根据名字查找 symbol，也可以 `Ctrl+T`
     
 
 ## Basic Editing
@@ -97,8 +97,8 @@
 | 在上方插入行                   | Ctrl+Shift+Enter      |
 | 上移当前行                    | Alt+Down              |
 | 下移当前行                    | Alt+Up                |
-| 向下复制当前行(失败)              | Ctrl+Shift+Alt+Down   |
-| 向上复制当前行(失败)              | Ctrl+Shift+Alt+Up     |
+| 向下复制当前行 (失败)              | Ctrl+Shift+Alt+Down   |
+| 向上复制当前行 (失败)              | Ctrl+Shift+Alt+Up     |
 | 撤销                       | Ctrl+Z                |
 | 重做                       | Ctrl+Y (Ctrl+Shift+Z) |
 | 回到上次光标位置                 | Ctrl+U                |
@@ -117,23 +117,23 @@
 | 跳转到行尾 (连按，切换软硬)          | End                   |
 | 跳转到文件首                   | Ctrl+Home             |
 | 跳转到文件首                   | Ctrl+End              |
-| 以单词为单位跳转                 | Ctrl+Left(Right)      |
+| 以单词为单位跳转                 | Ctrl+Left (Right)      |
 | 删除到当前单词首部                | Ctrl+Backspace        |
 | 删除到当前单词尾部                | Ctrl+Delete           |
-| 滚动屏幕一行                   | Ctrl+Up(Down)         |
-| 滚动屏幕一页(更改)               | Ctrl+Alt+Up(Down)     |
+| 滚动屏幕一行                   | Ctrl+Up (Down)         |
+| 滚动屏幕一页 (更改)               | Ctrl+Alt+Up (Down)     |
 | 滚动屏幕一页，光标跟随滚动            | PageUP (PageDown)     |
 | 按跳转方向选中                  | Shift+Jump            |
 | 折叠当前所在块                  | Ctrl+Shift+[          |
 | 展开当前所在块                  | Ctrl+Shift+]          |
-| 折叠当前块(以递归方式)(更改)         | Ｃtrl+Alt+[            |
-| 展开当前块(以递归方式)(更改)         | Ctrl+Alt+]            |
-| 折叠全部块(更改)                | Ctrl+K Ctrl+[         |
-| 展开全部块(更改)                | Ctrl+K Ctrl+]         |
+| 折叠当前块 (以递归方式)(更改)         | Ｃtrl+Alt+[            |
+| 展开当前块 (以递归方式)(更改)         | Ctrl+Alt+]            |
+| 折叠全部块 (更改)                | Ctrl+K Ctrl+[         |
+| 展开全部块 (更改)                | Ctrl+K Ctrl+]         |
 | 折叠选中部分，展开该创建的选择部分        | Ctrl+K, Ctrl+{,.}     |
 | 折叠 (展开) 所选范围外的全部         | Ctrl+K, Ctrl+(-,+)    |
-| 给当前行(或选中行)添加(或去除)行级别注释符号 | Ctrl+/                |
-| 添加(或去除)块级注释符号            | Ctrl+Shift+/          |
+| 给当前行 (或选中行) 添加 (或去除) 行级别注释符号 | Ctrl+/                |
+| 添加 (或去除) 块级注释符号            | Ctrl+Shift+/          |
 | 在当前文件查找                  | Ctrl+F                |
 | 在当前文件替换                  | Ctrl+H                |
 | 到下一个查找匹配的项               | Enter                 |
@@ -154,13 +154,13 @@
 | 作用                   | 按键               |
 | -------------------- | ---------------- |
 | 触发建议                 | Ctrl+Space       |
-| 触发函数提示(光标在函数括号内)     | Ctrl+Shift+Space |
+| 触发函数提示 (光标在函数括号内)     | Ctrl+Shift+Space |
 | 格式化文档                | Ctri+Shift+I     |
-| 格式化当前行(或所选区域)        | Ctrl+K Ctrl+F    |
+| 格式化当前行 (或所选区域)        | Ctrl+K Ctrl+F    |
 | 显示其信息 (光标在函数，类，变量上 ) | Ctrl+K Ctrl+I    |
-| 转到定义(更改)             | Ctrl+Alt+D       |
-| 转到定义(在边上打开)(更改)      | Ctrl+Alt+S       |
-| 查看定义(悬浮窗口上)(更改)      | Ctrl+Alt+H       |
+| 转到定义 (更改)             | Ctrl+Alt+D       |
+| 转到定义 (在边上打开)(更改)      | Ctrl+Alt+S       |
+| 查看定义 (悬浮窗口上)(更改)      | Ctrl+Alt+H       |
 | 重构符号                 | Ctrl+Shift+R     |
 | 快速修改                 | Ctrl+.           |
 | 查看引用 (悬浮窗口)(更改)      | Alt+Shift+D      |
@@ -181,8 +181,8 @@
 | 快速打开文件          | Ctrl+P           |
 | 转移到符号           | Ctrl+Shift+O     |
 | 显示问题栏           | Ctrl+Shift+M     |
-| 转到下一个问题(更改)     | Ctrl+K Ctrl+E    |
-| 转到上一个问题(更改)     | Ctrl+K E         |
+| 转到下一个问题 (更改)     | Ctrl+K Ctrl+E    |
+| 转到上一个问题 (更改)     | Ctrl+K E         |
 | 输入命令            | Ctrl+Shift+P     |
 | 切换标签页 (下一个，上一个) | Ctrl+(Shift)+Tab |
 | 返回              | Ctrl+Alt+-       |
@@ -205,8 +205,8 @@
 | 右侧打开相同的编辑器                | Ctrl+K Ctrl+Shift+\    |
 | 聚焦到第 1,2,3 个编辑器组 (不存在就创造) | Ctrl+(1,2,3)           |
 | 聚焦左主侧栏                    | Ctrl+0                 |
-| 转到左边(右边)的编辑器              | Ctrl+PageUp(PageDown)  |
-| 将当前编辑器右移(左移)(更改)          | Ctrl+Shift+Down(Up)    |
+| 转到左边 (右边) 的编辑器              | Ctrl+PageUp (PageDown)  |
+| 将当前编辑器右移 (左移)(更改)          | Ctrl+Shift+Down (Up)    |
 | 将当前编辑器组向方向键移动             | Ctrl+K Arrow           |
 | 按方向聚焦到编辑器组（更改）            | Ctrl+K, Ctrl+Arror     |
 | 把当前编辑器移到 （上一个、下一个）编辑器组    | Ctrl+Alt+(left, right) |
@@ -226,8 +226,8 @@
 | 关闭当前编辑器组中已保存的文件                                | Ctrl+K U           |
 | 切换最大化当前编辑器组                                    | Ctrl+K Ctrl+Z      |
 | 关闭全部编辑器                                        | Ctrl+K Ctrl+W      |
-| 重新打开关闭的编辑器(可连按)(更改)                            | Ctrl+K Ctrl+R      |
-| 使当前处于预览的文件保持打开(预览状态的文件名是斜体的，这是点击其它文件，此文件会被切换掉) | Ctrl+K Enter       |
+| 重新打开关闭的编辑器 (可连按)(更改)                            | Ctrl+K Ctrl+R      |
+| 使当前处于预览的文件保持打开 (预览状态的文件名是斜体的，这是点击其它文件，此文件会被切换掉) | Ctrl+K Enter       |
 | 切换编辑器是否固定 (更改)                                 | Ctrl+K, Ctrl+Enter |
 | 复制当前文件路径                                       | Ctrl+K P           |
 | 在资源管理器中定位到当前文件                                 | Ctrl+K R           |
@@ -237,12 +237,12 @@
 
 | 作用                 | 按键                   |
 | ------------------ | -------------------- |
-| 进入(退出)全屏           | F11                  |
+| 进入 (退出) 全屏           | F 11                  |
 | 显示菜单栏 (菜单栏不可见时)    | Alt                  |
-| 进入(退出)Zen模式        | Ctrl+K Z             |
-| 放大(缩小)             | Ctrl+=(-)            |
-| 显示(折叠)左主侧栏         | Ctrl+B               |
-| 显示(折叠)右主侧栏         | Ctrl+Alt+B           |
+| 进入 (退出) Zen 模式        | Ctrl+K Z             |
+| 放大 (缩小)             | Ctrl+=(-)            |
+| 显示 (折叠) 左主侧栏         | Ctrl+B               |
+| 显示 (折叠) 右主侧栏         | Ctrl+Alt+B           |
 | 显示资源管理器            | Ctrl+Shift+E         |
 | 显示搜索               | Ctrl+Shift+F         |
 | 显示替换               | Ctrl+Shift+H         |
@@ -255,9 +255,9 @@
 | 显示终端               | Ctrl+`               |
 | 新建终端               | Ctrl+Shift+`         |
 | 显示 (隐藏) 下栏         | Ctrl+J               |
-| 打开系统终端(到当前目录下)（更改） | Ctrl+Shift+Q         |
-| 预览当前md文件(在新编辑器中)   | Ctrl+Shift+V         |
-| 预览当前md文件(在右边打开)    | Ctrl+K V             |
+| 打开系统终端 (到当前目录下)（更改） | Ctrl+Shift+Q         |
+| 预览当前 md 文件 (在新编辑器中)   | Ctrl+Shift+V         |
+| 预览当前 md 文件 (在右边打开)    | Ctrl+K V             |
 | 显示通知               | Ctrl+K, Ctrl+Shift+N |
 
 ## Search
@@ -269,10 +269,10 @@
 | 切换大小写敏感                     | Alt+C           |
 | 切换是否选择整个单词                  | Alt+W           |
 | 切换是否使用正则表达式                 | Alt+R           |
-| 显示(隐藏)搜索的细节                 | Ctrl+Shift+J    |
+| 显示 (隐藏) 搜索的细节                 | Ctrl+Shift+J    |
 | 下一个搜索结果 (更改)                | Ctrl+Alt+N      |
 | 上一个搜索结果 (更改)                | Ctrl+Alt+P      |
-| 转到下(上)一个更改或差异, (不在比较器中不可使用) | Ctrl+Alt+(N, P) |
+| 转到下 (上) 一个更改或差异, (不在比较器中不可使用) | Ctrl+Alt+(N, P) |
 | 转到下 (上) 一个突出显示              | Ctrl+Alt+(N, P) |
 | 显示下一个搜索项目                   | Down            |
 | 显示前一个搜索项目                   | Up              |
@@ -289,13 +289,13 @@
 
 |作用|按键|
 |---|---|
-|设置(取消)断点|F9|
-|开始调试|F5|
-|继续|F5|
-|以非调试模式运行|Ctrl+F5|
-|暂停|F6|
-|单步执行|F11|
-|逐过程执行|F10|
+|设置 (取消) 断点|F 9|
+|开始调试|F 5|
+|继续|F 5|
+|以非调试模式运行|Ctrl+F 5|
+|暂停|F 6|
+|单步执行|F 11|
+|逐过程执行|F 10|
 
 ## Tasks
 
@@ -319,7 +319,7 @@
 | 来源             | 作用                                    | 按键                         |
 | -------------- | ------------------------------------- | -------------------------- |
 | copilot        | 对选择内容进行解释                             | Ctrl+Alt+E                 |
-| copilot        | 把所选内容增加到聊天                            | Ctrl+K,Ctrl+Alt+E          |
+| copilot        | 把所选内容增加到聊天                            | Ctrl+K, Ctrl+Alt+E          |
 | copilot        | 在右边栏显示建议 (更改)                         | Alt+Enter                  |
 | copilot        | 询问 copilot (悬浮)                       | Ctrl+I                     |
 | copilot        | 询问 copilot（左边栏）                       | Ctrl+Alt+I                 |
@@ -404,7 +404,7 @@
 | 显示当前网页的不可修改的 HTML 源代码   | Ctrl+U         |
 | 保存为书签                   | Ctrl+D         |
 | 将所有打开的标签页以书签的形式保存在新文件夹中 | Ctrl+Shift+D   |
-| 切换全屏模式                  | F11            |
+| 切换全屏模式                  | F 11            |
 | 放大缩小重置                  | Ctrl+(+, -, 0) |
 | 到头部，到尾部                 | (Home, End)    |
 # Obsidian
@@ -478,8 +478,8 @@
 | 进入选择模式                   | Ctrl+Shift+Space    |
 | 垂直分割                     | Ctrl+\              |
 | 水平分割                     | Ctrl+Shift+\        |
-| 调整 (分割后)面板大小             | Shift+Alt+Arrowkey  |
-| 调整(分割后) 面板焦点             | Alt+Arrowkey        |
+| 调整 (分割后) 面板大小             | Shift+Alt+Arrowkey  |
+| 调整 (分割后) 面板焦点             | Alt+Arrowkey        |
 | 只显示该面板 (分割后)             | Ctrl+Shift+Z        |
 | 聚焦到 (0,1,2,3,4) 号面板（分割后） | Alt+(a, b, c, d, e) |
 ## 搜索模式
@@ -551,4 +551,3 @@
 | 切换到指定编号的窗口 | Leader+Num |
 | 从列表中选择窗口   | Leader+W   |
 | 窗口重命名      | Leader+,   |
-
