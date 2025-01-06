@@ -184,7 +184,7 @@
 | 转到下一个问题 (更改)    | Ctrl+K Ctrl+E    |
 | 转到上一个问题 (更改)    | Ctrl+K E         |
 | 转到下一个定义 (更改)    | Ctrl+K Ctrl+N    |
-| 转到上一个定义 (更改)    | Ctrl+K E         |
+| 转到上一个定义 (更改)    | Ctrl+K N         |
 | 输入命令            | Ctrl+Shift+P     |
 | 切换标签页 (下一个，上一个) | Ctrl+(Shift)+Tab |
 | 返回              | Ctrl+Alt+-       |
