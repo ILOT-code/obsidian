@@ -37,14 +37,14 @@
 | 打开系统监视器                     | Meta+Esc              |
 | 打开 Dolphin                  | Meta+E                |
 | 打开 wezterm                  | Ctrl+Alt+T            |
-| flameshot                   | F 1                    |
+| flameshot                   | F 1                   |
 | 显示器切换                       | Meta+P                |
-| 遍历窗口 (反向)                   | Alt+(Shift) Tab        |
+| 遍历窗口 (反向)                   | Alt+(Shift) Tab       |
 | 遍历当前应用程序窗口 (反向)             | Alt+(\`,-)            |
 | 按方向把窗口移到对应桌面                | Meta+Ctrl+Shift+Arrow |
 | 磁铁编辑器，按 Shift 拖动窗口可以固定其到磁贴上 | Meta+T                |
 | 放大缩小                        | Meta+(0,=.-)          |
-| 关闭窗口                        | Alt+F 4                |
+| 关闭窗口                        | Alt+F 4               |
 | 按方向平铺窗口                     | Meta+Arrow            |
 | 按方向切换到对应桌面                  | Meta+Ctrl+Arror       |
 | 按方向切换到对应窗口                  | Meta+Alt+Arror        |
@@ -181,8 +181,10 @@
 | 快速打开文件          | Ctrl+P           |
 | 转移到符号           | Ctrl+Shift+O     |
 | 显示问题栏           | Ctrl+Shift+M     |
-| 转到下一个问题 (更改)     | Ctrl+K Ctrl+E    |
-| 转到上一个问题 (更改)     | Ctrl+K E         |
+| 转到下一个问题 (更改)    | Ctrl+K Ctrl+E    |
+| 转到上一个问题 (更改)    | Ctrl+K E         |
+| 转到下一个定义 (更改)    | Ctrl+K Ctrl+N    |
+| 转到上一个定义 (更改)    | Ctrl+K E         |
 | 输入命令            | Ctrl+Shift+P     |
 | 切换标签页 (下一个，上一个) | Ctrl+(Shift)+Tab |
 | 返回              | Ctrl+Alt+-       |
