@@ -207,8 +207,8 @@
 | 右侧打开相同的编辑器                | Ctrl+K Ctrl+Shift+\    |
 | 聚焦到第 1,2,3 个编辑器组 (不存在就创造) | Ctrl+(1,2,3)           |
 | 聚焦左主侧栏                    | Ctrl+0                 |
-| 转到左边 (右边) 的编辑器              | Ctrl+PageUp (PageDown)  |
-| 将当前编辑器右移 (左移)(更改)          | Ctrl+Shift+Down (Up)    |
+| 转到左边 (右边) 的编辑器            | Ctrl+PageUp (PageDown) |
+| 将当前编辑器右移 (左移)(更改)         | Ctrl+Shift+Down (Up)   |
 | 将当前编辑器组向方向键移动             | Ctrl+K Arrow           |
 | 按方向聚焦到编辑器组（更改）            | Ctrl+K, Ctrl+Arror     |
 | 把当前编辑器移到 （上一个、下一个）编辑器组    | Ctrl+Alt+(left, right) |
