@@ -256,6 +256,7 @@
 | copilot     | 在右边栏显示建议 (更改)                              | Alt+Enter                  |
 | copilot     | 询问 copilot (悬浮)                            | Ctrl+I                     |
 | copilot     | 询问 copilot（左边栏）                            | Ctrl+Alt+I                 |
+| copilot     | 询问 copilot 编辑                              | Ctrl+Shift+Alt+I           |
 | copilot     | 下、上一个内联建议 (更改)                             | Shift+Alt+{\[,]}           |
 | copilot     | 逐单词接受建议                                    | Ctrl+Right                 |
 | copilot     | 新建会话                                       | Ctrl+L                     |
