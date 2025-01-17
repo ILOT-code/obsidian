@@ -253,6 +253,7 @@
 | copilot     | 询问 copilot（左边栏）                            | Ctrl+Alt+I                 |
 | copilot     | 下、上一个内联建议 (更改)                             | Shift+Alt+{\[,]}           |
 | copilot     | 逐单词接受建议                                    | Ctrl+Right                 |
+| copilot     | 新建会话                                       | Ctrl+L                     |
 | Git History | 显示文件的 git 历史                               | Alt+H                      |
 | Git         | 打开更改 (更改)                                  | Alt+M                      |
 | Git         | Alt+M 视图中，还原所选范围 (更改)                      | Ctrl+K, Ctrl+Alt+R         |
