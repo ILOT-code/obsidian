@@ -266,7 +266,7 @@
 | Metago         | 向前删除，向后删除到任意位置                        | Alt+{Delete, Backspace}    |
 | Metago         | 删除到任意位置                               | Alt+D                      |
 | Metago         | 跳转到字符后、前，或智能选择前后                      | Alt+{,./}                  |
-| Metago         | 在字符后、前（后智能前后）位置插入光标                   | Ctrl+Alt+{.,/}             |
+| Metago         | 在字符后、前（智能前后）位置插入光标                    | Ctrl+Alt+{.,/}             |
 | Metago         | 选择到字符后、前，或智能选择前后                      | Shift+Alt+{.,/}            |
 | Metago         | 跳转到下一个或上一个空行                          | Alt+{End, Home}            |
 | Metago         | 选择到下一个、上一个空行，可连按，反向按可取消一次选择           | Shift+Alt+{End, Home}      |
@@ -277,4 +277,3 @@
 | Clangd         | 切换头文件源文件                              | Alt+O                      |
 | block travel   | 块跳转（更改）                               | Alt+{left, right}          |
 | block travel   | 选择到上一（下一）块（更改）                        | Ctrl+K, Alt+{left, right}  |
-
