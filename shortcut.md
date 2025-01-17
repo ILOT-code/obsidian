@@ -154,13 +154,13 @@
 | 作用                   | 按键               |
 | -------------------- | ---------------- |
 | 触发建议                 | Ctrl+Space       |
-| 触发函数提示 (光标在函数括号内)     | Ctrl+Shift+Space |
+| 触发函数提示 (光标在函数括号内)    | Ctrl+Shift+Space |
 | 格式化文档                | Ctri+Shift+I     |
-| 格式化当前行 (或所选区域)        | Ctrl+K Ctrl+F    |
+| 格式化当前行 (或所选区域)       | Ctrl+K Ctrl+F    |
 | 显示其信息 (光标在函数，类，变量上 ) | Ctrl+K Ctrl+I    |
-| 转到定义 (更改)             | Ctrl+Alt+D       |
-| 转到定义 (在边上打开)(更改)      | Ctrl+Alt+S       |
-| 查看定义 (悬浮窗口上)(更改)      | Ctrl+Alt+H       |
+| 转到定义 (更改)            | Ctrl+Alt+D       |
+| 转到定义 (在边上打开)(更改)     | Ctrl+Alt+S       |
+| 查看定义 (悬浮窗口上)(更改)     | Ctrl+Alt+H       |
 | 重构符号                 | Ctrl+Shift+R     |
 | 快速修改                 | Ctrl+.           |
 | 查看引用 (悬浮窗口)(更改)      | Alt+Shift+D      |
