@@ -199,19 +199,19 @@
 | 显示通知                | Ctrl+K, Ctrl+Shift+N |
 ## 搜索
 
-| 作用                            | 按键              |
-| ----------------------------- | --------------- |
-| 打开搜索                          | Ctrl+Shift+F    |
-| 打开替换                          | Ctrl+Shift+H    |
-| 切换大小写敏感                       | Alt+C           |
-| 切换是否选择整个单词                    | Alt+W           |
-| 切换是否使用正则表达式                   | Alt+R           |
-| 显示 (隐藏) 搜索的细节                 | Ctrl+Shift+J    |
-| 下、上一个搜索结果 (更改)                | Ctrl+Alt+{N, P} |
-| 转到下 (上) 一个更改或差异, (不在比较器中不可使用) | Ctrl+Alt+{N, P} |
-| 转到下 (上) 一个突出显示                | Ctrl+Alt+{N, P} |
-| 显示下一个搜索项目                     | Down            |
-| 显示前一个搜索项目                     | Up              |
+| 作用                                | 按键              |
+| --------------------------------- | --------------- |
+| 打开搜索                              | Ctrl+Shift+F    |
+| 打开替换                              | Ctrl+Shift+H    |
+| 切换大小写敏感                           | Alt+C           |
+| 切换是否选择整个单词                        | Alt+W           |
+| 切换是否使用正则表达式                       | Alt+R           |
+| 显示 (隐藏) 搜索的细节                     | Ctrl+Shift+J    |
+| 下、上一个搜索结果 (更改)                    | Ctrl+Alt+{N, P} |
+| 转到下 (上) 一个更改或差异, (不在比较器中不可使用)(更改) | Ctrl+Alt+{N, P} |
+| 转到下 (上) 一个突出显示 (更改)               | Ctrl+Alt+{N, P} |
+| 显示下一个搜索项目                         | Down            |
+| 显示前一个搜索项目                         | Up              |
 
 ## Debug
 
@@ -241,39 +241,37 @@
 | 运行最近命令 (选择模式) | Ctrl+Alt+R |
 ## 扩展
 
-| 来源             | 作用                                    | 按键                         |
-| -------------- | ------------------------------------- | -------------------------- |
-| copilot        | 对选择内容进行解释                             | Ctrl+Alt+E                 |
-| copilot        | 把所选内容增加到聊天                            | Ctrl+K, Ctrl+Alt+E         |
-| copilot        | 在右边栏显示建议 (更改)                         | Alt+Enter                  |
-| copilot        | 询问 copilot (悬浮)                       | Ctrl+I                     |
-| copilot        | 询问 copilot（左边栏）                       | Ctrl+Alt+I                 |
-| Bracket Select | 选择括号内内容，可连按                           | Alt+A                      |
-| Bracket Select | 选中括号内内容，（包括括号）                        | Ctrl+Alt+A                 |
-| Git History    | 显示文件的 git 历史                          | Alt+H                      |
-| Git            | 打开更改 (更改)                             | Alt+M                      |
-| Git            | Alt+M 视图中，还原所选范围                      | Ctrl+K, Ctrl+Alt+R         |
-| Git            | Alt+M 视图中，暂存所选范围                      | Ctrl+K, Ctrl+Alt+S         |
-| Git            | Alt+M 视图中，取消暂存所选范围                    | Ctrl+K, Ctrl+Alt+N         |
-| Metago         | 把当前编辑器移到 （上一个、下一个）编辑器组 (删除)           | Ctrl+K, Ctrl+{left, right} |
-| Metago         | 切换到列选择模式 (此时选择文本将按照列的方式进行)            | Alt+V                      |
-| Metago         | 删除到行首，行尾                              | Shift+{Backspace, Delete}  |
-| Metago         | 选中括号中的内容 (是否包括括号本身)。输入起始的 pair (,{来选择 | Alt+{None,Ctrl}+A          |
-| Metago         | 选中 pair 对，不包括其中的内容，修改该括号类型            | Alt+P                      |
-| Metago         | 添加或去除书签（更改）                           | Alt+K                      |
-| Metago         | 跳转到下一个，上一个书签位置                        | Alt+{[,]}                  |
-| Metago         | 书签菜单                                  | Alt+\                      |
-| Metago         | 向前删除，向后删除到任意位置                        | Alt+{Delete, Backspace}    |
-| Metago         | 删除到任意位置                               | Alt+D                      |
-| Metago         | 跳转到字符后、前，或智能选择前后                      | Alt+{,./}                  |
-| Metago         | 在字符后、前（智能前后）位置插入光标                    | Ctrl+Alt+{.,/}             |
-| Metago         | 选择到字符后、前，或智能选择前后                      | Shift+Alt+{.,/}            |
-| Metago         | 跳转到下一个或上一个空行                          | Alt+{End, Home}            |
-| Metago         | 选择到下一个、上一个空行，可连按，反向按可取消一次选择           | Shift+Alt+{End, Home}      |
-| Metago         | 把当前行滚动到底部、中间、顶部 (更改)                  | Alt+{B, N, T}              |
-| Metago         | 向下、向上选择行。需要先按 Ctrl+L                  | {Ctrl, Alt}+L              |
-| Metago         | 在选中文本时，切换光标在文本的头部还是尾部 (更改)            | Alt+U                      |
-| SSH            | 打开远程菜单                                | Ctrl+Alt+O                 |
-| Clangd         | 切换头文件源文件                              | Alt+O                      |
-| block travel   | 块跳转（更改）                               | Alt+{left, right}          |
-| block travel   | 选择到上一（下一）块（更改）                        | Ctrl+K, Alt+{left, right}  |
+| 来源           | 作用                                    | 按键                         |
+| ------------ | ------------------------------------- | -------------------------- |
+| copilot      | 对选择内容进行解释 (更改)                        | Ctrl+Alt+E                 |
+| copilot      | 把所选内容增加到聊天 (更改)                       | Ctrl+K, Ctrl+Alt+E         |
+| copilot      | 在右边栏显示建议 (更改)                         | Alt+Enter                  |
+| copilot      | 询问 copilot (悬浮)                       | Ctrl+I                     |
+| copilot      | 询问 copilot（左边栏）                       | Ctrl+Alt+I                 |
+| Git History  | 显示文件的 git 历史                          | Alt+H                      |
+| Git          | 打开更改 (更改)                             | Alt+M                      |
+| Git          | Alt+M 视图中，还原所选范围                      | Ctrl+K, Ctrl+Alt+R         |
+| Git          | Alt+M 视图中，暂存所选范围                      | Ctrl+K, Ctrl+Alt+S         |
+| Git          | Alt+M 视图中，取消暂存所选范围                    | Ctrl+K, Ctrl+Alt+N         |
+| Metago       | 把当前编辑器移到 （上一个、下一个）编辑器组 (删除)           | Ctrl+K, Ctrl+{left, right} |
+| Metago       | 切换到列选择模式 (此时选择文本将按照列的方式进行)            | Alt+V                      |
+| Metago       | 删除到行首，行尾                              | Shift+{Backspace, Delete}  |
+| Metago       | 选中括号中的内容 (是否包括括号本身)。输入起始的 pair (,{来选择 | Alt+{None,Ctrl}+A          |
+| Metago       | 选中 pair 对，不包括其中的内容，修改该括号类型            | Alt+P                      |
+| Metago       | 添加或去除书签（更改）                           | Alt+K                      |
+| Metago       | 跳转到下一个，上一个书签位置                        | Alt+{[,]}                  |
+| Metago       | 书签菜单                                  | Alt+\                      |
+| Metago       | 向前删除，向后删除到任意位置                        | Alt+{Delete, Backspace}    |
+| Metago       | 删除到任意位置                               | Alt+D                      |
+| Metago       | 跳转到字符后、前，或智能选择前后                      | Alt+{,./}                  |
+| Metago       | 在字符后、前（智能前后）位置插入光标                    | Ctrl+Alt+{.,/}             |
+| Metago       | 选择到字符后、前，或智能选择前后                      | Shift+Alt+{.,/}            |
+| Metago       | 跳转到下一个或上一个空行                          | Alt+{End, Home}            |
+| Metago       | 选择到下一个、上一个空行，可连按，反向按可取消一次选择           | Shift+Alt+{End, Home}      |
+| Metago       | 把当前行滚动到底部、中间、顶部 (更改)                  | Alt+{B, N, T}              |
+| Metago       | 向下、向上选择行。需要先按 Ctrl+L                  | {Ctrl, Alt}+L              |
+| Metago       | 在选中文本时，切换光标在文本的头部还是尾部 (更改)            | Alt+U                      |
+| SSH          | 打开远程菜单                                | Ctrl+Alt+O                 |
+| Clangd       | 切换头文件源文件                              | Alt+O                      |
+| block travel | 块跳转（更改）                               | Alt+{left, right}          |
+| block travel | 选择到上一（下一）块（更改）                        | Ctrl+K, Alt+{left, right}  |
