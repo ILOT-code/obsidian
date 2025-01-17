@@ -281,11 +281,11 @@
 
 ## Preferences
 
-|作用|按键|
-|---|---|
-|打开设置|Ctrl+,|
-|打开快捷键设置|Ctrl+K Ctrl+S|
-|选择主题|Ctrl+K Ctrl+T|
+| 作用      | 按键            |
+| ------- | ------------- |
+| 打开设置    | Ctrl+,        |
+| 打开快捷键设置 | Ctrl+K Ctrl+S |
+| 选择主题    | Ctrl+K Ctrl+T |
 
 ## Debug
 
