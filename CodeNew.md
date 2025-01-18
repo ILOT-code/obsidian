@@ -192,6 +192,7 @@
 | 显示扩展                | Ctrl+Shift+X         |
 | 显示输出 (更改)           | Ctrl+Shift+T         |
 | 显示问题                | Ctrl+Shift+M         |
+| 显示python（添加）        | Ctrl+Shift+U         |
 | 显示调试                | Ctrl+Shift+Y         |
 | 显示终端                | Ctrl+`               |
 | 新建终端                | Ctrl+Shift+`         |
