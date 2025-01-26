@@ -254,6 +254,7 @@
 | -------------- | ------------------------------------------ | -------------------------- |
 | copilot        | 对选择内容进行解释 (更改)                             | Ctrl+Alt+E                 |
 | copilot        | 把所选内容增加到聊天 (更改)                            | Ctrl+K, Ctrl+Alt+E         |
+| copilot        | 附加上下文                                      | Ctrl+/                     |
 | copilot        | 在右边栏显示建议 (更改)                              | Alt+Enter                  |
 | copilot        | 询问 copilot (悬浮)                            | Ctrl+I                     |
 | copilot        | 询问 copilot（左边栏）                            | Ctrl+Alt+I                 |
