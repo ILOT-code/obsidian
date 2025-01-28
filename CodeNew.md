@@ -287,5 +287,6 @@
 | Metago         | 在选中文本时，切换光标在文本的头部还是尾部 (更改)                 | Alt+U                      |
 | SSH            | 打开远程菜单                                     | Ctrl+Alt+O                 |
 | Clangd         | 切换头文件源文件                                   | Alt+O                      |
-| Better Aligned | 对齐                                         | Alt+I                      |
+| Better Aligned | 对齐 (更改)                                    | Alt+I                      |
+| Surround       | 选择包裹的代码片段（更改）                              | Alt+S                      |
 
