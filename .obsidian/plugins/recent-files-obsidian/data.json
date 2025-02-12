@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "多元高斯分布",
+      "path": "Math/多元高斯分布.md"
+    },
+    {
+      "basename": "傅里叶变换与小波变换",
+      "path": "Notecards/傅里叶变换与小波变换.md"
+    },
+    {
       "basename": "CodeNew",
       "path": "CodeNew.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "wu2023-tetrirf",
       "path": "LiteratureNotes/wu2023-tetrirf.md"
-    },
-    {
-      "basename": "2017-significantly",
-      "path": "LiteratureNotes/2017-significantly.md"
-    },
-    {
-      "basename": "lee2023-flexround",
-      "path": "LiteratureNotes/lee2023-flexround.md"
     }
   ],
   "omittedPaths": [],
