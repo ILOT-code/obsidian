@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "多元高斯分布",
-      "path": "Math/多元高斯分布.md"
+      "basename": "3DGS",
+      "path": "3DGS.md"
     },
     {
       "basename": "SH，SG",
       "path": "Math/SH，SG.md"
+    },
+    {
+      "basename": "多元高斯分布",
+      "path": "Math/多元高斯分布.md"
     },
     {
       "basename": "傅里叶变换与小波变换",
@@ -195,10 +199,6 @@
     {
       "basename": "li2022-enerv",
       "path": "LiteratureNotes/li2022-enerv.md"
-    },
-    {
-      "basename": "wu2023-tetrirf",
-      "path": "LiteratureNotes/wu2023-tetrirf.md"
     }
   ],
   "omittedPaths": [],

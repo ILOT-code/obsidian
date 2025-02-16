@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/多元高斯分布.md",
+                "file": "Math/SH，SG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多元高斯分布"
+              "title": "SH，SG"
+            }
+          },
+          {
+            "id": "b4c18d88e7446ffe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3DGS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3DGS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,9 +233,10 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "495df4dced909ecd",
+  "active": "b4c18d88e7446ffe",
   "lastOpenFiles": [
     "Math/SH，SG.md",
+    "3DGS.md",
     "Math/多元高斯分布.md",
     "Notecards/傅里叶变换与小波变换.md",
     "CodeNew.md",
@@ -257,7 +273,6 @@
     "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "diary/2024-09-08.md",
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
-    "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
     "周报"
   ]
 }
