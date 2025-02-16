@@ -154,15 +154,17 @@ $$\mathbf{J}_k=\left( \begin{matrix} \frac{\partial x_0}{\partial t_0}& \frac{\p
 这里$\mathbf{J}_k$需要特别注明角标$k$，因为当给定一个在相机空间内坐标为$\mathbf{t}_k$的高斯椭球后，整个雅可比矩阵就唯一确定了。
 
 
-总之，我们利用二阶近似，解决了投影变换非线性的问题。考虑一个世界坐标系下的坐标$\mathbf{u}$，仿射变换$\mathbf{t}=\varphi(\mathbf{u})$可以得到在特定相机空间下的坐标$\mathbf{t}$，然后$\mathbf{x}=\phi_k(\mathbf{t})$可以得到在光线空间下的坐标表示。我们已经保证了这两个映射是线性的，所以他们的复合也是线性的，我们将其记作$\mathbf{m}_k(\mathbf{u})$。我们可以将这个复合变换展开：
-$$\mathbf{t}=\varphi \left( \mathbf{u} \right) =\mathbf{Mu}+\mathbf{b} \\ \mathbf{x}=\phi _k(\mathbf{t})=\mathbf{x}_k+\mathbf{J}_k\left( \mathbf{t}-\mathbf{t}_k \right) \\ =\mathbf{x}_k+\mathbf{J}_k\left( \mathbf{Mu}+\mathbf{b}-\mathbf{t}_k \right) \\ =\mathbf{J}_k\mathbf{Mu}+\mathbf{x}_k+\mathbf{J}_k\left( \mathbf{b}-\mathbf{t}_k \right)   $$
+考虑一个世界坐标系下的坐标$\mathbf{u}$，仿射变换$\mathbf{t}=\varphi(\mathbf{u})$可以得到在特定相机空间下的坐标$\mathbf{t}$，然后$\mathbf{x}=\phi_k(\mathbf{t})$可以得到在光线空间下的坐标表示。我们已经保证了这两个映射是线性的，所以他们的复合也是线性的，我们将其记作$\mathbf{m}_k(\mathbf{u})$。我们可以将这个复合变换展开：
+$$\begin{align}
+\mathbf{t}=\varphi \left( \mathbf{u} \right) =\mathbf{Mu}+\mathbf{b} \\ \mathbf{x}=\phi _k(\mathbf{t})=\mathbf{x}_k+\mathbf{J}_k\left( \mathbf{t}-\mathbf{t}_k \right) \\ =\mathbf{x}_k+\mathbf{J}_k\left( \mathbf{Mu}+\mathbf{b}-\mathbf{t}_k \right) \\ =\mathbf{J}_k\mathbf{Mu}+\mathbf{x}_k+\mathbf{J}_k\left( \mathbf{b}-\mathbf{t}_k \right)   
+\end{align}$$
 根据上面推导的仿射变换前后的高斯函数的结果，我们可以直接写出：
 $$\mathcal{G} _{\mathbf{p},\mathbf{\Sigma }}^{\left( n \right)}\left( \mathbf{x} \right) =\left| \mathbf{J}_k\mathbf{M} \right|\mathcal{G} _{\mathbf{m}_k\left( \mathbf{p} \right) ,\mathbf{\Sigma }^{\prime}}^{\left( n \right)}\left( \mathbf{m}_k\left( \mathbf{u} \right) \right)   $$
 变换后的协方差矩阵满足：
 $$\mathbf{\Sigma }^{\prime}=\mathbf{J}_k\mathbf{M\Sigma M}^T\mathbf{J}_{k}^{T}  $$
 这是一个非常重要的结论，用这样的矩阵变换，可以直接得到一个高斯椭球在光线空间的表示。也就是说，对于一个位置在$\mathbf{p}$，协方差为$\mathbf{\Sigma}$的高斯椭球，我们可以直接通过$\mathbf{m}_k(\mathbf{p})$计算出在光线空间里椭球的位置，然后直接用$\mathbf{\Sigma }^{\prime}=\mathbf{J}_k\mathbf{M\Sigma M}^T\mathbf{J}_{k}^{T}$来得到投影后的协方差$\mathbf{\Sigma }^{\prime}$。然后我们用splatting的那个公式进行渲染，对投影后的三维的高斯函数（重建核）进行积分，借助高斯函数的性质我们可以直接跳过协方差矩阵的第三行和第三列， **于是最终，整个流程被归结为从这些三维椭球投影到二维椭圆里，进行alpha compositing。** 
 
-## Derivation of Gradient
+## 梯度的计算
 
 但这里有些小问题，在3DGS中，每个高斯基元的$\mathbf{p}$和$\mathbf{\Sigma}$都是借助PyTorch的自动微分框架来进行随机梯度下降的。其中颜色$c$是靠优化RGB三个通道上的球谐系数（Spherical Harmonics）得到的，不透明度$\alpha$是通过将当前像素点带入此时的高斯基元中计算得到的。优化$\mathbf{p},c,\alpha$都是比较平凡的，但优化$\mathbf{\Sigma}$其实是通过优化$\mathbf{\Sigma }^{\prime}$反传回去的。如果直接丢给PyTorch的计算图，追踪$\mathbf{J}_k\mathbf{M\Sigma M}^T\mathbf{J}_{k}^{T}$这几个矩阵连乘里的乘法操作可不是个很令人满意的事情。所以有必要显式的给出$\mathbf{\Sigma}$的梯度。
 
@@ -260,7 +262,3 @@ $$\frac{\mathrm{d}M_{ij}}{\mathrm{d}s_k}=\left\{ \begin{array}{c} R_{i,k}\quad j
 $$\frac{\mathrm{d}\mathbf{M}}{\mathrm{d}q_r}=2\left( \begin{matrix} 0& -s_yq_k& s_zq_j\\ s_xq_k& 0& -s_zq_i\\ -s_xq_j& s_yq_i& 0\\ \end{matrix} \right) \quad \frac{\mathrm{d}\mathbf{M}}{\mathrm{d}q_i}=2\left( \begin{matrix} 0& s_yq_j& s_zq_k\\ s_xq_j& -2s_yq_i& -s_zq_r\\ s_xq_k& s_yq_r& -2s_zq_i\\ \end{matrix} \right) \\ \frac{\mathrm{d}\mathbf{M}}{\mathrm{d}q_j}=2\left( \begin{matrix} -2s_xq_j& s_yq_i& s_zq_r\\ s_xq_i& 0& s_zq_k\\ -s_xq_r& s_yq_k& -2s_zq_j\\ \end{matrix} \right) \quad \frac{\mathrm{d}\mathbf{M}}{\mathrm{d}q_k}=2\left( \begin{matrix} -2s_xq_k& -s_yq_r& s_zq_i\\ s_xq_r& -2s_yq_k& s_zq_j\\ s_xq_i& s_yq_j& 0\\ \end{matrix} \right)   $$
 由于四元数$\mathbf{q}$在写进旋转矩阵前会被强制归一化一下（来保证旋转矩阵的性质），所以最后还有一步归一化导致的梯度变化。为了清晰，这里我们用$\mathbf{p}$来指代归一化后的四元数，$\mathbf{q}$指代归一化前的四元数。于是有：
 $$\mathbf{p}=\frac{1}{\left\| \mathbf{q} \right\|}\cdot \mathbf{q} \\ \frac{\partial p_n}{\partial q_n}=\frac{1}{\left\| \mathbf{q} \right\|}-\frac{q_{n}^{2}}{\left\| \mathbf{q} \right\| ^3}\quad n\in \left\{ r,i,j,k \right\}   $$
-## End
-
-3DGS需要的数学推导基本就是这些了，上文中没有具体提的球谐系数和四元数，一是我自己也不是很熟悉，二是弄懂这个对理解3DGS来说帮助不是很大，所以就不写了。关于四元数，感兴趣的可以观看3blue1brown的[这个视频](https://www.bilibili.com/video/BV1SW411y7W1/?spm_id_from=333.788.recommend_more_video.0&vd_source=770437002a403fccdaf0ff2a150cee20)。关于球谐系数，感兴趣的可以看一下[Plenoxels](https://alexyu.net/plenoxels/)。在捋清3DGS那两处矩阵梯度的误会时，我查阅了不少相关资料，感觉其中比较精华的是[《矩阵分析与应用（第二版）》](http://home.ustc.edu.cn/~wyx_mail/references_and_resources_of_linear_algebra.html/10.pdf)，以及一个[Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)。还有一个[在线矩阵微积分计算器](https://www.matrixcalculus.org/)，也很方便。
-</div></div>
