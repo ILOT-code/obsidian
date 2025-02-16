@@ -11,6 +11,7 @@
   "snippetsFileLocation": "",
   "snippetVariablesFileLocation": "",
   "concealEnabled": false,
+  "concealRevealTimeout": 0,
   "colorPairedBracketsEnabled": true,
   "highlightCursorBracketsEnabled": true,
   "mathPreviewEnabled": true,
