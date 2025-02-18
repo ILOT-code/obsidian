@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 1.md",
+                "file": "3DGS-compress.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名 1"
+              "title": "3DGS-compress"
             }
           }
         ],
@@ -195,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 1.md",
+                "file": "3DGS-compress.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 1 的大纲"
+              "title": "3DGS-compress 的大纲"
             }
           },
           {
@@ -254,7 +254,7 @@
   "active": "8b0c7bf90daedd41",
   "lastOpenFiles": [
     "Math/3DGS.md",
-    "未命名 1.md",
+    "3DGS-compress.md",
     "Math/SH，SG.md",
     "Math/多元高斯分布.md",
     "Notecards/傅里叶变换与小波变换.md",
