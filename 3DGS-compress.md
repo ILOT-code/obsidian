@@ -47,7 +47,14 @@ $f^{h}$ 经由网络 $MLP_{c}$ 生成 $\mu,\sigma$，以多元独立高斯分布
 ## Compact 3D Gaussian Representation for Radiance Field
 本文为每个高斯基元设置了一个可学习的掩码，来决定是否去除该高斯基元。该方法设置简单，被广泛应用。
 $$
-M_{n}=sg
+\begin{align}
+M_{n}=sg(\mathbb{1}[\sigma(m_{n})>\epsilon]-\sigma(m_{n}))+\sigma(m_{n}) \\
+\hat{s}_n = M_{n}s_{n}, \hat{o}_{n} = M_{n}o_{n}
+\end{align}
+$$
+并且，额外引入一个损失函数来鼓励减去更多的基元:
+$$
+L_{m} = \frac{1}{N}\sum _{n=1}^{N}\sigma(m_{n})
 $$
 # 数据层面压缩
 ## VQ
