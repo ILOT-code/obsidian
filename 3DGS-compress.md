@@ -4,7 +4,7 @@
 ![[Pasted image 20250218154655.png]]
 高斯一般被描绘成“点云”的结构，具有如上59个属性。这种看法具有割裂性，空间位置上接近的高斯点大概率具有强相关性。挖掘这种相关性能从整体层面减少数据冗余。
 ### Scaffold-gs: Structured 3d gaussians for view-adaptive rendering
-
+很多研究都表明，3DGS训练过程的“致密化”操作生成了大量冗余的高斯基元。Scaffold-gs直接舍弃了“致密化”操作，
 
 
 ## 减少高斯基元

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/SH，SG.md",
+                "file": "3DGS-compress.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SH，SG"
+              "title": "3DGS-compress"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "luScaffoldGSStructured3D2023"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,13 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LiteratureNotes/luScaffoldGSStructured3D2023.md",
+                "file": "3DGS-compress.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "luScaffoldGSStructured3D2023 的大纲"
+              "title": "3DGS-compress 的大纲"
             }
           },
           {
@@ -251,16 +250,16 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "8b0c7bf90daedd41",
+  "active": "495df4dced909ecd",
   "lastOpenFiles": [
-    "LiteratureNotes/chenHACHashgridAssisted2024.md",
+    "Math/SH，SG.md",
     "LiteratureNotes/luScaffoldGSStructured3D2023.md",
+    "Math/3DGS.md",
+    "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "LiteratureNotes/li2022-enerv.md",
     "LiteratureNotes/liu2023-learned.md",
     "3DGS-compress.md",
     "Attachments/Pasted image 20250218154655.png",
-    "Math/3DGS.md",
-    "Math/SH，SG.md",
     "Math/多元高斯分布.md",
     "Notecards/傅里叶变换与小波变换.md",
     "CodeNew.md",
