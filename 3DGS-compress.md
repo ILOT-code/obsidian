@@ -62,8 +62,15 @@ $$
 ### Reducing the Memory Footprint of 3 D Gaussian Splatting
 本文的方法准确来说不是 vq, 因为他的码本的条目存储的是标量。它为不透明度、scaling 的三个成分、四元数的实部、四元数的三个虚部、颜色的直流成分、每个 SH 系数设置一个码本，共 20 个码本。
 ## Compact 3D Gaussian Representation for Radiance Field
-本文设计了一种多级的码本结构来量化尺度和旋转向量（R-VQ）。
+本文设计了一种 L级的码本结构来量化尺度和旋转向量（R-VQ）。
+![[Pasted image 20250218194159.png]]
 
+$$
+\begin{align}
+\hat{r}_{n}^{l} = \sum_{k=1}^{l} \mathcal{Z}[i^{k}], l \in\{1,\dots L\} \\
+i_{n}^{l}=argmin ||\mathcal{Z}^{l}[k]-(r_{n}-\hat{r}_{n}^{l-1})||_{2}^{2}, \hat{r}_{n}^{0}=\vec{0}
+\end{align}
+$$
 
 # SH压缩
 SH 系数占据 75%的参数量。
