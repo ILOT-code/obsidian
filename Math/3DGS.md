@@ -1,5 +1,6 @@
-```
-```
+>[【转载】3D Gaussian Splatting中的数学推导 | Yin的笔记本](https://yindaheng98.github.io/%E5%9B%BE%E5%BD%A2%E5%AD%A6/3D%E9%AB%98%E6%96%AF%E6%95%B0%E5%AD%A6%E6%8E%A8%E5%AF%BC.html#derivation-of-sampling)
+>EWA Volume Splatting
+
 # 椭圆基元对光场进行建模
 利用三角形进行3D建模已经很成熟了，其本质思想是把一切物体抽象成多边形的复合体。圆作为有无穷边的形状，更适合表达弯曲的几何结构，也能通过拉伸的方法使一个球趋向“边”。
 
