@@ -17,7 +17,7 @@ $f_v$会被进一步调制成与相机坐标以及锚点坐标相关的量， �
 ![[Pasted image 20241017105937.png]]
 
 ### HAC: Hash-grid Assisted Context for 3 D  Gaussian Splatting Compression
-
+HAC 建立在 scaddold-gs
 
 ## 减少高斯基元
 ## 数据层面压缩
