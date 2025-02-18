@@ -5,16 +5,16 @@
       "path": "3DGS-compress.md"
     },
     {
+      "basename": "3DGS",
+      "path": "Math/3DGS.md"
+    },
+    {
       "basename": "chenHACHashgridAssisted2024",
       "path": "LiteratureNotes/chenHACHashgridAssisted2024.md"
     },
     {
       "basename": "luScaffoldGSStructured3D2023",
       "path": "LiteratureNotes/luScaffoldGSStructured3D2023.md"
-    },
-    {
-      "basename": "3DGS",
-      "path": "Math/3DGS.md"
     },
     {
       "basename": "SH，SG",
