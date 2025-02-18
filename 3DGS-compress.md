@@ -17,8 +17,12 @@ $f_v$会被进一步调制成与相机坐标以及锚点坐标相关的量， �
 ![[Pasted image 20241017105937.png]]
 
 ### HAC: Hash-grid Assisted Context for 3 D  Gaussian Splatting Compression
-HAC 建立在 scaddold-gs
+HAC 建立在 scaffold-gs 之上，如果说 scaffold 是减少了局部区域内 $k$ 个高斯点的冗余的话，HAC 则是进一步减少了全局范围内的锚点间属性的冗余。它是通过一组二值化的哈希网格来实现这一点的：
 
+
+![[Pasted image 20241018125808.png]]
+对于单个锚点，利用其坐标去哈希 grid 中索引特征 $f^{h}$，利用该特征来锚点的属性 $\mathcal{A}$ 进行概率建模。
+$f^{h}$ 经由网络 $MLP_{c}$ 生成 $\mu,\sigma$，
 ## 减少高斯基元
 ## 数据层面压缩
 
