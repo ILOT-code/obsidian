@@ -44,6 +44,8 @@ $f^{h}$ 经由网络 $MLP_{c}$ 生成 $\mu,\sigma$，以多元独立高斯分布
 
 在得到所以高斯点的冗余度后，可以计算出统计上的量：$\mu, \sigma$, 可以去除那些超出了几个标准差的点。但这些点不应该被全部删除，因为高斯点的冗余度是相互关联的，仅去除部分这些点后，剩下的很多点的冗余度都会下降。
 
+## Compact 3 D Gaussian Representation for Radiance Field
+
 # 数据层面压缩
 ## VQ
 ### Reducing the Memory Footprint of 3 D Gaussian Splatting
