@@ -32,7 +32,7 @@ $f^{h}$ 经由网络 $MLP_{c}$ 生成 $\mu,\sigma$，以多元独立高斯分布
 ### Reducing the Memory Footprint of 3D Gaussian Splatting
 提出了一种 **Scale- and Resolution-aware** 的高斯基元去除策略。
 ![[Pasted image 20250218182651.png]]
-定义：pixel footprint, 指对于某个视角和某个高斯基元 $g$,  其相机上观察到 $g$ 的那个像素（指的应该是 $g$ 的中心对应的那个像素），投影到 $g$ 所在的深度平面上，所占据的空间大小。这个 pixel footprint 严格上定义的是线段的长度，已该线段为直径作圆，才是占据空间的大小。显然，对于越近的相机，pixel footprint 越小。
+定义：pixel footprint, 指对于某个视角和某个高斯基元 $g$,  其相机上观察到 $g$ 的那个像素（指的应该是 $g$ 的中心对应的那个像素），投影到 $g$ 所在的深度平面上，所占据的空间大小。这个 pixel footprint 严格上定义的是线段的长度，以该线段为直径作圆，才是占据空间的大小。显然，对于越近的相机，pixel footprint 越小。
 
 > ![[Pasted image 20250218181948.png]]
 > 这个 $a_{min}$ 到底是什么？又是长度单位，又是面积单位。
@@ -51,4 +51,6 @@ $f^{h}$ 经由网络 $MLP_{c}$ 生成 $\mu,\sigma$，以多元独立高斯分布
 SH 系数占据 75%的参数量。
 ## 自适应SH等级
 $SH$ 系数中，阶越高，系数个数呈平方项增加。
-3DGS 为每个高斯基元的每种颜色分配了一个直流成分和三阶 view dependent 成分。然而，不同材质的物体，颜色的各项异性程度是不同的，出少部分具有反射能力的物体外，大部分物体从各个方向看颜色几乎每多大区别，甚至只保留一个直流成分即可
+3DGS 为每个高斯基元的每种颜色分配了一个直流成分和三阶 view dependent 成分。然而，不同材质的物体，颜色的各项异性程度是不同的，出少部分具有反射能力的物体外，大部分物体从各个方向看颜色几乎每多大区别，甚至只保留一个直流成分即可。
+### Reducing the Memory Footprint of 3 D Gaussian Splatting
+
