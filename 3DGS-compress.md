@@ -30,7 +30,8 @@ $f^{h}$ 经由网络 $MLP_{c}$ 生成 $\mu,\sigma$，以多元独立高斯分布
 该如何减少高斯基元？可以从不透明度来考虑，在 3DGS 的原文中，剔除了不透明度低于某一阈值的高斯基元。
 高斯基元的尺度属性也能作为一个考虑点，过小的尺度，在光栅化的过程中难以造成大的影响。但是高斯点的尺度与相机有关，一个再小的高斯点，只要存在一个足够近的观测相机，就能在该视图上产生大的影响。
 ### Reducing the Memory Footprint of 3D Gaussian Splatting
-提出了一种 **Scale- and Resolution-aware **的
+提出了一种 **Scale- and Resolution-aware** 的高斯基元去除策略。
+定义：pixel footprint, 指对于某个视角，其相机上的一个矩形像素，投影到某个
 
 ## 数据层面压缩
 
