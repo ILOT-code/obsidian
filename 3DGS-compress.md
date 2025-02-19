@@ -151,7 +151,11 @@ $$
 
 然后，只保留低阶的系数，得到与全阶系数的差，并在各个视角下与平均透射度加权，若低于阈值，则保留这些阶，否则，加一阶继续计算。在实验中发现，各波段的点数分布分别为：0 波段 89%，1 波段 0.1%，2 波段 2.7%，3 波段 8.2%。
 ### End-to-End Rate-Distortion Optimized 3D  Gaussian Representation
-本文为 1、2、3 阶 SH 系数都设置了一个
+本文为 0、 1、2、3 阶 SH 系数都设置了一个码本。每个高斯基元 $i$，都被赋予了 3 个参数 $\theta_{i}^{l}$，在 $\theta_{i}^{l soft}=sigmoid(\theta_{i}^{l})$ 的情况下，保留该阶，否则去除。以 STE 的方式进行训练。
+引入损失来鼓励削减 SH 阶数：
+$$
+\mathcal{L}=\frac{1}{N}\sum_{i}\sum_{l=1}^{k}\frac{} 
+$$
 
 ## 紧凑的 view-dependent颜色表达
 ### Compact 3 D Gaussian Representation for Radiance Field
