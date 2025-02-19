@@ -182,5 +182,9 @@ $$
 ### LightGaussian: Unbounded 3D Gaussian  Compression with 15 x Reduction and 200+ FPS
 利用全阶的 SH 去蒸馏出低阶的学生 SH 系数
 $$
-\mathcal{L}=\frac{1}{HW}\sum_{i=1}^{HW} 
+\mathcal{L}=\frac{1}{HW}\sum_{i=1}^{HW} \|C_{t}(r_{i})-C_{s}(r_{i})\|
+$$
+作者还生成了一些伪相机去训练，伪相机的中心是真相机的一个偏移：
+$$
+\mathbf{t}_{p}=\mathbf{t}_{true}+\mathcal{N}(0,\sigma^{2})
 $$
