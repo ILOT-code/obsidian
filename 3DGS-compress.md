@@ -82,6 +82,8 @@ $$
 L_{r}=\frac{1}{NC}\sum_{k=1}^{L} \sum_{n=1}^{N} ||sg[r_{n}-\hat{r}_{n}^{k-1}]-\mathcal{Z}^{k}[i_{n}^{k}]||_{2}^{2}
 $$
 
+### Compact 3D Scene Representation via  Self-Organizing Gaussian Grids
+
 # SH压缩
 SH 系数占据 75%的参数量。
 ## 自适应SH等级
