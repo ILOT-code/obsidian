@@ -106,7 +106,7 @@ $$
 #### 参数聚类
 SH 的 48 个参数被看成一整个向量进行 vq.
 对 q 和 s 的量化则复杂一点。s 首先被归一化成 $s=\eta \hat{s}$。尺度因子 $\eta$ 被单独保存，则有利于去除高斯基元形状的冗余。然后把 $\hat{\Sigma}=(R \hat{S})(R \hat{S})^{T}$ 的 9 个元素看成一个向量进行聚类。聚类完成后，再重新分解成 $R$ 和 $\hat{S}$ 对应的码本。
-### End-to-End Rate-Distortion Optimized 3 D  Gaussian Representation
+### End-to-End Rate-Distortion Optimized 3D  Gaussian Representation
 本文为 vq 方法引入了 R-D 损失。
 设码本条目数是 $M$, 为每个条目分配一个参数 $w_{j}$, 条目的概率被建模为 $p_{j}=\frac{e^{-w_{j}}}{\sum_{i=1}^{M}e^{-w_{i}}}$。在寻找向量对应的条目 index 时，a 同时考虑 rate 的影响：
 $$
@@ -150,6 +150,8 @@ $$
 其中，$N$ 是观察到该高斯点的相机数量，$P$ 是该视图中，该高斯点渲染到的像素数量，$T_{ik}$ 是该视角下对该像素的投射比。
 
 然后，只保留低阶的系数，得到与全阶系数的差，并在各个视角下与平均透射度加权，若低于阈值，则保留这些阶，否则，加一阶继续计算。在实验中发现，各波段的点数分布分别为：0 波段 89%，1 波段 0.1%，2 波段 2.7%，3 波段 8.2%。
+### End-to-End Rate-Distortion Optimized 3D  Gaussian Representation
+本文为 1、2、3 阶 SH 系数都设置了一个
 
 ## 紧凑的 view-dependent颜色表达
 ### Compact 3 D Gaussian Representation for Radiance Field
