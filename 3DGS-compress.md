@@ -85,7 +85,12 @@ $$
 ### Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
 这篇文章执行的 vq 策略有两个不同：
 1. vq 在训练完成之后进行。使用 k-means 来初始化码本条目，随后对码本条目进行微调。
-2. 
+2. 衡量了参数的重要程度，不直接以参数的 $l_{2}$ 距离为衡量距离的指标。
+
+一个参数 $p$ 的敏感程度被衡量为：
+$$
+S(p)=\frac{1}{\sum_{i=1}^{N} P_{i}}\sum_{i=1}^{N} \lvert \partial E_{i} \rvert 
+$$
 ## Compact 3D Scene Representation via  Self-Organizing Gaussian Grids
 本文介绍了一种紧凑的场景表示方法，将高斯基元的参数组织成一个具有局部同质性的 2D 网格，2D 网格的局部同质性使得其很适用现有的图像压缩算法来压缩。
 
