@@ -59,9 +59,11 @@ $$
 ## LightGaussian: Unbounded 3D Gaussian  Compression with 15 x Reduction and 200+ FPS
 作者为高斯基元设计了一个重要度分数。像之前讲的，重要度和不透明度以及大小有关。因此该分数被建模为：
 $$
-GS_{j}=\sum_{i=1}^{MHW} \mathbb{1}(G(\mathbf{X))
+GS_{j}=\sum_{i=1}^{MHW} \mathbb{1}(G(\mathbf{X}_{j},r_{i})) \times \sigma_{j}\times \gamma(\Sigma_{j})
 $$
+$MHW$ 分别表示视图数目、长宽，$r_{i}$ 表示该像素由于高斯中心连线确定的方向，$\mathbb{1}(\cdot)$ 判断是否相交，$\sigma$ 表示不透明度，$\gamma$ 表示和体积相关的一个量。
 
+$\gamma$ 不能和体积线性相关，因为一些
 
 # 数据层面压缩
 ## VQ
