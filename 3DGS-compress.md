@@ -97,6 +97,9 @@ $$
 整个计算过程迭代进行。
 ![[Pasted image 20250219151112.png]]
 ### Smoothness Regularization
+重排后的 2D 网格，并没有为高斯基元的参数带来有梯度的操作，无法促进光滑化。作者在此引入了一个光滑正则项，由高斯模糊后的图像与本身的距离来衡量。
+
+### Quantization & Compression
 
 # SH压缩
 SH 系数占据 75%的参数量。
