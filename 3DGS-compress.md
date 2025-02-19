@@ -107,6 +107,7 @@ $$
 SH 的 48 个参数被看成一整个向量进行 vq.
 对 q 和 s 的量化则复杂一点。s 首先被归一化成 $s=\eta \hat{s}$。尺度因子 $\eta$ 被单独保存，则有利于去除高斯基元形状的冗余。然后把 $\hat{\Sigma}=(R \hat{S})(R \hat{S})^{T}$ 的 9 个元素看成一个向量进行聚类。聚类完成后，再重新分解成 $R$ 和 $\hat{S}$ 对应的码本。
 ### End-to-End Rate-Distortion Optimized 3 D  Gaussian Representation
+本文为 vq 方法引入了 R-D 损失。
 
 ## Compact 3D Scene Representation via  Self-Organizing Gaussian Grids
 本文介绍了一种紧凑的场景表示方法，将高斯基元的参数组织成一个具有局部同质性的 2D 网格，2D 网格的局部同质性使得其很适用现有的图像压缩算法来压缩。
