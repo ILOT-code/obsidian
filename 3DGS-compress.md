@@ -102,4 +102,4 @@ $$
 ## 紧凑的 view-dependent颜色表达
 ### Compact 3 D Gaussian Representation for Radiance Field
 作者抛弃了显式存储每个高斯点的 SH 系数，改为隐式表达。具体而言，借助了 grid-based neural field。
-首先，把世界坐标下高斯点的坐标进行有界化，利用有界化后的坐标去 grid 中索取对应的特征，
+首先，把世界坐标下高斯点的坐标进行有界化，利用有界化后的坐标去 grid 中索取对应的特征，该特征与视角方向一起被送入网络中，得到颜色的值。

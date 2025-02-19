@@ -247,8 +247,7 @@
       "obsidian-git:Open Git source control": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "cmdr:ZotLit: Update literature note": false
     }
   },
   "active": "495df4dced909ecd",
