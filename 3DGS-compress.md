@@ -83,6 +83,7 @@ L_{r}=\frac{1}{NC}\sum_{k=1}^{L} \sum_{n=1}^{N} ||sg[r_{n}-\hat{r}_{n}^{k-1}]-\m
 $$
 
 ### Compact 3D Scene Representation via  Self-Organizing Gaussian Grids
+本文介绍了一种紧凑的场景表示方法，将高斯基元的参数组织成一个具有局部同质性的 2D 网格，2D 网格的局部同质性使得其很适用现有的图像压缩算法来压缩。
 
 # SH压缩
 SH 系数占据 75%的参数量。
