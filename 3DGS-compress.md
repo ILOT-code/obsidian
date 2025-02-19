@@ -63,7 +63,14 @@ GS_{j}=\sum_{i=1}^{MHW} \mathbb{1}(G(\mathbf{X}_{j},r_{i})) \times \sigma_{j}\ti
 $$
 $MHW$ 分别表示视图数目、长宽，$r_{i}$ 表示该像素由于高斯中心连线确定的方向，$\mathbb{1}(\cdot)$ 判断是否相交，$\sigma$ 表示不透明度，$\gamma$ 表示和体积相关的一个量。
 
-$\gamma$ 不能和体积线性相关，因为一些
+$\gamma$ 不能和体积线性相关，因为一些背景区域，有着很大的高斯基元，而一些表示细节区域的高斯基元却很小。因此需要抑制大高斯基元的分数：
+$$
+\begin{align}
+\gamma(\Sigma)=(V_{norm})^{\beta} \\
+V_{{norm}}=min(max(\frac{V(\Sigma)}{V_{max90\%}},0),1)
+\end{align}
+$$
+
 
 # 数据层面压缩
 ## VQ
@@ -173,3 +180,7 @@ $$
 
 ## 蒸馏
 ### LightGaussian: Unbounded 3D Gaussian  Compression with 15 x Reduction and 200+ FPS
+利用全阶的 SH 去蒸馏出低阶的学生 SH 系数
+$$
+\mathcal{L}=\frac{1}{HW}\sum_{i=1}^{HW} 
+$$
