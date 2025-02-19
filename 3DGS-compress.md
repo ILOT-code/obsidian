@@ -154,7 +154,7 @@ $$
 本文为 0、 1、2、3 阶 SH 系数都设置了一个码本。每个高斯基元 $i$，都被赋予了 3 个参数 $\theta_{i}^{l}$，在 $\theta_{i}^{l soft}=sigmoid(\theta_{i}^{l})$ 的情况下，保留该阶，否则去除。以 STE 的方式进行训练。
 引入损失来鼓励削减 SH 阶数：
 $$
-\mathcal{L}=\frac{1}{N}\sum_{i}\sum_{l=1}^{k}\frac{} 
+\mathcal{L}=\frac{1}{N}\sum_{i}\sum_{l=1}^{k}\frac{2l+1}{k^{2}+2k}\theta_{i}^{lsoft} 
 $$
 
 ## 紧凑的 view-dependent颜色表达
