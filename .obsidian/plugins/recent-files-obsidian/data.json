@@ -5,6 +5,14 @@
       "path": "3DGS-compress.md"
     },
     {
+      "basename": "Transformer",
+      "path": "Notecards/Transformer.md"
+    },
+    {
+      "basename": "SOM",
+      "path": "Notecards/SOM.md"
+    },
+    {
       "basename": "SH，SG",
       "path": "Math/SH，SG.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Zizhongchen compress",
       "path": "Zizhongchen compress.md"
-    },
-    {
-      "basename": "CompressionFromCV",
-      "path": "CompressionFromCV.md"
-    },
-    {
-      "basename": "chen2023-factor",
-      "path": "LiteratureNotes/chen2023-factor.md"
     }
   ],
   "omittedPaths": [],

@@ -124,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.49999618530273,
-    "collapsed": true
+    "width": 263.49999618530273
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -252,10 +251,12 @@
   },
   "active": "495df4dced909ecd",
   "lastOpenFiles": [
+    "Notecards/Transformer.md",
+    "Notecards/SOM.md",
+    "3DGS-compress.md",
     "Attachments/Pasted image 20250218194159.png",
     "Math/SH，SG.md",
     "Math/3DGS.md",
-    "3DGS-compress.md",
     "Attachments/Pasted image 20250218182651.png",
     "Attachments/Pasted image 20250218181948.png",
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
@@ -279,7 +280,6 @@
     "LiteratureNotes/li2024-neural.md",
     "周报/周报24-09-21.md",
     "Attachments/Pasted image 20250101192420.png",
-    "Attachments/Pasted image 20250101191717.png",
     "han2024-CausalContextAdjustment.md",
     "LiteratureNotes/tang2023-scene.md",
     "chen2024-howfarcan.md",
@@ -287,7 +287,6 @@
     "LiteratureNotes/wang2024-model.md",
     "Sundry/Numpy.md",
     "Sundry/Pytorch.md",
-    "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
     "chen2024-howfarcan.pdf",
     "chen2024-howfarcan.pptx",
     "周报"
