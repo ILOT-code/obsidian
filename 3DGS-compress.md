@@ -61,7 +61,7 @@ $$
 在向量量化的情况下，高斯基元的坐标一般不会被量化，因为这回造成大量高斯基元重叠。
 ### Reducing the Memory Footprint of 3 D Gaussian Splatting
 本文的方法准确来说不是 vq, 因为他的码本的条目存储的是标量。它为不透明度、scaling 的三个成分、四元数的实部、四元数的三个虚部、颜色的直流成分、每个 SH 系数设置一个码本，共 20 个码本。
-## Compact 3D Gaussian Representation for Radiance Field
+### Compact 3D Gaussian Representation for Radiance Field
 本文设计了一种 L级的码本结构来量化尺度和旋转向量（R-VQ）。
 > 为什么不用 VQ?
 > R-VQ 计算复杂度和显存使用更低。
