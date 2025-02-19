@@ -87,6 +87,7 @@ $$
 1. vq 在训练完成之后进行。使用 k-means 来初始化码本条目，随后对码本条目进行微调。
 2. 衡量了参数的重要程度，不直接以参数的 $l_{2}$ 距离为衡量距离的指标。
 
+#### 敏感度
 一个标量 $p$ 的敏感程度被衡量为：
 $$
 S(p)=\frac{1}{\sum_{i=1}^{N} P_{i}}\sum_{i=1}^{N} \lvert \frac{\partial E_{i}}{\partial p} \rvert 
@@ -95,11 +96,12 @@ $N$ 为视图数目，$P$ 为像素总数，$E$ 为渲染图像的能量（rgb �
 
 一个向量的敏感度，等于其最大分量敏感度。
 
-距离被重写为：
+和质心的距离被重写为：
 $$
-\mathcal{D}(\mathbf{x},\mathbf{c})=S(\mathbf{x})()
+\mathcal{D}(\mathbf{x},\mathbf{c})=S(\mathbf{x})\| \mathbf{x} - \mathbf{c}\|_{2}^{2}
 $$
 
+在对某一向量参数进行聚类的 h 过程中，那些敏感度超出阈值的参数不会进行计算，而是作为一个条目直接加入聚类完成的码本中。这些参数
 ## Compact 3D Scene Representation via  Self-Organizing Gaussian Grids
 本文介绍了一种紧凑的场景表示方法，将高斯基元的参数组织成一个具有局部同质性的 2D 网格，2D 网格的局部同质性使得其很适用现有的图像压缩算法来压缩。
 
