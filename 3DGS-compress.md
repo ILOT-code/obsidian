@@ -56,6 +56,13 @@ $$
 $$
 L_{m} = \frac{1}{N}\sum _{n=1}^{N}\sigma(m_{n})
 $$
+## LightGaussian: Unbounded 3D Gaussian  Compression with 15 x Reduction and 200+ FPS
+作者为高斯基元设计了一个重要度分数。像之前讲的，重要度和不透明度以及大小有关。因此该分数被建模为：
+$$
+GS_{j}=\sum_{i=1}^{MHW} \mathbb{1}(G(\mathbf{X))
+$$
+
+
 # 数据层面压缩
 ## VQ
 在向量量化的情况下，高斯基元的坐标一般不会被量化，因为这回造成大量高斯基元重叠。
@@ -161,3 +168,6 @@ $$
 ### Compact 3 D Gaussian Representation for Radiance Field
 作者抛弃了显式存储每个高斯点的 SH 系数，改为隐式表达。具体而言，借助了 grid-based neural field。
 首先，把世界坐标下高斯点的坐标进行有界化，利用有界化后的坐标去 grid 中索取对应的特征，该特征与视角方向一起被送入网络中，得到颜色的值。
+
+## 蒸馏
+### LightGaussian: Unbounded 3D Gaussian  Compression with 15 x Reduction and 200+ FPS
