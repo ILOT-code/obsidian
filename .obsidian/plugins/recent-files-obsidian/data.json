@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shortcut",
+      "path": "shortcut.md"
+    },
+    {
       "basename": "3DGS-compress",
       "path": "3DGS-compress.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "CodeNew",
       "path": "CodeNew.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
     },
     {
       "basename": "vim",
