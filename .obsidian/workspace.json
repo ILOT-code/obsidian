@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "495df4dced909ecd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shortcut.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "shortcut"
-            }
-          },
-          {
             "id": "d4bedf83e39debfa",
             "type": "leaf",
             "state": {
@@ -194,13 +180,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shortcut.md",
+                "file": "Math/3DGS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "shortcut 的大纲"
+              "title": "3DGS 的大纲"
             }
           },
           {
@@ -250,8 +236,9 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "495df4dced909ecd",
+  "active": "d4bedf83e39debfa",
   "lastOpenFiles": [
+    "shortcut.md",
     "3DGS-compress.md",
     "Math/3DGS.md",
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
@@ -270,7 +257,6 @@
     "Math/多元高斯分布.md",
     "Notecards/傅里叶变换与小波变换.md",
     "CodeNew.md",
-    "shortcut.md",
     "Sundry/vim.md",
     "jiangNeuralImageCompression2024.md",
     "DCVC系列.md",
