@@ -60,6 +60,9 @@
 | 显示剪切板项目                     | Meta+V                |
 | 锁屏                          | Meta+L                |
 | 快速执行                        | Alt+Space             |
+| 截取光标所在窗口                    | Meta+Ctrl+Print       |
+| 截取矩形区域                      | Meta+Shift+Print      |
+|                             | Meta                  |
 
 
 # Vscode
