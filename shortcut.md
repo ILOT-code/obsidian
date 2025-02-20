@@ -62,7 +62,8 @@
 | 快速执行                        | Alt+Space             |
 | 截取光标所在窗口                    | Meta+Ctrl+Print       |
 | 截取矩形区域                      | Meta+Shift+Print      |
-|                             | Meta                  |
+| 截取活动的窗口                     | Meta+Print            |
+| 截取全屏                        | Shift+Print           |
 
 
 # Vscode
