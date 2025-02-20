@@ -325,7 +325,7 @@
 | 来源             | 作用                                    | 按键                         |
 | -------------- | ------------------------------------- | -------------------------- |
 | copilot        | 对选择内容进行解释                             | Ctrl+Alt+E                 |
-| copilot        | 把所选内容增加到聊天                            | Ctrl+K, Ctrl+Alt+E          |
+| copilot        | 把所选内容增加到聊天                            | Ctrl+K, Ctrl+Alt+E         |
 | copilot        | 在右边栏显示建议 (更改)                         | Alt+Enter                  |
 | copilot        | 询问 copilot (悬浮)                       | Ctrl+I                     |
 | copilot        | 询问 copilot（左边栏）                       | Ctrl+Alt+I                 |
@@ -356,8 +356,10 @@
 | Metago         | 在选中文本时，切换光标在文本的头部还是尾部 (更改)            | Alt+U                      |
 | SSH            | 打开远程菜单                                | Ctrl+Alt+O                 |
 | Clangd         | 切换头文件源文件                              | Alt+O                      |
-| block travel   | 块跳转（更改）                               | Alt+(left, right)          |
-| block travel   | 选择到上一（下一）块（更改）                        | Ctrl+K, Alt+(left, right)  |
+| Better Align   | 对齐                                    | Alt+I                      |
+|                |                                       |                            |
+|                |                                       |                            |
+
 
 
 
