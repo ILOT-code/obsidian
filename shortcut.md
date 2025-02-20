@@ -357,7 +357,7 @@
 | SSH            | 打开远程菜单                                | Ctrl+Alt+O                 |
 | Clangd         | 切换头文件源文件                              | Alt+O                      |
 | Better Align   | 对齐                                    | Alt+I                      |
-|                |                                       |                            |
+| Surround       | 选择包裹该代码                               | Alt+S                      |
 |                |                                       |                            |
 
 
