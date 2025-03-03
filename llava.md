@@ -27,5 +27,9 @@ class CLIPEncoder:
 `CLIPVisionTower` 主要有三个重要参数:
 1. `self.vision_tower_name`，利用 trasnformer 库，直接生成一个 CLIP 模型。
 2. `self.select_layer`，CLIP 模型是许多个 Transformer 构成，这个参数定义了到底选择那个中间 state 来输出。
-3. `self.select_feature`，ViT
-``
+3. `self.select_feature`，ViT 会向 token 序列的首部添加一个 cls token, 这个参数定义了是否选择这个特殊的首 token。
+
+`CLIPVisionTower` 类 `forward` 函数的输入与输出：
+1. 输入，一系列一张图片，图片的形状(b, c, h, w)
+2. 输出,，一系列或一张 feature，形状 (b, seq_len, embed_dim)
+
