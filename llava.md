@@ -17,4 +17,9 @@ class CLIPEncoder:
 	Class CLIPEncoderLayer
 	输入： (N, seq_len, embed_dim)，两个关于 attention 的 mask attention_mask, causal_attention_mask
 	输出：list,（N, seq_len, embed_dim）以及 atten 权重矩阵 (N\*num_hed, seq_len, seq_len)
-	
+
+
+
+
+# 图像编码部分
+这部分代码在目录 `multimodal_encoder` 下面。只有两个文件，通过 `build_vision_tower` 函数来构建图像 encoder。有两种 encoder：`CLIPV`
