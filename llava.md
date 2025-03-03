@@ -33,3 +33,4 @@ class CLIPEncoder:
 1. 输入，一系列一张图片，图片的形状(b, c, h, w)
 2. 输出,，一系列或一张 feature，形状 (b, seq_len, embed_dim)
 
+openai `CLIP` 的核心实现在类 `CLIPVisionTransformer` 中，他首先使用类 `CLIPVisionEmbedings` 来把图像转化成 token 序列(这是通过一个 conv 2d 实现的)，并在 tokene 序列首部插入列
