@@ -22,4 +22,9 @@ class CLIPEncoder:
 
 
 # 图像编码部分
-这部分代码在目录 `multimodal_encoder` 下面。只有两个文件，通过 `build_vision_tower` 函数来构建图像 encoder。有两种 encoder：`CLIPV`
+这部分代码在目录 `multimodal_encoder` 下面。只有两个文件，通过 `build_vision_tower` 函数来构建图像 encoder。有两种 encoder：`CLIPVisionTower` 和 `CLIPVisionTowerS2`，它们是类继承的关系，后者再前者的基础上加上了llava 1.5 提出的图像多尺度分辨率特征方法。
+
+`CLIPVisionTower` 主要有三个重要参数:
+1. `self.vision_tower_name`，利用 trasnformer 库，直接生成一个 CLIP 模型。
+2. 
+``
