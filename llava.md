@@ -12,7 +12,7 @@ class CLIPVisionEmbedings
 在对该嵌入进行 encode:
 class CLIPEncoder:
 输入: (N, seq_len, embed_dim), 两个关于 attention 的 mask attention_mask, 
-输入：list or dict, (N, seq_len, embed_dim), 以及中间 state 的列表，和一个 attention 权重的列表
+输出：list or dict, last_hidden_state(N, seq_len, embed_dim), 以及中间 state 的列表，和一个 attention 权重的列表
 描述：这个类有一系列相同的 class CLIPEncoderLayer 构成
 	Class CLIPEncoderLayer
 	输入： (N, seq_len, embed_dim)，两个关于 attention 的 mask attention_mask, causal_attention_mask
