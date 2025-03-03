@@ -18,5 +18,6 @@ openai `CLIP` 的核心实现在类 `CLIPVisionTransformer` 中，他首先使�
 ## 多分辨率特征融合
 这通过 `multiscale_forward` 函数实现。其输入参数主要有：
 1. model：模型本身
-2. input, 输入的图片 (需要 h==w)
-3. img_sizes
+2. input, 输入的图片 (需要 h\==w)
+3. img_sizes, 一个列表，input 会被缩放到这些大小
+4. max_split_size, 分割的尺寸
