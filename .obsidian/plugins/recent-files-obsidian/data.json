@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "llava",
+      "path": "llava.md"
+    },
+    {
       "basename": "shortcut",
       "path": "shortcut.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2024-09-07",
       "path": "diary/2024-09-07.md"
-    },
-    {
-      "basename": "Zizhongchen compress",
-      "path": "Zizhongchen compress.md"
     }
   ],
   "omittedPaths": [],
