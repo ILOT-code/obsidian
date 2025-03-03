@@ -1,29 +1,8 @@
 ****
-
-class  CLIPVisionTransformer:
-输入： pixel, (N, C, H, W)
-输出：last_hidden_state (N, seq_len, embed_Dim), pooled_output (N, 0 ,embed_dim)(对 cls token 池化的结果)，以及中间 state 的列表，和一个 attention 权重的列表
-先对图像进行嵌入：
-class CLIPVisionEmbedings
-输入：pixel, (N, C, H, W)
-输出：tokens, (N, num_positions, embed_dim)
-描述： 使用 ViT 的嵌入方法，把图像装化成 Token, 并为每个位置设计了一个可学习的位置编码，并在 token 序列首部插入 cls token.
-
-在对该嵌入进行 encode:
-class CLIPEncoder:
-输入: (N, seq_len, embed_dim), 两个关于 attention 的 mask attention_mask, 
-输出：list or dict, last_hidden_state(N, seq_len, embed_dim), 以及中间 state 的列表，和一个 attention 权重的列表
-描述：这个类有一系列相同的 class CLIPEncoderLayer 构成
-	Class CLIPEncoderLayer
-	输入： (N, seq_len, embed_dim)，两个关于 attention 的 mask attention_mask, causal_attention_mask
-	输出：list,（N, seq_len, embed_dim）以及 atten 权重矩阵 (N\*num_hed, seq_len, seq_len)
-
-
-
-
 # 图像编码部分
 这部分代码在目录 `multimodal_encoder` 下面。只有两个文件，通过 `build_vision_tower` 函数来构建图像 encoder。有两种 encoder：`CLIPVisionTower` 和 `CLIPVisionTowerS2`，它们是类继承的关系，后者再前者的基础上加上了llava 1.5 提出的图像多尺度分辨率特征方法。
 
+## encoder
 `CLIPVisionTower` 主要有三个重要参数:
 1. `self.vision_tower_name`，利用 trasnformer 库，直接生成一个 CLIP 模型。
 2. `self.select_layer`，CLIP 模型是许多个 Transformer 构成，这个参数定义了到底选择那个中间 state 来输出。
@@ -33,4 +12,6 @@ class CLIPEncoder:
 1. 输入，一系列一张图片，图片的形状(b, c, h, w)
 2. 输出,，一系列或一张 feature，形状 (b, seq_len, embed_dim)
 
-openai `CLIP` 的核心实现在类 `CLIPVisionTransformer` 中，他首先使用类 `CLIPVisionEmbedings` 来把图像转化成 token 序列(这是通过一个 conv 2d 实现的)，并在 tokene 序列首部插入列
+openai `CLIP` 的核心实现在类 `CLIPVisionTransformer` 中，他首先使用类 `CLIPVisionEmbedings` 来把图像转化成 token 序列(这是通过一个 conv 2d 实现的)，并在 tokene 序列首部插入一个可学习的 cls token，并为所有位置设计一个可学习的位置编码。
+然后通过类 `CLIPEncoder` 来进行处理，这个类是一连串的 Transformer 和 mlp 构成。最后的返回结果包括 last_hidden_state, 一个包含个 hidden_state 的列表，一个包含各个 attention_weight 的列表。当然 llavad 关注的只有这个 hidden_state.
+
