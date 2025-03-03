@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "llava",
+      "path": "llava.md"
+    },
+    {
       "basename": "Drawing 2025-03-03 19.51.02.excalidraw",
       "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Drawtang2023-scene",
       "path": "Excalidraw/Drawtang2023-scene.md"
-    },
-    {
-      "basename": "llava",
-      "path": "llava.md"
     },
     {
       "basename": "shortcut",

@@ -21,3 +21,10 @@ openai `CLIP` 的核心实现在类 `CLIPVisionTransformer` 中，他首先使�
 2. input, 输入的图片 (需要 h\==w)
 3. img_sizes, 一个列表，input 会被缩放到这些大小
 4. max_split_size, 分割的尺寸
+
+![[Pasted image 20250303195832.png]]
+
+
+
+
+

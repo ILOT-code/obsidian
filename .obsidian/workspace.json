@@ -28,12 +28,14 @@
             "id": "17b313558b8c43ad",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
+                "file": "llava.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-03 19.51.02.excalidraw"
+              "icon": "lucide-file",
+              "title": "llava"
             }
           }
         ],
@@ -241,12 +243,13 @@
   },
   "active": "17b313558b8c43ad",
   "lastOpenFiles": [
-    "未命名 1.canvas",
+    "Attachments/Pasted image 20250303195832.png",
     "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
+    "llava.md",
+    "未命名 1.canvas",
     "diary/2025-03-03.md",
     "Excalidraw/Drawtang2023-scene.md",
     "Excalidraw/未命名.md",
-    "llava.md",
     "未命名.canvas",
     "shortcut.md",
     "Math/3DGS.md",
