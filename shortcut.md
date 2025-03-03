@@ -358,7 +358,8 @@
 | Clangd         | 切换头文件源文件                              | Alt+O                      |
 | Better Align   | 对齐                                    | Alt+I                      |
 | Surround       | 选择包裹该代码                               | Alt+S                      |
-|                |                                       |                            |
+| Wrap Selection | 输入包裹内容                                | Alt+X                      |
+| Wrap Selection | 为所选内容包裹进相应符号                          | (,{,<,",',                 |
 
 
 

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2f1b5b9bcda01cd1",
+        "id": "f0085a96604c7573",
         "type": "tabs",
         "children": [
           {
-            "id": "e38eb2f03e69fad4",
+            "id": "12588579ecf13c64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shortcut.md",
+                "file": "未命名 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "shortcut"
+              "title": "未命名 1"
             }
           }
         ]
@@ -220,14 +220,14 @@
       "obsidian-git:Open Git source control": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:隐藏文件夹": false
+      "cmdr:ZotLit: Update literature note": false
     }
   },
-  "active": "e38eb2f03e69fad4",
+  "active": "12588579ecf13c64",
   "lastOpenFiles": [
-    "Math/3DGS.md",
+    "未命名 1.md",
     "shortcut.md",
+    "Math/3DGS.md",
     "3DGS-compress.md",
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "Attachments/Pasted image 20250219151112.png",
