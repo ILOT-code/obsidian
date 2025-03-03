@@ -14,5 +14,6 @@
     "betterlink"
   ],
   "translucency": false,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "showRibbon": true
 }

@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.49999618530273,
-    "collapsed": true
+    "width": 263.49999618530273
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -220,7 +219,8 @@
       "obsidian-git:Open Git source control": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Update literature note": false
+      "cmdr:ZotLit: Update literature note": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "ca3c0e79e6f32982",
