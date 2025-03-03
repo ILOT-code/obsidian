@@ -12,7 +12,8 @@ class CLIPVisionEmbedings
 在对该嵌入进行 encode:
 class CLIPEncoder:
 描述：这个类有一系列相同的 class CLIPEncoderLayer 构成
-Class CLIPEncoderLayer
-输入： (N, seq_len, embed_dim)，两个关于 attention 的 mask attention_mask, causal_att
-输出：（）
+	Class CLIPEncoderLayer
+	输入： (N, seq_len, embed_dim)，两个关于 attention 的 mask attention_mask, causal_attention_mask
+	输出：list,（N, seq_len, embed_dim）以及 atten 权重矩阵 (N\*num_hed, seq_len, seq_len)
+	
 
