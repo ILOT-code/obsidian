@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Drawing 2025-03-03 19.51.02.excalidraw",
+      "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
+    },
+    {
+      "basename": "未命名 1",
+      "path": "未命名 1.canvas"
+    },
+    {
+      "basename": "2025-03-03",
+      "path": "diary/2025-03-03.md"
+    },
+    {
+      "basename": "Drawtang2023-scene",
+      "path": "Excalidraw/Drawtang2023-scene.md"
+    },
+    {
       "basename": "llava",
       "path": "llava.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "周报24-09-07",
       "path": "周报/周报24-09-07.md"
-    },
-    {
-      "basename": "gomes2023-video",
-      "path": "LiteratureNotes/gomes2023-video.md"
-    },
-    {
-      "basename": "lee2023-ffnerv",
-      "path": "LiteratureNotes/lee2023-ffnerv.md"
-    },
-    {
-      "basename": "kwan2024-hinerva",
-      "path": "LiteratureNotes/kwan2024-hinerva.md"
-    },
-    {
-      "basename": "2024-09-07",
-      "path": "diary/2024-09-07.md"
     }
   ],
   "omittedPaths": [],
