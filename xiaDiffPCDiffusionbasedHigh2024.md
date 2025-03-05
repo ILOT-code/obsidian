@@ -11,4 +11,4 @@ citekey:
 tags:
 ---
 ## Abstract
-本文的方法建立在预训练的 stable diffusion 之上
+大体上，本文的方法建立在预训练的 stable diffusion 之上，并额外使用图像的语义特征来指导去噪过程，是一个带条件的 ddpm 模型。
