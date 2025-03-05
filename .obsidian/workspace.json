@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "llava.md",
+                "file": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llava"
+              "title": "xiaDiffPCDiffusionbasedHigh2024"
+            }
+          },
+          {
+            "id": "fd949ee70bb7db9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vonderfechtLossyCompressionPretrained2025.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "vonderfechtLossyCompressionPretrained2025"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,11 +239,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "17b313558b8c43ad",
+  "active": "fd949ee70bb7db9e",
   "lastOpenFiles": [
-    "3DGS-compress.md",
     "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
-    "未命名.md",
+    "vonderfechtLossyCompressionPretrained2025.md",
+    "LiteratureNotes/tang2023-scene.md",
+    "llava.md",
+    "3DGS-compress.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "Attachments/Pasted image 20250305153831.png",
@@ -236,8 +253,6 @@
     "Attachments/Pasted image 20250305152250.png",
     "Attachments/Pasted image 20250305145748.png",
     "Notecards/VAE.md",
-    "LiteratureNotes/tang2023-scene.md",
-    "llava.md",
     "Attachments/Pasted image 20250303195832.png",
     "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "diary/2025-03-03.md",
