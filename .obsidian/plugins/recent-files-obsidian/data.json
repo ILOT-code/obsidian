@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "llava",
+      "path": "llava.md"
+    },
+    {
+      "basename": "3DGS-compress",
+      "path": "3DGS-compress.md"
+    },
+    {
       "basename": "xiaDiffPCDiffusionbasedHigh2024",
       "path": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md"
     },
@@ -13,16 +21,8 @@
       "path": "LiteratureNotes/tang2023-scene.md"
     },
     {
-      "basename": "llava",
-      "path": "llava.md"
-    },
-    {
       "basename": "Drawing 2025-03-03 19.51.02.excalidraw",
       "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
-    },
-    {
-      "basename": "未命名 1",
-      "path": "未命名 1.canvas"
     },
     {
       "basename": "2025-03-03",
@@ -39,10 +39,6 @@
     {
       "basename": "3DGS",
       "path": "Math/3DGS.md"
-    },
-    {
-      "basename": "3DGS-compress",
-      "path": "3DGS-compress.md"
     },
     {
       "basename": "chenHACHashgridAssisted2024",
@@ -183,10 +179,6 @@
     {
       "basename": "VQ",
       "path": "Notecards/VQ.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.md"
     },
     {
       "basename": "zt-note.eta",
