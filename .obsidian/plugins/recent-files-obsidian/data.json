@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "VAE",
+      "path": "Notecards/VAE.md"
+    },
+    {
       "basename": "xiaDiffPCDiffusionbasedHigh2024",
       "path": "xiaDiffPCDiffusionbasedHigh2024.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "雅可比行列式",
       "path": "Math/雅可比行列式.md"
-    },
-    {
-      "basename": "kwan2024-immersive",
-      "path": "LiteratureNotes/kwan2024-immersive.md"
     }
   ],
   "omittedPaths": [],
