@@ -23,4 +23,7 @@ Bennett 和 Shor（2002）证明了可以用不多于 $I[X, Z_{t}]$ 个比特来
 $$
 I[\mathbf{X},\mathbf{Z}_{t}]+\log(I[\mathbf{X},\mathbf{Z}_{t}]+1)+5
 $$
-有的时候，解码端与编码端无法得知真正的分布
+有的时候，解码端与编码端无法得知真正的分布 $Z_{t}$，但是它们都可以访问到一个概率估计 $p_{t}$，此时，编码一个实例 $z_{t}$ 的上界就会变成：
+$$
+C_t+\log(C_t+1)+5\quad\mathrm{where}\quad C_t=\mathbb{E}_\mathbf{X}[D_\mathrm{KL}[q(\mathbf{z}_t\mid\mathbf{X})\parallel p_t(\mathbf{z}_t)]]
+$$
