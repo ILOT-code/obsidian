@@ -38,8 +38,12 @@ Latent Diffusion Model (LDM) 在图像分割和超分任务中，被证明具有
 > 与图像域中的神经压缩器不同，$M_{{\phi}}$ 重建了条件扩散模型的控制项。为确保条件生成的结果符合预期，我们旨在最小化以下 KL散度：
 > $$
 D_{\mathrm{KL}}(p(\mathbf{z}_0|\mathbf{x}),p(\mathbf{z}_0|\hat{\mathbf{c}}))=D_{\mathrm{KL}}(p(\mathbf{z}_0|\mathbf{x}),p(\mathbf{z}_0|M_\phi(\mathbf{z}_0,f_1,f_2))).
-$$ 通过引理：
+$$ 通过引理：![[Pasted image 20250305153206.png]]
+上面的 KL 散度被代替为：
+$$
+\underset{\gamma}{\operatorname*{\operatorname*{\operatorname*{\arg\min}}}}D_{{\mathrm{KL}}}(p(\mathbf{z}_{0}|\mathbf{x}),p_{\gamma}(\hat{\mathbf{c}}|\mathbf{z}_{0}))=\underset{\gamma}{\operatorname*{\operatorname*{\operatorname*{\arg\min}}}}\frac{1}{2\sigma_{{\mathbf{z}_{0}}}^{2}}\left[\left\|\boldsymbol{\mu}_{{\mathbf{z}_{0}}}-\boldsymbol{\mu}_{{\hat{\mathbf{c}}}}\right\|_{2}^{2}\right].
+$$
 
-
+这个损失函数，本来就是 end-edn R-D 方法中的重构损失项，这不是没有什么区别。
 
 
