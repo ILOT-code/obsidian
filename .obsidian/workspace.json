@@ -8,23 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3ede80f066144d1e",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "未命名 1.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名 1"
-            }
-          },
-          {
             "id": "17b313558b8c43ad",
             "type": "leaf",
             "state": {
@@ -38,8 +21,7 @@
               "title": "llava"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,6 +220,7 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
+      "hidden-folder-obsidian:隐藏文件夹": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
