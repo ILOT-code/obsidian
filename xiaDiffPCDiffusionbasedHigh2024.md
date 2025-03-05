@@ -46,4 +46,6 @@ $$
 
 这个损失函数，本来就是 end-edn R-D 方法中的重构损失项，这不是没有什么区别。
 
-
+### IC-ControlNet and Time-aware Decoupling
+IC 先融合 $\hat{c}$ 和 $Z_{t}$，并使用 U-Net 的前半部分初始化网络，经过各层处理得到的信息分别被嵌入到 n 后半部分中去。
+![[Pasted image 20250305153831.png]]
