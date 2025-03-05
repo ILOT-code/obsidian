@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "xiaDiffPCDiffusionbasedHigh2024",
+      "path": "xiaDiffPCDiffusionbasedHigh2024.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
       "basename": "llava",
       "path": "llava.md"
     },
@@ -101,10 +109,6 @@
       "path": "han2024-CausalContextAdjustment.md"
     },
     {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
       "basename": "chen2024-howfarcan",
       "path": "chen2024-howfarcan.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "kwan2024-immersive",
       "path": "LiteratureNotes/kwan2024-immersive.md"
-    },
-    {
-      "basename": "周报24-09-07",
-      "path": "周报/周报24-09-07.md"
     }
   ],
   "omittedPaths": [],
