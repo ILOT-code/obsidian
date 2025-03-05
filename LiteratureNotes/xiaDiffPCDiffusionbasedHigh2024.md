@@ -63,4 +63,4 @@ $$
 $$
 
 ### Stage 2
-stage 2
+stage 2 会训练这个 Image Enc 模块, 把这个“图像”和 text 输入给 Q-former, 得到一个语义级别的信息，给到 U-Net 的 cross-attention 中去。
