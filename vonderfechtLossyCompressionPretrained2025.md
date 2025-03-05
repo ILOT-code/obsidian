@@ -22,7 +22,15 @@ Bennett 和 Shor（2002）证明了可以用不多于 $I[X, Z]$ 个比特来传�
 $$
 I[\mathbf{X},\mathbf{Z}_{t}]+\log(I[\mathbf{X},\mathbf{Z}_{t}]+1)+5
 $$
-有的时候，解码端与编码端无法得知真正的分布 $Z$，但是它们都可以访问到一个概率估计 $p_{t}$，此时，编码一个实例 $z_{t}$ 的上界就会变成：
+有的时候，解码端与编码端无法得知真正的分布 $Z$，但是它们都可以访问到一个概率估计 $p$，此时，编码一个实例 $z$ 的上界就会变成：
 $$
-C_t+\log(C_t+1)+5\quad\mathrm{where}\quad C_t=\mathbb{E}_\mathbf{X}[D_\mathrm{KL}[q(\mathbf{z}_t\mid\mathbf{X})\parallel p_t(\mathbf{z}_t)]]
+C+\log(C+1)+5\quad\mathrm{where}\quad C=\mathbb{E}_\mathbf{X}[D_\mathrm{KL}[q(\mathbf{z}\mid\mathbf{X})\parallel p(\mathbf{z})]]
 $$
+
+这是该文献的一篇参考文献中，提到的 reverse channel coding 的大体思路：
+![[Pasted image 20250305192513.png]]
+
+
+
+## Intro
+本文试图利用 reverse channel coding 技术，以及一些大的预训练的 SD 模型，在不进行任何训练以及条件融合的情况下，实现图像的
