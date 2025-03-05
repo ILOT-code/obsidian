@@ -49,3 +49,18 @@ $$
 ### IC-ControlNet and Time-aware Decoupling
 IC 先融合 $\hat{c}$ 和 $Z_{t}$，并使用 U-Net 的前半部分初始化网络，经过各层处理得到的信息分别被嵌入到 n 后半部分中去。
 ![[Pasted image 20250305153831.png]]
+然而，在低比特率下过于严格的控制也存在弊端：激进的量化可能导致 cˆ的病理性退化，从而增加了去噪模型预测 z 0 的难度。这种倾向可能使去噪模型放弃预测真实数据分布，转而生成类似于条件 cˆ的样本；这种现象被称为条件泄漏（Zhao et al., 2024）。在压缩框架中，这种现象表现为去噪模型失去了其去噪效果，进而重建出失真的图像，如图 3 (b)(1) 所示。为了解决这一问题，我们提出了时间感知解耦（TAD）模块。TAD 的详细信息见附录A.4。TAD 致力于将控制因子 cˆ从 IC-ControlNet 中解耦，从而将扩散模型的噪声预测转化为残差噪声预测：
+
+在低比特率下，$\hat{c}$ 会损失很多信息，增加了去噪的难度。这种倾向可能使去噪模型放弃预测真实数据分布，转而生成类似于条件 $\hat{c}$ 的样本，这种现象被称为条件泄漏（Zhao et al., 2024）。本文提出了 Time-Aware Decoupling (TAD) module 来处理这个问题：
+$$
+\hat{\epsilon}=\mathcal{DN}_\theta\left(\sqrt{\bar{\alpha}_t}\boldsymbol{z}_0+\sqrt{1-\bar{\alpha}_t}\epsilon,\hat{\boldsymbol{c}},t\right)+\mathrm{TAD}_\eta(\hat{\boldsymbol{c}},t).
+$$
+其实就是类似跳跃连接的思路。
+
+最终，stage 1 的损失函数是：
+$$
+\begin{aligned}\mathcal{L}_{stage\:1}&=\quad\lambda_{1}\mathcal{L}_{imp}\left(\boldsymbol{z}_{0},\hat{\boldsymbol{c}}\right)+\lambda_{2}\mathcal{L}_{rate}+\mathcal{L}_{CSD},\\\mathcal{L}_{CSD}&=\quad\mathbb{E}_{\boldsymbol{z}_{0},\hat{\boldsymbol{c}},,t,\epsilon}\left[\left\|\epsilon-\mathcal{D}\mathcal{N}_{\theta}\left(\sqrt{\bar{\alpha}_{t}}\boldsymbol{z}_{0}+\sqrt{1-\bar{\alpha}_{t}}\epsilon,\hat{\boldsymbol{c}},t\right)-\mathrm{TAD}_{\eta}(\hat{\boldsymbol{c}},t)\right\|_{2}^{2}\right].\end{aligned}
+$$
+
+### Stage 2
+stage 2
