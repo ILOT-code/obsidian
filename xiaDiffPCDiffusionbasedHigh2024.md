@@ -35,4 +35,11 @@ Latent Diffusion Model (LDM) 在图像分割和超分任务中，被证明具有
 ![[Pasted image 20250305152250.png]]
 
 作者对这个结构的训练方法有一些奇怪的解释，但最终解释的结果和普通的图像编码器似乎没有任何区别：
-> 与图像域中的神经压缩器不同，Mφ(·)重建了条件扩散模型的控制项。为确保条件生成的结果符合预期，我们旨在最小化以下Kullback-Leibler散度：
+> 与图像域中的神经压缩器不同，$M_{{\phi}}$ 重建了条件扩散模型的控制项。为确保条件生成的结果符合预期，我们旨在最小化以下 KL散度：
+> $$
+D_{\mathrm{KL}}(p(\mathbf{z}_0|\mathbf{x}),p(\mathbf{z}_0|\hat{\mathbf{c}}))=D_{\mathrm{KL}}(p(\mathbf{z}_0|\mathbf{x}),p(\mathbf{z}_0|M_\phi(\mathbf{z}_0,f_1,f_2))).
+$$ 通过引理：
+
+
+
+
