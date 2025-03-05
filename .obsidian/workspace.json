@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a13eda2b0252e506",
+        "id": "5d323dc34931f00e",
         "type": "tabs",
         "children": [
           {
-            "id": "17b313558b8c43ad",
+            "id": "ee3ca7056be48b73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "xiaDiffPCDiffusionbasedHigh2024"
-            }
-          },
-          {
-            "id": "fd949ee70bb7db9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vonderfechtLossyCompressionPretrained2025.md",
+                "file": "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
                 "mode": "source",
                 "source": false
               },
@@ -35,8 +21,7 @@
               "title": "vonderfechtLossyCompressionPretrained2025"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,8 +224,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fd949ee70bb7db9e",
+  "active": "ee3ca7056be48b73",
   "lastOpenFiles": [
+    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
+    "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
     "Attachments/Pasted image 20250305200301.png",
     "Attachments/Pasted image 20250305200007.png",
     "Attachments/Pasted image 20250305194140.png",
@@ -248,8 +235,6 @@
     "Attachments/Pasted image 20250305192513.png",
     "Attachments/Pasted image 20250305181840.png",
     "Attachments/Pasted image 20250305181830.png",
-    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
-    "vonderfechtLossyCompressionPretrained2025.md",
     "LiteratureNotes/tang2023-scene.md",
     "llava.md",
     "3DGS-compress.md",
@@ -258,7 +243,6 @@
     "Attachments/Pasted image 20250305153831.png",
     "Attachments/Pasted image 20250305153206.png",
     "Attachments/Pasted image 20250305152250.png",
-    "Attachments/Pasted image 20250305145748.png",
     "Notecards/VAE.md",
     "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "diary/2025-03-03.md",
