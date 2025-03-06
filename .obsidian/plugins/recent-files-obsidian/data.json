@@ -5,6 +5,22 @@
       "path": "LiteratureNotes/LearningTransferableVisual2021.md"
     },
     {
+      "basename": "3DGS",
+      "path": "Math/3DGS.md"
+    },
+    {
+      "basename": "3DGS-compress",
+      "path": "LiteratureNotes/3DGS-compress.md"
+    },
+    {
+      "basename": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS",
+      "path": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md"
+    },
+    {
+      "basename": "jiangNeuralImageCompression2024",
+      "path": "jiangNeuralImageCompression2024.md"
+    },
+    {
       "basename": "vonderfechtLossyCompressionPretrained2025",
       "path": "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md"
     },
@@ -19,10 +35,6 @@
     {
       "basename": "llava",
       "path": "llava.md"
-    },
-    {
-      "basename": "3DGS-compress",
-      "path": "3DGS-compress.md"
     },
     {
       "basename": "VAE",
@@ -43,10 +55,6 @@
     {
       "basename": "shortcut",
       "path": "shortcut.md"
-    },
-    {
-      "basename": "3DGS",
-      "path": "Math/3DGS.md"
     },
     {
       "basename": "chenHACHashgridAssisted2024",
@@ -97,10 +105,6 @@
       "path": "DCVC系列.md"
     },
     {
-      "basename": "jiangNeuralImageCompression2024",
-      "path": "jiangNeuralImageCompression2024.md"
-    },
-    {
       "basename": "zhang2024-LDMIC",
       "path": "zhang2024-LDMIC.md"
     },
@@ -135,10 +139,6 @@
     {
       "basename": "Pytorch",
       "path": "Sundry/Pytorch.md"
-    },
-    {
-      "basename": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS",
-      "path": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md"
     },
     {
       "basename": "zhangVQNeRVVectorQuantization2024",
