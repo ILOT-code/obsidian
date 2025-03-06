@@ -11,14 +11,12 @@
             "id": "e720ef8742e26d44",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "llava.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "llava"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-03 19.51.02.excalidraw"
             }
           }
         ]
@@ -226,6 +224,9 @@
   },
   "active": "e720ef8742e26d44",
   "lastOpenFiles": [
+    "Excalidraw/Drawtang2023-scene.md",
+    "Excalidraw/Drawguo2023-compression.md",
+    "llava.md",
     "LiteratureNotes/liuImprovedBaselinesVisual2024.md",
     "LiteratureNotes/liuVisualInstructionTuning2023.md",
     "Attachments/Pasted image 20250306161011.png",
@@ -235,7 +236,6 @@
     "Attachments/Pasted image 20250306144938.png",
     "Attachments/Pasted image 20250306144904.png",
     "Attachments/Pasted image 20250306141048.png",
-    "llava.md",
     "Math/3DGS.md",
     "LiteratureNotes/3DGS-compress.md",
     "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
@@ -253,7 +253,6 @@
     "Notecards/VAE.md",
     "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "diary/2025-03-03.md",
-    "Excalidraw/Drawtang2023-scene.md",
     "Excalidraw/未命名.md",
     "shortcut.md",
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
@@ -263,7 +262,6 @@
     "LiteratureNotes/luScaffoldGSStructured3D2023.md",
     "LiteratureNotes/li2022-enerv.md",
     "LiteratureNotes/liu2023-learned.md",
-    "Math/多元高斯分布.md",
     "chen2024-howfarcan.pdf",
     "chen2024-howfarcan.pptx",
     "周报"

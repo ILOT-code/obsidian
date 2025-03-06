@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Drawing 2025-03-03 19.51.02.excalidraw",
+      "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
+    },
+    {
+      "basename": "Drawtang2023-scene",
+      "path": "Excalidraw/Drawtang2023-scene.md"
+    },
+    {
+      "basename": "Drawguo2023-compression",
+      "path": "Excalidraw/Drawguo2023-compression.md"
+    },
+    {
       "basename": "llava",
       "path": "llava.md"
     },
@@ -49,16 +61,8 @@
       "path": "Notecards/VAE.md"
     },
     {
-      "basename": "Drawing 2025-03-03 19.51.02.excalidraw",
-      "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
-    },
-    {
       "basename": "2025-03-03",
       "path": "diary/2025-03-03.md"
-    },
-    {
-      "basename": "Drawtang2023-scene",
-      "path": "Excalidraw/Drawtang2023-scene.md"
     },
     {
       "basename": "shortcut",
@@ -195,10 +199,6 @@
     {
       "basename": "VQ",
       "path": "Notecards/VQ.md"
-    },
-    {
-      "basename": "zt-note.eta",
-      "path": "ZtTemplates/zt-note.eta.md"
     }
   ],
   "omittedPaths": [],
