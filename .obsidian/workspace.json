@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "47f4df89c58fa2dd",
+        "id": "037ee581a0d78cf9",
         "type": "tabs",
         "children": [
           {
-            "id": "36dc689b8adc5b89",
+            "id": "746d2921a35822ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/ImprovedBaselinesVisual2024.md",
+                "file": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ImprovedBaselinesVisual2024"
+              "title": "xiaDiffPCDiffusionbasedHigh2024"
+            }
+          },
+          {
+            "id": "087629931010c73b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vonderfechtLossyCompressionPretrained2025"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.49999618530273
+    "width": 263.49999618530273,
+    "collapsed": true
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -224,14 +240,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "36dc689b8adc5b89",
+  "active": "087629931010c73b",
   "lastOpenFiles": [
+    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
+    "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
+    "LiteratureNotes/ImprovedBaselinesVisual2024.md",
     "Attachments/Pasted image 20250306190455.png",
     "LiteratureNotes/hazimeh2021-dselectk.md",
-    "LiteratureNotes/ImprovedBaselinesVisual2024.md",
     "LiteratureNotes/liuImprovedBaselinesVisual2024.md",
-    "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
-    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
     "LiteratureNotes/gaoImplicitMotionFunction2024.md",
     "LiteratureNotes/zhao2021-optimizing.md",
     "LiteratureNotes/LearningTransferableVisual2021.md",
@@ -254,7 +270,6 @@
     "Attachments/Pasted image 20250305200301.png",
     "Attachments/Pasted image 20250305200007.png",
     "Attachments/Pasted image 20250305194140.png",
-    "Attachments/Pasted image 20250305193027.png",
     "LiteratureNotes/tang2023-scene.md",
     "未命名.canvas",
     "未命名 1.canvas",
