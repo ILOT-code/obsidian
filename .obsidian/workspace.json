@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "74e12c0043158d41",
+        "id": "ab82c4380452a66e",
         "type": "tabs",
         "children": [
           {
-            "id": "1588ed7ada5210f7",
+            "id": "b98bec5720f4836b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -29,7 +29,7 @@
       {
         "id": "ce5c4b517c017921",
         "type": "tabs",
-        "dimension": 77.09049255441008,
+        "dimension": 24.284077892325314,
         "children": [
           {
             "id": "af5c7bb3610ed00e",
@@ -76,7 +76,7 @@
       {
         "id": "f9ff9a56711812bb",
         "type": "tabs",
-        "dimension": 22.909507445589917,
+        "dimension": 75.71592210767469,
         "children": [
           {
             "id": "fdb1a5f537a6d654",
@@ -216,21 +216,26 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1588ed7ada5210f7",
+  "active": "b98bec5720f4836b",
   "lastOpenFiles": [
+    "LiteratureNotes/liuImprovedBaselinesVisual2024.md",
+    "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
+    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
+    "LiteratureNotes/gaoImplicitMotionFunction2024.md",
+    "LiteratureNotes/zhao2021-optimizing.md",
+    "LiteratureNotes/LearningTransferableVisual2021.md",
     "llava.md",
     "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "Excalidraw/Drawtang2023-scene.md",
     "Excalidraw/Drawguo2023-compression.md",
-    "LiteratureNotes/liuImprovedBaselinesVisual2024.md",
     "LiteratureNotes/liuVisualInstructionTuning2023.md",
     "Attachments/Pasted image 20250306161011.png",
     "Attachments/Pasted image 20250306154753.png",
     "Attachments/Pasted image 20250306153344.png",
-    "LiteratureNotes/LearningTransferableVisual2021.md",
     "Attachments/Pasted image 20250306144938.png",
     "Attachments/Pasted image 20250306144904.png",
     "Attachments/Pasted image 20250306141048.png",
@@ -238,9 +243,7 @@
     "LiteratureNotes/3DGS-compress.md",
     "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
     "jiangNeuralImageCompression2024.md",
-    "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
     "LiteratureNotes/radfordLearningTransferableVisual2021.md",
-    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
     "Attachments/Pasted image 20250305200301.png",
     "Attachments/Pasted image 20250305200007.png",
     "Attachments/Pasted image 20250305194140.png",
@@ -257,8 +260,6 @@
     "Notecards/SOM.md",
     "Math/SH，SG.md",
     "LiteratureNotes/luScaffoldGSStructured3D2023.md",
-    "LiteratureNotes/li2022-enerv.md",
-    "LiteratureNotes/liu2023-learned.md",
     "chen2024-howfarcan.pdf",
     "chen2024-howfarcan.pptx",
     "周报"

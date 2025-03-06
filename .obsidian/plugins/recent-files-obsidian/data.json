@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "liuImprovedBaselinesVisual2024",
+      "path": "LiteratureNotes/liuImprovedBaselinesVisual2024.md"
+    },
+    {
+      "basename": "vonderfechtLossyCompressionPretrained2025",
+      "path": "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md"
+    },
+    {
+      "basename": "xiaDiffPCDiffusionbasedHigh2024",
+      "path": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md"
+    },
+    {
+      "basename": "gaoImplicitMotionFunction2024",
+      "path": "LiteratureNotes/gaoImplicitMotionFunction2024.md"
+    },
+    {
+      "basename": "zhao2021-optimizing",
+      "path": "LiteratureNotes/zhao2021-optimizing.md"
+    },
+    {
+      "basename": "LearningTransferableVisual2021",
+      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
+    },
+    {
       "basename": "llava",
       "path": "llava.md"
     },
@@ -17,16 +41,8 @@
       "path": "Excalidraw/Drawguo2023-compression.md"
     },
     {
-      "basename": "liuImprovedBaselinesVisual2024",
-      "path": "LiteratureNotes/liuImprovedBaselinesVisual2024.md"
-    },
-    {
       "basename": "liuVisualInstructionTuning2023",
       "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
-    },
-    {
-      "basename": "LearningTransferableVisual2021",
-      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
     },
     {
       "basename": "3DGS",
@@ -43,14 +59,6 @@
     {
       "basename": "jiangNeuralImageCompression2024",
       "path": "jiangNeuralImageCompression2024.md"
-    },
-    {
-      "basename": "vonderfechtLossyCompressionPretrained2025",
-      "path": "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md"
-    },
-    {
-      "basename": "xiaDiffPCDiffusionbasedHigh2024",
-      "path": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md"
     },
     {
       "basename": "tang2023-scene",
@@ -173,10 +181,6 @@
       "path": "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md"
     },
     {
-      "basename": "zhao2021-optimizing",
-      "path": "LiteratureNotes/zhao2021-optimizing.md"
-    },
-    {
       "basename": "周报24-10-18",
       "path": "周报/周报24-10-18.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "chengDNARenderingDiverseNeural2023",
       "path": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md"
-    },
-    {
-      "basename": "VQ",
-      "path": "Notecards/VQ.md"
     }
   ],
   "omittedPaths": [],
