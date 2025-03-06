@@ -48,3 +48,7 @@ tags: []
 模型：有别于 CLIP，另一种模型是给定图片，精确的预测出它对应的文本。这类模型的训练难度很高，因为文本的形式多种多样。CLIP 这样的对比式的模型不管在训练难度还是 zero-shot 能力上，都更好。
 
 Choosing and Scaling a Model：图像编码器是一个 ViT 加一连串的 self-attention. 文本 encoder 是一个 Transformer
+
+## 实验
+![[Pasted image 20250306144904.png]]
+![[Pasted image 20250306144938.png]]

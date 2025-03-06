@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "liuVisualInstructionTuning2023",
+      "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
+    },
+    {
       "basename": "LearningTransferableVisual2021",
       "path": "LiteratureNotes/LearningTransferableVisual2021.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2024-09-18",
       "path": "diary/2024-09-18.md"
-    },
-    {
-      "basename": "雅可比行列式",
-      "path": "Math/雅可比行列式.md"
     }
   ],
   "omittedPaths": [],
