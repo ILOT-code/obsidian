@@ -45,3 +45,6 @@ vision encoder 采用了预训练的 clip, language model 采用了 vicuna。
 ![[Pasted image 20250306154753.png]]
 
 对每一张图片 $\mathbf{X}_{v}$，为其构建了一个多轮对话 $(X_{q}^{1},X_{a}^{1},\dots X_{q}^{T},X_{a}^{T})$
+$$
+
+$$
