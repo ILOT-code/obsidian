@@ -45,6 +45,7 @@ vision encoder 采用了预训练的 clip, language model 采用了 vicuna。
 ![[Pasted image 20250306154753.png]]
 
 对每一张图片 $\mathbf{X}_{v}$，为其构建了一个多轮对话 $(X_{q}^{1},X_{a}^{1},\dots X_{q}^{T},X_{a}^{T})$
+每一轮的 instruct 是：
 $$
-
+\mathbf{X}_{{\mathrm{instruct}}}^{t}=\begin{cases}&\text{Randomly choose }[\mathbf{X}_{{\mathrm{q}}}^{1},\mathbf{X}_{{\mathrm{v}}}]&\mathrm{or~}[\mathbf{X}_{{\mathrm{v}}},\mathbf{X}_{{\mathrm{q}}}^{1}],&\mathrm{the~first~turn~}t=1\\&\mathbf{X}_{{\mathrm{q}}}^{t},&\mathrm{the~remaining~turns~}t>1&&\end{cases}
 $$
