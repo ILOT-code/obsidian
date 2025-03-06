@@ -29,3 +29,5 @@ tags: []
 2. 大型多模态模型。我们开发了一个大型多模态模型，通过将 CLIP 视觉编码器与语言解码器 Vicuna 连接，并在生成的数据上进行端到端微调。
 3. 基准。我们提出了 LLaVA-Bench，包含两个具有挑战性的基准。
 4. 开源。
+
+## Visual Instruction Data Generation
