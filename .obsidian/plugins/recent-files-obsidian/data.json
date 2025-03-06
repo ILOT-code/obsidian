@@ -5,6 +5,10 @@
       "path": "LiteratureNotes/LearningTransferableVisual2021.md"
     },
     {
+      "basename": "llava",
+      "path": "llava.md"
+    },
+    {
       "basename": "3DGS",
       "path": "Math/3DGS.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "tang2023-scene",
       "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
-      "basename": "llava",
-      "path": "llava.md"
     },
     {
       "basename": "VAE",

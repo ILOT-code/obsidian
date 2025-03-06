@@ -34,5 +34,8 @@ tags: []
 
 
 
-## Comments
+## Method
 
+![[Pasted image 20250306141048.png]]
+
+在 pre-training 中，通过两个 encoder 把 $N$ 张图片和其对应的 $N$ 个文本映射到 $N$ 个向量中去，$I_{1},I_{2},\dots I_{N},T_{1},T_{2},\dots T_{N}$。它们的向量长度被映射的相同。使用
