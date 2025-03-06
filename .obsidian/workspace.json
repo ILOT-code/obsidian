@@ -35,8 +35,7 @@
               "title": "vonderfechtLossyCompressionPretrained2025"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,10 +239,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "087629931010c73b",
+  "active": "746d2921a35822ba",
   "lastOpenFiles": [
-    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
     "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
+    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
     "LiteratureNotes/ImprovedBaselinesVisual2024.md",
     "Attachments/Pasted image 20250306190455.png",
     "LiteratureNotes/hazimeh2021-dselectk.md",
