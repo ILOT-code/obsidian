@@ -20,7 +20,8 @@ tags: []
 ## Abstract
 
 >[!abstract]
->Instruction tuning large language models (LLMs) using machine-generated instruction-following data has improved zero-shot capabilities on new tasks, but the idea is less explored in the multimodal field. In this paper, we present the first attempt to use language-only GPT-4 to generate multimodal language-image instruction-following data. By instruction tuning on such generated data, we introduce LLaVA: Large Language and Vision Assistant, an end-to-end trained large multimodal model that connects a vision encoder and LLM for general-purpose visual and language understanding.Our early experiments show that LLaVA demonstrates impressive multimodel chat abilities, sometimes exhibiting the behaviors of multimodal GPT-4 on unseen images/instructions, and yields a 85.1% relative score compared with GPT-4 on a synthetic multimodal instruction-following dataset. When fine-tuned on Science QA, the synergy of LLaVA and GPT-4 achieves a new state-of-the-art accuracy of 92.53%. We make GPT-4 generated visual instruction tuning data, our model and code base publicly available.
+> 使用机器生成的和指令相关的数据，已经被证明可以提高 LLM 的 zero-shot 能力，但这一思想在多模态领域的探索很少。
+> 本文使用 GPT-4 生成和图像问答相关的数据，通过在这样的数据上进行训练，得到了 LLaVA。连接了视觉编码器和 LLM，用于通用视觉与语言理解。
 
 ## Comments
 
