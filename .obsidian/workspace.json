@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5d323dc34931f00e",
+        "id": "d1d2e44201cf2b87",
         "type": "tabs",
         "children": [
           {
-            "id": "ee3ca7056be48b73",
+            "id": "4efc1f7b5683534e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -220,11 +220,10 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:隐藏文件夹": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "ee3ca7056be48b73",
+  "active": "4efc1f7b5683534e",
   "lastOpenFiles": [
     "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
     "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",

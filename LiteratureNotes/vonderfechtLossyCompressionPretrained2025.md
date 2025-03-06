@@ -12,7 +12,8 @@ tags:
 # reverse channel coding
 如果用概率分布 $p$ 去编码真实分布 $q$ 中的数据，需要的编码长度是它们的交叉熵。这样的编码是我们熟知的熵编码，他可以用 ans, ac 等技术来实现。这种熵编码是“正向的”，也就是先有数据，再有一个对数据分布的估计，然后去进行编解码操作。
 
-而 reverse channel coding 的流程和上面不同，它聚焦于如下问题：
+而 reverse channel coding 的流程和上面不同，它是先有一个分布，在进行采用，然后进行编码。
+它聚焦于如下问题：
 $$
 \mathbf{Z}=\mathbf{X}+\mathbf{U}\quad\mathrm{~where~}\quad\mathbf{U}\sim\mathcal{N}(0,\mathbf{I}),
 $$
