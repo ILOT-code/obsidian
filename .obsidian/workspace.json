@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/liuVisualInstructionTuning2023.md",
+                "file": "llava.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "liuVisualInstructionTuning2023"
+              "title": "llava"
             }
           }
         ]
@@ -226,11 +226,12 @@
   },
   "active": "e720ef8742e26d44",
   "lastOpenFiles": [
+    "LiteratureNotes/liuImprovedBaselinesVisual2024.md",
+    "LiteratureNotes/liuVisualInstructionTuning2023.md",
     "Attachments/Pasted image 20250306161011.png",
     "Attachments/Pasted image 20250306154753.png",
     "Attachments/Pasted image 20250306153344.png",
     "LiteratureNotes/LearningTransferableVisual2021.md",
-    "LiteratureNotes/liuVisualInstructionTuning2023.md",
     "Attachments/Pasted image 20250306144938.png",
     "Attachments/Pasted image 20250306144904.png",
     "Attachments/Pasted image 20250306141048.png",
@@ -246,7 +247,6 @@
     "Attachments/Pasted image 20250305200007.png",
     "Attachments/Pasted image 20250305194140.png",
     "Attachments/Pasted image 20250305193027.png",
-    "Attachments/Pasted image 20250305192513.png",
     "LiteratureNotes/tang2023-scene.md",
     "未命名.canvas",
     "未命名 1.canvas",

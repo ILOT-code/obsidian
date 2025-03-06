@@ -48,4 +48,7 @@ vision encoder 采用了预训练的 clip, language model 采用了 vicuna。
 每一轮的 instruct 是：
 $$
 \mathbf{X}_{{\mathrm{instruct}}}^{t}=\begin{cases}&\text{Randomly choose }[\mathbf{X}_{{\mathrm{q}}}^{1},\mathbf{X}_{{\mathrm{v}}}]&\mathrm{or~}[\mathbf{X}_{{\mathrm{v}}},\mathbf{X}_{{\mathrm{q}}}^{1}],&\mathrm{the~first~turn~}t=1\\&\mathbf{X}_{{\mathrm{q}}}^{t},&\mathrm{the~remaining~turns~}t>1&&\end{cases}
-$$![[Pasted image 20250306161011.png]]
+$$ ![[Pasted image 20250306161011.png]]
+训练被分为两个阶段：
+第一阶段：除投影矩阵外，所以参数都固定
+第二阶段：固定 clips 参数。

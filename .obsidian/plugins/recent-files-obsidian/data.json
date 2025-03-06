@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "llava",
+      "path": "llava.md"
+    },
+    {
+      "basename": "liuImprovedBaselinesVisual2024",
+      "path": "LiteratureNotes/liuImprovedBaselinesVisual2024.md"
+    },
+    {
       "basename": "liuVisualInstructionTuning2023",
       "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
     },
     {
       "basename": "LearningTransferableVisual2021",
       "path": "LiteratureNotes/LearningTransferableVisual2021.md"
-    },
-    {
-      "basename": "llava",
-      "path": "llava.md"
     },
     {
       "basename": "3DGS",
@@ -195,10 +199,6 @@
     {
       "basename": "zt-note.eta",
       "path": "ZtTemplates/zt-note.eta.md"
-    },
-    {
-      "basename": "2024-09-18",
-      "path": "diary/2024-09-18.md"
     }
   ],
   "omittedPaths": [],
