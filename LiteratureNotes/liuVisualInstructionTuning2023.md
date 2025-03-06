@@ -34,5 +34,7 @@ tags: []
 image-text 对的数据有很多，本文使用这样的数据，借助 gpt 4 来生成 visual instruction data.
 
 首先，提供给 gpt 4 的 prompt 有图像自带的 captions，以及描述了图片中元素及其位置信息的 Boxes。通过一些系统级的提示词，使用 gpt 4 来生成了三种类型的数据：
-1. conversation:
+1. conversation: Question涵盖了图像视觉内容的多样化问题，包括物体类型、物体数量、物体动作、物体位置以及物体之间的相对位置
+2. Detailed description: 对图像丰富全面的描述。
+3. complex reasoning: 是一些需要深度推理的问题与回答。
 ![[Pasted image 20250306153344.png]]
