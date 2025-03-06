@@ -38,3 +38,7 @@ image-text 对的数据有很多，本文使用这样的数据，借助 gpt 4 �
 2. Detailed description: 对图像丰富全面的描述。
 3. complex reasoning: 是一些需要深度推理的问题与回答。
 ![[Pasted image 20250306153344.png]]
+
+## 模型结构和训练
+vision encoder 采用了预训练的 clip, language model 采用了 vicuna
+![[Pasted image 20250306154753.png]]
