@@ -31,3 +31,8 @@ tags: []
 4. 开源。
 
 ## Visual Instruction Data Generation
+image-text 对的数据有很多，本文使用这样的数据，借助 gpt 4 来生成 visual instruction data.
+
+首先，提供给 gpt 4 的 prompt 有图像自带的 captions，以及描述了图片中元素及其位置信息的 Boxes。通过一些系统级的提示词，使用 gpt 4 来生成了三种类型的数据：
+1. conversation:
+![[Pasted image 20250306153344.png]]
