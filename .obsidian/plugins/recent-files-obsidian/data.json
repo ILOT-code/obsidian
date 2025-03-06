@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "llava",
+      "path": "llava.md"
+    },
+    {
       "basename": "Drawing 2025-03-03 19.51.02.excalidraw",
       "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Drawguo2023-compression",
       "path": "Excalidraw/Drawguo2023-compression.md"
-    },
-    {
-      "basename": "llava",
-      "path": "llava.md"
     },
     {
       "basename": "liuImprovedBaselinesVisual2024",

@@ -11,12 +11,14 @@
             "id": "e720ef8742e26d44",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
+                "file": "llava.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-03 19.51.02.excalidraw"
+              "icon": "lucide-file",
+              "title": "llava"
             }
           }
         ]
@@ -224,9 +226,10 @@
   },
   "active": "e720ef8742e26d44",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
+    "llava.md",
     "Excalidraw/Drawtang2023-scene.md",
     "Excalidraw/Drawguo2023-compression.md",
-    "llava.md",
     "LiteratureNotes/liuImprovedBaselinesVisual2024.md",
     "LiteratureNotes/liuVisualInstructionTuning2023.md",
     "Attachments/Pasted image 20250306161011.png",
@@ -251,7 +254,6 @@
     "未命名.canvas",
     "未命名 1.canvas",
     "Notecards/VAE.md",
-    "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "diary/2025-03-03.md",
     "Excalidraw/未命名.md",
     "shortcut.md",
