@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ImprovedBaselinesVisual2024",
+      "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
+    },
+    {
       "basename": "liuImprovedBaselinesVisual2024",
       "path": "LiteratureNotes/liuImprovedBaselinesVisual2024.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "zhang2024-efficient",
       "path": "LiteratureNotes/zhang2024-efficient.md"
-    },
-    {
-      "basename": "chengDNARenderingDiverseNeural2023",
-      "path": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md"
     }
   ],
   "omittedPaths": [],
