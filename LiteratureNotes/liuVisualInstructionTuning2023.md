@@ -40,5 +40,8 @@ image-text 对的数据有很多，本文使用这样的数据，借助 gpt 4 �
 ![[Pasted image 20250306153344.png]]
 
 ## 模型结构和训练
-vision encoder 采用了预训练的 clip, language model 采用了 vicuna
+vision encoder 采用了预训练的 clip, language model 采用了 vicuna。
+图像经过 clip 后变成 $\mathbf{Z}_{v}$，经过一个线性映射，把维度变成和词嵌入的维度一样。$\mathbf{H}_{v},\mathbf{H}_{q}$ 被送入语言模型得到回答。
 ![[Pasted image 20250306154753.png]]
+
+对每一张图片 $\mathbf{X}_{v}$，为其构建了一个多轮对话 $(X_{q}^{1},X_{a}^{1},\dots X_{q}^{T},X_{a}^{T})$
