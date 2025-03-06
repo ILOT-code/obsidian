@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/radfordLearningTransferableVisual2021.md",
+                "file": "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "radfordLearningTransferableVisual2021"
+              "title": "vonderfechtLossyCompressionPretrained2025"
             }
           }
         ]
@@ -226,9 +226,9 @@
   },
   "active": "4efc1f7b5683534e",
   "lastOpenFiles": [
-    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
     "LiteratureNotes/radfordLearningTransferableVisual2021.md",
     "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
+    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
     "Attachments/Pasted image 20250305200301.png",
     "Attachments/Pasted image 20250305200007.png",
     "Attachments/Pasted image 20250305194140.png",
