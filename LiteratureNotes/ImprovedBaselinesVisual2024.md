@@ -19,8 +19,8 @@ tags: []
 ## Abstract
 
 >[!abstract]
->
+> llava 1.5, 对 llavag 进行了一些改进。
+> 
 
-## Comments
+![[Pasted image 20250306190455.png]]
 
-sdsd

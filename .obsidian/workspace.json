@@ -11,10 +11,14 @@
             "id": "36dc689b8adc5b89",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/ImprovedBaselinesVisual2024.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "ImprovedBaselinesVisual2024"
             }
           }
         ]
@@ -222,6 +226,8 @@
   },
   "active": "36dc689b8adc5b89",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20250306190455.png",
+    "LiteratureNotes/hazimeh2021-dselectk.md",
     "LiteratureNotes/ImprovedBaselinesVisual2024.md",
     "LiteratureNotes/liuImprovedBaselinesVisual2024.md",
     "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
@@ -258,8 +264,6 @@
     "shortcut.md",
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "Notecards/Transformer.md",
-    "Notecards/SOM.md",
-    "Math/SH，SG.md",
     "chen2024-howfarcan.pdf",
     "chen2024-howfarcan.pptx",
     "周报"
