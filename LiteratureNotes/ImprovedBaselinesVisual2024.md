@@ -19,7 +19,7 @@ tags: []
 ## Abstract
 
 >[!abstract]
-> llava 1.5, 对 llavag 进行了一些改进。
+> llava 1.5, 对 llava 进行了一些改进。
 > 
 
 ![[Pasted image 20250306190455.png]]
@@ -27,5 +27,8 @@ tags: []
 
  
  LLaVA 在通常需要简短回答的 academic benchmarks上表现欠佳，且由于训练数据中缺乏此类信息，往往倾向于对是非问题回答“是”。
- 为了平衡模型长回答和短回答的能力，如果需要简短的回答，会加上提示词：Answer the question using a single word or phrase. 使用这个 prompt 微调后，在 MME 测试上，分数由 809.6 提升到了 1323.8
+ 为了平衡模型长回答和短回答的能力，如果需要简短的回答，会加上提示词：Answer the question using a single word or phrase. 使用这个 prompt 与 VQAv2 在数据集上微调后，在 MME 测试上，分数由 809.6 提升到了 1323.8
  ![[Pasted image 20250307113602.png]]
+## Scaling the Data and Model
+
+首先是训练数据的扩大，i 采用了多个数据集，根据数据集的 
