@@ -12,7 +12,8 @@
 ![[Pasted image 20240711000532.png]]
 # Video compression
 ## NeRV: Neural Representations for Videos
-
+比较早做这方面的文章
+![[Pasted image 20250307180934.png]]
 ## Video Compression With Entropy-Constrained Neural Representations
 抛弃 grid, 设计更紧凑的网络结构，对网络参数进行熵估计。
 ![[Pasted image 20240906111014.png]]
@@ -44,15 +45,16 @@ NERF 的原始论文
 一种剪枝算法，减少 grid 的存储。
 ![[Pasted image 20240124193418.png]]
 ## Factor Fields: A Unified Framework for Neural Fields and Beyond
-
+NerF 的改进，对网格的设置和坐标到网格映射的方法作出了改进
+![[Pasted image 20240905142141.png]]
 ## SHACIRA: Scalable HAsh-grid Compression for Implicit Neural Representations
 一种降维的方法，减少 grid 的大小。
 ![[Pasted image 20231210115018.png]]
 
 # 3dgs 技术
 ## HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression
-
-
+引入了熵模型来减少 3dgs 的参数。
+![[Pasted image 20241018125808.png]]
 
 ## Scaffold-GS: Structured 3 D Gaussians for View-Adaptive Rendering
 对 3DGS 渲染技术的改进。用少量高斯锚点来生成大量高斯基元。
