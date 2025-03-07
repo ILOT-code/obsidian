@@ -5,6 +5,62 @@
       "path": "INR方法汇总.md"
     },
     {
+      "basename": "luScaffoldGSStructured3D2023",
+      "path": "LiteratureNotes/luScaffoldGSStructured3D2023.md"
+    },
+    {
+      "basename": "marpe2003-contextbased",
+      "path": "LiteratureNotes/marpe2003-contextbased.md"
+    },
+    {
+      "basename": "mentzer2019-practical",
+      "path": "LiteratureNotes/mentzer2019-practical.md"
+    },
+    {
+      "basename": "muller2022-instant",
+      "path": "LiteratureNotes/muller2022-instant.md"
+    },
+    {
+      "basename": "oord2016-conditional",
+      "path": "LiteratureNotes/oord2016-conditional.md"
+    },
+    {
+      "basename": "oord2016-pixel",
+      "path": "LiteratureNotes/oord2016-pixel.md"
+    },
+    {
+      "basename": "salimans2022-progressive",
+      "path": "LiteratureNotes/salimans2022-progressive.md"
+    },
+    {
+      "basename": "sneyers2016-flif",
+      "path": "LiteratureNotes/sneyers2016-flif.md"
+    },
+    {
+      "basename": "sun2023-all",
+      "path": "LiteratureNotes/sun2023-all.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
+      "basename": "wang2024-model",
+      "path": "LiteratureNotes/wang2024-model.md"
+    },
+    {
+      "basename": "wu2023-tetrirf",
+      "path": "LiteratureNotes/wu2023-tetrirf.md"
+    },
+    {
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
+    },
+    {
+      "basename": "xiaDiffPCDiffusionbasedHigh2024",
+      "path": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md"
+    },
+    {
       "basename": "yang2023-tinc",
       "path": "LiteratureNotes/yang2023-tinc.md"
     },
@@ -143,62 +199,6 @@
     {
       "basename": "liu2023-learned",
       "path": "LiteratureNotes/liu2023-learned.md"
-    },
-    {
-      "basename": "liuVisualInstructionTuning2023",
-      "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
-    },
-    {
-      "basename": "luScaffoldGSStructured3D2023",
-      "path": "LiteratureNotes/luScaffoldGSStructured3D2023.md"
-    },
-    {
-      "basename": "marpe2003-contextbased",
-      "path": "LiteratureNotes/marpe2003-contextbased.md"
-    },
-    {
-      "basename": "mentzer2019-practical",
-      "path": "LiteratureNotes/mentzer2019-practical.md"
-    },
-    {
-      "basename": "muller2022-instant",
-      "path": "LiteratureNotes/muller2022-instant.md"
-    },
-    {
-      "basename": "oord2016-conditional",
-      "path": "LiteratureNotes/oord2016-conditional.md"
-    },
-    {
-      "basename": "oord2016-pixel",
-      "path": "LiteratureNotes/oord2016-pixel.md"
-    },
-    {
-      "basename": "salimans2022-progressive",
-      "path": "LiteratureNotes/salimans2022-progressive.md"
-    },
-    {
-      "basename": "sun2023-all",
-      "path": "LiteratureNotes/sun2023-all.md"
-    },
-    {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
-      "basename": "vonderfechtLossyCompressionPretrained2025",
-      "path": "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md"
-    },
-    {
-      "basename": "wang2024-model",
-      "path": "LiteratureNotes/wang2024-model.md"
-    },
-    {
-      "basename": "wu2023-tetrirf",
-      "path": "LiteratureNotes/wu2023-tetrirf.md"
-    },
-    {
-      "basename": "xiaDiffPCDiffusionbasedHigh2024",
-      "path": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md"
     }
   ],
   "omittedPaths": [],
