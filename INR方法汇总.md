@@ -35,6 +35,11 @@
 ## AN EXPLORATION WITH ENTROPY CONSTRAINED 3 D GAUSSIANS FOR 2 D VIDEO COMPRESSION
 3dgs 来进行视频压缩
 ![[Pasted image 20241018130448.png]]
+## Combining Frame and GOP Embeddings for Neural Video Representation
+![[Pasted image 20250307181720.png]]
+## VQNeRV: Vector Quantization Neural  Representation for Video Compression
+引入 VQ
+![[Pasted image 20250307181952.png]]
 
 # NeRF 技术
 ## Instant neural graphics primitives with a multiresolution hash encoding
@@ -51,6 +56,14 @@ NerF 的改进，对网格的设置和坐标到网格映射的方法作出了改
 一种降维的方法，减少 grid 的大小。
 ![[Pasted image 20231210115018.png]]
 
+## COINR: COMPRESSED IMPLICIT NEURAL REPRESENTATIONS
+压缩 INR 模型权重的方法。
+假设某个隐藏层有 $k_{1}$ 个神经元，那么该层的一个权重向量可以写成 $\mathbf{w}\in \mathbb{R}^{k_{1}}$。它们可以看成一个个符合正态分布的随机变量。
+![[Pasted image 20241112144950.png]]
+
+因此，可以用足够多的随机变量的线性表达，来表示该权重向量，即 $\mathbf{w}=\mathbf{A}\mathbf{x},\mathbf{A}\in \mathbb{R}^{k_{1}\times k_{2}},\mathbf{x}\in \mathbb{R}^{k_{2}}$ 
+$k_{2}$ 当然得足够大。我们并不需要来存储 $\mathbf{A}$，只需要固定发送端和接收端的随机数种子，然后以相同的顺序来生成字典 $\mathbf{A}$ 即可。
+假设 $\mathbf{x}$ 中非 0 元素的数量是 $s$，那么就需要 $2s$ 个数去存储 $x$。只需要限定 $2s<k_{1}$，就能达到压缩效果。
 # 3dgs 技术
 ## HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression
 引入了熵模型来减少 3dgs 的参数。
