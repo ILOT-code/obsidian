@@ -36,23 +36,29 @@ PCS 2024
 ![[Pasted image 20240904194217.png]]
 
 ##  Efficient Dynamic-NeRF Based Volumetric Video Coding with Rate Distortion Optimization
+VCIP 2024
 对帧与帧之间的差异建立一个 $R_{t}$ 网格
 ![[Pasted image 20240905162319.png]]
 
 ## FFNeRV: Flow-Guided Frame-Wise Neural Representations for Videos
+[MM '23: Proceedings of the 31st ACM International Conference on Multimedia](https://dl.acm.org/doi/proceedings/10.1145/3581783)
 把光流信息融入 INR 中去
 ![[Pasted image 20240904145059.png]]
 ## AN EXPLORATION WITH ENTROPY CONSTRAINED 3 D GAUSSIANS FOR 2 D VIDEO COMPRESSION
+ICLR 2025
 3dgs 来进行视频压缩
 ![[Pasted image 20241018130448.png]]
 ## Combining Frame and GOP Embeddings for Neural Video Representation
+CVPR 2024
 ![[Pasted image 20250307181720.png]]
 ## VQNeRV: Vector Quantization Neural  Representation for Video Compression
+ISCAS 2024
 引入 VQ
 ![[Pasted image 20250307181952.png]]
 
 # NeRF 技术
 ## Instant neural graphics primitives with a multiresolution hash encoding
+TOG 2022
 NERF 的原始论文
 ![[Pasted image 20231210114113.png]]
 
