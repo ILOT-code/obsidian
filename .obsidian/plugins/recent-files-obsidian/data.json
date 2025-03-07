@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "gomes2023-video",
+      "path": "LiteratureNotes/gomes2023-video.md"
+    },
+    {
       "basename": "INR方法汇总",
       "path": "INR方法汇总.md"
+    },
+    {
+      "basename": "guo2023-compression",
+      "path": "LiteratureNotes/guo2023-compression.md"
+    },
+    {
+      "basename": "hazimeh2021-dselectk",
+      "path": "LiteratureNotes/hazimeh2021-dselectk.md"
+    },
+    {
+      "basename": "ImprovedBaselinesVisual2024",
+      "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
+    },
+    {
+      "basename": "kim2024-c3",
+      "path": "LiteratureNotes/kim2024-c3.md"
     },
     {
       "basename": "kwan2024-hinerva",
@@ -179,26 +199,6 @@
     {
       "basename": "girish2023-shacira",
       "path": "LiteratureNotes/girish2023-shacira.md"
-    },
-    {
-      "basename": "girishSHACIRAScalableHAshgrid2023",
-      "path": "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md"
-    },
-    {
-      "basename": "gomes2023-video",
-      "path": "LiteratureNotes/gomes2023-video.md"
-    },
-    {
-      "basename": "guo2023-compression",
-      "path": "LiteratureNotes/guo2023-compression.md"
-    },
-    {
-      "basename": "hazimeh2021-dselectk",
-      "path": "LiteratureNotes/hazimeh2021-dselectk.md"
-    },
-    {
-      "basename": "ImprovedBaselinesVisual2024",
-      "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
     }
   ],
   "omittedPaths": [],

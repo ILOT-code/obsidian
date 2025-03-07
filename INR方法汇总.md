@@ -8,14 +8,17 @@
 ![[Pasted image 20240107140632.png]]
 
 ## C3: High-Performance and Low-Complexity Neural Compression from a Single Image or Video
-
+和 cool-chic 一个系列，引入了自回归的熵模型以及其它各种改进。
+![[Pasted image 20240711000532.png]]
 # Video compression
 ## NeRV: Neural Representations for Videos
 
 ## Video Compression With Entropy-Constrained Neural Representations
+抛弃 grid, 设计更紧凑的网络结构，对网络参数进行熵估计。
+![[Pasted image 20240906111014.png]]
 
 ## HiNeRV: Video Compression with Hierarchical Encoding-based Neural Representation
-更紧凑的 INR 表达
+更紧凑的 INR 表达方法
 ![[Pasted image 20240904162739.png]]
 ## Immersive Video Compression using Implicit Neural Representations
 多视角视频压缩
