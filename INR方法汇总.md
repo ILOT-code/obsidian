@@ -11,6 +11,8 @@
 和 cool-chic 一个系列，引入了自回归的熵模型以及其它各种改进。
 ![[Pasted image 20240711000532.png]]
 # Video compression
+## E-NeRV: Expedite Neural Video Representation with Disentangled Spatial-Temporal Context
+![[Pasted image 20250307182127.png]]
 ## NeRV: Neural Representations for Videos
 比较早做这方面的文章
 ![[Pasted image 20250307180934.png]]
