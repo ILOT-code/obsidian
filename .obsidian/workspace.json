@@ -35,8 +35,7 @@
               "title": "INR方法汇总"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,11 +238,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8a3e1fda03d2265f",
+  "active": "453a0f55b28ca4a9",
   "lastOpenFiles": [
+    "INR方法汇总.md",
     "LiteratureNotes/3DGS-compress.md",
     "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
-    "INR方法汇总.md",
     "Attachments/Pasted image 20250307184639.png",
     "Attachments/Pasted image 20250307184031.png",
     "Attachments/Pasted image 20250307182127.png",
