@@ -1,29 +1,37 @@
 
 # Image compression
 ## TINC : Tree-structured Implicit Neural Compression
+CVPR 2023
 树状结构的 INR 来压缩 3D 图像
 ![[Pasted image 20231016205353.png]]
 ## COOL-CHIC: Coordinate-based Low Complexity Hierarchical Image Codec
+ICCV 2023
 对 grid 进行R-D 优化
 ![[Pasted image 20240107140632.png]]
 
 ## C3: High-Performance and Low-Complexity Neural Compression from a Single Image or Video
+CVPR 2023
 和 cool-chic 一个系列，引入了自回归的熵模型以及其它各种改进。
 ![[Pasted image 20240711000532.png]]
 # Video compression
 ## E-NeRV: Expedite Neural Video Representation with Disentangled Spatial-Temporal Context
+ECCV 2022
 ![[Pasted image 20250307182127.png]]
 ## NeRV: Neural Representations for Videos
+NIPS 2021
 比较早做这方面的文章
 ![[Pasted image 20250307180934.png]]
 ## Video Compression With Entropy-Constrained Neural Representations
+CVPR 2023
 抛弃 grid, 设计更紧凑的网络结构，对网络参数进行熵估计。
 ![[Pasted image 20240906111014.png]]
 
 ## HiNeRV: Video Compression with Hierarchical Encoding-based Neural Representation
+NIPS 2023
 更紧凑的 INR 表达方法
 ![[Pasted image 20240904162739.png]]
 ## Immersive Video Compression using Implicit Neural Representations
+PCS 2024
 多视角视频压缩
 ![[Pasted image 20240904194217.png]]
 
