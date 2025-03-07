@@ -63,12 +63,14 @@ NERF 的原始论文
 ![[Pasted image 20231210114113.png]]
 
 ## Compressing Explicit Voxel Grid Representations: Fast NeRFs Become Also Small
+WACV 2023
 一种剪枝算法，减少 grid 的存储。
 ![[Pasted image 20240124193418.png]]
 ## Factor Fields: A Unified Framework for Neural Fields and Beyond
 NerF 的改进，对网格的设置和坐标到网格映射的方法作出了改进
 ![[Pasted image 20240905142141.png]]
 ## SHACIRA: Scalable HAsh-grid Compression for Implicit Neural Representations
+ICCV 2023
 一种降维的方法，减少 grid 的大小。
 ![[Pasted image 20231210115018.png]]
 
@@ -82,9 +84,11 @@ $k_{2}$ 当然得足够大。我们并不需要来存储 $\mathbf{A}$，只需�
 假设 $\mathbf{x}$ 中非 0 元素的数量是 $s$，那么就需要 $2s$ 个数去存储 $x$。只需要限定 $2s<k_{1}$，就能达到压缩效果。
 # 3dgs 技术
 ## HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression
+ECCV 2024
 引入了熵模型来减少 3dgs 的参数。
 ![[Pasted image 20241018125808.png]]
 
 ## Scaffold-GS: Structured 3 D Gaussians for View-Adaptive Rendering
+CVPR 2024
 对 3DGS 渲染技术的改进。用少量高斯锚点来生成大量高斯基元。
 ![[Pasted image 20250307174935.png]]
