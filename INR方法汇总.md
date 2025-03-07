@@ -12,3 +12,10 @@ Compressing Explicit Voxel Grid Representations: Fast NeRFs Become Also Small
 HAC: Hash-grid Assisted Context for 3 D Gaussian Splatting Compression
 Factor Fields: A Unified Framework for Neural Fields and Beyond
 NeRV: Neural Representations for Videos
+
+
+# Image compression
+
+# Video compression
+
+# INR
