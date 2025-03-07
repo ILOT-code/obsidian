@@ -27,4 +27,5 @@ tags: []
 
  
  LLaVA 在通常需要简短回答的 academic benchmarks上表现欠佳，且由于训练数据中缺乏此类信息，往往倾向于对是非问题回答“是”。
- 为了平衡模型长回答和短回答的能力，训练时，如果需要简短的回答，会加上提示词：Answer the question using a single word or phrase. 使用这个 prompt 微调后，在 MME 测试上，分数由 809.6 提升到了 1323.8
+ 为了平衡模型长回答和短回答的能力，如果需要简短的回答，会加上提示词：Answer the question using a single word or phrase. 使用这个 prompt 微调后，在 MME 测试上，分数由 809.6 提升到了 1323.8
+ ![[Pasted image 20250307113602.png]]
