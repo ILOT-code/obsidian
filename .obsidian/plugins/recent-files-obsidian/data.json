@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "gomes2023-video",
-      "path": "LiteratureNotes/gomes2023-video.md"
-    },
-    {
       "basename": "INR方法汇总",
       "path": "INR方法汇总.md"
+    },
+    {
+      "basename": "chenHACHashgridAssisted2024",
+      "path": "LiteratureNotes/chenHACHashgridAssisted2024.md"
+    },
+    {
+      "basename": "deng2023-compressing",
+      "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
+      "basename": "3DGS-compress",
+      "path": "LiteratureNotes/3DGS-compress.md"
+    },
+    {
+      "basename": "dettmers2022-llm",
+      "path": "LiteratureNotes/dettmers2022-llm.md"
+    },
+    {
+      "basename": "EXPLORATIONENTROPYCONSTRAINED",
+      "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
+    },
+    {
+      "basename": "flamich2022-fast",
+      "path": "LiteratureNotes/flamich2022-fast.md"
+    },
+    {
+      "basename": "ge2024-taskaware",
+      "path": "LiteratureNotes/ge2024-taskaware.md"
+    },
+    {
+      "basename": "girish2023-shacira",
+      "path": "LiteratureNotes/girish2023-shacira.md"
+    },
+    {
+      "basename": "gomes2023-video",
+      "path": "LiteratureNotes/gomes2023-video.md"
     },
     {
       "basename": "guo2023-compression",
@@ -31,10 +63,6 @@
     {
       "basename": "kwan2024-immersive",
       "path": "LiteratureNotes/kwan2024-immersive.md"
-    },
-    {
-      "basename": "3DGS-compress",
-      "path": "LiteratureNotes/3DGS-compress.md"
     },
     {
       "basename": "ladune2023-coolchic",
@@ -167,38 +195,6 @@
     {
       "basename": "chengDNARenderingDiverseNeural2023",
       "path": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md"
-    },
-    {
-      "basename": "chenHACHashgridAssisted2024",
-      "path": "LiteratureNotes/chenHACHashgridAssisted2024.md"
-    },
-    {
-      "basename": "deng2023-compressing",
-      "path": "LiteratureNotes/deng2023-compressing.md"
-    },
-    {
-      "basename": "dettmers2022-llm",
-      "path": "LiteratureNotes/dettmers2022-llm.md"
-    },
-    {
-      "basename": "EXPLORATIONENTROPYCONSTRAINED",
-      "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
-    },
-    {
-      "basename": "flamich2022-fast",
-      "path": "LiteratureNotes/flamich2022-fast.md"
-    },
-    {
-      "basename": "gaoImplicitMotionFunction2024",
-      "path": "LiteratureNotes/gaoImplicitMotionFunction2024.md"
-    },
-    {
-      "basename": "ge2024-taskaware",
-      "path": "LiteratureNotes/ge2024-taskaware.md"
-    },
-    {
-      "basename": "girish2023-shacira",
-      "path": "LiteratureNotes/girish2023-shacira.md"
     }
   ],
   "omittedPaths": [],
