@@ -13,16 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/lee2023-flexround.md",
+                "file": "LiteratureNotes/ladune2023-coolchic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lee2023-flexround"
+              "title": "ladune2023-coolchic"
             }
           },
           {
             "id": "453a0f55b28ca4a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EXPLORATIONENTROPYCONSTRAINED"
+            }
+          },
+          {
+            "id": "8a3e1fda03d2265f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,7 +49,8 @@
               "title": "INR方法汇总"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -238,8 +253,25 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d4dbc59adfe38823",
+  "active": "453a0f55b28ca4a9",
   "lastOpenFiles": [
+    "LiteratureNotes/flamich2022-fast.md",
+    "LiteratureNotes/gaoImplicitMotionFunction2024.md",
+    "LiteratureNotes/ge2024-taskaware.md",
+    "LiteratureNotes/girish2023-shacira.md",
+    "INR方法汇总.md",
+    "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
+    "LiteratureNotes/gomes2023-video.md",
+    "LiteratureNotes/guo2023-compression.md",
+    "LiteratureNotes/hazimeh2021-dselectk.md",
+    "LiteratureNotes/ImprovedBaselinesVisual2024.md",
+    "LiteratureNotes/kim2024-c3.md",
+    "LiteratureNotes/kwan2024-hinerva.md",
+    "LiteratureNotes/kwan2024-immersive.md",
+    "LiteratureNotes/ladune2023-coolchic.md",
+    "LiteratureNotes/LearningTransferableVisual2021.md",
+    "LiteratureNotes/lee2023-ffnerv.md",
+    "LiteratureNotes/lee2023-flexround.md",
     "LiteratureNotes/li2022-enerv.md",
     "LiteratureNotes/li2023-neural.md",
     "LiteratureNotes/li2024-neural.md",
@@ -247,25 +279,8 @@
     "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/liuVisualInstructionTuning2023.md",
     "LiteratureNotes/luScaffoldGSStructured3D2023.md",
-    "INR方法汇总.md",
     "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/mentzer2019-practical.md",
-    "LiteratureNotes/muller2022-instant.md",
-    "LiteratureNotes/oord2016-conditional.md",
-    "LiteratureNotes/oord2016-pixel.md",
-    "LiteratureNotes/salimans2022-progressive.md",
-    "LiteratureNotes/sun2023-all.md",
-    "LiteratureNotes/tang2023-scene.md",
-    "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md",
-    "LiteratureNotes/wang2024-model.md",
-    "LiteratureNotes/wu2023-tetrirf.md",
-    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
-    "LiteratureNotes/yang2023-lossy.md",
-    "LiteratureNotes/yang2023-tinc.md",
-    "LiteratureNotes/zhang2024-efficient.md",
-    "LiteratureNotes/zhao2021-optimizing.md",
-    "LiteratureNotes/ali2023-efficient.md",
-    "LiteratureNotes/3DGS-compress.md",
     "Attachments/Pasted image 20250307123438.png",
     "Attachments/Pasted image 20250307120359.png",
     "Attachments/Pasted image 20250307120116.png",

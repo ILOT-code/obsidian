@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "EXPLORATIONENTROPYCONSTRAINED",
+      "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
+    },
+    {
+      "basename": "flamich2022-fast",
+      "path": "LiteratureNotes/flamich2022-fast.md"
+    },
+    {
+      "basename": "gaoImplicitMotionFunction2024",
+      "path": "LiteratureNotes/gaoImplicitMotionFunction2024.md"
+    },
+    {
+      "basename": "ge2024-taskaware",
+      "path": "LiteratureNotes/ge2024-taskaware.md"
+    },
+    {
+      "basename": "girish2023-shacira",
+      "path": "LiteratureNotes/girish2023-shacira.md"
+    },
+    {
+      "basename": "INR方法汇总",
+      "path": "INR方法汇总.md"
+    },
+    {
+      "basename": "girishSHACIRAScalableHAshgrid2023",
+      "path": "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md"
+    },
+    {
+      "basename": "gomes2023-video",
+      "path": "LiteratureNotes/gomes2023-video.md"
+    },
+    {
+      "basename": "guo2023-compression",
+      "path": "LiteratureNotes/guo2023-compression.md"
+    },
+    {
+      "basename": "hazimeh2021-dselectk",
+      "path": "LiteratureNotes/hazimeh2021-dselectk.md"
+    },
+    {
+      "basename": "ImprovedBaselinesVisual2024",
+      "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
+    },
+    {
+      "basename": "kim2024-c3",
+      "path": "LiteratureNotes/kim2024-c3.md"
+    },
+    {
+      "basename": "kwan2024-hinerva",
+      "path": "LiteratureNotes/kwan2024-hinerva.md"
+    },
+    {
+      "basename": "kwan2024-immersive",
+      "path": "LiteratureNotes/kwan2024-immersive.md"
+    },
+    {
+      "basename": "ladune2023-coolchic",
+      "path": "LiteratureNotes/ladune2023-coolchic.md"
+    },
+    {
+      "basename": "LearningTransferableVisual2021",
+      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
+    },
+    {
+      "basename": "lee2023-ffnerv",
+      "path": "LiteratureNotes/lee2023-ffnerv.md"
+    },
+    {
       "basename": "lee2023-flexround",
       "path": "LiteratureNotes/lee2023-flexround.md"
     },
@@ -31,10 +99,6 @@
     {
       "basename": "luScaffoldGSStructured3D2023",
       "path": "LiteratureNotes/luScaffoldGSStructured3D2023.md"
-    },
-    {
-      "basename": "INR方法汇总",
-      "path": "INR方法汇总.md"
     },
     {
       "basename": "marpe2003-contextbased",
@@ -117,18 +181,6 @@
       "path": "LiteratureNotes/deng2023-compressing.md"
     },
     {
-      "basename": "EXPLORATIONENTROPYCONSTRAINED",
-      "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
-    },
-    {
-      "basename": "ImprovedBaselinesVisual2024",
-      "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
-    },
-    {
-      "basename": "LearningTransferableVisual2021",
-      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
-    },
-    {
       "basename": "llava代码",
       "path": "llava代码.md"
     },
@@ -141,64 +193,12 @@
       "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
     },
     {
-      "basename": "hazimeh2021-dselectk",
-      "path": "LiteratureNotes/hazimeh2021-dselectk.md"
-    },
-    {
-      "basename": "gaoImplicitMotionFunction2024",
-      "path": "LiteratureNotes/gaoImplicitMotionFunction2024.md"
-    },
-    {
       "basename": "Drawtang2023-scene",
       "path": "Excalidraw/Drawtang2023-scene.md"
     },
     {
       "basename": "Drawguo2023-compression",
       "path": "Excalidraw/Drawguo2023-compression.md"
-    },
-    {
-      "basename": "3DGS",
-      "path": "Math/3DGS.md"
-    },
-    {
-      "basename": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS",
-      "path": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md"
-    },
-    {
-      "basename": "jiangNeuralImageCompression2024",
-      "path": "jiangNeuralImageCompression2024.md"
-    },
-    {
-      "basename": "VAE",
-      "path": "Notecards/VAE.md"
-    },
-    {
-      "basename": "2025-03-03",
-      "path": "diary/2025-03-03.md"
-    },
-    {
-      "basename": "shortcut",
-      "path": "shortcut.md"
-    },
-    {
-      "basename": "chenHACHashgridAssisted2024",
-      "path": "LiteratureNotes/chenHACHashgridAssisted2024.md"
-    },
-    {
-      "basename": "Transformer",
-      "path": "Notecards/Transformer.md"
-    },
-    {
-      "basename": "SOM",
-      "path": "Notecards/SOM.md"
-    },
-    {
-      "basename": "SH，SG",
-      "path": "Math/SH，SG.md"
-    },
-    {
-      "basename": "多元高斯分布",
-      "path": "Math/多元高斯分布.md"
     }
   ],
   "omittedPaths": [],
