@@ -5,6 +5,22 @@
       "path": "INR方法汇总.md"
     },
     {
+      "basename": "yang2023-tinc",
+      "path": "LiteratureNotes/yang2023-tinc.md"
+    },
+    {
+      "basename": "zhang2024-efficient",
+      "path": "LiteratureNotes/zhang2024-efficient.md"
+    },
+    {
+      "basename": "chen2023-factor",
+      "path": "LiteratureNotes/chen2023-factor.md"
+    },
+    {
+      "basename": "ladune2023-coolchic",
+      "path": "LiteratureNotes/ladune2023-coolchic.md"
+    },
+    {
       "basename": "3DGS-compress",
       "path": "LiteratureNotes/3DGS-compress.md"
     },
@@ -27,10 +43,6 @@
     {
       "basename": "chen2021-nerv",
       "path": "LiteratureNotes/chen2021-nerv.md"
-    },
-    {
-      "basename": "chen2023-factor",
-      "path": "LiteratureNotes/chen2023-factor.md"
     },
     {
       "basename": "chengDNARenderingDiverseNeural2023",
@@ -99,10 +111,6 @@
     {
       "basename": "kwan2024-immersive",
       "path": "LiteratureNotes/kwan2024-immersive.md"
-    },
-    {
-      "basename": "ladune2023-coolchic",
-      "path": "LiteratureNotes/ladune2023-coolchic.md"
     },
     {
       "basename": "LearningTransferableVisual2021",
@@ -191,14 +199,6 @@
     {
       "basename": "xiaDiffPCDiffusionbasedHigh2024",
       "path": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md"
-    },
-    {
-      "basename": "yang2023-lossy",
-      "path": "LiteratureNotes/yang2023-lossy.md"
-    },
-    {
-      "basename": "yang2023-tinc",
-      "path": "LiteratureNotes/yang2023-tinc.md"
     }
   ],
   "omittedPaths": [],
