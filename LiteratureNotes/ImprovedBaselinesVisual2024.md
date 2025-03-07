@@ -40,4 +40,10 @@ tags: []
 
 **To Higher Resolutions**
 ![[Pasted image 20250307115452.png]]
+下面的实验验证了这个 global context 的重要性
+![[Pasted image 20250307120018.png]]
 代码实现上，稍微有点不一样。
+
+## Evaluation
+llava 1.5 实现了用简单的结构，更少的数据量，达到了 sota
+![[Pasted image 20250307120116.png]]
