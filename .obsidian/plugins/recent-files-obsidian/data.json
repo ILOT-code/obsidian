@@ -5,16 +5,16 @@
       "path": "llava部署.md"
     },
     {
-      "basename": "llava",
-      "path": "llava.md"
+      "basename": "LearningTransferableVisual2021",
+      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
+    },
+    {
+      "basename": "llava代码",
+      "path": "llava代码.md"
     },
     {
       "basename": "ImprovedBaselinesVisual2024",
       "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
-    },
-    {
-      "basename": "LearningTransferableVisual2021",
-      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
     },
     {
       "basename": "vonderfechtLossyCompressionPretrained2025",

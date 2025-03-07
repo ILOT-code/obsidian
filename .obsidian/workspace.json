@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "llava.md",
+                "file": "llava代码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llava"
+              "title": "llava代码"
             }
           },
           {
@@ -277,15 +277,16 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
   "active": "19667c524adc3101",
   "lastOpenFiles": [
-    "llava.md",
-    "llava部署.md",
-    "LiteratureNotes/ImprovedBaselinesVisual2024.md",
     "LiteratureNotes/LearningTransferableVisual2021.md",
+    "llava代码.md",
+    "llava部署.md",
+    "Attachments/Pasted image 20250307123438.png",
+    "LiteratureNotes/ImprovedBaselinesVisual2024.md",
     "Attachments/Pasted image 20250307120359.png",
     "Attachments/Pasted image 20250307120116.png",
     "Attachments/Pasted image 20250307120018.png",
@@ -305,7 +306,6 @@
     "LiteratureNotes/liuVisualInstructionTuning2023.md",
     "Attachments/Pasted image 20250306161011.png",
     "Attachments/Pasted image 20250306154753.png",
-    "Attachments/Pasted image 20250306153344.png",
     "Math/3DGS.md",
     "LiteratureNotes/3DGS-compress.md",
     "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
@@ -319,7 +319,6 @@
     "Excalidraw/未命名.md",
     "shortcut.md",
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
-    "Notecards/Transformer.md",
     "chen2024-howfarcan.pdf",
     "chen2024-howfarcan.pptx",
     "周报"
