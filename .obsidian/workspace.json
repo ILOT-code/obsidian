@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4dbc59adfe38823",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS"
-            }
-          },
-          {
             "id": "453a0f55b28ca4a9",
             "type": "leaf",
             "state": {
@@ -50,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -255,13 +241,14 @@
   },
   "active": "8a3e1fda03d2265f",
   "lastOpenFiles": [
+    "LiteratureNotes/3DGS-compress.md",
+    "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
+    "INR方法汇总.md",
+    "Attachments/Pasted image 20250307184639.png",
     "Attachments/Pasted image 20250307184031.png",
     "Attachments/Pasted image 20250307182127.png",
     "Attachments/Pasted image 20250307181952.png",
     "Attachments/Pasted image 20250307181720.png",
-    "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
-    "INR方法汇总.md",
-    "LiteratureNotes/3DGS-compress.md",
     "LiteratureNotes/2017-significantly.md",
     "LiteratureNotes/2023-preprocessing.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
@@ -289,8 +276,6 @@
     "Attachments/Pasted image 20250307123438.png",
     "Attachments/Pasted image 20250307120359.png",
     "Attachments/Pasted image 20250307120116.png",
-    "Attachments/Pasted image 20250307120018.png",
-    "Attachments/Pasted image 20250307115452.png",
     "未命名.canvas",
     "未命名 1.canvas",
     "chen2024-howfarcan.pdf",

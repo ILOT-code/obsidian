@@ -8,6 +8,9 @@ ECCV 2022
 CVPR 2023
 树状结构的 INR 来压缩 3D 图像
 ![[Pasted image 20231016205353.png]]
+
+## SCI: A Spectrum Concentrated Implicit Neural Compression for Biomedical Data
+![[Pasted image 20250307184639.png]]
 ## COOL-CHIC: Coordinate-based Low Complexity Hierarchical Image Codec
 ICCV 2023
 对 grid 进行R-D 优化
