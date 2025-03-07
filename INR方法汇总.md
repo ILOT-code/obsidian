@@ -4,6 +4,8 @@
 树状结构的 INR 来压缩 3D 图像
 ![[Pasted image 20231016205353.png]]
 ## COOL-CHIC: Coordinate-based Low Complexity Hierarchical Image Codec
+对 grid 进行R-D 优化
+![[Pasted image 20240107140632.png]]
 
 ## C3: High-Performance and Low-Complexity Neural Compression from a Single Image or Video
 
@@ -13,13 +15,19 @@
 ## Video Compression With Entropy-Constrained Neural Representations
 
 ## HiNeRV: Video Compression with Hierarchical Encoding-based Neural Representation
-
+更紧凑的 INR 表达
+![[Pasted image 20240904162739.png]]
 ## Immersive Video Compression using Implicit Neural Representations
+多视角视频压缩
+![[Pasted image 20240904194217.png]]
 
 ##  Efficient Dynamic-NeRF Based Volumetric Video Coding with Rate Distortion Optimization
 对帧与帧之间的差异建立一个 $R_{t}$ 网格
 ![[Pasted image 20240905162319.png]]
 
+## FFNeRV: Flow-Guided Frame-Wise Neural Representations for Videos
+把光流信息融入 INR 中去
+![[Pasted image 20240904145059.png]]
 # NeRF 技术
 ## Instant neural graphics primitives with a multiresolution hash encoding
 NERF 的原始论文
@@ -36,5 +44,5 @@ NERF 的原始论文
 ## AN EXPLORATION WITH ENTROPY CONSTRAINED 3 D GAUSSIANS FOR 2 D VIDEO COMPRESSION
 
 ## Scaffold-GS: Structured 3 D Gaussians for View-Adaptive Rendering
-对 3DGS 渲染技术的改进。用少量高斯锚点来生成大量高斯 n
+对 3DGS 渲染技术的改进。用少量高斯锚点来生成大量高斯基元。
 ![[Pasted image 20250307174935.png]]

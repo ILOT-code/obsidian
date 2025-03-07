@@ -5,6 +5,58 @@
       "path": "INR方法汇总.md"
     },
     {
+      "basename": "kwan2024-hinerva",
+      "path": "LiteratureNotes/kwan2024-hinerva.md"
+    },
+    {
+      "basename": "kwan2024-immersive",
+      "path": "LiteratureNotes/kwan2024-immersive.md"
+    },
+    {
+      "basename": "3DGS-compress",
+      "path": "LiteratureNotes/3DGS-compress.md"
+    },
+    {
+      "basename": "ladune2023-coolchic",
+      "path": "LiteratureNotes/ladune2023-coolchic.md"
+    },
+    {
+      "basename": "LearningTransferableVisual2021",
+      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
+    },
+    {
+      "basename": "lee2023-ffnerv",
+      "path": "LiteratureNotes/lee2023-ffnerv.md"
+    },
+    {
+      "basename": "lee2023-flexround",
+      "path": "LiteratureNotes/lee2023-flexround.md"
+    },
+    {
+      "basename": "li2022-enerv",
+      "path": "LiteratureNotes/li2022-enerv.md"
+    },
+    {
+      "basename": "li2023-neural",
+      "path": "LiteratureNotes/li2023-neural.md"
+    },
+    {
+      "basename": "li2024-neural",
+      "path": "LiteratureNotes/li2024-neural.md"
+    },
+    {
+      "basename": "liang2019-significantly",
+      "path": "LiteratureNotes/liang2019-significantly.md"
+    },
+    {
+      "basename": "liu2023-learned",
+      "path": "LiteratureNotes/liu2023-learned.md"
+    },
+    {
+      "basename": "liuVisualInstructionTuning2023",
+      "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
+    },
+    {
       "basename": "luScaffoldGSStructured3D2023",
       "path": "LiteratureNotes/luScaffoldGSStructured3D2023.md"
     },
@@ -71,14 +123,6 @@
     {
       "basename": "chen2023-factor",
       "path": "LiteratureNotes/chen2023-factor.md"
-    },
-    {
-      "basename": "ladune2023-coolchic",
-      "path": "LiteratureNotes/ladune2023-coolchic.md"
-    },
-    {
-      "basename": "3DGS-compress",
-      "path": "LiteratureNotes/3DGS-compress.md"
     },
     {
       "basename": "2017-significantly",
@@ -155,50 +199,6 @@
     {
       "basename": "ImprovedBaselinesVisual2024",
       "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
-    },
-    {
-      "basename": "kim2024-c3",
-      "path": "LiteratureNotes/kim2024-c3.md"
-    },
-    {
-      "basename": "kwan2024-hinerva",
-      "path": "LiteratureNotes/kwan2024-hinerva.md"
-    },
-    {
-      "basename": "kwan2024-immersive",
-      "path": "LiteratureNotes/kwan2024-immersive.md"
-    },
-    {
-      "basename": "LearningTransferableVisual2021",
-      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
-    },
-    {
-      "basename": "lee2023-ffnerv",
-      "path": "LiteratureNotes/lee2023-ffnerv.md"
-    },
-    {
-      "basename": "lee2023-flexround",
-      "path": "LiteratureNotes/lee2023-flexround.md"
-    },
-    {
-      "basename": "li2022-enerv",
-      "path": "LiteratureNotes/li2022-enerv.md"
-    },
-    {
-      "basename": "li2023-neural",
-      "path": "LiteratureNotes/li2023-neural.md"
-    },
-    {
-      "basename": "li2024-neural",
-      "path": "LiteratureNotes/li2024-neural.md"
-    },
-    {
-      "basename": "liang2019-significantly",
-      "path": "LiteratureNotes/liang2019-significantly.md"
-    },
-    {
-      "basename": "liu2023-learned",
-      "path": "LiteratureNotes/liu2023-learned.md"
     }
   ],
   "omittedPaths": [],
