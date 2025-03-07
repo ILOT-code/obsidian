@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "INR方法汇总",
+      "path": "INR方法汇总.md"
+    },
+    {
+      "basename": "3DGS-compress",
+      "path": "LiteratureNotes/3DGS-compress.md"
+    },
+    {
+      "basename": "2017-significantly",
+      "path": "LiteratureNotes/2017-significantly.md"
+    },
+    {
+      "basename": "2023-preprocessing",
+      "path": "LiteratureNotes/2023-preprocessing.md"
+    },
+    {
+      "basename": "alakuijala2019-jpeg",
+      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
+    },
+    {
+      "basename": "ali2023-efficient",
+      "path": "LiteratureNotes/ali2023-efficient.md"
+    },
+    {
+      "basename": "chen2021-nerv",
+      "path": "LiteratureNotes/chen2021-nerv.md"
+    },
+    {
+      "basename": "chen2023-factor",
+      "path": "LiteratureNotes/chen2023-factor.md"
+    },
+    {
+      "basename": "chengDNARenderingDiverseNeural2023",
+      "path": "LiteratureNotes/chengDNARenderingDiverseNeural2023.md"
+    },
+    {
+      "basename": "chenHACHashgridAssisted2024",
+      "path": "LiteratureNotes/chenHACHashgridAssisted2024.md"
+    },
+    {
+      "basename": "deng2023-compressing",
+      "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
+      "basename": "dettmers2022-llm",
+      "path": "LiteratureNotes/dettmers2022-llm.md"
+    },
+    {
       "basename": "EXPLORATIONENTROPYCONSTRAINED",
       "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
     },
@@ -19,10 +67,6 @@
     {
       "basename": "girish2023-shacira",
       "path": "LiteratureNotes/girish2023-shacira.md"
-    },
-    {
-      "basename": "INR方法汇总",
-      "path": "INR方法汇总.md"
     },
     {
       "basename": "girishSHACIRAScalableHAshgrid2023",
@@ -155,50 +199,6 @@
     {
       "basename": "yang2023-tinc",
       "path": "LiteratureNotes/yang2023-tinc.md"
-    },
-    {
-      "basename": "zhang2024-efficient",
-      "path": "LiteratureNotes/zhang2024-efficient.md"
-    },
-    {
-      "basename": "zhao2021-optimizing",
-      "path": "LiteratureNotes/zhao2021-optimizing.md"
-    },
-    {
-      "basename": "ali2023-efficient",
-      "path": "LiteratureNotes/ali2023-efficient.md"
-    },
-    {
-      "basename": "3DGS-compress",
-      "path": "LiteratureNotes/3DGS-compress.md"
-    },
-    {
-      "basename": "2017-significantly",
-      "path": "LiteratureNotes/2017-significantly.md"
-    },
-    {
-      "basename": "deng2023-compressing",
-      "path": "LiteratureNotes/deng2023-compressing.md"
-    },
-    {
-      "basename": "llava代码",
-      "path": "llava代码.md"
-    },
-    {
-      "basename": "llava部署",
-      "path": "llava部署.md"
-    },
-    {
-      "basename": "Drawing 2025-03-03 19.51.02.excalidraw",
-      "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
-    },
-    {
-      "basename": "Drawtang2023-scene",
-      "path": "Excalidraw/Drawtang2023-scene.md"
-    },
-    {
-      "basename": "Drawguo2023-compression",
-      "path": "Excalidraw/Drawguo2023-compression.md"
     }
   ],
   "omittedPaths": [],
