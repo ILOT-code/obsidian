@@ -1,5 +1,9 @@
 
 # Image compression
+
+## Implicit Neural Representations for Image Compression
+ECCV 2022
+![[Pasted image 20250307184031.png]]
 ## TINC : Tree-structured Implicit Neural Compression
 CVPR 2023
 树状结构的 INR 来压缩 3D 图像
