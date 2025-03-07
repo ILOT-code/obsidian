@@ -47,3 +47,5 @@ tags: []
 ## Evaluation
 llava 1.5 实现了用简单的结构，更少的数据量，达到了 sota
 ![[Pasted image 20250307120116.png]]
+比较 LLM 的不同和数据量的不同对结果的影响
+![[Pasted image 20250307120359.png]]
