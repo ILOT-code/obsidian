@@ -1,6 +1,94 @@
 {
   "recentFiles": [
     {
+      "basename": "lee2023-flexround",
+      "path": "LiteratureNotes/lee2023-flexround.md"
+    },
+    {
+      "basename": "li2022-enerv",
+      "path": "LiteratureNotes/li2022-enerv.md"
+    },
+    {
+      "basename": "li2023-neural",
+      "path": "LiteratureNotes/li2023-neural.md"
+    },
+    {
+      "basename": "li2024-neural",
+      "path": "LiteratureNotes/li2024-neural.md"
+    },
+    {
+      "basename": "liang2019-significantly",
+      "path": "LiteratureNotes/liang2019-significantly.md"
+    },
+    {
+      "basename": "liu2023-learned",
+      "path": "LiteratureNotes/liu2023-learned.md"
+    },
+    {
+      "basename": "liuVisualInstructionTuning2023",
+      "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
+    },
+    {
+      "basename": "luScaffoldGSStructured3D2023",
+      "path": "LiteratureNotes/luScaffoldGSStructured3D2023.md"
+    },
+    {
+      "basename": "INR方法汇总",
+      "path": "INR方法汇总.md"
+    },
+    {
+      "basename": "marpe2003-contextbased",
+      "path": "LiteratureNotes/marpe2003-contextbased.md"
+    },
+    {
+      "basename": "mentzer2019-practical",
+      "path": "LiteratureNotes/mentzer2019-practical.md"
+    },
+    {
+      "basename": "muller2022-instant",
+      "path": "LiteratureNotes/muller2022-instant.md"
+    },
+    {
+      "basename": "oord2016-conditional",
+      "path": "LiteratureNotes/oord2016-conditional.md"
+    },
+    {
+      "basename": "oord2016-pixel",
+      "path": "LiteratureNotes/oord2016-pixel.md"
+    },
+    {
+      "basename": "salimans2022-progressive",
+      "path": "LiteratureNotes/salimans2022-progressive.md"
+    },
+    {
+      "basename": "sun2023-all",
+      "path": "LiteratureNotes/sun2023-all.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
+      "basename": "vonderfechtLossyCompressionPretrained2025",
+      "path": "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md"
+    },
+    {
+      "basename": "wang2024-model",
+      "path": "LiteratureNotes/wang2024-model.md"
+    },
+    {
+      "basename": "wu2023-tetrirf",
+      "path": "LiteratureNotes/wu2023-tetrirf.md"
+    },
+    {
+      "basename": "xiaDiffPCDiffusionbasedHigh2024",
+      "path": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md"
+    },
+    {
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
+    },
+    {
       "basename": "yang2023-tinc",
       "path": "LiteratureNotes/yang2023-tinc.md"
     },
@@ -13,12 +101,16 @@
       "path": "LiteratureNotes/zhao2021-optimizing.md"
     },
     {
-      "basename": "2017-significantly",
-      "path": "LiteratureNotes/2017-significantly.md"
+      "basename": "ali2023-efficient",
+      "path": "LiteratureNotes/ali2023-efficient.md"
     },
     {
       "basename": "3DGS-compress",
       "path": "LiteratureNotes/3DGS-compress.md"
+    },
+    {
+      "basename": "2017-significantly",
+      "path": "LiteratureNotes/2017-significantly.md"
     },
     {
       "basename": "deng2023-compressing",
@@ -29,24 +121,8 @@
       "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
     },
     {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
-      "basename": "sun2023-all",
-      "path": "LiteratureNotes/sun2023-all.md"
-    },
-    {
-      "basename": "wang2024-model",
-      "path": "LiteratureNotes/wang2024-model.md"
-    },
-    {
       "basename": "ImprovedBaselinesVisual2024",
       "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
-    },
-    {
-      "basename": "liuVisualInstructionTuning2023",
-      "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
     },
     {
       "basename": "LearningTransferableVisual2021",
@@ -63,14 +139,6 @@
     {
       "basename": "Drawing 2025-03-03 19.51.02.excalidraw",
       "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
-    },
-    {
-      "basename": "vonderfechtLossyCompressionPretrained2025",
-      "path": "LiteratureNotes/vonderfechtLossyCompressionPretrained2025.md"
-    },
-    {
-      "basename": "xiaDiffPCDiffusionbasedHigh2024",
-      "path": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md"
     },
     {
       "basename": "hazimeh2021-dselectk",
@@ -129,76 +197,8 @@
       "path": "Math/SH，SG.md"
     },
     {
-      "basename": "luScaffoldGSStructured3D2023",
-      "path": "LiteratureNotes/luScaffoldGSStructured3D2023.md"
-    },
-    {
-      "basename": "li2022-enerv",
-      "path": "LiteratureNotes/li2022-enerv.md"
-    },
-    {
-      "basename": "liu2023-learned",
-      "path": "LiteratureNotes/liu2023-learned.md"
-    },
-    {
       "basename": "多元高斯分布",
       "path": "Math/多元高斯分布.md"
-    },
-    {
-      "basename": "傅里叶变换与小波变换",
-      "path": "Notecards/傅里叶变换与小波变换.md"
-    },
-    {
-      "basename": "CodeNew",
-      "path": "CodeNew.md"
-    },
-    {
-      "basename": "vim",
-      "path": "Sundry/vim.md"
-    },
-    {
-      "basename": "DCVC系列",
-      "path": "DCVC系列.md"
-    },
-    {
-      "basename": "zhang2024-LDMIC",
-      "path": "zhang2024-LDMIC.md"
-    },
-    {
-      "basename": "li2024-neural",
-      "path": "LiteratureNotes/li2024-neural.md"
-    },
-    {
-      "basename": "周报24-09-21",
-      "path": "周报/周报24-09-21.md"
-    },
-    {
-      "basename": "han2024-CausalContextAdjustment",
-      "path": "han2024-CausalContextAdjustment.md"
-    },
-    {
-      "basename": "chen2024-howfarcan",
-      "path": "chen2024-howfarcan.md"
-    },
-    {
-      "basename": "ge2024-taskaware",
-      "path": "LiteratureNotes/ge2024-taskaware.md"
-    },
-    {
-      "basename": "Numpy",
-      "path": "Sundry/Numpy.md"
-    },
-    {
-      "basename": "Pytorch",
-      "path": "Sundry/Pytorch.md"
-    },
-    {
-      "basename": "zhangVQNeRVVectorQuantization2024",
-      "path": "zhangVQNeRVVectorQuantization2024.md"
-    },
-    {
-      "basename": "yang2023-lossy",
-      "path": "LiteratureNotes/yang2023-lossy.md"
     }
   ],
   "omittedPaths": [],
