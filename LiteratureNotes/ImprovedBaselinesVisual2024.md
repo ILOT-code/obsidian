@@ -38,3 +38,6 @@ tags: []
 
 ![[Pasted image 20250307115043.png]]
 
+**To Higher Resolutions**
+![[Pasted image 20250307115452.png]]
+代码实现上，稍微有点不一样。
