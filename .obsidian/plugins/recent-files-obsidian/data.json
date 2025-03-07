@@ -1,8 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "yang2023-tinc",
+      "path": "LiteratureNotes/yang2023-tinc.md"
+    },
+    {
+      "basename": "zhang2024-efficient",
+      "path": "LiteratureNotes/zhang2024-efficient.md"
+    },
+    {
+      "basename": "zhao2021-optimizing",
+      "path": "LiteratureNotes/zhao2021-optimizing.md"
+    },
+    {
+      "basename": "2017-significantly",
+      "path": "LiteratureNotes/2017-significantly.md"
+    },
+    {
+      "basename": "3DGS-compress",
+      "path": "LiteratureNotes/3DGS-compress.md"
+    },
+    {
+      "basename": "deng2023-compressing",
+      "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
+      "basename": "EXPLORATIONENTROPYCONSTRAINED",
+      "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
+    },
+    {
+      "basename": "tang2023-scene",
+      "path": "LiteratureNotes/tang2023-scene.md"
+    },
+    {
+      "basename": "sun2023-all",
+      "path": "LiteratureNotes/sun2023-all.md"
+    },
+    {
+      "basename": "wang2024-model",
+      "path": "LiteratureNotes/wang2024-model.md"
+    },
+    {
+      "basename": "ImprovedBaselinesVisual2024",
+      "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
+    },
+    {
       "basename": "liuVisualInstructionTuning2023",
       "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
+    },
+    {
+      "basename": "LearningTransferableVisual2021",
+      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
     },
     {
       "basename": "llava代码",
@@ -13,16 +61,8 @@
       "path": "llava部署.md"
     },
     {
-      "basename": "ImprovedBaselinesVisual2024",
-      "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
-    },
-    {
       "basename": "Drawing 2025-03-03 19.51.02.excalidraw",
       "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
-    },
-    {
-      "basename": "LearningTransferableVisual2021",
-      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
     },
     {
       "basename": "vonderfechtLossyCompressionPretrained2025",
@@ -41,10 +81,6 @@
       "path": "LiteratureNotes/gaoImplicitMotionFunction2024.md"
     },
     {
-      "basename": "zhao2021-optimizing",
-      "path": "LiteratureNotes/zhao2021-optimizing.md"
-    },
-    {
       "basename": "Drawtang2023-scene",
       "path": "Excalidraw/Drawtang2023-scene.md"
     },
@@ -57,20 +93,12 @@
       "path": "Math/3DGS.md"
     },
     {
-      "basename": "3DGS-compress",
-      "path": "LiteratureNotes/3DGS-compress.md"
-    },
-    {
       "basename": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS",
       "path": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md"
     },
     {
       "basename": "jiangNeuralImageCompression2024",
       "path": "jiangNeuralImageCompression2024.md"
-    },
-    {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
     },
     {
       "basename": "VAE",
@@ -157,10 +185,6 @@
       "path": "LiteratureNotes/ge2024-taskaware.md"
     },
     {
-      "basename": "wang2024-model",
-      "path": "LiteratureNotes/wang2024-model.md"
-    },
-    {
       "basename": "Numpy",
       "path": "Sundry/Numpy.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "yang2023-lossy",
       "path": "LiteratureNotes/yang2023-lossy.md"
-    },
-    {
-      "basename": "EXPLORATIONENTROPYCONSTRAINED",
-      "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
-    },
-    {
-      "basename": "2024-09-08",
-      "path": "diary/2024-09-08.md"
-    },
-    {
-      "basename": "girishSHACIRAScalableHAshgrid2023",
-      "path": "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md"
-    },
-    {
-      "basename": "周报24-10-18",
-      "path": "周报/周报24-10-18.md"
-    },
-    {
-      "basename": "周报24-09-27",
-      "path": "周报/周报24-09-27.md"
-    },
-    {
-      "basename": "周报24-09-13",
-      "path": "周报/周报24-09-13.md"
     }
   ],
   "omittedPaths": [],
