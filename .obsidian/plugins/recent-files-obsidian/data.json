@@ -5,16 +5,20 @@
       "path": "llava部署.md"
     },
     {
+      "basename": "ImprovedBaselinesVisual2024",
+      "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
+    },
+    {
+      "basename": "liuVisualInstructionTuning2023",
+      "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
+    },
+    {
       "basename": "LearningTransferableVisual2021",
       "path": "LiteratureNotes/LearningTransferableVisual2021.md"
     },
     {
       "basename": "llava代码",
       "path": "llava代码.md"
-    },
-    {
-      "basename": "ImprovedBaselinesVisual2024",
-      "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
     },
     {
       "basename": "vonderfechtLossyCompressionPretrained2025",
@@ -47,10 +51,6 @@
     {
       "basename": "Drawguo2023-compression",
       "path": "Excalidraw/Drawguo2023-compression.md"
-    },
-    {
-      "basename": "liuVisualInstructionTuning2023",
-      "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
     },
     {
       "basename": "3DGS",
