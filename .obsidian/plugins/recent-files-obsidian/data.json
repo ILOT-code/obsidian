@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS",
+      "path": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md"
+    },
+    {
       "basename": "INR方法汇总",
       "path": "INR方法汇总.md"
+    },
+    {
+      "basename": "3DGS-compress",
+      "path": "LiteratureNotes/3DGS-compress.md"
+    },
+    {
+      "basename": "2017-significantly",
+      "path": "LiteratureNotes/2017-significantly.md"
+    },
+    {
+      "basename": "2023-preprocessing",
+      "path": "LiteratureNotes/2023-preprocessing.md"
+    },
+    {
+      "basename": "alakuijala2019-jpeg",
+      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
+    },
+    {
+      "basename": "ali2023-efficient",
+      "path": "LiteratureNotes/ali2023-efficient.md"
     },
     {
       "basename": "chen2021-nerv",
@@ -23,10 +47,6 @@
     {
       "basename": "deng2023-compressing",
       "path": "LiteratureNotes/deng2023-compressing.md"
-    },
-    {
-      "basename": "3DGS-compress",
-      "path": "LiteratureNotes/3DGS-compress.md"
     },
     {
       "basename": "dettmers2022-llm",
@@ -179,22 +199,6 @@
     {
       "basename": "zhang2024-efficient",
       "path": "LiteratureNotes/zhang2024-efficient.md"
-    },
-    {
-      "basename": "2017-significantly",
-      "path": "LiteratureNotes/2017-significantly.md"
-    },
-    {
-      "basename": "2023-preprocessing",
-      "path": "LiteratureNotes/2023-preprocessing.md"
-    },
-    {
-      "basename": "alakuijala2019-jpeg",
-      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
-    },
-    {
-      "basename": "ali2023-efficient",
-      "path": "LiteratureNotes/ali2023-efficient.md"
     }
   ],
   "omittedPaths": [],

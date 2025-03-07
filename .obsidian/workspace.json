@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/chen2021-nerv.md",
+                "file": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chen2021-nerv"
+              "title": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "INR方法汇总"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,16 +252,21 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8a3e1fda03d2265f",
+  "active": "d4dbc59adfe38823",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20250307180934.png",
-    "LiteratureNotes/chen2021-nerv.md",
     "INR方法汇总.md",
+    "LiteratureNotes/3DGS-compress.md",
+    "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
+    "LiteratureNotes/2017-significantly.md",
+    "LiteratureNotes/2023-preprocessing.md",
+    "LiteratureNotes/alakuijala2019-jpeg.md",
+    "LiteratureNotes/ali2023-efficient.md",
+    "LiteratureNotes/chen2021-nerv.md",
+    "Attachments/Pasted image 20250307180934.png",
     "LiteratureNotes/chen2023-factor.md",
     "LiteratureNotes/chengDNARenderingDiverseNeural2023.md",
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "LiteratureNotes/deng2023-compressing.md",
-    "LiteratureNotes/3DGS-compress.md",
     "LiteratureNotes/dettmers2022-llm.md",
     "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "LiteratureNotes/flamich2022-fast.md",
@@ -277,10 +281,6 @@
     "LiteratureNotes/kim2024-c3.md",
     "LiteratureNotes/kwan2024-hinerva.md",
     "LiteratureNotes/kwan2024-immersive.md",
-    "LiteratureNotes/ladune2023-coolchic.md",
-    "LiteratureNotes/LearningTransferableVisual2021.md",
-    "LiteratureNotes/lee2023-ffnerv.md",
-    "LiteratureNotes/lee2023-flexround.md",
     "Attachments/Pasted image 20250307174935.png",
     "Attachments/Pasted image 20250307123438.png",
     "Attachments/Pasted image 20250307120359.png",
@@ -290,7 +290,6 @@
     "Attachments/Pasted image 20250307115043.png",
     "Attachments/Pasted image 20250307113602.png",
     "Attachments/Pasted image 20250306190455.png",
-    "Attachments/Pasted image 20250306161011.png",
     "未命名.canvas",
     "未命名 1.canvas",
     "chen2024-howfarcan.pdf",
