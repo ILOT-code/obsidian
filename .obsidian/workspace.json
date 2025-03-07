@@ -89,7 +89,8 @@
               "title": "LearningTransferableVisual2021"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -292,14 +293,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d4dbc59adfe38823",
+  "active": "7e9e95764f9cbe8a",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
-    "llava代码.md",
     "LiteratureNotes/ImprovedBaselinesVisual2024.md",
+    "llava代码.md",
+    "llava部署.md",
+    "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "LiteratureNotes/liuVisualInstructionTuning2023.md",
     "LiteratureNotes/LearningTransferableVisual2021.md",
-    "llava部署.md",
     "Attachments/Pasted image 20250307123438.png",
     "Attachments/Pasted image 20250307120359.png",
     "Attachments/Pasted image 20250307120116.png",
