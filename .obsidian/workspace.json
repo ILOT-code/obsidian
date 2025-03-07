@@ -50,6 +50,18 @@
             }
           },
           {
+            "id": "6b8afd7fabbfdc7e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-03 19.51.02.excalidraw"
+            }
+          },
+          {
             "id": "19667c524adc3101",
             "type": "leaf",
             "state": {
@@ -282,10 +294,11 @@
   },
   "active": "d4dbc59adfe38823",
   "lastOpenFiles": [
-    "LiteratureNotes/liuVisualInstructionTuning2023.md",
-    "LiteratureNotes/ImprovedBaselinesVisual2024.md",
-    "LiteratureNotes/LearningTransferableVisual2021.md",
+    "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "llava代码.md",
+    "LiteratureNotes/ImprovedBaselinesVisual2024.md",
+    "LiteratureNotes/liuVisualInstructionTuning2023.md",
+    "LiteratureNotes/LearningTransferableVisual2021.md",
     "llava部署.md",
     "Attachments/Pasted image 20250307123438.png",
     "Attachments/Pasted image 20250307120359.png",
@@ -301,7 +314,6 @@
     "LiteratureNotes/liuImprovedBaselinesVisual2024.md",
     "LiteratureNotes/gaoImplicitMotionFunction2024.md",
     "LiteratureNotes/zhao2021-optimizing.md",
-    "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "Excalidraw/Drawtang2023-scene.md",
     "Excalidraw/Drawguo2023-compression.md",
     "Attachments/Pasted image 20250306161011.png",

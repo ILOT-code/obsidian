@@ -5,16 +5,20 @@
       "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
     },
     {
+      "basename": "Drawing 2025-03-03 19.51.02.excalidraw",
+      "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
+    },
+    {
+      "basename": "llava代码",
+      "path": "llava代码.md"
+    },
+    {
       "basename": "liuVisualInstructionTuning2023",
       "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
     },
     {
       "basename": "LearningTransferableVisual2021",
       "path": "LiteratureNotes/LearningTransferableVisual2021.md"
-    },
-    {
-      "basename": "llava代码",
-      "path": "llava代码.md"
     },
     {
       "basename": "llava部署",
@@ -39,10 +43,6 @@
     {
       "basename": "zhao2021-optimizing",
       "path": "LiteratureNotes/zhao2021-optimizing.md"
-    },
-    {
-      "basename": "Drawing 2025-03-03 19.51.02.excalidraw",
-      "path": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
     },
     {
       "basename": "Drawtang2023-scene",
