@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -293,12 +293,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1b98898cf4b4a457",
+  "active": "7e9e95764f9cbe8a",
   "lastOpenFiles": [
+    "llava代码.md",
     "llava部署.md",
     "LiteratureNotes/liuVisualInstructionTuning2023.md",
     "LiteratureNotes/ImprovedBaselinesVisual2024.md",
-    "llava代码.md",
     "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "LiteratureNotes/LearningTransferableVisual2021.md",
     "Attachments/Pasted image 20250307123438.png",
