@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "llava部署",
-      "path": "llava部署.md"
-    },
-    {
-      "basename": "ImprovedBaselinesVisual2024",
-      "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
+      "basename": "LearningTransferableVisual2021",
+      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
     },
     {
       "basename": "liuVisualInstructionTuning2023",
       "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
     },
     {
-      "basename": "LearningTransferableVisual2021",
-      "path": "LiteratureNotes/LearningTransferableVisual2021.md"
-    },
-    {
       "basename": "llava代码",
       "path": "llava代码.md"
+    },
+    {
+      "basename": "llava部署",
+      "path": "llava部署.md"
+    },
+    {
+      "basename": "ImprovedBaselinesVisual2024",
+      "path": "LiteratureNotes/ImprovedBaselinesVisual2024.md"
     },
     {
       "basename": "vonderfechtLossyCompressionPretrained2025",
