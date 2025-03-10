@@ -19,6 +19,8 @@ Ramirez[^14]为 COIN 的训练引入一个 $L_{0}$ 约束损失，来促进网�
 
 NeRV[^16]最先使用image-wise形式来进行视频压缩，向网络中输入帧索引来获得整张图像，网络主要由卷积层搭建，训练完毕后会对模型进行减枝量化编码处理。不同于 NeRV 向网络输入单纯的帧索引，E -NeRV[^17]把网络分解成了时间相关和空间相关的两个分支，并最后进行融合。这种设计加速了网络的训练并提升了性能。PS-NERV[^18]首次使用patch-wise的视频生成方式，他们还使用多个 AdaIN 层来增强中间层的特征。HNeRV[^22]和之前的方法都有不同，他们使用了 INR 范式和传统的端到端压缩杂交的方法，具有一个通用的视频内容相关的编码器和各异的只与当前帧相关的解码器，发送端需要把编码器编码得到的张量和解码器的参数发送给接受端。
 
+许多工作都试图像传统编码器那样减少帧间冗余。Nirvana[^19]把视频分为帧组，并为每个组拟合单独的网络，当前组的网络使用前一组模型的权重进行初始化，并编码相邻网络权重的残差。Rho[^20]让INR网络预测当前帧与参考帧的光流以及在像素域的残差，并根据参考帧来重建出当前帧。FFNeRV[^21]利用估计的光流和已经解码的帧，采用一种帧加强的方法来提高生成帧的质量。
+
 # 参考文献
 
 [^1]: Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, and Ren Ng. 2020. NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis. In ECCV.
