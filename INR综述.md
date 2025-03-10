@@ -1,0 +1,1 @@
+Implicit Neural Representations (INR) 最先在场景渲染方面大放异彩^[1], 他们训练了一个把
