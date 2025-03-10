@@ -3,8 +3,8 @@ Implicit Neural Representations（INR） 可以看成一种隐式学习某种映
 INR 天然适合模拟各种不同模态的信号，其高保真以及紧凑表达的特性也为信号压缩带来了新的希望。接下来我们会从图像压缩与视频压缩两个方面来介绍 INR 的研究状况。
 
 # 图像压缩
-INR 在图像压缩任务中，普遍用来学习 $f(p_{x},p_{y})\to (R,G,B)$ 形式的信号，其中 $p_{x},p_{y}$ 是像素坐标，$R,G,B$ 是对应的像素值。
-COIN[^4] 首次把 INR 用作图像压缩，
+INR 在图像压缩任务中，普遍用来学习 $f(p_{x},p_{y})\to (R,G,B)$ 形式的信号，其中 $p_{x},p_{y}$ 是像素坐标，$R,G,B$ 是对应的像素值，$f$ 即图像所表示的真实的离散的信号映射。神经网络 $g$ 通过这一些离散的点，去学习一个连续的、逼近的信号映射。
+COIN[^4] 首次把 INR 用作图像压缩，他们使用 MLP 构建这样的映射，对每张图像进行过拟合训练对应的网络，最后量化与存储网络的参数，这就完成了图像的压缩。尽管网络结构很简单，也没有对参数的分布进行学习，COIN 在
 
 
 [^1]: Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, and Ren Ng. 2020. NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis. In ECCV.
