@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
       "basename": "3DGS-compress",
       "path": "LiteratureNotes/3DGS-compress.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "yang2023-tinc",
       "path": "LiteratureNotes/yang2023-tinc.md"
-    },
-    {
-      "basename": "zhang2024-efficient",
-      "path": "LiteratureNotes/zhang2024-efficient.md"
     }
   ],
   "omittedPaths": [],
