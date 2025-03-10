@@ -3,7 +3,7 @@ Implicit Neural Representations（INR） 可以看成一种隐式学习某种映
 INR 天然适合模拟各种不同模态的信号，其高保真以及紧凑表达的特性也为信号压缩带来了新的希望。接下来我们会从图像压缩与视频压缩两个方面来介绍 INR 的研究状况。
 
 # 图像压缩
-INR 在图像压缩任务中，普遍用来学习 $f(p_{x},p_{y})\to (R,G,B)$ 形式的信号，其中 $p_{x},p_{y}$ 是像素坐标，$R,G,B$ 是对应的像素值，$f$ 即图像所表示的真实的离散的信号映射。神经网络 $g$ 通过这一些离散的点，去学习一个连续的、逼近的信号映射。
+INR 在图像压缩任务中，普遍用来学习 $f(p_{x},p_{y})\to (R,G,B)$ 形式的信号，这被 h其中 $p_{x},p_{y}$ 是像素坐标，$R,G,B$ 是对应的像素值，$f$ 即图像所表示的真实的离散的信号映射。神经网络 $g$ 通过这一些离散的点，去学习一个连续的、逼近的信号映射。
 
 COIN[^4] 首次把 INR 用作图像压缩，他们使用 MLP 构建这样的映射，对每张图像进行过拟合训练对应的网络，最后量化与存储网络的参数，这就完成了图像的压缩。尽管网络结构很简单，也没有对参数的分布进行学习，COIN 在低比特率下也超过了 JPEG。其后的一些改进围绕着更紧凑的网络设计、图像模型一对一问题的解决、模型瘦身（减枝、量化、编码）来进行。
 
@@ -43,5 +43,14 @@ Ramirez[^14]为 COIN 的训练引入一个 $L_{0}$ 约束损失，来促进网�
 [^19]: Maiya S R, Girish S, Ehrlich M, et al. Nirvana: Neural implicit representations of videos with adaptive networks and autoregressive patch-wise modeling[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023: 14378-14387.
 [^20]: Rho D, Cho J, Ko J H, et al. Neural residual flow fields for efficient video representations[C]//Proceedings of the Asian Conference on Computer Vision. 2022: 3447-3463.
 [^21]: Lee J C, Rho D, Ko J H, et al. Ffnerv: Flow-guided frame-wise neural representations for videos[C]//Proceedings of the 31st ACM International Conference on Multimedia. 2023: 7859-7870.
+[^22]: Chen H, Gwilliam M, Lim S N, et al. Hnerv: A hybrid neural representation for videos[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023: 10270-10279.
+[^23]: Zhao Q, Asif M S, Ma Z. Dnerv: Modeling inherent dynamics via difference neural representation for videos[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023: 2031-2040.
+[^24]: Gomes C, Azevedo R, Schroers C. Video compression with entropy-constrained neural representations[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2023: 18497-18506.
+[^25]: He B, Yang X, Wang H, et al. Towards scalable neural representation for diverse videos[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023: 6132-6142.
+[^26]: Kwan H M, Gao G, Zhang F, et al. Hinerv: Video compression with hierarchical encoding-based neural representation[J]. Advances in Neural Information Processing Systems, 2023, 36: 72692-72704.
+[^27]: Saethre J E, Azevedo R, Schroers C. Combining Frame and GOP Embeddings for Neural Video Representation[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024: 9253-9263.
+[^28]: Xu Y, Feng X, Qin F, et al. Vq-nerv: A vector quantized neural representation for videos[J]. arXiv preprint arXiv: 2403.12401, 2024.
+[^29]: Zhang X, Yang R, He D, et al. Boosting neural representations for videos with a conditional decoder[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024: 2556-2566.
+[^30]: Kwan H M, Gao G, Zhang F, et al. NVRC: Neural video representation compression[J]. arXiv preprint arXiv:2409.07414, 2024.
 
 
