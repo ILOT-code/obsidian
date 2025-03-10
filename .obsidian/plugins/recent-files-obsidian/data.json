@@ -5,12 +5,12 @@
       "path": "INR综述.md"
     },
     {
-      "basename": "3DGS-compress",
-      "path": "LiteratureNotes/3DGS-compress.md"
-    },
-    {
       "basename": "INR方法汇总",
       "path": "INR方法汇总.md"
+    },
+    {
+      "basename": "3DGS-compress",
+      "path": "LiteratureNotes/3DGS-compress.md"
     },
     {
       "basename": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS",

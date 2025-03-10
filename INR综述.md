@@ -11,7 +11,15 @@ COIN++[^5]把 COIN 中的网络替换成了 SIREN，并且采用了 meta-learnin
 
 Catania[^9]对 SIREN 的激活函数 $\sin(\omega_{0}(\mathbf{W}\mathbf{x}+\mathbf{b}))$ 进行了改进，他们通过一个额外的网络，为主干网络的每个激活函数的周期学习一个偏执，改变了原本周期固定的激活模式，即使不使用 meta-learning 方法，性能也超过了 COIN++。COOL-CHIC[^10] 放弃了直接从像素坐标到像素值的映射，而是和 Müller[^2]类似，引入了多级的特征网格，再索引到对应特征之后，再输入其后的INR网络。另外，他们基于拉普拉斯分布，为特征网格的编码设计了自回归的熵模型，并为网络参数设计了无参的熵模型。C3[^11]在 COOL-CHIC 的基础上，对量化策略、训练策略、学习率更新策略等进行了一系列的优化，得到了更强的方案。Zhang[^12]等人在 COOL-CHIC 的基础上，设计了可微分的量化策略，并用卷积网络搭建了其后的INR 网络，加强了邻近像素间的联系。Gao[^13]等人为 INR 压缩范式引入了结构性的正则化项，这是通过使用训练好的图像分割网络，比较真实图片与INR输出的图片对应的分割掩码的不同来得到，他们在小范围数据上验证了其有效性。
 
+Ramirez[^14]为 COIN 的训练引入一个 $L_{0}$ 约束损失，来促进网络的稀疏，以降低码率。RQAT-INR[^15]设计了一种无参的基于高斯分布的熵模型，来估计量化后网络参数的概率值。并且使用了量化感知的训练方案，并加入了量化带来的模型精度降低的损失函数，缩小了量化带来的不利影响。
 
+# 视频压缩
+
+
+
+
+
+# 参考文献
 
 [^1]: Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, and Ren Ng. 2020. NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis. In ECCV.
 [^2]: Müller T, Evans A, Schied C, et al. Instant neural graphics primitives with a multiresolution hash encoding[J]. ACM transactions on graphics (TOG), 2022, 41(4): 1-15.
@@ -26,4 +34,5 @@ Catania[^9]对 SIREN 的激活函数 $\sin(\omega_{0}(\mathbf{W}\mathbf{x}+\math
 [^11]: Kim H, Bauer M, Theis L, et al. C3: High-performance and low-complexity neural compression from a single image or video[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024: 9347-9358.
 [^12]: Zhang G, Zhang X, Tang L. Enhanced quantified local implicit neural representation for image compression[J]. IEEE Signal Processing Letters, 2023, 30: 1742-1746.
 [^13]: Gao H, Gan W, Sun Z, et al. Sinco: A novel structural regularizer for image compression using implicit neural representations[C]//ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2023: 1-5.
-
+[^14]: Ramirez J, Gallego-Posada J. L $_0$ onie: Compressing COINs with L $_0$-constraints[J]. arXiv preprint arXiv: 2207.04144, 2022.
+[^15]: Damodaran B B, Balcilar M, Galpin F, et al. Rqat-inr: Improved implicit neural image compression[C]//2023 Data Compression Conference (DCC). IEEE, 2023: 208-217.
