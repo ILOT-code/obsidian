@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INR综述.md",
+                "file": "Sundry/Numpy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INR综述"
+              "title": "Numpy"
             }
           }
         ],
@@ -249,13 +249,16 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "5e088d51bd1f2be9",
   "lastOpenFiles": [
-    "INR方法汇总.md",
+    "Sundry/Pytorch.md",
+    "Sundry/CNN的矩阵乘转换.md",
     "INR综述.md",
+    "INR方法汇总.md",
     "LiteratureNotes/3DGS-compress.md",
     "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
     "Attachments/Pasted image 20250307184639.png",
@@ -284,8 +287,6 @@
     "LiteratureNotes/guo2023-compression.md",
     "LiteratureNotes/hazimeh2021-dselectk.md",
     "LiteratureNotes/ImprovedBaselinesVisual2024.md",
-    "LiteratureNotes/kim2024-c3.md",
-    "LiteratureNotes/kwan2024-hinerva.md",
     "Attachments/Pasted image 20250307174935.png",
     "Attachments/Pasted image 20250307123438.png",
     "Attachments/Pasted image 20250307120359.png",
