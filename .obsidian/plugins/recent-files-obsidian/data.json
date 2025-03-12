@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "3DGS-compress",
+      "path": "LiteratureNotes/3DGS-compress.md"
+    },
+    {
+      "basename": "CodeNew",
+      "path": "CodeNew.md"
+    },
+    {
+      "basename": "INR方法汇总",
+      "path": "INR方法汇总.md"
+    },
+    {
       "basename": "Numpy",
       "path": "Sundry/Numpy.md"
     },
@@ -15,14 +27,6 @@
     {
       "basename": "INR综述",
       "path": "INR综述.md"
-    },
-    {
-      "basename": "INR方法汇总",
-      "path": "INR方法汇总.md"
-    },
-    {
-      "basename": "3DGS-compress",
-      "path": "LiteratureNotes/3DGS-compress.md"
     },
     {
       "basename": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS",
@@ -195,10 +199,6 @@
     {
       "basename": "wang2024-model",
       "path": "LiteratureNotes/wang2024-model.md"
-    },
-    {
-      "basename": "wu2023-tetrirf",
-      "path": "LiteratureNotes/wu2023-tetrirf.md"
     }
   ],
   "omittedPaths": [],
