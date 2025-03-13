@@ -40,3 +40,5 @@ $$
 x_{out} =\frac{x}{\sqrt{ \frac{1}{d}\ \sum_{i=1}^{d} x_{i}^{2} }} \times w 
 $$
 
+
+然后是旋转位置编码层，`LlamaRotaryEmbedding`，它使用在 query 和 key 向量上。它有两种变体：
