@@ -46,4 +46,5 @@ $$
 `LlamaMLP` 这个层更像一个门控网络，其中 `pretraining_tp` 这个参数和多头注意力中的 `nim_heads` 很像，在维度上切片，分别来进行。
 ![[Pasted image 20250313140220.png]]
 
-`LLamaAttention`，它的实现是多头注意力机制的变体。在多头注意力机制中，q, k, v 都被分成了 `num_heads`
+`LLamaAttention`，它的实现是多头注意力机制的变体。在多头注意力机制中，q, k, v 都被分成了 `num_heads` 个头，但这里，假设 k, v 被分成了 10 个头，那 q 就被分成了 20 (或者其他 10 的倍数) 个头。每一个 k, v 头都对应着 2 个 q 头。
+![[Pasted image 20250313141130.png]]
