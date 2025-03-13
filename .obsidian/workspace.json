@@ -220,8 +220,7 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
   "active": "453a0f55b28ca4a9",
