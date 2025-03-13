@@ -35,5 +35,8 @@ openai `CLIP` 的核心实现在类 `CLIPVisionTransformer` 中，他首先使�
 llava 调用了transformer 中 llama 的实现。这部分代码集中在 `transformers/model/llama/modeling_llama.py` 中。
 
 ## llama 的自定义层
-首先是 `LlamaRMSNorm`
+首先是 `LlamaRMSNorm`，它和一般的 LayerNorm 有点区别，假设 $x$ 是一个 $d$ 维向量，$w$ 是可学习的 $d$ 维向量
+$$
+x_{out} =\frac{x}{\sqrt{ \frac{1}{d}\ \sum_{i=1}^{d} x_{i}^{2} }} \times w 
+$$
 
