@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "llava代码",
+      "path": "llava代码.md"
+    },
+    {
       "basename": "3DGS-compress",
       "path": "LiteratureNotes/3DGS-compress.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "tang2023-scene",
       "path": "LiteratureNotes/tang2023-scene.md"
-    },
-    {
-      "basename": "wang2024-model",
-      "path": "LiteratureNotes/wang2024-model.md"
     }
   ],
   "omittedPaths": [],

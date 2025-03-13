@@ -31,5 +31,9 @@ openai `CLIP` 的核心实现在类 `CLIPVisionTransformer` 中，他首先使�
 
 
 
+# llama
+llava 调用了transformer 中 llama 的实现。这部分代码集中在 `transformers/model/llama/modeling_llama.py` 中。
 
+## llama 的自定义层
+首先是 `LlamaRMSNorm`
 

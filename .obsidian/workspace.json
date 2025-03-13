@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1b03e621df7a346f",
+        "id": "f9743459a0aef822",
         "type": "tabs",
         "children": [
           {
-            "id": "453a0f55b28ca4a9",
+            "id": "ffe7be8522362108",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/3DGS-compress.md",
+                "file": "llava代码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3DGS-compress"
+              "title": "llava代码"
             }
           }
         ]
@@ -220,18 +220,19 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "453a0f55b28ca4a9",
+  "active": "ffe7be8522362108",
   "lastOpenFiles": [
+    "LiteratureNotes/3DGS-compress.md",
     "CodeNew.md",
     "INR方法汇总.md",
     "Sundry/Numpy.md",
     "Sundry/Pytorch.md",
     "Sundry/CNN的矩阵乘转换.md",
     "INR综述.md",
-    "LiteratureNotes/3DGS-compress.md",
     "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md",
     "Attachments/Pasted image 20250307184639.png",
     "Attachments/Pasted image 20250307184031.png",
