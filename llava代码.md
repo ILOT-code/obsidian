@@ -41,7 +41,7 @@ x_{out} =\frac{x}{\sqrt{ \frac{1}{d}\ \sum_{i=1}^{d} x_{i}^{2} }} \times w
 $$
 
 
-然后是旋转位置编码层，`LlamaRotaryEmbedding`，它使用在 query 和 key 向量上。它有两种变体：`LlamaLinearScalingRotaryEmbedding`. `LlamaDynamicNTKScalingRotaryEmbedding`，区别在于是否对角度进行缩放。这个层仅仅是得到一个嵌入，需要通过 `apply_rotary_pos_emb` 函数把 q 和 k 向量真正进行位置编码。
+然后是旋转位置编码层，`LlamaRotaryEmbedding`，它只使用在 query 和 key 向量上。它有两种变体：`LlamaLinearScalingRotaryEmbedding`. `LlamaDynamicNTKScalingRotaryEmbedding`，区别在于是否对角度进行缩放。这个层仅仅是得到一个嵌入，需要通过 `apply_rotary_pos_emb` 函数把 q 和 k 向量真正进行位置编码。
 
 `LlamaMLP` 这个层更像一个门控网络，其中 `pretraining_tp` 这个参数和多头注意力中的 `nim_heads` 很像，在维度上切片，分别来进行。
 ![[Pasted image 20250313140220.png]]
