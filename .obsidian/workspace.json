@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "llava代码"
             }
+          },
+          {
+            "id": "2625e3ae7d42c4d9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-13 14.00.04.excalidraw"
+            }
           }
         ]
       }
@@ -226,6 +238,10 @@
   },
   "active": "ffe7be8522362108",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20250313140220.png",
+    "Excalidraw/Drawtang2023-scene.md",
+    "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
+    "llava代码.md",
     "LiteratureNotes/3DGS-compress.md",
     "CodeNew.md",
     "INR方法汇总.md",
@@ -254,10 +270,6 @@
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/ge2024-taskaware.md",
     "LiteratureNotes/gaoImplicitMotionFunction2024.md",
-    "LiteratureNotes/girish2023-shacira.md",
-    "LiteratureNotes/girishSHACIRAScalableHAshgrid2023.md",
-    "LiteratureNotes/gomes2023-video.md",
-    "LiteratureNotes/guo2023-compression.md",
     "Attachments/Pasted image 20250307174935.png",
     "Attachments/Pasted image 20250307123438.png",
     "Attachments/Pasted image 20250307120359.png",

@@ -5,6 +5,14 @@
       "path": "llava代码.md"
     },
     {
+      "basename": "Drawtang2023-scene",
+      "path": "Excalidraw/Drawtang2023-scene.md"
+    },
+    {
+      "basename": "Drawing 2025-03-13 14.00.04.excalidraw",
+      "path": "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md"
+    },
+    {
       "basename": "3DGS-compress",
       "path": "LiteratureNotes/3DGS-compress.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "sneyers2016-flif",
       "path": "LiteratureNotes/sneyers2016-flif.md"
-    },
-    {
-      "basename": "sun2023-all",
-      "path": "LiteratureNotes/sun2023-all.md"
-    },
-    {
-      "basename": "tang2023-scene",
-      "path": "LiteratureNotes/tang2023-scene.md"
     }
   ],
   "omittedPaths": [],
