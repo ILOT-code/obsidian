@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "llava代码"
             }
+          },
+          {
+            "id": "fe953022ae495ebf",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-03 19.51.02.excalidraw"
+            }
           }
         ]
       }
@@ -224,10 +236,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "986c0543a0b4183f",
+  "active": "ffe7be8522362108",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "llava代码.md",
+    "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
     "Attachments/Pasted image 20250314105934.png",
     "Attachments/Pasted image 20250314095540.png",
     "Attachments/Pasted image 20250314094809.png",
