@@ -76,3 +76,6 @@ $$
 
 clip 和 llm 的结合：
 实现了和 llama, mpt, misyral 三种模型的结合。主要看 llama.
+`LlavaLlamaForCausalLM`，主要就是调用了基类的实现方法，并覆写了 `generate()`, `prepare_inputs_for_generation` 方法。
+
+这个类也是最终和用户交互的类。
