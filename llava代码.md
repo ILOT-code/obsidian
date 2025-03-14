@@ -1,6 +1,7 @@
 ****
 
 llava mini
+short GPT
 
 # 图像编码部分
 这部分代码在目录 `multimodal_encoder` 下面。只有两个文件，通过 `build_vision_tower` 函数来构建图像 encoder。有两种 encoder：`CLIPVisionTower` 和 `CLIPVisionTowerS2`，它们是类继承的关系，后者在前者的基础上加上了llava 1.5 提出的图像多尺度分辨率特征方法，但他们输入输出的格式与形状是一样的。
