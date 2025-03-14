@@ -33,7 +33,8 @@
               "title": "Drawing 2025-03-13 14.00.04.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -237,12 +238,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ffe7be8522362108",
+  "active": "2625e3ae7d42c4d9",
   "lastOpenFiles": [
+    "llava代码.md",
     "Attachments/Pasted image 20250314093933.png",
     "Attachments/Pasted image 20250313142019.png",
     "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
-    "llava代码.md",
     "Attachments/Pasted image 20250313141130.png",
     "Attachments/Pasted image 20250313140220.png",
     "Excalidraw/Drawtang2023-scene.md",
@@ -274,7 +275,6 @@
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/ge2024-taskaware.md",
     "LiteratureNotes/gaoImplicitMotionFunction2024.md",
-    "Attachments/Pasted image 20250307174935.png",
     "未命名.canvas",
     "未命名 1.canvas",
     "chen2024-howfarcan.pdf",
