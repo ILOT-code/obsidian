@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "llava代码"
             }
-          },
-          {
-            "id": "2625e3ae7d42c4d9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-13 14.00.04.excalidraw"
-            }
           }
         ]
       }
@@ -232,16 +220,17 @@
       "obsidian-git:Open Git source control": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Update literature note": false
+      "cmdr:ZotLit: Update literature note": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ffe7be8522362108",
+  "active": "986c0543a0b4183f",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
+    "llava代码.md",
     "Attachments/Pasted image 20250314105934.png",
     "Attachments/Pasted image 20250314095540.png",
     "Attachments/Pasted image 20250314094809.png",
-    "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
-    "llava代码.md",
     "Attachments/Pasted image 20250314093933.png",
     "Attachments/Pasted image 20250313142019.png",
     "Attachments/Pasted image 20250313141130.png",
@@ -258,7 +247,6 @@
     "Attachments/Pasted image 20250307184639.png",
     "Attachments/Pasted image 20250307184031.png",
     "Attachments/Pasted image 20250307182127.png",
-    "Attachments/Pasted image 20250307181952.png",
     "LiteratureNotes/2017-significantly.md",
     "LiteratureNotes/2023-preprocessing.md",
     "LiteratureNotes/alakuijala2019-jpeg.md",
