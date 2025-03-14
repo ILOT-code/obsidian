@@ -64,4 +64,4 @@ $$
 ![[Pasted image 20250314094809.png]]
 
 
-`LlamaModel` 包含了网络的
+`LlamaModel` 包含了网络的全部参数。在它的 forward 函数中，会自动生成 `position_ids` 和 `attention_mask`。它由一连串的 decoder layer, 最后加一个 norm 组成。
