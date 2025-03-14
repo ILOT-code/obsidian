@@ -54,7 +54,8 @@ $$
 `cache` 策略也分几种，这里看最简单的无限长度的 `DynamicCache`:
 ![[Pasted image 20250314093933.png]]
 
-
+值得注意的是，query 和 key 是经过旋转编码后，在被更新的：![[Pasted image 20250314095540.png]]
+当用的是无限长度的 cache 的话，这没有问题，因为 `position_ids` 被设置为了 `L2:L2+L1`。但如果 `Cache` 是有限长的话，seq 的长度被限制了，为了得到正确的 `position`，cache 的更新策略也更复杂。
 
 在 `LLamaAttention` 的基础上，还实现了一些快速版本 `LlamaFlasAttention`.
 
