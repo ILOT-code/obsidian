@@ -68,3 +68,8 @@ $$
 
 `LLamaForCausalLM` 类中包含了一个 `LlamaModel` 实例，并把它的输出映射到 `vocab_size` 上，得到各个词汇的概率值。其 forward 部分还会计算损失：
 ![[Pasted image 20250314105934.png]]
+
+`prepare_inputs_for_generation` 在 generate 过程中，自动更新模型的输入以及 mask.
+
+# 联合
+类 `class LlavaMetaForCausalLM(ABC):` 的主要作用是把
