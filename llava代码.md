@@ -62,3 +62,6 @@ $$
 
 然后是 llama 的基础块 `LlamaDecoderLayer`，它的结构如下。
 ![[Pasted image 20250314094809.png]]
+
+
+`LlamaModel` 包含了网络的
