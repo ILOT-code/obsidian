@@ -57,4 +57,5 @@ $$
 在 `LLamaAttention` 的基础上，还实现了一些快速版本 `LlamaFlasAttention`.
 
 
-然后是 llama 的基础块 `LlamaDecoderLayer`，它的结构如下：
+然后是 llama 的基础块 `LlamaDecoderLayer`，它的结构如下。
+![[Pasted image 20250314094809.png]]
