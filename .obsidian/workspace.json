@@ -108,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.49999618530273
+    "width": 263.49999618530273,
+    "collapsed": true
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -232,11 +233,13 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "ffe7be8522362108",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20250314093933.png",
     "Attachments/Pasted image 20250313142019.png",
     "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
     "llava代码.md",
@@ -272,7 +275,6 @@
     "LiteratureNotes/ge2024-taskaware.md",
     "LiteratureNotes/gaoImplicitMotionFunction2024.md",
     "Attachments/Pasted image 20250307174935.png",
-    "Attachments/Pasted image 20250307123438.png",
     "未命名.canvas",
     "未命名 1.canvas",
     "chen2024-howfarcan.pdf",
