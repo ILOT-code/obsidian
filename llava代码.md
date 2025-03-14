@@ -72,4 +72,7 @@ $$
 `prepare_inputs_for_generation` 在 generate 过程中，自动更新模型的输入以及 mask.
 
 # 联合
-类 `class LlavaMetaForCausalLM(ABC):` 的主要作用是把
+类 `class LlavaMetaForCausalLM(ABC):` 的主要作用是把二维的 (bsz, seq_len) 的包含普通词汇 id 和特殊的 image id 的序列，用 clip 处理成一个可以被 llm 接受的 (bsz, new_seq_len, c) 的序列。一张图像包含多个分辨率、多范围的版本，该类实现了各种嵌入的策略。
+
+clip 和 llm 的结合：
+实现了和 llama, mpt, misyral 三种模型的结合。主要看 llama.
