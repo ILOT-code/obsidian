@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "zhang2024-efficient",
+      "path": "LiteratureNotes/zhang2024-efficient.md"
+    },
+    {
       "basename": "llava代码",
       "path": "llava代码.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "salimans2022-progressive",
       "path": "LiteratureNotes/salimans2022-progressive.md"
-    },
-    {
-      "basename": "sneyers2016-flif",
-      "path": "LiteratureNotes/sneyers2016-flif.md"
     }
   ],
   "omittedPaths": [],

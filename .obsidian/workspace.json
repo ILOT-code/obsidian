@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "llava代码.md",
+                "file": "LiteratureNotes/zhang2024-efficient.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llava代码"
+              "title": "zhang2024-efficient"
             }
           },
           {
@@ -232,13 +232,14 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "ffe7be8522362108",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "llava代码.md",
+    "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
     "Attachments/Pasted image 20250314105934.png",
     "Attachments/Pasted image 20250314095540.png",
