@@ -13,8 +13,8 @@ image tokens 数量占绝大部分。在浅层中，attention 的分布还较为
 下面的图展示了在逐 tokenh 输出的过程中，各类型 token 的 attention 占比。说明随着输出序列的增加，img token 的 attention 占比也在减少。
 ![[Pasted image 20250320144315.png]]
 
-
-下面的图展示了，即使在 image token 中，不同位置的 image token attention 差异也很大，
+@VisionZip
+下面的图展示了，即使在 image token 中，不同位置的 image token attention 差异也很大。而且这些 attention 大的位置也是非常奇怪，往往并不聚焦与图像中在视觉上关键的区域（比如说这个人和车）
 ![[Pasted image 20250320160726.png]]
 
 ## FastV
