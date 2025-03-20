@@ -42,3 +42,8 @@ $\text{Gumbel-Softmax}(\pi_R)$ 会生成一个长度是 $K$ 的向量。
 $$
 M_{i,j}=\begin{cases}1&\quad i=j,\\m_i&\quad i\neq j.\end{cases}
 $$
+
+## LLaMA-VID
+利用用户输入的文本信息来与 visual encoder 输出的 token 作一次 cross-attentiomn, 生成一个和用户提问相关的 image token $E_{t}^{T}\in R^{1\times C}$
+ visual encoder 的输出也会经过 pool 后生成长度
+![[Pasted image 20250320155411.png]]
