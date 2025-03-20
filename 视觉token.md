@@ -8,3 +8,7 @@
 ![[Pasted image 20250320140603.png]]
 image tokens 数量占绝大部分。在浅层中，attention 的分布还较为均衡，而在 deep layerh 中，分布局部均衡，image token 的效率也极低，attention 几乎都聚集在 sys tokenh 上。
 (这种现象我认为并不能完全说明 image token 的冗余，因为 deep layer 的输入的 token 序列本来就是 shallow layer 处理来的，而 shallow layer 中 image token 占据了很大一部分 attention)
+
+## FastV
+在第 $K$ 层，对 token 的重要性进行排序，并丢弃最后的 $R\%$ 的token。（这些被丢弃的 token 在随后的层中也不存在）
+![[Pasted image 20250320143327.png]]
