@@ -18,7 +18,7 @@ image tokens 数量占绝大部分。在浅层中，attention 的分布还较为
 ![[Pasted image 20250320160726.png]]
 
 ## FastV
-在第 $K$ 层，对 token 的重要性进行排序，并丢弃最后的 $R\%$ 的token。（这些被丢弃的 token 在随后的层中也不存在）
+在第 $K$ 层，对 token 的重要性(attention mask 的列向求和)进行排序，并丢弃最后的 $R\%$ 的token。（这些被丢弃的 token 在随后的层中也不存在）
 ![[Pasted image 20250320143327.png]] 
 ## DyRate
 generation 过程中，image token 的 attention 占比逐渐减少，因此，需要设计一种动态的 token 削减策略，在不同的 generation steps以不同的比例来剪去 image token.
