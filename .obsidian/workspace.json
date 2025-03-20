@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "zhang2024-efficient"
             }
-          },
-          {
-            "id": "fe953022ae495ebf",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-03 19.51.02.excalidraw"
-            }
           }
         ]
       }
@@ -238,6 +226,7 @@
   },
   "active": "ffe7be8522362108",
   "lastOpenFiles": [
+    "LiteratureNotes/zhang2024-efficient.md",
     "llava代码.md",
     "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
@@ -273,7 +262,6 @@
     "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/ge2024-taskaware.md",
-    "LiteratureNotes/gaoImplicitMotionFunction2024.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "chen2024-howfarcan.pdf",
