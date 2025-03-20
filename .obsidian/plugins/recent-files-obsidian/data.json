@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "视觉token",
+      "path": "视觉token.md"
+    },
+    {
       "basename": "zhang2024-efficient",
       "path": "LiteratureNotes/zhang2024-efficient.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "oord2016-pixel",
       "path": "LiteratureNotes/oord2016-pixel.md"
-    },
-    {
-      "basename": "salimans2022-progressive",
-      "path": "LiteratureNotes/salimans2022-progressive.md"
     }
   ],
   "omittedPaths": [],
