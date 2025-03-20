@@ -55,5 +55,5 @@ $$
 ## VisionZip
 同样利用 attention score 来进行排序，和 FastV 一样。不同的是，如果使用的 visual encodr 有 cls 这样的 token 的话，那就直接看 cls token 上的 attention 分布。
 
-首先选择出分数最高的几个 dominant token。对剩下的 token, 使用类似聚类的方法进行 merge, token 间距离的计算使用 key 向量的余弦相似度
+首先选择出分数最高的几个 dominant token。对剩下的 token, 使用类似聚类的方法进行 merge, token 间距离的计算使用 key 向量的余弦相似度。
 ![[Pasted image 20250320162330.png]]
