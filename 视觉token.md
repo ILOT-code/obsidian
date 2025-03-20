@@ -18,4 +18,8 @@ image tokens 数量占绝大部分。在浅层中，attention 的分布还较为
 ## DyRate
 generation 过程中，image token 的 attention 占比逐渐减少，因此，需要设计一种动态的 token 削减策略，在不同的 generation steps以不同的比例来剪去 image token.
 ![[Pasted image 20250320152556.png]]
+
+大体思路就是，在当前 generation step 中，取出当前预测 token 的 attention 向量，训练一个分类器，依次向量为输入，输出各种剪枝率（剪刀大小）的概率。然后选择一个剪枝率去按照某种策略剪去 tokens。
 ![[Pasted image 20250320152654.png]]
+上面的过程在 generation 过程是说得通的，但在 training 过程中需要客服采样的问题。
+具体而言，定义了 $K$ 个不同的剪枝率: $\mathcal{R}=P\{r_{k}\}_{k=1}^{K}$，
