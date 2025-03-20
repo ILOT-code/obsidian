@@ -45,5 +45,5 @@ $$
 
 ## LLaMA-VID
 利用用户输入的文本信息来与 visual encoder 输出的 token 作一次 cross-attentiomn, 生成一个和用户提问相关的 image token $E_{t}^{T}\in R^{1\times C}$
- visual encoder 的输出也会经过 pool 后生成长度
+ visual encoder 的输出也会经过 pool 后生成长度很短的 tokens $E_{t}^{V}\in R^{{l\times C}}$
 ![[Pasted image 20250320155411.png]]
