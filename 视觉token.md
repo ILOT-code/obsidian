@@ -35,3 +35,10 @@ $$
 $$
 m=\sum_{k=1}^K\text{Gumbel-Softmax}(\pi_R)_{*,k}\cdot m^k,
 $$
+$\text{Gumbel-Softmax}(\pi_R)$ 会生成一个长度是 $K$ 的向量。
+> 这个式子更像一个加权求和的过程，既让如此，为何不直接用已知的 $\pi_{R}$ 来进行加权呢？
+
+利用这个掩码，为 attention mask 增加一个 mash $M \in {0,1}^{N\times N}$:
+$$
+M_{i,j}=\begin{cases}1&\quad i=j,\\m_i&\quad i\neq j.\end{cases}
+$$
