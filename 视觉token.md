@@ -6,4 +6,4 @@
 
 测试在解码输出的 token 过程中，各类型的 token 获得的 attention 之和以及效率（也就是 attention 的和除以该 token 的数量）。
 ![[Pasted image 20250320140603.png]]
-image tokens 数量占绝大部分。在浅层中，attention 的分布还较为均衡，而在 deep layerh 中，分布局部均衡，image token 的效率也极低，attention 几乎
+image tokens 数量占绝大部分。在浅层中，attention 的分布还较为均衡，而在 deep layerh 中，分布局部均衡，image token 的效率也极低，attention 几乎都聚集在 sys tokenh 上。
