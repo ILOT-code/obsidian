@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/marpe2003-contextbased.md",
+                "file": "efficient large langugae models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "marpe2003-contextbased"
+              "title": "efficient large langugae models"
             }
           }
         ],
@@ -255,6 +255,8 @@
   },
   "active": "cdd7d638e6b1e05f",
   "lastOpenFiles": [
+    "LiteratureNotes/wu2023-tetrirf.md",
+    "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/liu2023-learned.md",
     "LiteratureNotes/guo2023-compression.md",
     "LiteratureNotes/gomes2023-video.md",
@@ -289,8 +291,6 @@
     "Excalidraw/Drawtang2023-scene.md",
     "CodeNew.md",
     "INR方法汇总.md",
-    "Sundry/Numpy.md",
-    "Sundry/Pytorch.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "chen2024-howfarcan.pdf",

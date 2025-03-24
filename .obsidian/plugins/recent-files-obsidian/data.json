@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "efficient large langugae models",
+      "path": "efficient large langugae models.md"
+    },
+    {
+      "basename": "wu2023-tetrirf",
+      "path": "LiteratureNotes/wu2023-tetrirf.md"
+    },
+    {
       "basename": "marpe2003-contextbased",
       "path": "LiteratureNotes/marpe2003-contextbased.md"
     },
@@ -63,10 +71,6 @@
     {
       "basename": "3DGS-compress",
       "path": "LiteratureNotes/3DGS-compress.md"
-    },
-    {
-      "basename": "efficient large langugae models",
-      "path": "efficient large langugae models.md"
     },
     {
       "basename": "视觉token",
@@ -195,10 +199,6 @@
     {
       "basename": "muller2022-instant",
       "path": "LiteratureNotes/muller2022-instant.md"
-    },
-    {
-      "basename": "oord2016-conditional",
-      "path": "LiteratureNotes/oord2016-conditional.md"
     }
   ],
   "omittedPaths": [],
