@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/dettmers2022-llm.md",
+                "file": "efficient large langugae models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dettmers2022-llm"
+              "title": "efficient large langugae models"
             }
           }
         ],
@@ -255,6 +255,7 @@
   },
   "active": "cdd7d638e6b1e05f",
   "lastOpenFiles": [
+    "LiteratureNotes/dettmers2022-llm.md",
     "efficient large langugae models.md",
     "LiteratureNotes/wu2023-tetrirf.md",
     "LiteratureNotes/marpe2003-contextbased.md",
@@ -265,7 +266,6 @@
     "LiteratureNotes/ge2024-taskaware.md",
     "LiteratureNotes/flamich2022-fast.md",
     "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
-    "LiteratureNotes/dettmers2022-llm.md",
     "LiteratureNotes/deng2023-compressing.md",
     "LiteratureNotes/chen2021-nerv.md",
     "LiteratureNotes/ali2023-efficient.md",

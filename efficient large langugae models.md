@@ -26,6 +26,8 @@ $$
 #### PTQ
 由于 PTQ 是训练无法感知的，需要对量化引起的损失进行额外的弥补，因此会有一个小的 calibration dataset 去更新量化后的参数或者 activations。.
 
+
 **weight-only**: 
 只关注量化权重。
-LLM. int (8)：
+LLM. int (8)：采用向量量化的形式，量化到 8 bits
+GPTQ
