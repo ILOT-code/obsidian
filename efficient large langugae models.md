@@ -68,5 +68,5 @@ SparseGPT 将剪枝问题表述为稀疏回归问题，并通过基于逆 Hessia
 Wanda 基于权重幅值与其相应输入激活的乘积值进行权重剪枝，它既不依赖二阶信息，也不需要进行权重更新。
 
 ### Low-Rank Approximation
-对权重矩阵作近似， $\mathbf{W}\approx\mathbf{U}\mathbf{V}^\top$, $U,V$ 矩阵要小很多。
-
+对权重矩阵作近似，例如： $\mathbf{W}\approx\mathbf{U}\mathbf{V}^\top$, $U,V$ 矩阵要小很多。
+TensorGPT
