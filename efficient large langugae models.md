@@ -16,5 +16,11 @@
 ![[Pasted image 20250324130821.png]]
 
 ### Quantization
-量化就是把高精度的模型权重或者 activationsh 转化成低精度的形式。
-LLM 的量化多采用 PTQ 的形式，能减少训练时的开销。
+量化就是把高精度的模型权重或者 activationsh 转化成低精度的形式：
+$$
+\mathbf{X}^\mathrm{L}=\mathrm{Round}\left(\frac{\mathrm{absmax}\left(\mathbf{X}^\mathrm{L}\right)}{\mathrm{absmax}\left(\mathbf{X}^\mathrm{H}\right)}\mathbf{X}^\mathrm{H}\right)=\mathrm{Round}\left(\mathcal{K}\cdot\mathbf{X}^\mathrm{H}\right),
+$$
+量化可以在模型训练完毕后进行 PTQ，也可以在训练时就进行 QAT，但LLM 的量化多采用 PTQ 的形式，能减少训练时的开销。
+与其他 LLM 压缩方法（如剪枝和低秩近似）相比，量化方法已被证明在压缩与精度的权衡上表现更优（Li 等，2024）
+
+#### PTQ
