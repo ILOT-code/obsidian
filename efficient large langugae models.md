@@ -13,6 +13,8 @@
 5. effcient architecture：对 attention, FFN 等层的改进
 
 ## Model Compression
+![[Pasted image 20250324130821.png]]
 
-
-
+### Quantization
+量化就是把高精度的模型权重或者 activationsh 转化成低精度的形式。
+LLM 的量化多采用 PTQ 的形式，能减少训练时的开销。

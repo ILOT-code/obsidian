@@ -249,11 +249,13 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "cdd7d638e6b1e05f",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20250324130821.png",
     "efficient large langugae models.md",
     "视觉token.md",
     "Attachments/Pasted image 20250320162330.png",
@@ -289,7 +291,6 @@
     "LiteratureNotes/chenHACHashgridAssisted2024.md",
     "LiteratureNotes/deng2023-compressing.md",
     "LiteratureNotes/dettmers2022-llm.md",
-    "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "chen2024-howfarcan.pdf",
