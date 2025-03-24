@@ -70,4 +70,6 @@ Wanda 基于权重幅值与其相应输入激活的乘积值进行权重剪枝�
 ### Low-Rank Approximation
 对权重矩阵作近似，例如： $\mathbf{W}\approx\mathbf{U}\mathbf{V}^\top$, $U,V$ 矩阵要小很多。
 TensorGPT 使用 Tensor-Train Decomposition 来处理 embedding layers。创建了一种更高效的嵌入方式。
-FWSVD 使用低秩近似来处理权重矩阵，而不仅是 embedding。他在数据集上，计算权重的重要性，一次
+FWSVD 使用低秩近似来处理权重矩阵，而不仅是 embedding。他在数据集上，计算权重的重要性，以重要性为衡量设计了一种加权形式的 SVD 算法。
+ASVD 这是 training-free 的，它根据激活值的分布来缩放权重矩阵，来减小误差。
+SVD-LLM 建立了奇异值和损失函数的联系，因此可以选择性的、和 loss 相关的来
