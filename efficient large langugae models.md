@@ -28,6 +28,7 @@ $$
 
 
 **weight-only**: 
+只量化权重，推理时反量化。
 salient weight： 存在一小部分模型权重，其激活幅度较大，在决定量化损失中起着关键作用。对 salient weight 直接量化会带来显著的影响。
 activation outliers：某些激活值，其幅度也很大，它们对于的矩阵权重如果量化，也会带来显著影响。
 
@@ -38,4 +39,5 @@ GPTQ: 利用逆 Hessian 矩阵信息，把权重量化到 3 or 4 bits, 能够在
 
 FineQuant 设计了一种经验式的方法，为不同的权重分配不同的量化粒度，同样能克服 outliers 的问题。
 
-**iweight-activation Co-Quantization**
+**weight-activation Co-Quantization**
+ZeroQuant: group-wise 的形式量化矩阵权重，token-wise 的形式量化 activations.
