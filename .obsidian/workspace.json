@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "视觉token"
             }
+          },
+          {
+            "id": "cdd7d638e6b1e05f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -239,8 +249,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fa0fd8b72a731893",
+  "active": "cdd7d638e6b1e05f",
   "lastOpenFiles": [
+    "视觉token.md",
     "Attachments/Pasted image 20250320162330.png",
     "Attachments/Pasted image 20250320160726.png",
     "Attachments/Pasted image 20250320155411.png",
@@ -249,14 +260,12 @@
     "Attachments/Pasted image 20250320144315.png",
     "Attachments/Pasted image 20250320143327.png",
     "Attachments/Pasted image 20250320140603.png",
-    "视觉token.md",
     "LiteratureNotes/zhang2024-efficient.md",
     "llava代码.md",
     "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
     "Attachments/Pasted image 20250314105934.png",
     "Attachments/Pasted image 20250314095540.png",
-    "Attachments/Pasted image 20250314094809.png",
     "Excalidraw/Drawtang2023-scene.md",
     "LiteratureNotes/3DGS-compress.md",
     "CodeNew.md",
