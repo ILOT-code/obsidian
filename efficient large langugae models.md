@@ -64,4 +64,7 @@ LoRAPrune提出了一种基于 LoRA 的剪枝准则，利用 LoRA 的权重和�
 
 #### Unstructured Pruning
 非结构化剪枝灵活性更大，精度下降较小。但稀疏化是不规则的，难以进行加速。
-SparseGPT
+SparseGPT 将剪枝问题表述为稀疏回归问题，并通过基于逆 Hessian 矩阵的近似求解器来解决。
+Wanda 基于权重幅值与其相应输入激活的乘积值进行权重剪枝，它既不依赖二阶信息，也不需要进行权重更新。
+
+### Low-Rank Approximation
