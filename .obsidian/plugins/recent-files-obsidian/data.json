@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "efficient large langugae models",
+      "path": "efficient large langugae models.md"
+    },
+    {
       "basename": "视觉token",
       "path": "视觉token.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "oord2016-conditional",
       "path": "LiteratureNotes/oord2016-conditional.md"
-    },
-    {
-      "basename": "oord2016-pixel",
-      "path": "LiteratureNotes/oord2016-pixel.md"
     }
   ],
   "omittedPaths": [],
