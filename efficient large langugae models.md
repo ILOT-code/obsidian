@@ -30,8 +30,8 @@ $$
 **weight-only**: 
 只关注量化权重。
 salient weight： 存在一小部分模型权重，其激活幅度较大，在决定量化损失中起着关键作用。对 salient weight 直接量化会带来显著的影响。
-
+activation outliers：某些激活值，其幅度也很大，它们对于的矩阵权重如果量化，也会带来显著影响。
 LLM. int (8)：采用向量量化的形式，量化到 8 bits
 GPTQ: 利用逆 Hessian 矩阵信息，把权重量化到 3 or 4 bits, 能够在 4 gpu hours 上量化 175 B 的模型。
 
-
+很多改进版本的方法对这类 salient weight 采用 fp16, 不进行量化，对剩余部分进行量化。这类 salient weight 的分布有一定规律，他们往往集中在少数的几个 channel 上，带来了很大便利。
