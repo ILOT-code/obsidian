@@ -40,4 +40,4 @@ GPTQ: 利用逆 Hessian 矩阵信息，把权重量化到 3 or 4 bits, 能够在
 FineQuant 设计了一种经验式的方法，为不同的权重分配不同的量化粒度，同样能克服 outliers 的问题。
 
 **weight-activation Co-Quantization**
-ZeroQuant: group-wise 的形式量化矩阵权重，token-wise 的形式量化 activations.
+ZeroQuant: group-wise 的形式量化矩阵权重，token-wise 的形式量化 activations. 后面一些方法在此基础上引入了低秩矩阵近似来减少精度下降问题。
