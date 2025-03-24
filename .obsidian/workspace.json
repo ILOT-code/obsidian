@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "efficient large langugae models.md",
+                "file": "LiteratureNotes/dettmers2022-llm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "efficient large langugae models"
+              "title": "dettmers2022-llm"
             }
           }
         ],
@@ -255,8 +255,8 @@
   },
   "active": "cdd7d638e6b1e05f",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20250324130821.png",
     "efficient large langugae models.md",
+    "Attachments/Pasted image 20250324130821.png",
     "视觉token.md",
     "Attachments/Pasted image 20250320162330.png",
     "Attachments/Pasted image 20250320160726.png",
@@ -271,7 +271,6 @@
     "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
     "Attachments/Pasted image 20250314105934.png",
-    "Attachments/Pasted image 20250314095540.png",
     "Excalidraw/Drawtang2023-scene.md",
     "LiteratureNotes/3DGS-compress.md",
     "CodeNew.md",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "dettmers2022-llm",
+      "path": "LiteratureNotes/dettmers2022-llm.md"
+    },
+    {
       "basename": "efficient large langugae models",
       "path": "efficient large langugae models.md"
     },
@@ -91,10 +95,6 @@
     {
       "basename": "deng2023-compressing",
       "path": "LiteratureNotes/deng2023-compressing.md"
-    },
-    {
-      "basename": "dettmers2022-llm",
-      "path": "LiteratureNotes/dettmers2022-llm.md"
     },
     {
       "basename": "EXPLORATIONENTROPYCONSTRAINED",
