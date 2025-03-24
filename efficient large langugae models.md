@@ -43,3 +43,7 @@ FineQuant 设计了一种经验式的方法，为不同的权重分配不同的�
 ZeroQuant: group-wise 的形式量化矩阵权重，token-wise 的形式量化 activations. 后面一些方法在此基础上引入了低秩矩阵近似来减少精度下降问题。
 SmoothQuant 对 activations 进行逐通道缩放，使得 activation outliers 和普通的 activations 变得差不多大，然后对矩阵权重进行量化。
 OliVe 直接把 outliers 临近的维度剪去，节省下的比特为 outliers 提供更高精度。
+RPTQ 按通道对 activations 分组，具有相似范围的通道聚合为一组，使用一样的量化粒度。
+ Outlier Suppression+观察到，激活异常值具有不对称性，并且倾向于集中在特定通道中。基于这一观察，为个别通道引入平移和缩放操作，以中和那些异常值
+
+#### QAT
