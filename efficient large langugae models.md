@@ -6,5 +6,13 @@
 
 # Model Centric
 分为五个类别：
-1. model compression
-2. effcient pre-train
+1. model compression：关注如何减少规模和计算量
+2. effcient pre-training：高效的预训练
+3. effcient fine-tuning：高效微调
+4. effcient inference：高效推理
+5. effcient architecture：对 attention, FFN 等层的改进
+
+## Model Compression
+
+
+
