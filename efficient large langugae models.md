@@ -51,4 +51,9 @@ QAT 在训练过程中对 LLMs 进行量化，使 LLMs 能够学习到量化带�
 
 QuantGPT 利用全精度教师模型对量化的学生模型进行蒸馏训练。QuantGPT 在 GPT-2 和 BART 上分别实现了 14.4 倍和 13.4 倍的压缩率，且性能与全精度模型相当。
 LLM-QAT 同样也是蒸馏训练，但除了量化权重和激活值外，还量化了 KV-cache.
-BitNet 提出了了 1-bit LLMs 的 QAT。它提出在训练过程中使用低精度二值权重和量化激活值，同时保持优化器状态和梯度的高精度。实验结果表明，与 FP 16 Transformer 基线相比，BitNet 能够在显著减少内存占用和能耗的同时实现具有竞争力的性能。
+BitNet 提出了了 1-bit 的 QAT 方法。在训练过程中使用低精度二值权重和量化激活值，同时保持优化器状态和梯度的高精度。
+
+### Parameter Pruning
+剪去冗余或不重要的参数。
+
+#### structured pruning
