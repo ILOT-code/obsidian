@@ -1,8 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "marpe2003-contextbased",
+      "path": "LiteratureNotes/marpe2003-contextbased.md"
+    },
+    {
+      "basename": "liu2023-learned",
+      "path": "LiteratureNotes/liu2023-learned.md"
+    },
+    {
+      "basename": "guo2023-compression",
+      "path": "LiteratureNotes/guo2023-compression.md"
+    },
+    {
+      "basename": "gomes2023-video",
+      "path": "LiteratureNotes/gomes2023-video.md"
+    },
+    {
+      "basename": "girish2023-shacira",
+      "path": "LiteratureNotes/girish2023-shacira.md"
+    },
+    {
+      "basename": "ge2024-taskaware",
+      "path": "LiteratureNotes/ge2024-taskaware.md"
+    },
+    {
+      "basename": "flamich2022-fast",
+      "path": "LiteratureNotes/flamich2022-fast.md"
+    },
+    {
+      "basename": "EXPLORATIONENTROPYCONSTRAINED",
+      "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
+    },
+    {
       "basename": "dettmers2022-llm",
       "path": "LiteratureNotes/dettmers2022-llm.md"
+    },
+    {
+      "basename": "deng2023-compressing",
+      "path": "LiteratureNotes/deng2023-compressing.md"
+    },
+    {
+      "basename": "chen2021-nerv",
+      "path": "LiteratureNotes/chen2021-nerv.md"
+    },
+    {
+      "basename": "ali2023-efficient",
+      "path": "LiteratureNotes/ali2023-efficient.md"
+    },
+    {
+      "basename": "alakuijala2019-jpeg",
+      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
+    },
+    {
+      "basename": "2023-preprocessing",
+      "path": "LiteratureNotes/2023-preprocessing.md"
+    },
+    {
+      "basename": "2017-significantly",
+      "path": "LiteratureNotes/2017-significantly.md"
+    },
+    {
+      "basename": "3DGS-compress",
+      "path": "LiteratureNotes/3DGS-compress.md"
     },
     {
       "basename": "efficient large langugae models",
@@ -27,10 +87,6 @@
     {
       "basename": "Drawtang2023-scene",
       "path": "Excalidraw/Drawtang2023-scene.md"
-    },
-    {
-      "basename": "3DGS-compress",
-      "path": "LiteratureNotes/3DGS-compress.md"
     },
     {
       "basename": "CodeNew",
@@ -61,26 +117,6 @@
       "path": "COINR COMPRESSED IMPLICIT NEURAL REPRESENTATIONS.md"
     },
     {
-      "basename": "2017-significantly",
-      "path": "LiteratureNotes/2017-significantly.md"
-    },
-    {
-      "basename": "2023-preprocessing",
-      "path": "LiteratureNotes/2023-preprocessing.md"
-    },
-    {
-      "basename": "alakuijala2019-jpeg",
-      "path": "LiteratureNotes/alakuijala2019-jpeg.md"
-    },
-    {
-      "basename": "ali2023-efficient",
-      "path": "LiteratureNotes/ali2023-efficient.md"
-    },
-    {
-      "basename": "chen2021-nerv",
-      "path": "LiteratureNotes/chen2021-nerv.md"
-    },
-    {
       "basename": "chen2023-factor",
       "path": "LiteratureNotes/chen2023-factor.md"
     },
@@ -91,34 +127,6 @@
     {
       "basename": "chenHACHashgridAssisted2024",
       "path": "LiteratureNotes/chenHACHashgridAssisted2024.md"
-    },
-    {
-      "basename": "deng2023-compressing",
-      "path": "LiteratureNotes/deng2023-compressing.md"
-    },
-    {
-      "basename": "EXPLORATIONENTROPYCONSTRAINED",
-      "path": "LiteratureNotes/EXPLORATIONENTROPYCONSTRAINED.md"
-    },
-    {
-      "basename": "flamich2022-fast",
-      "path": "LiteratureNotes/flamich2022-fast.md"
-    },
-    {
-      "basename": "ge2024-taskaware",
-      "path": "LiteratureNotes/ge2024-taskaware.md"
-    },
-    {
-      "basename": "girish2023-shacira",
-      "path": "LiteratureNotes/girish2023-shacira.md"
-    },
-    {
-      "basename": "gomes2023-video",
-      "path": "LiteratureNotes/gomes2023-video.md"
-    },
-    {
-      "basename": "guo2023-compression",
-      "path": "LiteratureNotes/guo2023-compression.md"
     },
     {
       "basename": "hazimeh2021-dselectk",
@@ -173,20 +181,12 @@
       "path": "LiteratureNotes/liang2019-significantly.md"
     },
     {
-      "basename": "liu2023-learned",
-      "path": "LiteratureNotes/liu2023-learned.md"
-    },
-    {
       "basename": "liuVisualInstructionTuning2023",
       "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
     },
     {
       "basename": "luScaffoldGSStructured3D2023",
       "path": "LiteratureNotes/luScaffoldGSStructured3D2023.md"
-    },
-    {
-      "basename": "marpe2003-contextbased",
-      "path": "LiteratureNotes/marpe2003-contextbased.md"
     },
     {
       "basename": "mentzer2019-practical",
