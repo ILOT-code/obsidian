@@ -41,3 +41,5 @@ FineQuant 设计了一种经验式的方法，为不同的权重分配不同的�
 
 **weight-activation Co-Quantization**
 ZeroQuant: group-wise 的形式量化矩阵权重，token-wise 的形式量化 activations. 后面一些方法在此基础上引入了低秩矩阵近似来减少精度下降问题。
+SmoothQuant 对 activations 进行逐通道缩放，使得 activation outliers 和普通的 activations 变得差不多大，然后对矩阵权重进行量化。
+OliVe 直接把 outliers 临近的维度剪去，节省下的比特为 outliers 提供更高精度。
