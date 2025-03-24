@@ -29,5 +29,9 @@ $$
 
 **weight-only**: 
 只关注量化权重。
+salient weight： 存在一小部分模型权重，其激活幅度较大，在决定量化损失中起着关键作用。对 salient weight 直接量化会带来显著的影响。
+
 LLM. int (8)：采用向量量化的形式，量化到 8 bits
-GPTQ
+GPTQ: 利用逆 Hessian 矩阵信息，把权重量化到 3 or 4 bits, 能够在 4 gpu hours 上量化 175 B 的模型。
+
+
