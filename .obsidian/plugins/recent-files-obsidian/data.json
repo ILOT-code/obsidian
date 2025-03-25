@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "视觉token",
+      "path": "视觉token.md"
+    },
+    {
       "basename": "efficient large langugae models",
       "path": "efficient large langugae models.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "3DGS-compress",
       "path": "LiteratureNotes/3DGS-compress.md"
-    },
-    {
-      "basename": "视觉token",
-      "path": "视觉token.md"
     },
     {
       "basename": "zhang2024-efficient",

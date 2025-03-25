@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,15 +249,14 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "cdd7d638e6b1e05f",
+  "active": "fa0fd8b72a731893",
   "lastOpenFiles": [
+    "efficient large langugae models.md",
     "Attachments/Pasted image 20250324195601.png",
     "LiteratureNotes/dettmers2022-llm.md",
-    "efficient large langugae models.md",
     "LiteratureNotes/wu2023-tetrirf.md",
     "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/liu2023-learned.md",
@@ -288,7 +287,6 @@
     "llava代码.md",
     "Excalidraw/Drawing 2025-03-03 19.51.02.excalidraw.md",
     "Excalidraw/Drawing 2025-03-13 14.00.04.excalidraw.md",
-    "Attachments/Pasted image 20250314105934.png",
     "Excalidraw/Drawtang2023-scene.md",
     "CodeNew.md",
     "未命名.canvas",
