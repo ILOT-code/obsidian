@@ -26,4 +26,11 @@ tags:
 
 ![[Pasted image 20250326152832.png]]
 在这种方式下，$\lambda$从0.3到0.4会带来显著的性能下降。效果并不理想。
-单独对key进行考虑是不足的，attention的计算需要综合考虑query和key，因此
+单独对key进行考虑是不足的，attention的计算需要综合考虑query和key，因此，这个问题被重写为一个优化问题,$\mathbf{Q}_i,\mathbf{K}_i,\mathbf{V}_i\:\in\:\mathbb{R}^{S\times D}, \mathbf{S}\in\{0,1\}^{D\times D}$
+$$
+\begin{aligned}\min_{\mathbf{S}}&\left\|\mathbf{Q}_i\mathbf{K}_i^T-\mathbf{Q}_i\mathbf{S}\mathbf{K}_i^T\right\|_F\\\text{subject to}&\operatorname{trace}(\mathbf{S})=\lfloor(1-\lambda)D\rfloor\\&\mathbf{S}=\operatorname{diag}(s_1,s_2,\ldots,s_D),\text{ where }s_j\in\{0,1\}\end{aligned}
+$$
+这个问题是NP的，采用一个贪心的算法，
+$$
+\mathrm{Score}_i[j]\:=\:\left\|\mathbf{Q}_i[:,j]\mathbf{K}_i[:,j]^T\right\|_F,\quad I_i\:=\:\mathbf{Top}_\lambda(\mathrm{Score}_i,\lambda)
+$$
