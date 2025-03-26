@@ -41,4 +41,11 @@ $$
 经过多级的分解，原始信号被分解为：$[\mathbf{A}_L,\mathbf{D}_L,\mathbf{D}_{L-1},\cdots,\mathbf{D}_1]$ 它们的频率逐渐上升。
 
 
-在 self-attention
+在 self-attention 中，输出是注意力权重向量与 V 矩阵的乘，因此考虑对下面这个式子进行分解：
+$$
+\mathbf{s}=\mathbf{a}^{(t)^{T}}\circ\mathbf{V}^{(t)}=\begin{pmatrix}\mathbf{a}^{(t)}(1)\mathbf{V}^{(t)}(1)\\\vdots\\\mathbf{a}^{(t)}(t)\mathbf{V}^{(t)}(t)\end{pmatrix}.
+$$
+沿着时间维度，对它进行小波分解。并使用各级的信号 $\mathbf{D}_{L}$ 对它进行复原：
+$$
+\mathrm{Rec}(\mathbf{D}_L)=R(R(\cdots R(\mathbf{0},\mathbf{D}_L)\cdots,\mathbf{0}),\mathbf{0}).
+$$
