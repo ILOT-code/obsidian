@@ -11,3 +11,4 @@ citekey:
 tags:
 ---
 # THINK: THINNER KEY CACHE BY QUERY-DRIVEN  PRUNING
+本文也致力于kv-cache的缩减，和之前方法不同的是，它是从channel的维度进行缩减的，因此，他和其他在时间维度上进行缩减的方法正交。
