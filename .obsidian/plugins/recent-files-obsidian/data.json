@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Xu2025-THINK",
+      "path": "Xu2025-THINK.md"
+    },
+    {
+      "basename": "yang2023-tinc",
+      "path": "LiteratureNotes/yang2023-tinc.md"
+    },
+    {
       "basename": "He2025-TreeKV",
       "path": "He2025-TreeKV.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "liuVisualInstructionTuning2023",
       "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
-    },
-    {
-      "basename": "luScaffoldGSStructured3D2023",
-      "path": "LiteratureNotes/luScaffoldGSStructured3D2023.md"
-    },
-    {
-      "basename": "mentzer2019-practical",
-      "path": "LiteratureNotes/mentzer2019-practical.md"
     }
   ],
   "omittedPaths": [],
