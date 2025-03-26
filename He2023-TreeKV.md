@@ -7,3 +7,18 @@ KV-cache 随着 generation step 的增长，线性增长，若无法摆脱线性
 
 本文先使用小波分解来分析 kv-cache，基于发现的规律提出了 TreeKV，他的 kv-cacheuj 保留结果更平滑。总体上还是多保留相近的 kv-cache, 而去除远处的 kv-cache.
 ![[Pasted image 20250326122215.png]]
+
+## Preliminary
+$\mathbf{x}^{(t)}\in \mathbb{R}^{1\times d}$ 是新来的 token，通过它生成新的 q, k, v
+
+$$
+\mathbf{q}^{(t)}=\mathbf{x}^{(t)}\mathbf{W}_Q,\mathbf{k}^{(t)}=\mathbf{x}^{(t)}\mathbf{W}_K,\mathbf{v}^{(t)}=\mathbf{x}^{(t)}\mathbf{W}_V.
+$$
+然后进行拼接：
+$$
+\mathbf{K}^{(t)}=\begin{pmatrix}\mathbf{K}^{(t-1)}\\\mathbf{k}^{(t)}\end{pmatrix},\quad\mathbf{V}^{(t)}=\begin{pmatrix}\mathbf{V}^{(t-1)}\\\mathbf{v}^{(t)}\end{pmatrix}.
+$$
+最后进行 attention 分数的计算，生成新的 token.
+$$
+\mathbf{a}^{(t)}=\text{SoftMax}\left(\frac{\mathbf{q}^{(t)}\mathbf{K}^{(t)}^\top{\sqrt{d}}\right)
+$$
