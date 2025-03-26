@@ -119,3 +119,6 @@ ReZero通过添加零值参数来保持一致性，从而实现更快的收敛�
 ### Training Optimizers
 在大模型训练中，Adam和AdamW使用广泛，但他们内存和算力的消耗很大。
 Lion 通过搜索和人工干预，找到了 Lion 优化器，更省显存和算力。
+Sophia 是一个轻量的二阶的优化器，通过估计的 Hessian 矩阵来更新。
+### System-Level Pre-Training Efficiency Optimization
+一些 DP 和 DDP 策略
