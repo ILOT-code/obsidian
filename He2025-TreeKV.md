@@ -73,8 +73,14 @@ $$
 
 ## Exp
 
+困惑度 perplexity
 
-
+$$
+PP(W)=\sqrt[n]{\frac1{P(w_1,w_2,\ldots,w_N)}}
+$$
+$$
+PP(W)=2^{-\frac1N\sum_{i=1}^N\log_2P(w_i\mid w_1,w_2,\ldots,w_{i-1})}
+$$
 **Language Modeling 任务**
 ![[Pasted image 20250326133219.png]]
 
