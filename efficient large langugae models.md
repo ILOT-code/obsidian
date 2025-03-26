@@ -111,3 +111,10 @@ AKI: 一种增加宽度的做法：
 CompoundGrow，该方法首先训练一个小模型，然后通过增加输入长度、模型宽度和深度来逐步扩展模型。
 
 ### Initialization Techniques
+初始化可以加速模型的收敛。
+Fixup和ZerO将主干网络初始化为零，以保持信号的可辨别性。
+SkipInit用零值乘法器替代了BN
+ReZero通过添加零值参数来保持一致性，从而实现更快的收敛。
+
+### Training Optimizers
+在大模型训练中，Adam和AdamW使用
