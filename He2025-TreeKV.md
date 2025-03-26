@@ -8,6 +8,8 @@ KV-cache 随着 generation step 的增长，线性增长，若无法摆脱线性
 本文先使用小波分解来分析 kv-cache，基于发现的规律提出了 TreeKV，他的 kv-cacheuj 保留结果更平滑。总体上还是多保留相近的 kv-cache, 而去除远处的 kv-cache。
 ![[Pasted image 20250326122215.png]]
 
+H 
+
 ## Preliminary
 **KV-cache**
 $\mathbf{x}^{(t)}\in \mathbb{R}^{1\times d}$ 是新来的 token，通过它生成新的 q, k, v
