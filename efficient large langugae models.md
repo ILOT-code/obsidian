@@ -117,4 +117,5 @@ SkipInit用零值乘法器替代了BN
 ReZero通过添加零值参数来保持一致性，从而实现更快的收敛。
 
 ### Training Optimizers
-在大模型训练中，Adam和AdamW使用
+在大模型训练中，Adam和AdamW使用广泛，但他们内存和算力的消耗很大。
+Lion 通过搜索和人工干预，找到了 Lion 优化器，更省显存和算力。
