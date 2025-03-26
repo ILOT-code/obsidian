@@ -22,3 +22,8 @@ tags:
 
 ## Method
 
+对Key,作者首先使用了基于数值幅度的削减方法，使用1范数和2范数作为e测度，只保留key中前$1-\lambda$部分的channel。结果如下：
+
+![[Pasted image 20250326152832.png]]
+在这种方式下，$\lambda$从0.3到0.4会带来显著的性能下降。效果并不理想。
+单独对key进行考虑是不足的，attention的计算需要综合考虑query和key，因此
