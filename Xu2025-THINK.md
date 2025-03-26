@@ -34,5 +34,9 @@ $$
 $$
 \mathrm{Score}_i[j]\:=\:\left\|\mathbf{Q}_i[:,j]\mathbf{K}_i[:,j]^T\right\|_F,\quad I_i\:=\:\mathbf{Top}_\lambda(\mathrm{Score}_i,\lambda)
 $$
+对query和key同时进行缩减。
 
 当然，在推理的过程中，$\mathbf{Q}$的形状是$\mathbb{R}^{1\times D}$
+
+对于最近的一些oken生成的key,不对它们进行维度上的削减，而是采用全维度计算，然后和前面的部分cat一下。
+![[Pasted image 20250326154358.png]]
