@@ -30,3 +30,15 @@ $$
 $$
 \mathbf{A}_1[n]=\sum_{k=-\infty}^\infty\mathbf{s}[k]\mathbf{g}[2n-k],\\\mathbf{D}_1[n]=\sum_{k=-\infty}^\infty\mathbf{s}[k]\mathbf{h}[2n-k].
 $$
+$$
+\mathbf{g}[i]=\left\{\begin{matrix}\sqrt{2}/2&i=0,1\\0&\text{otherwise}\end{matrix}\right.,\mathbf{h}[i]=\left\{\begin{matrix}-\sqrt{2}/2&i=0\\\sqrt{2}/2&i=1\\0&\text{otherwise}\end{matrix}\right..
+$$
+复原的过程为：
+$$
+R(\mathbf{A}_1,\mathbf{D}_1)[n]=\begin{cases}\frac{\sqrt{2}}{2}\left(\mathbf{A}_1\left[\frac{n+1}{2}\right]+\mathbf{D}_1\left[\frac{n+1}{2}\right]\right)&\text{odd}n\\\frac{\sqrt{2}}{2}\left(\mathbf{A}_1\left[\frac{n}{2}\right]-\mathbf{D}_1\left[\frac{n}{2}\right]\right)&\text{even}n\end{cases}
+$$
+它不仅能表达频率信号，也能表达更 local 的信息。
+经过多级的分解，原始信号被分解为：$[\mathbf{A}_L,\mathbf{D}_L,\mathbf{D}_{L-1},\cdots,\mathbf{D}_1]$ 它们的频率逐渐上升。
+
+
+在 self-attention
