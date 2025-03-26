@@ -45,7 +45,10 @@ $$
 $$
 \mathbf{s}=\mathbf{a}^{(t)^{T}}\circ\mathbf{V}^{(t)}=\begin{pmatrix}\mathbf{a}^{(t)}(1)\mathbf{V}^{(t)}(1)\\\vdots\\\mathbf{a}^{(t)}(t)\mathbf{V}^{(t)}(t)\end{pmatrix}.
 $$
-沿着时间维度，对它进行小波分解。并使用各级的信号 $\mathbf{D}_{L}$ 对它进行复原：
+沿着时间维度，对它进行小波分解。并使用各级的信号 $\mathbf{D}_{L}$ 对它进行复原，得到平均的幅值大小。
 $$
 \mathrm{Rec}(\mathbf{D}_L)=R(R(\cdots R(\mathbf{0},\mathbf{D}_L)\cdots,\mathbf{0}),\mathbf{0}).
 $$
+
+随着序列的增长，各频率分量的幅值在上涨，并且越高频的成分增长越大。这就意味着，随着序列的增长，相邻的 token 的贡献差异越来越大
+![[Pasted image 20250326124835.png]]
