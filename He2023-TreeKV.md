@@ -67,4 +67,5 @@ $$
 每次只比较{idx, idx+1}，保证了局部淘汰。idx 从 0 开始进行循环，满足了左部稀疏，右侧密集的近似光滑过渡。
 
 ### Prefilling stage
-也就是 prompt
+也就是 prompt 如何处理。
+把 prompt 分成大小 b 的块，每个块看成一个 token。使用
