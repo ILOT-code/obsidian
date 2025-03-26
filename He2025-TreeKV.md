@@ -71,4 +71,15 @@ $$
 把 prompt 分成大小 b 的块，每个块看成一个 token。使用 prompt 中的最后一个块去查询，得到全部块的 score，利用相同的策略进行淘汰。
 
 
-#
+## Exp
+
+
+
+**Language Modeling 任务**
+![[Pasted image 20250326133219.png]]
+
+**Long Context Understanding**
+![[Pasted image 20250326133257.png]]
+
+**Ablation Study**
+![[Pasted image 20250326133326.png]]
