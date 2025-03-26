@@ -96,9 +96,7 @@ SCOTT利用 LLM 生成的推理，在反事实推理框架下训练学生模型�
 
 ## Efficient Pre-Training
 预训练大语言模型消耗巨大成本，高效的预训练技术 i 旨在减少其成本。
-
-![[Pasted image 20250326185112.png]]
-
+![[Pasted image 20250326185136.png]]
 ### Mixed Precision Training
 混合精度训练通过使用低精度模型进行前向和反向传播，然后将计算出的低精度梯度转换为高精度以更新原始高精度权重，从而提高了预训练效率。
 AMP 保持全精度（FP 32）权重的副本用于更新，而权重、激活和梯度则以 FP 16 存储用于算术运算。
@@ -124,3 +122,6 @@ Lion 通过搜索和人工干预，找到了 Lion 优化器，更省显存和算
 Sophia 是一个轻量的二阶的优化器，通过估计的 Hessian 矩阵来更新。
 ### System-Level Pre-Training Efficiency Optimization
 一些 DP 和 DDP 策略
+
+## Efficient Fine-Tuning
+分为
