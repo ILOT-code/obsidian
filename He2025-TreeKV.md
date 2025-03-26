@@ -69,3 +69,6 @@ $$
 ### Prefilling stage
 也就是 prompt 如何处理。
 把 prompt 分成大小 b 的块，每个块看成一个 token。使用 prompt 中的最后一个块去查询，得到全部块的 score，利用相同的策略进行淘汰。
+
+
+#
