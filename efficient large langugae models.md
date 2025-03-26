@@ -126,3 +126,5 @@ Sophia 是一个轻量的二阶的优化器，通过估计的 Hessian 矩阵来�
 ## Efficient Fine-Tuning
 分为 parameter-efficient fine tuning 和 memory efficient
 
+### parameter-efficient
+#### Low-Rank Adaptation
