@@ -30,7 +30,9 @@ tags:
 $$
 \begin{aligned}\min_{\mathbf{S}}&\left\|\mathbf{Q}_i\mathbf{K}_i^T-\mathbf{Q}_i\mathbf{S}\mathbf{K}_i^T\right\|_F\\\text{subject to}&\operatorname{trace}(\mathbf{S})=\lfloor(1-\lambda)D\rfloor\\&\mathbf{S}=\operatorname{diag}(s_1,s_2,\ldots,s_D),\text{ where }s_j\in\{0,1\}\end{aligned}
 $$
-这个问题是NP的，采用一个贪心的算法，
+它是NP的，采用贪心算法：
 $$
 \mathrm{Score}_i[j]\:=\:\left\|\mathbf{Q}_i[:,j]\mathbf{K}_i[:,j]^T\right\|_F,\quad I_i\:=\:\mathbf{Top}_\lambda(\mathrm{Score}_i,\lambda)
 $$
+
+当然，在推理的过程中，$\mathbf{Q}$的形状是$\mathbb{R}^{1\times D}$
