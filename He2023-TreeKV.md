@@ -9,6 +9,7 @@ KV-cache 随着 generation step 的增长，线性增长，若无法摆脱线性
 ![[Pasted image 20250326122215.png]]
 
 ## Preliminary
+**KV-cache**
 $\mathbf{x}^{(t)}\in \mathbb{R}^{1\times d}$ 是新来的 token，通过它生成新的 q, k, v
 
 $$
@@ -20,5 +21,12 @@ $$
 $$
 最后进行 attention 分数的计算，生成新的 token.
 $$
-\mathbf{a}^{(t)}=\text{SoftMax}\left(\frac{\mathbf{q}^{(t)}\mathbf{K}^{(t)}^\top{\sqrt{d}}\right)
+\mathbf{a}^{(t)}=\text{SoftMax}\left( \frac{\mathbf{q}^{(t)}\mathbf{K}^{(t)^{T}}}{\sqrt{d}}
+\right)
+,\quad\mathbf{o}^{(t)}=\mathbf{a}^{(t)}\cdot\mathbf{V}^{(t)}.
+$$
+**多级小波分解**
+采用哈尔小波分解：
+$$
+\mathbf{A}_1[n]=\sum_{k=-\infty}^\infty\mathbf{s}[k]\mathbf{g}[2n-k],\\\mathbf{D}_1[n]=\sum_{k=-\infty}^\infty\mathbf{s}[k]\mathbf{h}[2n-k].
 $$
