@@ -139,8 +139,9 @@ LongLoRA将 LoRA 扩展到了长上下文微调场景中。它引入了移位短
 Zhang 根据权重矩阵的重要性分数，动态的为他们分配不同大小的 AB 矩阵。
 
 #### Adapter-based Tuning
-Adapters 是一个瓶颈层，是可训练的模块，被嵌入到模型中去，先对输入进行降维，再升维。
+Adapters 是一个瓶颈层，是可训练的模块，被嵌入到模型中去，先对输入进行降维，非线性操作，再升维。
 
 分为 series adapters 和 parallel adapters。在 series adapters中，每个 LLM 层的注意力和前馈模块后添加了两个适配器模块；而 parallel adapters则在 LLM 每一层的注意力和前馈模块后并列放置两个适配器模块。
 
 LLM-Adapters 通过将串联或并联适配器集成到 LLM 中，以针对不同任务进行微调。
+$(IA)^{3}$ 为激活值设计了一套可学习
