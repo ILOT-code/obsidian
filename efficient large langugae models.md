@@ -148,4 +148,6 @@ $(IA)^{3}$ 为激活值设计了可学习的缩放向量，在少样本训练中
 Meta=Adapters 把经过元学习的 adapters 嵌入到 LLM 中，更适用于少样本的训练场景。
 
 #### Prefix Tuning
-为大模型的每一层，插入一个可学习的 prefix token
+为大模型的某些层，插入一个可学习的 prefix token，像是虚拟的 word embedding.这些 prefix token 针对特定任务进行定制。
+HyperTuning 采用 hyper model 为下游任务生成特定的任务相关的 soft prefixes.
+
