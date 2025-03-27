@@ -140,4 +140,7 @@ Zhang 根据权重矩阵的重要性分数，动态的为他们分配不同大�
 
 #### Adapter-based Tuning
 Adapters 是一个瓶颈层，是可训练的模块，被嵌入到模型中去，先对输入进行降维，再升维。
-基于适配器的调优包括串联适配器和并联适配器。在串联适配器中，每个 LLM 层的注意力和前馈模块后添加了两个适配器模块；而并联适配器则在 LLM 每一层的注意力和前馈模块旁放置了两个适配器模块。
+
+分为 series adapters 和 parallel adapters。在 series adapters中，每个 LLM 层的注意力和前馈模块后添加了两个适配器模块；而 parallel adapters则在 LLM 每一层的注意力和前馈模块后并列放置两个适配器模块。
+
+LLM-Adapters 通过将串联或并联适配器集成到 LLM 中，以针对不同任务进行微调。
