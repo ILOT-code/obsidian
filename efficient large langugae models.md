@@ -145,4 +145,7 @@ Adapters 是一个瓶颈层，是可训练的模块，被嵌入到模型中去�
 
 LLM-Adapters 通过将串联或并联适配器集成到 LLM 中，以针对不同任务进行微调。
 $(IA)^{3}$ 为激活值设计了可学习的缩放向量，在少样本训练中取得了由于 Adapter 的性能。
-Meta=Adapters 把经过元学习的 adapters
+Meta=Adapters 把经过元学习的 adapters 嵌入到 LLM 中，更适用于少样本的训练场景。
+
+#### Prefix Tuning
+为大模型的每一层，插入一个可学习的 prefix token
