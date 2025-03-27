@@ -173,3 +173,5 @@ LOMO 把梯度计算和参数更新融合为了一步，减少了优化器状态
 
 ## Efficient Inference
 减少大模型推理时的消耗。
+分为算法级的优化和系统级的优化，后者往往基于特定硬件。
+### Algorithm-Level Inference Efficiency Optimization
