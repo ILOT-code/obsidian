@@ -197,9 +197,12 @@ Liu 提出了一个名为“重要性持续性”的假设，认为只有在早�
 ## Efficient Architecture Design
 ### Efficient Attention
 更轻量化、更快的注意力
-#### Sharing-based attention
+**Sharing-based attention**
 GQA: 多个查询头共享一个 KV 头，既减少了参数量，又减少了 KV-cache.
-
-#### Kernelization or Low-Rank
+**Kernelization or Low-Rank**
 Low-Rank 方法关注减少 key 和 value 的维度。
 Kernelization 关注如何近似注意力矩阵，已实现更高并行化（去掉 softmax）等优势。
+**Fixed Pattern Strategies**
+通过固定的模式策略来把 attention 矩阵稀疏化，如窗口注意力机制或固定步长的注意力机制。
+Longformer将局部窗口注意力与针对特定任务设计的全局导向注意力相结合。
+Pagliardini 等人（2023）扩展了 FlashAttention（Dao 等人，2022），以支持广泛的注意力稀疏模式，包括键值对丢弃和基于哈希的注意力技术，在长文本基准测试中实现了在 FlashAttention 基础上的多倍运行速度提升。可学习模式策略。
