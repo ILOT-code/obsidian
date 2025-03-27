@@ -173,7 +173,8 @@ LOMO 把梯度计算和参数更新融合为了一步，减少了优化器状态
 
 ## Efficient Inference
 减少大模型推理时的消耗。
-分为算法级的优化和系统级的优化，后者往往基于特定硬件。
+分为算法级的优化和系统级的优化，后者基于特定硬件。
+![[Pasted image 20250327155309.png]]
 ### Algorithm-Level Inference Efficiency Optimization
 #### Speculative Decoding
 是一种大幅度提升生成速度的方法。大模型在小模型的辅助下进行输出，小模型输出那些容易生成的 token, 大模型生成那些复杂的 token。通过拒绝采样，这样联合形式的输出概率分布，和只用大模型进行输出的概率分布，完全一致。
@@ -192,3 +193,5 @@ Liu 提出了一个名为“重要性持续性”的假设，认为只有在早�
 
 ### System-Level Inference Efficiency Optimization
 在硬件上设计的各种优化方法。
+
+## Efficient Architecture Design
