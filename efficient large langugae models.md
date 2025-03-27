@@ -175,17 +175,20 @@ LOMO 把梯度计算和参数更新融合为了一步，减少了优化器状态
 减少大模型推理时的消耗。
 分为算法级的优化和系统级的优化，后者往往基于特定硬件。
 ### Algorithm-Level Inference Efficiency Optimization
-### Speculative Decoding
+#### Speculative Decoding
 是一种大幅度提升生成速度的方法。大模型在小模型的辅助下进行输出，小模型输出那些容易生成的 token, 大模型生成那些复杂的 token。通过拒绝采样，这样联合形式的输出概率分布，和只用大模型进行输出的概率分布，完全一致。
 ![[Pasted image 20250327153036.png]]
-SpecInfer 设计了树形的 token 结构，使得大模型一次可以对多个序列进行验证：
+SpecInfer 整合了一系列经过集体微调的小模型来作猜测，并设计了树形的猜测token 结构，使得大模型一次可以对多个序列进行验证：
 ![[Pasted image 20250327154505.png]]
 
-
-### KV-Cache Optimization
+LLMA 并不使用小模型，而是从紧密相关的参考文本中选择一个片段，随后，它在单个解码步骤中同时评估这些标记是否是合适的输出。
+#### KV-Cache Optimization
 KV-cache 随着序列长度增加而线性增加，需要策略去剪去 kv cache.
 KIVI 对 kv-cache 进行 2 bits 的量化方式。
 KVQuant 采用了分通道的量化手段，并在旋转编码前进行量化。
 
 H2O 根据 token 的注意力分数，设计了 kv-cache 淘汰的策略。
 Liu 提出了一个名为“重要性持续性”的假设，认为只有在早期阶段至关重要的 token 才会对后续阶段产生显著影响。基于这一假设，削减了大量中间的 token.
+
+### System-Level Inference Efficiency Optimization
+在硬件上设计的各种优化方法。
