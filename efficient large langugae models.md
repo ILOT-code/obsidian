@@ -125,7 +125,7 @@ Sophia 是一个轻量的二阶的优化器，通过估计的 Hessian 矩阵来�
 
 ## Efficient Fine-Tuning
 分为 parameter-efficient fine tuning 和 memory efficient
-
+![[Pasted image 20250327145606.png]]
 ### parameter-efficient
 #### Low-Rank Adaptation
 LoRA：通过两个低秩矩阵 $\mathbf{A}\in \mathbb{R}^{m\times r}\mathbf{B}\in \mathbb{R}^{r\times n}$ ，来优化矩阵：
@@ -166,3 +166,5 @@ QALoRA 在上面的基础上，为参数进行分组，不同的组采用不同�
 LoftQ 结合了模型量化和 SVD 来近似原本的高精度预训练的模型，提供了一个更好的初始权重版本。
 
 PEQA提出了一种两阶段的量化感知微调方法。在第一阶段，每个全连接层的参数矩阵被量化为一个低比特整数矩阵及一个标量向量。在第二阶段，低比特矩阵保持不变，而微调仅针对每个特定下游任务的标量向量进行。通过采用这种两阶段方法，PEQA 不仅在微调过程中最小化了内存使用，还通过保持权重为低比特量化形式加快了推理速度。
+
+LOMO 把梯度计算和参数更新融合为了一步，减少了优化器状态的存储。
