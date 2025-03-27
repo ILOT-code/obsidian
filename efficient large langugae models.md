@@ -201,4 +201,5 @@ Liu 提出了一个名为“重要性持续性”的假设，认为只有在早�
 GQA: 多个查询头共享一个 KV 头，既减少了参数量，又减少了 KV-cache.
 
 #### Kernelization or Low-Rank
-Low-Rank 方法
+Low-Rank 方法关注减少 key 和 value 的维度。
+Kernelization 关注如何近似注意力矩阵，已实现更高并行化（去掉 softmax）等优势。
