@@ -128,3 +128,10 @@ Sophia 是一个轻量的二阶的优化器，通过估计的 Hessian 矩阵来�
 
 ### parameter-efficient
 #### Low-Rank Adaptation
+LoRA：通过两个低秩矩阵 $\mathbf{A}\in \mathbb{R}^{m\times r}\mathbf{B}\in \mathbb{R}^{r\times n}$ ，来优化矩阵：
+$$
+\mathbf{W}\leftarrow\mathbf{W}+\Delta\mathbf{W}=\mathbf{W}+\mathbf{A}\cdot\mathbf{B}.
+$$
+只有 AB 被优化，原始矩阵不变，大大减少了需要优化的参数量。
+
+
