@@ -125,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.49999618530273
+    "width": 263.49999618530273,
+    "collapsed": true
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -249,7 +250,8 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "987ac3a6c7bd5cc3",
