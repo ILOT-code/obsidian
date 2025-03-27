@@ -205,4 +205,6 @@ Kernelization 关注如何近似注意力矩阵，已实现更高并行化（去
 **Fixed Pattern Strategies**
 通过固定的模式策略来把 attention 矩阵稀疏化，如窗口注意力机制或固定步长的注意力机制。
 Longformer将局部窗口注意力与针对特定任务设计的全局导向注意力相结合。
-Pagliardini 等人（2023）扩展了 FlashAttention（Dao 等人，2022），以支持广泛的注意力稀疏模式，包括键值对丢弃和基于哈希的注意力技术，在长文本基准测试中实现了在 FlashAttention 基础上的多倍运行速度提升。可学习模式策略。
+Pagliardini 等人扩展了 FlashAttention 使其支持广泛的注意力稀疏模式。
+**Learnable Pattern Strategies**
+与固定模式策略不同，可学习的模式策略通过学习 token 相关性，将 token 分组成簇，从而提高了效率。
