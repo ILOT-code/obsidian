@@ -175,3 +175,7 @@ LOMO 把梯度计算和参数更新融合为了一步，减少了优化器状态
 减少大模型推理时的消耗。
 分为算法级的优化和系统级的优化，后者往往基于特定硬件。
 ### Algorithm-Level Inference Efficiency Optimization
+### KV-Cache Optimization
+KV-cache 随着序列长度增加而线性增加，需要策略去剪去 kv cache.
+KIVI 对 kv-cache 进行 2 bits 的量化方式。
+KVQuant 采用了分通道的量化手段，并在旋转编码前进行
