@@ -151,3 +151,8 @@ Meta=Adapters 把经过元学习的 adapters 嵌入到 LLM 中，更适用于少
 为大模型的某些层，插入一个可学习的 prefix token，像是虚拟的 word embedding.这些 prefix token 针对特定任务进行定制。
 HyperTuning 采用 hyper model 为下游任务生成特定的任务相关的 soft prefixes.
 
+#### Prompt Tuning
+与 prefix tuning不同，提示调优仅在输入层引入可训练的提示标记。这些标记可以作为前缀插入，也可以插入到输入标记的任何位置。
+
+PromptTuning在保持整个预训练模型固定的同时，为每个下游任务在输入文本的开头添加额外的 k 个可训练 token。它在少样本训练上表现更优，并缩小了与全模型微调之间的性能差距。
+P-Tuning利用少量参数作为提示，这些提示通过提示 encoder 处理后作为模型的输入。使用梯度下降来训练这参数
