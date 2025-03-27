@@ -175,7 +175,13 @@ LOMO 把梯度计算和参数更新融合为了一步，减少了优化器状态
 减少大模型推理时的消耗。
 分为算法级的优化和系统级的优化，后者往往基于特定硬件。
 ### Algorithm-Level Inference Efficiency Optimization
+### Speculative Decoding
+
+
 ### KV-Cache Optimization
 KV-cache 随着序列长度增加而线性增加，需要策略去剪去 kv cache.
 KIVI 对 kv-cache 进行 2 bits 的量化方式。
-KVQuant 采用了分通道的量化手段，并在旋转编码前进行
+KVQuant 采用了分通道的量化手段，并在旋转编码前进行量化。
+
+H2O 根据 token 的注意力分数，设计了 kv-cache 淘汰的策略。
+Liu 提出了一个名为“重要性持续性”的假设，认为只有在早期阶段至关重要的 token 才会对后续阶段产生显著影响。基于这一假设，削减了大量中间的 token.
