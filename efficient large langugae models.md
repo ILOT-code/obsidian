@@ -178,6 +178,9 @@ LOMO 把梯度计算和参数更新融合为了一步，减少了优化器状态
 ### Speculative Decoding
 是一种大幅度提升生成速度的方法。大模型在小模型的辅助下进行输出，小模型输出那些容易生成的 token, 大模型生成那些复杂的 token。通过拒绝采样，这样联合形式的输出概率分布，和只用大模型进行输出的概率分布，完全一致。
 ![[Pasted image 20250327153036.png]]
+SpecInfer 设计了树形的 token 结构，使得大模型一次可以对多个序列进行验证：
+![[Pasted image 20250327154505.png]]
+
 
 ### KV-Cache Optimization
 KV-cache 随着序列长度增加而线性增加，需要策略去剪去 kv cache.
