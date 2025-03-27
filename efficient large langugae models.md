@@ -144,4 +144,5 @@ Adapters 是一个瓶颈层，是可训练的模块，被嵌入到模型中去�
 分为 series adapters 和 parallel adapters。在 series adapters中，每个 LLM 层的注意力和前馈模块后添加了两个适配器模块；而 parallel adapters则在 LLM 每一层的注意力和前馈模块后并列放置两个适配器模块。
 
 LLM-Adapters 通过将串联或并联适配器集成到 LLM 中，以针对不同任务进行微调。
-$(IA)^{3}$ 为激活值设计了一套可学习
+$(IA)^{3}$ 为激活值设计了可学习的缩放向量，在少样本训练中取得了由于 Adapter 的性能。
+Meta=Adapters 把经过元学习的 adapters
