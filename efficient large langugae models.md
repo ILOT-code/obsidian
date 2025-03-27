@@ -201,3 +201,4 @@ Liu 提出了一个名为“重要性持续性”的假设，认为只有在早�
 GQA: 多个查询头共享一个 KV 头，既减少了参数量，又减少了 KV-cache.
 
 #### Kernelization or Low-Rank
+Low-Rank 方法
