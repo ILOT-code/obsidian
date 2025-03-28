@@ -209,4 +209,6 @@ Pagliardini 等人扩展了 FlashAttention 使其支持广泛的注意力稀疏�
 **Learnable Pattern Strategies**
 与固定模式策略不同，可学习的模式策略通过学习 token 相关性，将 token 分组成簇，从而提高了效率。
 **Hardware-Assisted Attention**
-
+Flash attention 把矩阵分块，减少了 IO 消耗。
+原始 attention 计算过程：Q, K, V 都存储在 HBM 中，先把 Q, K 加载到 SRAM 计算出 $QT^{T}$
+![[Pasted image 20250328110411.png]]
