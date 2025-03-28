@@ -218,4 +218,12 @@ Flash attention 把矩阵分块，减少了 IO 消耗。
 $$
 m(x):=\max_{i}\quad x_{i},\quad f(x):=\begin{bmatrix}e^{{x_{1}-m(x)}}&\ldots&e^{{x_{B}-m(x)}}\end{bmatrix},\quad\ell(x):=\sum_{i}f(x)_{i},\quad\mathrm{softmax}(x):=\frac{f(x)}{\ell(x)}.
 $$
-作者设计了合并的策略：假设
+作者设计了合并的策略：假设我们把这行 vector的列分为 $n$ 块，每块的大小是 $b$。
+用大写 $M_{i},F_{i},L_{i}$ 表示对前 $i$ 块（包括第 i 块）进行 softmax 得到的正确结果，
+用小写 $m_{i},F_{i},L_{i}$ 表示第 $i$ 块单独进行 softmax 的结果。
+那么有:
+$$
+\begin{aligned}
+M_{i+1}=max(M_{i},m_{i+1})
+\end{aligned}
+$$
