@@ -70,23 +70,22 @@ Wanda 基于权重幅值与其相应输入激活的乘积值进行权重剪枝�
 
 ### Low-Rank Approximation
 对权重矩阵作近似，例如： $\mathbf{W}\approx\mathbf{U}\mathbf{V}^\top$, $U,V$ 矩阵要小很多。
-TensorGPT 使用 Tensor-Train Decomposition 来处理 embedding layers。创建了一种更高效的嵌入方式。
+TensorGPT 使用矩阵分解来处理 embedding layers。创建了一种更高效的嵌入方式。
 FWSVD 使用低秩近似来处理权重矩阵，而不仅是 embedding。他在数据集上，计算权重的重要性，以重要性为衡量设计了一种加权形式的 SVD 算法。
 ASVD 这是 training-free 的，它根据激活值的分布来缩放权重矩阵，来减小误差。
 SVD-LLM 建立了奇异值和损失函数的联系，因此可以选择性的、和 loss 相关的来截断奇异值，因此具有更好的性能。
 
 ### Knowledge Distillation
-让相对小的学生模型学习大的教师模型的输出。分为白盒和黑盒蒸馏，黑盒只能看到最终的输出，百盒可以看到教师模型各层的状态。
+让相对小的学生模型学习大的教师模型的输出。分为白盒和黑盒蒸馏，黑盒只能看到最终的输出，白盒可以看到教师模型各层的状态。
 
 #### White-Box
-BabyLLaMA 最先作出 s 场所，使用 FPT-2 和一系列 LLaMA 的集成模型训练一个小的 LLaMA 模型，取得了很好的效果。
+BabyLLaMA 最先作出使用白盒蒸馏，使用 FPT-2 和一系列 LLaMA 的集成模型训练一个小的 LLaMA 模型，取得了很好的效果。
 MiniLLM 提出，反向 KL 熵($KL(Q_{\theta}||P)$)更适合 LLM 任务。
 TED 对齐教师与学生的每一层，而不仅仅是输出层。
-GKD通过在训练过程中从学生模型中提取输出序列来解决分布不匹配的问题，GKD 可以与其他蒸馏方法结合使用，以提高其压缩性能。
 
 #### Black-Box
 MultitaskICT 设计了 in-context learning 技术，把教师的新任务学习能力带给学生模型。
-Lion 提出了一种对抗蒸馏架构，它促使 LLMs 识别具有挑战性的指令，并为学生模型生成新的复杂指令，从而建立一个包含模仿、判别和生成的三阶段对抗循环。
+Lion 提出了一种对抗蒸馏架构，它促使 LLMs 识别具有挑战性的指令。学生模型通过一个包含模仿、判别和生成的三阶段对抗循环来训练。
 
 另一条路径，是利用教师模型的 CoT 来指导学生模型。
 Fu 等人，利用教师模型的思维链，构建出指令集合，来训练学生模型。
