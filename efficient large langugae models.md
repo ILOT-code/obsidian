@@ -226,6 +226,8 @@ $$
 \begin{aligned}
 M_{i+1}=max(M_{i},m_{i+1})\\
 F_{i+1}=[e^{M_{i}-M_{i+1}}F_{i},e^{m_{i+1}-M{i+1}}f_{i+1}]\\
-L_{i+1}=
+L_{i+1}=e^{M_{i}-M_{i+1}}L_{i}+e^{m_{i+1}-M{i+1}}l_{i+1}
 \end{aligned}
 $$
+因此就能够进行矩阵分块计算，再合并的操作了：
+![[Pasted image 20250328112720.png]]
