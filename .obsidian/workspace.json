@@ -49,8 +49,7 @@
               "title": "Xu2025-THINK"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,14 +248,15 @@
       "obsidian-git:Open Git source control": false,
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
-      "cmdr:ZotLit: Update literature note": false
+      "cmdr:ZotLit: Update literature note": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "730d6651c8584ea1",
+  "active": "cdd7d638e6b1e05f",
   "lastOpenFiles": [
+    "Xu2025-THINK.md",
     "He2025-TreeKV.md",
     "efficient large langugae models.md",
-    "Xu2025-THINK.md",
     "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/3DGS-compress.md",
     "LiteratureNotes/zhang2024-efficient.md",
