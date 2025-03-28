@@ -211,5 +211,11 @@ Pagliardini 等人扩展了 FlashAttention 使其支持广泛的注意力稀疏�
 **Hardware-Assisted Attention**
 Flash attention 把矩阵分块，减少了 IO 消耗。
 原始 attention 计算过程：Q, K, V 都存储在 HBM 中，先把 Q, K 加载到 SRAM 计算出 $S=QK^{T}$，然后 S 写回到 HBM。再把 S 加载到 SRAM，进行 $A=softmax(S)$ 计算，把 P 写入到 HBM。再把 A 和 V 加载到 SRAM，计算 O。最后把 O 写入到 HBM。
-这个过程存在大量的 IO 过程，并且 Q
+这个过程对中间变量进行缓存，是为了计算梯度时使用，这个过程同时存在大量的 IO 过程，并且 Q, K, V 其实很大，无法一次加载进去 SRAM，需要的 IO 操作就更多。
 ![[Pasted image 20250328110411.png]]
+
+矩阵分块计算再合并，主要困难在于 Softmax 这个操作，对一行 vector 进行 softmax 的操作如下：
+$$
+m(x):=\max_{i}\quad x_{i},\quad f(x):=\begin{bmatrix}e^{{x_{1}-m(x)}}&\ldots&e^{{x_{B}-m(x)}}\end{bmatrix},\quad\ell(x):=\sum_{i}f(x)_{i},\quad\mathrm{softmax}(x):=\frac{f(x)}{\ell(x)}.
+$$
+作者设计了合并的策略：假设
