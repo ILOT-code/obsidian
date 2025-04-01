@@ -67,3 +67,9 @@ softmax(\mathbf{v}+t)_{i} = \frac{e^{v_{i}+t}}{\sum_{i=1}^{N}e^{v_{i}+t}} \\
 = softmax(\mathbf{v})_{i}
 \end{aligned}
 $$
+由前面的推导，有：
+$$
+\begin{aligned}
+softmax(\mathbf{QK}^{T})=softmax\left( \sum _{i\in A \cup B}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \right)
+\end{aligned}
+$$
