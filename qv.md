@@ -24,8 +24,11 @@ $$
 ||\mathbf{QK}^{T}-\mathbf{QSK}^{T}||_{F}^{2}= ||\sum_{i\in B}\mathbf{q}_{i}\mathbf{k}_{i}^{T}||^{2} \\
 =Trace\left( \left( \sum_{i\in B}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \right)\left( \sum_{i\in B}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \right)^{T} \right)\\
 =Trace\left( \sum _{i\in B} \sum_{j \in B} \mathbf{q}_{i}\mathbf{k}_{i}^{T} \mathbf{k}_{j}\mathbf{q}_{j}^{T}\right) \\
-=\sum_{i\in B} \sum_{j\in B}Trace()
-
+=\sum_{i\in B} \sum_{j\in B}Trace(\mathbf{q}_{i}\mathbf{k}_{i}^{T} \mathbf{k}_{j}\mathbf{q}_{j}^{T}) \\
+=\sum_{i\in B} \sum_{j\in B} \mathbf{k}_{i}^{T} \mathbf{k}_{j}Trace(\mathbf{q_{i}}\mathbf{q}_{j}^{T}) \\
+=\sum_{i\in B} \sum_{j\in B} \mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j}
 
 \end{aligned}
 $$
+
+考虑 $B$ 集合中的某个 $i$，它带来的损失是：$\sum_{j\in B}$ 
