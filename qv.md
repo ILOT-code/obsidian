@@ -16,5 +16,14 @@ $$
 
 关于矩阵的范数，有：
 $$
-||A||_{F}^{2} = Trace(AA^{T})^{\frac_{1}{2}}
+\|A\|_F\triangleq\left(\sum_{j=1}^n\sum_{i=1}^m|a_{ij}|^2\right)^{\frac12}=\left[Trace\left(A^TA\right)\right]^{\frac12}=[Trace(AA^{T})]^{\frac{1}{2}}
+$$
+那么:
+$$
+\begin{aligned}
+||\mathbf{QK}^{T}-\mathbf{QSK}^{T}||_{F}^{2}= \sum_{i\in B}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \\
+=Trace
+
+
+\end{aligned}
 $$
