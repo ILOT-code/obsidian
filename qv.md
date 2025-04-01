@@ -73,3 +73,4 @@ $$
 softmax(\mathbf{QK}^{T})=softmax\left( \sum _{i\in A \cup B}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \right)
 \end{aligned}
 $$
+对某个 $i$
