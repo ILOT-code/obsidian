@@ -31,4 +31,13 @@ $$
 \end{aligned}
 $$
 
-考虑 $B$ 集合中的某个 $i$，它带来的损失是：$\sum_{j\in B}$ 
+考虑 $B$ 集合中的某个 $i$，它带来的损失是：
+$$
+\begin{aligned}
+\sum_{j\in B}\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j} \\
+=\sum_{j\in B-i}\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j} + \mathbf{k}_{i}^{T} \mathbf{k}_{i} \times \mathbf{q}_{i}^{T}\mathbf{q}_{i} \\
+=\sum_{j\in B-i}\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j} + Trace(\mathbf{q}_{i}\mathbf{k}_{i}^{T} \mathbf{k}_{i}\mathbf{q}_{i}^{T}) \\
+= \sum_{j\in B-i}\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j} + ||\mathbf{q}_{i}\mathbf{k}_{i}^{T}||_{F}^{2}
+\end{aligned}
+$$
+这个第二项其实
