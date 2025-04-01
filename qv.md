@@ -77,4 +77,7 @@ $$
 $$
 softmax(\mathbf{QK}^{T})=softmax\left( \sum _{i\in A \cup B}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \right) = softmax\left( \sum _{i\in A \cup B -i}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \right)
 $$
-也就是说，$\mathbf{q}_{i}\mathbf{k}_{i}^{T}$ 的范数并不是一个重要的度量，不管你的范数有多大，只要每一行的元素值一样，那就
+也就是说，$\mathbf{q}_{i}\mathbf{k}_{i}^{T}$ 的范数并不是一个重要的度量，不管你的范数有多大，只要每一行的元素值一样，那就没有任何作用。
+能否设计一种衡量这种“差异”的 score 来进行筛选?
+
+但这样的设计依旧有问题，因为最近 token的 K 是不会被压缩的，这样的方法会降低被压缩 token 得到的 attention 分数。而按照范数的方法，这样的影响更小。
