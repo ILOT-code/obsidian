@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Numpy",
+      "path": "Sundry/Numpy.md"
+    },
+    {
+      "basename": "Pytorch",
+      "path": "Sundry/Pytorch.md"
+    },
+    {
       "basename": "qv",
       "path": "qv.md"
     },
@@ -115,14 +123,6 @@
     {
       "basename": "INR方法汇总",
       "path": "INR方法汇总.md"
-    },
-    {
-      "basename": "Numpy",
-      "path": "Sundry/Numpy.md"
-    },
-    {
-      "basename": "Pytorch",
-      "path": "Sundry/Pytorch.md"
     },
     {
       "basename": "CNN的矩阵乘转换",
