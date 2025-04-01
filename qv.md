@@ -40,4 +40,8 @@ $$
 = \sum_{j\in B-i}\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j} + ||\mathbf{q}_{i}\mathbf{k}_{i}^{T}||_{F}^{2}
 \end{aligned}
 $$
-这个第二项其实
+这个第二项其实就是 Think 中考虑的 score, 但实际上，还有前一项这个交互的损失。
+
+对于任意一个维度 $i$, 把它看成一个节点， $\mathbf{k}_{i}^{T} \mathbf{k}_{i} \times \mathbf{q}_{i}^{T}\mathbf{q}_{i}$ 即为点自身的权重，它与另一个节点 $j$ 之间有一条边相连，边的权重是 $\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j}$。
+
+于是这个问题等价成了，如何在一个包含 $D$ 个节点的完全图中，找出 $|B|$ 个节点，使得该子完全图的权重和最小。
