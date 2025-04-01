@@ -21,8 +21,10 @@ $$
 那么:
 $$
 \begin{aligned}
-||\mathbf{QK}^{T}-\mathbf{QSK}^{T}||_{F}^{2}= \sum_{i\in B}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \\
-=Trace
+||\mathbf{QK}^{T}-\mathbf{QSK}^{T}||_{F}^{2}= ||\sum_{i\in B}\mathbf{q}_{i}\mathbf{k}_{i}^{T}||^{2} \\
+=Trace\left( \left( \sum_{i\in B}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \right)\left( \sum_{i\in B}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \right)^{T} \right)\\
+=Trace\left( \sum _{i\in B} \sum_{j \in B} \mathbf{q}_{i}\mathbf{k}_{i}^{T} \mathbf{k}_{j}\mathbf{q}_{j}^{T}\right) \\
+=\sum_{i\in B} \sum_{j\in B}Trace()
 
 
 \end{aligned}
