@@ -59,3 +59,11 @@ $$
 
 ## softmax
 从 $softmax(\mathbf{QK}^{T})$ 角度来看这个问题。
+对于一个行向量 $\mathbf{v}\in \mathbb{R}^{1\times N}$，为它的每一个元素加一个常数 $t$，那么
+$$
+\begin{aligned}
+softmax(\mathbf{v}+t)_{i} = \frac{e^{v_{i}+t}}{\sum_{i=1}^{N}e^{v_{i}+t}} \\
+=\frac{e^{v_{i}}}{\sum_{i=1}^{N}e^{v_{i}}} \\
+= softmax(\mathbf{v})_{i}
+\end{aligned}
+$$
