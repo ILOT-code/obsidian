@@ -63,7 +63,8 @@
               "title": "qv"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -262,15 +263,16 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cdd7d638e6b1e05f",
+  "active": "4c712451a87bbc7e",
   "lastOpenFiles": [
+    "efficient large langugae models.md",
     "qv.md",
     "He2025-TreeKV.md",
     "Xu2025-THINK.md",
-    "efficient large langugae models.md",
     "Attachments/Pasted image 20250328112720.png",
     "Attachments/Pasted image 20250328110411.png",
     "LiteratureNotes/marpe2003-contextbased.md",
