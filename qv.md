@@ -73,4 +73,8 @@ $$
 softmax(\mathbf{QK}^{T})=softmax\left( \sum _{i\in A \cup B}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \right)
 \end{aligned}
 $$
-对某个 $i$
+对某个 $i$, 如果 $\mathbf{q}_{i}\mathbf{k_{i}^{T}}$ 的每一行的元素都相等，那么有：
+$$
+softmax(\mathbf{QK}^{T})=softmax\left( \sum _{i\in A \cup B}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \right) = softmax\left( \sum _{i\in A \cup B -i}\mathbf{q}_{i}\mathbf{k}_{i}^{T} \right)
+$$
+也就是说，$\mathbf{q}_{i}\mathbf{k}_{i}^{T}$ 的范数并不是一个重要的度量，不管你的范数有多大，只要每一行的元素值一样，那就
