@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "qv",
+      "path": "qv.md"
+    },
+    {
       "basename": "He2025-TreeKV",
       "path": "He2025-TreeKV.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "liang2019-significantly",
       "path": "LiteratureNotes/liang2019-significantly.md"
-    },
-    {
-      "basename": "liuVisualInstructionTuning2023",
-      "path": "LiteratureNotes/liuVisualInstructionTuning2023.md"
     }
   ],
   "omittedPaths": [],

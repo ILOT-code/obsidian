@@ -53,10 +53,14 @@
             "id": "4c712451a87bbc7e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "qv.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "qv"
             }
           }
         ],
@@ -265,6 +269,7 @@
   },
   "active": "4c712451a87bbc7e",
   "lastOpenFiles": [
+    "qv.md",
     "He2025-TreeKV.md",
     "Xu2025-THINK.md",
     "efficient large langugae models.md",
