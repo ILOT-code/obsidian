@@ -5,4 +5,11 @@ $$
 \text{subject to}&~\operatorname{Trace}(\mathbf{S})=\lfloor(1-\lambda)D\rfloor\\&\mathbf{S}=\operatorname{diag}(s_1,s_2,\ldots,s_D),\text{ where }s_j\in\{0,1\}
 \end{aligned}
 $$
-用 $\mathbf{q}_{i},\mathbf{}$
+有 $A=\{s_i|s_{i}=1\}, B=\{s_{i}|s_{i}=0\}$
+用 $\mathbf{q}_{i},\mathbf{k}_{i}$ 表示矩阵的第 $i$ 列。有：
+$$
+\begin{aligned}
+\mathbf{QK}^{T}=\sum_{i=1}^{D}q_{i}k_{i}^{T}
+\mathbf{QSK}^{T} = \sum_{i\in}
+\end{aligned}
+$$
