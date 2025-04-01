@@ -48,9 +48,19 @@
               "icon": "lucide-file",
               "title": "Xu2025-THINK"
             }
+          },
+          {
+            "id": "4c712451a87bbc7e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -125,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.49999618530273,
-    "collapsed": true
+    "width": 263.49999618530273
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -250,16 +259,17 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
+      "hidden-folder-obsidian:显示文件夹": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "730d6651c8584ea1",
+  "active": "4c712451a87bbc7e",
   "lastOpenFiles": [
-    "efficient large langugae models.md",
+    "He2025-TreeKV.md",
     "Xu2025-THINK.md",
+    "efficient large langugae models.md",
     "Attachments/Pasted image 20250328112720.png",
     "Attachments/Pasted image 20250328110411.png",
-    "He2025-TreeKV.md",
     "LiteratureNotes/marpe2003-contextbased.md",
     "LiteratureNotes/3DGS-compress.md",
     "LiteratureNotes/zhang2024-efficient.md",
