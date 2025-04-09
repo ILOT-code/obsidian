@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "qv",
+      "path": "qv.md"
+    },
+    {
       "basename": "Xu2025-THINK",
       "path": "Xu2025-THINK.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Pytorch",
       "path": "Sundry/Pytorch.md"
-    },
-    {
-      "basename": "qv",
-      "path": "qv.md"
     },
     {
       "basename": "efficient large langugae models",
