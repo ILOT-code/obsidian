@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -267,8 +267,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4c712451a87bbc7e",
+  "active": "730d6651c8584ea1",
   "lastOpenFiles": [
+    "Sundry/Numpy.md",
     "Sundry/Pytorch.md",
     "qv.md",
     "efficient large langugae models.md",
@@ -304,7 +305,6 @@
     "LiteratureNotes/alakuijala2019-jpeg.md",
     "LiteratureNotes/2023-preprocessing.md",
     "LiteratureNotes/2017-significantly.md",
-    "llava代码.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "chen2024-howfarcan.pdf",

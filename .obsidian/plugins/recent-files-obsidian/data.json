@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Xu2025-THINK",
+      "path": "Xu2025-THINK.md"
+    },
+    {
       "basename": "Numpy",
       "path": "Sundry/Numpy.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "He2025-TreeKV",
       "path": "He2025-TreeKV.md"
-    },
-    {
-      "basename": "Xu2025-THINK",
-      "path": "Xu2025-THINK.md"
     },
     {
       "basename": "marpe2003-contextbased",
