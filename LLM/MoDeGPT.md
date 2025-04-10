@@ -74,4 +74,5 @@ $$
 
 $(b)$ 的原因：
 $\forall i, j, \operatorname{Tr}\left(\left(\boldsymbol{I}-\boldsymbol{S}_{k}\boldsymbol{S}_{k}^{\top}\right)\sigma_{r}(\boldsymbol{X}_{i}\boldsymbol{W}_{Q})^{\top}\sigma_{r}(\boldsymbol{X}_{i}\boldsymbol{W}_{Q})\left(\boldsymbol{I}-\boldsymbol{S}_{k}\boldsymbol{S}_{k}^{\top}\right)(\boldsymbol{X}_{j}\boldsymbol{W}_{K})^{\top}\sigma_{r}(\boldsymbol{X}_{j}\boldsymbol{W}_{K})\right)=\|\sigma_{r}(\boldsymbol{X}_{i}\boldsymbol{W}_{Q})\left(\boldsymbol{I}-\boldsymbol{S}_{k}\boldsymbol{S}_{k}^{\top}\right)\sigma_{r}^{\top}(\boldsymbol{X}_{j}\boldsymbol{W}_{K})\|_{F}^{2}\geq 0$
-
+$(c)$ 的原因：
+$\mathbf{S}_{k}\mathbf{S}_{k}^{T}$ 是一个对角阵，对角线上的元素非 0 即 1。$\mathbf{I}-\mathbf{S}_{k}\mathbf{S}_{k}^{T}$ 同样满足这样的性质。
