@@ -51,3 +51,9 @@ $$
 $$
 其中， $\boldsymbol{C}_\sigma=\sum_{i=1}^N\sigma(\boldsymbol{X}_i\boldsymbol{W}_U)^\top\sigma(\boldsymbol{X}_i\boldsymbol{W}_U)$。该函数对 $\hat{\mathbf{W}}_{D}$ 求偏导，使其等于 0, 得到 $\hat{\boldsymbol{W}}_D^*=\left(\boldsymbol{S}_k^\top\boldsymbol{C}_\sigma\boldsymbol{S}_k\right)^\dagger\boldsymbol{S}_k^\top\boldsymbol{C}_\sigma\boldsymbol{W}_D$。此结果反代回上面的式子：
 
+$$
+\begin{aligned}
+\begin{aligned}&\min_{\boldsymbol{S}_k}\left\|\left(\boldsymbol{C}_\sigma^{\frac12}-\boldsymbol{C}_\sigma^{\frac12}\boldsymbol{S}_k\left(\boldsymbol{S}_k^\top\boldsymbol{C}_\sigma\boldsymbol{S}_k\right)^\dagger\boldsymbol{S}_k^\top\boldsymbol{C}_\sigma\right)\boldsymbol{W}_D\right\|_F^2\\&\leq\left\|\boldsymbol{W}_D\right\|_2^2\left\|\boldsymbol{C}_\sigma^{-\frac12}\right\|_2^2\min_{\boldsymbol{S}_k}\left\|\boldsymbol{C}_\sigma-\boldsymbol{C}_\sigma\boldsymbol{S}_k\left(\boldsymbol{S}_k^\top\boldsymbol{C}_\sigma\boldsymbol{S}_k\right)^\dagger\boldsymbol{S}_k^\top\boldsymbol{C}_\sigma\right\|_F^2=\left\|\boldsymbol{W}_D\right\|_2^2\left\|\boldsymbol{C}_\sigma^{-1}\right\|_2\mathcal{E}_{\mathrm{Nys}}^2(\boldsymbol{C}_\sigma).\end{aligned}
+\end{aligned}
+$$
+> $||AB||_{F}\leq ||A||_{F}||||$
