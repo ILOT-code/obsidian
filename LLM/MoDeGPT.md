@@ -30,4 +30,6 @@ $$
 V^*\triangleq\min_{\hat{\boldsymbol{W}}_1,\hat{\boldsymbol{W}}_2}\sum_{i=1}^N\|f(\boldsymbol{X}_i;\boldsymbol{W}_1,\boldsymbol{W}_2)-f(\boldsymbol{X}_i;\hat{\boldsymbol{W}}_1,\hat{\boldsymbol{W}}_2)\|_F^2\text{ such that }(\hat{\boldsymbol{W}}_1,\hat{\boldsymbol{W}}_2)\in\mathcal{C}
 $$
 $\hat{\boldsymbol{W}}_{1}, \hat{\boldsymbol{W}}_{2}$ 的搜索空间被限定了，来产生满足某种结构要求的矩阵，并降低搜索难度。
-对那些和
+对那些和非线性函数紧密联系的矩阵，$\mathbf{W}_{U},\mathbf{W}_{Q},\mathbf{W}_{K}$，他们的压缩矩阵被限定在 $\hat{\mathbf{W}}=\mathbf{W}\mathbf{S}_{k}$，其中 $\mathbf{S}_{k}$ 是一个列选择矩阵。这样做的主要原因是可以构造出一种交换性：$\sigma(WS)=\sigma(W)S$，对之后的理论推导有很多好处。而对其他的矩阵，不做任何限制。
+
+
