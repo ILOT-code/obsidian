@@ -77,4 +77,14 @@ $(b)$ 的原因：$\forall i, j, \operatorname{Tr}\left(\left(\boldsymbol{I}-\bo
 $(c)$ 的原因：
 $\mathbf{S}_{k}\mathbf{S}_{k}^{T}$ 是一个对角阵，对角线上的元素非 0 即 1。$\mathbf{I}-\mathbf{S}_{k}\mathbf{S}_{k}^{T}$ 同样满足这样的性质。而 $\sigma_r(\boldsymbol{X}_i\boldsymbol{W}_Q)^\top\sigma_r(\boldsymbol{X}_i\boldsymbol{W}_Q)\left(\boldsymbol{I}-\boldsymbol{S}_k\boldsymbol{S}_k^\top\right)$ 对角线上的元素全是非负的，因此该不等式成立。
 
-因此，该误差的上界和对矩阵 $\mathbf{W}=\mathbf{C}_{K}^{1/2}\mathbf{C}_{Q}^{1/2}$ 进行 CR 分解的误差有关。因此，可以对该矩阵进行 CR 分解，就能得到 $\mathbf{S}_{K}$ , 
+因此，该误差的上界和对矩阵 $\mathbf{W}=\mathbf{C}_{K}^{1/2}\mathbf{C}_{Q}^{1/2}$ 进行 CR 分解的误差有关。因此，可以对该矩阵进行 CR 分解，就能得到 $\mathbf{S}_{K}$ , 也就能得到 $\hat{\mathbf{W}}_{K},\hat{\mathbf{W}}_{Q}$ 。误差也得到了保证。
+
+## Value-Output
+$$
+f_{\mathrm{Type-III}}(\boldsymbol{X};\boldsymbol{W}_V^i,\boldsymbol{W}_O^i)=\boldsymbol{X}\boldsymbol{W}_{V,i}\boldsymbol{W}_{O,i}
+$$
+$\hat{\mathbf{W}}_{V},\hat{\mathbf{W}}_{O}$ 被限定在 $\mathbb{R}^{d\times k},\mathbb{R}^{k\times d}$ 的区域。
+
+$$
+\min_{\hat{\boldsymbol{W}}_V,\hat{\boldsymbol{W}}_O}\sum_{i=1}\mathrm{Tr}\left(\boldsymbol{X}_i^\top\boldsymbol{X}_i(\boldsymbol{W}_V\boldsymbol{W}_O-\hat{\boldsymbol{W}}_V\hat{\boldsymbol{W}}_O)(\boldsymbol{W}_V\boldsymbol{W}_O-\hat{\boldsymbol{W}}_V\hat{\boldsymbol{W}}_O)^\top\right)\\=\min_{\hat{\boldsymbol{W}}_V,\hat{\boldsymbol{W}}_O}\|\boldsymbol{C}^{\frac12}\boldsymbol{W}_V\boldsymbol{W}_O-\boldsymbol{C}^{\frac12}\hat{\boldsymbol{W}}_V\hat{\boldsymbol{W}}_O\|_F^2=\mathcal{E}_{\mathrm{SVD}}^2(\boldsymbol{C}^{\frac12}\boldsymbol{W}_V\boldsymbol{W}_O),
+$$
