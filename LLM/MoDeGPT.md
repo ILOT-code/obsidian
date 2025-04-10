@@ -16,3 +16,16 @@ conference: ICLR 2025
 
 
 ## 分组
+![[Pasted image 20250410153223.png]]
+分为了三组：
+$$
+\begin{aligned}
+f_{\mathrm{Type-l}}(\boldsymbol{X};\boldsymbol{W}_U,\boldsymbol{W}_D)=\sigma_s(\boldsymbol{X}\boldsymbol{W}_U)\boldsymbol{W}_D,\quad \\f_{\mathrm{Type-ll}}(\boldsymbol{X};\boldsymbol{W}_K^i,\boldsymbol{W}_Q^i)=\sigma_r(\boldsymbol{X}\boldsymbol{W}_{Q,i})\sigma_r^\top(\boldsymbol{X}\boldsymbol{W}_{K,i}),\\f_{\mathrm{Type-II}}(\boldsymbol{X};\boldsymbol{W}_V^i,\boldsymbol{W}_O^i)=\boldsymbol{X}\boldsymbol{W}_{V,i}\boldsymbol{W}_{O,i},
+\end{aligned}
+
+$$
+
+对于每一组而言，需要压缩这两个矩阵，使得对于校准集上的输入能够有最小的差异：
+$$
+
+$$
