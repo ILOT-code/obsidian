@@ -73,4 +73,5 @@ $$
 $$
 
 $(b)$ 的原因：
-$\forall i, j, Tr$
+$\forall i, j, \operatorname{Tr}\left(\left(\boldsymbol{I}-\boldsymbol{S}_{k}\boldsymbol{S}_{k}^{\top}\right)\sigma_{r}(\boldsymbol{X}_{i}\boldsymbol{W}_{Q})^{\top}\sigma_{r}(\boldsymbol{X}_{i}\boldsymbol{W}_{Q})\left(\boldsymbol{I}-\boldsymbol{S}_{k}\boldsymbol{S}_{k}^{\top}\right)(\boldsymbol{X}_{j}\boldsymbol{W}_{K})^{\top}\sigma_{r}(\boldsymbol{X}_{j}\boldsymbol{W}_{K})\right)=\|\sigma_{r}(\boldsymbol{X}_{i}\boldsymbol{W}_{Q})\left(\boldsymbol{I}-\boldsymbol{S}_{k}\boldsymbol{S}_{k}^{\top}\right)\sigma_{r}^{\top}(\boldsymbol{X}_{j}\boldsymbol{W}_{K})\|_{F}^{2}\geq 0$
+
