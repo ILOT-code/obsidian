@@ -57,5 +57,10 @@ $$
 \end{aligned}
 $$
 > $||AB||_{F}\leq ||A||_{F}||B||_{F}$
+> 利用柯西-施瓦茨不等式可以证明
+
+那么，这个误差和矩阵 $\mathbf{C}_{\sigma}$ 的 Nyström approximation 分解的误差相关的，后者越小，前者误差也会小。因此，通过对 $\mathbf{C}_{\sigma}$ 进行这个分解，就能得到 $\mathbf{S}_{k}$, 也就能得到 $\hat{\mathbf{W}}_{U},\hat{\mathbf{W}}_{D}$, 误差上界也是有保证的。
+
+## key-qu
 
 
