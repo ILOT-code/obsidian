@@ -20,7 +20,7 @@ conference: ICLR 2025
 分为了三组：
 $$
 \begin{aligned}
-f_{\mathrm{Type-l}}(\boldsymbol{X};\boldsymbol{W}_U,\boldsymbol{W}_D)=\sigma_s(\boldsymbol{X}\boldsymbol{W}_U)\boldsymbol{W}_D,\quad \\f_{\mathrm{Type-ll}}(\boldsymbol{X};\boldsymbol{W}_K^i,\boldsymbol{W}_Q^i)=\sigma_r(\boldsymbol{X}\boldsymbol{W}_{Q,i})\sigma_r^\top(\boldsymbol{X}\boldsymbol{W}_{K,i}),\\f_{\mathrm{Type-II}}(\boldsymbol{X};\boldsymbol{W}_V^i,\boldsymbol{W}_O^i)=\boldsymbol{X}\boldsymbol{W}_{V,i}\boldsymbol{W}_{O,i},
+f_{\mathrm{Type-l}}(\boldsymbol{X};\boldsymbol{W}_U,\boldsymbol{W}_D)=\sigma_s(\boldsymbol{X}\boldsymbol{W}_U)\boldsymbol{W}_D,\quad \\f_{\mathrm{Type-ll}}(\boldsymbol{X};\boldsymbol{W}_K^i,\boldsymbol{W}_Q^i)=\sigma_r(\boldsymbol{X}\boldsymbol{W}_{Q,i})\sigma_r^\top(\boldsymbol{X}\boldsymbol{W}_{K,i}),\\f_{\mathrm{Type-III}}(\boldsymbol{X};\boldsymbol{W}_V^i,\boldsymbol{W}_O^i)=\boldsymbol{X}\boldsymbol{W}_{V,i}\boldsymbol{W}_{O,i},
 \end{aligned}
 
 $$
@@ -61,6 +61,10 @@ $$
 
 那么，这个误差和矩阵 $\mathbf{C}_{\sigma}$ 的 Nyström approximation 分解的误差相关的，后者越小，前者误差也会小。因此，通过对 $\mathbf{C}_{\sigma}$ 进行这个分解，就能得到 $\mathbf{S}_{k}$, 也就能得到 $\hat{\mathbf{W}}_{U},\hat{\mathbf{W}}_{D}$, 误差上界也是有保证的。
 
-## key-qu
+## key-query
+$$
+f_{\mathrm{Type-ll}}(\boldsymbol{X};\boldsymbol{W}_K^i,\boldsymbol{W}_Q^i)=\sigma_r(\boldsymbol{X}\boldsymbol{W}_{Q,i})\sigma_r^\top(\boldsymbol{X}\boldsymbol{W}_{K,i}),\
+$$
+$\hat{\mathbf{W}}_{K},\hat{\mathbf{W}}_{Q}$ 分别被限定为 $\mathbf{W}_{K}\mathbf{S}_{k}, \mathbf{W}_{Q}\mathbf{S}_{k}$, 他们使用同一个列选择矩阵。
 
 
