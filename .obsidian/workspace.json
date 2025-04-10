@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/MoDeGPT.md",
+                "file": "LLM/MEDA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MoDeGPT"
+              "title": "MEDA"
             }
           },
           {
@@ -139,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.49999618530273,
-    "collapsed": true
+    "width": 279.49999618530273
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -270,6 +269,8 @@
   },
   "active": "730d6651c8584ea1",
   "lastOpenFiles": [
+    "LLM/MoDeGPT.md",
+    "LLM/MEDA.md",
     "Attachments/Pasted image 20250410185514.png",
     "Attachments/Pasted image 20250410185455.png",
     "Attachments/Pasted image 20250410185424.png",
@@ -280,10 +281,8 @@
     "Attachments/Pasted image 20250410155410.png",
     "Attachments/Pasted image 20250410154813.png",
     "Attachments/Pasted image 20250410153223.png",
-    "Attachments/Pasted image 20250410151800.png",
     "LiteratureNotes/yang2023-lossy.md",
     "He2025-TreeKV.md",
-    "LLM/MoDeGPT.md",
     "efficient large langugae models.md",
     "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
     "qv.md",

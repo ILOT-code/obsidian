@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "MEDA",
+      "path": "LLM/MEDA.md"
+    },
+    {
       "basename": "MoDeGPT",
       "path": "LLM/MoDeGPT.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "lee2023-flexround",
       "path": "LiteratureNotes/lee2023-flexround.md"
-    },
-    {
-      "basename": "li2022-enerv",
-      "path": "LiteratureNotes/li2022-enerv.md"
     }
   ],
   "omittedPaths": [],
