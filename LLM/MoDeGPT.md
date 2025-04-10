@@ -27,5 +27,7 @@ $$
 
 对于每一组而言，需要压缩这两个矩阵，使得对于校准集上的输入能够有最小的差异：
 $$
-
+V^*\triangleq\min_{\hat{\boldsymbol{W}}_1,\hat{\boldsymbol{W}}_2}\sum_{i=1}^N\|f(\boldsymbol{X}_i;\boldsymbol{W}_1,\boldsymbol{W}_2)-f(\boldsymbol{X}_i;\hat{\boldsymbol{W}}_1,\hat{\boldsymbol{W}}_2)\|_F^2\text{ such that }(\hat{\boldsymbol{W}}_1,\hat{\boldsymbol{W}}_2)\in\mathcal{C}
 $$
+$\hat{\boldsymbol{W}}_{1}, \hat{\boldsymbol{W}}_{2}$ 的搜索空间被限定了，来产生满足某种结构要求的矩阵，并降低搜索难度。
+对那些和
