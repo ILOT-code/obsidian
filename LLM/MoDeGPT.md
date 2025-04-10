@@ -76,3 +76,5 @@ $$
 $(b)$ 的原因：$\forall i, j, \operatorname{Tr}\left(\left(\boldsymbol{I}-\boldsymbol{S}_{k}\boldsymbol{S}_{k}^{\top}\right)\sigma_{r}(\boldsymbol{X}_{i}\boldsymbol{W}_{Q})^{\top}\sigma_{r}(\boldsymbol{X}_{i}\boldsymbol{W}_{Q})\left(\boldsymbol{I}-\boldsymbol{S}_{k}\boldsymbol{S}_{k}^{\top}\right)(\boldsymbol{X}_{j}\boldsymbol{W}_{K})^{\top}\sigma_{r}(\boldsymbol{X}_{j}\boldsymbol{W}_{K})\right)=\|\sigma_{r}(\boldsymbol{X}_{i}\boldsymbol{W}_{Q})\left(\boldsymbol{I}-\boldsymbol{S}_{k}\boldsymbol{S}_{k}^{\top}\right)\sigma_{r}^{\top}(\boldsymbol{X}_{j}\boldsymbol{W}_{K})\|_{F}^{2}\geq 0$
 $(c)$ 的原因：
 $\mathbf{S}_{k}\mathbf{S}_{k}^{T}$ 是一个对角阵，对角线上的元素非 0 即 1。$\mathbf{I}-\mathbf{S}_{k}\mathbf{S}_{k}^{T}$ 同样满足这样的性质。而 $\sigma_r(\boldsymbol{X}_i\boldsymbol{W}_Q)^\top\sigma_r(\boldsymbol{X}_i\boldsymbol{W}_Q)\left(\boldsymbol{I}-\boldsymbol{S}_k\boldsymbol{S}_k^\top\right)$ 对角线上的元素全是非负的，因此该不等式成立。
+
+因此，该误差的上界和对矩阵 $\mathbf{W}=\mathbf{C}_{K}^{1/2}\mathbf{C}_{Q}^{1/2}$ 进行 CR 分解的误差有关。因此，可以对该矩阵进行 CR 分解，就能得到 $\mathbf{S}_{K}$ , 
