@@ -86,5 +86,9 @@ $$
 $\hat{\mathbf{W}}_{V},\hat{\mathbf{W}}_{O}$ 被限定在 $\mathbb{R}^{d\times k},\mathbb{R}^{k\times d}$ 的区域。
 
 $$
+\begin{aligned}
 \min_{\hat{\boldsymbol{W}}_V,\hat{\boldsymbol{W}}_O}\sum_{i=1}\mathrm{Tr}\left(\boldsymbol{X}_i^\top\boldsymbol{X}_i(\boldsymbol{W}_V\boldsymbol{W}_O-\hat{\boldsymbol{W}}_V\hat{\boldsymbol{W}}_O)(\boldsymbol{W}_V\boldsymbol{W}_O-\hat{\boldsymbol{W}}_V\hat{\boldsymbol{W}}_O)^\top\right)\\=\min_{\hat{\boldsymbol{W}}_V,\hat{\boldsymbol{W}}_O}\|\boldsymbol{C}^{\frac12}\boldsymbol{W}_V\boldsymbol{W}_O-\boldsymbol{C}^{\frac12}\hat{\boldsymbol{W}}_V\hat{\boldsymbol{W}}_O\|_F^2=\mathcal{E}_{\mathrm{SVD}}^2(\boldsymbol{C}^{\frac12}\boldsymbol{W}_V\boldsymbol{W}_O),
+\end{aligned}
 $$
+其中， $\mathbf{C}=\sum_{i=1}^{N}\mathbf{X}_{i}^{T}\mathbf{X}_{i}$.
+
