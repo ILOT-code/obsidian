@@ -42,3 +42,12 @@ $$
 f_{\mathrm{Type-l}}(\boldsymbol{X};\boldsymbol{W}_U,\boldsymbol{W}_D)=\sigma_s(\boldsymbol{X}\boldsymbol{W}_U)\boldsymbol{W}_D
 $$
 $\hat{\mathbf{W}}_{U}$ 被限定在 $\mathbf{W}_{U}\mathbf{S}_{k}$ 中，$\hat{\mathbf{W}}_{D}$ 的空间是 $\mathbb{R}^{k\times d}$。
+$$
+\begin{aligned}
+
+\begin{aligned}&\min_{\boldsymbol{S}_k,\boldsymbol{W}_D}\sum_{i=1}^N\|f(\boldsymbol{X}_i)-\sigma(\boldsymbol{X}_i\boldsymbol{W}_U\boldsymbol{S}_k)\hat{\boldsymbol{W}}_D\|_F^2\\&{=}\min_{\boldsymbol{S}_k,\boldsymbol{W}_D}\sum_{i=1}^N\|\sigma(\boldsymbol{X}_i\boldsymbol{W}_U)\boldsymbol{W}_D-\sigma(\boldsymbol{X}_i\boldsymbol{W}_U)\boldsymbol{S}_k\hat{\boldsymbol{W}}_D\|_F^2\\&=\min_{\boldsymbol{S}_k,\boldsymbol{W}_D}\text{ Tr}\left(\sum_{i=1}^N\sigma(\boldsymbol{X}_i\boldsymbol{W}_U)^\top\sigma(\boldsymbol{X}_i\boldsymbol{W}_U)\left(\boldsymbol{W}_D-\boldsymbol{S}_k\hat{\boldsymbol{W}}_D\right)\left(\boldsymbol{W}_D-\boldsymbol{S}_k\hat{\boldsymbol{W}}_D\right)^\top\right)\\&=\min_{\boldsymbol{S}_k,\boldsymbol{W}_D}\|\boldsymbol{C}_\sigma^{\frac12}\left(\boldsymbol{W}_D-\boldsymbol{S}_k\hat{\boldsymbol{W}}_D\right)\|_F^2,\end{aligned}
+\end{aligned}
+
+$$
+其中， $\boldsymbol{C}_\sigma=\sum_{i=1}^N\sigma(\boldsymbol{X}_i\boldsymbol{W}_U)^\top\sigma(\boldsymbol{X}_i\boldsymbol{W}_U)$。该函数对 $\hat{\mathbf{W}}_{D}$ 求偏导，使其等于 0, 得到 $\hat{\boldsymbol{W}}_D^*=\left(\boldsymbol{S}_k^\top\boldsymbol{C}_\sigma\boldsymbol{S}_k\right)^\dagger\boldsymbol{S}_k^\top\boldsymbol{C}_\sigma\boldsymbol{W}_D$。此结果反代回上面的式子：
+
