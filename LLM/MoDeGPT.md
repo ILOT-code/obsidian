@@ -30,7 +30,7 @@ $$
 V^*\triangleq\min_{\hat{\boldsymbol{W}}_1,\hat{\boldsymbol{W}}_2}\sum_{i=1}^N\|f(\boldsymbol{X}_i;\boldsymbol{W}_1,\boldsymbol{W}_2)-f(\boldsymbol{X}_i;\hat{\boldsymbol{W}}_1,\hat{\boldsymbol{W}}_2)\|_F^2\text{ such that }(\hat{\boldsymbol{W}}_1,\hat{\boldsymbol{W}}_2)\in\mathcal{C}
 $$
 $\hat{\boldsymbol{W}}_{1}, \hat{\boldsymbol{W}}_{2}$ 的搜索空间被限定了，来产生满足某种结构要求的矩阵，并降低搜索难度。
-对那些和非线性函数紧密联系的矩阵，$\mathbf{W}_{U},\mathbf{W}_{Q},\mathbf{W}_{K}$，他们的压缩矩阵被限定在 $\hat{\mathbf{W}}=\mathbf{W}\mathbf{S}_{k}$，其中 $\mathbf{S}_{k}$ 是一个列选择矩阵。这样做的主要原因是可以构造出一种交换性：$\sigma(WS)=\sigma(W)S$，对之后的理论推导有很多好处。而对其他的矩阵，不做任何限制 (但需要符合矩阵乘的要求)。
+对那些和非线性函数紧密联系的矩阵，$\mathbf{W}_{U},\mathbf{W}_{Q},\mathbf{W}_{K}$，他们的压缩矩阵被限定在 $\hat{\mathbf{W}}=\mathbf{W}\mathbf{S}_{k}$，其中 $\mathbf{S}_{k}$ 是一个列选择矩阵。这样做的主要原因是可以获得一种交换性：$\sigma(WS)=\sigma(W)S$，对之后的理论推导有很多好处。而对其他的矩阵，不做任何限制 (但需要符合矩阵乘的要求)。
 
 有三种有名的矩阵分解技术，他们都关注于把一个矩阵分解成两个矩阵乘的形式，但目标不同。比如说 SVD 的目标是使得范数差最小。
 ![[Pasted image 20250410154813.png]]
@@ -41,3 +41,4 @@ $\hat{\boldsymbol{W}}_{1}, \hat{\boldsymbol{W}}_{2}$ 的搜索空间被限定了
 $$
 f_{\mathrm{Type-l}}(\boldsymbol{X};\boldsymbol{W}_U,\boldsymbol{W}_D)=\sigma_s(\boldsymbol{X}\boldsymbol{W}_U)\boldsymbol{W}_D
 $$
+$\hat{\mathbf{W}}_{U}$ 被限定在 $\mathbf{W}_{U}\mathbf{S}_{k}$ 中，$\hat{\mathbf{W}}_{D}$ 的空间是 $\mathbb{R}^{k\times d}$。
