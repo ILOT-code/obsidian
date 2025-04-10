@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "MoDeGPT",
+      "path": "LLM/MoDeGPT.md"
+    },
+    {
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
+    },
+    {
+      "basename": "He2025-TreeKV",
+      "path": "He2025-TreeKV.md"
+    },
+    {
+      "basename": "efficient large langugae models",
+      "path": "efficient large langugae models.md"
+    },
+    {
+      "basename": "xiaDiffPCDiffusionbasedHigh2024",
+      "path": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md"
+    },
+    {
       "basename": "qv",
       "path": "qv.md"
     },
@@ -15,14 +35,6 @@
     {
       "basename": "Pytorch",
       "path": "Sundry/Pytorch.md"
-    },
-    {
-      "basename": "efficient large langugae models",
-      "path": "efficient large langugae models.md"
-    },
-    {
-      "basename": "He2025-TreeKV",
-      "path": "He2025-TreeKV.md"
     },
     {
       "basename": "marpe2003-contextbased",
@@ -187,18 +199,6 @@
     {
       "basename": "li2022-enerv",
       "path": "LiteratureNotes/li2022-enerv.md"
-    },
-    {
-      "basename": "li2023-neural",
-      "path": "LiteratureNotes/li2023-neural.md"
-    },
-    {
-      "basename": "li2024-neural",
-      "path": "LiteratureNotes/li2024-neural.md"
-    },
-    {
-      "basename": "liang2019-significantly",
-      "path": "LiteratureNotes/liang2019-significantly.md"
     }
   ],
   "omittedPaths": [],

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "efficient large langugae models.md",
+                "file": "LiteratureNotes/yang2023-lossy.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "efficient large langugae models"
+              "title": "yang2023-lossy"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "qv.md",
+                "file": "LLM/MoDeGPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "qv"
+              "title": "MoDeGPT"
             }
           },
           {
@@ -263,17 +263,22 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "730d6651c8584ea1",
   "lastOpenFiles": [
+    "LiteratureNotes/yang2023-lossy.md",
+    "He2025-TreeKV.md",
+    "LLM/MoDeGPT.md",
+    "efficient large langugae models.md",
+    "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
+    "qv.md",
+    "LLM",
     "Xu2025-THINK.md",
     "Sundry/Numpy.md",
     "Sundry/Pytorch.md",
-    "qv.md",
-    "efficient large langugae models.md",
-    "He2025-TreeKV.md",
     "Attachments/Pasted image 20250328112720.png",
     "Attachments/Pasted image 20250328110411.png",
     "LiteratureNotes/marpe2003-contextbased.md",
@@ -301,9 +306,6 @@
     "LiteratureNotes/deng2023-compressing.md",
     "LiteratureNotes/chen2021-nerv.md",
     "LiteratureNotes/ali2023-efficient.md",
-    "LiteratureNotes/alakuijala2019-jpeg.md",
-    "LiteratureNotes/2023-preprocessing.md",
-    "LiteratureNotes/2017-significantly.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "chen2024-howfarcan.pdf",
