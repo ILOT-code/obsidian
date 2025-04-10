@@ -61,6 +61,9 @@ $$
 
 那么，这个误差和矩阵 $\mathbf{C}_{\sigma}$ 的 Nyström approximation 分解的误差相关的，后者越小，前者误差也会小。因此，通过对 $\mathbf{C}_{\sigma}$ 进行这个分解，就能得到 $\mathbf{S}_{k}$, 也就能得到 $\hat{\mathbf{W}}_{U},\hat{\mathbf{W}}_{D}$, 误差上界也是有保证的。
 
+### 算法
+![[Pasted image 20250410185424.png]]
+
 ## key-query
 $$
 f_{\mathrm{Type-ll}}(\boldsymbol{X};\boldsymbol{W}_K^i,\boldsymbol{W}_Q^i)=\sigma_r(\boldsymbol{X}\boldsymbol{W}_{Q,i})\sigma_r^\top(\boldsymbol{X}\boldsymbol{W}_{K,i}),\
@@ -79,6 +82,9 @@ $\mathbf{S}_{k}\mathbf{S}_{k}^{T}$ 是一个对角阵，对角线上的元素非
 
 因此，该误差的上界和对矩阵 $\mathbf{W}=\mathbf{C}_{K}^{1/2}\mathbf{C}_{Q}^{1/2}$ 进行 CR 分解的误差有关。因此，可以对该矩阵进行 CR 分解，就能得到 $\mathbf{S}_{K}$ , 也就能得到 $\hat{\mathbf{W}}_{K},\hat{\mathbf{W}}_{Q}$ 。误差也得到了保证。
 
+### 算法
+![[Pasted image 20250410185455.png]]
+
 ## Value-Output
 $$
 f_{\mathrm{Type-III}}(\boldsymbol{X};\boldsymbol{W}_V^i,\boldsymbol{W}_O^i)=\boldsymbol{X}\boldsymbol{W}_{V,i}\boldsymbol{W}_{O,i}
@@ -92,5 +98,6 @@ $$
 $$
 其中， $\mathbf{C}=\sum_{i=1}^{N}\mathbf{X}_{i}^{T}\mathbf{X}_{i}$.
 误差上界和对矩阵 $\mathbf{C}^{1/2}\mathbf{W}_{V}\mathbf{W}_{O}$ 相关。对其进行 SVD 分解就能得到 $\hat{\mathbf{W}}_{V},\hat{\mathbf{W}}_{O}$ ，误差上界也能得到保证。
-
+###
+![[Pasted image 20250410185514.png]]
 ## Exp
