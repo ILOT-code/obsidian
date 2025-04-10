@@ -92,3 +92,5 @@ $$
 $$
 其中， $\mathbf{C}=\sum_{i=1}^{N}\mathbf{X}_{i}^{T}\mathbf{X}_{i}$.
 误差上界和对矩阵 $\mathbf{C}^{1/2}\mathbf{W}_{V}\mathbf{W}_{O}$ 相关。对其进行 SVD 分解就能得到 $\hat{\mathbf{W}}_{V},\hat{\mathbf{W}}_{O}$ ，误差上界也能得到保证。
+
+## Exp
