@@ -46,3 +46,8 @@ $$
 \mathbf{K}_{c}=[\mathbf{K}[I,:];\mathbf{K}[-M:,:]],&\quad\mathbf{V}_{c}=[\mathbf{V}[I,:];\mathbf{V}[-M:,:]]\\&I=\mathrm{Top}_{N}\left(\mathbf{A}_{s}[:-M]\right)
 \end{aligned}
 $$
+
+**合并**：
+那些被选择的集合记为 $I_{c}$，未被选择的称为：$I_{less}$. $I_{less}$ 不是立马被丢弃的，而是有合并的过程。
+
+首先计算淘汰的 token 与选择的 token 的相似度， 
