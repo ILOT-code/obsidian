@@ -11,3 +11,18 @@ conference: NAACL 2025
 ## 层间 ka-cache size 划分
 如果一个层，他在生成新的 token 时，attention score 是均匀分布的（对过去 $n$ 个 kv-cache 的分数都是 $\frac{1}{n}$），那么这一层就很混乱，需要保留更多的 kv-cache，反之，只需保留少量 kv-cache。因此可以利用 attention score 的熵作为划分的依据。
 
+作者对每一层分别计算 text token 查询 visual token 的 attention，以及 visual token 查询 text token 的 attention.
+$$
+\begin{aligned}
+\mathbf{A}_{\mathrm{TV}}^l=\mathrm{Softmax}\left(\mathbf{Q}_T^l\left(\mathbf{K}_V^l\right)^\top/\sqrt{D}\right),\\\mathbf{A}_{\mathrm{VT}}^l=\mathrm{Softmax}\left(\mathbf{Q}_V^l\left(\mathbf{K}_T^l\right)^\top/\sqrt{D}\right)
+\end{aligned}
+$$
+
+最终，该层的“分配”分数被写为：
+$$
+\begin{align}
+\mathbf{E}_{TV}^l&=\frac1{|T|}\sum_{i=1}^{n_T}\sum_{j=1}^{n_V}\mathbf{A}_{\mathrm{TV}}^l[i,j]\log\mathbf{A}_{\mathrm{TV}}^l[i,j],\\\mathbf{E}_{VT}^l&=\frac1{|V|}\sum_{i=1}^{n_T}\sum_{j=1}^{n_V}\mathbf{A}_{\mathrm{VT}}^l[i,j]\log\mathbf{A}_{\mathrm{VT}}^l[i,j],\\\mathbf{E}_{CM}^l&=-(\mathbf{E}_{TV}^l+\mathbf{E}_{VT}^l),
+\end{align}
+$$
+
+这个值越大，表明这一层越混乱，需要分配更多的 la-cache
