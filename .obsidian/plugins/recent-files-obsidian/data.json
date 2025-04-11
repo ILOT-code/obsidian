@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "MoDeGPT",
-      "path": "LLM/MoDeGPT.md"
-    },
-    {
       "basename": "MEDA",
       "path": "LLM/MEDA.md"
     },
     {
-      "basename": "yang2023-lossy",
-      "path": "LiteratureNotes/yang2023-lossy.md"
-    },
-    {
       "basename": "He2025-TreeKV",
       "path": "He2025-TreeKV.md"
+    },
+    {
+      "basename": "MoDeGPT",
+      "path": "LLM/MoDeGPT.md"
+    },
+    {
+      "basename": "yang2023-lossy",
+      "path": "LiteratureNotes/yang2023-lossy.md"
     },
     {
       "basename": "efficient large langugae models",

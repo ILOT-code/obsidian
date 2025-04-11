@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "MoDeGPT"
             }
+          },
+          {
+            "id": "4fb7e4cb77122f03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLM/MEDA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MEDA"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -125,7 +139,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.49999618530273
+    "width": 279.49999618530273,
+    "collapsed": true
   },
   "right": {
     "id": "4ab0658d09defd2a",
@@ -249,14 +264,16 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "730d6651c8584ea1",
+  "active": "4fb7e4cb77122f03",
   "lastOpenFiles": [
+    "He2025-TreeKV.md",
+    "LLM/MoDeGPT.md",
     "LLM/MEDA.md",
     "Attachments/Pasted image 20250411112839.png",
-    "LLM/MoDeGPT.md",
     "Attachments/Pasted image 20250410185514.png",
     "Attachments/Pasted image 20250410185455.png",
     "Attachments/Pasted image 20250410185424.png",
@@ -267,7 +284,6 @@
     "Attachments/Pasted image 20250410155410.png",
     "Attachments/Pasted image 20250410154813.png",
     "LiteratureNotes/yang2023-lossy.md",
-    "He2025-TreeKV.md",
     "efficient large langugae models.md",
     "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
     "qv.md",
