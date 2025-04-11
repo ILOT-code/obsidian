@@ -30,3 +30,7 @@ $$
 $$
 S_l=\alpha_l\cdot S,\:\alpha_l=\frac{\exp\left(\mathbf{E}_{\mathrm{CM}}^l\right)}{\sum_{k=1}^L\exp\left(\mathbf{E}_{\mathrm{CM}}^k\right)}\cdot L\cdot\rho,
 $$
+## kv cache 的选择与合并
+本文的方法似乎是只对 prompt token 进行的，decoding 阶段生成的 token 没有淘汰策略。
+
+对 prompt 的 attention score 沿着列
