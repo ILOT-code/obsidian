@@ -25,4 +25,8 @@ $$
 \end{align}
 $$
 
-这个值越大，表明这一层越混乱，需要分配更多的 la-cache
+这个值越大，表明这一层越混乱，需要分配更多的 kv-cache。
+最终，第 $l$ 层分配的 kv-cache size 是：
+$$
+S_l=\alpha_l\cdot S,\:\alpha_l=\frac{\exp\left(\mathbf{E}_{\mathrm{CM}}^l\right)}{\sum_{k=1}^L\exp\left(\mathbf{E}_{\mathrm{CM}}^k\right)}\cdot L\cdot\rho,
+$$
