@@ -9,4 +9,5 @@ conference: NAACL 2025
 ![[Pasted image 20250411112839.png]]
 
 ## 层间 ka-cache size 划分
-如果一个层，他在生成新的 token 时，attention score 是均匀分布的（对过去 $n$ 个 kv-cache 的分数都是 $\frac{1}{n}$），那么这一层就很混乱，需要保留更多的
+如果一个层，他在生成新的 token 时，attention score 是均匀分布的（对过去 $n$ 个 kv-cache 的分数都是 $\frac{1}{n}$），那么这一层就很混乱，需要保留更多的 kv-cache，反之，只需保留少量 kv-cache。因此可以利用 attention score 的熵作为划分的依据。
+
