@@ -33,4 +33,16 @@ $$
 ## kv cache 的选择与合并
 本文的方法似乎是只对 prompt token 进行的，decoding 阶段生成的 token 没有淘汰策略。
 
-对 prompt 的 attention score 沿着列
+**对 token 评分**:对 prompt 的 attention score 沿着列进行求和。由于 text token 通常包含更多信息，给他们附加一个常数，以保留更多的 text token.
+$$
+\begin{aligned}
+\mathbf{A}_s=\sum_{i=1}^{L_{\mathrm{prompt}}}\mathbf{A}_p[i,:],\quad\mathbf{A}_p=\mathrm{Attn}\left(\mathbf{Q}_p\mathbf{K}_p^\top\right)\\
+\mathbf{A}_s[T]=\mathbf{A}_s[T]+\max\left(\mathbf{A}_s\right),
+\end{aligned}
+$$
+保留最近的 $M$ 个 token, 对剩余 token 选择最好的 $N$ 个：
+$$
+\begin{aligned}
+\mathbf{K}_{c}=[\mathbf{K}[I,:];\mathbf{K}[-M:,:]],&\quad\mathbf{V}_{c}=[\mathbf{V}[I,:];\mathbf{V}[-M:,:]]\\&I=\mathrm{Top}_{N}\left(\mathbf{A}_{s}[:-M]\right)
+\end{aligned}
+$$
