@@ -8,3 +8,4 @@ conference: NAACL 2025
 在多模态 LLM 的不同层中，attention score 的分布，以及“cross-modal attention entropy”的分布很不一样。
 ![[Pasted image 20250411112839.png]]
 
+## 层间 ka-cache size 划分
