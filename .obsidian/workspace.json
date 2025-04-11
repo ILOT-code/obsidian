@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/MEDA.md",
+                "file": "LLM/MoDeGPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MEDA"
+              "title": "MoDeGPT"
             }
           }
         ],
@@ -249,15 +249,14 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
   "active": "730d6651c8584ea1",
   "lastOpenFiles": [
+    "LLM/MEDA.md",
     "Attachments/Pasted image 20250411112839.png",
     "LLM/MoDeGPT.md",
-    "LLM/MEDA.md",
     "Attachments/Pasted image 20250410185514.png",
     "Attachments/Pasted image 20250410185455.png",
     "Attachments/Pasted image 20250410185424.png",
@@ -267,7 +266,6 @@
     "Attachments/Pasted image 20250410161737.png",
     "Attachments/Pasted image 20250410155410.png",
     "Attachments/Pasted image 20250410154813.png",
-    "Attachments/Pasted image 20250410153223.png",
     "LiteratureNotes/yang2023-lossy.md",
     "He2025-TreeKV.md",
     "efficient large langugae models.md",
