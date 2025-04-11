@@ -50,4 +50,14 @@ $$
 **合并**：
 那些被选择的集合记为 $I_{c}$，未被选择的称为：$I_{less}$. $I_{less}$ 不是立马被丢弃的，而是有合并的过程。
 
-首先计算淘汰的 token 与选择的 token 的相似度， 
+首先计算淘汰的 token 与选择的 token 的相似度，这是通过 key 向量的余弦相似度计算的：
+$$
+\mathbf{u}_{i,j}=\frac{\mathbf{k}_i^\top\mathbf{k}_j}{\left\|\mathbf{k}_i\right\|\left\|\mathbf{k}_j\right\|},\quad i\in I_\mathrm{less~},j\in I_c
+$$
+对于每一个 $i\in I_{less}$，找到那个和他最相似的 $j, j\in I_{c}$。集合 $\mathcal{N}_{j}$ 表示那些选择了 $j$ 的被淘汰 token 的集合，$j$ 的 key ,value被更新为：
+$$
+\begin{aligned}
+\mathbf{k}_j\leftarrow\frac1{|\mathcal{N}_j|+1}\left(\mathbf{k}_j+\sum_{i\in\mathcal{N}_j}\mathbf{k}_i\right)\\
+\mathbf{v}_j\leftarrow\frac1{|\mathcal{N}_j|+1}\left(\mathbf{v}_j+\sum_{i\in\mathcal{N}_j}\mathbf{v}_i\right).
+\end{aligned}
+$$
