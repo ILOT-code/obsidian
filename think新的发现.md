@@ -34,8 +34,12 @@ prun_ratio 60%:
 | method       | avg_score |
 | ------------ | --------- |
 | glocal_align | 39.31     |
-| local_align  |           |
+| local_align  | -1        |
 | think_align  | 39.08     |
 | think_no     | 39.18     |
-| local_no     |           |
-| global_no    |           |
+| local_no     | 39.03     |
+| global_no    | 38.96     |
+local_align 由于显存不够无法计算。
+
+在对齐之后，我们的方法有了提升，大概提升了 0.2～0.3。
+这个幅度其实还凑合，上交华为的那篇 Tree KV 的提升幅度更加有限：
