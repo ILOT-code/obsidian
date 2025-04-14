@@ -20,7 +20,22 @@ $$
 
 prun_ratio 50%：
 
+| method         | avg_score |
+| -------------- | --------- |
+| global_align   | 40.40     |
+| local_align    | 40.50     |
+| think_align    | 40.30     |
+| think_noalign  | 40.30     |
+| local_noalign  | 40.43     |
+| glocal_noalign | 40.36     |
+
+prun_ratio 60%:
 
 | method       | avg_score |
 | ------------ | --------- |
-| global_align |           |
+| glocal_align | 39.31     |
+| local_align  |           |
+| think_align  | 39.08     |
+| think_no     | 39.18     |
+| local_no     |           |
+| global_no    |           |

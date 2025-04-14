@@ -86,6 +86,16 @@
               "icon": "lucide-file",
               "title": "新标签页"
             }
+          },
+          {
+            "id": "4e96ea5012eefb1a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
         "currentTab": 4
