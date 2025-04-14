@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "think新的发现.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "think新的发现"
             }
           }
         ],
@@ -283,7 +283,7 @@
   },
   "active": "0a65c3b35fbcea12",
   "lastOpenFiles": [
-    "未命名.md",
+    "think新的发现.md",
     "LLM/MoDeGPT.md",
     "LLM/MEDA.md",
     "He2025-TreeKV.md",
