@@ -11,7 +11,16 @@ $$
 softmax(concat(q'K_{prun}^{T},qK_{noprun}^{T}))  --1
 $$
 
-在处理 prompt 的过程中，think 这样来选择 $d'$，其中的 $Q,K \in R^{l_{1}\times d}$
+在处理 prompt 的过程中，think 这样来选择 $d'$，下面的的 $Q,K \in R^{l_{1}\times d}$
 ![[Pasted image 20250414164519.png]]
 
-这个优化方程其实是有问题的，从式可以看出来，需要近似的并不是 $QK^{T}$ 矩阵，而应该是 $QK[:,]$
+这个优化方程其实是有问题的，从式 1可以看出来，需要近似的并不是 $QK^{T}$ 矩阵，而应该是 $QK[l_{2}-recent,:]^{T}$.
+
+调整优化方程之后(称为 align)，我们的方法有了进步：
+
+prun_ratio 50%：
+
+
+| method       | avg_score |
+| ------------ | --------- |
+| global_align |           |

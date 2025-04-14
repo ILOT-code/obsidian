@@ -76,6 +76,16 @@
               "icon": "lucide-file",
               "title": "think新的发现"
             }
+          },
+          {
+            "id": "cab724007d78e7ff",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
         "currentTab": 4
@@ -283,8 +293,8 @@
   },
   "active": "0a65c3b35fbcea12",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20250414164519.png",
     "think新的发现.md",
+    "Attachments/Pasted image 20250414164519.png",
     "LLM/MoDeGPT.md",
     "LLM/MEDA.md",
     "He2025-TreeKV.md",
@@ -297,7 +307,6 @@
     "Attachments/Pasted image 20250410161847.png",
     "Attachments/Pasted image 20250410161737.png",
     "Attachments/Pasted image 20250410155410.png",
-    "Attachments/Pasted image 20250410154813.png",
     "LiteratureNotes/yang2023-lossy.md",
     "efficient large langugae models.md",
     "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md",
