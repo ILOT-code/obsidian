@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "MEDA"
             }
+          },
+          {
+            "id": "0a65c3b35fbcea12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -264,14 +278,14 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "730d6651c8584ea1",
+  "active": "0a65c3b35fbcea12",
   "lastOpenFiles": [
-    "LLM/MEDA.md",
+    "未命名.md",
     "LLM/MoDeGPT.md",
+    "LLM/MEDA.md",
     "He2025-TreeKV.md",
     "Attachments/Pasted image 20250411112839.png",
     "Attachments/Pasted image 20250410185514.png",
