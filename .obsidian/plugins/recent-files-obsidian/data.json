@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "qv",
+      "path": "qv.md"
+    },
+    {
       "basename": "MoDeGPT",
       "path": "LLM/MoDeGPT.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "xiaDiffPCDiffusionbasedHigh2024",
       "path": "LiteratureNotes/xiaDiffPCDiffusionbasedHigh2024.md"
-    },
-    {
-      "basename": "qv",
-      "path": "qv.md"
     },
     {
       "basename": "Xu2025-THINK",
