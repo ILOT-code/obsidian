@@ -5,12 +5,12 @@
       "path": "emnlp.md"
     },
     {
-      "basename": "qv",
-      "path": "qv.md"
-    },
-    {
       "basename": "MoDeGPT",
       "path": "LLM/MoDeGPT.md"
+    },
+    {
+      "basename": "qv",
+      "path": "qv.md"
     },
     {
       "basename": "MEDA",
