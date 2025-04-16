@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "emnlp",
+      "path": "emnlp.md"
+    },
+    {
       "basename": "qv",
       "path": "qv.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "lee2023-ffnerv",
       "path": "LiteratureNotes/lee2023-ffnerv.md"
-    },
-    {
-      "basename": "lee2023-flexround",
-      "path": "LiteratureNotes/lee2023-flexround.md"
     }
   ],
   "omittedPaths": [],
