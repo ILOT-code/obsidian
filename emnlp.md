@@ -8,7 +8,7 @@ Scaling Law 定律表明大模型的性能会随着模型和数据规模的提�
 ### Method
 在这一章节中，我们会详细介绍本文的方法。在此之前，先进行记号上的规定。为简单考虑，我们只考虑某一解码层的某一个 Head。 $\mathbf{W}_{q} \in \mathbb{}{R}^{d\times d}, \mathbf{W}_{k} \in \mathbb{R}^{d\times d}, \mathbf{W}_{v} \in \mathbb{R}^{d\times d}$ 分别表示某一解码层中注意力模块的权重矩阵， $X_{p}\in \mathbb{R}^{l_{p}\times d}$ 表示 prompts 对应的 token 矩阵， $l_{p}$ 表示 prompts 的长度；$\mathbf{x}^{t}\in \mathbb{R}^{1\times d}$ 表示第 $t$ 个生成步中得到的 token.
 #### Motivation
-SnapKV 指出， 
+SnapKV 实验证实，在 LLM 中，生成过程中，新的 token 在 prompts
 #### Align
 
 #### GGJC
