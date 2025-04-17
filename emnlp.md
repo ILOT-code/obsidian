@@ -6,7 +6,7 @@ Scaling Law 定律表明大模型的性能会随着模型和数据规模的提�
 尽管这些大模型有着强大的能力，更长的上下文长度也显著增加了推理的负担，这限制了大模型的应用。在推理过程中，每个 transformer 层需要存储的 KV-cachee 随着生成的 token 数量线性增长。
 
 ### Method
-在这一章节中，我们会详细介绍本文的方法。在此之前，先进行记号上的规定。
+在这一章节中，我们会详细介绍本文的方法。在此之前，先进行记号上的规定。$\mathbf{W}_{q} \in \mathbb{}{R}^{d\times d}, \mathbf{W}_{k} \in \mathbb{R}^{d\times d}, \mathbf{W}_{v} \in \mathbb{R}^{d\times d}$ 分别表示注意力模块中的权重矩阵（为方便起见，）
 
 #### Motivation
 
