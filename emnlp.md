@@ -6,7 +6,7 @@ Scaling Law 定律表明大模型的性能会随着模型和数据规模的提�
 尽管这些大模型有着强大的能力，更长的上下文长度也显著增加了推理的负担，这限制了大模型的应用。在推理过程中，每个 transformer 层需要存储的 KV-cachee 随着生成的 token 数量线性增长。
 
 ### Method
-在这一章节中，我们会详细介绍本文的方法。在此之前，先进行记号上的规定。为简单考虑，我们只考虑某一解码层的某一个 Head。 $\mathbf{W}_{q} \in \mathbb{}{R}^{d\times d}, \mathbf{W}_{k} \in \mathbb{R}^{d\times d}, \mathbf{W}_{v} \in \mathbb{R}^{d\times d}$ 分别表示某一解码层中注意力模块的权重矩阵， $X_{p}\in \mathbb{R}^{L_{p}\times d}$ 表示 prompts 对应的 token 矩阵， $L_{p}$ 表示 prompts 的总长度。 $\mathbf{X}_p^{obs}=\mathbf{X}_{p}[-L_{obs}:,:] \in \mathbb{R}^{L_{obs} \times d}$ 观察窗口， $L_{obs}$ 表示观察窗口的长度，$L_{prefix}=L_{p}-L_{obs}$ 是前缀的长度；$\mathbf{x}^{t}\in \mathbb{R}^{1\times d}$ 表示第 $t$ 个生成步中得到的 token。$\mathbf{K}_{p} = \mathbf{X}_{p}\mathbf{W}_{k}\in \mathbb{R}^{L_{p}\times d}$ 表示 prompt 得到的 key 的缓存, $\mathbf{Q}_{p}=\mathbf{X}_{p}\mathbf{W}_{q}\in \mathbb{R}^{L_{p}\times d}$ 表示 prompt 得到的 query 矩阵。$\mathbf{Q}_{p}^{obs},\mathbf{}$
+在这一章节中，我们会详细介绍本文的方法。在此之前，先进行记号上的规定。为简单考虑，我们只考虑某一解码层的某一个 Head。 $\mathbf{W}_{q} \in \mathbb{}{R}^{d\times d}, \mathbf{W}_{k} \in \mathbb{R}^{d\times d}, \mathbf{W}_{v} \in \mathbb{R}^{d\times d}$ 分别表示某一解码层中注意力模块的权重矩阵， $X_{p}\in \mathbb{R}^{L_{p}\times d}$ 表示 prompts 对应的 token 矩阵， $L_{p}$ 表示 prompts 的总长度。 $\mathbf{X}_p^{obs}=\mathbf{X}_{p}[-L_{obs}:,:] \in \mathbb{R}^{L_{obs} \times d}$ 观察窗口， $L_{obs}$ 表示观察窗口的长度，$L_{prefix}=L_{p}-L_{obs}$ 是前缀的长度；$\mathbf{x}^{t}\in \mathbb{R}^{1\times d}$ 表示第 $t$ 个生成步中得到的 token。$\mathbf{K}_{p} = \mathbf{X}_{p}\mathbf{W}_{k}\in \mathbb{R}^{L_{p}\times d}$ 表示 prompt 得到的 key 的缓存, $\mathbf{Q}_{p}=\mathbf{X}_{p}\mathbf{W}_{q}\in \mathbb{R}^{L_{p}\times d}$ 表示 prompt 得到的 query 矩阵。$\mathbf{Q}_{p}^{obs}=\mathbf{Q}_{p}[-L_{obs}:,:],\mathbf{K}_{p}^{obs}=\mathbf{K}_{p}[-L_{obs}:,:]$ 表示观察窗口对应的 query 和 key 矩阵。
 #### Motivation
 先前研究发现，Key cache 中，只有部分的通道有着很大的值，而其它通道的值则偏小，这意味着这些 significant 通道相较于其它通道有着更重要的影响，暗示着可以通过对 key cache 进行通道剪枝的来节省显存空间。在某个 generation step 中，$\mathbf{Q}, \mathbf{K}\in \mathbb{R}^{L\times d}$ 分别是该 attention module 中的 query 和 key 矩阵，注意力分数计算方式为：$softmax(\frac{\mathbf{Q}\mathbf{K}^{T}}{\sqrt{ d }})$。
 基于此，Thinkh 通过求解这个最优化问题来找到需要被删除的通道。
@@ -24,9 +24,13 @@ SnapKV 实验证实，在 LLM 中，生成过程中，新的 token 在 prompts �
 因此， Think 将优化问题改为：
 $$
 \begin{aligned}
-\min_{\mathbf{S}}&\left\|\mathbf{Q}_{p}[]\mathbf{K}^{T}-\mathbf{Q}\mathbf{S}\mathbf{K}^T\right\|_F\\\text{subject to}&\operatorname{trace}(\mathbf{S})=\lfloor(1-\lambda)d\rfloor\\&\mathbf{S}=\operatorname{diag}(s_1,s_2,\ldots,s_D),\text{ where }s_j\in\{0,1\}
+\min_{\mathbf{S}}&\left\|\mathbf{Q}_{p}^{obs}\mathbf{K}_{p}^{T}-\mathbf{Q}_{p}^{obs}\mathbf{S}\mathbf{K}_{p}^T\right\|_F\\\text{subject to}&\operatorname{trace}(\mathbf{S})=\lfloor(1-\lambda)d\rfloor\\&\mathbf{S}=\operatorname{diag}(s_1,s_2,\ldots,s_D),\text{ where }s_j\in\{0,1\}
 \end{aligned}
 $$
+这样在 prompt 上就能得到 $\mathbf{S}$，同时观察窗口的引入也降低了计算量。
+
+
+
 #### Align
 
 #### GGJC
