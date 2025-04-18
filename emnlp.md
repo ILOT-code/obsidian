@@ -53,7 +53,7 @@ $$
 $$
 这里的第一项描述了通道之间的相互作用产生的影响，第二项描述了单个通道自身对误差的影响（也就是 Think 中只考虑的 score 的计算方式）。
 
-这个优化问题可以看成这样的问题：一张有 $d$ 个顶点的完全图 $\mathcal{G}=(V,E),|V|=d$，任意节点都有自身的权重 $w^{v}_{i}=\|\mathbf{q}_{i}\mathbf{k}_{i}^{T}\|_{F}^{2} ,\forall i\in V$，任意一条边也有权重 $w^{e}_{(i,j)}=\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j},\forall(i,j)\in E$。
+这个优化问题可以看成这样的问题：一张有 $d$ 个顶点的完全无向图 $\mathcal{G}=(V,E),|V|=d$，任意节点都有自身的权重 $w^{v}_{i}=\|\mathbf{q}_{i}\mathbf{k}_{i}^{T}\|_{F}^{2} ,\forall i\in V$，任意一条边也有权重 $w^{e}_{(i,j)}=2 \times\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j},\forall(i,j)\in E$。
 如何从 $\mathcal{G}$ 中选择具有 $\lambda d$ 个节点的子图 $\mathcal{G}'$，使得 $\mathcal{G}'$ 的权重和最小。最终，$\mathcal{G'}$ 中的节点对应着需要删除的通道。
 
 我们为该问题设计了考虑边权的贪心算法（算法 1）。该算法用点自身的权值来初始化所有通道的分数 $\mathbf{Score}$。在每次选择过程中，都会选择分数最小的点 $j$ 加入丢弃集合 $\mathbf{Drop}$，并使用该点与剩余点的边权来更新 $\mathbf{Score}$。
