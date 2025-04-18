@@ -39,7 +39,7 @@ ThinkKV 给出的贪心算法只单独考虑了各个通道的分数，实际上
 $$
 \begin{aligned}
 
-\|\mathbf{QK}^{T}-\mathbf{QSK}^{T}\|_{F}^{2}= 
+\left\|\mathbf{Q}_{p}^{obs}\mathbf{K}_{p}^{T}-\mathbf{Q}_{p}^{obs}\mathbf{S}\mathbf{K}_{p}^T\right\|_F^{2}= 
 =\sum_{i\in B} \sum_{j\in B} \mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j}
 
 \end{aligned}
