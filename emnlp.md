@@ -34,3 +34,13 @@ $$
 先前的研究表明，最近的一些 token 对结果生成有着重要影响，因此很多方法(SnapKV, Think)都完整保留了最近的一些 token, 而不对它们进行通道或数量上的削减。因此优化方程的优化目标应当由 $\mathbf{Q}_{p}^{obs}\mathbf{K}_{p}^{T}$ 改为 $\mathbf{Q}_{p}^{obs}K_{p}[:L_{p}-recent\_size,:]^{T}$。这一项调整被我们称为对齐。
 #### GGJC
 ThinkKV 给出的贪心算法只单独考虑了各个通道的分数，实际上对于这个优化问题，每个通道的选择对误差的影响也其它的通道相关，发掘这种相关性能设计出更好的优化算法解决该问题。
+
+用 $A=\{i|s_{i}=1\}, B=\{i|s_{i}=0\}$, $A \cap B = \varnothing$，分别表示被保留通道和舍弃通道的下标集合，用 $\mathbf{q}_{i},\mathbf{k}_{i}$ 表示 $\mathbf{Q}_{p}^{obs}, \mathbf{K}_{p}$ 的第 $i$ 列。那么可以得到(详细的推导见附录)：
+$$
+\begin{aligned}
+
+\|\mathbf{QK}^{T}-\mathbf{QSK}^{T}\|_{F}^{2}= 
+=\sum_{i\in B} \sum_{j\in B} \mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j}
+
+\end{aligned}
+$$
