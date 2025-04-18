@@ -51,4 +51,6 @@ $$
 &= \sum_{j\in B-i}\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j} + \|\mathbf{q}_{i}\mathbf{k}_{i}^{T}\|_{F}^{2}
 \end{aligned}
 $$
-这里的第二项描述了单个通道自身对误差的
+这里的第一项描述了通道之间的相互作用产生的影响，第二项描述了单个通道自身对误差的影响（也就是 Think 中只考虑的 score 的计算方式）。
+
+这个优化问题可以看成这样的问题：
