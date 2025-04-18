@@ -29,7 +29,7 @@ $$
 $$
 这样在 prompt 上就能得到 $\mathbf{S}$，同时观察窗口的引入也降低了计算量。
 
-
+为解决这个优化问题，Think 为每个通道进行评分，通道 $j$ 的评分为 $score[j]=\| \mathbf{Q}_{p}^{obs}[:,j]\mathbf{K}_{p}\|_{F}$
 
 #### Align
 
