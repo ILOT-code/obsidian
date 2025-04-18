@@ -58,6 +58,3 @@ $$
 
 我们为该问题设计了考虑边权的贪心算法。
 
-
-
-\begin{algorithm}[H]\caption{Compression by TreeKV}\label{alg:tree_kv}\begin{algorithmic}[1]\REQUIRE Inputs $x^{(1)}, \cdots, x^{(T)} \in \mathbb{R}^{1 \times d}$, Cache size $c$.\STATE Initiate $\mathbf{S}$, $\mathbf{C}$, $\mathbf{K}^{(0)}$, $\mathbf{V}^{(0)}$ as empty tensors, idx = 1.\FOR{$i$ from 1 to $T$} \STATE $\mathbf{q}^{(i)} = \mathbf{x}^{(i)} \mathbf{W}_Q$, $\mathbf{k}^{(i)} = \mathbf{x}^{(i)} \mathbf{W}_K$, $\mathbf{v}^{(i)} = \mathbf{x}^{(i)} \mathbf{W}_V$. \STATE $\mathbf{K}^{(i)} = \mathbf{K}^{(i-1)} \cup \{\mathbf{k}^{(i)}\}$. \STATE $\mathbf{V}^{(i)} = \mathbf{V}^{(i-1)} \cup \{\mathbf{v}^{(i)}\}$. \STATE $\mathbf{a}^{(i)} = \text{SoftMax}\left( \frac{\mathbf{q}^{(i)} {\mathbf{K}^{(i)}}^\top}{\sqrt{d}} \right)$. \STATE $\mathbf{C} = (\mathbf{C} \cup \{0\}) + 1$. \STATE $\mathbf{S} = (\mathbf{S} \cup \{0\}) + \mathbf{a}^{(i)}$. \IF{$\text{length}(\mathbf{K}^{(i)}) > c$} \STATE $\overline{\mathbf{S}} = \mathbf{S} / \mathbf{C}$. \COMMENT{Important Scores} \IF{$\overline{\mathbf{S}}_{\text{idx}} > \overline{\mathbf{S}}_{\text{idx} + 1}$} \STATE Evict $(\text{idx} + 1)$-th elements in $\mathbf{K}^{(i)}$, $\mathbf{V}^{(i)}$, $\mathbf{C}$, $\mathbf{S}$. \ELSE \STATE Evict $\text{idx}$-th elements instead. \ENDIF \STATE idx = $(\text{idx} + 1) \mod c + 1$. \ENDIF\ENDFOR\end{algorithmic}\end{algorithm}
