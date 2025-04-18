@@ -17,7 +17,7 @@ $$
 $$
 其中 $\lambda$ 是通道削减的比率，$\mathbf{S}$ 是对角矩阵，对角线上为 1 的元素对应着需要保留的通道。
 
-为了实际上真正减少显存的利用，每个 generation step 对应的 $\mathbf{S}$ 应当相同，否则我们仍需要保存全通道的 Key cache 以供后续的步骤使用。这意味着在较早的阶段我们就应该计算出 $\mathbf{S}$。
+为了实际上真正减少显存的利用，每个 generation step 对应的 $\mathbf{S}$ 应当相同，否则我们仍需要保存全通道的 Key cache 以供后续的步骤使用，并且这种结构化剪枝才能在硬件上实现计算加速。这意味着在较早的阶段我们就应该计算出 $\mathbf{S}$。
 
 SnapKV 实验证实，在 LLM 中，生成过程中，新的 token 在 prompts 上的注意力模式是一致的，且与观察窗口中对应的模式非常相似，这意味着 $Softmax(x^{t}\mathbf{W}_{q} \mathbf{K}_{p}^{T}[: L_{prefix},:]) \approx Sum(Softmx(\mathbf{X}_{p}^{obs}\mathbf{W}_{q}\mathbf{K}_{p}^{T}[: L_{prefix},:]))$。
 
