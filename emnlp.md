@@ -31,8 +31,6 @@ $$
 
 为解决这个优化问题，Think 为每个通道进行评分，通道 $j$ 的评分为 $score[j]=\| \mathbf{Q}_{p}^{obs}[:,j]\mathbf{K}_{p}^{obs}[:,j]^{T}\|_{F}$，并保留分数最高的那些通道。
 #### Align
-先前的研究表明，最近的一些 token 对结果生成有着重要影响，因此很多方法(SnapKV, Think)都完整保留了最近的一些 token, 而不对它们进行通道或数量上的削减。因此优化方程的优化目标应当由 $\mathbf{Q}_{p}^{obs}\mathbf{K}_{p}^{T}$ 改为 $\mathbf{Q}_{p}^{obs}K_{p}[]$
-
-
+先前的研究表明，最近的一些 token 对结果生成有着重要影响，因此很多方法(SnapKV, Think)都完整保留了最近的一些 token, 而不对它们进行通道或数量上的削减。因此优化方程的优化目标应当由 $\mathbf{Q}_{p}^{obs}\mathbf{K}_{p}^{T}$ 改为 $\mathbf{Q}_{p}^{obs}K_{p}[:L_{p}-recent\_size,:]^{T}$。这一项调整被我们称为对齐。
 #### GGJC
 
