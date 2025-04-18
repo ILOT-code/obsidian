@@ -5,12 +5,16 @@
       "path": "emnlp.md"
     },
     {
-      "basename": "MoDeGPT",
-      "path": "LLM/MoDeGPT.md"
+      "basename": "think",
+      "path": "think.md"
     },
     {
       "basename": "qv",
       "path": "qv.md"
+    },
+    {
+      "basename": "MoDeGPT",
+      "path": "LLM/MoDeGPT.md"
     },
     {
       "basename": "MEDA",
@@ -195,10 +199,6 @@
     {
       "basename": "LearningTransferableVisual2021",
       "path": "LiteratureNotes/LearningTransferableVisual2021.md"
-    },
-    {
-      "basename": "lee2023-ffnerv",
-      "path": "LiteratureNotes/lee2023-ffnerv.md"
     }
   ],
   "omittedPaths": [],

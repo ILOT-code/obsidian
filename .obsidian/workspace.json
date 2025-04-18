@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "qv.md",
+                "file": "think.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "qv"
+              "title": "think"
             }
           },
           {
@@ -291,15 +291,16 @@
       "cmdr:ZotLit: Refresh Zotero data": false,
       "cmdr:ZotLit: Open quick switcher for literature notes": false,
       "cmdr:ZotLit: Update literature note": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "hidden-folder-obsidian:显示文件夹": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "d09e24182b9060e3",
   "lastOpenFiles": [
-    "LLM/MoDeGPT.md",
-    "emnlp.md",
-    "qv.md",
     "think.md",
+    "qv.md",
+    "emnlp.md",
+    "LLM/MoDeGPT.md",
     "Attachments/Pasted image 20250414170405.png",
     "Attachments/Pasted image 20250414164519.png",
     "LLM/MEDA.md",
