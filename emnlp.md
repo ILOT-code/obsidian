@@ -8,7 +8,7 @@ Scaling Law 定律表明大模型的性能会随着模型和数据规模的提�
 ### Method
 在这一章节中，我们会详细介绍本文的方法。在此之前，先进行记号上的规定。为简单考虑，我们只考虑某一解码层的某一个 Head。 $\mathbf{W}_{q} \in \mathbb{}{R}^{d\times d}, \mathbf{W}_{k} \in \mathbb{R}^{d\times d}, \mathbf{W}_{v} \in \mathbb{R}^{d\times d}$ 分别表示某一解码层中注意力模块的权重矩阵， $X_{p}\in \mathbb{R}^{L_{p}\times d}$ 表示 prompts 对应的 token 矩阵， $L_{p}$ 表示 prompts 的总长度。 $\mathbf{X}_p^{obs}=\mathbf{X}_{p}[-L_{obs}:,:] \in \mathbb{R}^{L_{obs} \times d}$ 观察窗口， $L_{obs}$ 表示观察窗口的长度，$L_{prefix}=L_{p}-L_{obs}$ 是前缀的长度；$\mathbf{x}^{t}\in \mathbb{R}^{1\times d}$ 表示第 $t$ 个生成步中得到的 token。$\mathbf{K}_{p} = \mathbf{X}_{p}\mathbf{W}_{k}\in \mathbb{R}^{L_{p}\times d}$ 表示 prompt 得到的 key 的缓存, $\mathbf{Q}_{p}=\mathbf{X}_{p}\mathbf{W}_{q}\in \mathbb{R}^{L_{p}\times d}$ 表示 prompt 得到的 query 矩阵。
 #### Motivation
-KV-cache 中的 Key cache 中，只有部分的通道有着很大的值，而其它通道的值则偏小，这意味着这些 significant 通道相较于其它通道有着更重要的影响，而 V caache 则没有这种性质。基于此，Thinkh 通过求解这个最优化问题来找到需要被删除的通道。
+先前研究 n 发下，Key cache 中，只有部分的通道有着很大的值，而其它通道的值则偏小，这意味着这些 significant 通道相较于其它通道有着更重要的影响，暗示着可以通过对 key cache 进行通道剪枝的来节省显存空间。基于此，Thinkh 通过求解这个最优化问题来找到需要被删除的通道。
 $$
 \begin{aligned}
 \min_{\mathbf{S}}&\left\|\mathbf{Q}\mathbf{K}^{T}-\mathbf{Q}\mathbf{S}\mathbf{K}^T\right\|_F\\\text{subject to}&\operatorname{trace}(\mathbf{S})=\lfloor(1-\lambda)d\rfloor\\&\mathbf{S}=\operatorname{diag}(s_1,s_2,\ldots,s_D),\text{ where }s_j\in\{0,1\}
