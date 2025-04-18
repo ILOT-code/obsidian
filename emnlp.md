@@ -51,3 +51,4 @@ $$
 &= \sum_{j\in B-i}\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j} + \|\mathbf{q}_{i}\mathbf{k}_{i}^{T}\|_{F}^{2}
 \end{aligned}
 $$
+这里的第二项描述了单个通道自身对误差的
