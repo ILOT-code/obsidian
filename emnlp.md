@@ -14,7 +14,7 @@ $$
 \min_{\mathbf{S}}&\left\|\mathbf{Q}\mathbf{K}^{T}-\mathbf{Q}\mathbf{S}\mathbf{K}^T\right\|_F\\\text{subject to}&\operatorname{trace}(\mathbf{S})=\lfloor(1-\lambda)d\rfloor\\&\mathbf{S}=\operatorname{diag}(s_1,s_2,\ldots,s_D),\text{ where }s_j\in\{0,1\}
 \end{aligned}
 $$
-其中 $\lambda$ 是通道削减的
+其中 $\lambda$ 是通道削减的比率。
 
 SnapKV 实验证实，在 LLM 中，生成过程中，新的 token 在 prompts 上的注意力模式是一致的，且与观察窗口中对应的模式非常相似，这意味着 $Softmax(x^{t}\mathbf{W}_{q} \mathbf{K}_{p}^{T}[: L_{prefix},:]) \approx Sum(Softmx(\mathbf{X}_{p}^{obs}\mathbf{W}_{q}\mathbf{K}_{p}^{T}[: L_{prefix},:]))$。
 #### Align
