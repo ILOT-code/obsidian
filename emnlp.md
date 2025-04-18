@@ -53,6 +53,7 @@ $$
 $$
 这里的第一项描述了通道之间的相互作用产生的影响，第二项描述了单个通道自身对误差的影响（也就是 Think 中只考虑的 score 的计算方式）。
 
-这个优化问题可以看成这样的问题：完全图 $\mathcal{G}=(V,E),|V|=d,w^{v}_{i}=\|\mathbf{q}_{i}\mathbf{k}_{i}^{T}\|_{F}^{2} \f$，节点 $i$ 自身的权重为 $\|\mathbf{q}_{i}\mathbf{k}_{i}^{T}\|_{F}^{2}$，节点 $i,j$ 之间边的权重是 $\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j}$；如何从 $\mathcal{G}$ 中选择具有 $\lambda d$ 个节点的子图 $\mathcal{G}'$，使得 $\mathcal{G}'$ 的权重和最小。最终，$\mathcal{G'}$ 中的节点对应着需要删除的通道。
+这个优化问题可以看成这样的问题：一张有 $d$ 个顶点的完全图 $\mathcal{G}=(V,E),|V|=d$，任意节点都有自身的权重 $w^{v}_{i}=\|\mathbf{q}_{i}\mathbf{k}_{i}^{T}\|_{F}^{2} ,\forall i\in V$，任意一条边也有权重 $w^{e}_{(i,j)}=\mathbf{k}_{i}^{T} \mathbf{k}_{j} \times \mathbf{q}_{i}^{T}\mathbf{q}_{j},\forall(i,j)\in E$。
+如何从 $\mathcal{G}$ 中选择具有 $\lambda d$ 个节点的子图 $\mathcal{G}'$，使得 $\mathcal{G}'$ 的权重和最小。最终，$\mathcal{G'}$ 中的节点对应着需要删除的通道。
 
 我们为该问题设计了考虑边权的贪心算法。
